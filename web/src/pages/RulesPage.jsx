@@ -1,7 +1,9 @@
+import { useMemo } from 'react'
 import Markdown from 'react-markdown'
 import { useRules } from '../hooks/useRules.js'
 import {
   createHeadingComponent,
+  extractRulesHeadings,
   preprocessRulesMarkdown,
 } from '../utils/rulesMarkdown.jsx'
 
@@ -14,12 +16,26 @@ const markdownComponents = {
   h6: createHeadingComponent('h6'),
 }
 
+function scrollToRulesHeading(event, id) {
+  event.preventDefault()
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  window.history.replaceState(null, '', `#${id}`)
+}
+
 export default function RulesPage() {
   const { markdown, loading, error } = useRules()
+  const processedMarkdown = useMemo(
+    () => (markdown ? preprocessRulesMarkdown(markdown) : ''),
+    [markdown],
+  )
+  const headings = useMemo(
+    () => extractRulesHeadings(processedMarkdown),
+    [processedMarkdown],
+  )
 
   return (
-    <main className="rules-page">
-      <header className="app-header rules-header">
+    <>
+      <header className="app-header">
         <div>
           <p className="eyebrow">Reference</p>
           <h1>Rules of the Game</h1>
@@ -31,12 +47,38 @@ export default function RulesPage() {
       ) : error ? (
         <p className="error-banner rules-message">{error}</p>
       ) : (
-        <article className="rules-content">
-          <Markdown components={markdownComponents}>
-            {preprocessRulesMarkdown(markdown)}
-          </Markdown>
-        </article>
+        <div className="rules-body">
+          <aside className="rules-nav-panel">
+            <h2>Contents</h2>
+            <nav aria-label="Rules sections">
+              <ul className="rules-nav-list">
+                {headings.map((heading) => (
+                  <li
+                    key={heading.id}
+                    className={`rules-nav-item rules-nav-level-${heading.level}`}
+                  >
+                    <a
+                      href={`#${heading.id}`}
+                      className="rules-nav-link"
+                      onClick={(event) => scrollToRulesHeading(event, heading.id)}
+                    >
+                      {heading.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </aside>
+
+          <div className="rules-content-scroll">
+            <article className="rules-content">
+              <Markdown components={markdownComponents}>
+                {processedMarkdown}
+              </Markdown>
+            </article>
+          </div>
+        </div>
       )}
-    </main>
+    </>
   )
 }

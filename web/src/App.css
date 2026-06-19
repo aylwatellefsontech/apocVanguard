@@ -1,7 +1,9 @@
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 100svh;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
   text-align: left;
 }
 
@@ -1162,21 +1164,82 @@
   }
 }
 
-.rules-page {
+.rules-body {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
   flex: 1;
   min-height: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 
-.rules-header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background: var(--bg);
+.rules-nav-panel {
+  min-height: 0;
+  min-width: 0;
+  overflow: auto;
+  padding: 20px 16px 32px;
+  border-right: 1px solid var(--border);
+}
+
+.rules-nav-panel h2 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.rules-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rules-nav-link {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: var(--text-h);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.rules-nav-link:hover {
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.rules-nav-level-1 .rules-nav-link {
+  font-weight: 600;
+}
+
+.rules-nav-level-2 .rules-nav-link {
+  padding-left: 16px;
+}
+
+.rules-nav-level-3 .rules-nav-link {
+  padding-left: 28px;
+  font-size: 13px;
+}
+
+.rules-nav-level-4 .rules-nav-link,
+.rules-nav-level-5 .rules-nav-link,
+.rules-nav-level-6 .rules-nav-link {
+  padding-left: 40px;
+  font-size: 13px;
 }
 
 .rules-message {
   padding: 24px 32px;
+}
+
+.rules-content-scroll {
+  min-height: 0;
+  min-width: 0;
+  overflow: auto;
 }
 
 .rules-content {
@@ -1193,7 +1256,7 @@
 .rules-content h2,
 .rules-content h3,
 .rules-content h4 {
-  scroll-margin-top: 96px;
+  scroll-margin-top: 24px;
 }
 
 .rules-content h1 {
@@ -1348,4 +1411,17 @@
 .hand-card-item:last-child {
   padding-bottom: 0;
   border-bottom: none;
+}
+
+@media (max-width: 900px) {
+  .rules-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .rules-nav-panel {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    max-height: 40vh;
+  }
 }
