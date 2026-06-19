@@ -112,6 +112,9 @@
         "Character",
         "Imagifier"
       ],
+      "options": [
+        "per Unit: Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it."
+      ],
       "weapons": [
         {
           "name": "Close Combat Weapons",
@@ -222,6 +225,7 @@
         "N": "5",
         "Pt": "3"
       },
+      "abilities": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -256,7 +260,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
+        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
       ],
       "weapons": [
         {
@@ -318,7 +322,7 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Infiltrators",
+      "abilities": "Infiltrators\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.\nIf this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -342,8 +346,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.",
-        "If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns."
+        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter."
       ],
       "weapons": [
         {
@@ -406,7 +409,7 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nSworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6\" of any friendly <Order> Canoness units.",
+      "abilities": "Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nSworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6\" of any friendly <Order> Canoness units.\nThis unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -430,7 +433,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
+        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
       ],
       "weapons": [
         {
@@ -492,6 +495,7 @@
         "N": "5",
         "Pt": "3"
       },
+      "abilities": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.\nIf this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -515,8 +519,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.",
-        "If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns."
+        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta."
       ],
       "weapons": [
         {
@@ -1170,6 +1173,7 @@
         "N": "1",
         "Pt": "7"
       },
+      "abilities": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1180,7 +1184,7 @@
         "Exorcist"
       ],
       "options": [
-        "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        "per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
       ],
       "weapons": [
         {
@@ -1224,7 +1228,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
+      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.\nInstead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1236,7 +1240,7 @@
         "Immolator"
       ],
       "options": [
-        "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        "per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
       ],
       "weapons": [
         {
@@ -1289,7 +1293,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Ignore Damage (6+)",
+      "abilities": "Ignore Damage (6+)\nFor each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1334,7 +1338,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
       ],
       "weapons": [
         {
@@ -1379,7 +1383,7 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
+      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.\nFor each model this unit contains, it must also be equipped with 2 Heavy Flamers.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1423,7 +1427,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        "per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
       ],
       "weapons": [
         {
@@ -1460,6 +1464,7 @@
         "N": "1",
         "Pt": "7"
       },
+      "abilities": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1470,7 +1475,7 @@
         "Exorcist"
       ],
       "options": [
-        "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        "per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
       ],
       "weapons": [
         {
@@ -1514,7 +1519,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Ignore Damage (6+)",
+      "abilities": "Ignore Damage (6+)\nFor each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1559,7 +1564,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
       ],
       "weapons": [
         {
@@ -1612,6 +1617,9 @@
         "Light",
         "Infantry",
         "Triumph of Saint Katherine"
+      ],
+      "options": [
+        "per Unit: • Once per turn, instead of making a hit roll, wound roll or saving throw for an Adepta Sororitas unit within 6\" of this unit, you can use this ability."
       ],
       "weapons": [
         {
@@ -1798,7 +1806,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
+      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.\nInstead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1810,7 +1818,7 @@
         "Immolator"
       ],
       "options": [
-        "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        "per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
       ],
       "weapons": [
         {
@@ -1863,7 +1871,7 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
+      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.\nFor each model this unit contains, it must also be equipped with 2 Heavy Flamers.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1907,7 +1915,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        "per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
       ],
       "weapons": [
         {

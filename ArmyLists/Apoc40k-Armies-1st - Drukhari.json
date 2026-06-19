@@ -161,6 +161,7 @@
         "N": "3",
         "Pt": "4"
       },
+      "abilities": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -206,7 +207,7 @@
         }
       ],
       "options": [
-        "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance."
+        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance."
       ],
       "weapons": [
         {
@@ -259,6 +260,7 @@
         "N": "5",
         "Pt": "2"
       },
+      "abilities": "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -303,7 +305,7 @@
         }
       ],
       "options": [
-        "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon."
+        "per weapon (Power Rating +1 per weapon): For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon."
       ],
       "weapons": [
         {
@@ -538,6 +540,7 @@
         "N": "3",
         "Pt": "5"
       },
+      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -582,7 +585,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
+        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
       ],
       "weapons": [
         {
@@ -755,7 +758,7 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.\nIf this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -778,8 +781,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
-        "If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines."
+        "per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
       ],
       "weapons": [
         {
@@ -1210,6 +1212,9 @@
         "Skyboard",
         "Beastmaster"
       ],
+      "options": [
+        "per Unit: Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+      ],
       "weapons": [
         {
           "name": "Agoniser",
@@ -1236,7 +1241,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.\nInstead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1247,8 +1252,9 @@
         "Talos"
       ],
       "options": [
-        "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
-        "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
+        "per Unit: Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
+        "per Unit: Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
       ],
       "weapons": [
         {
@@ -1318,7 +1324,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.",
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.\nThis unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1329,7 +1335,8 @@
         "Cronos"
       ],
       "options": [
-        "This unit can also be equipped with 1 Spirit Vortex (Power Rating +1)."
+        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
+        "per Unit (Power Rating +1): This unit can also be equipped with 1 Spirit Vortex (Power Rating +1)."
       ],
       "weapons": [
         {
@@ -1374,7 +1381,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.\nInstead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.\nInstead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1385,9 +1392,9 @@
         "Ravager"
       ],
       "options": [
-        "Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.",
-        "Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.",
-        "Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
+        "per Unit: Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.",
+        "per Unit: Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.",
+        "per Unit: Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
       ],
       "weapons": [
         {
@@ -1511,7 +1518,7 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.\nIf this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1534,8 +1541,7 @@
         }
       ],
       "options": [
-        "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
-        "If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines."
+        "per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
       ],
       "weapons": [
         {
@@ -1620,7 +1626,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.\nInstead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1631,8 +1637,9 @@
         "Talos"
       ],
       "options": [
-        "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
-        "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
+        "per Unit: Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
+        "per Unit: Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
       ],
       "weapons": [
         {
@@ -1785,7 +1792,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nInstead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1797,7 +1804,7 @@
         "Raider"
       ],
       "options": [
-        "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+        "per Unit: Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
       ],
       "weapons": [
         {
@@ -1841,7 +1848,7 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Supersonic",
+      "abilities": "Supersonic\nInstead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1853,8 +1860,8 @@
         "Razorwing Jetfighter"
       ],
       "options": [
-        "Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.",
-        "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        "per Unit: Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.",
+        "per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
       ],
       "weapons": [
         {
@@ -1924,7 +1931,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.",
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1936,7 +1943,7 @@
         "Venom"
       ],
       "options": [
-        "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        "per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
       ],
       "weapons": [
         {
@@ -1989,6 +1996,9 @@
         "Vehicle",
         "Building",
         "Webway Gate"
+      ],
+      "options": [
+        "per Unit: Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
       ]
     }
   ]

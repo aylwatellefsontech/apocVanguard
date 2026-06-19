@@ -58,7 +58,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\nSkyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nWarp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",
+      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\nSkyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nWarp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.\nThis unit can have one of the following:\n- Skyrunner Jetbike (Power Rating +1). If this unit has a Skyrunner Jetbike, it:\n  - Has a Move characteristic of 17\".\n  - Has the following additional keywords: Biker, Fly.\n  - Loses the following keywords: Infantry.\n- Warp Jump Generator (Power Rating +2). If this unit has a Warp Jump Generator, it:\n  - Has the following additional abilities: Deep Strike, Warp Jump Generator.\n  - Has the following additional keywords: Jump Pack.\n- Swooping Hawk Wings (Power Rating +2). If this unit has Swooping Hawk Wings, it:\n  - Has a Move characteristic of 14\".\n  - Has the following additional abilities: Deep Strike, Skyleap.\n  - Has the following additional keywords: Jump Pack, Fly.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -70,7 +70,9 @@
         "Autarch"
       ],
       "options": [
-        "This unit can have one of the following:\n- Skyrunner Jetbike (Power Rating +1). If this unit has a Skyrunner Jetbike, it:\n  - Has a Move characteristic of 17\".\n  - Has the following additional keywords: Biker, Fly.\n  - Loses the following keywords: Infantry.\n- Warp Jump Generator (Power Rating +2). If this unit has a Warp Jump Generator, it:\n  - Has the following additional abilities: Deep Strike, Warp Jump Generator.\n  - Has the following additional keywords: Jump Pack.\n- Swooping Hawk Wings (Power Rating +2). If this unit has Swooping Hawk Wings, it:\n  - Has a Move characteristic of 14\".\n  - Has the following additional abilities: Deep Strike, Skyleap.\n  - Has the following additional keywords: Jump Pack, Fly."
+        "per Unit: Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each.",
+        "per Unit: Skyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving.",
+        "per Unit: Warp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump."
       ],
       "weapons": [
         {
@@ -355,6 +357,7 @@
         "N": "10",
         "Pt": "4"
       },
+      "abilities": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model). For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -477,6 +480,9 @@
           "N": "10",
           "Pt": "7"
         }
+      ],
+      "options": [
+        "per Unit: Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker."
       ],
       "weapons": [
         {
@@ -759,6 +765,7 @@
         "N": "5",
         "Pt": "7"
       },
+      "abilities": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields. If this unit has Forceshields, it has a Save characteristic of 4+.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -986,6 +993,7 @@
         "N": "3",
         "Pt": "5"
       },
+      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1073,6 +1081,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1210,6 +1219,9 @@
           "Pt": "12"
         }
       ],
+      "options": [
+        "per Unit: Deep Strike Skyleap: When this unit makes a Move action, it can skyleap instead of moving."
+      ],
       "weapons": [
         {
           "name": "Lasblasters",
@@ -1267,6 +1279,9 @@
           "N": "10",
           "Pt": "14"
         }
+      ],
+      "options": [
+        "per Unit: Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump."
       ],
       "weapons": [
         {
@@ -1481,6 +1496,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1568,7 +1584,7 @@
         "N": "2",
         "Pt": "4"
       },
-      "abilities": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "abilities": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 1 Shadow Weaver, this unit can be equipped with one of the following: 1 D-cannon; 1 Vibro Cannon.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1581,7 +1597,7 @@
         "Support Weapon"
       ],
       "options": [
-        "Instead of 1 Shadow Weaver, this unit can be equipped with one of the following: 1 D-cannon; 1 Vibro Cannon."
+        "per Unit: Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
       ],
       "weapons": [
         {
@@ -1919,6 +1935,7 @@
         "N": "1",
         "Pt": "21"
       },
+      "abilities": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -2211,7 +2228,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.\nA Webway Gate is a unit that contains 1 model formed from two separate pieces. When setting up these pieces, place them so that an arch is formed, with the bases 5\" apart.",
       "keywords": [
         "Aeldari",
         "Heavy",
@@ -2220,7 +2237,7 @@
         "Webway Gate"
       ],
       "options": [
-        "A Webway Gate is a unit that contains 1 model formed from two separate pieces. When setting up these pieces, place them so that an arch is formed, with the bases 5\" apart."
+        "per Unit: Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
       ]
     }
   ]

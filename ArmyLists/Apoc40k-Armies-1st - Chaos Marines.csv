@@ -1,284 +1,284 @@
-No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords
-,,,,,,,,,,,,,,,,,,,
+No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords,Options
+,,,,,,,,,,,,,,,,,,,,
 1,HQ,Abaddon The Despoiler,"6""",2+,2+,2,2,8,3+,1,15,,,,,,,"You can only include one of this unit in your army.
 Deep Strike
 Lord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6"" of this unit.
 Mark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6"" of this unit.
 Dark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.","Chaos, Khorne, Nurgle, Slaanesh, Tzeentch, Heretic Astartes, Black Legion
-Light, Infantry, Character, Chaos Lord, Terminator, Abaddon the Despoiler"
-1,,,,,,,,,,,,Talon of Horus & Drach'nyen,Melee,Melee,User,5+,6+,
+Light, Infantry, Character, Chaos Lord, Terminator, Abaddon the Despoiler",
+1,,,,,,,,,,,,Talon of Horus & Drach'nyen,Melee,Melee,User,5+,6+,,,
 2,HQ,Lord,"6""",2+,2+,1,1,7,5+,1,5,,,,,,,"Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6"" of this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Character, Chaos Lord"
-2,,,,,,,,,,,,,,,,,,This unit can have one of the following:,
-2,,,,,,,,,,,,,,,,,,"Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12""; Deep Strike; keywords Jump Pack, Fly.",
-2,,,,,,,,,,,,,,,,,,"Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5"", Save 4+; Deep Strike; keyword Terminator.",
-2,,,,,,,,,,,,,,,,,,"Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14""; keyword Biker; loses keyword Infantry.",
-2,,,,,,,,,,,,Helwrought Weapons,Melee,Melee,User,8+,8+,
+Light, Infantry, Character, Chaos Lord",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
+2,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
+2,,,,,,,,,,,,,,,,,,"Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12""; Deep Strike; keywords Jump Pack, Fly.",,
+2,,,,,,,,,,,,,,,,,,"Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5"", Save 4+; Deep Strike; keyword Terminator.",,
+2,,,,,,,,,,,,,,,,,,"Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14""; keyword Biker; loses keyword Infantry.",,
+2,,,,,,,,,,,,Helwrought Weapons,Melee,Melee,User,8+,8+,,,
 3,HQ,Sorcerer,"6""",3+,3+,1,1,7,6+,1,3,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Psyker, Character, Infantry, Sorcerer"
-3,,,,,,,,,,,,,,,,,,This unit can have one of the following:,
-3,,,,,,,,,,,,,,,,,,"Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12""; Deep Strike; keywords Jump Pack, Fly.",
-3,,,,,,,,,,,,,,,,,,"Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5"", Save 4+; Deep Strike; keyword Terminator.",
-3,,,,,,,,,,,,,,,,,,"Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14""; keyword Biker; loses keyword Infantry.",
-3,,,,,,,,,,,,Force Weapon,Melee,Melee,User,8+,8+,
+Light, Psyker, Character, Infantry, Sorcerer",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
+3,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
+3,,,,,,,,,,,,,,,,,,"Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12""; Deep Strike; keywords Jump Pack, Fly.",,
+3,,,,,,,,,,,,,,,,,,"Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5"", Save 4+; Deep Strike; keyword Terminator.",,
+3,,,,,,,,,,,,,,,,,,"Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14""; keyword Biker; loses keyword Infantry.",,
+3,,,,,,,,,,,,Force Weapon,Melee,Melee,User,8+,8+,,,
 4,HQ,Demon Prince,"8""",2+,2+,2,2,8,5+,1,9,,,,,,,"Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6"" of this unit.
 Might Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.","Chaos, Heretic Astartes, <Legion>, Daemon
-Heavy, Monster, Character, Daemon Prince"
-4,,,,,,,,,,,,,,,,,,"This unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12""; keyword Fly.",
-4,,,,,,,,,,,,,,,,,,"When you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.",
-4,,,,,,,,,,,,,,,,,,"If you choose Khorne, this unit has the additional ability: Might Over Magic.",
-4,,,,,,,,,,,,,,,,,,"If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
-4,,,,,,,,,,,,Daemonic Weapons,Melee,Melee,User,6+,6+,
+Heavy, Monster, Character, Daemon Prince",per Unit (Power Rating +1): This unit can have Wings (Power Rating +1)
+4,,,,,,,,,,,,,,,,,,"This unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12""; keyword Fly.",,
+4,,,,,,,,,,,,,,,,,,"When you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.",,
+4,,,,,,,,,,,,,,,,,,"If you choose Khorne, this unit has the additional ability: Might Over Magic.",,
+4,,,,,,,,,,,,,,,,,,"If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",,
+4,,,,,,,,,,,,Daemonic Weapons,Melee,Melee,User,6+,6+,,,
 5,HQ,Exalted Champion,"6""",2+,3+,1,1,6,6+,1,3,,,,,,,"Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6"" of this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Character, Exalted Champion"
-5,,,,,,,,,,,,Exalted Weapons,Melee,Melee,User,8+,8+,
+Light, Infantry, Character, Exalted Champion",
+5,,,,,,,,,,,,Exalted Weapons,Melee,Melee,User,8+,8+,,,
 6,Troops,Traitor Marines,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Chaos Space Marines"
-6,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,
-6,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,
-6,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,
-6,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.,
-6,,,,,,,,,,,,,,,,,,"Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.",
-6,,,,,,,,,,,,,,,,,,"If this unit contains 10 or more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
-6,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,
-6,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-6,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,
-6,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,
-6,,,,,,,,,,,,Reaper Chaincannon,Heavy,"24""",2,6+,10+,
-6,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-6,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-6,,,,,,,,,,,,Chainswords,Melee,Melee,x2,7+,9+,
-6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Infantry, Chaos Space Marines","per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.; per Unit: Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.; per Unit (Power Rating +1): more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon."
+6,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
+6,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,,
+6,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,,
+6,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.,,
+6,,,,,,,,,,,,,,,,,,"Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.",,
+6,,,,,,,,,,,,,,,,,,"If this unit contains 10 or more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",,
+6,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,,,
+6,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+6,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
+6,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
+6,,,,,,,,,,,,Reaper Chaincannon,Heavy,"24""",2,6+,10+,,,
+6,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+6,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+6,,,,,,,,,,,,Chainswords,Melee,Melee,x2,7+,9+,,,
+6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 7,Troops,Cultists,"6""",4+,4+,2,2,4,10+,10,2,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Chaos Cultists"
-7,,,"6""",4+,4+,4,4,4,10+,20,6,,,,,,,,
-7,,,"6""",4+,4+,6,6,4,10+,30,9,,,,,,,,
-7,,,"6""",4+,4+,8,8,4,10+,40,12,,,,,,,,
-7,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).",
-7,,,,,,,,,,,,,,,,,,"Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.",
-7,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,
-7,,,,,,,,,,,,Auto Pistols,Small Arms,"12""",User,8+,10+,
-7,,,,,,,,,,,,Autoguns,Small Arms,"24""",User,8+,10+,Rapid Fire
-7,,,,,,,,,,,,Brutal Assault Weapons,Melee,Melee,x2,7+,9+,
-7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Infantry, Chaos Cultists","per weapon (Power Rating +1 per weapon): For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).; per Unit: Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons."
+7,,,"6""",4+,4+,4,4,4,10+,20,6,,,,,,,,,
+7,,,"6""",4+,4+,6,6,4,10+,30,9,,,,,,,,,
+7,,,"6""",4+,4+,8,8,4,10+,40,12,,,,,,,,,
+7,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).",,
+7,,,,,,,,,,,,,,,,,,"Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.",,
+7,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+7,,,,,,,,,,,,Auto Pistols,Small Arms,"12""",User,8+,10+,,,
+7,,,,,,,,,,,,Autoguns,Small Arms,"24""",User,8+,10+,Rapid Fire,,
+7,,,,,,,,,,,,Brutal Assault Weapons,Melee,Melee,x2,7+,9+,,,
+7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 8,Elites,Chaos Chosen,"6""",3+,3+,1,1,7,6+,5,4,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Chosen"
-8,,,"6""",3+,3+,2,2,7,6+,10,8,,,,,,,,
-8,,,,,,,,,,,,,,,,,,"Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons.",
-8,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-8,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-8,,,,,,,,,,,,Chosen Combat Weapons,Melee,Melee,x3,7+,7+,
-8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,
+Light, Infantry, Chosen","per Unit: Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons."
+8,,,"6""",3+,3+,2,2,7,6+,10,8,,,,,,,,,
+8,,,,,,,,,,,,,,,,,,"Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons.",,
+8,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+8,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+8,,,,,,,,,,,,Chosen Combat Weapons,Melee,Melee,x3,7+,7+,,,
+8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
 9,Elites,Cult Marines,"5""",3+,3+,1,1,6,6+,5,4,,,,,,,"Select one cult marine variant. Use the datasheet for the chosen variant.
 Plague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5"", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).
 Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5"", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.","Chaos, Heretic Astartes, <Legion>
-Light, Infantry, Cult Marines"
-9,,,"5""",3+,3+,2,2,6,6+,10,7,,,,,,,,
-9,,,"5""",3+,3+,3,3,6,6+,15,10,,,,,,,,
-9,,,"5""",3+,3+,4,4,6,6+,20,13,,,,,,,,
-9,,,,,,,,,,,,,,,,,,"Select one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column.",
-9,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-9,,,,,,,,,,,,Blight Launcher,Heavy,"24""",1,7+,8+,
-9,,,,,,,,,,,,Plague Spewer,Heavy,"9""",1,6+,10+,Inferno
-9,,,,,,,,,,,,Plague Weapons,Melee,Melee,x2,6+,8+,
-9,,,,,,,,,,,,Soulreaper Cannon,Heavy,"24""",1,6+,8+,
-9,,,,,,,,,,,,Inferno Boltguns,Small Arms,"24""",User,6+,8+,Rapid Fire
-9,,,,,,,,,,,,Warpflamers,Small Arms,"8""",User,5+,8+,Inferno
-9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,6+,9+,
+Light, Infantry, Cult Marines","per Unit (Power Rating +1 each): Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each); per 10 models (Power Rating +1): For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1)"
+9,,,"5""",3+,3+,2,2,6,6+,10,7,,,,,,,,,
+9,,,"5""",3+,3+,3,3,6,6+,15,10,,,,,,,,,
+9,,,"5""",3+,3+,4,4,6,6+,20,13,,,,,,,,,
+9,,,,,,,,,,,,,,,,,,"Select one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column.",,
+9,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+9,,,,,,,,,,,,Blight Launcher,Heavy,"24""",1,7+,8+,,,
+9,,,,,,,,,,,,Plague Spewer,Heavy,"9""",1,6+,10+,Inferno,,
+9,,,,,,,,,,,,Plague Weapons,Melee,Melee,x2,6+,8+,,,
+9,,,,,,,,,,,,Soulreaper Cannon,Heavy,"24""",1,6+,8+,,,
+9,,,,,,,,,,,,Inferno Boltguns,Small Arms,"24""",User,6+,8+,Rapid Fire,,
+9,,,,,,,,,,,,Warpflamers,Small Arms,"8""",User,5+,8+,Inferno,,
+9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,6+,9+,,,
 10,Elites,Terminators,"5""",3+,3+,1,2,7,4+,5,11,,,,,,,Deep Strike,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Terminators"
-10,,,"5""",3+,3+,2,4,7,4+,10,21,,,,,,,,
-10,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.",
-10,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-10,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,
-10,,,,,,,,,,,,Combi-bolters,Small Arms,"24""",x2,7+,9+,Rapid Fire
-10,,,,,,,,,,,,Terminator Power Weapons,Melee,Melee,x2,6+,7+,
+Light, Infantry, Terminators","per weapon (Power Rating +1 per weapon): For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon."
+10,,,"5""",3+,3+,2,4,7,4+,10,21,,,,,,,,,
+10,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.",,
+10,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+10,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,,,
+10,,,,,,,,,,,,Combi-bolters,Small Arms,"24""",x2,7+,9+,Rapid Fire,,
+10,,,,,,,,,,,,Terminator Power Weapons,Melee,Melee,x2,6+,7+,,,
 11,Elites,Greater Possessed,"7""",2+,3+,2,1,6,5+,1,6,,,,,,,"Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
 Locus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6"" of any units with this ability.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Light, Infantry, Character, Greater Possessed"
-11,,,,,,,,,,,,Daemonic Mutations,Melee,Melee,User,6+,8+,
+Light, Infantry, Character, Greater Possessed","per Unit: Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one."
+11,,,,,,,,,,,,Daemonic Mutations,Melee,Melee,User,6+,8+,,,
 12,Elites,Possessed,"7""",3+,3+,D3,2,6,5+,5,4,,,,,,,"Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Light, Infantry, Possessed"
-12,,,"7""",3+,3+,2D3,4,6,5+,10,11,,,,,,,,
-12,,,"7""",3+,3+,3D3,6,6,5+,15,16,,,,,,,,
-12,,,"7""",3+,3+,4D3,8,6,5+,20,21,,,,,,,,
-12,,,,,,,,,,,,Horrifying Mutations,Melee,Melee,User,7+,8+,
+Light, Infantry, Possessed",
+12,,,"7""",3+,3+,2D3,4,6,5+,10,11,,,,,,,,,
+12,,,"7""",3+,3+,3D3,6,6,5+,15,16,,,,,,,,,
+12,,,"7""",3+,3+,4D3,8,6,5+,20,21,,,,,,,,,
+12,,,,,,,,,,,,Horrifying Mutations,Melee,Melee,User,7+,8+,,,
 13,Fast,Chaos Spawn,"7""",4+,-,1,1,7,10+,1,3,,,,,,,"Terror Troops
 Mutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.
 1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.
 2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.
 3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Beast, Chaos Spawn"
-13,,,"7""",4+,-,2,2,7,10+,2,4,,,,,,,,
-13,,,"7""",4+,-,3,3,8,10+,3,7,,,,,,,,
-13,,,"7""",4+,-,4,4,8,10+,4,9,,,,,,,,
-13,,,"7""",4+,-,5,5,8,10+,5,11,,,,,,,,
-13,,,,,,,,,,,,Hideous Mutations,Melee,Melee,User,6+,7+,
+Light, Beast, Chaos Spawn",
+13,,,"7""",4+,-,2,2,7,10+,2,4,,,,,,,,,
+13,,,"7""",4+,-,3,3,8,10+,3,7,,,,,,,,,
+13,,,"7""",4+,-,4,4,8,10+,4,9,,,,,,,,,
+13,,,"7""",4+,-,5,5,8,10+,5,11,,,,,,,,,
+13,,,,,,,,,,,,Hideous Mutations,Melee,Melee,User,6+,7+,,,
 14,Fast,Bikers,"14""",3+,3+,1,1,6,5+,3,8,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Biker, Bikers"
-14,,,"14""",3+,3+,2,2,6,5+,6,10,,,,,,,,
-14,,,"14""",3+,3+,3,3,6,5+,9,15,,,,,,,,
-14,,,,,,,,,,,,Twin Boltguns,Small Arms,"24""",x2,7+,9+,Rapid Fire
-14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Biker, Bikers",
+14,,,"14""",3+,3+,2,2,6,5+,6,10,,,,,,,,,
+14,,,"14""",3+,3+,3,3,6,5+,9,15,,,,,,,,,
+14,,,,,,,,,,,,Twin Boltguns,Small Arms,"24""",x2,7+,9+,Rapid Fire,,
+14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 15,Fast,Raptors,"12""",3+,3+,1,1,6,6+,5,5,,,,,,,"Deep Strike, Terror Troops","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Fly, Jump Pack, Raptors"
-15,,,"12""",3+,3+,2,2,6,6+,10,8,,,,,,,,
-15,,,"12""",3+,3+,3,3,6,6+,15,11,,,,,,,,
-15,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-15,,,,,,,,,,,,Chainswords,Melee,Melee,x2,7+,9+,
+Light, Infantry, Fly, Jump Pack, Raptors",
+15,,,"12""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
+15,,,"12""",3+,3+,3,3,6,6+,15,11,,,,,,,,,
+15,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+15,,,,,,,,,,,,Chainswords,Melee,Melee,x2,7+,9+,,,
 16,Heavy,Havocs,"6""",3+,3+,1,1,6,5+,5,7,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Light, Infantry, Havocs"
-16,,,,,,,,,,,,,,,,,,This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.,
-16,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,
-16,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-16,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,
-16,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,
-16,,,,,,,,,,,,Reaper Chaincannon,Heavy,"24""",2,6+,10+,
-16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Infantry, Havocs",per Unit: This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
+16,,,,,,,,,,,,,,,,,,This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.,,
+16,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,,,
+16,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+16,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
+16,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
+16,,,,,,,,,,,,Reaper Chaincannon,Heavy,"24""",2,6+,10+,,,
+16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 17,Heavy,Defiler,"8""",4+,4+,3,3,6,5+,1,11,,,,,,,"Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Heavy, Vehicle, Daemon Engine, Defiler"
-17,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.",
-17,,,,,,,,,,,,,,,,,,"Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon.",
-17,,,,,,,,,,,,Battle Cannon,Heavy,"72""",1,6+,6+,
-17,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,
-17,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,
-17,,,,,,,,,,,,Twin Heavy Flamer,Heavy,"8""",2,6+,9+,Inferno
-17,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,
-17,,,,,,,,,,,,Defiler Claws,Melee,Melee,User,6+,5+,
-17,,,,,,,,,,,,Defiler Scourge,Melee,Melee,x2,5+,5+,
+Heavy, Vehicle, Daemon Engine, Defiler","per Unit: Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.; per Unit: Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon."
+17,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.",,
+17,,,,,,,,,,,,,,,,,,"Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon.",,
+17,,,,,,,,,,,,Battle Cannon,Heavy,"72""",1,6+,6+,,,
+17,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,,,
+17,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+17,,,,,,,,,,,,Twin Heavy Flamer,Heavy,"8""",2,6+,9+,Inferno,,
+17,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+17,,,,,,,,,,,,Defiler Claws,Melee,Melee,User,6+,5+,,,
+17,,,,,,,,,,,,Defiler Scourge,Melee,Melee,x2,5+,5+,,,
 18,Heavy,Hellbrute,"8""",3+,3+,2,2,6,6+,1,7,,,,,,,"Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Heavy, Vehicle, Helbrute"
-18,,,,,,,,,,,,,,,,,,"Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.",
-18,,,,,,,,,,,,,,,,,,"Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.",
-18,,,,,,,,,,,,,,,,,,"Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.",
-18,,,,,,,,,,,,,,,,,,"For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer.",
-18,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-18,,,,,,,,,,,,Helbrute Plasma Cannon,Heavy,"36""",1,6+,6+,
-18,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,
-18,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,
-18,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,
-18,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,
-18,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,
-18,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,
-18,,,,,,,,,,,,Helbrute Fist,Melee,Melee,2,6+,6+,
-18,,,,,,,,,,,,Helbrute Hammer,Melee,Melee,User,9+,5+,
-18,,,,,,,,,,,,Power Scourge,Melee,Melee,x2,5+,9+,
+Heavy, Vehicle, Helbrute","per Unit: Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.; per Unit: Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.; per Unit: Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.; per Unit: For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer."
+18,,,,,,,,,,,,,,,,,,"Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.",,
+18,,,,,,,,,,,,,,,,,,"Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.",,
+18,,,,,,,,,,,,,,,,,,"Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.",,
+18,,,,,,,,,,,,,,,,,,"For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer.",,
+18,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+18,,,,,,,,,,,,Helbrute Plasma Cannon,Heavy,"36""",1,6+,6+,,,
+18,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
+18,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+18,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,,,
+18,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+18,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+18,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
+18,,,,,,,,,,,,Helbrute Fist,Melee,Melee,2,6+,6+,,,
+18,,,,,,,,,,,,Helbrute Hammer,Melee,Melee,User,9+,5+,,,
+18,,,,,,,,,,,,Power Scourge,Melee,Melee,x2,5+,9+,,,
 19,Heavy,Predator,"12""",6+,3+,1,2,6,6+,1,7,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Heavy, Vehicle, Chaos Predator"
-19,,,,,,,,,,,,,,,,,,"Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.",
-19,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.,
-19,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-19,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,
-19,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,
-19,,,,,,,,,,,,Predator Autocannon,Heavy,"48""",2,7+,7+,
-19,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Chaos Predator","per Unit: Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.; per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons."
+19,,,,,,,,,,,,,,,,,,"Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.",,
+19,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.,,
+19,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+19,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
+19,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+19,,,,,,,,,,,,Predator Autocannon,Heavy,"48""",2,7+,7+,,,
+19,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 20,Heavy,Forgefiend,"8""",4+,4+,1,2,6,5+,1,6,,,,,,,"Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Forgefiend
-Heavy, Vehicle, Daemon Engine"
-20,,,,,,,,,,,,,,,,,,"Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).",
-20,,,,,,,,,,,,,,,,,,"Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).",
-20,,,,,,,,,,,,Ectoplasma Cannon,Heavy,"24""",1,5+,5+,
-20,,,,,,,,,,,,Hades Autocannon,Heavy,"36""",2,5+,7+,
-20,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,
-20,,,,,,,,,,,,Daemon Jaws,Melee,Melee,User,6+,6+,
+Heavy, Vehicle, Daemon Engine","per Unit (Power Rating +1): Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).; per Unit (Power Rating +1): Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1)."
+20,,,,,,,,,,,,,,,,,,"Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).",,
+20,,,,,,,,,,,,,,,,,,"Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).",,
+20,,,,,,,,,,,,Ectoplasma Cannon,Heavy,"24""",1,5+,5+,,,
+20,,,,,,,,,,,,Hades Autocannon,Heavy,"36""",2,5+,7+,,,
+20,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
+20,,,,,,,,,,,,Daemon Jaws,Melee,Melee,User,6+,6+,,,
 21,Heavy,Vindicator,"10""",6+,3+,1,2,6,5+,1,9,,,,,,,,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Heavy, Vehicle, Chaos Vindicator"
-21,,,,,,,,,,,,,,,,,,"This unit can have a Siege Shield (Power Rating +1). If this unit has a Siege Shield, it has a Save characteristic of 4+.",
-21,,,,,,,,,,,,Demolisher Cannon,Heavy,"24""",2,6+,6+,Destroyer
-21,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Chaos Vindicator",per Unit (Power Rating +1): This unit can have a Siege Shield (Power Rating +1)
+21,,,,,,,,,,,,,,,,,,"This unit can have a Siege Shield (Power Rating +1). If this unit has a Siege Shield, it has a Save characteristic of 4+.",,
+21,,,,,,,,,,,,Demolisher Cannon,Heavy,"24""",2,6+,6+,Destroyer,,
+21,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 22,Heavy,Obliterators,"4""",3+,3+,1,2,6,4+,1,9,,,,,,,Deep Strike,"Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Light, Infantry, Cult of Destruction, Obliterators"
-22,,,"4""",3+,3+,2,4,6,4+,2,17,,,,,,,,
-22,,,"4""",3+,3+,3,6,6,4+,3,25,,,,,,,,
-22,,,,,,,,,,,,Fleshmetal Guns,Small Arms,"24""",x2,5+,5+,
-22,,,,,,,,,,,,Crushing Fists,Melee,Melee,User,8+,9+,
+Light, Infantry, Cult of Destruction, Obliterators",
+22,,,"4""",3+,3+,2,4,6,4+,2,17,,,,,,,,,
+22,,,"4""",3+,3+,3,6,6,4+,3,25,,,,,,,,,
+22,,,,,,,,,,,,Fleshmetal Guns,Small Arms,"24""",x2,5+,5+,,,
+22,,,,,,,,,,,,Crushing Fists,Melee,Melee,User,8+,9+,,,
 23,Heavy,Land Raider,"10""",5+,3+,2,3,7,4+,1,13,,,,,,,"TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Heavy, Vehicle, Transport, Chaos Land Raider"
-23,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,
-23,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,
-23,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Transport, Chaos Land Raider",
+23,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+23,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+23,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 24,Transport,Rhino,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>
-Heavy, Vehicle, Transport, Chaos Rhino"
-24,,,,,,,,,,,,Combi-bolter,Small Arms,"24""",1,9+,10+,Rapid Fire
-24,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Transport, Chaos Rhino",
+24,,,,,,,,,,,,Combi-bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
+24,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 25,Air,Helldrake,"30""",3+,4+,2,2,6,5+,1,10,,,,,,,"Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Heavy, Vehicle, Fly, Daemon Engine, Helldrake"
-25,,,,,,,,,,,,,,,,,,"Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).",
-25,,,,,,,,,,,,Hades Autocannon,Heavy,"36""",2,5+,7+,
-25,,,,,,,,,,,,Baleflamer,Heavy,"18""",2,6+,8+,Inferno
-25,,,,,,,,,,,,Heldrake Claws,Melee,Melee,User,9+,10+,Anti-air
+Heavy, Vehicle, Fly, Daemon Engine, Helldrake","per Unit (Power Rating +1): Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1)."
+25,,,,,,,,,,,,,,,,,,"Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).",,
+25,,,,,,,,,,,,Hades Autocannon,Heavy,"36""",2,5+,7+,,,
+25,,,,,,,,,,,,Baleflamer,Heavy,"18""",2,6+,8+,Inferno,,
+25,,,,,,,,,,,,Heldrake Claws,Melee,Melee,User,9+,10+,Anti-air,,
 26,Elites,Plague Marines,"5""",3+,3+,1,1,6,6+,5,4,,,,,,,Ignore Damage (6+),"Chaos, Nurgle, Heretic Astartes, <Legion>
-Light, Infantry, Plague Marines"
-26,,,"5""",3+,3+,2,2,6,6+,10,7,,,,,,,,
-26,,,"5""",3+,3+,3,3,6,6+,15,10,,,,,,,,
-26,,,"5""",3+,3+,4,4,6,6+,20,13,,,,,,,,
-26,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.,
-26,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-26,,,,,,,,,,,,Blight Launcher,Heavy,"24""",1,7+,8+,
-26,,,,,,,,,,,,Plague Spewer,Heavy,"9""",1,6+,10+,Inferno
-26,,,,,,,,,,,,Plague Weapons,Melee,Melee,x2,6+,8+,
+Light, Infantry, Plague Marines",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.
+26,,,"5""",3+,3+,2,2,6,6+,10,7,,,,,,,,,
+26,,,"5""",3+,3+,3,3,6,6+,15,10,,,,,,,,,
+26,,,"5""",3+,3+,4,4,6,6+,20,13,,,,,,,,,
+26,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.,,
+26,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+26,,,,,,,,,,,,Blight Launcher,Heavy,"24""",1,7+,8+,,,
+26,,,,,,,,,,,,Plague Spewer,Heavy,"9""",1,6+,10+,Inferno,,
+26,,,,,,,,,,,,Plague Weapons,Melee,Melee,x2,6+,8+,,,
 27,Elites,Khorne Berzerkers,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,"Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.","Chaos, Khorne, Heretic Astartes, <Legion>
-Light, Infantry, Khorne Berzerkers"
-27,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,
-27,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,
-27,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,
-27,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-27,,,,,,,,,,,,Chain Weapons,Melee,Melee,x4,6+,9+,
+Light, Infantry, Khorne Berzerkers","per Unit: Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites."
+27,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
+27,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,,
+27,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,,
+27,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+27,,,,,,,,,,,,Chain Weapons,Melee,Melee,x4,6+,9+,,,
 28,Heavy,Noise Marines,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,"Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.","Chaos, Slaanesh, Heretic Astartes, <Legion>
-Light, Infantry, Noise Marines"
-28,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,
-28,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,
-28,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,
-28,,,,,,,,,,,,,,,,,,This unit can also be equipped with 1 Blastmaster (Power Rating +1).,
-28,,,,,,,,,,,,,,,,,,"If the unit contains 10 or more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",
-28,,,,,,,,,,,,Blastmaster,Heavy,"48""",1,7+,7+,
-28,,,,,,,,,,,,Noise Marine Weapons,Small Arms,"24""",x2,7+,9+,
-28,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Infantry, Noise Marines","per Unit: Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.; per Unit (Power Rating +1): This unit can also be equipped with 1 Blastmaster (Power Rating +1).; per Unit (Power Rating +1): more models, it can also be equipped with 1 Blastmaster (Power Rating +1)."
+28,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
+28,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,,
+28,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,,
+28,,,,,,,,,,,,,,,,,,This unit can also be equipped with 1 Blastmaster (Power Rating +1).,,
+28,,,,,,,,,,,,,,,,,,"If the unit contains 10 or more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",,
+28,,,,,,,,,,,,Blastmaster,Heavy,"48""",1,7+,7+,,,
+28,,,,,,,,,,,,Noise Marine Weapons,Small Arms,"24""",x2,7+,9+,,,
+28,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 29,Elites,Rubric Marines,"5""",3+,3+,1,1,6,5+,5,5,,,,,,,,"Chaos, Tzeentch, Heretic Astartes, <Legion>
-Light, Infantry, Psyker, Rubric Marines"
-29,,,"5""",3+,3+,2,2,6,5+,10,9,,,,,,,,
-29,,,"5""",3+,3+,3,3,6,5+,15,13,,,,,,,,
-29,,,"5""",3+,3+,4,4,6,5+,20,17,,,,,,,,
-29,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).",
-29,,,,,,,,,,,,,,,,,,"Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.",
-29,,,,,,,,,,,,Soulreaper Cannon,Heavy,"24""",1,6+,8+,
-29,,,,,,,,,,,,Inferno Boltguns,Small Arms,"24""",User,6+,8+,Rapid Fire
-29,,,,,,,,,,,,Warpflamers,Small Arms,"8""",User,5+,8+,Inferno
-29,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,6+,9+,
+Light, Infantry, Psyker, Rubric Marines","per cannon (Power Rating +1 per weapon): For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).; per Unit: Instead of Inferno Boltguns, this unit can be equipped with Warpflamers."
+29,,,"5""",3+,3+,2,2,6,5+,10,9,,,,,,,,,
+29,,,"5""",3+,3+,3,3,6,5+,15,13,,,,,,,,,
+29,,,"5""",3+,3+,4,4,6,5+,20,17,,,,,,,,,
+29,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).",,
+29,,,,,,,,,,,,,,,,,,"Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.",,
+29,,,,,,,,,,,,Soulreaper Cannon,Heavy,"24""",1,6+,8+,,,
+29,,,,,,,,,,,,Inferno Boltguns,Small Arms,"24""",User,6+,8+,Rapid Fire,,
+29,,,,,,,,,,,,Warpflamers,Small Arms,"8""",User,5+,8+,Inferno,,
+29,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,6+,9+,,,
 30,HQ,Traitor Guard,"6""",4+,4+,1,1,5,10+,7,2,,,,,,,,"Chaos, Servants of the Abyss
-Light, Infantry, Traitor Guardsmen"
-30,,,,,,,,,,,,Flamer,Heavy,"8""",1,7+,10+,Inferno
-30,,,,,,,,,,,,Las Weapons,Small Arms,"24""",User,8+,10+,
-30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+Light, Infantry, Traitor Guardsmen",
+30,,,,,,,,,,,,Flamer,Heavy,"8""",1,7+,10+,Inferno,,
+30,,,,,,,,,,,,Las Weapons,Small Arms,"24""",User,8+,10+,,,
+30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 31,Elites,Chaos Beastmen,"6""",3+,4+,1,1,4,10+,4,1,,,,,,,Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.,"Chaos, Servants of the Abyss
-Light, Infantry, Chaos Beastmen"
-31,,,,,,,,,,,,Pistols,Small Arms,"12""",User,8+,10+,
-31,,,,,,,,,,,,Brutal Assault Weapons,Melee,Melee,x2,7+,9+,
+Light, Infantry, Chaos Beastmen",
+31,,,,,,,,,,,,Pistols,Small Arms,"12""",User,8+,10+,,,
+31,,,,,,,,,,,,Brutal Assault Weapons,Melee,Melee,x2,7+,9+,,,
 32,Lord,Greater Daemon,"12""",2+,2+,2,3,8,5+,1,14,,,,,,,"Select one Greater Daemon. Use the datasheet for the chosen god.
 Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12"", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.
 Lord of Change (Tzeentch, Pt 12, M 12"", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Rod of Sorcery (Power Rating +1): Add 6"" to the Range of Orange Fires of Tzeentch.
 Great Unclean One (Nurgle, Pt 14, M 7"", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7"" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.
 Keeper of Secrets (Slaanesh, Pt 14, M 15"", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.","Chaos, Daemon, Legiones Daemonica
-Heavy, Monster, Fly, Character, Greater Daemon"
-32,,,"12""",2+,2+,2,3,8,5+,1,14,,,,,,,,
-32,,,"12""",2+,2+,2,3,8,8+,1,12,,,,,,,,
-32,,,"7""",2+,2+,2,4,8,9+,1,14,,,,,,,,
-32,,,"15""",2+,2+,2,3,8,9+,1,14,,,,,,,,
-32,,,,,,,,,,,,,,,,,,"Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.",
-32,,,,,,,,,,,,,,,,,,Lord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).,
-32,,,,,,,,,,,,,,,,,,"Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.",
-32,,,,,,,,,,,,,,,,,,"Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.",
-32,,,,,,,,,,,,Great Axe of Khorne,Melee,Melee,User,4+,4+,Destroyer
-32,,,,,,,,,,,,Orange Fires of Tzeentch,Small Arms,"24""",User,8+,8+,Witchfire
-32,,,,,,,,,,,,Staff of Tzeentch,Melee,Melee,User,8+,7+,
-32,,,,,,,,,,,,Baleful Sword,Melee,Melee,User,7+,8+,
-32,,,,,,,,,,,,Plague Flail (Ranged),Small Arms,"7""",x2,7+,7+,
-32,,,,,,,,,,,,Bilesword,Melee,Melee,User,5+,6+,
-32,,,,,,,,,,,,Bileblade,Melee,Melee,User,8+,9+,
-32,,,,,,,,,,,,Doomsday Bell,Melee,Melee,User,8+,9+,
-32,,,,,,,,,,,,Nurgling Claws & Teeth,Melee,Melee,1,10+,10+,
-32,,,,,,,,,,,,Plague Flail (Melee),Melee,Melee,x2,7+,7+,
-32,,,,,,,,,,,,Ritual Knife,Melee,Melee,User,9+,10+,
-32,,,,,,,,,,,,Snapping Claws,Melee,Melee,User,6+,6+,
-32,,,,,,,,,,,,Witstealer Sword,Melee,Melee,User,7+,7+,
-32,,,,,,,,,,,,Living Whip (Ranged),Small Arms,"6""",2,7+,8+,
-32,,,,,,,,,,,,Living Whip (Melee),Melee,Melee,User,7+,8+,
+Heavy, Monster, Fly, Character, Greater Daemon","per Unit (Power Rating +1): Rod of Sorcery (Power Rating +1): Add 6"" to the Range of Orange Fires of Tzeentch; per Unit: Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12"", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Lord of Change (Tzeentch, Pt 12, M 12"", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Keeper of Secrets (Slaanesh, Pt 14, M 15"", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit (Power Rating +1): Lord of Change: Can equip 1 Baleful Sword (Power Rating +1); per Unit (Power Rating +1): have a Rod of Sorcery (Power Rating +1).; per Unit (Power Rating +1): Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1); per Unit: Instead of 1 Plague Flail, can equip 1 Bileblade.; per Unit (Power Rating +2): Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)"
+32,,,"12""",2+,2+,2,3,8,5+,1,14,,,,,,,,,
+32,,,"12""",2+,2+,2,3,8,8+,1,12,,,,,,,,,
+32,,,"7""",2+,2+,2,4,8,9+,1,14,,,,,,,,,
+32,,,"15""",2+,2+,2,3,8,9+,1,14,,,,,,,,,
+32,,,,,,,,,,,,,,,,,,"Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.",,
+32,,,,,,,,,,,,,,,,,,Lord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).,,
+32,,,,,,,,,,,,,,,,,,"Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.",,
+32,,,,,,,,,,,,,,,,,,"Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.",,
+32,,,,,,,,,,,,Great Axe of Khorne,Melee,Melee,User,4+,4+,Destroyer,,
+32,,,,,,,,,,,,Orange Fires of Tzeentch,Small Arms,"24""",User,8+,8+,Witchfire,,
+32,,,,,,,,,,,,Staff of Tzeentch,Melee,Melee,User,8+,7+,,,
+32,,,,,,,,,,,,Baleful Sword,Melee,Melee,User,7+,8+,,,
+32,,,,,,,,,,,,Plague Flail (Ranged),Small Arms,"7""",x2,7+,7+,,,
+32,,,,,,,,,,,,Bilesword,Melee,Melee,User,5+,6+,,,
+32,,,,,,,,,,,,Bileblade,Melee,Melee,User,8+,9+,,,
+32,,,,,,,,,,,,Doomsday Bell,Melee,Melee,User,8+,9+,,,
+32,,,,,,,,,,,,Nurgling Claws & Teeth,Melee,Melee,1,10+,10+,,,
+32,,,,,,,,,,,,Plague Flail (Melee),Melee,Melee,x2,7+,7+,,,
+32,,,,,,,,,,,,Ritual Knife,Melee,Melee,User,9+,10+,,,
+32,,,,,,,,,,,,Snapping Claws,Melee,Melee,User,6+,6+,,,
+32,,,,,,,,,,,,Witstealer Sword,Melee,Melee,User,7+,7+,,,
+32,,,,,,,,,,,,Living Whip (Ranged),Small Arms,"6""",2,7+,8+,,,
+32,,,,,,,,,,,,Living Whip (Melee),Melee,Melee,User,7+,8+,,,

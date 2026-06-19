@@ -26,10 +26,21 @@ FIELDNAMES = [
     "No", "Type", "Name",
     "M", "WS", "BS", "A", "W", "Ld", "Sv", "N", "Pt",
     "Weapon", "WeaponType", "Rng", "WeaponA", "SAP", "SAT", "Abilities",
-    "Keywords",
+    "Keywords", "Options",
 ]
 
 WEAPON_SAT = re.compile(r"^(-|\d+\+|[A-Za-z ]{1,20})$")
+OPTIONS_SPLIT = re.compile(r";\s(?=per (?:Unit|\d+ models|weapon))", re.IGNORECASE)
+
+
+def parse_options_column(text):
+    if not text.strip():
+        return []
+    return [
+        part.strip()
+        for part in OPTIONS_SPLIT.split(text.strip())
+        if part.strip()
+    ]
 
 
 def norm_type(value):
@@ -114,6 +125,39 @@ def faction_from_csv_path(csv_path):
     return csv_path.stem
 
 
+UNIT_KEY_ORDER = [
+    "no", "type", "name", "stats", "abilities", "keywords", "profiles", "options", "weapons",
+]
+
+
+def order_unit(unit):
+    ordered = {}
+    for key in UNIT_KEY_ORDER:
+        if key in unit:
+            ordered[key] = unit[key]
+    for key, value in unit.items():
+        if key not in ordered:
+            ordered[key] = value
+    return ordered
+
+
+def finalize_unit(unit):
+    """Merge continuation-row ability text collected when Options column is used."""
+    continuations = unit.pop("_ability_continuations", [])
+    parts = []
+    if unit.get("abilities"):
+        parts.append(unit["abilities"])
+    parts.extend(continuations)
+    if parts:
+        unit["abilities"] = "\n".join(parts)
+    elif unit.get("options"):
+        unit["abilities"] = "\n".join(unit["options"])
+    unit.pop("_options_from_column", None)
+    ordered = order_unit(unit)
+    unit.clear()
+    unit.update(ordered)
+
+
 def csv_to_json(csv_path):
     units = []
     current = None
@@ -133,6 +177,7 @@ def csv_to_json(csv_path):
 
             if is_unit_header(row):
                 if current:
+                    finalize_unit(current)
                     units.append(current)
 
                 current = {
@@ -153,8 +198,11 @@ def csv_to_json(csv_path):
                 if keywords:
                     current["keywords"] = parse_keywords(keywords)
 
+                options_col = row.get("Options", "").strip()
                 current["profiles"] = []
-                current["options"] = []
+                current["options"] = parse_options_column(options_col) if options_col else []
+                current["_options_from_column"] = bool(options_col)
+                current["_ability_continuations"] = []
                 current["weapons"] = []
 
                 weapon = get_weapon(row)
@@ -181,12 +229,15 @@ def csv_to_json(csv_path):
                 if name:
                     profile["name"] = name
                 current["profiles"].append(profile)
-            elif option_text:
+            elif option_text and not current.get("_options_from_column"):
                 current["options"].append(option_text)
+            elif option_text and current.get("_options_from_column"):
+                current["_ability_continuations"].append(option_text)
             elif row["Keywords"].strip():
                 current.setdefault("keywords", []).extend(parse_keywords(row["Keywords"]))
 
     if current:
+        finalize_unit(current)
         units.append(current)
 
     return {

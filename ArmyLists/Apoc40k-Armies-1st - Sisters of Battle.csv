@@ -1,208 +1,208 @@
-No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords
-,,,,,,,,,,,,,,,,,,,
+No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords,Options
+,,,,,,,,,,,,,,,,,,,,
 1,HQ,Celestine,"12""",2+,2+,1,2,7,4+,1,9,,,,,,,"Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6"" of this unit.
 Miraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.
 Healing Tears: At the beginning of the Orders phase, you can remove one damage marker from a friendly Geminae Superia unit within 3"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas
-Light, Infantry, Fly, Character, Jump Pack, Celestine"
-1,,,,,,,,,,,,The Ardent Blade (Ranged),Heavy,"8""",1,6+,9+,Inferno
-1,,,,,,,,,,,,The Ardent Blade (Melee),Melee,Melee,User,7+,7+,
+Light, Infantry, Fly, Character, Jump Pack, Celestine",
+1,,,,,,,,,,,,The Ardent Blade (Ranged),Heavy,"8""",1,6+,9+,Inferno,,
+1,,,,,,,,,,,,The Ardent Blade (Melee),Melee,Melee,User,7+,7+,,,
 2,HQ,Canoness,"6""",2+,2+,1,1,7,5+,1,4,,,,,,,"Lead the Righteous: Re-roll hit rolls of 1 for attacks made by friendly <Order> units whilst they are within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Character, Canoness"
-2,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Character, Canoness",
+2,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,8+,9+,,,
 3,HQ,Imagifier,"6""",3+,3+,1,1,6,6+,1,2,,,,,,,"Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it. That Command Asset cannot be played again this turn.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Character, Imagifier"
-3,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,
+Light, Infantry, Character, Imagifier","per Unit: Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it."
+3,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,,,
 4,HQ,Hospitaller,"6""",4+,3+,1,1,6,6+,1,2,,,,,,,"Medicus Ministorum: At the end of the Action phase, this unit can attempt to heal one friendly Adeptus Ministorum Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.","Imperium, Adeptus Ministorum, Adepta Sororitas
-Light, Infantry, Character, Hospitaller"
-4,,,,,,,,,,,,Chirurgeon's Tools,Melee,Melee,User,11+,11+,
+Light, Infantry, Character, Hospitaller",
+4,,,,,,,,,,,,Chirurgeon's Tools,Melee,Melee,User,11+,11+,,,
 5,Fast,Junith Eruita,"10""",2+,2+,1,1,7,4+,1,6,,,,,,,"The Pulpit of Saint Holline's Basilica: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas Infantry units by 1 whilst they are wholly within 6"" of this unit.
 Fiery Conviction: Re-roll hit rolls and wound rolls of 1 for attacks made by friendly Order of Our Martyred Lady units whilst they are within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas, Order of Our Martyred Lady
-Heavy, Vehicle, Character, Fly, Canoness Superior, Junith Eruita"
-5,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-5,,,,,,,,,,,,The Mace of Castigation,Melee,Melee,User,8+,8+,
+Heavy, Vehicle, Character, Fly, Canoness Superior, Junith Eruita",
+5,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+5,,,,,,,,,,,,The Mace of Castigation,Melee,Melee,User,8+,8+,,,
 6,Troops,Battle Sisters Squad,"6""",4+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Battle Sisters Squad"
-6,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,
-6,,,"6""",4+,3+,3,3,6,6+,15,12,,,,,,,,
-6,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.,
-6,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-6,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-6,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,
-6,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Battle Sisters Squad",per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
+6,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,,
+6,,,"6""",4+,3+,3,3,6,6+,15,12,,,,,,,,,
+6,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.,,
+6,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+6,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+6,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+6,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 7,Troops,Dominion Squad,"6""",4+,3+,1,1,6,6+,5,4,,,,,,,Infiltrators,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Dominion Squad"
-7,,,"6""",4+,3+,2,2,6,6+,10,8,,,,,,,,
-7,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.,
-7,,,,,,,,,,,,,,,,,,"If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns.",
-7,,,,,,,,,,,,Flamer,Heavy,"8""",1,7+,10+,Inferno
-7,,,,,,,,,,,,Meltagun,Heavy,"12""",1,11+,7+,
-7,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-7,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire
-7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Dominion Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.
+7,,,"6""",4+,3+,2,2,6,6+,10,8,,,,,,,,,
+7,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.,,
+7,,,,,,,,,,,,,,,,,,"If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns.",,
+7,,,,,,,,,,,,Flamer,Heavy,"8""",1,7+,10+,Inferno,,
+7,,,,,,,,,,,,Meltagun,Heavy,"12""",1,11+,7+,,,
+7,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+7,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
+7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 8,Elites,Celestian Squad,"6""",3+,3+,1,1,7,6+,5,4,,,,,,,"Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.
 Sworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6"" of any friendly <Order> Canoness units.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Celestian Squad"
-8,,,"6""",3+,3+,2,2,7,6+,10,8,,,,,,,,
-8,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.,
-8,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-8,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-8,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,
-8,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,8+,9+,
+Light, Infantry, Celestian Squad",per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
+8,,,"6""",3+,3+,2,2,7,6+,10,8,,,,,,,,,
+8,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.,,
+8,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+8,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+8,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+8,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,8+,9+,,,
 9,Elites,Retributor Squad,"6""",4+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Retributor Squad"
-9,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,
-9,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.,
-9,,,,,,,,,,,,,,,,,,"If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns.",
-9,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-9,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-9,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,
-9,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire
-9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Retributor Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.
+9,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,,
+9,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.,,
+9,,,,,,,,,,,,,,,,,,"If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns.",,
+9,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+9,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+9,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+9,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
+9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 10,Elites,Repentia Superior,"6""",3+,3+,1,1,6,5+,1,3,,,,,,,"Driven Onwards: If an <Order> Sisters Repentia unit starts a Move action within 6"" of any friendly units with this ability, add 3"" to that unit's Move characteristic whilst making that Move action.
 Mistress of the Penitent: This unit does not take up slots in a Detachment that contains any <Order> Sisters Repentia units.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Character, Repentia Superior"
-10,,,,,,,,,,,,Neural Whips,Melee,Melee,User,8+,10+,
+Light, Infantry, Character, Repentia Superior",
+10,,,,,,,,,,,,Neural Whips,Melee,Melee,User,8+,10+,,,
 11,Elites,Sisters Repentia,"6""",3+,3+,2,1,6,11+,4,3,,,,,,,"Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Sisters Repentia"
-11,,,"6""",3+,3+,4,2,6,11+,9,6,,,,,,,,
-11,,,,,,,,,,,,Penitent Eviscerators,Melee,Melee,User,5+,8+,
+Light, Infantry, Sisters Repentia",
+11,,,"6""",3+,3+,4,2,6,11+,9,6,,,,,,,,,
+11,,,,,,,,,,,,Penitent Eviscerators,Melee,Melee,User,5+,8+,,,
 12,Elites,Dialogus,"6""",4+,3+,1,1,6,11+,1,1,,,,,,,"Laud Hailer: You can re-roll Morale tests taken for friendly Adepta Sororitas units whilst they are within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas
-Light, Infantry, Character, Dialogus"
-12,,,,,,,,,,,,Dialogus Staff,Melee,Melee,User,11+,11+,
+Light, Infantry, Character, Dialogus",
+12,,,,,,,,,,,,Dialogus Staff,Melee,Melee,User,11+,11+,,,
 13,Elites,Geminae Superia,"12""",3+,3+,1,1,7,6+,1,2,,,,,,,"Divine Guardians: This unit cannot be a Warlord. This unit does not take up slots in a Detachment that contains Celestine.
 Lifewards: At the start of the Damage phase, you can select one friendly Celestine unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Celestine unit and place them next to this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas
-Light, Infantry, Fly, Character, Jump Pack, Geminae Superia"
-13,,,"12""",3+,3+,2,2,7,6+,2,4,,,,,,,,
-13,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-13,,,,,,,,,,,,Geminae Power Swords,Melee,Melee,User,8+,8+,
+Light, Infantry, Fly, Character, Jump Pack, Geminae Superia",
+13,,,"12""",3+,3+,2,2,7,6+,2,4,,,,,,,,,
+13,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+13,,,,,,,,,,,,Geminae Power Swords,Melee,Melee,User,8+,8+,,,
 14,Elites,Missionary,"6""",4+,4+,1,1,5,8+,1,3,,,,,,,"War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6"" of any friendly units with this ability.
 Word of the Emperor: Re-roll failed Morale tests taken for Adeptus Ministorum Infantry units whilst within 6"" of any friendly units with this ability.
 Lone Mission: No more than one Missionary unit can be included in each Detachment.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Light, Infantry, Character, Ministorum Priest, Missionary"
-14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,
+Light, Infantry, Character, Ministorum Priest, Missionary",
+14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,,,
 15,Elites,Preacher,"6""",4+,4+,1,1,5,8+,1,3,,,,,,,"War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6"" of any friendly units with this ability.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Light, Infantry, Character, Ministorum Priest, Preacher"
-15,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,
+Light, Infantry, Character, Ministorum Priest, Preacher",
+15,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,,,
 16,Fast,Seraphim Squad,"12""",3+,3+,1,1,6,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Fly, Jump Pack, Seraphim Squad"
-16,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,
-16,,,,,,,,,,,,Twin Bolt Pistols,Small Arms,"12""",x2,7+,9+,
-16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Fly, Jump Pack, Seraphim Squad",
+16,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,,
+16,,,,,,,,,,,,Twin Bolt Pistols,Small Arms,"12""",x2,7+,9+,,,
+16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 17,Fast,Zephyrim Squad,"12""",3+,3+,1,1,7,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Jump Pack, Fly, Zephyrim Squad"
-17,,,"12""",3+,3+,2,2,7,5+,10,10,,,,,,,,
-17,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,
-17,,,,,,,,,,,,Zephyrim Power Swords,Melee,Melee,x3,5+,9+,
+Light, Infantry, Jump Pack, Fly, Zephyrim Squad",
+17,,,"12""",3+,3+,2,2,7,5+,10,10,,,,,,,,,
+17,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
+17,,,,,,,,,,,,Zephyrim Power Swords,Melee,Melee,x3,5+,9+,,,
 18,Fast,Crusaders,"6""",3+,4+,1,1,5,6+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Light, Infantry, Ecclesiarchy Battle Conclave, Crusaders"
-18,,,"6""",3+,4+,2,2,5,6+,4,2,,,,,,,,
-18,,,"6""",3+,4+,3,3,5,6+,6,3,,,,,,,,
-18,,,"6""",3+,4+,4,4,5,6+,8,4,,,,,,,,
-18,,,"6""",3+,4+,5,5,5,6+,10,5,,,,,,,,
-18,,,,,,,,,,,,Crusader Power Swords,Melee,Melee,User,8+,8+,
+Light, Infantry, Ecclesiarchy Battle Conclave, Crusaders",
+18,,,"6""",3+,4+,2,2,5,6+,4,2,,,,,,,,,
+18,,,"6""",3+,4+,3,3,5,6+,6,3,,,,,,,,,
+18,,,"6""",3+,4+,4,4,5,6+,8,4,,,,,,,,,
+18,,,"6""",3+,4+,5,5,5,6+,10,5,,,,,,,,,
+18,,,,,,,,,,,,Crusader Power Swords,Melee,Melee,User,8+,8+,,,
 19,Fast,Death Cult Assassins,"7""",3+,4+,1,1,5,9+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Light, Infantry, Ecclesiarchy Battle Conclave, Death Cult Assassins"
-19,,,"7""",3+,4+,2,2,5,9+,4,2,,,,,,,,
-19,,,"7""",3+,4+,3,3,5,9+,6,3,,,,,,,,
-19,,,"7""",3+,4+,4,4,5,9+,8,4,,,,,,,,
-19,,,"7""",3+,4+,5,5,5,9+,10,5,,,,,,,,
-19,,,,,,,,,,,,Death Cult Power Blades,Melee,Melee,x2,8+,8+,
+Light, Infantry, Ecclesiarchy Battle Conclave, Death Cult Assassins",
+19,,,"7""",3+,4+,2,2,5,9+,4,2,,,,,,,,,
+19,,,"7""",3+,4+,3,3,5,9+,6,3,,,,,,,,,
+19,,,"7""",3+,4+,4,4,5,9+,8,4,,,,,,,,,
+19,,,"7""",3+,4+,5,5,5,9+,10,5,,,,,,,,,
+19,,,,,,,,,,,,Death Cult Power Blades,Melee,Melee,x2,8+,8+,,,
 20,Fast,Arco-flagellants,"6""",4+,-,1,1,5,11+,3,2,,,,,,,"Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.
 Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.","Imperium, Adeptus Ministorum
-Light, Infantry, Ecclesiarchy Battle Conclave, Arco-flagellants"
-20,,,"6""",4+,-,2,1,5,11+,5,3,,,,,,,,
-20,,,"6""",4+,-,4,2,5,11+,10,6,,,,,,,,
-20,,,,,,,,,,,,Arco-flails,Melee,Melee,x2,7+,9+,
+Light, Infantry, Ecclesiarchy Battle Conclave, Arco-flagellants",
+20,,,"6""",4+,-,2,1,5,11+,5,3,,,,,,,,,
+20,,,"6""",4+,-,4,2,5,11+,10,6,,,,,,,,,
+20,,,,,,,,,,,,Arco-flails,Melee,Melee,x2,7+,9+,,,
 21,Heavy,Exorcist,"12""",6+,3+,1,2,5,6+,1,7,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Heavy, Vehicle, Exorcist"
-21,,,,,,,,,,,,,,,,,,"Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",
-21,,,,,,,,,,,,Exorcist Conflagration Rockets,Heavy,"48""",3,6+,9+,
-21,,,,,,,,,,,,Exorcist Missile Launcher,Heavy,"48""",2,8+,5+,
-21,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Exorcist","per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+21,,,,,,,,,,,,,,,,,,"Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",,
+21,,,,,,,,,,,,Exorcist Conflagration Rockets,Heavy,"48""",3,6+,9+,,,
+21,,,,,,,,,,,,Exorcist Missile Launcher,Heavy,"48""",2,8+,5+,,,
+21,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 22,Heavy,Immolator,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Heavy, Vehicle, Transport, Immolator"
-22,,,,,,,,,,,,,,,,,,"Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
-22,,,,,,,,,,,,Immolation Flamer,Heavy,"12""",2,6+,9+,Inferno
-22,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,
-22,,,,,,,,,,,,Twin Multi-melta,Heavy,"24""",2,10+,4+,
-22,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Transport, Immolator","per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+22,,,,,,,,,,,,,,,,,,"Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",,
+22,,,,,,,,,,,,Immolation Flamer,Heavy,"12""",2,6+,9+,Inferno,,
+22,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+22,,,,,,,,,,,,Twin Multi-melta,Heavy,"24""",2,10+,4+,,,
+22,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 23,Heavy,Mortifiers,"9""",3+,3+,1,1,6,7+,1,5,,,,,,,Ignore Damage (6+),"Imperium, Adeptus Ministorum, Adepta Sororitas
-Heavy, Vehicle, Mortifiers"
-23,,,"9""",3+,3+,2,2,6,7+,2,8,,,,,,,,
-23,,,"9""",3+,3+,3,3,6,7+,3,12,,,,,,,,
-23,,,"9""",3+,3+,4,4,6,7+,4,16,,,,,,,,
-23,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",
-23,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-23,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-23,,,,,,,,,,,,Mortifier Weapons,Melee,Melee,x2,5+,7+,
+Heavy, Vehicle, Mortifiers","per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+23,,,"9""",3+,3+,2,2,6,7+,2,8,,,,,,,,,
+23,,,"9""",3+,3+,3,3,6,7+,3,12,,,,,,,,,
+23,,,"9""",3+,3+,4,4,6,7+,4,16,,,,,,,,,
+23,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",,
+23,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+23,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+23,,,,,,,,,,,,Mortifier Weapons,Melee,Melee,x2,5+,7+,,,
 24,Heavy,Penitent Engines,"7""",4+,5+,1,1,6,7+,1,4,,,,,,,"Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Heavy, Vehicle, Penitent Engines"
-24,,,"7""",4+,5+,2,2,6,7+,2,8,,,,,,,,
-24,,,"7""",4+,5+,3,3,6,7+,3,12,,,,,,,,
-24,,,"7""",4+,5+,4,4,6,7+,4,16,,,,,,,,
-24,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with 2 Heavy Flamers.",
-24,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-24,,,,,,,,,,,,Penitent Engine Weapons,Melee,Melee,x2,5+,7+,
+Heavy, Vehicle, Penitent Engines","per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+24,,,"7""",4+,5+,2,2,6,7+,2,8,,,,,,,,,
+24,,,"7""",4+,5+,3,3,6,7+,3,12,,,,,,,,,
+24,,,"7""",4+,5+,4,4,6,7+,4,16,,,,,,,,,
+24,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with 2 Heavy Flamers.",,
+24,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+24,,,,,,,,,,,,Penitent Engine Weapons,Melee,Melee,x2,5+,7+,,,
 25,Heavy,Exorcist,"12""",6+,3+,1,2,5,6+,1,7,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Heavy, Vehicle, Exorcist"
-25,,,,,,,,,,,,,,,,,,"Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",
-25,,,,,,,,,,,,Exorcist Conflagration Rockets,Heavy,"48""",3,6+,9+,
-25,,,,,,,,,,,,Exorcist Missile Launcher,Heavy,"48""",2,8+,5+,
-25,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Exorcist","per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+25,,,,,,,,,,,,,,,,,,"Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",,
+25,,,,,,,,,,,,Exorcist Conflagration Rockets,Heavy,"48""",3,6+,9+,,,
+25,,,,,,,,,,,,Exorcist Missile Launcher,Heavy,"48""",2,8+,5+,,,
+25,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 26,Heavy,Mortifiers,"9""",3+,3+,1,1,6,7+,1,5,,,,,,,Ignore Damage (6+),"Imperium, Adeptus Ministorum, Adepta Sororitas
-Heavy, Vehicle, Mortifiers"
-26,,,"9""",3+,3+,2,2,6,7+,2,8,,,,,,,,
-26,,,"9""",3+,3+,3,3,6,7+,3,12,,,,,,,,
-26,,,"9""",3+,3+,4,4,6,7+,4,16,,,,,,,,
-26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",
-26,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,
-26,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-26,,,,,,,,,,,,Mortifier Weapons,Melee,Melee,x2,5+,7+,
+Heavy, Vehicle, Mortifiers","per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+26,,,"9""",3+,3+,2,2,6,7+,2,8,,,,,,,,,
+26,,,"9""",3+,3+,3,3,6,7+,3,12,,,,,,,,,
+26,,,"9""",3+,3+,4,4,6,7+,4,16,,,,,,,,,
+26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",,
+26,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+26,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+26,,,,,,,,,,,,Mortifier Weapons,Melee,Melee,x2,5+,7+,,,
 27,Lord,Triumph of Saint Katherine,"6""",3+,3+,3,3,7,4+,1,6,,,,,,,"The Fiery Heart: Friendly Adepta Sororitas units automatically pass Morale tests whilst they are within 6"" of this unit.
 Solemn Procession: This unit cannot embark aboard Transports.
 Relics of the Matriarchs: This unit has three relic abilities. In the Damage phase, after making saving throws for this unit, reduce the number of relic abilities this unit has for each damage marker it has. To do so, select one relic ability this unit has; this unit no longer has that relic ability. If damage markers are removed from this unit, select the relevant number of relic abilities for this unit to regain. This unit's relic abilities are as follows:
 • Add 1 to hit rolls for attacks made with melee weapons by friendly Adepta Sororitas units whilst they are within 6"" of this unit.
 • If this unit is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.
 • Once per turn, instead of making a hit roll, wound roll or saving throw for an Adepta Sororitas unit within 6"" of this unit, you can use this ability. That hit roll, wound roll or saving throw is automatically passed (do not roll).","Imperium, Adeptus Ministorum, Adepta Sororitas
-Light, Infantry, Triumph of Saint Katherine"
-27,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",1,7+,9+,
-27,,,,,,,,,,,,Relic Weapons,Melee,Melee,x2,8+,8+,
+Light, Infantry, Triumph of Saint Katherine","per Unit: • Once per turn, instead of making a hit roll, wound roll or saving throw for an Adepta Sororitas unit within 6"" of this unit, you can use this ability."
+27,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",1,7+,9+,,,
+27,,,,,,,,,,,,Relic Weapons,Melee,Melee,x2,8+,8+,,,
 28,Lord,Uriah Jacobus,"6""",3+,3+,1,1,6,8+,1,4,,,,,,,"Banner of Sanctity: Add 1 to the Leadership characteristic of friendly Adeptus Ministorum and Astra Militarum units whilst they are within 6"" of this unit.
 War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6"" of any friendly units with this ability.","Imperium, Adeptus Ministorum
-Light, Infantry, Character, Ministorum Priest, Missionary, Uriah Jacobus"
-28,,,,,,,,,,,,The Redeemer,Small Arms,"24""",1,10+,10+,
-28,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,
+Light, Infantry, Character, Ministorum Priest, Missionary, Uriah Jacobus",
+28,,,,,,,,,,,,The Redeemer,Small Arms,"24""",1,10+,10+,,,
+28,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,,,
 29,Transport,Sororitas Rhino,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Heavy, Vehicle, Transport, Rhino, Sororitas Rhino"
-29,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire
-29,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Transport, Rhino, Sororitas Rhino",
+29,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
+29,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 30,Air,Seraphim Squad,"12""",3+,3+,1,1,6,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Light, Infantry, Fly, Jump Pack, Seraphim Squad"
-30,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,
-30,,,,,,,,,,,,Twin Bolt Pistols,Small Arms,"12""",x2,7+,9+,
-30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+Light, Infantry, Fly, Jump Pack, Seraphim Squad",
+30,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,,
+30,,,,,,,,,,,,Twin Bolt Pistols,Small Arms,"12""",x2,7+,9+,,,
+30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 31,Transport,Immolator,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
-Heavy, Vehicle, Transport, Immolator"
-31,,,,,,,,,,,,,,,,,,"Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
-31,,,,,,,,,,,,Immolation Flamer,Heavy,"12""",2,6+,9+,Inferno
-31,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,
-31,,,,,,,,,,,,Twin Multi-melta,Heavy,"24""",2,10+,4+,
-31,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,
+Heavy, Vehicle, Transport, Immolator","per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+31,,,,,,,,,,,,,,,,,,"Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",,
+31,,,,,,,,,,,,Immolation Flamer,Heavy,"12""",2,6+,9+,Inferno,,
+31,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+31,,,,,,,,,,,,Twin Multi-melta,Heavy,"24""",2,10+,4+,,,
+31,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 32,Lord,Penitent Engines,"7""",4+,5+,1,1,6,7+,1,4,,,,,,,"Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
-Heavy, Vehicle, Penitent Engines"
-32,,,"7""",4+,5+,2,2,6,7+,2,8,,,,,,,,
-32,,,"7""",4+,5+,3,3,6,7+,3,12,,,,,,,,
-32,,,"7""",4+,5+,4,4,6,7+,4,16,,,,,,,,
-32,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with 2 Heavy Flamers.",
-32,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno
-32,,,,,,,,,,,,Penitent Engine Weapons,Melee,Melee,x2,5+,7+,
+Heavy, Vehicle, Penitent Engines","per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+32,,,"7""",4+,5+,2,2,6,7+,2,8,,,,,,,,,
+32,,,"7""",4+,5+,3,3,6,7+,3,12,,,,,,,,,
+32,,,"7""",4+,5+,4,4,6,7+,4,16,,,,,,,,,
+32,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with 2 Heavy Flamers.",,
+32,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
+32,,,,,,,,,,,,Penitent Engine Weapons,Melee,Melee,x2,5+,7+,,,

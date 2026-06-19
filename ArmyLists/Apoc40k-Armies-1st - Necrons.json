@@ -166,7 +166,7 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Wave of Command: If a Light <Dynasty> unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic for that action.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "abilities": "Wave of Command: If a Light <Dynasty> unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic for that action.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -178,7 +178,7 @@
         "Catacomb Command Barge"
       ],
       "options": [
-        "Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        "per Unit: Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
       ],
       "weapons": [
         {
@@ -277,6 +277,7 @@
         "N": "5",
         "Pt": "4"
       },
+      "abilities": "Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -298,7 +299,7 @@
         }
       ],
       "options": [
-        "Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines."
+        "per Unit: Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines."
       ],
       "weapons": [
         {
@@ -343,7 +344,7 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.",
+      "abilities": "Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nInstead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields. If this unit has Dispersion Shields, it has a Save characteristic of 4+.",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -365,7 +366,7 @@
         }
       ],
       "options": [
-        "Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields. If this unit has Dispersion Shields, it has a Save characteristic of 4+."
+        "per Unit: Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields."
       ],
       "weapons": [
         {
@@ -526,7 +527,7 @@
         "N": "5",
         "Pt": "8"
       },
-      "abilities": "A Purpose Unshakable: Morale tests taken for this unit are automatically passed.",
+      "abilities": "A Purpose Unshakable: Morale tests taken for this unit are automatically passed.\nInstead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades.",
       "keywords": [
         "Necrons",
         "Light",
@@ -548,7 +549,7 @@
         }
       ],
       "options": [
-        "Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades."
+        "per Unit: Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades."
       ],
       "weapons": [
         {
@@ -642,7 +643,7 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "Wraith Form: This unit can move across models and terrain as if they were not there.",
+      "abilities": "Wraith Form: This unit can move across models and terrain as if they were not there.\nFor each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.",
       "keywords": [
         "Necrons",
         "Canoptek",
@@ -665,7 +666,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer."
+        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer."
       ],
       "weapons": [
         {
@@ -788,7 +789,7 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "Stealth",
+      "abilities": "Stealth\nInstead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -822,7 +823,7 @@
         }
       ],
       "options": [
-        "Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines."
+        "per Unit: Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines."
       ],
       "weapons": [
         {
@@ -1001,7 +1002,7 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nFor every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -1035,7 +1036,7 @@
         }
       ],
       "options": [
-        "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
+        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {
@@ -1079,7 +1080,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.",
+      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.\nFor each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
       "keywords": [
         "Necrons",
         "Canoptek",
@@ -1114,7 +1115,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
+        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {
@@ -1150,7 +1151,7 @@
         "N": "1",
         "Pt": "11"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -1160,7 +1161,7 @@
         "Annihilation Barge"
       ],
       "options": [
-        "Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        "per Unit: Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
       ],
       "weapons": [
         {
@@ -1265,7 +1266,7 @@
         "N": "1",
         "Pt": "11"
       },
-      "abilities": "Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.\nTargeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.",
+      "abilities": "Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.\nTargeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.\nInstead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).",
       "keywords": [
         "Necrons",
         "Heavy",
@@ -1273,7 +1274,7 @@
         "Triarch Stalker"
       ],
       "options": [
-        "Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1)."
+        "per Unit (Power Rating +1): Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1)."
       ],
       "weapons": [
         {
@@ -1401,7 +1402,7 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nFor every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
       "keywords": [
         "Necrons",
         "<Dynasty>",
@@ -1435,7 +1436,7 @@
         }
       ],
       "options": [
-        "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
+        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {
@@ -1479,7 +1480,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.",
+      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.\nFor each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
       "keywords": [
         "Necrons",
         "Canoptek",
@@ -1514,7 +1515,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
+        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {

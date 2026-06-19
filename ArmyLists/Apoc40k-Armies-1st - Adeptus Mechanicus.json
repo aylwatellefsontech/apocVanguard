@@ -109,7 +109,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nInstead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -122,7 +122,7 @@
         "Manipulus"
       ],
       "options": [
-        "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
+        "per Unit: Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
       ],
       "weapons": [
         {
@@ -205,7 +205,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.\nFor each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -240,8 +240,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
-        "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
+        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {
@@ -407,6 +407,7 @@
         "N": "3",
         "Pt": "6"
       },
+      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -452,7 +453,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
       ],
       "weapons": [
         {
@@ -496,6 +497,7 @@
         "N": "3",
         "Pt": "7"
       },
+      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.\nFor each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -541,8 +543,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
-        "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
       ],
       "weapons": [
         {
@@ -605,7 +607,7 @@
         "N": "4",
         "Pt": "2"
       },
-      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.",
+      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.\nThis unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -615,7 +617,7 @@
         "Servitors"
       ],
       "options": [
-        "This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon."
+        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon."
       ],
       "weapons": [
         {
@@ -762,7 +764,7 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops",
+      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -786,7 +788,7 @@
         }
       ],
       "options": [
-        "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        "per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
       ],
       "weapons": [
         {
@@ -982,7 +984,7 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1017,8 +1019,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
       ],
       "weapons": [
         {
@@ -1071,7 +1073,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1106,7 +1108,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
       ],
       "weapons": [
         {
@@ -1150,7 +1152,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.\nFor each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1185,8 +1187,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
-        "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
+        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
       ],
       "weapons": [
         {
@@ -1239,7 +1241,7 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops",
+      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1263,7 +1265,7 @@
         }
       ],
       "options": [
-        "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        "per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
       ],
       "weapons": [
         {
@@ -1379,7 +1381,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.\nThis unit can also be equipped with 1 Cognis Heavy Stubber.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1390,8 +1392,8 @@
         "Onager Dunecrawler"
       ],
       "options": [
-        "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
-        "This unit can also be equipped with 1 Cognis Heavy Stubber."
+        "per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
+        "per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
       ],
       "weapons": [
         {
@@ -1461,7 +1463,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1472,7 +1474,7 @@
         "Skorpius Disintegrator"
       ],
       "options": [
-        "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
+        "per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
       ],
       "weapons": [
         {
@@ -1533,7 +1535,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1568,7 +1570,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
       ],
       "weapons": [
         {
@@ -1612,7 +1614,7 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1647,8 +1649,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
       ],
       "weapons": [
         {
@@ -1701,6 +1703,7 @@
         "N": "3",
         "Pt": "6"
       },
+      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1746,7 +1749,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
       ],
       "weapons": [
         {
@@ -1790,6 +1793,7 @@
         "N": "3",
         "Pt": "7"
       },
+      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.\nFor each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1835,8 +1839,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
-        "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
       ],
       "weapons": [
         {
@@ -1945,7 +1949,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.\nThis unit can also be equipped with 1 Cognis Heavy Stubber.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1956,8 +1960,8 @@
         "Onager Dunecrawler"
       ],
       "options": [
-        "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
-        "This unit can also be equipped with 1 Cognis Heavy Stubber."
+        "per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
+        "per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
       ],
       "weapons": [
         {
@@ -2080,7 +2084,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2115,7 +2119,7 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
       ],
       "weapons": [
         {
@@ -2159,7 +2163,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2170,7 +2174,7 @@
         "Skorpius Disintegrator"
       ],
       "options": [
-        "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
+        "per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
       ],
       "weapons": [
         {
@@ -2231,7 +2235,7 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2266,8 +2270,8 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
+        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
       ],
       "weapons": [
         {

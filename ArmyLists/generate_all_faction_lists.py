@@ -5,11 +5,13 @@ import csv
 import json
 from pathlib import Path
 
+from army_list_options import format_options_from_texts
+
 OUTPUT_DIR = Path(__file__).resolve().parent
 
 CSV_HEADER = [
     "No", "Type", "Name", "M", "WS", "BS", "A", "W", "Ld", "Sv", "N", "Pt",
-    "Weapon", "Type", "Rng", "A", "SAP", "SAT", "Abilties", "Keywords",
+    "Weapon", "Type", "Rng", "A", "SAP", "SAT", "Abilties", "Keywords", "Options",
 ]
 
 
@@ -64,13 +66,14 @@ def write_csv(path, units_by_slot):
         abilities = unit.get("abilities", "")
         keywords = unit.get("keywords", [])
         ab_col, kw_col = format_keywords_field(abilities, keywords)
+        options_col = format_options_from_texts(unit.get("options", []))
 
         rows.append([
             no, slot["type"], unit["name"],
             stats.get("M", ""), stats.get("WS", ""), stats.get("BS", ""),
             stats.get("A", ""), stats.get("W", ""), stats.get("Ld", ""),
             stats.get("Sv", ""), stats.get("N", ""), stats.get("Pt", ""),
-            "", "", "", "", "", "", ab_col, kw_col,
+            "", "", "", "", "", "", ab_col, kw_col, options_col,
         ])
 
         for profile in unit.get("profiles", []):
@@ -79,18 +82,18 @@ def write_csv(path, units_by_slot):
                 profile.get("M", ""), profile.get("WS", ""), profile.get("BS", ""),
                 profile.get("A", ""), profile.get("W", ""), profile.get("Ld", ""),
                 profile.get("Sv", ""), profile.get("N", ""), profile.get("Pt", ""),
-                "", "", "", "", "", "", "", "",
+                "", "", "", "", "", "", "", "", "",
             ])
 
         for opt in unit.get("options", []):
-            rows.append([no] + [""] * 17 + [opt, ""])
+            rows.append([no] + [""] * 17 + [opt, "", ""])
 
         for w in unit.get("weapons", []):
             rows.append([
                 no, "", "", "", "", "", "", "", "", "", "", "",
                 w.get("name", ""), w.get("type", ""), w.get("range", ""),
                 w.get("attacks", ""), w.get("skill", ""), w.get("armorPen", ""),
-                w.get("abilities", ""),
+                w.get("abilities", ""), "", "",
             ])
 
     with open(path, "w", newline="", encoding="utf-8") as f:
