@@ -14,7 +14,7 @@ When a unit loses ½ its life, reduce the number of models in its unit by ½, ro
 
 # Tactic Deck Construction
 
-Each player creates a deck of 20 cards \- 10 of those cards should be the ‘base card’ set.  The other 10 can come from the extra cards, psychics cards, or from that particular faction’s special cards.
+Each player creates a deck of 16 cards \- 8 of those cards should be the ‘base card’ set.  The other 8 can come from the extra cards, psychics cards, or from that particular faction’s special cards.
 
 # Relaxed Construction
 
