@@ -12,4 +12,5 @@ export const TYPE_ORDER = [
 ]
 
 export const SAVED_ARMIES_KEY = '40kvanguard-saved-armies'
+export const HANDS_KEY = '40kvanguard-hands'
 export const MAX_SAVED_ARMIES = 5

@@ -1,9 +1,11 @@
 import { useMemo, useState } from 'react'
 import ArmyCardEntry from '../components/ArmyCardEntry.jsx'
 import ArmyRosterEntry from '../components/ArmyRosterEntry.jsx'
+import HandModal from '../components/HandModal.jsx'
 import { MAX_SAVED_ARMIES } from '../constants.js'
 import { useArmy } from '../hooks/useFactions.js'
 import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage.js'
+import { sortRosterByType } from '../utils/units.js'
 
 function formatUpdatedAt(iso) {
   if (!iso) return ''
@@ -26,6 +28,7 @@ export default function ViewArmiesPage({ onEditArmy }) {
   const [expandedEntryIds, setExpandedEntryIds] = useState(() => new Set())
   const [expandedCardIds, setExpandedCardIds] = useState(() => new Set())
   const [viewMode, setViewMode] = useState('army')
+  const [handModalOpen, setHandModalOpen] = useState(false)
 
   const VIEW_CYCLE = ['army', 'cards', 'all']
   const VIEW_LABELS = {
@@ -64,6 +67,10 @@ export default function ViewArmiesPage({ onEditArmy }) {
   const hasCards = armyCards.length > 0
   const showArmySection = viewMode === 'army' || viewMode === 'all'
   const showCardsSection = viewMode === 'cards' || viewMode === 'all'
+  const sortedRoster = useMemo(
+    () => (selectedArmy ? sortRosterByType(selectedArmy.roster) : []),
+    [selectedArmy],
+  )
 
   function nextViewMode(mode) {
     const index = VIEW_CYCLE.indexOf(mode)
@@ -239,6 +246,14 @@ export default function ViewArmiesPage({ onEditArmy }) {
                   <button
                     type="button"
                     className="secondary-btn"
+                    disabled={!hasCards}
+                    onClick={() => setHandModalOpen(true)}
+                  >
+                    Hand Draw
+                  </button>
+                  <button
+                    type="button"
+                    className="secondary-btn"
                     onClick={handleCycleViewMode}
                   >
                     {VIEW_LABELS[nextViewMode(viewMode)]}
@@ -271,7 +286,7 @@ export default function ViewArmiesPage({ onEditArmy }) {
                         <p className="muted panel-message">This army has no units.</p>
                       ) : (
                         <ul className="roster-list army-roster-list">
-                          {selectedArmy.roster.map((entry) => (
+                          {sortedRoster.map((entry) => (
                             <ArmyRosterEntry
                               key={entry.id}
                               entry={entry}
@@ -315,6 +330,10 @@ export default function ViewArmiesPage({ onEditArmy }) {
           )}
         </section>
       </div>
+
+      {handModalOpen && selectedArmy && (
+        <HandModal army={selectedArmy} onClose={() => setHandModalOpen(false)} />
+      )}
     </>
   )
 }

@@ -1,4 +1,4 @@
-export default function CardDetail({ card, emptyMessage = 'Select a card to view its details.' }) {
+export default function CardDetail({ card, emptyMessage = 'Select a card to view its details.', headerAction = null }) {
   if (!card) {
     return (
       <div className="unit-detail empty">
@@ -9,9 +9,16 @@ export default function CardDetail({ card, emptyMessage = 'Select a card to view
 
   return (
     <div className="unit-detail card-detail">
-      <header className="unit-detail-header">
+      <header
+        className={
+          headerAction ? 'unit-detail-header has-header-action' : 'unit-detail-header'
+        }
+      >
         <span className="unit-type">{card.type}</span>
-        <h2>{card.name}</h2>
+        <div className="card-detail-title-block">
+          <h2>{card.name}</h2>
+          {headerAction && <div className="card-header-action">{headerAction}</div>}
+        </div>
         <span className="unit-no">
           {card.set}-{card.nm}
         </span>

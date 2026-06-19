@@ -15,7 +15,7 @@ import {
   toggleRosterOption,
 } from '../utils/armyStorage.js'
 import { summarizeOption } from '../utils/formatOption.js'
-import { getProfileStatsForEntry, groupUnitsByType } from '../utils/units.js'
+import { getProfileStatsForEntry, groupUnitsByType, sortRosterByType } from '../utils/units.js'
 
 export default function BuildArmyPage({ initialArmy = null }) {
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
@@ -134,6 +134,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
   )
 
   const totalPoints = roster.reduce((sum, entry) => sum + entry.points, 0)
+  const sortedRoster = useMemo(() => sortRosterByType(roster), [roster])
   const error = factionsError || armyError || cardsError
   const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
 
@@ -517,7 +518,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
             <>
               {roster.length > 0 && (
                 <ul className="roster-list">
-                  {roster.map((entry) => (
+                  {sortedRoster.map((entry) => (
                     <RosterEntrySummary
                       key={entry.id}
                       entry={entry}

@@ -49,6 +49,19 @@ export function groupUnitsByType(units) {
   return orderedTypes.map((type) => [type, groups.get(type)])
 }
 
+export function sortRosterByType(roster) {
+  const typeRank = new Map(TYPE_ORDER.map((type, index) => [type, index]))
+
+  return [...roster].sort((a, b) => {
+    const rankA = typeRank.get(a.unitType) ?? TYPE_ORDER.length
+    const rankB = typeRank.get(b.unitType) ?? TYPE_ORDER.length
+    if (rankA !== rankB) {
+      return rankA - rankB
+    }
+    return a.unitName.localeCompare(b.unitName)
+  })
+}
+
 export function getProfileStatsForEntry(unit, entry) {
   if (!unit || !entry) {
     return null
