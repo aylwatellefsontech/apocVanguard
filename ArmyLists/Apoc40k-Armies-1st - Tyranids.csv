@@ -1,0 +1,239 @@
+No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords,Options
+,,,,,,,,,,,,,,,,,,,,
+1,HQ,Hive Tyrant,"9""",2+,3+,1,2,8,5+,1,9,,,,,,,"The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Psyker, Character, Synapse Creature, Hive Tyrant","per Unit: Instead of 1 Monstrous Scything Talons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons.; per Unit: Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons; Monstrous Scything Talons; Stranglethorn Cannon.; per Unit (Power Rating +2): This unit can have Wings (Power Rating +2)"
+1,,,,,,,,,,,,,,,,,,A Hive Tyrant is a unit that contains 1 model. It is equipped with: Heavy Venom Cannon; Monstrous Scything Talons; Prehensile Pincer Tail.,,
+1,,,,,,,,,,,,,,,,,,"Instead of 1 Monstrous Scything Talons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons.",,
+1,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons; Monstrous Scything Talons; Stranglethorn Cannon.",,
+1,,,,,,,,,,,,,,,,,,"This unit can have Wings (Power Rating +2). If this unit has Wings, it:",,
+1,,,,,,,,,,,,,,,,,,"- Has a Move characteristic of 16"".",,
+1,,,,,,,,,,,,,,,,,,- Has the following additional abilities: Deep Strike.,,
+1,,,,,,,,,,,,,,,,,,- Has the following additional keywords: Fly.,,
+1,,,,,,,,,,,,Deathspitters with Slimer Maggots,Heavy,"24""",2,5+,8+,,,
+1,,,,,,,,,,,,Devourers with Brainleech Worms,Heavy,"18""",3,6+,9+,,,
+1,,,,,,,,,,,,Stranglethorn Cannon,Heavy,"36""",1,4+,8+,,,
+1,,,,,,,,,,,,Heavy Venom Cannon,Heavy,"36""",1,8+,4+,,,
+1,,,,,,,,,,,,Monstrous Bio-weapons,Melee,Melee,x2,6+,7+,,,
+1,,,,,,,,,,,,Prehensile Pincer Tail,Melee,Melee,User,8+,8+,,,
+1,,,,,,,,,,,,Monstrous Scything Talons,Melee,Melee,User,5+,6+,,,
+2,HQ,Tyranid Prime,"6""",2+,3+,1,1,8,6+,1,6,,,,,,,"Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warrior units whilst they are within 6"" of any friendly units with this ability.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Character, Synapse Creature, Tyranid Prime",
+2,,,,,,,,,,,,,,,,,,A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.,,
+2,,,,,,,,,,,,Ranged Bio-weapons,Small Arms,"24""",User,7+,9+,,,
+2,,,,,,,,,,,,Melee Bio-weapons,Melee,Melee,User,7+,7+,,,
+3,HQ,Broodlord,"9""",2+,-,2,1,8,7+,1,6,,,,,,,"Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Hive Fleet> Genestealer units whilst they are within 6"" of any friendly <Hive Fleet> units with this ability.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Psyker, Character, Genestealer, Synapse Creature, Broodlord",
+3,,,,,,,,,,,,,,,,,,A Broodlord is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws.,,
+3,,,,,,,,,,,,Monstrous Rending Claws,Melee,Melee,User,4+,7+,,,
+4,Lord,The Swarmlord,"9""",2+,3+,2,2,8,5+,1,12,,,,,,,"The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
+Hive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18"" of this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Psyker, Character, Synapse Creature, Hive Tyrant, The Swarmlord",
+4,,,,,,,,,,,,,,,,,,The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.,,
+4,,,,,,,,,,,,Bone Sabres,Melee,Melee,x2,6+,6+,Destroyer,,
+4,,,,,,,,,,,,Prehensile Pincer Tail,Melee,Melee,User,8+,8+,,,
+5,Troops,Termagants,"6""",4+,4+,2,2,4,10+,10,2,,,,,,,"Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Termagants","per 20 models (Power Rating 4): It can contain 20 models (Power Rating 4); per 30 models (Power Rating 7): 30 models (Power Rating 7); per 10 models (Power Rating +1 for each 10 models this unit contains): Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).; per 10 models (Power Rating +2 for each 10 models this unit contains): Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains)."
+5,,,"6""",4+,4+,4,4,4,10+,20,4,,,,,,,,,
+5,,,"6""",4+,4+,6,6,4,10+,30,7,,,,,,,,,
+5,,,,,,,,,,,,,,,,,,Termagants are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Fleshborers; Termagant Melee Weapons.,,
+5,,,,,,,,,,,,,,,,,,"Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).",,
+5,,,,,,,,,,,,,,,,,,"Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains).",,
+5,,,,,,,,,,,,Fleshborers,Small Arms,"12""",User,7+,9+,,,
+5,,,,,,,,,,,,Spinefists,Small Arms,"12""",x2,8+,10+,,,
+5,,,,,,,,,,,,Devourers,Small Arms,"18""",x3,7+,9+,,,
+5,,,,,,,,,,,,Termagant Melee Weapons,Melee,Melee,User,8+,10+,,,
+6,Troops,Hormagaunts,"9""",4+,4+,2,2,4,10+,10,2,,,,,,,"Hungering Swarm: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Hormagaunts",per 20 models (Power Rating 4): It can contain 20 models (Power Rating 4); per 30 models (Power Rating 7): 30 models (Power Rating 7)
+6,,,"9""",4+,4+,4,4,4,10+,20,4,,,,,,,,,
+6,,,"9""",4+,4+,6,6,4,10+,30,7,,,,,,,,,
+6,,,,,,,,,,,,,,,,,,Hormagaunts are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Scything Talons.,,
+6,,,,,,,,,,,,Scything Talons,Melee,Melee,x2,7+,9+,,,
+7,Troops,Ripper Swarms,"6""",5+,5+,2,2,4,11+,3,2,,,,,,,Deep Strike,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Swarm, Rippers",per 6 models (Power Rating 4): It can contain 6 models (Power Rating 4); per 9 models (Power Rating 6): 9 models (Power Rating 6)
+7,,,"6""",5+,5+,4,4,4,11+,6,4,,,,,,,,,
+7,,,"6""",5+,5+,6,6,4,11+,9,6,,,,,,,,,
+7,,,,,,,,,,,,,,,,,,Ripper Swarms are a unit that contains 3 models. It can contain 6 models (Power Rating 4) or 9 models (Power Rating 6). It is equipped with: Claws & Teeth.,,
+7,,,,,,,,,,,,Claws & Teeth,Melee,Melee,User,8+,10+,,,
+8,Elites,Tyranid Warriors,"6""",3+,4+,2,2,7,8+,3,4,,,,,,,,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Synapse Creature, Tyranid Warriors","per 6 models (Power Rating 8): It can contain 6 models (Power Rating 8); per 9 models (Power Rating 12): 9 models (Power Rating 12); per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon."
+8,,,"6""",3+,4+,4,4,7,8+,6,8,,,,,,,,,
+8,,,"6""",3+,4+,6,6,7,8+,9,12,,,,,,,,,
+8,,,,,,,,,,,,,,,,,,Tyranid Warriors are a unit that contains 3 models. It can contain 6 models (Power Rating 8) or 9 models (Power Rating 12). It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.,,
+8,,,,,,,,,,,,,,,,,,"For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon.",,
+8,,,,,,,,,,,,Barbed Strangler,Heavy,"36""",1,7+,9+,,,
+8,,,,,,,,,,,,Venom Cannon,Heavy,"36""",1,9+,7+,,,
+8,,,,,,,,,,,,Ranged Bio-weapons,Small Arms,"24""",User,7+,9+,,,
+8,,,,,,,,,,,,Melee Bio-weapons,Melee,Melee,User,7+,7+,,,
+9,Elites,Genestealers,"9""",3+,4+,1,1,7,9+,5,5,,,,,,,Infiltrators,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Genestealers","per 15 models (Power Rating 9): It can contain 10 models (Power Rating 9), 15 models (Power Rating 13); per 15 models (Power Rating 13): It can contain 10 models (Power Rating 9), 15 models (Power Rating 13); per 20 models (Power Rating 17): 20 models (Power Rating 17)"
+9,,,"9""",3+,4+,2,2,7,9+,10,9,,,,,,,,,
+9,,,"9""",3+,4+,4,3,7,9+,15,13,,,,,,,,,
+9,,,"9""",3+,4+,5,4,7,9+,20,17,,,,,,,,,
+9,,,,,,,,,,,,,,,,,,"Genestealers are a unit that contains 5 models. It can contain 10 models (Power Rating 9), 15 models (Power Rating 13) or 20 models (Power Rating 17). It is equipped with: Genestealer Melee Weapons.",,
+9,,,,,,,,,,,,Genestealer Melee Weapons,Melee,Melee,x3,6+,8+,,,
+10,Elites,Zoanthropes,"5""",4+,3+,1,2,7,6+,3,5,,,,,,,"Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Fly, Psyker, Synapse Creature, Zoanthropes",per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10)
+10,,,"5""",4+,3+,2,4,7,6+,6,10,,,,,,,,,
+10,,,,,,,,,,,,,,,,,,Zoanthropes are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Warp Blast; Zoanthrope Melee Weapons.,,
+10,,,,,,,,,,,,Warp Blast,Small Arms,"24""",User,4+,4+,Witchfire,,
+10,,,,,,,,,,,,Zoanthrope Melee Weapons,Melee,Melee,User,10+,10+,,,
+11,Elites,Lictor,"9""",2+,4+,1,1,7,10+,1,3,,,,,,,"Deep Strike, Stealth","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Lictor",
+11,,,,,,,,,,,,,,,,,,A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons.,,
+11,,,,,,,,,,,,Flesh Hooks,Small Arms,"6""",User,8+,9+,,,
+11,,,,,,,,,,,,Grasping Talons,Melee,Melee,User,6+,8+,,,
+12,Elites,Deathleaper,"9""",2+,4+,1,1,8,10+,1,4,,,,,,,"Deep Strike, Stealth, Terror Troops","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Character, Lictor, Deathleaper",
+12,,,,,,,,,,,,,,,,,,Deathleaper is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons. You can only include one of this unit in your army.,,
+12,,,,,,,,,,,,Flesh Hooks,Small Arms,"6""",User,8+,9+,,,
+12,,,,,,,,,,,,Grasping Talons,Melee,Melee,User,6+,8+,,,
+13,Elites,Tyrant Guard,"7""",3+,4+,2,2,4,6+,3,5,,,,,,,"Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Tyrant Guard",per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10)
+13,,,"7""",3+,4+,4,4,4,6+,6,10,,,,,,,,,
+13,,,,,,,,,,,,,,,,,,Tyrant Guard are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Tyrant Guard Melee Weapons.,,
+13,,,,,,,,,,,,Tyrant Guard Melee Weapons,Melee,Melee,x2,4+,8+,,,
+14,Elites,Hive Guard,"5""",4+,3+,1,2,5,8+,3,5,,,,,,,,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Hive Guard","per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10); per Unit: Instead of Impaler Cannons, this unit can be equipped with Shockcannons."
+14,,,"5""",4+,3+,2,4,5,8+,6,10,,,,,,,,,
+14,,,,,,,,,,,,,,,,,,Hive Guard are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Impaler Cannons; Forelimbs.,,
+14,,,,,,,,,,,,,,,,,,"Instead of Impaler Cannons, this unit can be equipped with Shockcannons.",,
+14,,,,,,,,,,,,Impaler Cannons,Small Arms,"36""",User,4+,7+,Barrage,,
+14,,,,,,,,,,,,Shockcannons,Small Arms,"24""",User,7+,5+,,,
+14,,,,,,,,,,,,Forelimbs,Melee,Melee,User,9+,9+,,,
+15,Elites,Venomthropes,"5""",4+,4+,1,2,4,10+,3,4,,,,,,,"Shrouding Spores: Friendly Light <Hive Fleet> and Heavy <Hive Fleet> units have the Stealth ability whilst they are within 6"" of this unit. If this unit contains 6 models, the range of this ability is increased by 3"".
+Toxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6"" of any enemy units with this ability; on a 6 place one blast marker next to the unit being rolled for.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Fly, Venomthropes",per 6 models (Power Rating 8): It can contain 6 models (Power Rating 8)
+15,,,"5""",4+,4+,2,4,4,10+,6,8,,,,,,,,,
+15,,,,,,,,,,,,,,,,,,Venomthropes are a unit that contains 3 models. It can contain 6 models (Power Rating 8). It is equipped with: Toxic Lashes (Ranged); Toxic Lashes (Melee).,,
+15,,,,,,,,,,,,Toxic Lashes (Ranged),Small Arms,"6""",User,5+,9+,,,
+15,,,,,,,,,,,,Toxic Lashes (Melee),Melee,Melee,x2,5+,9+,,,
+16,Elites,Neurothrope,"5""",4+,3+,1,1,7,6+,1,5,,,,,,,"Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Fly, Psyker, Character, Infantry, Zoanthrope, Synapse Creature, Neurothrope",
+16,,,,,,,,,,,,,,,,,,A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth.,,
+16,,,,,,,,,,,,Spirit Leech,Small Arms,"18""",User,8+,8+,Witchfire,,
+16,,,,,,,,,,,,Claws & Teeth,Melee,Melee,User,8+,10+,,,
+17,Fast,Gargoyles,"12""",4+,4+,2,2,4,10+,10,4,,,,,,,"Deep Strike
+Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Fly, Gargoyles",per 20 models (Power Rating 8): It can contain 20 models (Power Rating 8); per 30 models (Power Rating 12): 30 models (Power Rating 12)
+17,,,"12""",4+,4+,4,4,4,10+,20,8,,,,,,,,,
+17,,,"12""",4+,4+,6,6,4,10+,30,12,,,,,,,,,
+17,,,,,,,,,,,,,,,,,,Gargoyles are a unit that contains 10 models. It can contain 20 models (Power Rating 8) or 30 models (Power Rating 12). It is equipped with: Fleshborers; Blinding Venom.,,
+17,,,,,,,,,,,,Fleshborers,Small Arms,"12""",User,7+,9+,,,
+17,,,,,,,,,,,,Blinding Venom,Melee,Melee,User,7+,9+,,,
+18,Fast,Raveners,"12""",3+,4+,1,2,4,10+,3,5,,,,,,,Deep Strike,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Raveners",per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10); per 9 models (Power Rating 15): 9 models (Power Rating 15)
+18,,,"12""",3+,4+,2,4,4,10+,6,10,,,,,,,,,
+18,,,"12""",3+,4+,3,6,4,10+,9,15,,,,,,,,,
+18,,,,,,,,,,,,,,,,,,Raveners are a unit that contains 3 models. It can contain 6 models (Power Rating 10) or 9 models (Power Rating 15). It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons.,,
+18,,,,,,,,,,,,Ravener Ranged Weapons,Small Arms,"18""",User,7+,9+,,,
+18,,,,,,,,,,,,Ravener Melee Weapons,Melee,Melee,x2,6+,8+,,,
+19,Fast,The Red Terror,"12""",3+,4+,1,1,5,8+,1,5,,,,,,,"Deep Strike
+Feeding Frenzy: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Ravener units whilst they are within 6"" of this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Character, Ravener, The Red Terror",
+19,,,,,,,,,,,,,,,,,,The Red Terror is a unit that contains 1 model. It is equipped with: Prehensile Pincer Tail; Scything Talons. You can only include one of this unit in your army.,,
+19,,,,,,,,,,,,Prehensile Pincer Tail,Melee,Melee,User,8+,8+,,,
+19,,,,,,,,,,,,Scything Talons,Melee,Melee,x2,7+,9+,,,
+20,Fast,Spore Mines,"3""",-,-,-,1,8,12+,3,2,,,,,,,"Deep Strike
+Living Bombs: Morale tests taken for this unit are automatically passed.
+Floating Death: After a Move action (made by any unit), if this unit is within 3"" of an enemy unit, roll one D6 for each model in this unit. For each 3+ place one blast marker next to the closest enemy unit. Then, this unit is destroyed.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Fly, Spore Mines",per 6 models (Power Rating 4): It can contain 6 models (Power Rating 4); per 9 models (Power Rating 6): 9 models (Power Rating 6).
+20,,,"3""",-,-,-,2,8,12+,6,4,,,,,,,,,
+20,,,"3""",-,-,-,3,8,12+,9,6,,,,,,,,,
+20,,,,,,,,,,,,,,,,,,Spore Mines are a unit that contains 3 models. It can contain 6 models (Power Rating 4) or 9 models (Power Rating 6).,,
+21,Heavy,Carnifex,"7""",3+,4+,2,2,4,6+,1,5,,,,,,,"Chitin Thorns: At the end of the Action phase, roll a D6 for each unit within 6"" of any enemy units with Chitin Thorns; on a 6 place one blast marker next to the unit being rolled for.
+Monstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Carnifex","per Unit: Instead of Carnifex Melee Weapons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms.; per Unit: Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Carnifex Melee Weapons; Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Stranglethorn Cannon.; per Unit (Power Rating +1): This unit can also be equipped with Spine Banks (Power Rating +1).; per Unit (Power Rating +1): This unit can have Enhanced Senses (Power Rating +1); per Unit (Power Rating +1): This unit can have Chitin Thorns (Power Rating +1)"
+21,,,,,,,,,,,,,,,,,,A Carnifex is a unit that contains 1 model. It is equipped with: Heavy Venom Cannon; Carnifex Jaws; Carnifex Melee Weapons.,,
+21,,,,,,,,,,,,,,,,,,"Instead of Carnifex Melee Weapons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms.",,
+21,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Carnifex Melee Weapons; Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Stranglethorn Cannon.",,
+21,,,,,,,,,,,,,,,,,,This unit can also be equipped with Spine Banks (Power Rating +1).,,
+21,,,,,,,,,,,,,,,,,,"This unit can have Enhanced Senses (Power Rating +1). If this unit has Enhanced Senses, it has a Ballistic Skill of 3+.",,
+21,,,,,,,,,,,,,,,,,,"This unit can have Chitin Thorns (Power Rating +1). If this unit has Chitin Thorns, it has the following additional abilities: Chitin Thorns.",,
+21,,,,,,,,,,,,Deathspitters with Slimer Maggots,Heavy,"24""",2,5+,8+,,,
+21,,,,,,,,,,,,Devourers with Brainleech Worms,Heavy,"18""",3,6+,9+,,,
+21,,,,,,,,,,,,Heavy Venom Cannon,Heavy,"36""",1,8+,4+,,,
+21,,,,,,,,,,,,Spine Banks,Heavy,"6""",1,7+,9+,,,
+21,,,,,,,,,,,,Stranglethorn Cannon,Heavy,"36""",1,4+,8+,,,
+21,,,,,,,,,,,,Carnifex Jaws,Melee,Melee,User,11+,11+,,,
+21,,,,,,,,,,,,Carnifex Melee Weapons,Melee,Melee,User,6+,5+,,,
+22,Heavy,Exocrine,"6""",4+,4+,1,3,4,6+,1,10,,,,,,,"Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Bio-plasmic Cannon for that action.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Exocrine",
+22,,,,,,,,,,,,,,,,,,An Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs.,,
+22,,,,,,,,,,,,Bio-plasmic Cannon,Heavy,"36""",3,4+,6+,,,
+22,,,,,,,,,,,,Powerful Limbs,Melee,Melee,User,8+,8+,,,
+23,Heavy,Tyrannofex,"6""",4+,4+,1,3,5,6+,1,11,,,,,,,"Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Acid Spray, Fleshborer Hive, Rupture Cannon and Stinger Salvo for that action.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Tyrannofex","per Unit: Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 Fleshborer Hive; 1 Rupture Cannon."
+23,,,,,,,,,,,,,,,,,,A Tyrannofex is a unit that contains 1 model. It is equipped with: Acid Spray; Stinger Salvo; Powerful Limbs.,,
+23,,,,,,,,,,,,,,,,,,"Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 Fleshborer Hive; 1 Rupture Cannon.",,
+23,,,,,,,,,,,,Acid Spray,Heavy,"18""",2,5+,8+,Inferno,,
+23,,,,,,,,,,,,Fleshborer Hive,Heavy,"18""",5,4+,9+,,,
+23,,,,,,,,,,,,Rupture Cannon,Heavy,"48""",3,9+,4+,,,
+23,,,,,,,,,,,,Stinger Salvo,Heavy,"24""",1,7+,9+,,,
+23,,,,,,,,,,,,Powerful Limbs,Melee,Melee,User,8+,8+,,,
+24,Heavy,Biovores,"5""",4+,4+,1,1,4,8+,1,2,,,,,,,,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Light, Infantry, Biovores",per 2 models (Power Rating 4): It can contain 2 models (Power Rating 4); per 3 models (Power Rating 6): 3 models (Power Rating 6)
+24,,,"5""",4+,4+,2,2,4,8+,2,4,,,,,,,,,
+24,,,"5""",4+,4+,3,3,4,8+,3,6,,,,,,,,,
+24,,,,,,,,,,,,,,,,,,Biovores are a unit that contains 1 model. It can contain 2 models (Power Rating 4) or 3 models (Power Rating 6). It is equipped with: Spore Mine Launcher; Close Combat Weapons.,,
+24,,,,,,,,,,,,Spore Mine Launcher,Small Arms,"48""",User,6+,6+,Barrage,,
+24,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+25,Heavy,Toxicrene,"8""",3+,4+,1,3,5,6+,1,8,,,,,,,"Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6"" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.
+Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Toxicrene",
+25,,,,,,,,,,,,,,,,,,A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee).,,
+25,,,,,,,,,,,,Choking Spores,Small Arms,"12""",User,6+,9+,,,
+25,,,,,,,,,,,,Massive Toxic Lashes (Ranged),Small Arms,"8""",x2,5+,8+,,,
+25,,,,,,,,,,,,Massive Toxic Lashes (Melee),Melee,Melee,x2,5+,8+,,,
+26,Heavy,Screamer-Killer,"7""",3+,4+,1,2,4,6+,1,6,,,,,,,"Terror Troops
+Monstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Carnifex, Screamer-Killer",
+26,,,,,,,,,,,,,,,,,,A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons.,,
+26,,,,,,,,,,,,Bio-plasmic Scream,Heavy,"18""",2,7+,7+,,,
+26,,,,,,,,,,,,Screamer-Killer Talons,Melee,Melee,x2,5+,6+,,,
+27,Heavy,Trygon,"9""",3+,4+,3,3,5,6+,1,10,,,,,,,Deep Strike,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Trygon",
+27,,,,,,,,,,,,,,,,,,A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons.,,
+27,,,,,,,,,,,,Bio-electric Pulse,Heavy,"12""",2,7+,9+,,,
+27,,,,,,,,,,,,Massive Scything Talons,Melee,Melee,User,5+,7+,,,
+28,Lord,Old One Eye,"7""",3+,-,2,2,5,6+,1,7,,,,,,,"Alpha Leader: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Carnifex units whilst they are within 6"" of this unit.
+Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Character, Carnifex, Old One Eye",
+28,,,,,,,,,,,,,,,,,,Old One Eye is a unit that contains 1 model. It is equipped with: Monstrous Crushing Claws; Monstrous Scything Talons. You can only include one of this unit in your army.,,
+28,,,,,,,,,,,,Monstrous Crushing Claws,Melee,Melee,User,6+,5+,,,
+28,,,,,,,,,,,,Monstrous Scything Talons,Melee,Melee,User,5+,6+,,,
+29,Transport,Tyrannocyte,"6""",5+,5+,1,2,5,8+,1,8,,,,,,,"Deep Strike
+Transport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6"" of this unit and more than 9"" from enemy units. If that unit cannot be placed in this way, it is destroyed.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Fly, Tyrannocyte","per Unit: Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
+29,,,,,,,,,,,,,,,,,,A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.,,
+29,,,,,,,,,,,,,,,,,,"Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",,
+29,,,,,,,,,,,,Barbed Stranglers,Heavy,"36""",5,7+,9+,,,
+29,,,,,,,,,,,,Deathspitters,Heavy,"24""",5,6+,9+,,,
+29,,,,,,,,,,,,Venom Cannons,Heavy,"36""",5,9+,7+,,,
+29,,,,,,,,,,,,Barbed Tentacles,Melee,Melee,User,10+,10+,,,
+30,Air,Harpy,"30""",4+,4+,1,2,7,8+,1,9,,,,,,,"Spore Mine Cysts: After this unit makes a Move action, you can select one enemy unit it moved over whilst making that Move action. Roll one D6; on a 3+ place one blast marker next to that unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Fly, Harpy","per Unit: Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Cannons."
+30,,,,,,,,,,,,,,,,,,A Harpy is a unit that contains 1 model. It is equipped with: Stinger Salvo; Stranglethorn Cannons; Scything Wings.,,
+30,,,,,,,,,,,,,,,,,,"Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Cannons.",,
+30,,,,,,,,,,,,Heavy Venom Cannons,Heavy,"36""",1,8+,4+,,,
+30,,,,,,,,,,,,Stranglethorn Cannons,Heavy,"36""",1,4+,8+,,,
+30,,,,,,,,,,,,Stinger Salvo,Heavy,"24""",1,7+,9+,,,
+30,,,,,,,,,,,,Scything Wings,Melee,Melee,User,9+,9+,,,
+31,Air,Hive Crone,"30""",4+,4+,1,2,7,8+,1,9,,,,,,,,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Fly, Hive Crone",
+31,,,,,,,,,,,,,,,,,,A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur.,,
+31,,,,,,,,,,,,Drool Cannon,Heavy,"8""",1,5+,8+,Inferno,,
+31,,,,,,,,,,,,Stinger Salvo,Heavy,"24""",1,7+,9+,,,
+31,,,,,,,,,,,,Tentaclids,Heavy,"36""",1,9+,5+,Anti-air,,
+31,,,,,,,,,,,,Scything Wings,Melee,Melee,User,5+,9+,,,
+31,,,,,,,,,,,,Wicked Spur,Melee,Melee,User,9+,5+,,,
+32,Lord,Sporocyst,-,5+,5+,1,2,5,8+,1,7,,,,,,,"Deep Strike
+Immobile: This unit is never Out of Command: an Out of Command marker is never placed next to it.
+Bio-fortress: When this unit makes a Shoot action, it can target enemy units in base contact with it.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Synapse Creature, Sporocyst","per Unit: Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
+32,,,,,,,,,,,,,,,,,,A Sporocyst is a unit that contains 1 model. It is equipped with: Deathspitters; Spore Node; Barbed Tentacles.,,
+32,,,,,,,,,,,,,,,,,,"Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",,
+32,,,,,,,,,,,,Barbed Stranglers,Heavy,"36""",5,7+,9+,,,
+32,,,,,,,,,,,,Deathspitters,Heavy,"24""",5,6+,9+,,,
+32,,,,,,,,,,,,Spore Node,Heavy,"9""",1,4+,4+,Barrage,,
+32,,,,,,,,,,,,Venom Cannons,Heavy,"36""",5,9+,7+,,,
+32,,,,,,,,,,,,Barbed Tentacles,Melee,Melee,User,10+,10+,,,

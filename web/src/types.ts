@@ -1,7 +1,5 @@
 import type { ReactNode } from 'react'
 
-export type AppPage = 'browse' | 'build' | 'armies' | 'rules'
-
 export type BrowseMode = 'army' | 'cards'
 
 export type ViewMode = 'army' | 'cards' | 'all'

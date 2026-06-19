@@ -1,4 +1,5 @@
 import { useMemo, useRef, useState } from 'react'
+import { getRouteApi } from '@tanstack/react-router'
 import ArmyCardSummary from '../components/ArmyCardSummary'
 import CardDetail from '../components/CardDetail'
 import RosterEntrySummary from '../components/RosterEntrySummary'
@@ -28,11 +29,25 @@ import type {
   UnitProfile,
 } from '../types'
 
-interface BuildArmyPageProps {
-  initialArmy?: SavedArmy | null
+const buildRouteApi = getRouteApi('/build')
+
+export default function BuildArmyPage() {
+  const { armyId } = buildRouteApi.useSearch()
+  const initialArmy = useMemo(() => {
+    if (!armyId) {
+      return null
+    }
+    return loadSavedArmies().find((army) => army.id === armyId) ?? null
+  }, [armyId])
+
+  return <BuildArmyPageContent key={armyId ?? 'new'} initialArmy={initialArmy} />
 }
 
-export default function BuildArmyPage({ initialArmy = null }: BuildArmyPageProps) {
+interface BuildArmyPageContentProps {
+  initialArmy: SavedArmy | null
+}
+
+function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
   const { cards, factions: cardFactions, loading: loadingCards, error: cardsError } = useCards()
   const [buildMode, setBuildMode] = useState<BrowseMode>('army')

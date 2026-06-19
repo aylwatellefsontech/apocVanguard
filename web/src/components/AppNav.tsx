@@ -1,41 +1,38 @@
-import type { AppPage } from '../types'
+import { Link } from '@tanstack/react-router'
 
-interface AppNavProps {
-  page: AppPage
-  onNavigate: (page: AppPage) => void
-}
-
-export default function AppNav({ page, onNavigate }: AppNavProps) {
+export default function AppNav() {
   return (
     <nav className="app-nav" aria-label="Main">
-      <button
-        type="button"
-        className={page === 'browse' ? 'nav-btn active' : 'nav-btn'}
-        onClick={() => onNavigate('browse')}
+      <Link
+        to="/"
+        className="nav-btn"
+        activeOptions={{ exact: true }}
+        activeProps={{ className: 'nav-btn active' }}
       >
         Browse
-      </button>
-      <button
-        type="button"
-        className={page === 'armies' ? 'nav-btn active' : 'nav-btn'}
-        onClick={() => onNavigate('armies')}
+      </Link>
+      <Link
+        to="/armies"
+        className="nav-btn"
+        activeProps={{ className: 'nav-btn active' }}
       >
         My Armies
-      </button>
-      <button
-        type="button"
-        className={page === 'build' ? 'nav-btn active' : 'nav-btn'}
-        onClick={() => onNavigate('build')}
+      </Link>
+      <Link
+        to="/build"
+        search={{}}
+        className="nav-btn"
+        activeProps={{ className: 'nav-btn active' }}
       >
         Build Army
-      </button>
-      <button
-        type="button"
-        className={page === 'rules' ? 'nav-btn active' : 'nav-btn'}
-        onClick={() => onNavigate('rules')}
+      </Link>
+      <Link
+        to="/rules"
+        className="nav-btn"
+        activeProps={{ className: 'nav-btn active' }}
       >
         Rules
-      </button>
+      </Link>
     </nav>
   )
 }

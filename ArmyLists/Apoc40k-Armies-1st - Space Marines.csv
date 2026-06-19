@@ -23,7 +23,7 @@ Light, Infantry, Psyker, Character, Librarian",per Unit: This unit can have one 
 3,,,,,,,,,,,,Force Weapon,Melee,Melee,User,8+,8+,,,
 4,HQ,Chaplain,"6""",2+,3+,1,1,7,5+,1,5,,,,,,,"Litanies of Hate: You can re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units whilst they are within 6"" of this unit.
 Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Adeptus Astartes, <Chapter>
-Light, Infantry, Character, Priest, Chaplain","per Unit: Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)"
+Light, Infantry, Character, Priest, Chaplain",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
 4,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
 4,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 4,,,,,,,,,,,,,,,,,,"- Terminator Armour (Power Rating +2). Move 5"", Save 4+, Deep Strike, keyword Terminator.",,

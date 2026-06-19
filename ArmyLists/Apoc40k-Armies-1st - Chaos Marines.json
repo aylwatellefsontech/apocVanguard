@@ -3,8 +3,6 @@
   "source": "Apoc40k-Armies-1st - Chaos Marines.csv",
   "units": [
     {
-      "no": 1,
-      "type": "HQ",
       "name": "Abaddon The Despoiler",
       "stats": {
         "M": "6\"",
@@ -17,7 +15,6 @@
         "N": "1",
         "Pt": "15"
       },
-      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
       "keywords": [
         "Chaos",
         "Khorne",
@@ -42,11 +39,12 @@
           "skill": "5+",
           "armorPen": "6+"
         }
-      ]
+      ],
+      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "no": 1,
+      "type": "HQ"
     },
     {
-      "no": 2,
-      "type": "HQ",
       "name": "Lord",
       "stats": {
         "M": "6\"",
@@ -59,7 +57,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nThis unit can have one of the following:\nJump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12\"; Deep Strike; keywords Jump Pack, Fly.\nTerminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5\", Save 4+; Deep Strike; keyword Terminator.\nBike (Power Rating +1). If this unit has a Bike, it: Has Move 14\"; keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -70,6 +67,17 @@
         "Character",
         "Chaos Lord"
       ],
+      "weapons": [
+        {
+          "name": "Helwrought Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -91,20 +99,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Helwrought Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 2,
+      "type": "HQ"
     },
     {
-      "no": 3,
-      "type": "HQ",
       "name": "Sorcerer",
       "stats": {
         "M": "6\"",
@@ -117,7 +115,6 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "This unit can have one of the following:\nJump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12\"; Deep Strike; keywords Jump Pack, Fly.\nTerminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5\", Save 4+; Deep Strike; keyword Terminator.\nBike (Power Rating +1). If this unit has a Bike, it: Has Move 14\"; keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -128,6 +125,16 @@
         "Character",
         "Infantry",
         "Sorcerer"
+      ],
+      "weapons": [
+        {
+          "name": "Force Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
       ],
       "options": [
         {
@@ -150,20 +157,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Force Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 3,
+      "type": "HQ"
     },
     {
-      "no": 4,
-      "type": "HQ",
       "name": "Demon Prince",
       "stats": {
         "M": "8\"",
@@ -176,23 +173,15 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nThis unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12\"; keyword Fly.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
       "keywords": [
         "Chaos",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Heavy",
         "Monster",
         "Character",
+        "Daemon",
         "Daemon Prince"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have Wings (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -203,11 +192,31 @@
           "skill": "6+",
           "armorPen": "6+"
         }
-      ]
+      ],
+      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have Wings (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "When you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh."
+        },
+        {
+          "per": "Per Unit",
+          "text": "If you choose Khorne, this unit has the additional ability: Might Over Magic."
+        },
+        {
+          "per": "Per Unit",
+          "text": "If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker."
+        }
+      ],
+      "no": 4,
+      "type": "HQ"
     },
     {
-      "no": 5,
-      "type": "HQ",
       "name": "Exalted Champion",
       "stats": {
         "M": "6\"",
@@ -220,7 +229,6 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6\" of this unit.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -240,11 +248,12 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6\" of this unit.",
+      "no": 5,
+      "type": "HQ"
     },
     {
-      "no": 6,
-      "type": "Troops",
       "name": "Traitor Marines",
       "stats": {
         "M": "6\"",
@@ -257,7 +266,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.\nInstead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.\nIf this unit contains 10 or more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -266,57 +274,6 @@
         "Light",
         "Infantry",
         "Chaos Space Marines"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "12"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "20",
-          "Pt": "16"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords."
-        },
-        {
-          "per": "Per Unit",
-          "text": "more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -392,11 +349,62 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "12"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "20",
+          "Pt": "16"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords."
+        },
+        {
+          "per": "Per Unit",
+          "text": "more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 6,
+      "type": "Troops"
     },
     {
-      "no": 7,
-      "type": "Troops",
       "name": "Cultists",
       "stats": {
         "M": "6\"",
@@ -409,7 +417,6 @@
         "N": "10",
         "Pt": "2"
       },
-      "abilities": "For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).\nInstead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -418,6 +425,49 @@
         "Light",
         "Infantry",
         "Chaos Cultists"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Auto Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Autoguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Brutal Assault Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -465,53 +515,10 @@
           "text": "Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons."
         }
       ],
-      "weapons": [
-        {
-          "name": "Heavy Stubber",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Auto Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Autoguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Brutal Assault Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 7,
+      "type": "Troops"
     },
     {
-      "no": 8,
-      "type": "Elites",
       "name": "Chaos Chosen",
       "stats": {
         "M": "6\"",
@@ -524,7 +531,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -533,25 +539,6 @@
         "Light",
         "Infantry",
         "Chosen"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons."
-        }
       ],
       "weapons": [
         {
@@ -587,11 +574,30 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons."
+        }
+      ],
+      "no": 8,
+      "type": "Elites"
     },
     {
-      "no": 9,
-      "type": "Elites",
       "name": "Cult Marines",
       "stats": {
         "M": "5\"",
@@ -604,7 +610,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.\nSelect one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column.",
       "keywords": [
         "Chaos",
         "Heretic Astartes",
@@ -612,53 +617,6 @@
         "Light",
         "Infantry",
         "Cult Marines"
-      ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "7"
-        },
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "10"
-        },
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "20",
-          "Pt": "13"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each)",
-          "Pt": "1"
-        },
-        {
-          "per": "Per 10 models",
-          "text": "For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -729,11 +687,53 @@
           "skill": "6+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.",
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "7"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "10"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "20",
+          "Pt": "13"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Select one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column."
+        }
+      ],
+      "no": 9,
+      "type": "Elites"
     },
     {
-      "no": 10,
-      "type": "Elites",
       "name": "Terminators",
       "stats": {
         "M": "5\"",
@@ -746,7 +746,6 @@
         "N": "5",
         "Pt": "11"
       },
-      "abilities": "Deep Strike\nFor every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -755,26 +754,6 @@
         "Light",
         "Infantry",
         "Terminators"
-      ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "4+",
-          "N": "10",
-          "Pt": "21"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -811,11 +790,32 @@
           "skill": "6+",
           "armorPen": "7+"
         }
-      ]
+      ],
+      "abilities": "Deep Strike",
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "10",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 10,
+      "type": "Elites"
     },
     {
-      "no": 11,
-      "type": "Elites",
       "name": "Greater Possessed",
       "stats": {
         "M": "7\"",
@@ -828,23 +828,16 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Light",
         "Infantry",
+        "Daemon",
         "Character",
         "Greater Possessed"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one."
-        }
       ],
       "weapons": [
         {
@@ -855,11 +848,12 @@
           "skill": "6+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
+      "no": 11,
+      "type": "Elites"
     },
     {
-      "no": 12,
-      "type": "Elites",
       "name": "Possessed",
       "stats": {
         "M": "7\"",
@@ -872,17 +866,27 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Light",
         "Infantry",
+        "Daemon",
         "Possessed"
       ],
+      "weapons": [
+        {
+          "name": "Horrifying Mutations",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.",
       "profiles": [
         {
           "M": "7\"",
@@ -918,20 +922,10 @@
           "Pt": "21"
         }
       ],
-      "weapons": [
-        {
-          "name": "Horrifying Mutations",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 12,
+      "type": "Elites"
     },
     {
-      "no": 13,
-      "type": "Fast",
       "name": "Chaos Spawn",
       "stats": {
         "M": "7\"",
@@ -944,7 +938,6 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -954,6 +947,17 @@
         "Beast",
         "Chaos Spawn"
       ],
+      "weapons": [
+        {
+          "name": "Hideous Mutations",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
       "profiles": [
         {
           "M": "7\"",
@@ -1000,20 +1004,10 @@
           "Pt": "11"
         }
       ],
-      "weapons": [
-        {
-          "name": "Hideous Mutations",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "7+"
-        }
-      ]
+      "no": 13,
+      "type": "Fast"
     },
     {
-      "no": 14,
-      "type": "Fast",
       "name": "Bikers",
       "stats": {
         "M": "14\"",
@@ -1034,6 +1028,25 @@
         "Light",
         "Biker",
         "Bikers"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Boltguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -1059,29 +1072,10 @@
           "Pt": "15"
         }
       ],
-      "weapons": [
-        {
-          "name": "Twin Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 14,
+      "type": "Fast"
     },
     {
-      "no": 15,
-      "type": "Fast",
       "name": "Raptors",
       "stats": {
         "M": "12\"",
@@ -1094,7 +1088,6 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "Deep Strike, Terror Troops",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1106,6 +1099,25 @@
         "Jump Pack",
         "Raptors"
       ],
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Chainswords",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Deep Strike, Terror Troops",
       "profiles": [
         {
           "M": "12\"",
@@ -1130,28 +1142,10 @@
           "Pt": "11"
         }
       ],
-      "weapons": [
-        {
-          "name": "Bolt Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Chainswords",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 15,
+      "type": "Fast"
     },
     {
-      "no": 16,
-      "type": "Heavy",
       "name": "Havocs",
       "stats": {
         "M": "6\"",
@@ -1164,7 +1158,6 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1173,12 +1166,6 @@
         "Light",
         "Infantry",
         "Havocs"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon."
-        }
       ],
       "weapons": [
         {
@@ -1229,11 +1216,17 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon."
+        }
+      ],
+      "no": 16,
+      "type": "Heavy"
     },
     {
-      "no": 17,
-      "type": "Heavy",
       "name": "Defiler",
       "stats": {
         "M": "8\"",
@@ -1246,27 +1239,16 @@
         "N": "1",
         "Pt": "11"
       },
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nInstead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.\nInstead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Heavy",
         "Vehicle",
+        "Daemon",
         "Daemon Engine",
         "Defiler"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon."
-        }
       ],
       "weapons": [
         {
@@ -1326,11 +1308,22 @@
           "skill": "5+",
           "armorPen": "5+"
         }
-      ]
+      ],
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon."
+        }
+      ],
+      "no": 17,
+      "type": "Heavy"
     },
     {
-      "no": 18,
-      "type": "Heavy",
       "name": "Hellbrute",
       "stats": {
         "M": "8\"",
@@ -1343,7 +1336,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.\nInstead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.\nInstead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.\nInstead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.\nFor each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1352,24 +1344,6 @@
         "Heavy",
         "Vehicle",
         "Helbrute"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer."
-        }
       ],
       "weapons": [
         {
@@ -1461,11 +1435,30 @@
           "skill": "5+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer."
+        }
+      ],
+      "no": 18,
+      "type": "Heavy"
     },
     {
-      "no": 19,
-      "type": "Heavy",
       "name": "Predator",
       "stats": {
         "M": "12\"",
@@ -1478,7 +1471,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.\nThis unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1487,17 +1479,6 @@
         "Heavy",
         "Vehicle",
         "Chaos Predator"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.",
-          "Pt": "2"
-        }
       ],
       "weapons": [
         {
@@ -1540,11 +1521,22 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.",
+          "Pt": "2"
+        }
+      ],
+      "no": 19,
+      "type": "Heavy"
     },
     {
-      "no": 20,
-      "type": "Heavy",
       "name": "Forgefiend",
       "stats": {
         "M": "8\"",
@@ -1557,29 +1549,16 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nInstead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).\nInstead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
-        "Forgefiend",
         "Heavy",
         "Vehicle",
-        "Daemon Engine"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).",
-          "Pt": "1"
-        }
+        "Daemon",
+        "Daemon Engine",
+        "Forgefiend"
       ],
       "weapons": [
         {
@@ -1614,11 +1593,24 @@
           "skill": "6+",
           "armorPen": "6+"
         }
-      ]
+      ],
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 20,
+      "type": "Heavy"
     },
     {
-      "no": 21,
-      "type": "Heavy",
       "name": "Vindicator",
       "stats": {
         "M": "10\"",
@@ -1631,7 +1623,6 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "This unit can have a Siege Shield (Power Rating +1). If this unit has a Siege Shield, it has a Save characteristic of 4+.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1640,13 +1631,6 @@
         "Heavy",
         "Vehicle",
         "Chaos Vindicator"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Siege Shield (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -1666,11 +1650,18 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Siege Shield (Power Rating +1)",
+          "Pt": "1"
+        }
+      ],
+      "no": 21,
+      "type": "Heavy"
     },
     {
-      "no": 22,
-      "type": "Heavy",
       "name": "Obliterators",
       "stats": {
         "M": "4\"",
@@ -1683,18 +1674,36 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Deep Strike",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Light",
         "Infantry",
+        "Daemon",
         "Cult of Destruction",
         "Obliterators"
       ],
+      "weapons": [
+        {
+          "name": "Fleshmetal Guns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Crushing Fists",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Deep Strike",
       "profiles": [
         {
           "M": "4\"",
@@ -1719,28 +1728,10 @@
           "Pt": "25"
         }
       ],
-      "weapons": [
-        {
-          "name": "Fleshmetal Guns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Crushing Fists",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 22,
+      "type": "Heavy"
     },
     {
-      "no": 23,
-      "type": "Heavy",
       "name": "Land Raider",
       "stats": {
         "M": "10\"",
@@ -1753,7 +1744,6 @@
         "N": "1",
         "Pt": "13"
       },
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1789,11 +1779,12 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.",
+      "no": 23,
+      "type": "Heavy"
     },
     {
-      "no": 24,
-      "type": "Transport",
       "name": "Rhino",
       "stats": {
         "M": "12\"",
@@ -1806,7 +1797,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1835,11 +1825,12 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.",
+      "no": 24,
+      "type": "Transport"
     },
     {
-      "no": 25,
-      "type": "Air",
       "name": "Helldrake",
       "stats": {
         "M": "30\"",
@@ -1852,25 +1843,17 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nInstead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
         "Heretic Astartes",
         "<Legion>",
-        "Daemon",
         "Heavy",
         "Vehicle",
         "Fly",
+        "Daemon",
         "Daemon Engine",
         "Helldrake"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -1899,11 +1882,19 @@
           "armorPen": "10+",
           "abilities": "Anti-air"
         }
-      ]
+      ],
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 25,
+      "type": "Air"
     },
     {
-      "no": 26,
-      "type": "Elites",
       "name": "Plague Marines",
       "stats": {
         "M": "5\"",
@@ -1916,7 +1907,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.",
       "keywords": [
         "Chaos",
         "Nurgle",
@@ -1926,6 +1916,43 @@
         "Infantry",
         "Plague Marines"
       ],
+      "weapons": [
+        {
+          "name": "Boltguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Blight Launcher",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Plague Spewer",
+          "type": "Heavy",
+          "range": "9\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "10+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Plague Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)",
       "profiles": [
         {
           "M": "5\"",
@@ -1968,46 +1995,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Blight Launcher",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Plague Spewer",
-          "type": "Heavy",
-          "range": "9\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Plague Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 26,
+      "type": "Elites"
     },
     {
-      "no": 27,
-      "type": "Elites",
       "name": "Khorne Berzerkers",
       "stats": {
         "M": "6\"",
@@ -2020,7 +2011,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.",
       "keywords": [
         "Chaos",
         "Khorne",
@@ -2029,47 +2019,6 @@
         "Light",
         "Infantry",
         "Khorne Berzerkers"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "12"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "20",
-          "Pt": "16"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites."
-        }
       ],
       "weapons": [
         {
@@ -2088,33 +2037,8 @@
           "skill": "6+",
           "armorPen": "9+"
         }
-      ]
-    },
-    {
-      "no": 28,
-      "type": "Heavy",
-      "name": "Noise Marines",
-      "stats": {
-        "M": "6\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "6+",
-        "N": "5",
-        "Pt": "4"
-      },
-      "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.\nThis unit can also be equipped with 1 Blastmaster (Power Rating +1).\nIf the unit contains 10 or more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",
-      "keywords": [
-        "Chaos",
-        "Slaanesh",
-        "Heretic Astartes",
-        "<Legion>",
-        "Light",
-        "Infantry",
-        "Noise Marines"
       ],
+      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.",
       "profiles": [
         {
           "M": "6\"",
@@ -2150,21 +2074,30 @@
           "Pt": "16"
         }
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Blastmaster (Power Rating +1).",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",
-          "Pt": "1"
-        }
+      "no": 27,
+      "type": "Elites"
+    },
+    {
+      "name": "Noise Marines",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Chaos",
+        "Slaanesh",
+        "Heretic Astartes",
+        "<Legion>",
+        "Light",
+        "Infantry",
+        "Noise Marines"
       ],
       "weapons": [
         {
@@ -2191,11 +2124,59 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.",
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "12"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "20",
+          "Pt": "16"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Blastmaster (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 28,
+      "type": "Heavy"
     },
     {
-      "no": 29,
-      "type": "Elites",
       "name": "Rubric Marines",
       "stats": {
         "M": "5\"",
@@ -2208,7 +2189,6 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).\nInstead of Inferno Boltguns, this unit can be equipped with Warpflamers.",
       "keywords": [
         "Chaos",
         "Tzeentch",
@@ -2218,6 +2198,42 @@
         "Infantry",
         "Psyker",
         "Rubric Marines"
+      ],
+      "weapons": [
+        {
+          "name": "Soulreaper Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Inferno Boltguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Warpflamers",
+          "type": "Small Arms",
+          "range": "8\"",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "8+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -2265,46 +2281,10 @@
           "text": "Instead of Inferno Boltguns, this unit can be equipped with Warpflamers."
         }
       ],
-      "weapons": [
-        {
-          "name": "Soulreaper Cannon",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Inferno Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Warpflamers",
-          "type": "Small Arms",
-          "range": "8\"",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "8+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 29,
+      "type": "Elites"
     },
     {
-      "no": 30,
-      "type": "HQ",
       "name": "Traitor Guard",
       "stats": {
         "M": "6\"",
@@ -2350,11 +2330,11 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "no": 30,
+      "type": "HQ"
     },
     {
-      "no": 31,
-      "type": "Elites",
       "name": "Chaos Beastmen",
       "stats": {
         "M": "6\"",
@@ -2367,7 +2347,6 @@
         "N": "4",
         "Pt": "1"
       },
-      "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.",
       "keywords": [
         "Chaos",
         "Servants of the Abyss",
@@ -2392,11 +2371,12 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.",
+      "no": 31,
+      "type": "Elites"
     },
     {
-      "no": 32,
-      "type": "Lord",
       "name": "Greater Daemon",
       "stats": {
         "M": "12\"",
@@ -2409,7 +2389,6 @@
         "N": "1",
         "Pt": "14"
       },
-      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.\nLord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).\nGreat Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.\nKeeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.",
       "keywords": [
         "Chaos",
         "Daemon",
@@ -2419,99 +2398,6 @@
         "Fly",
         "Character",
         "Greater Daemon"
-      ],
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "2+",
-          "BS": "2+",
-          "A": "2",
-          "W": "3",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "1",
-          "Pt": "14"
-        },
-        {
-          "M": "12\"",
-          "WS": "2+",
-          "BS": "2+",
-          "A": "2",
-          "W": "3",
-          "Ld": "8",
-          "Sv": "8+",
-          "N": "1",
-          "Pt": "12"
-        },
-        {
-          "M": "7\"",
-          "WS": "2+",
-          "BS": "2+",
-          "A": "2",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "9+",
-          "N": "1",
-          "Pt": "14"
-        },
-        {
-          "M": "15\"",
-          "WS": "2+",
-          "BS": "2+",
-          "A": "2",
-          "W": "3",
-          "Ld": "8",
-          "Sv": "9+",
-          "N": "1",
-          "Pt": "14"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Lord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Keeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Lord of Change: Can equip 1 Baleful Sword (Power Rating +1)",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "have a Rod of Sorcery (Power Rating +1).",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1)",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Plague Flail, can equip 1 Bileblade."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)",
-          "Pt": "2"
-        }
       ],
       "weapons": [
         {
@@ -2636,7 +2522,86 @@
           "skill": "7+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.",
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "3",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "14"
+        },
+        {
+          "M": "12\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "3",
+          "Ld": "8",
+          "Sv": "8+",
+          "N": "1",
+          "Pt": "12"
+        },
+        {
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "9+",
+          "N": "1",
+          "Pt": "14"
+        },
+        {
+          "M": "15\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "3",
+          "Ld": "8",
+          "Sv": "9+",
+          "N": "1",
+          "Pt": "14"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Lord of Change: Can equip 1 Baleful Sword (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "have a Rod of Sorcery (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Plague Flail, can equip 1 Bileblade."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)",
+          "Pt": "2"
+        }
+      ],
+      "no": 32,
+      "type": "Lord"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { useNavigate } from '@tanstack/react-router'
 import ArmyCardEntry from '../components/ArmyCardEntry'
 import ArmyRosterEntry from '../components/ArmyRosterEntry'
 import HandModal from '../components/HandModal'
@@ -29,11 +30,8 @@ function formatUpdatedAt(iso?: string): string {
   }
 }
 
-interface ViewArmiesPageProps {
-  onEditArmy: (army: SavedArmy) => void
-}
-
-export default function ViewArmiesPage({ onEditArmy }: ViewArmiesPageProps) {
+export default function ViewArmiesPage() {
+  const navigate = useNavigate()
   const [savedArmies, setSavedArmies] = useState<SavedArmy[]>(() => loadSavedArmies())
   const [selectedArmyId, setSelectedArmyId] = useState<string | null>(
     () => loadSavedArmies()[0]?.id ?? null,
@@ -194,7 +192,13 @@ export default function ViewArmiesPage({ onEditArmy }: ViewArmiesPageProps) {
                     )}
                   </button>
                   <div className="saved-army-actions">
-                    <button type="button" className="text-btn" onClick={() => onEditArmy(army)}>
+                    <button
+                      type="button"
+                      className="text-btn"
+                      onClick={() =>
+                        navigate({ to: '/build', search: { armyId: army.id } })
+                      }
+                    >
                       Edit
                     </button>
                     <button
@@ -246,7 +250,13 @@ export default function ViewArmiesPage({ onEditArmy }: ViewArmiesPageProps) {
                   <button type="button" className="secondary-btn" onClick={handleCycleViewMode}>
                     {VIEW_LABELS[nextViewMode(viewMode)]}
                   </button>
-                  <button type="button" className="primary-btn" onClick={() => onEditArmy(selectedArmy)}>
+                  <button
+                    type="button"
+                    className="primary-btn"
+                    onClick={() =>
+                      navigate({ to: '/build', search: { armyId: selectedArmy.id } })
+                    }
+                  >
                     Edit Army
                   </button>
                 </div>

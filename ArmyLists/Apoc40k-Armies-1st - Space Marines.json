@@ -3,8 +3,6 @@
   "source": "Apoc40k-Armies-1st - Space Marines.csv",
   "units": [
     {
-      "no": 1,
-      "type": "HQ",
       "name": "Titus",
       "stats": {
         "M": "6\"",
@@ -17,7 +15,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6\" of this unit.\nThis unit can have one of the following:\n- Jump Pack (Power Rating +2). If this unit has a Jump Pack, it has Move 12\", Deep Strike, and keywords Jump Pack, Fly.\n- Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it has Move 5\", Save 4+, Deep Strike, and keyword Terminator.\n- Bike (Power Rating +1). If this unit has a Bike, it has Move 14\" and keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -27,6 +24,17 @@
         "Character",
         "Captain"
       ],
+      "weapons": [
+        {
+          "name": "Master-crafted Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6\" of this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -48,20 +56,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Master-crafted Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 1,
+      "type": "HQ"
     },
     {
-      "no": 2,
-      "type": "HQ",
       "name": "Captain",
       "stats": {
         "M": "6\"",
@@ -74,7 +72,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6\" of this unit.\nThis unit can have one of the following:\n- Jump Pack (Power Rating +2). Move 12\", Deep Strike, keywords Jump Pack, Fly.\n- Terminator Armour (Power Rating +2). Move 5\", Save 4+, Deep Strike, keyword Terminator.\n- Bike (Power Rating +1). Move 14\", keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -84,6 +81,17 @@
         "Character",
         "Captain"
       ],
+      "weapons": [
+        {
+          "name": "Master-crafted Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6\" of this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -105,20 +113,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Master-crafted Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 2,
+      "type": "HQ"
     },
     {
-      "no": 3,
-      "type": "HQ",
       "name": "Librarian",
       "stats": {
         "M": "6\"",
@@ -131,7 +129,6 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "This unit can have one of the following:\n- Jump Pack (Power Rating +2). Move 12\", Deep Strike, keywords Jump Pack, Fly.\n- Terminator Armour (Power Rating +2). Move 5\", Save 4+, Deep Strike, keyword Terminator.\n- Bike (Power Rating +1). Move 14\", keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -141,6 +138,16 @@
         "Psyker",
         "Character",
         "Librarian"
+      ],
+      "weapons": [
+        {
+          "name": "Force Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
       ],
       "options": [
         {
@@ -163,20 +170,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Force Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 3,
+      "type": "HQ"
     },
     {
-      "no": 4,
-      "type": "HQ",
       "name": "Chaplain",
       "stats": {
         "M": "6\"",
@@ -189,7 +186,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Litanies of Hate: You can re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units whilst they are within 6\" of this unit.\nSpiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nThis unit can have one of the following:\n- Jump Pack (Power Rating +2). Move 12\", Deep Strike, keywords Jump Pack, Fly.\n- Terminator Armour (Power Rating +2). Move 5\", Save 4+, Deep Strike, keyword Terminator.\n- Bike (Power Rating +1). Move 14\", keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -200,11 +196,18 @@
         "Priest",
         "Chaplain"
       ],
-      "options": [
+      "weapons": [
         {
-          "per": "Per Unit",
-          "text": "Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        },
+          "name": "Crozius Arcanum",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Litanies of Hate: You can re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units whilst they are within 6\" of this unit.\nSpiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.",
+      "options": [
         {
           "per": "Per Unit",
           "text": "This unit can have one of the following:."
@@ -225,20 +228,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Crozius Arcanum",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 4,
+      "type": "HQ"
     },
     {
-      "no": 5,
-      "type": "Elites",
       "name": "Techmarine",
       "stats": {
         "M": "6\"",
@@ -251,7 +244,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nThis unit can have one of the following:\n- Jump Pack (Power Rating +2). Move 12\", Deep Strike, keywords Jump Pack, Fly.\n- Bike (Power Rating +1). Move 14\", keyword Biker; loses keyword Infantry.\nThis unit can have a Servo-harness (Power Rating +1). If it has a Servo-harness, Attacks 2 and it is also equipped with 1 Flamer & Plasma Cutter.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -261,6 +253,26 @@
         "Character",
         "Techmarine"
       ],
+      "weapons": [
+        {
+          "name": "Flamer & Plasma Cutter",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Servo-arm & Power Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "options": [
         {
           "per": "Per Unit",
@@ -282,29 +294,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Flamer & Plasma Cutter",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Servo-arm & Power Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 5,
+      "type": "Elite"
     },
     {
-      "no": 6,
-      "type": "Troops",
       "name": "Tactical Marines",
       "stats": {
         "M": "6\"",
@@ -317,7 +310,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -325,26 +317,6 @@
         "Light",
         "Infantry",
         "Tactical Squad"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "9"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -413,11 +385,31 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "9"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 6,
+      "type": "Troops"
     },
     {
-      "no": 7,
-      "type": "Troops",
       "name": "Scouts",
       "stats": {
         "M": "6\"",
@@ -430,7 +422,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Infiltrators\nThis unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.\nInstead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1). If it is, it has Stealth.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -439,31 +430,6 @@
         "Infantry",
         "Scout",
         "Scout Squad"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "7"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -515,11 +481,37 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Infiltrators",
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "7"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)",
+          "Pt": "1"
+        }
+      ],
+      "no": 7,
+      "type": "Troops"
     },
     {
-      "no": 8,
-      "type": "Troops",
       "name": "Intercessors",
       "stats": {
         "M": "6\"",
@@ -541,19 +533,6 @@
         "Primaris",
         "Intercessor Squad"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
       "weapons": [
         {
           "name": "Bolt Rifles",
@@ -572,11 +551,24 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "no": 8,
+      "type": "Troops"
     },
     {
-      "no": 9,
-      "type": "Elites",
       "name": "Vanguard Veterans",
       "stats": {
         "M": "6\"",
@@ -589,7 +581,6 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models). If this unit has Jump Packs, Move 12\", Deep Strike, keywords Jump Pack, Fly.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -597,6 +588,24 @@
         "Light",
         "Infantry",
         "Vanguard Veteran Squad"
+      ],
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Vanguard Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
       ],
       "profiles": [
         {
@@ -618,28 +627,10 @@
           "Pt": "2"
         }
       ],
-      "weapons": [
-        {
-          "name": "Bolt Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Vanguard Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x3",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 9,
+      "type": "Elites"
     },
     {
-      "no": 10,
-      "type": "Elites",
       "name": "Veteran Squad",
       "stats": {
         "M": "6\"",
@@ -652,7 +643,6 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -660,26 +650,6 @@
         "Light",
         "Infantry",
         "Sternguard Veteran Squad"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -757,11 +727,31 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 10,
+      "type": "Elites"
     },
     {
-      "no": 11,
-      "type": "Elites",
       "name": "Terminator Squad",
       "stats": {
         "M": "5\"",
@@ -774,7 +764,6 @@
         "N": "5",
         "Pt": "11"
       },
-      "abilities": "Deep Strike\nFor every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -783,26 +772,6 @@
         "Infantry",
         "Terminator",
         "Terminator Squad"
-      ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "4+",
-          "N": "10",
-          "Pt": "21"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -855,11 +824,32 @@
           "skill": "6+",
           "armorPen": "7+"
         }
-      ]
+      ],
+      "abilities": "Deep Strike",
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "10",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 11,
+      "type": "Elites"
     },
     {
-      "no": 12,
-      "type": "Elites",
       "name": "Terminator Assault Squad",
       "stats": {
         "M": "5\"",
@@ -872,7 +862,6 @@
         "N": "5",
         "Pt": "9"
       },
-      "abilities": "Deep Strike\nInstead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1). If this unit has Storm Shields, Save 3+.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -882,6 +871,25 @@
         "Terminator",
         "Terminator Assault Squad"
       ],
+      "weapons": [
+        {
+          "name": "Lightning Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Thunder Hammers",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
+      ],
+      "abilities": "Deep Strike",
       "profiles": [
         {
           "M": "5\"",
@@ -902,28 +910,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Lightning Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x3",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Thunder Hammers",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "6+"
-        }
-      ]
+      "no": 12,
+      "type": "Elites"
     },
     {
-      "no": 13,
-      "type": "Elites",
       "name": "Apothecary",
       "stats": {
         "M": "6\"",
@@ -936,7 +926,6 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Narthecium: At the end of the Action phase, this unit can attempt to heal one friendly <Chapter> Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.\nThis unit can have a Bike (Power Rating +1). If it has a Bike, Move 14\", keyword Biker; loses keyword Infantry.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -945,13 +934,6 @@
         "Infantry",
         "Character",
         "Apothecary"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Bike (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -962,11 +944,19 @@
           "skill": "9+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Narthecium: At the end of the Action phase, this unit can attempt to heal one friendly <Chapter> Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Bike (Power Rating +1)",
+          "Pt": "1"
+        }
+      ],
+      "no": 13,
+      "type": "Elites"
     },
     {
-      "no": 14,
-      "type": "Elites",
       "name": "Honour Guard",
       "stats": {
         "M": "6\"",
@@ -979,7 +969,6 @@
         "N": "2",
         "Pt": "5"
       },
-      "abilities": "Honour Guard: At the start of the Damage phase, you can select one friendly <Chapter> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -997,11 +986,12 @@
           "skill": "7+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Honour Guard: At the start of the Damage phase, you can select one friendly <Chapter> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.",
+      "no": 14,
+      "type": "Elites"
     },
     {
-      "no": 15,
-      "type": "Fast",
       "name": "Assault Squad",
       "stats": {
         "M": "6\"",
@@ -1014,7 +1004,6 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "This unit can have Jump Packs (Power Rating +2). If it has Jump Packs, Move 12\", Deep Strike, keywords Jump Pack, Fly.\nFor every 5 models this unit contains, it can also be equipped with 1 Eviscerator.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1022,30 +1011,6 @@
         "Light",
         "Infantry",
         "Assault Squad"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "6"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have Jump Packs (Power Rating +2)",
-          "Pt": "2"
-        },
-        {
-          "per": "Per 5 models",
-          "text": "For every 5 models this unit contains, it can also be equipped with 1 Eviscerator."
-        }
       ],
       "weapons": [
         {
@@ -1072,11 +1037,35 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have Jump Packs (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per 5 models",
+          "text": "For every 5 models this unit contains, it can also be equipped with 1 Eviscerator."
+        }
+      ],
+      "no": 15,
+      "type": "Fast"
     },
     {
-      "no": 16,
-      "type": "Fast",
       "name": "Bike Squad",
       "stats": {
         "M": "14\"",
@@ -1089,7 +1078,6 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "This unit can contain 1 Attack Bike model (Power Rating +1). If it has an Attack Bike, add 1 to Wounds and equip Heavy Bolter or Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1097,37 +1085,6 @@
         "Light",
         "Biker",
         "Bike Squad"
-      ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "16"
-        },
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "9",
-          "Pt": "24"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can contain 1 Attack Bike model (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -1163,11 +1120,42 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "16"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "9",
+          "Pt": "24"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can contain 1 Attack Bike model (Power Rating +1)",
+          "Pt": "1"
+        }
+      ],
+      "no": 16,
+      "type": "Fast"
     },
     {
-      "no": 17,
-      "type": "Fast",
       "name": "Landspeeders",
       "stats": {
         "M": "16\"",
@@ -1180,7 +1168,6 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "For each model, must also be equipped with one of: Heavy Bolter; Multi-melta.\nFor each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1189,40 +1176,6 @@
         "Vehicle",
         "Fly",
         "Land Speeders"
-      ],
-      "profiles": [
-        {
-          "M": "16\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "2",
-          "Pt": "8"
-        },
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "3",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "For each model, must also be equipped with one of: Heavy Bolter; Multi-melta."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher."
-        }
       ],
       "weapons": [
         {
@@ -1274,11 +1227,45 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "16\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "2",
+          "Pt": "8"
+        },
+        {
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "3",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "For each model, must also be equipped with one of: Heavy Bolter; Multi-melta."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher."
+        }
+      ],
+      "no": 17,
+      "type": "Fast"
     },
     {
-      "no": 18,
-      "type": "Fast",
       "name": "Scout Bike Squad",
       "stats": {
         "M": "16\"",
@@ -1298,6 +1285,25 @@
         "Light",
         "Biker",
         "Scout Bike Squad"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Boltguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -1323,29 +1329,10 @@
           "Pt": "21"
         }
       ],
-      "weapons": [
-        {
-          "name": "Twin Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 18,
+      "type": "Fast"
     },
     {
-      "no": 19,
-      "type": "Fast",
       "name": "Inceptor Squad",
       "stats": {
         "M": "10\"",
@@ -1358,7 +1345,6 @@
         "N": "3",
         "Pt": "11"
       },
-      "abilities": "Deep Strike\nInstead of Assault Bolters, this unit can be equipped with Plasma Exterminators.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1370,25 +1356,6 @@
         "Primaris",
         "Mk X Gravis",
         "Inceptor Squad"
-      ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "22"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators."
-        }
       ],
       "weapons": [
         {
@@ -1416,11 +1383,31 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Deep Strike",
+      "profiles": [
+        {
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "22"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators."
+        }
+      ],
+      "no": 19,
+      "type": "Fast"
     },
     {
-      "no": 20,
-      "type": "Heavy",
       "name": "Devastator Squad",
       "stats": {
         "M": "6\"",
@@ -1433,7 +1420,6 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).\nIf this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Boltguns.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1441,26 +1427,6 @@
         "Light",
         "Infantry",
         "Devastator Squad"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "7"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -1529,11 +1495,35 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "7"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Boltguns."
+        }
+      ],
+      "no": 20,
+      "type": "Heavy"
     },
     {
-      "no": 21,
-      "type": "Heavy",
       "name": "Hellblaster Squad",
       "stats": {
         "M": "6\"",
@@ -1555,19 +1545,6 @@
         "Primaris",
         "Hellblaster Squad"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        }
-      ],
       "weapons": [
         {
           "name": "Plasma Incinerators",
@@ -1586,11 +1563,24 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "14"
+        }
+      ],
+      "no": 21,
+      "type": "Heavy"
     },
     {
-      "no": 22,
-      "type": "Heavy",
       "name": "Dreadnought",
       "stats": {
         "M": "6\"",
@@ -1603,7 +1593,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Default: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.\nInstead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon.\nInstead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.\nInstead of Storm Bolter: Heavy Flamer.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1611,20 +1600,6 @@
         "Heavy",
         "Vehicle",
         "Dreadnought"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Storm Bolter: Heavy Flamer."
-        }
       ],
       "weapons": [
         {
@@ -1727,11 +1702,29 @@
           "skill": "6+",
           "armorPen": "6+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Default: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Storm Bolter: Heavy Flamer."
+        }
+      ],
+      "no": 22,
+      "type": "Heavy"
     },
     {
-      "no": 23,
-      "type": "Heavy",
       "name": "Venerable Dreadnought",
       "stats": {
         "M": "6\"",
@@ -1744,7 +1737,6 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Ignore Damage (6+)\nInstead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon.\nInstead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.\nInstead of Storm Bolter: Heavy Flamer.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1754,6 +1746,109 @@
         "Dreadnought",
         "Venerable Dreadnought"
       ],
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Plasma Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Multi-melta",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Twin Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Twin Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Storm Bolter",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Dreadnought Combat Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)",
       "options": [
         {
           "per": "Per Unit",
@@ -1768,112 +1863,10 @@
           "text": "Instead of Storm Bolter: Heavy Flamer."
         }
       ],
-      "weapons": [
-        {
-          "name": "Assault Cannon",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Heavy Plasma Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+",
-          "abilities": "Supercharge"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Multi-melta",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "4+"
-        },
-        {
-          "name": "Twin Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Twin Heavy Bolter",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Twin Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "2",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Twin Lascannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Storm Bolter",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Armoured Feet",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Dreadnought Combat Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "6+"
-        }
-      ]
+      "no": 23,
+      "type": "Heavy"
     },
     {
-      "no": 24,
-      "type": "Heavy",
       "name": "Predator",
       "stats": {
         "M": "12\"",
@@ -1886,7 +1879,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Default: Predator Autocannon; Armoured Tracks.\nInstead of Predator Autocannon: Twin Lascannon.\nCan also be equipped with 2 Heavy Bolters or 2 Lascannons (Power Rating +2).",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -1894,17 +1886,6 @@
         "Heavy",
         "Vehicle",
         "Predator"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Predator Autocannon: Twin Lascannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "2 Lascannons (Power Rating +2).",
-          "Pt": "2"
-        }
       ],
       "weapons": [
         {
@@ -1947,11 +1928,26 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Default: Predator Autocannon; Armoured Tracks."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Predator Autocannon: Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "2 Lascannons (Power Rating +2).",
+          "Pt": "2"
+        }
+      ],
+      "no": 24,
+      "type": "Heavy"
     },
     {
-      "no": 25,
-      "type": "Heavy",
       "name": "Whirlwind",
       "stats": {
         "M": "12\"",
@@ -1990,11 +1986,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "no": 25,
+      "type": "Heavy"
     },
     {
-      "no": 26,
-      "type": "Heavy",
       "name": "Vindicator",
       "stats": {
         "M": "10\"",
@@ -2007,7 +2003,6 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "This unit can have a Siege Shield (Power Rating +1). If it has a Siege Shield, Save 4+.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2015,13 +2010,6 @@
         "Heavy",
         "Vehicle",
         "Vindicator"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Siege Shield (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -2041,11 +2029,18 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Siege Shield (Power Rating +1)",
+          "Pt": "1"
+        }
+      ],
+      "no": 26,
+      "type": "Heavy"
     },
     {
-      "no": 27,
-      "type": "Heavy",
       "name": "Land Raider",
       "stats": {
         "M": "10\"",
@@ -2058,7 +2053,6 @@
         "N": "1",
         "Pt": "13"
       },
-      "abilities": "Can also be equipped with 1 Multi-melta (Power Rating +1).\nTransport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2067,13 +2061,6 @@
         "Vehicle",
         "Transport",
         "Land Raider"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -2108,11 +2095,22 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris."
+        }
+      ],
+      "no": 27,
+      "type": "Heavy"
     },
     {
-      "no": 28,
-      "type": "Air",
       "name": "Stormraven",
       "stats": {
         "M": "20-45\"",
@@ -2125,7 +2123,6 @@
         "N": "1",
         "Pt": "20"
       },
-      "abilities": "Supersonic\nHover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, Move becomes 20\" but it loses Supersonic.\nDefault: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.\nInstead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.\nInstead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.\nCan also be equipped with 2 Hurricane Bolters (Power Rating +4).\nTransport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2136,21 +2133,6 @@
         "Transport",
         "Aircraft",
         "Stormraven Gunship"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Can also be equipped with 2 Hurricane Bolters (Power Rating +4).",
-          "Pt": "4"
-        }
       ],
       "weapons": [
         {
@@ -2227,11 +2209,35 @@
           "skill": "11+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Supersonic\nHover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, Move becomes 20\" but it loses Supersonic.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Default: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 2 Hurricane Bolters (Power Rating +4).",
+          "Pt": "4"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris."
+        }
+      ],
+      "no": 28,
+      "type": "Air"
     },
     {
-      "no": 29,
-      "type": "Lord",
       "name": "Venerable Land Raider",
       "stats": {
         "M": "10\"",
@@ -2244,7 +2250,6 @@
         "N": "1",
         "Pt": "13"
       },
-      "abilities": "Not in PDF — using Land Raider datasheet.\nCan also be equipped with 1 Multi-melta (Power Rating +1).\nTransport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2253,13 +2258,6 @@
         "Vehicle",
         "Transport",
         "Land Raider"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -2294,11 +2292,26 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Not in PDF — using Land Raider datasheet."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris."
+        }
+      ],
+      "no": 29,
+      "type": "Lord"
     },
     {
-      "no": 30,
-      "type": "Transport",
       "name": "Rhino",
       "stats": {
         "M": "12\"",
@@ -2311,7 +2324,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2320,12 +2332,6 @@
         "Vehicle",
         "Transport",
         "Rhino"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
-        }
       ],
       "weapons": [
         {
@@ -2345,11 +2351,17 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
+        }
+      ],
+      "no": 30,
+      "type": "Transport"
     },
     {
-      "no": 31,
-      "type": "Transport",
       "name": "Razorback",
       "stats": {
         "M": "12\"",
@@ -2362,7 +2374,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Default: Twin Heavy Bolter; Armoured Tracks.\nInstead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1) or Twin Lascannon.\nTransport: up to 6 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2371,13 +2382,6 @@
         "Vehicle",
         "Transport",
         "Razorback"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1)",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -2412,11 +2416,26 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Default: Twin Heavy Bolter; Armoured Tracks."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 6 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
+        }
+      ],
+      "no": 31,
+      "type": "Transport"
     },
     {
-      "no": 32,
-      "type": "Transport",
       "name": "Drop Pod",
       "stats": {
         "M": "-",
@@ -2429,7 +2448,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Deep Strike\nDrop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9\" of enemy units. If a unit cannot disembark, it is destroyed.\nImmobile: This unit is never Out of Command.\nDefault: Storm Bolter.\nInstead of Storm Bolter: Deathwind Launcher.\nTransport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.",
       "keywords": [
         "Imperium",
         "Adeptus Astartes",
@@ -2438,12 +2456,6 @@
         "Vehicle",
         "Transport",
         "Drop Pod"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Storm Bolter: Deathwind Launcher."
-        }
       ],
       "weapons": [
         {
@@ -2463,7 +2475,24 @@
           "armorPen": "10+",
           "abilities": "Rapid Fire"
         }
-      ]
+      ],
+      "abilities": "Deep Strike\nDrop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9\" of enemy units. If a unit cannot disembark, it is destroyed.\nImmobile: This unit is never Out of Command.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Default: Storm Bolter."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Storm Bolter: Deathwind Launcher."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
+        }
+      ],
+      "no": 32,
+      "type": "Transport"
     }
   ]
 }

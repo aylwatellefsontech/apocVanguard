@@ -72,7 +72,7 @@ Light, Infantry, Chosen","per Unit: Instead of Boltguns and Close Combat Weapons
 9,Elites,Cult Marines,"5""",3+,3+,1,1,6,6+,5,4,,,,,,,"Select one cult marine variant. Use the datasheet for the chosen variant.
 Plague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5"", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).
 Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5"", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.","Chaos, Heretic Astartes, <Legion>
-Light, Infantry, Cult Marines","per Unit (Power Rating +1 each): Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each); per 10 models (Power Rating +1): For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1)"
+Light, Infantry, Cult Marines",
 9,,,"5""",3+,3+,2,2,6,6+,10,7,,,,,,,,,
 9,,,"5""",3+,3+,3,3,6,6+,15,10,,,,,,,,,
 9,,,"5""",3+,3+,4,4,6,6+,20,13,,,,,,,,,
@@ -95,7 +95,7 @@ Light, Infantry, Terminators","per weapon (Power Rating +1 per weapon): For ever
 10,,,,,,,,,,,,Terminator Power Weapons,Melee,Melee,x2,6+,7+,,,
 11,Elites,Greater Possessed,"7""",2+,3+,2,1,6,5+,1,6,,,,,,,"Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
 Locus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6"" of any units with this ability.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
-Light, Infantry, Character, Greater Possessed","per Unit: Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one."
+Light, Infantry, Character, Greater Possessed",
 11,,,,,,,,,,,,Daemonic Mutations,Melee,Melee,User,6+,8+,,,
 12,Elites,Possessed,"7""",3+,3+,D3,2,6,5+,5,4,,,,,,,"Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.","Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon
 Light, Infantry, Possessed",
@@ -217,14 +217,14 @@ Light, Infantry, Plague Marines",per weapon (Power Rating +1 per weapon): This u
 26,,,,,,,,,,,,Plague Spewer,Heavy,"9""",1,6+,10+,Inferno,,
 26,,,,,,,,,,,,Plague Weapons,Melee,Melee,x2,6+,8+,,,
 27,Elites,Khorne Berzerkers,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,"Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.","Chaos, Khorne, Heretic Astartes, <Legion>
-Light, Infantry, Khorne Berzerkers","per Unit: Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites."
+Light, Infantry, Khorne Berzerkers",
 27,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
 27,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,,
 27,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,,
 27,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
 27,,,,,,,,,,,,Chain Weapons,Melee,Melee,x4,6+,9+,,,
 28,Heavy,Noise Marines,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,"Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.","Chaos, Slaanesh, Heretic Astartes, <Legion>
-Light, Infantry, Noise Marines","per Unit: Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.; per Unit (Power Rating +1): This unit can also be equipped with 1 Blastmaster (Power Rating +1).; per Unit (Power Rating +1): more models, it can also be equipped with 1 Blastmaster (Power Rating +1)."
+Light, Infantry, Noise Marines","per Unit (Power Rating +1): This unit can also be equipped with 1 Blastmaster (Power Rating +1).; per Unit (Power Rating +1): more models, it can also be equipped with 1 Blastmaster (Power Rating +1)."
 28,,,"6""",3+,3+,2,2,6,6+,10,8,,,,,,,,,
 28,,,"6""",3+,3+,3,3,6,6+,15,12,,,,,,,,,
 28,,,"6""",3+,3+,4,4,6,6+,20,16,,,,,,,,,
@@ -258,7 +258,7 @@ Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12"", Fly) - Greater Daemon of
 Lord of Change (Tzeentch, Pt 12, M 12"", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Rod of Sorcery (Power Rating +1): Add 6"" to the Range of Orange Fires of Tzeentch.
 Great Unclean One (Nurgle, Pt 14, M 7"", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7"" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.
 Keeper of Secrets (Slaanesh, Pt 14, M 15"", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.","Chaos, Daemon, Legiones Daemonica
-Heavy, Monster, Fly, Character, Greater Daemon","per Unit (Power Rating +1): Rod of Sorcery (Power Rating +1): Add 6"" to the Range of Orange Fires of Tzeentch; per Unit: Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12"", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Lord of Change (Tzeentch, Pt 12, M 12"", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit: Keeper of Secrets (Slaanesh, Pt 14, M 15"", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.; per Unit (Power Rating +1): Lord of Change: Can equip 1 Baleful Sword (Power Rating +1); per Unit (Power Rating +1): have a Rod of Sorcery (Power Rating +1).; per Unit (Power Rating +1): Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1); per Unit: Instead of 1 Plague Flail, can equip 1 Bileblade.; per Unit (Power Rating +2): Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)"
+Heavy, Monster, Fly, Character, Greater Daemon","per Unit (Power Rating +1): Lord of Change: Can equip 1 Baleful Sword (Power Rating +1); per Unit (Power Rating +1): have a Rod of Sorcery (Power Rating +1).; per Unit (Power Rating +1): Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1); per Unit: Instead of 1 Plague Flail, can equip 1 Bileblade.; per Unit (Power Rating +2): Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)"
 32,,,"12""",2+,2+,2,3,8,5+,1,14,,,,,,,,,
 32,,,"12""",2+,2+,2,3,8,8+,1,12,,,,,,,,,
 32,,,"7""",2+,2+,2,4,8,9+,1,14,,,,,,,,,

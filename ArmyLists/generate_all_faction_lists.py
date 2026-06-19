@@ -17,21 +17,23 @@ CSV_HEADER = [
 
 def split_keywords(keywords):
     """Split keywords into faction line and type line (two-line CSV format)."""
-    faction_keys = {"Aeldari", "Drukhari", "T'au Empire", "Imperium", "Adeptus Ministorum",
+    faction_keys = {"Aeldari", "Drukhari", "T'au Empire", "Farsight Enclaves", "T'au Sept",
+                    "Kroot", "Vespid", "Imperium", "Adeptus Ministorum",
                     "Adepta Sororitas", "Adeptus Mechanicus", "Cult Mechanicus", "Skitarii",
-                    "Kroot", "Vespid", "Incubi", "Prophets of Flesh", "Cult of Strife",
-                    "Farsight Enclaves", "T'au Sept", "Order of Our Martyred Lady", "Mars",
+                    "Incubi", "Prophets of Flesh", "Cult of Strife",
+                    "Order of Our Martyred Lady", "Mars",
                     "Questor Mechanicus", "Chaos", "Heretic Astartes", "Astra Militarum",
                     "Adeptus Astartes", "Knights", "Imperial Knights", "Chaos Knights",
                     "Servants of the Abyss", "Legiones Daemonica", "Daemon",
                     "Cadian", "Officio Prefectus", "Militarum Tempestus", "Militarum Auxilia",
                     "Astra Telepathica", "Scholastica Psykana", "Aeronautica Imperialis",
                     "Black Legion", "Khorne", "Nurgle", "Slaanesh", "Tzeentch",
-                    "Orks", "Freebooterz", "Goff", "Bad Moons", "Deathskulls", "Blood Axe", "Evil Sunz", "Snakebites"}
+                    "Orks", "Freebooterz", "Goff", "Bad Moons", "Deathskulls", "Blood Axe", "Evil Sunz", "Snakebites",
+                    "Tyranids", "Tyranid Hive Fleets", "Genestealer Cults", "Brood Brothers"}
     placeholder_keys = {"<Kabal>", "<Wych Cult>", "<Haemonculus Coven>", "<Sept>",
                         "<Order>", "<Forge World>", "<Legion>", "<Mark of Chaos>",
                         "<Chapter>", "<Regiment>", "<Questor Allegiance>", "<Questor Traitoris>",
-                        "<Household>", "<Craftworld>", "<Clan>"}
+                        "<Household>", "<Craftworld>", "<Clan>", "<Hive Fleet>", "<Cult>"}
     line1, line2 = [], []
     for kw in keywords:
         if kw in faction_keys or kw in placeholder_keys or (

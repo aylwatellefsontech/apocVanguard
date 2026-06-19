@@ -1,0 +1,2415 @@
+{
+  "faction": "Genestealer Cults",
+  "source": "Apoc40k-Armies-1st - Genestealer Cults.csv",
+  "units": [
+    {
+      "name": "Patriarch",
+      "stats": {
+        "M": "9\"",
+        "WS": "2+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "8",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Psyker",
+        "Character",
+        "Genestealer",
+        "Patriarch"
+      ],
+      "weapons": [
+        {
+          "name": "Monstrous Rending Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "4+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Cult> Genestealer units whilst they are within 6\" of any friendly <Cult> units with this ability.\nLiving Idol: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Patriarch is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws."
+        }
+      ],
+      "no": 1,
+      "type": "HQ"
+    },
+    {
+      "name": "Magus",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Psyker",
+        "Character",
+        "Magus"
+      ],
+      "weapons": [
+        {
+          "name": "Magus Force Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Spiritual Leader: Friendly <Cult> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nMaster Psyker: Once per battle, at the end of the Orders phase, you can look through your Command Asset deck and draw either one Genestealer Cults Command Asset of your choice that is a psychic power, or the Deny the Witch or Adamantium Will card. Add the drawn card to your hand, then shuffle the Command Asset deck and place it face down.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Magus is a unit that contains 1 model. It is equipped with: Magus Force Weapon."
+        }
+      ],
+      "no": 2,
+      "type": "HQ"
+    },
+    {
+      "name": "Primus",
+      "stats": {
+        "M": "6\"",
+        "WS": "2+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Primus"
+      ],
+      "weapons": [
+        {
+          "name": "Elite Cult Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Cult Demagogue: Add 1 to hit rolls for attacks made with melee weapons by <Cult> units whilst they are within 6\" of any friendly <Cult> units with this ability.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Primus is a unit that contains 1 model. It is equipped with: Elite Cult Weapons."
+        }
+      ],
+      "no": 3,
+      "type": "HQ"
+    },
+    {
+      "name": "Abominant",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "6+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Aberrant",
+        "Abominant"
+      ],
+      "weapons": [
+        {
+          "name": "Power Sledgehammer",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)\nThe Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6\" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer."
+        }
+      ],
+      "no": 4,
+      "type": "Lord"
+    },
+    {
+      "name": "Acolyte Hybrids",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Acolyte Hybrids"
+      ],
+      "weapons": [
+        {
+          "name": "Demolition Charge",
+          "type": "Heavy",
+          "range": "6\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "4+",
+          "abilities": "One Use Only"
+        },
+        {
+          "name": "Acolyte Weapons",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Heavy Rock Drill",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Heavy Rock Saw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Rending Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "6"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "9"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 15 models",
+          "text": "It can contain 10 models (Power Rating 6), 15 models (Power Rating 9)",
+          "Pt": "6"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "It can contain 10 models (Power Rating 6), 15 models (Power Rating 9)",
+          "Pt": "9"
+        },
+        {
+          "per": "Per 20 models",
+          "text": "20 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.",
+          "Pt": "1"
+        }
+      ],
+      "no": 5,
+      "type": "Troops"
+    },
+    {
+      "name": "Neophyte Hybrids",
+      "stats": {
+        "M": "6\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "2",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "10",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Neophyte Hybrids"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Seismic Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Scavenged Weapons",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "20",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 6,
+      "type": "Troops"
+    },
+    {
+      "name": "Brood Brothers Infantry Squad",
+      "stats": {
+        "M": "6\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "2",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Light",
+        "Infantry",
+        "Brood Brothers Infantry Squad"
+      ],
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Mortar",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Lasguns",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 6)",
+          "Pt": "6"
+        },
+        {
+          "per": "Per Unit",
+          "text": "It can contain 1 weapons team model instead of 2 other models (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        }
+      ],
+      "no": 7,
+      "type": "Troops"
+    },
+    {
+      "name": "Acolyte Iconward",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Acolyte Iconward"
+      ],
+      "weapons": [
+        {
+          "name": "Rending Claw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Sacred Cult Banner: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.\nNexus of Devotion: Friendly <Cult> Light units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "An Acolyte Iconward is a unit that contains 1 model. It is equipped with: Rending Claw."
+        }
+      ],
+      "no": 8,
+      "type": "Elites"
+    },
+    {
+      "name": "Purestrain Genestealers",
+      "stats": {
+        "M": "9\"",
+        "WS": "3+",
+        "BS": "-",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "9+",
+        "N": "5",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Genestealer",
+        "Purestrain Genestealers"
+      ],
+      "weapons": [
+        {
+          "name": "Purestrain Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "9\"",
+          "WS": "3+",
+          "BS": "-",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "10"
+        },
+        {
+          "M": "9\"",
+          "WS": "3+",
+          "BS": "-",
+          "A": "3",
+          "W": "3",
+          "Ld": "7",
+          "Sv": "9+",
+          "N": "15",
+          "Pt": "15"
+        },
+        {
+          "M": "9\"",
+          "WS": "3+",
+          "BS": "-",
+          "A": "4",
+          "W": "4",
+          "Ld": "7",
+          "Sv": "9+",
+          "N": "20",
+          "Pt": "20"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 15 models",
+          "text": "It can contain 10 models (Power Rating 10), 15 models (Power Rating 15)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "It can contain 10 models (Power Rating 10), 15 models (Power Rating 15)",
+          "Pt": "15"
+        },
+        {
+          "per": "Per 20 models",
+          "text": "20 models (Power Rating 20)",
+          "Pt": "20"
+        }
+      ],
+      "no": 9,
+      "type": "Elites"
+    },
+    {
+      "name": "Aberrants",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "6+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Aberrants"
+      ],
+      "weapons": [
+        {
+          "name": "Aberrant Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)",
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "6+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "9"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 9)",
+          "Pt": "9"
+        }
+      ],
+      "no": 10,
+      "type": "Elites"
+    },
+    {
+      "name": "Hybrid Metamorphs",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Hybrid Metamorphs"
+      ],
+      "weapons": [
+        {
+          "name": "Metamorph Weapons (Ranged)",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Metamorph Weapons (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "8+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 8)",
+          "Pt": "8"
+        }
+      ],
+      "no": 11,
+      "type": "Elites"
+    },
+    {
+      "name": "Clamavus",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Clamavus"
+      ],
+      "weapons": [
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Scrambler Array: Enemy units that arrive as reinforcements using the Deep Strike ability cannot be set up within 12\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Clamavus is a unit that contains 1 model. It is equipped with: Close Combat Weapons."
+        }
+      ],
+      "no": 12,
+      "type": "Elites"
+    },
+    {
+      "name": "Locus",
+      "stats": {
+        "M": "6\"",
+        "WS": "2+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "9+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Locus"
+      ],
+      "weapons": [
+        {
+          "name": "Locus Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Unquestioning Bodyguard: At the start of the Damage phase, you can select one friendly <Cult> Light Character unit within 6\" of this unit; remove up to D3 blast markers from that Character unit and place them next to this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Locus is a unit that contains 1 model. It is equipped with: Locus Blades."
+        }
+      ],
+      "no": 13,
+      "type": "Elites"
+    },
+    {
+      "name": "Sanctus",
+      "stats": {
+        "M": "6\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Sanctus"
+      ],
+      "weapons": [
+        {
+          "name": "Silencer Sniper Rifle",
+          "type": "Small Arms",
+          "range": "36\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Sniper"
+        },
+        {
+          "name": "Sanctus Bio-dagger",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Familiar Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Infiltrators\nCult Assassin: This unit cannot be a Warlord.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Sanctus is a unit that contains 1 model. It is equipped with: Silencer Sniper Rifle; Familiar Claws."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Silencer Sniper Rifle, this unit can be equipped with 1 Sanctus Bio-dagger."
+        }
+      ],
+      "no": 14,
+      "type": "Elites"
+    },
+    {
+      "name": "Kelermorph",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "9+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Kelermorph"
+      ],
+      "weapons": [
+        {
+          "name": "Liberator Autostubs",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Cultist Knife",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
+        }
+      ],
+      "no": 15,
+      "type": "Elites"
+    },
+    {
+      "name": "Nexos",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Nexos"
+      ],
+      "weapons": [
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Strategic Coordinator: If any friendly units with this ability are on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Nexos is a unit that contains 1 model. It is equipped with: Close Combat Weapons."
+        }
+      ],
+      "no": 16,
+      "type": "Elites"
+    },
+    {
+      "name": "Biophagus",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Biophagus"
+      ],
+      "weapons": [
+        {
+          "name": "Injector Goad",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Genomic Enhancement: At the start of the Action phase, you can enhance one friendly <Cult> Aberrant unit within 1\" of this unit. Add 1 to that unit's Attacks characteristic until the end of the battle. A unit can only be enhanced once per battle.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Biophagus is a unit that contains 1 model. It is equipped with: Injector Goad."
+        }
+      ],
+      "no": 17,
+      "type": "Elites"
+    },
+    {
+      "name": "Jackal Alphus",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Biker",
+        "Character",
+        "Jackal Alphus"
+      ],
+      "weapons": [
+        {
+          "name": "Jackal Sniper Rifle",
+          "type": "Small Arms",
+          "range": "36\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+",
+          "abilities": "Sniper"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Stealth\nPriority Target Sighted: When this unit's Detachment is chosen to carry out an order, before any actions are made, select one enemy unit visible to and within 36\" of this unit. Until the end of the turn, add 1 to hit rolls for attacks made with ranged weapons by friendly <Cult> units whilst they are within 6\" of this unit if those attacks target the selected unit. An enemy unit can only be affected by this ability once per turn.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Jackal Alphus is a unit that contains 1 model. It is equipped with: Jackal Sniper Rifle; Close Combat Weapons."
+        }
+      ],
+      "no": 18,
+      "type": "Fast"
+    },
+    {
+      "name": "Atalan Jackals",
+      "stats": {
+        "M": "14\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Biker",
+        "Atalan Jackals"
+      ],
+      "weapons": [
+        {
+          "name": "Atalan Incinerator",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Autopistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "14\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "It can contain 8 models (Power Rating 8)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per 2 models",
+          "text": "12 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per model",
+          "text": "For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model (Power Rating +1 per model)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each Atalan Wolfquad model this unit contains, it must also be equipped with one of the following: 1 Atalan Incinerator; 1 Heavy Stubber; 1 Mining Laser."
+        }
+      ],
+      "no": 19,
+      "type": "Fast"
+    },
+    {
+      "name": "Achilles Ridgerunners",
+      "stats": {
+        "M": "14\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Achilles Ridgerunners"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Heavy Mortar",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Heavy Stubbers",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Infiltrators",
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "6+",
+          "BS": "4+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "12"
+        },
+        {
+          "M": "14\"",
+          "WS": "6+",
+          "BS": "4+",
+          "A": "3",
+          "W": "6",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "18"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 18)",
+          "Pt": "18"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
+        }
+      ],
+      "no": 20,
+      "type": "Fast"
+    },
+    {
+      "name": "Cult Armoured Sentinels",
+      "stats": {
+        "M": "8\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Cult Armoured Sentinels"
+      ],
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Multi-laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Plasma Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "2",
+          "Pt": "6"
+        },
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "3",
+          "Pt": "9"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 6)",
+          "Pt": "6"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 9)",
+          "Pt": "9"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon."
+        }
+      ],
+      "no": 21,
+      "type": "Heavy"
+    },
+    {
+      "name": "Cult Scout Sentinels",
+      "stats": {
+        "M": "9\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Cult Scout Sentinels"
+      ],
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Multi-laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Infiltrators",
+      "profiles": [
+        {
+          "M": "9\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "7"
+        },
+        {
+          "M": "9\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
+        }
+      ],
+      "no": 22,
+      "type": "Heavy"
+    },
+    {
+      "name": "Brood Brothers Heavy Weapons Squad",
+      "stats": {
+        "M": "6\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "3",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Light",
+        "Infantry",
+        "Brood Brothers Heavy Weapons Squad"
+      ],
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Mortar",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Weapon Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equipped with: Close Combat Weapons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        }
+      ],
+      "no": 23,
+      "type": "Heavy"
+    },
+    {
+      "name": "Goliath Rockgrinder",
+      "stats": {
+        "M": "10\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Goliath Rockgrinder"
+      ],
+      "weapons": [
+        {
+          "name": "Clearance Incinerator",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Heavy Seismic Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Drilldozer Blade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon."
+        }
+      ],
+      "no": 24,
+      "type": "Heavy"
+    },
+    {
+      "name": "Cult Leman Russ",
+      "stats": {
+        "M": "10\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "8"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Cult Leman Russ"
+      ],
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "type": "Heavy",
+          "range": "72\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Eradicator Nova Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "5+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Exterminator Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Multi-melta",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Plasma Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Vanquisher Battle Cannon",
+          "type": "Heavy",
+          "range": "72\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Storm Bolter",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Grinding Tracks",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Eradicator Nova Cannon, Exterminator Autocannon and Vanquisher Battle Cannon for that action.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Cult Leman Russ is a unit that contains 1 model. It is equipped with: Battle Cannon; Heavy Bolter; Grinding Tracks."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Battle Cannon, this unit can be equipped with one of the following: 1 Eradicator Nova Cannon; 1 Exterminator Autocannon; 1 Vanquisher Battle Cannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
+      ],
+      "no": 25,
+      "type": "Heavy"
+    },
+    {
+      "name": "Goliath Truck",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Goliath Truck"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Twin Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Tough Chassis",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis."
+        }
+      ],
+      "no": 26,
+      "type": "Heavy"
+    },
+    {
+      "name": "Cult Chimera",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Cult Chimera"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Multi-laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Lasgun Array",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Storm Bolter",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Armoured Tracks",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "TRANSPORT: This unit can transport up to 12 friendly Brood Brothers Infantry models. Each weapons team model takes the space of 2 other Infantry models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Cult Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
+      ],
+      "no": 27,
+      "type": "Transport"
+    },
+    {
+      "name": "Goliath Truck",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Goliath Truck"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Twin Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Tough Chassis",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis."
+        }
+      ],
+      "no": 28,
+      "type": "Transport"
+    },
+    {
+      "name": "Achilles Ridgerunners",
+      "stats": {
+        "M": "14\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Achilles Ridgerunners"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Heavy Mortar",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Heavy Stubbers",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Infiltrators",
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "6+",
+          "BS": "4+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "12"
+        },
+        {
+          "M": "14\"",
+          "WS": "6+",
+          "BS": "4+",
+          "A": "3",
+          "W": "6",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "18"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 18)",
+          "Pt": "18"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
+        }
+      ],
+      "no": 29,
+      "type": "Air"
+    },
+    {
+      "name": "Cult Scout Sentinels",
+      "stats": {
+        "M": "9\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Cult Scout Sentinels"
+      ],
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Multi-laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Infiltrators",
+      "profiles": [
+        {
+          "M": "9\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "7"
+        },
+        {
+          "M": "9\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
+        }
+      ],
+      "no": 30,
+      "type": "Air"
+    },
+    {
+      "name": "Goliath Rockgrinder",
+      "stats": {
+        "M": "10\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Goliath Rockgrinder"
+      ],
+      "weapons": [
+        {
+          "name": "Clearance Incinerator",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Mining Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Heavy Seismic Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Drilldozer Blade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon."
+        }
+      ],
+      "no": 31,
+      "type": "Transport"
+    },
+    {
+      "name": "Tectonic Fragdrill",
+      "stats": {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "A": "-",
+        "W": "-",
+        "Ld": "-",
+        "Sv": "-",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Sector Mechanicus",
+        "Tectonic Fragdrill"
+      ],
+      "weapons": [],
+      "abilities": "A Tectonic Fragdrill is a unit that contains 1 model. It cannot be set up on an objective marker and must be set up more than 1\" from any other terrain features. After this unit is set up, it is treated as Defensible Terrain, and is no longer considered to be a unit for any rules purposes.\nSEISMIC QUAKE: Once per battle, at the start of the second or subsequent Action phase, the player who set up this terrain feature can trigger a seismic quake if there are any Genestealer Cults units from their army within 1\" of this terrain feature. If they do, draw a straight imaginary line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses this terrain feature. Roll one D6 for each unit without the Fly keyword and each unit garrisoning a Defensible Terrain feature that this line crosses; on a 5+ place one blast marker next to the unit being rolled for.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Tectonic Fragdrill is a unit that contains 1 model."
+        }
+      ],
+      "no": 32,
+      "type": "Lord"
+    }
+  ]
+}

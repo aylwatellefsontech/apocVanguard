@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { getRouteApi, useNavigate } from '@tanstack/react-router'
 import CardDetail from '../components/CardDetail'
 import UnitDetail from '../components/UnitDetail'
 import { useCards } from '../hooks/useCards'
@@ -6,11 +7,11 @@ import { useArmy, useFactions } from '../hooks/useFactions'
 import { groupUnitsByType } from '../utils/units'
 import type { BrowseMode } from '../types'
 
-interface BrowsePageProps {
-  onCreateArmy: () => void
-}
+const browseRouteApi = getRouteApi('/')
 
-export default function BrowsePage({ onCreateArmy }: BrowsePageProps) {
+export default function BrowsePage() {
+  const navigate = useNavigate({ from: '/' })
+  const { faction: factionParam, cards: cardsParam } = browseRouteApi.useSearch()
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
   const {
     cards,
@@ -18,10 +19,35 @@ export default function BrowsePage({ onCreateArmy }: BrowsePageProps) {
     loading: loadingCards,
     error: cardsError,
   } = useCards()
-  const [browseMode, setBrowseMode] = useState<BrowseMode>('army')
-  const [selectedFactionId, setSelectedFactionId] = useState<string | null>(null)
-  const [selectedCardFac, setSelectedCardFac] = useState<string | null>(null)
-  const activeFactionId = selectedFactionId ?? factions[0]?.id ?? null
+
+  const browseMode: BrowseMode = factionParam ? 'army' : cardsParam !== undefined ? 'cards' : 'army'
+  const selectedCardFac =
+    cardsParam === undefined || cardsParam === '' ? null : cardsParam
+  const activeFactionId = useMemo(() => {
+    if (browseMode !== 'army') {
+      return null
+    }
+    if (factionParam && factions.some((faction) => faction.id === factionParam)) {
+      return factionParam
+    }
+    return factions[0]?.id ?? null
+  }, [browseMode, factionParam, factions])
+
+  useEffect(() => {
+    if (!factionParam) {
+      return
+    }
+
+    const params = new URLSearchParams(window.location.search)
+    if (!params.has('cards')) {
+      return
+    }
+
+    navigate({
+      search: { faction: factionParam },
+      replace: true,
+    })
+  }, [factionParam, navigate])
   const { army, loading: loadingArmy, error: armyError } = useArmy(
     browseMode === 'army' ? activeFactionId : null,
   )
@@ -29,17 +55,13 @@ export default function BrowsePage({ onCreateArmy }: BrowsePageProps) {
   const [search, setSearch] = useState('')
 
   function handleSelectFaction(factionId: string) {
-    setBrowseMode('army')
-    setSelectedFactionId(factionId)
+    navigate({ search: { faction: factionId, cards: undefined } })
     setSelectedUnitNo(null)
-    setSelectedCardFac(null)
     setSearch('')
   }
 
   function handleSelectCards(fac: string | null) {
-    setBrowseMode('cards')
-    setSelectedCardFac(fac)
-    setSelectedFactionId(null)
+    navigate({ search: { cards: fac ?? '', faction: undefined } })
     setSelectedUnitNo(null)
     setSearch('')
   }
@@ -101,7 +123,7 @@ export default function BrowsePage({ onCreateArmy }: BrowsePageProps) {
               {selectedCardFac ? ` · ${selectedCardFac}` : ' · all factions'}
             </p>
           )}
-          <button type="button" className="primary-btn" onClick={onCreateArmy}>
+          <button type="button" className="primary-btn" onClick={() => navigate({ to: '/build' })}>
             Create Army
           </button>
         </div>

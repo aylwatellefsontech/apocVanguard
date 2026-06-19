@@ -9,7 +9,7 @@ Light, Infantry, Character, Officer, Lord Castellan Creed",
 Light, Infantry, Character, Officer, Company Commander",
 2,,,,,,,,,,,,Officer Weapons,Melee,Melee,User,10+,11+,,,
 3,HQ,Lord Commissar,"6""",2+,2+,1,1,7,7+,1,4,,,,,,,"Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Astra Militarum, Officio Prefectus
-Light, Infantry, Character, Commissar, Lord Commissar","per Unit: Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit."
+Light, Infantry, Character, Commissar, Lord Commissar",
 3,,,,,,,,,,,,Commissar Weapons,Melee,Melee,User,10+,11+,,,
 4,HQ,Company Command,"6""",4+,3+,1,1,4,10+,4,2,,,,,,,"Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6"" of any friendly <Regiment> units with a Regimental Standard.","Imperium, Astra Militarum, <Regiment>
 Light, Infantry, Veterans, Command Squad","per Unit (Power Rating +1): It can contain 1 weapons team model instead of 2 other models (Power Rating +1).; per Unit (Power Rating +1): This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).; per Unit: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.; per Unit (Power Rating +1): This unit can have a Regimental Standard (Power Rating +1)"
@@ -107,7 +107,7 @@ Heavy, Vehicle, Scout Sentinels","per 2 models (Power Rating 7): It can contain 
 14,,,,,,,,,,,,Multi-laser,Heavy,"36""",1,6+,10+,,,
 14,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
 15,Fast,Hellhound,"12""",6+,4+,1,2,5,6+,1,6,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Hellhound","per Unit: Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Hellhound","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 15,,,,,,,,,,,,,,,,,,A Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.,,
 15,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",,
 15,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
@@ -120,7 +120,7 @@ Heavy, Vehicle, Hellhound","per Unit: Tank Squadron: Each Fast Attack slot in a 
 15,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 15,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 16,Fast,Devil Dog,"12""",6+,4+,1,2,5,6+,1,6,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Hellhound, Devil Dog","per Unit: Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Hellhound, Devil Dog","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 16,,,,,,,,,,,,,,,,,,A Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; Heavy Bolter; Armoured Tracks.,,
 16,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",,
 16,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
@@ -141,7 +141,7 @@ Light, Infantry, Heavy Weapons Squad","per Unit: For each model this unit contai
 17,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
 17,,,,,,,,,,,,Mortar,Heavy,"48""",1,8+,10+,Barrage,,
 18,Heavy,Hydra,"12""",6+,4+,1,2,5,6+,1,7,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Hydra","per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Hydra","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 18,,,,,,,,,,,,,,,,,,A Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.,,
 18,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",,
 18,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
@@ -152,7 +152,7 @@ Heavy, Vehicle, Hydra","per Unit: Tank Squadron: Each Heavy Support slot in a De
 18,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 18,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 19,Heavy,Basilisk,"12""",6+,4+,1,2,5,6+,1,7,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Basilisk","per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Basilisk","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 19,,,,,,,,,,,,,,,,,,A Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.,,
 19,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",,
 19,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
@@ -163,7 +163,7 @@ Heavy, Vehicle, Basilisk","per Unit: Tank Squadron: Each Heavy Support slot in a
 19,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 19,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 20,Heavy,Manticore,"12""",6+,4+,1,2,5,6+,1,8,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Manticore","per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Manticore","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 20,,,,,,,,,,,,,,,,,,A Manticore is a unit that contains 1 model. It is equipped with: 4 Storm Eagle Rockets; Heavy Bolter; Armoured Tracks.,,
 20,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",,
 20,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
@@ -175,7 +175,7 @@ Heavy, Vehicle, Manticore","per Unit: Tank Squadron: Each Heavy Support slot in 
 20,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 21,Heavy,Leman Russ,"10""",6+,4+,1,2,5,6+,1,10,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Leman Russ, Leman Russ Battle Tank","per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon): Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.; per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Leman Russ, Leman Russ Battle Tank","per Unit (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon): Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.; per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 21,,,,,,,,,,,,,,,,,,"Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",,
 21,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.",,
 21,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.,,
@@ -237,7 +237,7 @@ Heavy, Vehicle, Transport, Chimera","per Unit: Instead of 1 Heavy Bolter, this u
 Vehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Flyers slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
 Hover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, then until the end of the phase, its Move characteristic changes to 20"" but it loses the Supersonic ability.
 Grav-chute Insertion: Units may disembark from this unit during its Move action. Units that disembark in this manner must be set up more than 9"" from any enemy units.","Imperium, Astra Militarum, Aeronautica Imperialis
-Heavy, Vehicle, Fly, Transport, Aircraft, Valkyrie","per Unit: Supersonic Vehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.; per Unit: Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.; per Unit (Power Rating +2): This unit can also be equipped with 2 Heavy Bolters (Power Rating +2)."
+Heavy, Vehicle, Fly, Transport, Aircraft, Valkyrie","per Unit: Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.; per Unit: Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.; per Unit (Power Rating +2): This unit can also be equipped with 2 Heavy Bolters (Power Rating +2)."
 25,,,,,,,,,,,,,,,,,,TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.,,
 25,,,,,,,,,,,,,,,,,,A Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Missiles; Multi-laser; Armoured Bulk.,,
 25,,,,,,,,,,,,,,,,,,"Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.",,
@@ -265,7 +265,7 @@ Light, Cavalry, Rough Riders",per 10 models (Power Rating 6): It can contain 10 
 27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
 27,,,,,,,,,,,,Hunting Lances,Melee,Melee,User,7+,7+,,,
 28,Heavy,Field Ordinance,"12""",6+,4+,1,2,5,6+,1,7,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
-Heavy, Vehicle, Wyvern","per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+Heavy, Vehicle, Wyvern","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 28,,,,,,,,,,,,,,,,,,Field Ordnance Battery does not appear in this Apocalypse datasheet; Wyvern is the closest heavy artillery substitute.,,
 28,,,,,,,,,,,,,,,,,,A Wyvern is a unit that contains 1 model. It is equipped with: Wyvern Quad Stormshard Mortar; Heavy Bolter; Armoured Tracks.,,
 28,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",,
@@ -326,5 +326,5 @@ Heavy, Vehicle, Transport, Taurox Prime","per Unit: Instead of 1 Taurox Battle C
 31,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
 32,Elite,Commissar,"6""",3+,3+,1,1,6,10+,1,2,,,,,,,"Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Astra Militarum, Officio Prefectus
-Light, Infantry, Character, Commissar","per Unit: Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit."
+Light, Infantry, Character, Commissar",
 32,,,,,,,,,,,,Commissar Weapons,Melee,Melee,User,11+,11+,,,

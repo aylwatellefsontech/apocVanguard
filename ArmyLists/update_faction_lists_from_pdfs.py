@@ -14,6 +14,9 @@ from factions.imperial_guard_data import IMPERIAL_GUARD_SLOTS
 from factions.space_marines_data import SPACE_MARINES_SLOTS
 from factions.knights_data import KNIGHTS_SLOTS
 from factions.orks_data import ORKS_SLOTS
+from factions.tyranids_data import TYRANIDS_SLOTS
+from factions.genestealer_cults_data import GENESTEALER_CULTS_SLOTS
+from factions.tau_empire_data import TAU_EMPIRE_SLOTS
 
 FACTION_OUTPUTS = [
     ("Chaos Marines", "Chaos Marines", CHAOS_MARINES_SLOTS),
@@ -21,6 +24,9 @@ FACTION_OUTPUTS = [
     ("Space Marines", "Space Marines", SPACE_MARINES_SLOTS),
     ("Knights", "Knights", KNIGHTS_SLOTS),
     ("Orks", "Orks", ORKS_SLOTS),
+    ("Tyranids", "Tyranids", TYRANIDS_SLOTS),
+    ("Genestealer Cults", "Genestealer Cults", GENESTEALER_CULTS_SLOTS),
+    ("T'au Empire", "Tau", TAU_EMPIRE_SLOTS),
 ]
 
 
