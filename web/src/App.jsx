@@ -4,6 +4,7 @@ import AppNav from './components/AppNav.jsx'
 import BrowsePage from './pages/BrowsePage.jsx'
 import BuildArmyPage from './pages/BuildArmyPage.jsx'
 import ViewArmiesPage from './pages/ViewArmiesPage.jsx'
+import RulesPage from './pages/RulesPage.jsx'
 
 export default function App() {
   const [page, setPage] = useState('browse')
@@ -38,6 +39,7 @@ export default function App() {
         />
       )}
       {page === 'armies' && <ViewArmiesPage onEditArmy={openEditor} />}
+      {page === 'rules' && <RulesPage />}
     </div>
   )
 }

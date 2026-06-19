@@ -11,7 +11,7 @@
         "WS": "2+",
         "BS": "5+",
         "A": "2",
-        "W": "2",
+        "W": "1",
         "Ld": "6",
         "Sv": "3+",
         "N": "1",
@@ -28,6 +28,12 @@
         "Warboss",
         "Ghazghkull Thraka"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Ghazghkull Thraka is a unit that contains 1 model. It is equipped with: Kustom Klaw; Twin Big Shoota. You can only include one of this unit in your army."
+        }
+      ],
       "weapons": [
         {
           "name": "Twin Big Shoota",
@@ -41,7 +47,7 @@
           "name": "Kustom Klaw",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "7+"
         }
@@ -62,7 +68,7 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <clan> units whilst they are within 6\" of this unit.",
+      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6\" of this unit.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -71,12 +77,18 @@
         "Character",
         "Warboss"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Warboss is a unit that contains 1 model. It is equipped with: Boss Weapons."
+        }
+      ],
       "weapons": [
         {
           "name": "Boss Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "8+",
           "armorPen": "8+"
         }
@@ -97,7 +109,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Big Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nKustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nThis unit can have Mega Armour. If this unit has Mega Armour, it:\n- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.\n- Has a Move characteristic of 4\", and Save characteristic of 4+.\n- Has the following keyword: Mega Armour.\n- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force\nField (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field.",
+      "abilities": "Big Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nKustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Big Mek is a unit that contains 1 model. It is equipped with: Shokk Attack Gun; Mek Weapons.\nThis unit can have Mega Armour. If this unit has Mega Armour, it:\n- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.\n- Has a Move characteristic of 4\", and Save characteristic of 4+.\n- Has the following keyword: Mega Armour.\n- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force Field (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -109,6 +121,14 @@
       "options": [
         {
           "per": "Per Unit",
+          "text": "This unit can have Mega Armour."
+        },
+        {
+          "per": "Per Unit",
+          "text": "- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons."
+        },
+        {
+          "per": "Per Unit",
           "text": "Can be equipped with a Tellyport Blasta (Power Rating +1)",
           "Pt": "1"
         },
@@ -116,14 +136,6 @@
           "per": "Per Unit",
           "text": "can also have a Kustom Force Field (Power Rating +1)",
           "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can have Mega Armour."
-        },
-        {
-          "per": "Per Unit",
-          "text": "If this unit has Mega Armour, it: - Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons."
         }
       ],
       "weapons": [
@@ -188,6 +200,12 @@
         "Character",
         "Weirdboy"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Weirdboy is a unit that contains 1 model. It is equipped with: Weirdboy Staff."
+        }
+      ],
       "weapons": [
         {
           "name": "Weirdboy Staff",
@@ -210,11 +228,11 @@
         "A": "2",
         "W": "2",
         "Ld": "5",
-        "Sv": "8",
+        "Sv": "8+",
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Speedwaaagh!: If a <Clan> Speed Freeks unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit’s Move characteristic whilst making that Move action.",
+      "abilities": "Speedwaaagh!: If a <Clan> Speed Freeks unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic whilst making that Move action.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -224,6 +242,12 @@
         "Speed Freeks",
         "Speedboss",
         "Deffkilla Wartrike"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Deffkilla Wartrike is a unit that contains 1 model. It is equipped with: Killa Jet; Snagga Klaw."
+        }
       ],
       "weapons": [
         {
@@ -260,7 +284,7 @@
         "N": "10",
         "Pt": "4"
       },
-      "abilities": "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).\nFor every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha.",
+      "abilities": "Boyz are a unit that contains 10 models. It can contain 20 models (Power Rating 8) or 30 models (Power Rating 13). It is equipped with: Sluggas; Choppas.\nInstead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).\nFor every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -294,8 +318,18 @@
       ],
       "options": [
         {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 8)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per 30 models",
+          "text": "30 models (Power Rating 13)",
+          "Pt": "13"
+        },
+        {
           "per": "Per Unit",
-          "text": "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1)",
+          "text": "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).",
           "Pt": "1"
         },
         {
@@ -324,7 +358,7 @@
           "name": "Shootas",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "4x",
+          "attacks": "x4",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -332,7 +366,7 @@
           "name": "Sluggas",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "2x",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -340,7 +374,7 @@
           "name": "Choppas",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "3x",
+          "attacks": "x3",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -348,7 +382,7 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "2x",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -361,15 +395,15 @@
       "stats": {
         "M": "5\"",
         "WS": "5+",
-        "BS": "5+",
-        "A": "1",
+        "BS": "4+",
+        "A": "2",
         "W": "2",
         "Ld": "4",
         "Sv": "11+",
         "N": "10",
         "Pt": "1"
       },
-      "abilities": "This unit can include a Runtherd (Power Rating +1). If this unit includes a Runtherd, it has a Leadership characteristic of 6.",
+      "abilities": "Gretchin are a unit that contains 10 models. It can contain 20 models (Power Rating 2) or 30 models (Power Rating 3). It is equipped with: Grot Blastas; Close Combat Weapons.\nThis unit can include a Runtherd (Power Rating +1). If this unit includes a Runtherd, it has a Leadership characteristic of 6.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -380,9 +414,9 @@
       "profiles": [
         {
           "M": "5\"",
-          "WS": "5+",
-          "BS": "5+",
-          "A": "2",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "4",
           "W": "4",
           "Ld": "4",
           "Sv": "11+",
@@ -391,9 +425,9 @@
         },
         {
           "M": "5\"",
-          "WS": "5+",
-          "BS": "5+",
-          "A": "3",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "6",
           "W": "6",
           "Ld": "4",
           "Sv": "11+",
@@ -402,6 +436,16 @@
         }
       ],
       "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per 30 models",
+          "text": "30 models (Power Rating 3)",
+          "Pt": "3"
+        },
         {
           "per": "Per Unit",
           "text": "This unit can include a Runtherd (Power Rating +1)",
@@ -413,7 +457,7 @@
           "name": "Grot Blasta",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "8+",
           "armorPen": "10+"
         },
@@ -421,7 +465,7 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "9+",
           "armorPen": "11+"
         }
@@ -451,12 +495,18 @@
         "Character",
         "Painboy"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Painboy is a unit that contains 1 model. It is equipped with: Dok's Tools."
+        }
+      ],
       "weapons": [
         {
           "name": "Doks Tools",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "9+",
           "armorPen": "9+"
         }
@@ -477,7 +527,7 @@
         "N": "1",
         "Pt": "2"
       },
-      "abilities": "Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "abilities": "Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -486,12 +536,18 @@
         "Character",
         "Mek"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Mek is a unit that contains 1 model. It is equipped with: Mek's Tools."
+        }
+      ],
       "weapons": [
         {
           "name": "Meks Tools",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "Usr",
+          "attacks": "User",
           "skill": "9+",
           "armorPen": "9+"
         }
@@ -512,6 +568,7 @@
         "N": "5",
         "Pt": "3"
       },
+      "abilities": "Burna Boyz are a unit that contains 5 models. It can contain 10 models (Power Rating 6), or 15 models (Power Rating 9). It is equipped with: Burnas (Ranged); Burnas (Melee).",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -540,6 +597,18 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
+          "Pt": "9"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 6)",
+          "Pt": "6"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "15 models (Power Rating 9)",
           "Pt": "9"
         }
       ],
@@ -576,9 +645,9 @@
         "Ld": "5",
         "Sv": "10+",
         "N": "5",
-        "Pt": "3"
+        "Pt": "4"
       },
-      "abilities": "Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18\" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.\nTank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.",
+      "abilities": "Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18\" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.\nTank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.\nTankbustas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Tankbusta Rokkit Launchas; Tankbusta Weapons.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -596,7 +665,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "8"
         },
         {
           "M": "5\"",
@@ -607,7 +676,19 @@
           "Ld": "7",
           "Sv": "10+",
           "N": "15",
-          "Pt": "9"
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 8)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "15 models (Power Rating 12)",
+          "Pt": "12"
         }
       ],
       "weapons": [
@@ -644,6 +725,7 @@
         "N": "5",
         "Pt": "6"
       },
+      "abilities": "Nobz are a unit that contains 5 models. It can contain 10 models (Power Rating 12). It is equipped with: Sluggas; Nob Choppas.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -661,6 +743,13 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 12)",
           "Pt": "12"
         }
       ],
@@ -707,6 +796,12 @@
         "Character",
         "Nob"
       ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Nob with Waaagh! Banner is a unit that contains 1 model. It is equipped with: Waaagh! Banner."
+        }
+      ],
       "weapons": [
         {
           "name": "Waaagh! Banner",
@@ -733,6 +828,7 @@
         "N": "3",
         "Pt": "6"
       },
+      "abilities": "Meganobz are a unit that contains 3 models. It can contain 6 models (Power Rating 12) or 9 models (Power Rating 18). It is equipped with: Meganob Shootas; Meganob Melee Weapons.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -766,11 +862,23 @@
           "Pt": "18"
         }
       ],
+      "options": [
+        {
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per 9 models",
+          "text": "9 models (Power Rating 18)",
+          "Pt": "18"
+        }
+      ],
       "weapons": [
         {
           "name": "Meganob Shootas",
           "type": "Small Arms",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "x3",
           "skill": "7+",
           "armorPen": "9+"
@@ -800,7 +908,7 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "Deep Strike\nThis unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha.",
+      "abilities": "Deep Strike\nKommandos are a unit that contains 5 models. It can contain 10 models (Power Rating 5) or 15 models (Power Rating 7). It is equipped with: Kommando Sluggas; Kommando Choppas.\nThis unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -818,7 +926,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "5"
         },
         {
           "M": "6\"",
@@ -829,10 +937,20 @@
           "Ld": "7",
           "Sv": "10+",
           "N": "15",
-          "Pt": "9"
+          "Pt": "7"
         }
       ],
       "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 5)",
+          "Pt": "5"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "15 models (Power Rating 7)",
+          "Pt": "7"
+        },
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha.",
@@ -840,22 +958,6 @@
         }
       ],
       "weapons": [
-        {
-          "name": "Kommando Sluggas",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Kommando Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
         {
           "name": "Big Shoota",
           "type": "Heavy",
@@ -880,6 +982,22 @@
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
+        },
+        {
+          "name": "Kommando Sluggas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kommando Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
         }
       ]
     },
@@ -898,6 +1016,7 @@
         "N": "3",
         "Pt": "7"
       },
+      "abilities": "Nobz on Warbikes are a unit that contains 3 models. It can contain 6 models (Power Rating 14) or 9 models (Power Rating 21). It is equipped with: Dakkaguns; Nob Choppas.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -927,6 +1046,18 @@
           "Ld": "7",
           "Sv": "8+",
           "N": "9",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 14)",
+          "Pt": "14"
+        },
+        {
+          "per": "Per 9 models",
+          "text": "9 models (Power Rating 21)",
           "Pt": "21"
         }
       ],
@@ -964,6 +1095,7 @@
         "N": "3",
         "Pt": "4"
       },
+      "abilities": "Warbikers are a unit that contains 3 models. It can contain 6 models (Power Rating 8), 9 models (Power Rating 12) or 12 models (Power Rating 16). It is equipped with: Dakkaguns; Warbiker Choppas.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -1007,6 +1139,23 @@
           "Pt": "16"
         }
       ],
+      "options": [
+        {
+          "per": "Per 9 models",
+          "text": "It can contain 6 models (Power Rating 8), 9 models (Power Rating 12)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per 9 models",
+          "text": "It can contain 6 models (Power Rating 8), 9 models (Power Rating 12)",
+          "Pt": "12"
+        },
+        {
+          "per": "Per 2 models",
+          "text": "12 models (Power Rating 16)",
+          "Pt": "16"
+        }
+      ],
       "weapons": [
         {
           "name": "Dakka Guns",
@@ -1017,7 +1166,7 @@
           "armorPen": "9+"
         },
         {
-          "name": "Nob Choppas",
+          "name": "Warbiker Choppas",
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
@@ -1041,20 +1190,14 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Ram: After this unit makes a Move action, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 5+ place one blast marker next to that unit.",
+      "abilities": "Ram: After this unit makes a Move action, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 5+ place one blast marker next to that unit.\nKustom Boosta-blastas are a unit that contains 1 model. It can contain 2 models (Power Rating 10) or 3 models (Power Rating 15). It is equipped with: Rivet Kannons; Burna Exhausts; Spiked Rams.",
       "keywords": [
         "Orks",
         "<Clan>",
         "Heavy",
         "Vehicle",
         "Speed Freeks",
-        "Kustom Boosta-blastas",
-        "Orks",
-        "<Clan>",
-        "Heavy",
-        "Vehicle",
-        "Speed Freeks",
-        "Shokkjump Dragstas"
+        "Kustom Boosta-blastas"
       ],
       "profiles": [
         {
@@ -1077,6 +1220,18 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "3",
+          "Pt": "15"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 15)",
           "Pt": "15"
         }
       ],
@@ -1105,23 +1260,6 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "10+"
-        },
-        {
-          "name": "Nose Drills",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Kustom Shokk Rifles",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "5+",
-          "abilities": "Supercharge"
         }
       ]
     },
@@ -1140,7 +1278,7 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nStormboyz are a unit that contains 5 models. It can contain 10 models (Power Rating 7), 20 models (Power Rating 13) or 30 models (Power Rating 19). It is equipped with: Stormboy Sluggas; Stormboy Choppas.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -1185,6 +1323,23 @@
           "Pt": "19"
         }
       ],
+      "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 10 models (Power Rating 7), 20 models (Power Rating 13)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 10 models (Power Rating 7), 20 models (Power Rating 13)",
+          "Pt": "13"
+        },
+        {
+          "per": "Per 30 models",
+          "text": "30 models (Power Rating 19)",
+          "Pt": "19"
+        }
+      ],
       "weapons": [
         {
           "name": "Stormboy Sluggas",
@@ -1215,11 +1370,11 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "8+",
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Deep Strike\nFor each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota.",
+      "abilities": "Deep Strike\nDeffkoptas are a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10). It is equipped with: Spinnin' Blades.\nFor each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -1237,7 +1392,7 @@
           "A": "2",
           "W": "2",
           "Ld": "4",
-          "Sv": "10+",
+          "Sv": "8+",
           "N": "2",
           "Pt": "7"
         },
@@ -1248,12 +1403,22 @@
           "A": "3",
           "W": "3",
           "Ld": "4",
-          "Sv": "10+",
+          "Sv": "8+",
           "N": "3",
           "Pt": "10"
         }
       ],
       "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 10)",
+          "Pt": "10"
+        },
         {
           "per": "Per Unit",
           "text": "For each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota."
@@ -1261,9 +1426,9 @@
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Twin Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "36\"",
           "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
@@ -1291,74 +1456,79 @@
       "type": "Heavy",
       "name": "Mek Gun",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
-        "BS": "5+",
+        "M": "3\"",
+        "WS": "5+",
+        "BS": "4+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "4",
         "Sv": "10+",
-        "N": "1",
-        "Pt": "4"
+        "N": "6",
+        "Pt": "2"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Mek Gun is a unit that contains 6 models. The unit is equipped with: Close Combat Weapons.\nThis unit must also be equipped with one of the following: 1 Bubblechukka; 1 Kustom Mega-Kannon; 1 Smasha Gun; 1 Traktor Kannon.\nThis unit can include a Runtherd (Power Rating +1). If this unit includes a Runtherd, it has a Leadership characteristic of 6.",
       "keywords": [
         "Orks",
         "<Clan>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Speed Freeks",
-        "Deffkoptas"
+        "Artillery",
+        "Gretchin",
+        "Mek Gun"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit must also be equipped with one of the following: 1 Bubblechukka; 1 Kustom Mega-Kannon; 1 Smasha Gun; 1 Traktor Kannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can include a Runtherd (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Bubblechukka",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Kustom Mega-Kannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Smasha Gun",
+          "type": "Heavy",
+          "range": "48\"",
           "attacks": "2",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "5+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
+          "name": "Traktor Kannon",
+          "type": "Heavy",
+          "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
+          "skill": "10+",
+          "armorPen": "3+",
+          "abilities": "Anti-air"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
+          "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "9+",
+          "armorPen": "11+"
         }
       ]
     },
@@ -1367,73 +1537,107 @@
       "type": "Heavy",
       "name": "Battlewagon",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
+        "M": "12\"",
+        "WS": "5+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
+        "W": "3",
+        "Ld": "5",
+        "Sv": "8+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "8"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Open-topped\nA Battlewagon is a unit that contains 1 model. It is equipped with: Wagon Melee Weapons.\nThis unit can also be equipped with 1 Lobba (Power Rating +1).\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Kannon; 1 Killkannon; 1 Zzap Gun.\nThis unit can also be equipped with up to 4 Big Shootas (Power Rating +1 per weapon).\nInstead of Wagon Melee Weapons, this unit can be equipped with 1 Deff Rolla (Power Rating +1).\nThis unit can have an 'Ard Case. If this unit has an 'Ard Case, it: Has a Save characteristic of 6+; loses the following abilities: Open-topped.\nTransport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models. If this unit is equipped with a Killkannon, it can only transport up to 12 models.",
       "keywords": [
         "Orks",
         "<Clan>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Speed Freeks",
-        "Deffkoptas"
+        "Transport",
+        "Battlewagon"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Lobba (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Kannon; 1 Killkannon; 1 Zzap Gun.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to 4 Big Shootas (Power Rating +1 per weapon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Wagon Melee Weapons, this unit can be equipped with 1 Deff Rolla (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can have an 'Ard Case."
+        }
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
+          "range": "36\"",
+          "attacks": "1",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
+          "name": "Kannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "7+"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "name": "Killkannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "6+"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Lobba",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Zzap Gun",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Deff Rolla",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Wagon Melee Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
+          "skill": "9+",
           "armorPen": "9+"
         }
       ]
@@ -1443,58 +1647,106 @@
       "type": "Heavy",
       "name": "Killa Kans",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
-        "BS": "5+",
+        "M": "6\"",
+        "WS": "5+",
+        "BS": "4+",
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "2"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Killa Kans are a unit that contains 1 model. It can contain 3 models (Power Rating 7) or 6 models (Power Rating 13). It is equipped with: Killa Kan Weapons.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Big Shoota; 1 Grotzooka; 1 Rokkit Launcha; 1 Skorcha.",
       "keywords": [
         "Orks",
         "<Clan>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Speed Freeks",
-        "Deffkoptas"
+        "Gretchin",
+        "Killa Kans"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "5+",
+          "BS": "4+",
+          "A": "4",
+          "W": "3",
+          "Ld": "4",
+          "Sv": "6+",
+          "N": "3",
+          "Pt": "7"
+        },
+        {
+          "M": "6\"",
+          "WS": "5+",
+          "BS": "4+",
+          "A": "8",
+          "W": "6",
+          "Ld": "4",
+          "Sv": "6+",
+          "N": "6",
+          "Pt": "13"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 3 models",
+          "text": "It can contain 3 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 6 models",
+          "text": "6 models (Power Rating 13)",
+          "Pt": "13"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Big Shoota; 1 Grotzooka; 1 Rokkit Launcha; 1 Skorcha."
+        }
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Grotzooka",
+          "type": "Heavy",
+          "range": "18\"",
           "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
           "range": "24\"",
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
+          "name": "Skorcha",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "9+",
+          "abilities": "Inferno"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Killa Kan Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "7+"
         }
       ]
     },
@@ -1503,58 +1755,96 @@
       "type": "Heavy",
       "name": "Deff Dread",
       "stats": {
-        "M": "14\"",
+        "M": "6\"",
         "WS": "3+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "6+",
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Dread Mob: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Deff Dread is a unit that contains 1 model. It is equipped with: Armoured Feet; 2 Dread Klaws.\nInstead of 1 Dread Klaw, this unit can be equipped with one of the following: 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw.\nInstead of 2 Dread Klaws, this unit can be equipped with two of the following in any combination: 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw.\nThis unit must be equipped with two of the following in any combination: 1 Big Shoota; 1 Rokkit Launcha; 1 Skorcha; 1 Kustom Mega-blasta; 1 Dread Saw.",
       "keywords": [
         "Orks",
         "<Clan>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Speed Freeks",
-        "Deffkoptas"
+        "Deff Dread"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dread Klaw, this unit can be equipped with one of the following: 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Dread Klaws, this unit can be equipped with two of the following in any combination: 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit must be equipped with two of the following in any combination: 1 Big Shoota; 1 Rokkit Launcha; 1 Skorcha; 1 Kustom Mega-blasta; 1 Dread Saw."
+        }
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
+          "range": "36\"",
+          "attacks": "1",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
+          "name": "Kustom Mega-blasta",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
           "range": "24\"",
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
+          "name": "Skorcha",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "9+",
+          "abilities": "Inferno"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Armoured Feet",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "10+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Dread Klaws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Dread Saw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "6+"
         }
       ]
     },
@@ -1563,42 +1853,76 @@
       "type": "Heavy",
       "name": "Lootas",
       "stats": {
-        "M": "14\"",
+        "M": "5\"",
         "WS": "3+",
         "BS": "5+",
         "A": "1",
         "W": "1",
         "Ld": "4",
         "Sv": "10+",
-        "N": "1",
+        "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Lootas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Deffguns; Close Combat Weapons.",
       "keywords": [
         "Orks",
         "<Clan>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Speed Freeks",
-        "Deffkoptas"
+        "Light",
+        "Infantry",
+        "Lootas"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 8)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per 15 models",
+          "text": "15 models (Power Rating 12)",
+          "Pt": "12"
+        }
       ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Kopta Rokkits",
+          "name": "Deffguns",
           "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
+          "range": "48\"",
+          "attacks": "x4",
           "skill": "7+",
           "armorPen": "7+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
         }
       ]
     },
@@ -1607,33 +1931,60 @@
       "type": "Heavy",
       "name": "Flash Gits",
       "stats": {
-        "M": "14\"",
+        "M": "5\"",
         "WS": "3+",
-        "BS": "5+",
-        "A": "1",
-        "W": "1",
+        "BS": "4+",
+        "A": "2",
+        "W": "2",
         "Ld": "4",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "4"
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "8"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Flash Gitz are a unit that contains 5 models. It can contain 10 models (Power Rating 16). It is equipped with: Snazzguns; Close Combat Weapons.",
+      "keywords": [
+        "Orks",
+        "Freebooterz",
+        "Light",
+        "Infantry",
+        "Flash Gitz"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "16"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 16)",
+          "Pt": "16"
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Kopta Rokkits",
+          "name": "Snazzguns",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "1",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
           "skill": "7+",
-          "armorPen": "7+"
+          "armorPen": "9+"
         }
       ]
     },
@@ -1642,49 +1993,73 @@
       "type": "Lord",
       "name": "Morkanaut",
       "stats": {
-        "M": "14\"",
+        "M": "8\"",
         "WS": "3+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
+        "W": "4",
+        "Ld": "5",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "15"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).\nThis unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Super-heavy",
+        "Vehicle",
+        "Transport",
+        "Morkanaut"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Kustom Force Field."
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Kustom Mega-blasta",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
+          "name": "Kustom Mega-zappa",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "3",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
           "range": "24\"",
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Klaw of Gork (or possibly Mork)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "5+"
         }
       ]
     },
@@ -1693,49 +2068,76 @@
       "type": "Lord",
       "name": "Gorkanaut",
       "stats": {
-        "M": "14\"",
+        "M": "8\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
+        "A": "2",
+        "W": "4",
+        "Ld": "5",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "15"
       },
-      "abilities": "Deep Strike",
-      "weapons": [
+      "abilities": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Super-heavy",
+        "Vehicle",
+        "Transport",
+        "Gorkanaut"
+      ],
+      "options": [
         {
-          "name": "Twin Big Shootas",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "per": "Per Unit",
+          "text": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork)."
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
+          "per": "Per Unit",
+          "text": "Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Deffstorm Mega-shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "8",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
           "range": "24\"",
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
         },
         {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
+          "name": "Skorcha",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Klaw of Gork (or possibly Mork)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "5+"
         }
       ]
     },
@@ -1744,48 +2146,50 @@
       "type": "Transport",
       "name": "Trukk",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
+        "M": "12\"",
+        "WS": "5+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "8+",
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Open-topped, Ignore Damage (6+)",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Trukk"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Trukk is a unit that contains 1 model. It is equipped with: Big Shoota; Trukk Weapons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: This unit can transport up to 12 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models."
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
+          "range": "36\"",
           "attacks": "1",
           "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Spinnin' Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Stormboy Choppas",
+          "name": "Trukk Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "9+",
           "armorPen": "9+"
         }
       ]
@@ -1795,41 +2199,49 @@
       "type": "Air",
       "name": "Dakka Jet",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
+        "M": "20-60\"",
+        "WS": "5+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "8+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "7"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Supersonic\nAll da Dakka: Add 1 to hit rolls for attacks made by this unit with ranged weapons.\nA Dakkajet is a unit that contains 1 model. It is equipped with: 4 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Dakkajet"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Supa-shoota",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
+          "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
+          "skill": "6+",
+          "armorPen": "8+"
         },
         {
-          "name": "Spinnin' Blades",
+          "name": "Armoured Bulk",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
       ]
     },
@@ -1838,41 +2250,65 @@
       "type": "Air",
       "name": "Bomba",
       "stats": {
-        "M": "14\"",
-        "WS": "3+",
+        "M": "20-50\"",
+        "WS": "5+",
         "BS": "5+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "8+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "8"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Supersonic\nBurna Bombs: After this unit makes a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is garrisoning a Defensible Terrain feature; for each result of 4+ place one blast marker next to that unit.\nA Burna-bommer is a unit that contains 1 model. It is equipped with: Twin Big Shoota; 2 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with Skorcha Missiles (Power Rating +1).",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Burna-Bommer"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with Skorcha Missiles (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Skorcha Missiles",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "5+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Supa-shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
           "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Spinnin' Blades",
+          "name": "Armoured Bulk",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
       ]
     },
@@ -1881,49 +2317,84 @@
       "type": "Lord",
       "name": "Stompa",
       "stats": {
-        "M": "14\"",
+        "M": "12\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
+        "A": "2",
+        "W": "8",
+        "Ld": "6",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "49"
       },
-      "abilities": "Deep Strike",
+      "abilities": "Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6\" of this unit.\nStompa Rigger Crew: At the end of the Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 4+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.\nA Stompa is a unit that contains 1 model. It is equipped with: Deffkannon; Supa-gatler; 3 Big Shootas; 3 Supa-rokkits; Skorcha; Mega-choppa.\nThis unit can also be equipped with 2 Supa-rokkits (Power Rating +2).\nTransport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Super-heavy",
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Stompa"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 2 Supa-rokkits (Power Rating +2).",
+          "Pt": "2"
+        }
+      ],
       "weapons": [
         {
-          "name": "Twin Big Shootas",
+          "name": "Big Shoota",
           "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
+          "range": "36\"",
+          "attacks": "1",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Kopta Rokkits",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
+          "name": "Deffkannon",
+          "type": "Heavy",
+          "range": "72\"",
+          "attacks": "6",
+          "skill": "5+",
+          "armorPen": "5+"
         },
         {
-          "name": "Spinnin' Blades",
+          "name": "Skorcha",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Supa-gatler",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "12",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Supa-rokkit",
+          "type": "Heavy",
+          "range": "100\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "4+",
+          "abilities": "One Use Only"
+        },
+        {
+          "name": "Mega-choppa",
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Stormboy Choppas",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "4+",
+          "armorPen": "3+",
+          "abilities": "Destroyer"
         }
       ]
     }

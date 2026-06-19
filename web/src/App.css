@@ -197,9 +197,14 @@
   min-height: 0;
 }
 
+.app-body.cards-mode {
+  grid-template-columns: 220px minmax(0, 1fr);
+}
+
 .faction-panel,
 .unit-panel,
-.detail-panel {
+.detail-panel,
+.cards-feed {
   min-height: 0;
   overflow: auto;
 }
@@ -218,6 +223,34 @@
   padding: 24px 28px;
 }
 
+.cards-feed {
+  padding: 24px 28px;
+}
+
+.cards-feed h2 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.cards-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cards-feed .card-detail {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cards-feed .card-detail:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 .faction-panel h2,
 .unit-panel h2 {
   margin: 0 0 12px;
@@ -225,6 +258,39 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text);
+}
+
+.sidebar-section-title {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.card-meta-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+.card-meta-list div {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.card-meta-list dt {
+  margin: 0 0 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+
+.card-meta-list dd {
+  margin: 0;
+  color: var(--text-h);
 }
 
 .faction-list,
@@ -609,6 +675,206 @@
   min-height: 0;
 }
 
+.build-cards-detail {
+  gap: 24px;
+}
+
+.build-card-detail-wrap {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.build-card-detail-wrap:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.build-card-detail-wrap.active {
+  border-radius: 8px;
+  outline: 1px solid var(--accent-border);
+  outline-offset: 8px;
+}
+
+.build-card-detail-wrap.added .card-detail {
+  background: var(--accent-bg);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.build-card-detail-wrap .card-picker-entry-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.build-card-detail-wrap .card-picker-entry-toggle input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.build-tab-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.build-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.build-tab {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.build-tab.active {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--text-h);
+}
+
+.unit-btn.added {
+  border-color: var(--accent-border);
+}
+
+.card-picker-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-picker-row {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+}
+
+.card-picker-row:hover {
+  background: var(--accent-bg);
+}
+
+.card-picker-row.active,
+.card-picker-row.added {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.card-picker-check {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 12px;
+  cursor: pointer;
+}
+
+.card-picker-check input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.card-picker-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 10px 12px 10px 0;
+  border: none;
+  background: transparent;
+  color: var(--text-h);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.card-picker-main .unit-pts {
+  font-size: 12px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.card-add-actions {
+  margin-top: 20px;
+}
+
+.roster-section-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.roster-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.roster-section-count {
+  font-size: 13px;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.army-view-section + .army-view-section {
+  margin-top: 24px;
+}
+
+.army-view-section .panel-message {
+  margin-top: 8px;
+}
+
+.roster-header-stats {
+  text-align: right;
+}
+
+.roster-header-stats .roster-section-count {
+  margin-top: 4px;
+}
+
+.roster-card-item {
+  border-style: dashed;
+}
+
+.army-card-entry .army-roster-entry-detail section {
+  margin-top: 16px;
+}
+
 .roster-panel {
   border-left: 1px solid var(--border);
   padding: 20px 18px;
@@ -760,8 +1026,14 @@
     grid-template-rows: auto auto 1fr;
   }
 
+  .app-body.cards-mode {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
   .faction-panel,
-  .unit-panel {
+  .unit-panel,
+  .cards-feed {
     border-right: none;
     border-bottom: 1px solid var(--border);
     overflow: visible;
@@ -819,4 +1091,93 @@
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+.rules-page {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.rules-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+}
+
+.rules-message {
+  padding: 24px 32px;
+}
+
+.rules-content {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 8px 32px 48px;
+}
+
+.rules-content > :first-child {
+  margin-top: 0;
+}
+
+.rules-content h1,
+.rules-content h2,
+.rules-content h3,
+.rules-content h4 {
+  scroll-margin-top: 96px;
+}
+
+.rules-content h1 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.75rem;
+}
+
+.rules-content h2 {
+  margin: 1.75rem 0 0.65rem;
+  font-size: 1.35rem;
+}
+
+.rules-content h3 {
+  margin: 1.35rem 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.rules-content h4 {
+  margin: 1.1rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.rules-content p,
+.rules-content ul,
+.rules-content ol {
+  margin: 0 0 0.85rem;
+}
+
+.rules-content ul,
+.rules-content ol {
+  padding-left: 1.4rem;
+}
+
+.rules-content li + li {
+  margin-top: 0.35rem;
+}
+
+.rules-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.rules-content a:hover {
+  text-decoration: underline;
+}
+
+.rules-content strong {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.rules-content hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid var(--border);
 }

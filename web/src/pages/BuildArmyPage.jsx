@@ -1,9 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
+import ArmyCardSummary from '../components/ArmyCardSummary.jsx'
+import CardDetail from '../components/CardDetail.jsx'
 import RosterEntrySummary from '../components/RosterEntrySummary.jsx'
 import UnitDetail from '../components/UnitDetail.jsx'
 import { MAX_SAVED_ARMIES } from '../constants.js'
+import { useCards } from '../hooks/useCards.js'
 import { useArmy, useFactions } from '../hooks/useFactions.js'
 import {
+  createArmyCardEntry,
   createRosterEntry,
   deleteSavedArmy,
   loadSavedArmies,
@@ -15,6 +19,9 @@ import { getProfileStatsForEntry, groupUnitsByType } from '../utils/units.js'
 
 export default function BuildArmyPage({ initialArmy = null }) {
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
+  const { cards, factions: cardFactions, loading: loadingCards, error: cardsError } = useCards()
+  const [buildMode, setBuildMode] = useState('army')
+  const [selectedCardFac, setSelectedCardFac] = useState(null)
   const [selectedFactionId, setSelectedFactionId] = useState(initialArmy?.factionId ?? null)
   const activeFactionId = selectedFactionId ?? factions[0]?.id ?? null
   const { army, loading: loadingArmy, error: armyError } = useArmy(activeFactionId)
@@ -24,15 +31,30 @@ export default function BuildArmyPage({ initialArmy = null }) {
   )
   const [search, setSearch] = useState('')
   const [roster, setRoster] = useState(initialArmy?.roster ?? [])
+  const [armyCards, setArmyCards] = useState(initialArmy?.cards ?? [])
+  const [selectedCardId, setSelectedCardId] = useState(null)
+  const cardDetailRefs = useRef(new Map())
   const [armyName, setArmyName] = useState(initialArmy?.name ?? '')
   const [editingArmyId, setEditingArmyId] = useState(initialArmy?.id ?? null)
   const [savedArmies, setSavedArmies] = useState(() => loadSavedArmies())
   const [saveMessage, setSaveMessage] = useState(null)
 
   function handleSelectFaction(factionId) {
+    setBuildMode('army')
     setSelectedFactionId(factionId)
+    setSelectedCardFac(null)
     setSelectedUnitNo(null)
     setSelectedRosterEntryId(null)
+    setSelectedCardId(null)
+    setSearch('')
+  }
+
+  function handleSelectCards(fac) {
+    setBuildMode('cards')
+    setSelectedCardFac(fac)
+    setSelectedUnitNo(null)
+    setSelectedRosterEntryId(null)
+    setSelectedCardId(null)
     setSearch('')
   }
 
@@ -52,6 +74,43 @@ export default function BuildArmyPage({ initialArmy = null }) {
     () => groupUnitsByType(filteredUnits),
     [filteredUnits],
   )
+
+  const filteredCards = useMemo(() => {
+    let list = cards
+    if (selectedCardFac) {
+      list = list.filter((card) => card.fac === selectedCardFac)
+    }
+    const query = search.trim().toLowerCase()
+    if (!query) return list
+    return list.filter(
+      (card) =>
+        card.name.toLowerCase().includes(query) ||
+        card.type?.toLowerCase().includes(query) ||
+        card.fac?.toLowerCase().includes(query) ||
+        card.ability?.toLowerCase().includes(query) ||
+        `${card.set}-${card.nm}`.toLowerCase().includes(query),
+    )
+  }, [cards, selectedCardFac, search])
+
+  const cardsByFac = useMemo(() => {
+    const groups = new Map()
+    for (const card of filteredCards) {
+      const list = groups.get(card.fac) ?? []
+      list.push(card)
+      groups.set(card.fac, list)
+    }
+    return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b))
+  }, [filteredCards])
+
+  const armyCardIds = useMemo(
+    () => new Set(armyCards.map((entry) => entry.cardId)),
+    [armyCards],
+  )
+
+  const selectedCard = filteredCards.find(
+    (card) => card.id === (selectedCardId ?? filteredCards[0]?.id),
+  )
+  const activeCardId = selectedCard?.id
 
   const selectedUnit = army?.units?.find(
     (unit) => unit.no === (selectedUnitNo ?? army?.units?.[0]?.no),
@@ -75,7 +134,8 @@ export default function BuildArmyPage({ initialArmy = null }) {
   )
 
   const totalPoints = roster.reduce((sum, entry) => sum + entry.points, 0)
-  const error = factionsError || armyError
+  const error = factionsError || armyError || cardsError
+  const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
 
   function handleAddProfile(unit, profile) {
     const entry = createRosterEntry(unit, profile)
@@ -119,11 +179,32 @@ export default function BuildArmyPage({ initialArmy = null }) {
     setSaveMessage(null)
   }
 
+  function handleRemoveCard(entryId) {
+    setArmyCards((current) => current.filter((entry) => entry.id !== entryId))
+    setSaveMessage(null)
+  }
+
+  function handleToggleArmyCard(card) {
+    if (armyCardIds.has(card.id)) {
+      setArmyCards((current) => current.filter((entry) => entry.cardId !== card.id))
+    } else {
+      setArmyCards((current) => [...current, createArmyCardEntry(card)])
+    }
+    setSaveMessage(null)
+  }
+
+  function handleSelectCard(card) {
+    setSelectedCardId(card.id)
+    cardDetailRefs.current.get(card.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   function handleClearRoster() {
     setRoster([])
+    setArmyCards([])
     setArmyName('')
     setEditingArmyId(null)
     setSelectedRosterEntryId(null)
+    setSelectedCardId(null)
     setSaveMessage(null)
   }
 
@@ -133,8 +214,8 @@ export default function BuildArmyPage({ initialArmy = null }) {
       setSaveMessage({ type: 'error', text: 'Enter a name before saving.' })
       return
     }
-    if (!activeFactionId || roster.length === 0) {
-      setSaveMessage({ type: 'error', text: 'Add at least one profile before saving.' })
+    if (!activeFactionId || (roster.length === 0 && armyCards.length === 0)) {
+      setSaveMessage({ type: 'error', text: 'Add at least one unit or card before saving.' })
       return
     }
 
@@ -146,6 +227,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
       totalPoints,
       updatedAt: new Date().toISOString(),
       roster,
+      cards: armyCards,
     }
 
     const result = saveArmy(payload)
@@ -164,6 +246,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
     setArmyName(saved.name)
     setEditingArmyId(saved.id)
     setRoster(saved.roster)
+    setArmyCards(saved.cards ?? [])
     setSelectedRosterEntryId(saved.roster[0]?.id ?? null)
     setSelectedUnitNo(saved.roster[0]?.unitNo ?? null)
     setSaveMessage({ type: 'success', text: `Loaded "${saved.name}".` })
@@ -193,7 +276,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
         <div className="build-main">
           <div className="app-body build-grid">
             <aside className="faction-panel">
-              <h2>Faction</h2>
+              <h2>Factions</h2>
               {loadingFactions ? (
                 <p className="muted">Loading factions…</p>
               ) : (
@@ -203,7 +286,7 @@ export default function BuildArmyPage({ initialArmy = null }) {
                       <button
                         type="button"
                         className={
-                          faction.id === activeFactionId
+                          buildMode === 'army' && faction.id === activeFactionId
                             ? 'faction-btn active'
                             : 'faction-btn'
                         }
@@ -216,45 +299,131 @@ export default function BuildArmyPage({ initialArmy = null }) {
                   ))}
                 </ul>
               )}
+
+              <h2 className="sidebar-section-title">Cards</h2>
+              {loadingCards ? (
+                <p className="muted">Loading cards…</p>
+              ) : (
+                <ul className="faction-list">
+                  <li>
+                    <button
+                      type="button"
+                      className={
+                        buildMode === 'cards' && !selectedCardFac
+                          ? 'faction-btn active'
+                          : 'faction-btn'
+                      }
+                      onClick={() => handleSelectCards(null)}
+                    >
+                      <span className="faction-name">All</span>
+                      <span className="faction-count">{cards.length}</span>
+                    </button>
+                  </li>
+                  {cardFactions.map(({ fac, count }) => (
+                    <li key={fac}>
+                      <button
+                        type="button"
+                        className={
+                          buildMode === 'cards' && selectedCardFac === fac
+                            ? 'faction-btn active'
+                            : 'faction-btn'
+                        }
+                        onClick={() => handleSelectCards(fac)}
+                      >
+                        <span className="faction-name">{fac}</span>
+                        <span className="faction-count">{count}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </aside>
 
             <section className="unit-panel">
               <div className="unit-panel-toolbar">
-                <h2>{army?.faction ?? 'Units'}</h2>
+                <h2>{buildMode === 'cards' ? cardsPanelTitle : army?.faction ?? 'Units'}</h2>
                 <input
                   type="search"
                   className="search-input"
-                  placeholder="Search units…"
+                  placeholder={buildMode === 'cards' ? 'Search cards…' : 'Search units…'}
                   value={search}
                   onChange={(event) => setSearch(event.target.value)}
-                  disabled={!army}
+                  disabled={buildMode === 'cards' ? loadingCards : !army}
                 />
               </div>
 
-              {loadingArmy ? (
-                <p className="muted panel-message">Loading army list…</p>
-              ) : unitsByType.length === 0 ? (
-                <p className="muted panel-message">No units match your search.</p>
+              {buildMode === 'army' ? (
+                loadingArmy ? (
+                  <p className="muted panel-message">Loading army list…</p>
+                ) : unitsByType.length === 0 ? (
+                  <p className="muted panel-message">No units match your search.</p>
+                ) : (
+                  <div className="unit-groups">
+                    {unitsByType.map(([type, units]) => (
+                      <div key={type} className="unit-group">
+                        <h3>{type}</h3>
+                        <ul className="unit-list">
+                          {units.map((unit) => (
+                            <li key={unit.no}>
+                              <button
+                                type="button"
+                                className={
+                                  unit.no === activeUnitNo
+                                    ? 'unit-btn active'
+                                    : 'unit-btn'
+                                }
+                                onClick={() => setSelectedUnitNo(unit.no)}
+                              >
+                                <span className="unit-name">{unit.name}</span>
+                                <span className="unit-pts">{unit.stats?.Pt} Pt</span>
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                )
+              ) : loadingCards ? (
+                <p className="muted panel-message">Loading cards…</p>
+              ) : filteredCards.length === 0 ? (
+                <p className="muted panel-message">No cards match your search.</p>
               ) : (
                 <div className="unit-groups">
-                  {unitsByType.map(([type, units]) => (
-                    <div key={type} className="unit-group">
-                      <h3>{type}</h3>
+                  {cardsByFac.map(([fac, facCards]) => (
+                    <div key={fac} className="unit-group">
+                      {!selectedCardFac && <h3>{fac}</h3>}
                       <ul className="unit-list">
-                        {units.map((unit) => (
-                          <li key={unit.no}>
-                            <button
-                              type="button"
+                        {facCards.map((card) => (
+                          <li key={card.id}>
+                            <div
                               className={
-                                unit.no === activeUnitNo
-                                  ? 'unit-btn active'
-                                  : 'unit-btn'
+                                card.id === activeCardId
+                                  ? 'card-picker-row active'
+                                  : armyCardIds.has(card.id)
+                                    ? 'card-picker-row added'
+                                    : 'card-picker-row'
                               }
-                              onClick={() => setSelectedUnitNo(unit.no)}
                             >
-                              <span className="unit-name">{unit.name}</span>
-                              <span className="unit-pts">{unit.stats?.Pt} Pt</span>
-                            </button>
+                              <label className="card-picker-check">
+                                <input
+                                  type="checkbox"
+                                  checked={armyCardIds.has(card.id)}
+                                  onChange={() => handleToggleArmyCard(card)}
+                                />
+                                <span className="sr-only">Add {card.name} to army</span>
+                              </label>
+                              <button
+                                type="button"
+                                className="card-picker-main"
+                                onClick={() => handleSelectCard(card)}
+                              >
+                                <span className="unit-name">{card.name}</span>
+                                <span className="unit-pts">
+                                  {card.set}-{card.nm}
+                                </span>
+                              </button>
+                            </div>
                           </li>
                         ))}
                       </ul>
@@ -265,18 +434,58 @@ export default function BuildArmyPage({ initialArmy = null }) {
             </section>
 
             <section className="detail-panel">
-              <UnitDetail
-                unit={selectedUnit}
-                onAddProfile={handleAddProfile}
-                onToggleOption={canEditOptions ? handleToggleOption : undefined}
-                selectedOptionIndexes={
-                  canEditOptions
-                    ? selectedRosterEntry.selectedOptions.map((option) => option.index)
-                    : []
-                }
-                optionProfileStats={optionProfileStats}
-                emptyMessage="Select a unit to add profiles to your army."
-              />
+              {buildMode === 'cards' ? (
+                loadingCards ? (
+                  <p className="muted panel-message">Loading cards…</p>
+                ) : filteredCards.length === 0 ? (
+                  <p className="muted panel-message">No cards match your search.</p>
+                ) : (
+                  <div className="cards-stack build-cards-detail">
+                    {filteredCards.map((card) => (
+                      <div
+                        key={card.id}
+                        ref={(node) => {
+                          if (node) {
+                            cardDetailRefs.current.set(card.id, node)
+                          } else {
+                            cardDetailRefs.current.delete(card.id)
+                          }
+                        }}
+                        className={
+                          card.id === activeCardId
+                            ? 'build-card-detail-wrap active'
+                            : armyCardIds.has(card.id)
+                              ? 'build-card-detail-wrap added'
+                              : 'build-card-detail-wrap'
+                        }
+                      >
+                        <label className="card-picker-entry-toggle">
+                          <input
+                            type="checkbox"
+                            checked={armyCardIds.has(card.id)}
+                            onChange={() => handleToggleArmyCard(card)}
+                          />
+                          <span>{armyCardIds.has(card.id) ? 'In army' : 'Add to army'}</span>
+                        </label>
+                        <CardDetail card={card} />
+                      </div>
+                    ))}
+                  </div>
+                )
+              ) : (
+                <UnitDetail
+                  unit={selectedUnit}
+                  onAddProfile={handleAddProfile}
+                  onToggleOption={canEditOptions ? handleToggleOption : undefined}
+                  selectedOptionIndexes={
+                    canEditOptions
+                      ? selectedRosterEntry.selectedOptions.map((option) => option.index)
+                      : []
+                  }
+                  optionProfileStats={optionProfileStats}
+                  emptyMessage="Select a unit to add profiles to your army."
+                />
+              )}
             </section>
           </div>
         </div>
@@ -284,7 +493,10 @@ export default function BuildArmyPage({ initialArmy = null }) {
         <aside className="roster-panel">
           <div className="roster-header">
             <h2>Your Army</h2>
-            <p className="roster-total">{totalPoints} Pt total</p>
+            <div className="roster-header-stats">
+              <p className="roster-total">{totalPoints} Pt total</p>
+              <p className="roster-section-count">{roster.length} units</p>
+            </div>
           </div>
 
           <label className="field-label" htmlFor="army-name">
@@ -299,20 +511,40 @@ export default function BuildArmyPage({ initialArmy = null }) {
             onChange={(event) => setArmyName(event.target.value)}
           />
 
-          {roster.length === 0 ? (
-            <p className="muted panel-message">No profiles added yet.</p>
+          {roster.length === 0 && armyCards.length === 0 ? (
+            <p className="muted panel-message">No units or cards added yet.</p>
           ) : (
-            <ul className="roster-list">
-              {roster.map((entry) => (
-                <RosterEntrySummary
-                  key={entry.id}
-                  entry={entry}
-                  active={entry.id === selectedRosterEntryId}
-                  onSelect={handleSelectRosterEntry}
-                  onRemove={handleRemoveEntry}
-                />
-              ))}
-            </ul>
+            <>
+              {roster.length > 0 && (
+                <ul className="roster-list">
+                  {roster.map((entry) => (
+                    <RosterEntrySummary
+                      key={entry.id}
+                      entry={entry}
+                      active={entry.id === selectedRosterEntryId}
+                      onSelect={handleSelectRosterEntry}
+                      onRemove={handleRemoveEntry}
+                    />
+                  ))}
+                </ul>
+              )}
+
+              <div className="roster-section-header">
+                <h3 className="roster-section-title">Command Cards</h3>
+                <span className="roster-section-count">{armyCards.length} Cards</span>
+              </div>
+              {armyCards.length > 0 && (
+                <ul className="roster-list">
+                  {armyCards.map((entry) => (
+                    <ArmyCardSummary
+                      key={entry.id}
+                      entry={entry}
+                      onRemove={handleRemoveCard}
+                    />
+                  ))}
+                </ul>
+              )}
+            </>
           )}
 
           <div className="roster-actions">

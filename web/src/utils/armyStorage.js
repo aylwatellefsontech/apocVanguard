@@ -28,9 +28,11 @@ export function normalizeRosterEntry(entry) {
 
 function normalizeSavedArmy(army) {
   const roster = Array.isArray(army.roster) ? army.roster.map(normalizeRosterEntry) : []
+  const cards = Array.isArray(army.cards) ? army.cards : []
   return {
     ...army,
     roster,
+    cards,
     totalPoints: roster.reduce((sum, entry) => sum + entry.points, 0),
   }
 }
@@ -58,6 +60,21 @@ export function deleteSavedArmy(id) {
   const next = loadSavedArmies().filter((army) => army.id !== id)
   persistSavedArmies(next)
   return next
+}
+
+export function createArmyCardEntry(card) {
+  return {
+    id: crypto.randomUUID(),
+    cardId: card.id,
+    name: card.name,
+    set: card.set,
+    nm: card.nm,
+    fac: card.fac,
+    type: card.type,
+    subType: card.subType ?? null,
+    facNm: card.facNm ?? null,
+    ability: card.ability ?? '',
+  }
 }
 
 export function createRosterEntry(unit, profile) {

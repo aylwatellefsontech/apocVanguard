@@ -13,12 +13,14 @@ from factions.chaos_marines_data import CHAOS_MARINES, CHAOS_MARINES_SLOTS
 from factions.imperial_guard_data import IMPERIAL_GUARD_SLOTS
 from factions.space_marines_data import SPACE_MARINES_SLOTS
 from factions.knights_data import KNIGHTS_SLOTS
+from factions.orks_data import ORKS_SLOTS
 
 FACTION_OUTPUTS = [
     ("Chaos Marines", "Chaos Marines", CHAOS_MARINES_SLOTS),
     ("Imperial Guard", "Imperial Guard", IMPERIAL_GUARD_SLOTS),
     ("Space Marines", "Space Marines", SPACE_MARINES_SLOTS),
     ("Knights", "Knights", KNIGHTS_SLOTS),
+    ("Orks", "Orks", ORKS_SLOTS),
 ]
 
 

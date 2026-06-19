@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import ArmyCardEntry from '../components/ArmyCardEntry.jsx'
 import ArmyRosterEntry from '../components/ArmyRosterEntry.jsx'
 import { MAX_SAVED_ARMIES } from '../constants.js'
 import { useArmy } from '../hooks/useFactions.js'
@@ -23,6 +24,15 @@ export default function ViewArmiesPage({ onEditArmy }) {
     () => loadSavedArmies()[0]?.id ?? null,
   )
   const [expandedEntryIds, setExpandedEntryIds] = useState(() => new Set())
+  const [expandedCardIds, setExpandedCardIds] = useState(() => new Set())
+  const [viewMode, setViewMode] = useState('army')
+
+  const VIEW_CYCLE = ['army', 'cards', 'all']
+  const VIEW_LABELS = {
+    army: 'Army',
+    cards: 'Cards',
+    all: 'Show All',
+  }
 
   const selectedArmy = useMemo(
     () => savedArmies.find((army) => army.id === selectedArmyId) ?? null,
@@ -45,6 +55,24 @@ export default function ViewArmiesPage({ onEditArmy }) {
     selectedArmy?.roster.length &&
       selectedArmy.roster.every((entry) => expandedEntryIds.has(entry.id)),
   )
+  const allCardsExpanded = Boolean(
+    selectedArmy?.cards?.length &&
+      selectedArmy.cards.every((entry) => expandedCardIds.has(entry.id)),
+  )
+  const armyCards = selectedArmy?.cards ?? []
+  const hasUnits = selectedArmy?.roster.length > 0
+  const hasCards = armyCards.length > 0
+  const showArmySection = viewMode === 'army' || viewMode === 'all'
+  const showCardsSection = viewMode === 'cards' || viewMode === 'all'
+
+  function nextViewMode(mode) {
+    const index = VIEW_CYCLE.indexOf(mode)
+    return VIEW_CYCLE[(index + 1) % VIEW_CYCLE.length]
+  }
+
+  function handleCycleViewMode() {
+    setViewMode((current) => nextViewMode(current))
+  }
 
   function handleDeleteArmy(id) {
     const next = deleteSavedArmy(id)
@@ -77,6 +105,31 @@ export default function ViewArmiesPage({ onEditArmy }) {
     }
 
     setExpandedEntryIds(new Set(selectedArmy.roster.map((entry) => entry.id)))
+  }
+
+  function handleToggleAllCards() {
+    if (!armyCards.length) {
+      return
+    }
+
+    if (allCardsExpanded) {
+      setExpandedCardIds(new Set())
+      return
+    }
+
+    setExpandedCardIds(new Set(armyCards.map((entry) => entry.id)))
+  }
+
+  function handleToggleCard(entryId) {
+    setExpandedCardIds((current) => {
+      const next = new Set(current)
+      if (next.has(entryId)) {
+        next.delete(entryId)
+      } else {
+        next.add(entryId)
+      }
+      return next
+    })
   }
 
   return (
@@ -117,6 +170,8 @@ export default function ViewArmiesPage({ onEditArmy }) {
                     onClick={() => {
                       setSelectedArmyId(army.id)
                       setExpandedEntryIds(new Set())
+                      setExpandedCardIds(new Set())
+                      setViewMode('army')
                     }}
                   >
                     <strong>{army.name}</strong>
@@ -159,16 +214,34 @@ export default function ViewArmiesPage({ onEditArmy }) {
                   <h2>{selectedArmy.name}</h2>
                   <p className="roster-item-meta">
                     {selectedArmy.factionName} · {selectedArmy.totalPoints} Pt total
+                    {hasCards ? ` · ${armyCards.length} cards` : ''}
                   </p>
                 </div>
                 <div className="header-actions">
+                  {(viewMode === 'army' || viewMode === 'all') && hasUnits && (
+                    <button
+                      type="button"
+                      className="secondary-btn"
+                      onClick={handleToggleAllEntries}
+                    >
+                      {allExpanded ? 'Collapse All' : 'Expand All'}
+                    </button>
+                  )}
+                  {(viewMode === 'cards' || viewMode === 'all') && hasCards && (
+                    <button
+                      type="button"
+                      className="secondary-btn"
+                      onClick={handleToggleAllCards}
+                    >
+                      {allCardsExpanded ? 'Collapse All' : 'Expand All'}
+                    </button>
+                  )}
                   <button
                     type="button"
                     className="secondary-btn"
-                    onClick={handleToggleAllEntries}
-                    disabled={selectedArmy.roster.length === 0}
+                    onClick={handleCycleViewMode}
                   >
-                    {allExpanded ? 'Collapse All' : 'Expand All'}
+                    {VIEW_LABELS[nextViewMode(viewMode)]}
                   </button>
                   <button
                     type="button"
@@ -182,20 +255,61 @@ export default function ViewArmiesPage({ onEditArmy }) {
 
               {loadingArmy ? (
                 <p className="muted panel-message">Loading unit datasheets…</p>
-              ) : selectedArmy.roster.length === 0 ? (
-                <p className="muted panel-message">This army has no units.</p>
+              ) : viewMode === 'all' && !hasUnits && !hasCards ? (
+                <p className="muted panel-message">This army has no units or cards.</p>
               ) : (
-                <ul className="roster-list army-roster-list">
-                  {selectedArmy.roster.map((entry) => (
-                    <ArmyRosterEntry
-                      key={entry.id}
-                      entry={entry}
-                      unit={unitsByNo.get(entry.unitNo) ?? null}
-                      expanded={expandedEntryIds.has(entry.id)}
-                      onToggleExpanded={() => handleToggleEntry(entry.id)}
-                    />
-                  ))}
-                </ul>
+                <>
+                  {showArmySection && (
+                    <section className="army-view-section">
+                      <div className="roster-section-header">
+                        <h3 className="roster-section-title">Army</h3>
+                        <span className="roster-section-count">
+                          {selectedArmy.roster.length} units
+                        </span>
+                      </div>
+                      {!hasUnits ? (
+                        <p className="muted panel-message">This army has no units.</p>
+                      ) : (
+                        <ul className="roster-list army-roster-list">
+                          {selectedArmy.roster.map((entry) => (
+                            <ArmyRosterEntry
+                              key={entry.id}
+                              entry={entry}
+                              unit={unitsByNo.get(entry.unitNo) ?? null}
+                              expanded={expandedEntryIds.has(entry.id)}
+                              onToggleExpanded={() => handleToggleEntry(entry.id)}
+                            />
+                          ))}
+                        </ul>
+                      )}
+                    </section>
+                  )}
+
+                  {showCardsSection && (
+                    <section className="army-view-section">
+                      <div className="roster-section-header">
+                        <h3 className="roster-section-title">Command Cards</h3>
+                        <span className="roster-section-count">
+                          {armyCards.length} Cards
+                        </span>
+                      </div>
+                      {!hasCards ? (
+                        <p className="muted panel-message">This army has no cards.</p>
+                      ) : (
+                        <ul className="roster-list army-roster-list">
+                          {armyCards.map((entry) => (
+                            <ArmyCardEntry
+                              key={entry.id}
+                              entry={entry}
+                              expanded={expandedCardIds.has(entry.id)}
+                              onToggleExpanded={() => handleToggleCard(entry.id)}
+                            />
+                          ))}
+                        </ul>
+                      )}
+                    </section>
+                  )}
+                </>
               )}
             </>
           )}

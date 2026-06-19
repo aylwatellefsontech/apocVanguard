@@ -26,11 +26,12 @@ def split_keywords(keywords):
                     "Servants of the Abyss", "Legiones Daemonica", "Daemon",
                     "Cadian", "Officio Prefectus", "Militarum Tempestus", "Militarum Auxilia",
                     "Astra Telepathica", "Scholastica Psykana", "Aeronautica Imperialis",
-                    "Black Legion", "Khorne", "Nurgle", "Slaanesh", "Tzeentch"}
+                    "Black Legion", "Khorne", "Nurgle", "Slaanesh", "Tzeentch",
+                    "Orks", "Freebooterz", "Goff", "Bad Moons", "Deathskulls", "Blood Axe", "Evil Sunz", "Snakebites"}
     placeholder_keys = {"<Kabal>", "<Wych Cult>", "<Haemonculus Coven>", "<Sept>",
                         "<Order>", "<Forge World>", "<Legion>", "<Mark of Chaos>",
                         "<Chapter>", "<Regiment>", "<Questor Allegiance>", "<Questor Traitoris>",
-                        "<Household>", "<Craftworld>"}
+                        "<Household>", "<Craftworld>", "<Clan>"}
     line1, line2 = [], []
     for kw in keywords:
         if kw in faction_keys or kw in placeholder_keys or (

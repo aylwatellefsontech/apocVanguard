@@ -22,6 +22,13 @@ export default function AppNav({ page, onNavigate }) {
       >
         Build Army
       </button>
+      <button
+        type="button"
+        className={page === 'rules' ? 'nav-btn active' : 'nav-btn'}
+        onClick={() => onNavigate('rules')}
+      >
+        Rules
+      </button>
     </nav>
   )
 }
