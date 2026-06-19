@@ -1,0 +1,217 @@
+No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords
+,,,,,,,,,,,,,,,,,,,
+1,HQ,Drazhar,"7""",2+,2+,1,1,7,4+,1,6,,,,,,,"Master of Blades: Add 1 to hit rolls for attacks made with melee weapons by friendly Incubi units whilst they are within 6"" of this unit.","Aeldari, Drukhari, Incubi
+Light, Infantry, Character, Drazhar"
+1,,,,,,,,,,,,Demiklaives,Melee,Melee,x2,7+,7+,
+2,HQ,Archon,"8""",2+,2+,1,1,7,3+,1,4,,,,,,,"Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.
+Overlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6"" of this unit.","Aeldari, Drukhari, <Kabal>
+Light, Infantry, Character, Archon"
+2,,,,,,,,,,,,Husk Blade,Melee,Melee,User,7+,8+,
+3,HQ,Succubus,"9""",2+,2+,1,1,6,6+,1,4,,,,,,,"Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6"" of this unit.
+No Escape: If an Infantry unit within 1"" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.","Aeldari, Drukhari, <Wych Cult>
+Light, Infantry, Character, Succubus"
+3,,,,,,,,,,,,Wych Cult Weapons,Melee,Melee,User,8+,9+,
+4,HQ,Haemonculus,"7""",2+,2+,1,1,6,8+,1,5,,,,,,,"Ignore Damage (6+)
+Master of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6"" of any <Haemonculus Coven> units from your army with this ability.","Aeldari, Drukhari, <Haemonculus Coven>
+Light, Infantry, Character, Haemonculus"
+4,,,,,,,,,,,,Haemonculus Tools,Melee,Melee,User,6+,12+,
+5,Fast,Reavers,"20""",3+,3+,1,1,6,8+,3,4,,,,,,,,"Aeldari, Drukhari, <Wych Cult>
+Light, Biker, Fly, Reavers"
+5,,,"20""",3+,3+,2,2,6,8+,6,8,,,,,,,,
+5,,,"20""",3+,3+,3,3,6,8+,9,12,,,,,,,,
+5,,,"20""",3+,3+,4,4,6,8+,12,16,,,,,,,,
+5,,,,,,,,,,,,,,,,,,"For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
+5,,,,,,,,,,,,Blaster,Heavy,"18""",1,10+,5+,
+5,,,,,,,,,,,,Heat Lance,Heavy,"18""",1,9+,6+,
+5,,,,,,,,,,,,Splinter Rifles,Small Arms,"24""",User,5+,12+,Rapid Fire
+5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+6,Troops,Kabalite Warriors,"7""",3+,3+,1,1,6,10+,5,2,,,,,,,,"Aeldari, Drukhari, <Kabal>, Kabalite Warriors
+Light, Infantry"
+6,,,"7""",3+,3+,2,2,6,10+,10,4,,,,,,,,
+6,,,"7""",3+,3+,3,3,6,10+,15,6,,,,,,,,
+6,,,"7""",3+,3+,4,4,6,10+,20,8,,,,,,,,
+6,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
+6,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+6,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+6,,,,,,,,,,,,Splinter Rifles,Small Arms,"24""",User,5+,12+,Rapid Fire
+6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,
+7,Troops,Wyches,"9""",3+,3+,1,1,6,8+,5,2,,,,,,,"No Escape: If an Infantry unit within 1"" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.","Aeldari, Drukhari, <Wych Cult>
+Light, Infantry, Wyches"
+7,,,"9""",3+,3+,2,2,6,8+,10,4,,,,,,,,
+7,,,"9""",3+,3+,3,3,6,8+,15,6,,,,,,,,
+7,,,"9""",3+,3+,4,4,6,8+,20,8,,,,,,,,
+7,,,,,,,,,,,,Splinter Pistols,Small Arms,"12""",User,5+,12+,
+7,,,,,,,,,,,,Wych Weapons,Melee,Melee,x2,6+,8+,
+8,Elites,Incubi,"7""",3+,3+,1,1,7,6+,5,4,,,,,,,"Tormentors: If the result of a Morale test taken for an enemy unit within 6"" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.","Aeldari, Drukhari, Incubi, Incubi
+Light, Infantry"
+8,,,"7""",3+,3+,2,2,7,6+,10,8,,,,,,,,
+8,,,,,,,,,,,,Klaives,Melee,Melee,x3,5+,9+,
+9,Elites,Mandrakes,"8""",3+,3+,1,1,6,9+,5,4,,,,,,,"Deep Strike, Stealth","Aeldari, Drukhari
+Light, Infantry, Mandrakes"
+9,,,"8""",3+,3+,2,2,6,9+,10,7,,,,,,,,
+9,,,,,,,,,,,,Baleblasts,Small Arms,"18""",User,6+,9+,
+9,,,,,,,,,,,,Glimmersteel Blades,Melee,Melee,User,6+,9+,
+10,Elites,Grotesques,"7""",3+,6+,2,2,6,8+,3,5,,,,,,,,"Aeldari, Drukhari, <Haemonculus Coven>
+Light, Infantry, Grotesques"
+10,,,"7""",3+,6+,4,4,6,8+,6,12,,,,,,,,
+10,,,"7""",3+,6+,6,6,6,8+,9,18,,,,,,,,
+10,,,"7""",3+,6+,7,7,6,8+,10,20,,,,,,,,
+10,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.",
+10,,,,,,,,,,,,Liquifier Gun,Heavy,"8""",1,7+,9+,Inferno
+10,,,,,,,,,,,,Flesh Gauntlets,Melee,Melee,User,6+,10+,
+10,,,,,,,,,,,,Monstrous Cleaver,Melee,Melee,2,5+,8+,
+11,Elites,Wracks,"7""",3+,3+,2,1,6,9+,5,3,,,,,,,Ignore Damage (6+),"Aeldari, Drukhari, <Haemonculus Coven>
+Light, Infantry, Wracks"
+11,,,"7""",3+,3+,4,2,6,9+,10,5,,,,,,,,
+11,,,,,,,,,,,,Haemonculus Tools,Melee,Melee,User,6+,12+,
+12,Elites,Lhamaean,"8""",3+,3+,1,1,6,10+,1,1,,,,,,,"Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3"" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.","Aeldari, Drukhari, <Kabal>
+Light, Infantry, Court of the Archon, Lhamaean"
+12,,,,,,,,,,,,Shaimeshi Blade,Melee,Melee,User,6+,12+,
+13,Elites,Medusae,"8""",3+,3+,1,1,6,10+,1,2,,,,,,,"Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3"" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.","Aeldari, Drukhari, <Kabal>
+Light, Infantry, Court of the Archon, Medusae"
+13,,,,,,,,,,,,Eyeburst Attack (Ranged),Heavy,"9""",1,10+,10+,
+13,,,,,,,,,,,,Eyeburst Attack (Melee),Melee,Melee,User,10+,12+,
+14,Elites,Scourges,"14""",3+,3+,1,1,6,7+,5,4,,,,,,,Deep Strike,"Aeldari, Drukhari
+Light, Infantry, Fly, Scourges"
+14,,,"14""",3+,3+,2,2,6,7+,10,10,,,,,,,,
+14,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.,
+14,,,,,,,,,,,,,,,,,,"If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
+14,,,,,,,,,,,,Blaster,Heavy,"18""",1,10+,5+,
+14,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+14,,,,,,,,,,,,Haywire Blaster,Heavy,"24""",1,12+,4+,
+14,,,,,,,,,,,,Heat Lance,Heavy,"18""",1,9+,6+,
+14,,,,,,,,,,,,Shredder,Heavy,"12""",2,6+,8+,
+14,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+14,,,,,,,,,,,,Shardcarbines,Small Arms,"18""",x2,5+,12+,
+14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+15,Elites,Sslyth,"8""",3+,3+,1,1,4,9+,1,2,,,,,,,"Ignore Damage (6+)
+Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3"" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.
+Cold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3"" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.","Aeldari, Drukhari, <Kabal>
+Light, Infantry, Court of the Archon, Sslyth"
+15,,,,,,,,,,,,Sslyth Battle-blade,Melee,Melee,User,8+,9+,
+16,Fast,Hellions,"14""",3+,3+,1,1,6,9+,5,5,,,,,,,"Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.","Aeldari, Drukhari, <Wych Cult>
+Light, Infantry, Fly, Skyboard, Hellions"
+16,,,"14""",3+,3+,2,2,6,9+,10,9,,,,,,,,
+16,,,"14""",3+,3+,3,3,6,9+,15,13,,,,,,,,
+16,,,"14""",3+,3+,4,4,6,9+,20,17,,,,,,,,
+16,,,,,,,,,,,,Splinter Pods,Small Arms,"18""",x2,5+,12+,
+16,,,,,,,,,,,,Hellglaives,Melee,Melee,x2,6+,8+,
+17,Fast,Khymerae,"10""",3+,-,1,1,4,9+,2,1,,,,,,,,"Aeldari, Drukhari
+Light, Beast, Daemon, Khymerae"
+17,,,"10""",3+,-,2,2,4,9+,4,2,,,,,,,,
+17,,,"10""",3+,-,3,3,4,9+,6,3,,,,,,,,
+17,,,"10""",3+,-,4,4,4,9+,8,4,,,,,,,,
+17,,,"10""",3+,-,5,5,4,9+,10,5,,,,,,,,
+17,,,"10""",3+,-,6,6,4,9+,12,6,,,,,,,,
+17,,,,,,,,,,,,Claws & Talons,Melee,Melee,User,7+,9+,
+18,Fast,Clawed Fiends,"10""",4+,-,1,1,4,9+,1,2,,,,,,,"Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.","Aeldari, Drukhari
+Light, Beast, Clawed Fiends"
+18,,,"10""",4+,-,3,3,4,9+,3,5,,,,,,,,
+18,,,"10""",4+,-,6,6,4,9+,6,10,,,,,,,,
+18,,,,,,,,,,,,Clawed Fists,Melee,Melee,x2,6+,9+,
+19,Fast,Razorwing Flocks,"12""",4+,-,2,1,4,10+,3,2,,,,,,,,"Aeldari, Drukhari
+Light, Beast, Fly, Swarm, Razorwing Flocks"
+19,,,"12""",4+,-,4,2,4,10+,6,4,,,,,,,,
+19,,,"12""",4+,-,6,3,4,10+,9,6,,,,,,,,
+19,,,"12""",4+,-,8,4,4,10+,12,8,,,,,,,,
+19,,,,,,,,,,,,Razor Feathers,Melee,Melee,User,7+,9+,
+20,Fast,Beastmaster,"12""",3+,3+,1,1,5,10+,1,2,,,,,,,"Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6"" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.","Aeldari, Drukhari, <Wych Cult>
+Light, Infantry, Fly, Skyboard, Beastmaster"
+20,,,,,,,,,,,,Agoniser,Melee,Melee,User,6+,12+,
+21,Heavy,Talos,"8""",3+,4+,2,2,6,5+,1,7,,,,,,,"Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Aeldari, Drukhari, <Haemonculus Coven>
+Heavy, Monster, Fly, Talos"
+21,,,,,,,,,,,,,,,,,,"Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
+21,,,,,,,,,,,,,,,,,,"Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
+21,,,,,,,,,,,,Haywire Blaster,Heavy,"24""",1,12+,4+,
+21,,,,,,,,,,,,Heat Lance,Heavy,"18""",1,9+,6+,
+21,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+21,,,,,,,,,,,,Stinger Pod,Heavy,"18""",3,5+,12+,
+21,,,,,,,,,,,,Twin Liquifier Gun,Heavy,"8""",2,7+,10+,Inferno
+21,,,,,,,,,,,,Gruesome Combat Weapon,Melee,Melee,User,7+,7+,
+22,Heavy,Cronos,"8""",4+,3+,2,2,7,5+,1,5,,,,,,,"Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
+Spirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6"" of this unit.","Aeldari, Drukhari, <Haemonculus Coven>
+Heavy, Monster, Fly, Cronos"
+22,,,,,,,,,,,,,,,,,,This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).,
+22,,,,,,,,,,,,Spirit Syphon,Heavy,"8""",1,6+,9+,Inferno
+22,,,,,,,,,,,,Spirit Vortex,Heavy,"18""",1,6+,9+,
+22,,,,,,,,,,,,Spirit Leech Tentacles,Melee,Melee,User,7+,9+,
+23,Heavy,Ravager,"14""",4+,3+,1,2,5,7+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.","Aeldari, Drukhari, <Kabal>
+Heavy, Vehicle, Fly, Ravager"
+23,,,,,,,,,,,,,,,,,,Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.,
+23,,,,,,,,,,,,,,,,,,Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.,
+23,,,,,,,,,,,,,,,,,,Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.,
+23,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+23,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,
+23,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,
+24,Heavy,Hellions,"14""",3+,3+,1,1,6,9+,5,5,,,,,,,"Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.","Aeldari, Drukhari, <Wych Cult>
+Light, Infantry, Fly, Skyboard, Hellions"
+24,,,"14""",3+,3+,2,2,6,9+,10,9,,,,,,,,
+24,,,"14""",3+,3+,3,3,6,9+,15,13,,,,,,,,
+24,,,"14""",3+,3+,4,4,6,9+,20,17,,,,,,,,
+24,,,,,,,,,,,,Splinter Pods,Small Arms,"18""",x2,5+,12+,
+24,,,,,,,,,,,,Hellglaives,Melee,Melee,x2,6+,8+,
+25,Heavy,Scourges,"14""",3+,3+,1,1,6,7+,5,4,,,,,,,Deep Strike,"Aeldari, Drukhari
+Light, Infantry, Fly, Scourges"
+25,,,"14""",3+,3+,2,2,6,7+,10,10,,,,,,,,
+25,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.,
+25,,,,,,,,,,,,,,,,,,"If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
+25,,,,,,,,,,,,Blaster,Heavy,"18""",1,10+,5+,
+25,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+25,,,,,,,,,,,,Haywire Blaster,Heavy,"24""",1,12+,4+,
+25,,,,,,,,,,,,Heat Lance,Heavy,"18""",1,9+,6+,
+25,,,,,,,,,,,,Shredder,Heavy,"12""",2,6+,8+,
+25,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+25,,,,,,,,,,,,Shardcarbines,Small Arms,"18""",x2,5+,12+,
+25,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+26,Heavy,Talos,"8""",3+,4+,2,2,6,5+,1,7,,,,,,,"Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Aeldari, Drukhari, <Haemonculus Coven>
+Heavy, Monster, Fly, Talos"
+26,,,,,,,,,,,,,,,,,,"Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
+26,,,,,,,,,,,,,,,,,,"Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
+26,,,,,,,,,,,,Haywire Blaster,Heavy,"24""",1,12+,4+,
+26,,,,,,,,,,,,Heat Lance,Heavy,"18""",1,9+,6+,
+26,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+26,,,,,,,,,,,,Stinger Pod,Heavy,"18""",3,5+,12+,
+26,,,,,,,,,,,,Twin Liquifier Gun,Heavy,"8""",2,7+,10+,Inferno
+26,,,,,,,,,,,,Gruesome Combat Weapon,Melee,Melee,User,7+,7+,
+27,Lord,Lelith Hesperax,"10""",2+,2+,1,1,6,5+,1,5,,,,,,,"A League Apart: You can re-roll hit rolls and wound rolls for attacks made with melee weapons by this unit that target Character units.
+Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Cult of Strife units whilst they are within 6"" of this unit.
+No Escape: If an Infantry unit within 1"" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.","Aeldari, Drukhari, Cult of Strife
+Light, Infantry, Character, Succubus, Lelith Hesperax"
+27,,,,,,,,,,,,Penetrating Blades,Melee,Melee,User,6+,9+,
+28,Lord,Urien Rakarth,"7""",2+,2+,1,1,6,6+,1,5,,,,,,,"Ignore Damage (6+)
+Sculptor of Torments: Add 1 to wound rolls for attacks made by friendly Prophets of Flesh units when using melee weapons whilst they are within 6"" of this unit.
+Master of Pain: Add 1 to saving throws taken for friendly Prophets of Flesh units whilst they are within 6"" of any Prophets of Flesh units from your army with this ability.
+Contempt for Death: At the start of the Damage phase, you can remove half of the blast markers, rounding down, from this unit. Small blast markers must be removed before large blast markers.","Aeldari, Drukhari, Prophets of Flesh
+Light, Infantry, Character, Haemonculus, Urien Rakarth"
+28,,,,,,,,,,,,The Casket of Flensing,Heavy,"12""",2,9+,9+,One Use Only
+28,,,,,,,,,,,,Haemonculus Tools,Melee,Melee,User,6+,12+,
+29,Transport,Raider,"14""",4+,3+,1,2,5,7+,1,6,,,,,,,"Open-topped
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
+Heavy, Vehicle, Fly, Transport, Raider"
+29,,,,,,,,,,,,,,,,,,"Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
+29,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+29,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,
+29,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,
+30,Air,Razorwing Jetfighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
+Heavy, Vehicle, Fly, Aircraft, Razorwing Jetfighter"
+30,,,,,,,,,,,,,,,,,,"Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.",
+30,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
+30,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,
+30,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,
+30,,,,,,,,,,,,Razorwing Missiles,Heavy,"48""",1,7+,7+,
+30,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+30,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire
+30,,,,,,,,,,,,Bladed Wings,Melee,Melee,User,10+,11+,
+31,Transport,Venom,"16""",4+,3+,1,1,5,6+,1,6,,,,,,,"Open-topped
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
+Heavy, Vehicle, Fly, Transport, Venom"
+31,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
+31,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire
+31,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire
+31,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,
+32,Lord,Webway Gate,-,-,-,-,3,-,5+,1,6,,,,,,,"Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12"" away from your opponent's deployment zone and any enemy units, and more than 3"" away from any other terrain features or the centre of any objective markers.
+Webway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.
+Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3"" of that Webway Gate and more than 9"" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.","Aeldari
+Heavy, Vehicle, Building, Webway Gate"

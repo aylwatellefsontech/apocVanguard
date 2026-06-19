@@ -1,0 +1,1246 @@
+{
+  "source": "Apoc40kCards - cards.csv",
+  "cards": [
+    {
+      "set": "C",
+      "nm": 1,
+      "fac": "Apoc",
+      "facNm": 1,
+      "name": "Set Overwatch",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use before carrying out an order for a Detachment. The order is changed to Aimed Fire."
+    },
+    {
+      "set": "C",
+      "nm": 2,
+      "fac": "Apoc",
+      "facNm": 2,
+      "name": "Signal Advance",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use before carrying out an order for a Detachment. The order is changed to Advance."
+    },
+    {
+      "set": "C",
+      "nm": 3,
+      "fac": "Apoc",
+      "facNm": 3,
+      "name": "Forward, For Glory",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use before carrying out an order for a Detachment. The order is changed to Assault."
+    },
+    {
+      "set": "C",
+      "nm": 4,
+      "fac": "Apoc",
+      "facNm": 4,
+      "name": "Look out, Sir!",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use at the start of the Damage phase. A Light Character can remove D3 blast markers and put it on a friendly light unit with 6” of it."
+    },
+    {
+      "set": "C",
+      "nm": 5,
+      "fac": "Apoc",
+      "facNm": 5,
+      "name": "Divine Intervention",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use after rolling any dice in Orders, Action or Damage phase.  Change the result of 1 dice to any of your choosing."
+    },
+    {
+      "set": "C",
+      "nm": 6,
+      "fac": "Apoc",
+      "facNm": 6,
+      "name": "Strike True",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Reroll the dice for a single Wound roll."
+    },
+    {
+      "set": "C",
+      "nm": 7,
+      "fac": "Apoc",
+      "facNm": 7,
+      "name": "Miraculous Escape",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use in the Damage Phase. Remove 1 blast marker on a friendly unit."
+    },
+    {
+      "set": "C",
+      "nm": 8,
+      "fac": "Apoc",
+      "facNm": 8,
+      "name": "Go to Ground",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use at start of the Damage phase. 1 Infantry unit not in base contact with an enemy unit doubles their saving throw results until the end of the phase."
+    },
+    {
+      "set": "C",
+      "nm": 9,
+      "fac": "Apoc",
+      "facNm": 9,
+      "name": "Medical Suppies",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Use at the start of the Action phase. Remove d3 damage markers from a light unit.",
+      "removed": true
+    },
+    {
+      "set": "C",
+      "nm": 10,
+      "fac": "Apoc",
+      "facNm": 10,
+      "name": "Aim True",
+      "type": "Apoc",
+      "subType": "Base",
+      "ability": "Reroll the dice for a single Hit Roll.",
+      "removed": true
+    },
+    {
+      "set": "C",
+      "nm": 11,
+      "fac": "Apoc",
+      "facNm": 11,
+      "name": "Finest Hour",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use in action phase.  Select 1 warmaster or Warlord. Until the end of the turn, add 1 to the unit's Attacks characteristic, add 2 to wound rolls for that unit's melee attacks, and the units melee attacks gain Destroyer."
+    },
+    {
+      "set": "C",
+      "nm": 12,
+      "fac": "Apoc",
+      "facNm": 12,
+      "name": "Armour of Contempt",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use in the Damage phase. 1 unit rolls D12s for all their saving throws, regardless of the blast type."
+    },
+    {
+      "set": "C",
+      "nm": 13,
+      "fac": "Apoc",
+      "facNm": 13,
+      "name": "Deny the Witch",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use when an enemy uses a Psychic Command Asset before resolving it. Roll a D12. On a 4+, cancel that asset."
+    },
+    {
+      "set": "C",
+      "nm": 14,
+      "fac": "Apoc",
+      "facNm": 14,
+      "name": "Capture & Control",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use at the end of a turn. When used, select 1 objective marker in your control. You count as controlling that objective marker (even without units near it), until an enemy takes control of the marker."
+    },
+    {
+      "set": "C",
+      "nm": 15,
+      "fac": "Apoc",
+      "facNm": 15,
+      "name": "Noble Sacrifice",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use when a friendly unit is destroyed, if it could explode or crush those nearby, it automatically explodes or crushes those nearby. Otherwise, place a blast marker near the closest enemy unit within 3”."
+    },
+    {
+      "set": "C",
+      "nm": 16,
+      "fac": "Apoc",
+      "facNm": 16,
+      "name": "Reinforcements",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use in the Reinforcements Step. Select 1 destroyed non-character unit and roll a d12. If it's over the unit's power level, return it to the battlefield within 6” of a battlefield edge and 9” from enemy units. It is a brand new detachment. Otherwise return this card to your hand and you can't use it this turn."
+    },
+    {
+      "set": "C",
+      "nm": 17,
+      "fac": "Apoc",
+      "facNm": 17,
+      "name": "Insane Bravery",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use when a unit fails a moral test.  That unit passes the test instead."
+    },
+    {
+      "set": "C",
+      "nm": 18,
+      "fac": "Apoc",
+      "facNm": 18,
+      "name": "Hold at All Costs",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use in any phase. Select 1 friendly unit. Until end of battle, that unit has the 'Objective Secured' ability. This turn, if it is a character, that unit can roll a D12 instead of a D6 for one Armour Save roll."
+    },
+    {
+      "set": "C",
+      "nm": 19,
+      "fac": "Apoc",
+      "facNm": 19,
+      "name": "Behind Enemy Lines",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use in any phase.A unit discards all 'out of command' tokens and never gains them for the rest of the battle."
+    },
+    {
+      "set": "C",
+      "nm": 20,
+      "fac": "Apoc",
+      "facNm": 20,
+      "name": "Seize the Initiative",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use after a detachment has performed an order. You can choose a detachment to perform their order next, out of order."
+    },
+    {
+      "set": "C",
+      "nm": 21,
+      "fac": "Apoc",
+      "facNm": 21,
+      "name": "Overwhelming Firepower",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use before carrying out an order for a Detachment that chose Aimed Fire. Until the end of the phase, re-roll hit rolls of 1 for attacks from units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 22,
+      "fac": "Apoc",
+      "facNm": 22,
+      "name": "Blood And Guts",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use before carrying out an order for a Detachment that chose Assault. Until the end of the phase, re-roll hit rolls of 1 for attacks from units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 23,
+      "fac": "Apoc",
+      "facNm": 23,
+      "name": "Seek and Destroy",
+      "type": "Apoc",
+      "subType": "Extra",
+      "ability": "Use before carrying out an order for a Detachment that chose Advance. Until the end of the phase, re-roll hit rolls of 1 for attacks from units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 24,
+      "fac": "Apoc",
+      "facNm": 24,
+      "name": "Telekinetic Dome",
+      "type": "Apoc",
+      "subType": "Psychic",
+      "ability": "Use at start of damage phase. A friendly Psyker Tests. On 2+, choose a unit within 12” of the psyker. They can roll with D12s for saving throws against large blasts this turn.  On a 7+, Choose an additional unit to be effected."
+    },
+    {
+      "set": "C",
+      "nm": 25,
+      "fac": "Apoc",
+      "facNm": 25,
+      "name": "Smite",
+      "type": "Apoc",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. A friendly Psyker Tests. On a 2+, the closest enemy within 36” gets a blast marker. on a 7+, they get 2 blast markers instead."
+    },
+    {
+      "set": "C",
+      "nm": 26,
+      "fac": "Orks",
+      "facNm": 1,
+      "name": "Ere We go!",
+      "type": "Orks",
+      "ability": "Use when a detachment activates. Any units activate as if they were under the 'Assault' order, and can reroll wound rolls."
+    },
+    {
+      "set": "C",
+      "nm": 27,
+      "fac": "Orks",
+      "facNm": 2,
+      "name": "Dakka! Dakka! Dakka!",
+      "type": "Orks",
+      "ability": "Use in the action phase. Choose up to 3 Ork units in a Detachment lead by an Ork Commander. Rolls of 6s for ranged attacks cause 2 hits."
+    },
+    {
+      "set": "C",
+      "nm": 28,
+      "fac": "Orks",
+      "facNm": 3,
+      "name": "Da Green Tide",
+      "type": "Orks",
+      "ability": "Use in the Reinforcements Step. Select 1 destroyed friendly non-character light Ork unit that was destroyed and Roll a d12 and add 4. If it's more than the unit's Power, return it to the battlefield within 9” of a battlefield edge and 9” from enemy units, as its own detachment. Otherwise return this card to your hand and you can't use it this turn."
+    },
+    {
+      "set": "C",
+      "nm": 29,
+      "fac": "Orks",
+      "facNm": 4,
+      "name": "Grot Shields",
+      "type": "Orks",
+      "ability": "Use during the start of the damage Phase. 1 Ork light unit can move d3 blast markers to a gretchin unit within 6”."
+    },
+    {
+      "set": "C",
+      "nm": 30,
+      "fac": "Orks",
+      "facNm": 5,
+      "name": "Brutal but Kunnin'",
+      "type": "Orks",
+      "ability": "Use in the action phase. A single Ork Character gets +1 to hit and damage rolls, and a unit with 6” gets Stealth."
+    },
+    {
+      "set": "C",
+      "nm": 31,
+      "fac": "Orks",
+      "facNm": 6,
+      "name": "Kunnin but Brutal",
+      "type": "Orks",
+      "ability": "Use in the action phase. A single Ork Character gets stealth, and a unit with 6” gets +1 to hit and damage rolls."
+    },
+    {
+      "set": "C",
+      "nm": 32,
+      "fac": "Orks",
+      "facNm": 7,
+      "name": "Da Krunch",
+      "type": "Orks",
+      "subType": "Psychic",
+      "ability": "Choose an enemy unit within 24” of an Ork Psyker. Roll a D12. On a 3+, the model gets 2 blast markers. On a 8+, the model gets 4 blast markers."
+    },
+    {
+      "set": "C",
+      "nm": 33,
+      "fac": "Orks",
+      "facNm": 8,
+      "name": "Da Jump",
+      "type": "Orks",
+      "subType": "Psychic",
+      "ability": "Choose unit within 9” of an Ork Psyker. Roll a D12. On a 2+, move that unit anywhere on the battlefield further than 9” from enemy units."
+    },
+    {
+      "set": "C",
+      "nm": 34,
+      "fac": "Orks",
+      "facNm": 9,
+      "name": "Warpath",
+      "type": "Orks",
+      "subType": "Psychic",
+      "ability": "Choose up to 3 light units within 12” of an Ork Psyker. Roll a D12. On a 2+, They perform a free fight action."
+    },
+    {
+      "set": "C",
+      "nm": 35,
+      "fac": "Orks",
+      "facNm": 10,
+      "name": "Taktiks",
+      "type": "Blood Axes",
+      "ability": "Use during the Action phase. Choose a detachment. Blood Axe units in that detachment can end within 1” of enemy units, and can shoot or fight, when they make a fall back move that phase."
+    },
+    {
+      "set": "C",
+      "nm": 36,
+      "fac": "Orks",
+      "facNm": 11,
+      "name": "Da Old Ways",
+      "type": "Snakebites",
+      "ability": "Use during the Damage phase. Snakebite Units in a single detachment get Ignore Damage (5+) ability."
+    },
+    {
+      "set": "C",
+      "nm": 37,
+      "fac": "Orks",
+      "facNm": 12,
+      "name": "Kill-Kroozer Broadside",
+      "type": "Freebooterz",
+      "ability": "Use in the Action Phase. Select a point visible to a friendly Freebooterz character. Roll a D12 for every unit within 6”. On a 7+, they get a blast marker. On an 11+, they take an additional blast marker. Light Characters subtract 3 from the roll."
+    },
+    {
+      "set": "C",
+      "nm": 38,
+      "fac": "Orks",
+      "facNm": 13,
+      "name": "Speed Freeks",
+      "type": "Evil Sunz",
+      "ability": "Use in Action Phase. Up to 3 Speed Freeks in a detachment can make 1 free move action."
+    },
+    {
+      "set": "C",
+      "nm": 39,
+      "fac": "Orks",
+      "facNm": 14,
+      "name": "Armed To Da Teef",
+      "type": "Bad Moons",
+      "ability": "Bad Moons Only. Use in Action Phase. Choose a detachment.  Bad Moon units in that detachment can reroll hit rolls for attacks with ranged weapons."
+    },
+    {
+      "set": "C",
+      "nm": 40,
+      "fac": "Orks",
+      "facNm": 15,
+      "name": "Proper Killy",
+      "type": "Goffs",
+      "ability": "Goffs Only.  Select 1 detachment. Their order is changed to 'Assault', and Goff units in that detachment add 1 to hit and wound rolls for melee attacks for Goff units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 41,
+      "fac": "Orks",
+      "facNm": 16,
+      "name": "Lucky Blue Gits",
+      "type": "Deathskulls",
+      "ability": "Deathskulls Only. Choose a detachment. Until the end of the turn, Reroll 1s for hits and wound rolls, and reroll save rolls of 1 for Deathskulls in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 42,
+      "fac": "Eldar",
+      "facNm": 1,
+      "name": "Webway Strike",
+      "type": "Eldar",
+      "ability": "Use in the Reinforcements Step. Select 1 friendly  Eldar non-character unit that was destroyed. Roll a D12. If it exceeds the power level of that unit, return it to the battlefield 9” away from enemy units, as a new Detachment. If the roll fails, return this card back into your hand and you cant use it this turn."
+    },
+    {
+      "set": "C",
+      "nm": 43,
+      "fac": "Eldar",
+      "facNm": 2,
+      "name": "Matchless Agility",
+      "type": "Eldar",
+      "ability": "Choose up to 2 Eldar light units in a detachment. they may make a free move."
+    },
+    {
+      "set": "C",
+      "nm": 44,
+      "fac": "Eldar",
+      "facNm": 3,
+      "name": "Foreworned",
+      "type": "Eldar",
+      "ability": "Use when an enemy unit moves within 10” of a Eldar unit.  Up to 2 friendly Eldar units within 10” may make a free shoot action at the enemy unit."
+    },
+    {
+      "set": "C",
+      "nm": 45,
+      "fac": "Eldar",
+      "facNm": 4,
+      "name": "Fire And Fade",
+      "type": "Eldar",
+      "ability": "Use during the Action Phase after an Eldar unit attacked.  It may make a free move action."
+    },
+    {
+      "set": "C",
+      "nm": 46,
+      "fac": "Eldar",
+      "facNm": 5,
+      "name": "Phantasm",
+      "type": "Eldar",
+      "ability": "Use when an Eldar unit is the target of an enemy ranged attack.  Move the Eldar unit anywhere on the battlefield more than 9” from any enemy units.  If it no longer visible or in range, your enemy must pick a new unit to attack, if able."
+    },
+    {
+      "set": "C",
+      "nm": 47,
+      "fac": "Eldar",
+      "facNm": 6,
+      "name": "Feined Retreat",
+      "type": "Eldar",
+      "ability": "Use during the Action Phase. An Eldar unit that fell back may end within 1” of an enemy unit, and may still make range or close combat attacks this turn."
+    },
+    {
+      "set": "C",
+      "nm": 48,
+      "fac": "Eldar",
+      "facNm": 7,
+      "name": "Runes of Witnessing",
+      "type": "Eldar",
+      "subType": "Psychic",
+      "ability": "Use during the Action phase. Choose a detachment with an Eldar Psyker.  You can change their order to any order before performing it."
+    },
+    {
+      "set": "C",
+      "nm": 49,
+      "fac": "Eldar",
+      "facNm": 8,
+      "name": "Guide",
+      "type": "Eldar",
+      "subType": "Psychic",
+      "ability": "Use in the Action phase. Roll a D12. On a 2+, units within 6” of an Eldar Psyker roll D12s instead of D6s to hit."
+    },
+    {
+      "set": "C",
+      "nm": 50,
+      "fac": "Eldar",
+      "facNm": 9,
+      "name": "Doom",
+      "type": "Eldar",
+      "subType": "Psychic",
+      "ability": "Use in the Action phase. Roll a D12. On a 2+, choose an enemy unit within 24” an Eldar Psyker unit. Reroll all failed wound rolls for attacks against that unit."
+    },
+    {
+      "set": "C",
+      "nm": 51,
+      "fac": "Eldar",
+      "facNm": 10,
+      "name": "Fortune",
+      "type": "Eldar",
+      "subType": "Psychic",
+      "ability": "Use at the start of the Damage phase.  Roll a D12. On success, up to 1 friendly unit within 24” of an Eldar Psyker can roll D12s for saving throws, even for large blast markers."
+    },
+    {
+      "set": "C",
+      "nm": 52,
+      "fac": "Eldar",
+      "facNm": 11,
+      "name": "Mind War",
+      "type": "Eldar",
+      "subType": "Psychic",
+      "ability": "Use during the Action phase. Choose an Eldar Psyker and an enemy unit within 24”. Both units roll a d6 and add their leadership. If your roll is higher, the enemy takes 2 blast markers. If your roll is twice as high, the enemy takes 4 blast markers."
+    },
+    {
+      "set": "C",
+      "nm": 53,
+      "fac": "Eldar",
+      "facNm": 12,
+      "name": "Wild Host",
+      "type": "Saim-Hann",
+      "ability": "Use before carrying out an order for a Detachment lead by a Saim-Hann Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for Saim-Hann units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 54,
+      "fac": "Eldar",
+      "facNm": 13,
+      "name": "Forsight of the Damned",
+      "type": "Ulthwe",
+      "ability": "Use during the Damage phase. Ulthwe Units in a single detachment get Ignore Damage (5+) ability."
+    },
+    {
+      "set": "C",
+      "nm": 55,
+      "fac": "Eldar",
+      "facNm": 14,
+      "name": "Strength From Death",
+      "type": "Ynnari",
+      "ability": "Use during the Damage phase, when a unit within 7” of Ynnari unit is destroyed.  It can either make a free Move, Fight or Shoot action."
+    },
+    {
+      "set": "C",
+      "nm": 56,
+      "fac": "Eldar",
+      "facNm": 15,
+      "name": "Fieldcraft",
+      "type": "Alaitoc",
+      "ability": "Use in the Action Phase.  Select 1 detachment. Alaitoc units in that detachment are obscured targets."
+    },
+    {
+      "set": "C",
+      "nm": 57,
+      "fac": "Eldar",
+      "facNm": 16,
+      "name": "Swordwind",
+      "type": "Bielt-Tan",
+      "ability": "Use in the Action Phase. Select 1 detachment. Biel-Tan units that hit using a small arms weapon score two hits instead of 1. Small Arms weapons count as Melee weapons as well for these units this turn."
+    },
+    {
+      "set": "C",
+      "nm": 58,
+      "fac": "Eldar",
+      "facNm": 17,
+      "name": "Stoic Endurance",
+      "type": "Iyanden",
+      "ability": "Select a detachment. Iyanden units in that detachment ignore penalties for being critically damaged, and reroll failed Morale tests this turn."
+    },
+    {
+      "set": "C",
+      "nm": 59,
+      "fac": "Space Marines",
+      "facNm": 1,
+      "name": "Angels of Death",
+      "type": "Space Marines",
+      "ability": "Choose a Space Marine unit. Up to 3 enemy units within 12” must use a D12 instead of a D6 when testing morale."
+    },
+    {
+      "set": "C",
+      "nm": 60,
+      "fac": "Space Marines",
+      "facNm": 2,
+      "name": "Only in Death Does Duty End",
+      "type": "Space Marines",
+      "subType": "Character",
+      "ability": "Use when a Space Marine character unit is destroyed. Before removing it, it makes 2 fight actions back to back, adding 1 to hit and wound rolls for attacks made by that unit."
+    },
+    {
+      "set": "C",
+      "nm": 61,
+      "fac": "Space Marines",
+      "facNm": 3,
+      "name": "Honour The Chapter",
+      "type": "Space Marines",
+      "ability": "Use in the Action Phase. Up to 2 Space Marine units adds +1 Attack to their Attacks characteristic."
+    },
+    {
+      "set": "C",
+      "nm": 62,
+      "fac": "Space Marines",
+      "facNm": 4,
+      "name": "And they Shall Know no Fear.",
+      "type": "Space Marines",
+      "ability": "Use when a Space Marine model fails a morale roll.  That unit automatically succeeds, and gets +1 to armour rolls."
+    },
+    {
+      "set": "C",
+      "nm": 63,
+      "fac": "Space Marines",
+      "facNm": 5,
+      "name": "Transhuman Physiology",
+      "type": "Space Marines",
+      "ability": "Use at the start of the damage phase. A Space Marine unit may reroll failed saving throw rolls."
+    },
+    {
+      "set": "C",
+      "nm": 64,
+      "fac": "Space Marines",
+      "facNm": 6,
+      "name": "Combat Doctrine",
+      "type": "Space Marines",
+      "ability": "Use in the Action phase.  Choose Melee weapons, Non-Heavy Ranged weapons, or Heavy Ranged Weapons. Up to 3 Space Marine units in a detachment get +1 to hit and wound rolls when using that weapon this phase."
+    },
+    {
+      "set": "C",
+      "nm": 65,
+      "fac": "Space Marines",
+      "facNm": 7,
+      "name": "Might of Heroes",
+      "type": "Space Marines",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Space Marine Psyker and a friendly Space Marine character with 12” of each other. Roll a D12. On a 2+, that character cannot make shoot actions, adds 2 to attacks, and 3 to wound rolls for attacks with their melee weapons."
+    },
+    {
+      "set": "C",
+      "nm": 66,
+      "fac": "Space Marines",
+      "facNm": 8,
+      "name": "Veil of Time",
+      "type": "Space Marines",
+      "subType": "Psychic",
+      "ability": "Play when an opponent is about to carry out an order. Choose a Space Marine Psyker whose detachment hasn't carried out an order and roll a D12. On a 2+, your detachment carries out their order first."
+    },
+    {
+      "set": "C",
+      "nm": 67,
+      "fac": "Space Marines",
+      "facNm": 9,
+      "name": "Fury of The Ancients",
+      "type": "Space Marines",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Space Marine Psyker and a point up to 24” away. Draw a line between the two points, and roll  a D12 for every unit that crosses that line. on a 8+, place a blast marker next to that unit."
+    },
+    {
+      "set": "C",
+      "nm": 68,
+      "fac": "Space Marines",
+      "facNm": 10,
+      "name": "Sanctuary",
+      "type": "Grey Knights",
+      "subType": "Psychic",
+      "ability": "use at the start of the Damage phase. Roll a D12. On a 2+, reroll saving throws for target grey Knight Psyker unit. In addition, on a 10+, place a blast marker next to each Daemon unit in base contact with the psyker."
+    },
+    {
+      "set": "C",
+      "nm": 69,
+      "fac": "Space Marines",
+      "facNm": 11,
+      "name": "Death to Xenos.",
+      "type": "Deathwatch",
+      "ability": "Use in the action phase.  Select 1 Deathwatch unit to make a free shoot or fight action.  Then select up to 2 other Death units to make a free fight or shoot action that target only Orks, Aeldari, Tyranids, Necrons or Tau Empire units."
+    },
+    {
+      "set": "C",
+      "nm": 70,
+      "fac": "Space Marines",
+      "facNm": 12,
+      "name": "Black Rage",
+      "type": "Blood Angels",
+      "ability": "Use in the action phase. Select a single Blood Angels unit. Until the end of the phase, successful hits cause 2 hits intead of one, or 3 hits if that unit is Death Company."
+    },
+    {
+      "set": "C",
+      "nm": 71,
+      "fac": "Space Marines",
+      "facNm": 13,
+      "name": "Saga",
+      "type": "Space Wolves",
+      "ability": "Use in the action phase. Select on character, heavy, or super-heavy unit on the battlefield. Until the end of the phase, add 1 to hit and wound rolls for attacks by space wolves against that unit, or 2 if the attacker is a character."
+    },
+    {
+      "set": "C",
+      "nm": 72,
+      "fac": "Space Marines",
+      "facNm": 14,
+      "name": "Seige Masters",
+      "type": "Imperial Fists",
+      "ability": "Use in the Action Phase. Select one Building or Defensible terrain. Until the end of the turn, Imperial Fists add 3 to their damage rolls against the selected Building or units garrisoning that terrain."
+    },
+    {
+      "set": "C",
+      "nm": 73,
+      "fac": "Space Marines",
+      "facNm": 15,
+      "name": "Stubborn",
+      "type": "Dark Angels",
+      "ability": "Use in the action phase. Select a detachment. Dark Angels units in that detachment ignore critically damaged penalties, and reroll morale tests taken for them until the end of turn."
+    },
+    {
+      "set": "C",
+      "nm": 74,
+      "fac": "Space Marines",
+      "facNm": 16,
+      "name": "Strike From Shadows",
+      "type": "Raven Guard",
+      "subType": "Infantry",
+      "ability": "Use in the action phase. Until the end of the phase, raven guard infantry units in a detachment automatically hit with melee units if either attacker or defender is garrisoning a defensible terrain feature. Alternatively, a single Raven Guard infantry unit automatically hits a single enemy in melee."
+    },
+    {
+      "set": "C",
+      "nm": 75,
+      "fac": "Space Marines",
+      "facNm": 17,
+      "name": "Machine Empathy",
+      "type": "Iron Hands",
+      "subType": "Vehicle",
+      "ability": "Use in the action phase. When used, select up to 3 Iron Hands vehicles. They may make 1 free shoot action."
+    },
+    {
+      "set": "C",
+      "nm": 76,
+      "fac": "Space Marines",
+      "facNm": 18,
+      "name": "Flamecraft",
+      "type": "Salamanders",
+      "ability": "Use in the action phase. Until the end of the turn, Salamanders small arms weapons from one detachment within 1/2 the weapons maximum range automatically hit, no hit roll needed."
+    },
+    {
+      "set": "C",
+      "nm": 77,
+      "fac": "Space Marines",
+      "facNm": 19,
+      "name": "Abhor The Witch",
+      "type": "Black Templars",
+      "ability": "Use when an enemy uses a psychic power asset, before its effects are resolved. If a Black templar unit is within 36” of the psyker using the power, roll a d12. On a 3+, cancel that power. Alternatively, reroll a single wound roll by an adeptus astartes."
+    },
+    {
+      "set": "C",
+      "nm": 78,
+      "fac": "Space Marines",
+      "facNm": 20,
+      "name": "Codex Discipline",
+      "type": "Ultramarines",
+      "ability": "Use before carrying out an order for a Detachment lead by an Ultramarines Commander. The order is changed to Aim fire or Advance, and until the end of the phase, Ultramarine units in that Detachment can Fall Back and still attack."
+    },
+    {
+      "set": "C",
+      "nm": 79,
+      "fac": "Space Marines",
+      "facNm": 21,
+      "name": "Lightning Assault",
+      "type": "White Scars",
+      "ability": "Use before carrying out an order for a Detachment lead by a Lighntning Assault Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for White Scars units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 80,
+      "fac": "Chaos Marines",
+      "facNm": 1,
+      "name": "Death to the False Emperor",
+      "type": "Chaos Marines",
+      "ability": "Play in the Action phase. Choose a unit. The next attack from Heretic Astartes units roll D12s instead of D6s for hit rolls for attacks against that unit. If the chosen unit was Imperium, continue this effect until the end of the turn."
+    },
+    {
+      "set": "C",
+      "nm": 81,
+      "fac": "Chaos Marines",
+      "facNm": 2,
+      "name": "Chaos Boon",
+      "type": "Chaos Marines",
+      "ability": "Use in the Reinforcements Step.  Select a Light Character and roll a d6. On a 2-5, add 1 to the attacks and wounds of that character for the rest of the battle. On a 1, destroy that unit and replace it with a chaos spawn. On a 6, destroy that unit and replace it with a daemon prince. These units will be under the light character's detachment."
+    },
+    {
+      "set": "C",
+      "nm": 82,
+      "fac": "Chaos Marines",
+      "facNm": 3,
+      "name": "Veterans of the Long War",
+      "type": "Chaos Marines",
+      "ability": "Play when you carry out an order. Roll a D12. On a 2+, change that order to any other order."
+    },
+    {
+      "set": "C",
+      "nm": 83,
+      "fac": "Chaos Marines",
+      "facNm": 4,
+      "name": "Daemonic Ritual",
+      "type": "Chaos Marines",
+      "ability": "Use in the Reinforcements Step. Select a Chaos Character and a Legiones Daemonica unit profile, and roll D12 and add 4. If the result is greater than the unit's Power, set it up anywhere more than 9” from enemy units, as its own detachment. Otherwise, place a blast marker on the Chaos Character, and return this card to your hand."
+    },
+    {
+      "set": "C",
+      "nm": 84,
+      "fac": "Chaos Marines",
+      "facNm": 5,
+      "name": "Transhuman Physiology",
+      "type": "Chaos Marines",
+      "ability": "Use at the start of the damage phase. A unit may reroll failed saving throw rolls."
+    },
+    {
+      "set": "C",
+      "nm": 85,
+      "fac": "Chaos Marines",
+      "facNm": 6,
+      "name": "Spiteful Assault",
+      "type": "Chaos Marines",
+      "ability": "Use before making wound rolls after attacking a unit with a fight action. Wound rolls of 11+ add 1 blast marker."
+    },
+    {
+      "set": "C",
+      "nm": 86,
+      "fac": "Chaos Marines",
+      "facNm": 7,
+      "name": "Gift of Chaos",
+      "type": "Chaos Marines",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Pick the closest non-character light unit of 5 within 18” to a psyker.  Roll a d12. On a 1-9, place a blast marker on that unit. On a 10+, place 2 blast markers on that unit, and place a chaos spawn next to it. The Spawn is part of the Psyker's detachment."
+    },
+    {
+      "set": "C",
+      "nm": 87,
+      "fac": "Chaos Marines",
+      "facNm": 8,
+      "name": "Warptime",
+      "type": "Chaos Marines",
+      "subType": "Psychic",
+      "ability": "Using during your action phase.  Choose a psyker and roll a D12. on a 2+, up to 3 friendly heretic astartes or legiones Daemonica within 12” of the psyker may make a free move action."
+    },
+    {
+      "set": "C",
+      "nm": 88,
+      "fac": "Chaos Marines",
+      "facNm": 9,
+      "name": "Infernal Gaze",
+      "type": "Chaos Marines",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Psyker and a point up to 18” away. Draw a line between the two points, and roll  a D12 for every unit that crosses that line. on a 7+, place a blast marker next to that unit."
+    },
+    {
+      "set": "C",
+      "nm": 89,
+      "fac": "Chaos Marines",
+      "facNm": 10,
+      "name": "Doom Bolt",
+      "type": "Tzeentch",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Tzeentch Psyker and roll 3 D12s. For each 5-10, place a blast marker next to the closest enemy with 24” of the psyker. For each 11+, place 2 blast markers instead."
+    },
+    {
+      "set": "C",
+      "nm": 90,
+      "fac": "Chaos Marines",
+      "facNm": 11,
+      "name": "Bolt of Change",
+      "type": "Tzeentch",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Pick a Tzeentch Psyker to manifest, then select a light character within 18” and roll 2d6. If it is less than the character's power rating, place a blast marker next to it. Otherwise, immediately destroy it and replace it with a chaos spawn unit, as part of the Psyker's detachment."
+    },
+    {
+      "set": "C",
+      "nm": 91,
+      "fac": "Chaos Marines",
+      "facNm": 12,
+      "name": "Fury of Khorne",
+      "type": "Khorne",
+      "ability": "Choose a Khorne character. Add +2 to its attacks and damage rolls  for this character this turn."
+    },
+    {
+      "set": "C",
+      "nm": 92,
+      "fac": "Chaos Marines",
+      "facNm": 13,
+      "name": "Delightful Agonies",
+      "type": "Slannesh",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Slaanesh Psyker and one slaanesh unit with 36” of each other. Until the end of the turn, that unit ignores penalties for critical damage, and add 1 to attacks for each damage marker next to it."
+    },
+    {
+      "set": "C",
+      "nm": 93,
+      "fac": "Chaos Marines",
+      "facNm": 14,
+      "name": "Plague Wind",
+      "type": "Nurgle",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Nurgle Psyker and roll a D12. On a 2+, place a blast marker next to the closest enemy within 18” to the psyker. Then roll a D12” for every other unit within 6” of that unit. On a 7+, place a blast marker nexto that unit."
+    },
+    {
+      "set": "C",
+      "nm": 94,
+      "fac": "Chaos Marines",
+      "facNm": 15,
+      "name": "Brotherhood of Sorcerers",
+      "type": "Thousand Sons",
+      "subType": "Psychic",
+      "ability": "Use at any time. Search your deck for a Psychic card and draw it."
+    },
+    {
+      "set": "C",
+      "nm": 95,
+      "fac": "Chaos Marines",
+      "facNm": 16,
+      "name": "Black Crusaders",
+      "type": "Black Legion",
+      "ability": "Use before carrying out an Advance Order for a Detachment lead by a Black Legion Commander. After moving, Black Legion units in that Detachment can make a shoot action against units in base contact with them, and a fight action as well, but must target the same unit on both actions."
+    },
+    {
+      "set": "C",
+      "nm": 96,
+      "fac": "Chaos Marines",
+      "facNm": 17,
+      "name": "Inexorable Advance",
+      "type": "Death Guard",
+      "ability": "Use before carrying out an order for a Detachment lead by a Death Guard Commander. The order is changed to Advance, and until the end of the phase, double the Range of Rapid Fire weapons for Death Guard units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 97,
+      "fac": "Chaos Marines",
+      "facNm": 18,
+      "name": "Butchers Nails",
+      "type": "World Eaters",
+      "ability": "Use before carrying out an order for a Detachment lead by a World Eaters Commander, and until the end of the phase, attacks get +1 for to-hit and to-wound rolls for melee weapons of World Eater units in that Detachment."
+    },
+    {
+      "set": "C",
+      "nm": 98,
+      "fac": "Chaos Marines",
+      "facNm": 19,
+      "name": "Flawless perfection",
+      "type": "Emperors Children",
+      "ability": "Use in the Action Phase. Until the end of the phase, roll D12s instead of d6s for hit rolls for attacks made by Emperors children units in a single detachment."
+    },
+    {
+      "set": "C",
+      "nm": 99,
+      "fac": "Chaos Marines",
+      "facNm": 20,
+      "name": "In Midnight Clad",
+      "type": "Night Lords",
+      "ability": "Use in the Action Phase. Select 2 Night Lord units. Until the end of the phase, those units cannot be the target of ranged attacks unless they are the closest enemy to the attacker."
+    },
+    {
+      "set": "C",
+      "nm": 100,
+      "fac": "Chaos Marines",
+      "facNm": 21,
+      "name": "Seige Lords",
+      "type": "Iron Warriors",
+      "ability": "Use in the Action Phase. Select one Building or Defensible terrain. Until the end of the turn, Iron Warriors attacking that Building or units garrisoning that terrain may re-roll attack and damage rolls."
+    },
+    {
+      "set": "C",
+      "nm": 101,
+      "fac": "Chaos Marines",
+      "facNm": 22,
+      "name": "Voice of Zeal",
+      "type": "Word Bearers",
+      "ability": "Use in the Action Phase. Select a Detachment lead by a Word Bearers Commander. Until the end of turn, Word Bearer Characters double the range of their aura abilities, and re-roll failed Morale tests for Word Bearer units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 102,
+      "fac": "Chaos Marines",
+      "facNm": 23,
+      "name": "I am Alpharius",
+      "type": "Alpha Legion",
+      "ability": "Use when an Alpha Legion Warlord is destroyed. Choose another Alpha Legion Character. Replace that Character with the destroyed Warlord, and the Warlord does not count as destroyed. Until the end of the phase, failed Morale tests by Alpha Legion units within 12” of the Character are re-rolled."
+    },
+    {
+      "set": "C",
+      "nm": 103,
+      "fac": "Chaos Marines",
+      "facNm": 24,
+      "name": "Dark Raiders",
+      "type": "Red Corsairs",
+      "ability": "Use before carrying out an order for a Detachment lead by a Red Corsairs Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for Red Corsair units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 104,
+      "fac": "Imperial Guard",
+      "facNm": 1,
+      "name": "Inspired Tactics",
+      "type": "Imperial Guard",
+      "subType": "Officer",
+      "ability": "Use at any time.  Search your deck or discard pile for an Officer or Tank asset card, and then shuffle your command asset deck."
+    },
+    {
+      "set": "C",
+      "nm": 105,
+      "fac": "Imperial Guard",
+      "facNm": 2,
+      "name": "Fix Bayonets!",
+      "type": "Imperial Guard",
+      "subType": "Officer",
+      "ability": "Use before carrying out an order for a Detachment lead by an Imperial Guard Commander. The order is changed to Assault, and the first 2 Imperial Guard units to attack this phase add 1 to to-hit rolls."
+    },
+    {
+      "set": "C",
+      "nm": 106,
+      "fac": "Imperial Guard",
+      "facNm": 3,
+      "name": "Forwards, for the Emperor!",
+      "type": "Imperial Guard",
+      "subType": "Officer",
+      "ability": "Use before carrying out an order for a Detachment lead by an Imperial Guard Commander. The order is changed to Advance, and until the end of the phase, and the first 2 Imperial Guard units to move gets +2 Move."
+    },
+    {
+      "set": "C",
+      "nm": 107,
+      "fac": "Imperial Guard",
+      "facNm": 4,
+      "name": "First Rank, Fire! Second Rank, Fire!",
+      "type": "Imperial Guard",
+      "subType": "Officer",
+      "ability": "Use before carrying out an order for a Detachment lead by an Imperial Guard Commander. The order is changed to Aimed Fire, and the first 2 Imperial Guard units to attack this phase add 1 to to-hit rolls."
+    },
+    {
+      "set": "C",
+      "nm": 108,
+      "fac": "Imperial Guard",
+      "facNm": 5,
+      "name": "Gunners, Kill on Sight",
+      "type": "Imperial Guard",
+      "subType": "Tank",
+      "ability": "Use when you carry out an order. At the end of the order, up to 2 Heavy Vehicles or 1 Super-Heavy vehicle in that detachment can make an additional shoot action."
+    },
+    {
+      "set": "C",
+      "nm": 109,
+      "fac": "Imperial Guard",
+      "facNm": 6,
+      "name": "Full Throttle",
+      "type": "Imperial Guard",
+      "subType": "Tank",
+      "ability": "Use when you carry out an order. At the end of the order, Up to 3 Heavy Vehicles or 1 Super-Heavy vehicle in that deatchment can make an additional move action."
+    },
+    {
+      "set": "C",
+      "nm": 110,
+      "fac": "Imperial Guard",
+      "facNm": 7,
+      "name": "Rolling Bombardment",
+      "type": "Imperial Guard",
+      "subType": "Warlord",
+      "ability": "Use in the action phase. Choose a point your warlord can see, and roll a D12 for every unit within 12” of that point. On a 9+, put a blast marker on that unit, or a 10+ if the unit is a light character."
+    },
+    {
+      "set": "C",
+      "nm": 111,
+      "fac": "Imperial Guard",
+      "facNm": 8,
+      "name": "Psychic Barrier",
+      "type": "Imperial Guard",
+      "subType": "Psychic",
+      "ability": "Use at the start of the damage phase. Roll a D12. on a 2+, Astra militarum units within 6” of a chosen pysker dd 2 to saving rolls."
+    },
+    {
+      "set": "C",
+      "nm": 112,
+      "fac": "Imperial Guard",
+      "facNm": 9,
+      "name": "Terrifying Visions",
+      "type": "Imperial Guard",
+      "subType": "Psychic",
+      "ability": "Use at the start of the damage phase. Roll a D12 and choose a point within 6” of one of your psykers. On a 2+, enemy units that fail morale tests within 6” of the point place 2 damage markers instead of just 1."
+    },
+    {
+      "set": "C",
+      "nm": 113,
+      "fac": "Imperial Guard",
+      "facNm": 10,
+      "name": "Born Soldiers",
+      "type": "Cadia",
+      "ability": "Use in the action Phase. Until the end of the turn, Roll D12s instead of D6s for ranged weapon attacks from Cadians in the detachment."
+    },
+    {
+      "set": "C",
+      "nm": 114,
+      "fac": "Imperial Guard",
+      "facNm": 11,
+      "name": "Vicious Traps",
+      "type": "Catachan",
+      "ability": "Use when your opponent is about to carry out an order. Roll a D12 each time a unit in the detachment carrying out that order moves within 12” of a catachan unit in your army. On a 9+, place a blast marker next to that unit."
+    },
+    {
+      "set": "C",
+      "nm": 115,
+      "fac": "Imperial Guard",
+      "facNm": 12,
+      "name": "Grim Demeanor",
+      "type": "Valhallan",
+      "ability": "Use in the action phase. Select a detachment. Valhallan units in that detachment ignore critically damaged penalties, and reroll morale tests taken for them until end of turn."
+    },
+    {
+      "set": "C",
+      "nm": 116,
+      "fac": "Imperial Guard",
+      "facNm": 13,
+      "name": "Firstborn Pride",
+      "type": "Vostroyan",
+      "ability": "Use in the action phase. Select up to 2 Vostroyan Infantry units. They can immedialy make a free move or shoot action."
+    },
+    {
+      "set": "C",
+      "nm": 117,
+      "fac": "Imperial Guard",
+      "facNm": 14,
+      "name": "Swift as Wind",
+      "type": "Tallarn",
+      "ability": "Use before carrying out an order for a Detachment lead by a Tallarn Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for Tallarn units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 118,
+      "fac": "Imperial Guard",
+      "facNm": 15,
+      "name": "Parade Drill Discipline",
+      "type": "Mordian",
+      "ability": "Use before carrying out an order for a Detachment lead by a Mordian Commander. The order is changed to Aimed Fire, and until the end of the phase, add 1 to wound rolls from ranged weapons for Mordian units in that detachment."
+    },
+    {
+      "set": "C",
+      "nm": 119
+    },
+    {
+      "set": "C",
+      "nm": 120
+    },
+    {
+      "set": "C",
+      "nm": 121
+    },
+    {
+      "set": "C",
+      "nm": 122
+    },
+    {
+      "set": "C",
+      "nm": 123
+    },
+    {
+      "set": "C",
+      "nm": 124
+    },
+    {
+      "set": "C",
+      "nm": 125
+    },
+    {
+      "set": "C",
+      "nm": 126
+    },
+    {
+      "set": "C",
+      "nm": 127
+    },
+    {
+      "set": "C",
+      "nm": 128
+    },
+    {
+      "set": "C",
+      "nm": 129
+    },
+    {
+      "set": "C",
+      "nm": 130
+    },
+    {
+      "set": "C",
+      "nm": 131
+    },
+    {
+      "set": "C",
+      "nm": 132
+    },
+    {
+      "set": "C",
+      "nm": 133
+    },
+    {
+      "set": "C",
+      "nm": 134
+    },
+    {
+      "set": "C",
+      "nm": 135
+    },
+    {
+      "set": "C",
+      "nm": 136
+    },
+    {
+      "set": "C",
+      "nm": 137
+    },
+    {
+      "set": "C",
+      "nm": 138
+    },
+    {
+      "set": "C",
+      "nm": 139
+    },
+    {
+      "set": "C",
+      "nm": 140
+    },
+    {
+      "set": "C",
+      "nm": 141
+    },
+    {
+      "set": "C",
+      "nm": 142
+    },
+    {
+      "set": "C",
+      "nm": 143
+    },
+    {
+      "set": "C",
+      "nm": 144
+    },
+    {
+      "set": "C",
+      "nm": 145
+    },
+    {
+      "set": "C",
+      "nm": 146
+    },
+    {
+      "set": "C",
+      "nm": 147
+    },
+    {
+      "set": "C",
+      "nm": 148
+    }
+  ]
+}

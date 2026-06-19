@@ -1,0 +1,563 @@
+from generate_all_faction_lists import slot, u
+
+
+def _named(unit, name):
+    out = dict(unit)
+    out["name"] = name
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Astra Militarum / Imperial Guard (Apoc_Datasheet_Astra_Militarum_web.pdf)
+# ---------------------------------------------------------------------------
+
+_IG_HEAVY_TEAM = [
+    {"name": "Autocannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "8+"},
+    {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+    {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+    {"name": "Lascannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
+    {"name": "Missile Launcher", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "7+", "armorPen": "7+"},
+    {"name": "Mortar", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "10+", "abilities": "Barrage"},
+]
+
+_IG_TURRET_WEAPONS = [
+    {"name": "Demolisher Cannon", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "6+", "armorPen": "6+", "abilities": "Destroyer"},
+    {"name": "Eradicator Nova Cannon", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "5+", "armorPen": "9+"},
+    {"name": "Executioner Plasma Cannon", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "7+", "abilities": "Supercharge"},
+    {"name": "Exterminator Autocannon", "type": "Heavy", "range": '48"', "attacks": "2", "skill": "6+", "armorPen": "8+"},
+    {"name": "Punisher Gatling Cannon", "type": "Heavy", "range": '24"', "attacks": "6", "skill": "7+", "armorPen": "10+"},
+    {"name": "Vanquisher Battle Cannon", "type": "Heavy", "range": '72"', "attacks": "1", "skill": "10+", "armorPen": "4+"},
+]
+
+_IG_LEMAN_RUSS_WEAPONS = [
+    {"name": "Battle Cannon", "type": "Heavy", "range": '72"', "attacks": "1", "skill": "6+", "armorPen": "6+"},
+    {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+    {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+    {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+    {"name": "Lascannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
+    {"name": "Multi-melta", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "10+", "armorPen": "4+"},
+    {"name": "Plasma Cannon", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "7+", "abilities": "Supercharge"},
+    {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+    {"name": "Grinding Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+] + _IG_TURRET_WEAPONS
+
+_IG_SENTINEL_WEAPONS = [
+    {"name": "Autocannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "8+"},
+    {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+    {"name": "Lascannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
+    {"name": "Missile Launcher", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "7+", "armorPen": "7+"},
+    {"name": "Multi-laser", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "6+", "armorPen": "10+"},
+    {"name": "Plasma Cannon", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "7+", "abilities": "Supercharge"},
+    {"name": "Armoured Feet", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "12+"},
+]
+
+_IG_HELLHOUND_WEAPONS = [
+    {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+    {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+    {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+    {"name": "Multi-melta", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "10+", "armorPen": "4+"},
+    {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+    {"name": "Armoured Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+]
+
+_IG_ARTILLERY_SECONDARIES = [
+    {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+    {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+    {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+    {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+    {"name": "Armoured Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+]
+
+_IG_TANK_SQUADRON = (
+    "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit "
+    "in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the "
+    "same time and within 6\" of each other unit taken for the same slot the first time they are set up."
+)
+
+_IG_FAST_TANK_SQUADRON = (
+    "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit "
+    "in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the "
+    "same time and within 6\" of each other unit taken for the same slot the first time they are set up."
+)
+
+_IG_GRINDING_ADVANCE = (
+    "Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a "
+    "distance less than half its Move characteristic this turn, double the Attacks characteristic of its "
+    "Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator "
+    "Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action."
+)
+
+_IG_LEMAN_RUSS_OPTIONS = [
+    "Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",
+    "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.",
+    "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
+    "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+]
+
+IMPERIAL_GUARD = {
+    "Lord Castellan Creed": u(
+        "Lord Castellan Creed",
+        {"M": '6"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "7", "Sv": "7+", "N": "1", "Pt": "5"},
+        ["Imperium", "Astra Militarum", "Cadian", "Light", "Infantry", "Character", "Officer", "Lord Castellan Creed"],
+        [{"name": "Signature Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"}],
+        "Tactical Genius: If this unit is a Warmaster, and is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.\nOfficer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.",
+        options=["Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army."],
+    ),
+    "Company Commander": u(
+        "Company Commander",
+        {"M": '6"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "9+", "N": "1", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Character", "Officer", "Company Commander"],
+        [{"name": "Officer Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "11+"}],
+        "Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.",
+    ),
+    "Lord Commissar": u(
+        "Lord Commissar",
+        {"M": '6"', "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "7", "Sv": "7+", "N": "1", "Pt": "4"},
+        ["Imperium", "Astra Militarum", "Officio Prefectus", "Light", "Infantry", "Character", "Commissar", "Lord Commissar"],
+        [{"name": "Commissar Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "11+"}],
+        "Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.",
+    ),
+    "Command Squad": u(
+        "Command Squad",
+        {"M": '6"', "WS": "4+", "BS": "3+", "A": "1", "W": "1", "Ld": "4", "Sv": "10+", "N": "4", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Veterans", "Command Squad"],
+        [
+            {"name": "Lasguns", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ] + _IG_HEAVY_TEAM,
+        "Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6\" of any friendly <Regiment> units with a Regimental Standard.",
+        options=[
+            "A Command Squad is a unit that contains 4 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+            "This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
+            "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.",
+            "This unit can have a Regimental Standard (Power Rating +1). If this unit has a Regimental Standard, it has the following additional abilities: Regimental Standard.",
+        ],
+    ),
+    "Tech-Priest Enginseer": u(
+        "Tech-Priest Enginseer",
+        {"M": '6"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "6", "Sv": "5+", "N": "1", "Pt": "5"},
+        ["Imperium", "Astra Militarum", "Light", "Infantry", "Character", "Tech-Priest", "Enginseer"],
+        [{"name": "Omnissian Axe & Servo-arm", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "7+"}],
+        "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Astra Militarum Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+    ),
+    "Sanctioned Psyker": u(
+        "Sanctioned Psyker",
+        {"M": '6"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "10+", "N": "1", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "Astra Telepathica", "Scholastica Psykana", "Light", "Infantry", "Psyker", "Character", "Primaris Psyker"],
+        [{"name": "Force Weapon", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"}],
+        options=[
+            "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.",
+            "Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability.",
+        ],
+    ),
+    "Infantry Squad": u(
+        "Infantry Squad",
+        {"M": '6"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "10+", "N": "10", "Pt": "3"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Infantry Squad"],
+        [
+            {"name": "Lasguns", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ] + [w for w in _IG_HEAVY_TEAM if w["name"] != "Heavy Flamer"],
+        options=[
+            "An Infantry Squad is a unit that contains 10 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+            "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.",
+        ],
+    ),
+    "Conscripts": u(
+        "Conscripts",
+        {"M": '6"', "WS": "5+", "BS": "5+", "A": "2", "W": "4", "Ld": "4", "Sv": "10+", "N": "20", "Pt": "3"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Conscripts"],
+        [
+            {"name": "Lasguns", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ],
+        profiles=[{"M": '6"', "WS": "5+", "BS": "5+", "A": "3", "W": "6", "Ld": "4", "Sv": "10+", "N": "30", "Pt": "4"}],
+        options=["Conscripts is a unit that contains 20 models. It can contain 30 models (Power Rating 4)."],
+    ),
+    "Veterans": u(
+        "Veterans",
+        {"M": '6"', "WS": "4+", "BS": "3+", "A": "2", "W": "2", "Ld": "5", "Sv": "10+", "N": "10", "Pt": "4"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Veterans"],
+        [
+            {"name": "Veteran Wargear", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Chainswords", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "8+", "armorPen": "10+"},
+        ] + _IG_HEAVY_TEAM,
+        options=[
+            "Veterans is a unit that contains 10 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+            "This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
+            "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.",
+        ],
+    ),
+    "Militarum Tempestus Scions": u(
+        "Militarum Tempestus Scions",
+        {"M": '6"', "WS": "4+", "BS": "3+", "A": "1", "W": "1", "Ld": "5", "Sv": "8+", "N": "5", "Pt": "3"},
+        ["Imperium", "Astra Militarum", "Militarum Tempestus", "Light", "Infantry", "Militarum Tempestus Scions"],
+        [
+            {"name": "Hot-shot Lasguns", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "6+", "armorPen": "8+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ],
+        "Deep Strike",
+        profiles=[{"M": '6"', "WS": "4+", "BS": "3+", "A": "2", "W": "2", "Ld": "5", "Sv": "8+", "N": "10", "Pt": "5"}],
+        options=["Militarum Tempestus Scions are a unit that contains 5 models. It can contain 10 models (Power Rating 5)."],
+    ),
+    "Ratlings": u(
+        "Ratlings",
+        {"M": '5"', "WS": "5+", "BS": "3+", "A": "1", "W": "1", "Ld": "4", "Sv": "10+", "N": "5", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "Militarum Auxilia", "Light", "Infantry", "Ratlings"],
+        [
+            {"name": "Sniper Rifles", "type": "Small Arms", "range": '36"', "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Sniper"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "12+"},
+        ],
+        "Infiltrators, Stealth",
+        profiles=[{"M": '5"', "WS": "5+", "BS": "3+", "A": "2", "W": "2", "Ld": "4", "Sv": "10+", "N": "10", "Pt": "3"}],
+        options=["Ratlings is a unit that contains 5 models. It can contain 10 models (Power Rating 3)."],
+    ),
+    "Ogryns": u(
+        "Ogryns",
+        {"M": '6"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "6", "Sv": "10+", "N": "3", "Pt": "5"},
+        ["Imperium", "Astra Militarum", "Militarum Auxilia", "Light", "Infantry", "Ogryns"],
+        [
+            {"name": "Ripper Guns", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "6+", "armorPen": "9+"},
+            {"name": "Ripper Gun Stocks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "8+"},
+            {"name": "Crusader Power Swords", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+        ],
+        profiles=[
+            {"M": '6"', "WS": "3+", "BS": "4+", "A": "4", "W": "4", "Ld": "6", "Sv": "10+", "N": "6", "Pt": "10"},
+            {"M": '6"', "WS": "3+", "BS": "4+", "A": "6", "W": "6", "Ld": "6", "Sv": "10+", "N": "9", "Pt": "15"},
+        ],
+        options=[
+            "Ogryns is a unit that contains 3 models. It can contain 6 models (Power Rating 10) or 9 models (Power Rating 15).",
+            "Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.",
+            "Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.",
+            "Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.",
+        ],
+    ),
+    "Special Weapons Squad": u(
+        "Special Weapons Squad",
+        {"M": '6"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "4", "Sv": "10+", "N": "6", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Special Weapons Squad"],
+        [
+            {"name": "Lasguns", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Sniper Rifles", "type": "Small Arms", "range": '36"', "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Sniper"},
+            {"name": "Special Weapons", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "6+", "armorPen": "8+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ],
+        options=["Instead of Special Weapons, this unit can be equipped with Sniper Rifles."],
+    ),
+    "Scout Sentinels": u(
+        "Scout Sentinels",
+        {"M": '9"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "5", "Sv": "8+", "N": "1", "Pt": "4"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Scout Sentinels"],
+        _IG_SENTINEL_WEAPONS[:6],
+        "Infiltrators",
+        profiles=[
+            {"M": '9"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "8+", "N": "2", "Pt": "7"},
+            {"M": '9"', "WS": "4+", "BS": "4+", "A": "3", "W": "3", "Ld": "5", "Sv": "8+", "N": "3", "Pt": "10"},
+        ],
+        options=[
+            "Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10).",
+            "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.",
+            "Alternative: Armoured Sentinels (M 8\", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).",
+        ],
+    ),
+    "Hellhound": u(
+        "Hellhound",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "6"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Hellhound"],
+        [{"name": "Inferno Cannon", "type": "Heavy", "range": '16"', "attacks": "1", "skill": "5+", "armorPen": "8+", "abilities": "Inferno"}] + _IG_HELLHOUND_WEAPONS,
+        _IG_FAST_TANK_SQUADRON,
+        options=[
+            "A Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+            "Variant: Bane Wolf (Chem Cannon, Pt 6).",
+        ],
+    ),
+    "Devil Dog": u(
+        "Devil Dog",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "6"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Hellhound", "Devil Dog"],
+        [
+            {"name": "Melta Cannon", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "10+", "armorPen": "4+"},
+        ] + _IG_HELLHOUND_WEAPONS,
+        _IG_FAST_TANK_SQUADRON,
+        options=[
+            "A Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Heavy Weapons Squad": u(
+        "Heavy Weapons Squad",
+        {"M": '6"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "4", "Sv": "10+", "N": "3", "Pt": "3"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Infantry", "Heavy Weapons Squad"],
+        [{"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"}]
+        + [w for w in _IG_HEAVY_TEAM if w["name"] != "Heavy Flamer"],
+        "Weapons Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.",
+        options=["For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."],
+    ),
+    "Hydra": u(
+        "Hydra",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "7"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Hydra"],
+        [
+            {"name": "Hydra Quad Autocannon", "type": "Heavy", "range": '72"', "attacks": "2", "skill": "8+", "armorPen": "6+", "abilities": "Anti-air"},
+        ] + _IG_ARTILLERY_SECONDARIES,
+        _IG_TANK_SQUADRON,
+        options=[
+            "A Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Basilisk": u(
+        "Basilisk",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "7"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Basilisk"],
+        [
+            {"name": "Earthshaker Cannon", "type": "Heavy", "range": '240"', "attacks": "1", "skill": "6+", "armorPen": "5+", "abilities": "Barrage"},
+        ] + _IG_ARTILLERY_SECONDARIES,
+        _IG_TANK_SQUADRON,
+        options=[
+            "A Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Manticore": u(
+        "Manticore",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "8"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Manticore"],
+        [
+            {"name": "Storm Eagle Rocket", "type": "Heavy", "range": '120"', "attacks": "2", "skill": "4+", "armorPen": "6+", "abilities": "Barrage, One Use Only"},
+        ] + _IG_ARTILLERY_SECONDARIES,
+        _IG_TANK_SQUADRON,
+        options=[
+            "A Manticore is a unit that contains 1 model. It is equipped with: 4 Storm Eagle Rockets; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Leman Russ Battle Tank": u(
+        "Leman Russ Battle Tank",
+        {"M": '10"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "10"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Leman Russ", "Leman Russ Battle Tank"],
+        _IG_LEMAN_RUSS_WEAPONS,
+        f"{_IG_TANK_SQUADRON}\n{_IG_GRINDING_ADVANCE}",
+        options=_IG_LEMAN_RUSS_OPTIONS,
+    ),
+    "Baneblade": u(
+        "Baneblade",
+        {"M": '10"', "WS": "5+", "BS": "4+", "A": "2", "W": "5", "Ld": "6", "Sv": "6+", "N": "1", "Pt": "28"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Super-heavy", "Vehicle", "Titanic", "Baneblade"],
+        [
+            {"name": "Autocannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "8+"},
+            {"name": "Baneblade Cannon", "type": "Heavy", "range": '72"', "attacks": "4", "skill": "5+", "armorPen": "5+"},
+            {"name": "Demolisher Cannon", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "6+", "armorPen": "6+", "abilities": "Destroyer"},
+            {"name": "Twin Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Baneblade Anti-personnel Weapons", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Lascannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
+            {"name": "Twin Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "2", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Adamantium Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+        ],
+        options=[
+            "A Baneblade is a unit that contains 1 model. It is equipped with: Autocannon; Baneblade Cannon; Demolisher Cannon; Twin Heavy Bolter; Adamantium Tracks.",
+            "This unit can also be equipped with Baneblade Anti-personnel Weapons (Power Rating +1).",
+            "This unit can also be equipped with two (Power Rating +2) or four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.",
+        ],
+    ),
+    "Shadowsword": u(
+        "Shadowsword",
+        {"M": '10"', "WS": "5+", "BS": "4+", "A": "2", "W": "5", "Ld": "6", "Sv": "6+", "N": "1", "Pt": "25"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Super-heavy", "Vehicle", "Titanic", "Shadowsword"],
+        [
+            {"name": "Volcano Cannon", "type": "Heavy", "range": '72"', "attacks": "4", "skill": "7+", "armorPen": "3+", "abilities": "Destroyer"},
+            {"name": "Twin Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Shadowsword Anti-personnel Weapons", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Lascannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
+            {"name": "Twin Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "2", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Adamantium Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+        ],
+        options=[
+            "A Shadowsword is a unit that contains 1 model. It is equipped with: Volcano Cannon; Twin Heavy Bolter; Adamantium Tracks.",
+            "This unit can also be equipped with Shadowsword Anti-personnel Weapons (Power Rating +1).",
+            "This unit can also be equipped with two (Power Rating +2) or four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.",
+        ],
+    ),
+    "Chimera": u(
+        "Chimera",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "7"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Transport", "Chimera"],
+        [
+            {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Heavy Flamer", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Multi-laser", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "6+", "armorPen": "10+"},
+            {"name": "Lasgun Array", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Armoured Tracks", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        options=[
+            "TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.",
+            "A Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+            "Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Valkyrie": u(
+        "Valkyrie",
+        {"M": '20"-45"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "8"},
+        ["Imperium", "Astra Militarum", "Aeronautica Imperialis", "Heavy", "Vehicle", "Fly", "Transport", "Aircraft", "Valkyrie"],
+        [
+            {"name": "Hellstrike Missiles", "type": "Heavy", "range": '72"', "attacks": "1", "skill": "6+", "armorPen": "6+"},
+            {"name": "Multi-laser", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "6+", "armorPen": "10+"},
+            {"name": "Multiple Rocket Pod", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "8+"},
+            {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Armoured Bulk", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        "Supersonic\nVehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Flyers slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nHover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, then until the end of the phase, its Move characteristic changes to 20\" but it loses the Supersonic ability.\nGrav-chute Insertion: Units may disembark from this unit during its Move action. Units that disembark in this manner must be set up more than 9\" from any enemy units.",
+        options=[
+            "TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.",
+            "A Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Missiles; Multi-laser; Armoured Bulk.",
+            "Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.",
+            "Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.",
+            "This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).",
+        ],
+    ),
+    "Taurox": u(
+        "Taurox",
+        {"M": '14"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "4"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Transport", "Taurox"],
+        [
+            {"name": "Autocannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "8+"},
+            {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        options=[
+            "TRANSPORT: This unit can transport up to 10 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.",
+            "A Taurox is a unit that contains 1 model. It is equipped with: 2 Autocannons; Armoured Hull.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Rough Riders": u(
+        "Rough Riders",
+        {"M": '10"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "5", "Sv": "10+", "N": "5", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Light", "Cavalry", "Rough Riders"],
+        [
+            {"name": "Laspistols", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "8+", "armorPen": "10+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+            {"name": "Hunting Lances", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+        ],
+        profiles=[{"M": '10"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "10+", "N": "10", "Pt": "6"}],
+        options=["Rough Riders is a unit that contains 5 models. It can contain 10 models (Power Rating 6)."],
+    ),
+    "Wyvern": u(
+        "Wyvern",
+        {"M": '12"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "7"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Wyvern"],
+        [
+            {"name": "Wyvern Quad Stormshard Mortar", "type": "Heavy", "range": '48"', "attacks": "4", "skill": "7+", "armorPen": "9+", "abilities": "Barrage"},
+        ] + _IG_ARTILLERY_SECONDARIES,
+        _IG_TANK_SQUADRON,
+        options=[
+            "Field Ordnance Battery does not appear in this Apocalypse datasheet; Wyvern is the closest heavy artillery substitute.",
+            "A Wyvern is a unit that contains 1 model. It is equipped with: Wyvern Quad Stormshard Mortar; Heavy Bolter; Armoured Tracks.",
+            "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Tank Commander": u(
+        "Tank Commander",
+        {"M": '10"', "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "12"},
+        ["Imperium", "Astra Militarum", "<Regiment>", "Heavy", "Vehicle", "Character", "Leman Russ", "Officer", "Tank Commander"],
+        _IG_LEMAN_RUSS_WEAPONS,
+        "Tank Commander: If a friendly <Regiment> Leman Russ unit starts a Move action within 6\" of this unit, that unit can be ordered to go full throttle; add 2\" to that unit's Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.\n" + _IG_GRINDING_ADVANCE,
+        options=_IG_LEMAN_RUSS_OPTIONS + [
+            "Choose either Tank Commander, Master of Ordnance, or Officer of the Fleet for this slot.",
+            "Alternative: Master of Ordnance (Pt 5) with Master of Ballistics ability.",
+            "Alternative: Officer of the Fleet (Pt 2) with Strafing Coordinates ability.",
+            "Alternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander ability).",
+        ],
+    ),
+    "Militarum Tempestus Command Squad": u(
+        "Militarum Tempestus Command Squad",
+        {"M": '6"', "WS": "4+", "BS": "3+", "A": "1", "W": "1", "Ld": "4", "Sv": "8+", "N": "4", "Pt": "3"},
+        ["Imperium", "Astra Militarum", "Militarum Tempestus", "Light", "Infantry", "Militarum Tempestus Command Squad"],
+        [
+            {"name": "Hot-shot Lasguns", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "6+", "armorPen": "8+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ],
+        "Deep Strike\nPlatoon Standard: Add 1 to the Leadership characteristic of Militarum Tempestus units whilst they are within 6\" of any friendly Militarum Tempestus units with a Platoon Standard.",
+        options=[
+            "A Militarum Tempestus Command Squad is a unit that contains 4 models.",
+            "This unit can have a Platoon Standard (Power Rating +1). If this unit has a Platoon Standard, it has the following additional abilities: Platoon Standard.",
+        ],
+    ),
+    "Taurox Prime": u(
+        "Taurox Prime",
+        {"M": '14"', "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "8"},
+        ["Imperium", "Astra Militarum", "Militarum Tempestus", "Heavy", "Vehicle", "Transport", "Taurox Prime"],
+        [
+            {"name": "Taurox Battle Cannon", "type": "Heavy", "range": '48"', "attacks": "2", "skill": "6+", "armorPen": "6+"},
+            {"name": "Taurox Gatling Cannon", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Taurox Missile Launcher", "type": "Heavy", "range": '48"', "attacks": "2", "skill": "7+", "armorPen": "7+"},
+            {"name": "Hot-shot Volley Gun", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Autocannon", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "8+", "armorPen": "8+"},
+            {"name": "Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Storm Bolter", "type": "Small Arms", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        options=[
+            "Aquilons does not appear in this Apocalypse datasheet; Taurox Prime is the closest Fast-slot Tempestus vehicle substitute.",
+            "TRANSPORT: This unit can transport up to 10 friendly Militarum Tempestus or Officio Prefectus Infantry models.",
+            "A Taurox Prime is a unit that contains 1 model. It is equipped with: Taurox Battle Cannon; 2 Hot-shot Volley Guns; Armoured Hull.",
+            "Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher.",
+            "Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons.",
+            "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+        ],
+    ),
+    "Commissar": u(
+        "Commissar",
+        {"M": '6"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "10+", "N": "1", "Pt": "2"},
+        ["Imperium", "Astra Militarum", "Officio Prefectus", "Light", "Infantry", "Character", "Commissar"],
+        [{"name": "Commissar Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "11+"}],
+        "Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.",
+    ),
+}
+
+IMPERIAL_GUARD_SLOTS = [
+    slot(1, "HQ", IMPERIAL_GUARD["Lord Castellan Creed"]),
+    slot(2, "HQ", IMPERIAL_GUARD["Company Commander"]),
+    slot(3, "HQ", IMPERIAL_GUARD["Lord Commissar"]),
+    slot(4, "HQ", _named(IMPERIAL_GUARD["Command Squad"], "Company Command")),
+    slot(5, "Elite", _named(IMPERIAL_GUARD["Tech-Priest Enginseer"], "Enginseer")),
+    slot(6, "Elite", IMPERIAL_GUARD["Sanctioned Psyker"]),
+    slot(7, "Troops", _named(IMPERIAL_GUARD["Infantry Squad"], "Guard Squad")),
+    slot(8, "Troops", IMPERIAL_GUARD["Conscripts"]),
+    slot(9, "Elites", IMPERIAL_GUARD["Veterans"]),
+    slot(10, "Elites", _named(IMPERIAL_GUARD["Militarum Tempestus Scions"], "Stormtroopers")),
+    slot(11, "Elites", _named(IMPERIAL_GUARD["Ratlings"], "Snipers")),
+    slot(12, "Elites", _named(IMPERIAL_GUARD["Ogryns"], "Ogryn / crusaders")),
+    slot(13, "Elite", IMPERIAL_GUARD["Special Weapons Squad"]),
+    slot(14, "Fast", _named(IMPERIAL_GUARD["Scout Sentinels"], "Sentinel")),
+    slot(15, "Fast", IMPERIAL_GUARD["Hellhound"]),
+    slot(16, "Fast", IMPERIAL_GUARD["Devil Dog"]),
+    slot(17, "Heavy", IMPERIAL_GUARD["Heavy Weapons Squad"]),
+    slot(18, "Heavy", IMPERIAL_GUARD["Hydra"]),
+    slot(19, "Heavy", IMPERIAL_GUARD["Basilisk"]),
+    slot(20, "Heavy", IMPERIAL_GUARD["Manticore"]),
+    slot(21, "Heavy", _named(IMPERIAL_GUARD["Leman Russ Battle Tank"], "Leman Russ")),
+    slot(22, "Lord", IMPERIAL_GUARD["Baneblade"]),
+    slot(23, "Lord", IMPERIAL_GUARD["Shadowsword"]),
+    slot(24, "transport", IMPERIAL_GUARD["Chimera"]),
+    slot(25, "air", IMPERIAL_GUARD["Valkyrie"]),
+    slot(26, "transport", IMPERIAL_GUARD["Taurox"]),
+    slot(27, "Fast", IMPERIAL_GUARD["Rough Riders"]),
+    slot(28, "Heavy", _named(IMPERIAL_GUARD["Wyvern"], "Field Ordinance")),
+    slot(29, "HQ", _named(IMPERIAL_GUARD["Tank Commander"], "Master Officer")),
+    slot(30, "Elites", _named(IMPERIAL_GUARD["Militarum Tempestus Command Squad"], "Command Squad")),
+    slot(31, "Fast", _named(IMPERIAL_GUARD["Taurox Prime"], "Aquilons")),
+    slot(32, "Elite", IMPERIAL_GUARD["Commissar"]),
+]

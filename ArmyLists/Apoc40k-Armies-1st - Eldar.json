@@ -1,0 +1,2227 @@
+{
+  "faction": "Eldar",
+  "source": "Apoc40k-Armies-1st - Eldar.csv",
+  "units": [
+    {
+      "no": 1,
+      "type": "HQ",
+      "name": "Farseer",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Psyker",
+        "Character",
+        "Farseer"
+      ],
+      "options": [
+        "This unit can have a Skyrunner Jetbike (Power Rating +2). If this unit has a Skyrunner Jetbike, it:\n- Has a Move characteristic of 17\".\n- Has a Save characteristic of 5+.\n- Has the following additional keywords: Biker, Fly, Farseer Skyrunner.\n- Loses the following keywords: Infantry."
+      ],
+      "weapons": [
+        {
+          "name": "Witchblade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "type": "HQ",
+      "name": "Autarch",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\nSkyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nWarp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Autarch"
+      ],
+      "options": [
+        "This unit can have one of the following:\n- Skyrunner Jetbike (Power Rating +1). If this unit has a Skyrunner Jetbike, it:\n  - Has a Move characteristic of 17\".\n  - Has the following additional keywords: Biker, Fly.\n  - Loses the following keywords: Infantry.\n- Warp Jump Generator (Power Rating +2). If this unit has a Warp Jump Generator, it:\n  - Has the following additional abilities: Deep Strike, Warp Jump Generator.\n  - Has the following additional keywords: Jump Pack.\n- Swooping Hawk Wings (Power Rating +2). If this unit has Swooping Hawk Wings, it:\n  - Has a Move characteristic of 14\".\n  - Has the following additional abilities: Deep Strike, Skyleap.\n  - Has the following additional keywords: Jump Pack, Fly."
+      ],
+      "weapons": [
+        {
+          "name": "Autarch Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "type": "HQ",
+      "name": "Phoenix Lord",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "4+",
+        "N": "1",
+        "Pt": "8"
+      },
+      "abilities": "You can only include one Phoenix Lord in your army. Use the datasheet for the chosen Phoenix Lord.\nAsurmen - Hand of Asuryan: Add 1 to saving throws made for friendly Aspect Warrior units whilst they are within 6\" of this unit. Add a further 1 to saving throws made for friendly Dire Avengers units whilst they are within 6\" of this unit. This cannot improve a saving throw roll beyond 4+. Bladestorm: Re-roll hit rolls of 1 for attacks made by this unit and friendly Dire Avengers units whilst they are within 6\" of this unit.\nBaharroth - Deep Strike, Brilliant Sun, Blazing Fury, Skyleap (M 14\", Fly, Jump Pack, Pt 9).\nFuegan - Ignore Damage (6+), Assured Destruction, Unflinching Focus (Pt 7).\nJain Zar - Terror Troops, Cry of War Unending, Banshee Mask (M 12\", Pt 8).\nKarandras - Deep Strike, Infiltrators, The Shadow Hunter, Shadow Strike, Death by a Thousand Stings (Pt 9).\nMaugan Ra - The Harvester, Inescapable Death, Legacy of Altansar (M 6\", Pt 8).",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "Light",
+        "Infantry",
+        "Character",
+        "Phoenix Lord"
+      ],
+      "options": [
+        "Select one Phoenix Lord. Each has unique Move, abilities and wargear as listed in the Abilities column."
+      ],
+      "weapons": [
+        {
+          "name": "Avenger Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "The Sword of Asur",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Hawk's Talon",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "The Shining Blade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Firepike",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "The Fire Axe",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Silent Death",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "The Blade of Destruction",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "The Scorpion's Bite",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Scorpion's Claw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "The Maugetar (Ranged)",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "The Maugetar (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "type": "Lord",
+      "name": "Avatar",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "2",
+        "W": "2",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "abilities": "Ignore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Heavy",
+        "Monster",
+        "Character",
+        "Daemon",
+        "Avatar of Khaine"
+      ],
+      "weapons": [
+        {
+          "name": "The Wailing Doom (Ranged)",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "The Wailing Doom (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "5+",
+          "abilities": "Destroyer"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "type": "HQ",
+      "name": "Seer Council",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "abilities": "Conclave of Power: If this unit contains 5 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 10 models, add 4 to wound rolls for attacks made by this unit instead.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Psyker",
+        "Warlock",
+        "Warlock Conclave"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "5",
+          "Pt": "6"
+        },
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        "This unit can have Skyrunner Jetbikes (Power Rating +3). If this unit has Skyrunner Jetbikes, it:\n- Has a Move characteristic of 17\".\n- Has a Save characteristic of 5+.\n- Is also equipped with Twin Shuriken Catapults.\n- Has the following additional keywords: Biker, Fly, Warlock Skyrunner Conclave.\n- Loses the following keywords: Warlock Conclave, Infantry."
+      ],
+      "weapons": [
+        {
+          "name": "Destructor",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+",
+          "abilities": "Witchfire"
+        },
+        {
+          "name": "Twin Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Witchblades & Singing Spears",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "type": "Troops",
+      "name": "Guardian",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "2",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Guardian",
+        "Guardian Defenders"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model). For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+      ],
+      "weapons": [
+        {
+          "name": "Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "type": "Troops",
+      "name": "Dire Avengers",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "abilities": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Dire Avengers"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "7"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Avenger Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "type": "Troops",
+      "name": "Storm Guardians",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "2",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "8",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Guardian",
+        "Storm Guardians"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "16",
+          "Pt": "6"
+        },
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "6",
+          "W": "6",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "24",
+          "Pt": "9"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Aeldari Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "type": "Elites",
+      "name": "Howling Banshees",
+      "stats": {
+        "M": "9\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "6"
+      },
+      "abilities": "Terror Troops\nBanshee Mask: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Howling Banshees"
+      ],
+      "profiles": [
+        {
+          "M": "9\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Power Swords",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "type": "Elites",
+      "name": "Striking Scorpions",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "7"
+      },
+      "abilities": "Deep Strike, Infiltrators\nShadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this unit that target units garrisoning a Defensible Terrain feature.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Striking Scorpions"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "14"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Mandiblasters",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "12+"
+        },
+        {
+          "name": "Scorpion Chainswords",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "type": "Elites",
+      "name": "Fire Dragons",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "5"
+      },
+      "abilities": "Assured Destruction: Re-roll wound rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Fire Dragons"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "9"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fusion Guns",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "9+",
+          "armorPen": "2+"
+        },
+        {
+          "name": "Melta Bombs",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "2+"
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "type": "Elites",
+      "name": "Wraithblades",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "3",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "5",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Wraith Construct",
+        "Wraithblades"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "10",
+          "Pt": "14"
+        }
+      ],
+      "options": [
+        "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields. If this unit has Forceshields, it has a Save characteristic of 4+."
+      ],
+      "weapons": [
+        {
+          "name": "Ghostswords",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x4",
+          "skill": "6+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Ghostaxes",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "5+"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "type": "Elites",
+      "name": "Spirit Seer",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Spirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6\" of this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Spiritseer"
+      ],
+      "weapons": [
+        {
+          "name": "Witch Staff",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "type": "Elites",
+      "name": "Wraithguard",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "3",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "5",
+        "Pt": "8"
+      },
+      "abilities": "Implacable: This unit can still make a Shoot action in a turn in which it Fell Back.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Wraith Construct",
+        "Wraithguard"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "10",
+          "Pt": "15"
+        }
+      ],
+      "options": [
+        "Instead of Wraithcannons, this unit can be equipped with D-scythes."
+      ],
+      "weapons": [
+        {
+          "name": "Wraithcannons",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "D-scythes",
+          "type": "Small Arms",
+          "range": "8\"",
+          "attacks": "x2",
+          "skill": "4+",
+          "armorPen": "6+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Wraithguard Fists",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "type": "Elites",
+      "name": "Rangers",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "5"
+      },
+      "abilities": "Deep Strike, Stealth",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Rangers"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ranger Long Rifles",
+          "type": "Small Arms",
+          "range": "36\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Sniper"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "type": "Fast",
+      "name": "Windriders",
+      "stats": {
+        "M": "17\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "3",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Light",
+        "Biker",
+        "Fly",
+        "Windriders"
+      ],
+      "profiles": [
+        {
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "10"
+        },
+        {
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "15"
+        }
+      ],
+      "options": [
+        "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+      ],
+      "weapons": [
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "type": "Fast",
+      "name": "Vypers",
+      "stats": {
+        "M": "16\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Biker",
+        "Fly",
+        "Vehicle",
+        "Vypers"
+      ],
+      "profiles": [
+        {
+          "M": "16\"",
+          "WS": "6+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "2",
+          "Pt": "10"
+        },
+        {
+          "M": "20\"",
+          "WS": "6+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "3",
+          "Pt": "15"
+        }
+      ],
+      "options": [
+        "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+      ],
+      "weapons": [
+        {
+          "name": "Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "type": "Fast",
+      "name": "Swooping Hawks",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "6"
+      },
+      "abilities": "Deep Strike\nSkyleap: When this unit makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Swooping Hawks"
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Lasblasters",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "x3",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "type": "Fast",
+      "name": "Warp Spiders",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "7"
+      },
+      "abilities": "Deep Strike\nWarp Jump Generator: Instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Jump Pack",
+        "Warp Spiders"
+      ],
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "14"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Death Spinners",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "type": "Fast",
+      "name": "Shining Spears",
+      "stats": {
+        "M": "17\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "5+",
+        "N": "3",
+        "Pt": "8"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Biker",
+        "Fly",
+        "Shining Spears"
+      ],
+      "profiles": [
+        {
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "16"
+        },
+        {
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "9",
+          "Pt": "24"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Laser Lances (Ranged)",
+          "type": "Small Arms",
+          "range": "6\"",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Twin Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Laser Lances (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "5+"
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "type": "Heavy",
+      "name": "War Walkers",
+      "stats": {
+        "M": "10\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "abilities": "Infiltrators",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "War Walkers"
+      ],
+      "profiles": [
+        {
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "2",
+          "Pt": "11"
+        },
+        {
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "3",
+          "Pt": "17"
+        }
+      ],
+      "options": [
+        "For each model this unit contains, it must also be equipped with two of the following in any combination: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+      ],
+      "weapons": [
+        {
+          "name": "Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "type": "Heavy",
+      "name": "Wraithlord",
+      "stats": {
+        "M": "8\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "2",
+        "W": "2",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Heavy",
+        "Monster",
+        "Wraith Construct",
+        "Wraithlord"
+      ],
+      "options": [
+        "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+      ],
+      "weapons": [
+        {
+          "name": "Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Ghostglaive",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Wraithbone Fist",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "6+"
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "type": "Heavy",
+      "name": "Support Weapons",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "2",
+        "Pt": "4"
+      },
+      "abilities": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Artillery",
+        "Guardian",
+        "Support Weapon"
+      ],
+      "options": [
+        "Instead of 1 Shadow Weaver, this unit can be equipped with one of the following: 1 D-cannon; 1 Vibro Cannon."
+      ],
+      "weapons": [
+        {
+          "name": "Shadow Weaver",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "D-cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "4+",
+          "abilities": "Destroyer, Barrage"
+        },
+        {
+          "name": "Vibro Cannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "type": "Heavy",
+      "name": "Dark Reapers",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "6"
+      },
+      "abilities": "Inescapable Death: Unmodified hit rolls of 3+ for attacks made with this unit's ranged weapons are always successful.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Light",
+        "Infantry",
+        "Dark Reapers"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Reaper Launchers",
+          "type": "Small Arms",
+          "range": "48\"",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "type": "Heavy",
+      "name": "Falcon",
+      "stats": {
+        "M": "16\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Falcon"
+      ],
+      "options": [
+        "Instead of 1 Shuriken Cannon, this unit can be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Starcannon.\nInstead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+      ],
+      "weapons": [
+        {
+          "name": "Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Pulse Laser",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "type": "Heavy",
+      "name": "Fire Prism",
+      "stats": {
+        "M": "16\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "9"
+      },
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Fire Prism"
+      ],
+      "options": [
+        "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+      ],
+      "weapons": [
+        {
+          "name": "Prism Cannon",
+          "type": "Heavy",
+          "range": "60\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "6+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "type": "Heavy",
+      "name": "Night Spinner",
+      "stats": {
+        "M": "16\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "9"
+      },
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Night Spinner"
+      ],
+      "options": [
+        "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+      ],
+      "weapons": [
+        {
+          "name": "Doomweaver",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "4",
+          "skill": "6+",
+          "armorPen": "8+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "type": "Lord",
+      "name": "Wraithknight",
+      "stats": {
+        "M": "12\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "4",
+        "W": "5",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "21"
+      },
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Super-heavy",
+        "Titanic",
+        "Wraith Construct",
+        "Wraithknight"
+      ],
+      "options": [
+        "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon."
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Wraithcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "3+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Suncannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "4",
+          "skill": "6+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Titanic Ghostglaive",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "4+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Titanic Wraithbone Fist",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "2",
+          "skill": "4+",
+          "armorPen": "4+"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "type": "Transport",
+      "name": "Wave Serpent",
+      "stats": {
+        "M": "16\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 12 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Warhost",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Wave Serpent"
+      ],
+      "options": [
+        "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following: 1 Twin Aeldari Missile Launcher; 1 Twin Bright Lance; 1 Twin Scatter Laser; 1 Twin Starcannon.\nInstead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+      ],
+      "weapons": [
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Aeldari Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Twin Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Twin Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Twin Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Shuriken Catapult",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "11+"
+        },
+        {
+          "name": "Twin Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "type": "Air",
+      "name": "Crimson Hunter",
+      "stats": {
+        "M": "20\"-60\"",
+        "WS": "6+",
+        "BS": "2+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "11"
+      },
+      "abilities": "Supersonic\nSkyhunters: You can re-roll wound rolls for attacks made by this unit that target units that can Fly.\nMarksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Crimson Hunter"
+      ],
+      "options": [
+        "This unit can have an Exarch Pilot (Power Rating +1). If this unit has an Exarch Pilot, it has the following additional abilities: Marksman's Eye."
+      ],
+      "weapons": [
+        {
+          "name": "Bright Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Pulse Laser",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "type": "Air",
+      "name": "Hemlock Wraithfighter",
+      "stats": {
+        "M": "20\"-60\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "11"
+      },
+      "abilities": "Ignore Damage (6+), Supersonic, Terror Troops",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Heavy",
+        "Psyker",
+        "Fly",
+        "Aircraft",
+        "Vehicle",
+        "Wraith Construct",
+        "Hemlock Wraithfighter"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy D-scythe",
+          "type": "Heavy",
+          "range": "16\"",
+          "attacks": "1",
+          "skill": "3+",
+          "armorPen": "5+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "type": "Lord",
+      "name": "Webway Gate",
+      "stats": {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "A": "-",
+        "W": "3",
+        "Ld": "-",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+      "keywords": [
+        "Aeldari",
+        "Heavy",
+        "Vehicle",
+        "Building",
+        "Webway Gate"
+      ],
+      "options": [
+        "A Webway Gate is a unit that contains 1 model formed from two separate pieces. When setting up these pieces, place them so that an arch is formed, with the bases 5\" apart."
+      ]
+    }
+  ]
+}

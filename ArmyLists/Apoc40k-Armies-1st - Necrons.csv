@@ -1,0 +1,205 @@
+No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords
+,,,,,,,,,,,,,,,,,,,
+1,HQ,Imotekh the Stormlord,"5""",2+,2+,1,1,8,4+,1,9,,,,,,,"Hyper-logical Strategist: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
+My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light Sautekh units whilst they are within 6"" of this unit.
+Lord of the Storm: Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24"" of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6"" of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.","Necrons, Sautekh, Light
+Infantry, Character, Overlord, Imotekh the Stormlord"
+1,,,,,,,,,,,,The Staff of the Destroyer (Ranged),Heavy,"18""",1,6+,8+,
+1,,,,,,,,,,,,The Staff of the Destroyer (Melee),Melee,Melee,User,7+,8+,
+2,HQ,Overlord,"5""",2+,2+,1,1,8,5+,1,5,,,,,,,"My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 6"" of this unit.","Necrons, <Dynasty>, Light
+Infantry, Character, Overlord"
+2,,,,,,,,,,,,Overlord's Weapons,Melee,Melee,User,8+,8+,
+3,HQ,Lord,"5""",3+,3+,1,1,8,6+,1,4,,,,,,,"The Lord's Will: Re-roll wound rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are with 6"" of this unit.","Necrons, <Dynasty>, Light
+Infantry, Character, Lord"
+3,,,,,,,,,,,,Lord's Weapons,Melee,Melee,User,8+,8+,
+4,HQ,Cryptek,"5""",3+,3+,1,1,8,7+,1,5,,,,,,,"Chronometron: Re-roll saving throws of 1 for friendly <Dynasty> Infantry units whilst they are within 6"" of this unit.
+Technomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whilst they are within 6"" of this unit.","Necrons, <Dynasty>, Light
+Infantry, Character, Cryptek"
+4,,,,,,,,,,,,Staff of Light,Melee,Melee,User,9+,10+,
+5,Fast,Catacomb Command Barge,"12""",2+,2+,1,2,8,5+,1,10,,,,,,,"Wave of Command: If a Light <Dynasty> unit starts a Move action within 6"" of any friendly units with this ability, add 3"" to that unit's Move characteristic for that action.
+My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12"" of this unit.
+Hover: Distances are measured to and from this unit's hull, even though it has a base.","Necrons, <Dynasty>, Heavy, Vehicle
+Fly, Character, Overlord, Catacomb Command Barge"
+5,,,,,,,,,,,,,,,,,,"Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
+5,,,,,,,,,,,,Gauss Cannon,Heavy,"24""",1,5+,7+,
+5,,,,,,,,,,,,Tesla Cannon,Heavy,"24""",2,8+,10+,
+5,,,,,,,,,,,,Overlord's Weapons,Melee,Melee,User,8+,8+,
+6,Troops,Necron Warriors,"5""",3+,3+,2,2,8,8+,10,6,,,,,,,,"Necrons, <Dynasty>
+Light, Infantry, Necron Warriors"
+6,,,"5""",3+,3+,4,4,8,8+,20,12,,,,,,,,
+6,,,,,,,,,,,,Gauss Flayers,Small Arms,"24""",User,7+,9+,Rapid Fire
+6,,,,,,,,,,,,Heavy Blades,Melee,Melee,User,7+,9+,
+7,Troops,Immortals,"5""",3+,3+,1,1,8,6+,5,4,,,,,,,,"Necrons, <Dynasty>
+Light, Infantry, Immortals"
+7,,,"5""",3+,3+,2,2,8,6+,10,8,,,,,,,,
+7,,,,,,,,,,,,,,,,,,"Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.",
+7,,,,,,,,,,,,Gauss Blasters,Small Arms,"24""",User,6+,8+,Rapid Fire
+7,,,,,,,,,,,,Tesla Carbines,Small Arms,"24""",x2,7+,9+,
+7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+8,Elites,Lychguard,"5""",3+,3+,2,2,8,6+,5,7,,,,,,,"Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.","Necrons, <Dynasty>
+Light, Infantry, Lychguard"
+8,,,"5""",3+,3+,4,4,8,6+,10,14,,,,,,,,
+8,,,,,,,,,,,,,,,,,,"Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields. If this unit has Dispersion Shields, it has a Save characteristic of 4+.",
+8,,,,,,,,,,,,Hyperphase Swords,Melee,Melee,User,7+,7+,
+8,,,,,,,,,,,,Warscythes,Melee,Melee,User,4+,4+,
+9,Elites,Deathmarks,"5""",3+,3+,1,1,8,6+,5,7,,,,,,,Deep Strike,"Necrons, <Dynasty>
+Light, Infantry, Deathmarks"
+9,,,"5""",3+,3+,2,2,8,6+,10,13,,,,,,,,
+9,,,,,,,,,,,,Synaptic Disintegrators,Small Arms,"24""",User,7+,9+,"Rapid Fire, Sniper"
+9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+10,Elites,Flayed Ones,"5""",3+,6+,1,1,8,8+,5,5,,,,,,,"Deep Strike, Terror Troops","Necrons, <Dynasty>
+Light, Infantry, Flayed Ones"
+10,,,"5""",3+,6+,2,2,8,8+,10,8,,,,,,,,
+10,,,"5""",3+,6+,3,3,8,8+,15,11,,,,,,,,
+10,,,"5""",3+,6+,4,4,8,8+,20,14,,,,,,,,
+10,,,,,,,,,,,,Flayer Claws,Melee,Melee,x2,7+,10+,
+11,Elites,Triarch Praetorians,"10""",3+,3+,1,2,8,6+,5,8,,,,,,,A Purpose Unshakable: Morale tests taken for this unit are automatically passed.,"Necrons, Light
+Infantry, Fly, Triarch Praetorians"
+11,,,"10""",3+,3+,2,4,8,6+,10,15,,,,,,,,
+11,,,,,,,,,,,,,,,,,,"Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades.",
+11,,,,,,,,,,,,Particle Casters,Small Arms,"12""",x2,6+,9+,
+11,,,,,,,,,,,,Rods of Covenant (Ranged),Small Arms,"12""",User,7+,7+,
+11,,,,,,,,,,,,Rods of Covenant (Melee),Melee,Melee,x2,7+,7+,
+11,,,,,,,,,,,,Voidblades,Melee,Melee,User,6+,9+,
+12,Elites,C'tan Shard of the Deceiver,"8""",2+,2+,2,2,8,6+,1,10,,,,,,,"Terror Troops
+Grand Illusion: When you select this unit's Detachment to carry out an order, before any units in that Detachment make any actions for that order, you can replace that Detachment's order with Advance, Aimed Fire or Assault.
+Enslaved Star God: This unit cannot be a Warlord.
+Immune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.","Necrons, C'tan Shards
+Heavy, Monster, C'tan Shard of the Deceiver"
+12,,,,,,,,,,,,Powers of the C'tan,Heavy,"24""",2,5+,5+,
+12,,,,,,,,,,,,Star-god Fists,Melee,Melee,User,6+,6+,
+13,Elites,Canoptek Wraiths,"12""",3+,3+,2,2,8,5+,3,8,,,,,,,Wraith Form: This unit can move across models and terrain as if they were not there.,"Necrons, Canoptek, <Dynasty>
+Light, Beasts, Canoptek Wraiths"
+13,,,"12""",3+,3+,4,4,8,5+,6,15,,,,,,,,
+13,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.",
+13,,,,,,,,,,,,Particle Caster,Heavy,"12""",1,6+,9+,
+13,,,,,,,,,,,,Transdimensional Beamer,Heavy,"12""",1,7+,10+,
+13,,,,,,,,,,,,Wraith Weapons,Melee,Melee,User,6+,8+,
+14,Elites,Illuminor Szeras,"6""",3+,3+,1,1,8,6+,1,6,,,,,,,"Mechanical Augmentations: After this unit makes a Move action, you can select one friendly Necrons Warriors or Immortals unit within 1"" of this unit to mechanically augment. Roll a D3 and apply the result from the table below to the chosen unit for the rest of the battle. A unit can only be mechanically augmented once per battle.
+Technomancer: Friendly Necrons units have the Ignore Damage (6+) ability whilst they are within 6"" of this unit.
+D3 AUGMENTATION
+1 Improve the SAP characteristic of weapons the unit is equipped with by 1 (e.g. 8+ becomes 7+).
+2 Improve the unit's Save characteristic by 1 (e.g. 5+ becomes 4+).
+3 Improve the unit's Ballistic Skill characteristic by 1 (e.g. 4+ becomes 3+).","Necrons, Light, Infantry
+Character, Cryptek, Illuminor Szeras"
+14,,,,,,,,,,,,Eldritch Lance (Ranged),Heavy,"36""",1,9+,6+,
+14,,,,,,,,,,,,Eldritch Lance (Melee),Melee,Melee,User,8+,10+,
+15,Elites,Destroyer Lord,"10""",3+,3+,1,1,8,6+,1,6,,,,,,,"Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
+United in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6"" of this unit.","Necrons, <Dynasty>, Light
+Infantry, Fly, Character, Destroyer Lord"
+15,,,,,,,,,,,,Lord's Weapons,Melee,Melee,User,8+,8+,
+16,Fast,Tomb Blades,"14""",3+,3+,1,1,8,7+,3,8,,,,,,,Stealth,"Necrons, <Dynasty>, Light
+Biker, Fly, Tomb Blades"
+16,,,"14""",3+,3+,2,2,8,7+,6,15,,,,,,,,
+16,,,"14""",3+,3+,3,3,8,7+,9,22,,,,,,,,
+16,,,,,,,,,,,,,,,,,,"Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.",
+16,,,,,,,,,,,,Gauss Blasters,Small Arms,"24""",x2,6+,8+,Rapid Fire
+16,,,,,,,,,,,,Particle Beamers,Small Arms,"24""",x3,5+,8+,
+16,,,,,,,,,,,,Tesla Carbines,Small Arms,"24""",x4,7+,9+,
+16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+17,Fast,Canoptek Scarabs,"10""",4+,-,2,2,8,10+,3,4,,,,,,,,"Necrons, Canoptek, <Dynasty>
+Light, Swarm, Fly, Canoptek Scarabs"
+17,,,"10""",4+,-,4,4,8,10+,6,8,,,,,,,,
+17,,,"10""",4+,-,6,6,8,10+,9,12,,,,,,,,
+17,,,,,,,,,,,,Feeder Mandibles,Melee,Melee,User,9+,9+,
+18,Fast,Heavy Destroyers,"10""",3+,3+,1,1,8,5+,1,6,,,,,,,Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.,"Necrons, <Dynasty>, Light
+Infantry, Fly, Heavy Destroyers"
+18,,,"10""",3+,3+,2,2,8,5+,2,11,,,,,,,,
+18,,,"10""",3+,3+,3,3,8,5+,3,16,,,,,,,,
+18,,,,,,,,,,,,Heavy Gauss Cannons,Heavy,"36""",User,10+,5+,
+18,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+19,Fast,Destroyers,"10""",3+,3+,1,2,8,5+,3,8,,,,,,,Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.,"Necrons, <Dynasty>, Light
+Infantry, Fly, Destroyers"
+19,,,"10""",3+,3+,2,4,8,5+,6,15,,,,,,,,
+19,,,"10""",3+,3+,3,6,8,5+,9,22,,,,,,,,
+19,,,,,,,,,,,,,,,,,,"For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
+19,,,,,,,,,,,,Gauss Cannons,Heavy,"24""",User,5+,7+,
+19,,,,,,,,,,,,Heavy Gauss Cannon,Heavy,"36""",1,10+,5+,
+19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+20,Fast,Canoptek Spyders,"6""",4+,4+,1,1,8,5+,1,6,,,,,,,"Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
+Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6"" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.","Necrons, Canoptek, <Dynasty>
+Light, Monster, Fly, Canoptek Spyders"
+20,,,"6""",4+,4+,2,2,8,5+,2,11,,,,,,,,
+20,,,"6""",4+,4+,3,3,8,5+,3,16,,,,,,,,
+20,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
+20,,,,,,,,,,,,Particle Beamer,Heavy,"24""",1,5+,8+,
+20,,,,,,,,,,,,Automaton Claws,Melee,Melee,User,6+,7+,
+21,Heavy,Annihilation Barge,"12""",6+,3+,1,2,8,7+,1,11,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.","Necrons, <Dynasty>, Heavy
+Vehicle, Fly, Annihilation Barge"
+21,,,,,,,,,,,,,,,,,,"Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
+21,,,,,,,,,,,,Gauss Cannon,Heavy,"24""",1,5+,7+,
+21,,,,,,,,,,,,Tesla Cannon,Heavy,"24""",2,8+,10+,
+21,,,,,,,,,,,,Twin Tesla Destructor,Heavy,"24""",4,6+,8+,
+21,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,
+22,Heavy,Doomsday Ark,"12""",6+,3+,1,3,8,7+,1,12,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.","Necrons, <Dynasty>, Heavy
+Vehicle, Fly, Doomsday Ark"
+22,,,,,,,,,,,,Doomsday Cannon,Heavy,"72""",2,6+,4+,Destroyer
+22,,,,,,,,,,,,Gauss Flayer Array,Heavy,"24""",1,7+,9+,Rapid Fire
+22,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,11+,12+,
+23,Heavy,Triarch Stalker,"10""",3+,3+,2,2,8,5+,1,11,,,,,,,"Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.
+Targeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.","Necrons, Heavy
+Vehicle, Triarch Stalker"
+23,,,,,,,,,,,,,,,,,,"Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).",
+23,,,,,,,,,,,,Heat Ray (Dispersed),Heavy,"8""",1,6+,9+,Inferno
+23,,,,,,,,,,,,Heat Ray (Focused),Heavy,"24""",1,8+,4+,
+23,,,,,,,,,,,,Particle Shredder,Heavy,"24""",2,7+,7+,
+23,,,,,,,,,,,,Twin Heavy Gauss Cannon,Heavy,"36""",2,10+,5+,
+23,,,,,,,,,,,,Massive Forelimbs,Melee,Melee,User,7+,7+,
+24,Heavy,Heavy Destroyers,"10""",3+,3+,1,1,8,5+,1,6,,,,,,,Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.,"Necrons, <Dynasty>, Light
+Infantry, Fly, Heavy Destroyers"
+24,,,"10""",3+,3+,2,2,8,5+,2,11,,,,,,,,
+24,,,"10""",3+,3+,3,3,8,5+,3,16,,,,,,,,
+24,,,,,,,,,,,,Heavy Gauss Cannons,Heavy,"36""",User,10+,5+,
+24,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+25,Heavy,Destroyers,"10""",3+,3+,1,2,8,5+,3,8,,,,,,,Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.,"Necrons, <Dynasty>, Light
+Infantry, Fly, Destroyers"
+25,,,"10""",3+,3+,2,4,8,5+,6,15,,,,,,,,
+25,,,"10""",3+,3+,3,6,8,5+,9,22,,,,,,,,
+25,,,,,,,,,,,,,,,,,,"For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
+25,,,,,,,,,,,,Gauss Cannons,Heavy,"24""",User,5+,7+,
+25,,,,,,,,,,,,Heavy Gauss Cannon,Heavy,"36""",1,10+,5+,
+25,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,
+26,Heavy,Canoptek Spyders,"6""",4+,4+,1,1,8,5+,1,6,,,,,,,"Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
+Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6"" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.","Necrons, Canoptek, <Dynasty>
+Light, Monster, Fly, Canoptek Spyders"
+26,,,"6""",4+,4+,2,2,8,5+,2,11,,,,,,,,
+26,,,"6""",4+,4+,3,3,8,5+,3,16,,,,,,,,
+26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
+26,,,,,,,,,,,,Particle Beamer,Heavy,"24""",1,5+,8+,
+26,,,,,,,,,,,,Automaton Claws,Melee,Melee,User,6+,7+,
+27,Lord,C'tan Shard of the Nightbringer,"8""",2+,2+,2,2,8,6+,1,10,,,,,,,"Terror Troops
+Enslaved Star God: This unit cannot be a Warlord.
+Immune to natural law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.","Necrons, C'tan Shards
+Heavy, Monster, C'tan Shard of the Nightbringer"
+27,,,,,,,,,,,,Powers of the C'tan,Heavy,"24""",2,5+,5+,
+27,,,,,,,,,,,,Scythe of the Nightbringer,Melee,Melee,User,3+,5+,
+28,Lord,Transcendent C'tan,"8""",2+,2+,2,2,8,6+,1,10,,,,,,,"Enslaved Star God: This unit cannot be a Warlord.
+Immune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.
+Cosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for an attack made by this unit, or you can re-roll one saving throw made for this unit.","Necrons, C'tan Shards, Heavy
+Monster, Fly, Character, Transcendent C'tan"
+28,,,,,,,,,,,,Powers of the C'tan,Heavy,"24""",2,5+,5+,
+28,,,,,,,,,,,,Crackling Tendrils,Melee,Melee,User,6+,5+,
+29,Transport,Ghost Ark,"12""",6+,3+,1,3,8,7+,1,12,,,,,,,"Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.","Necrons, <Dynasty>, Heavy
+Vehicle, Fly, Transport, Ghost Ark"
+29,,,,,,,,,,,,Gauss Flayer Array,Heavy,"24""",1,7+,9+,Rapid Fire
+29,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,
+30,Air,Doom Scythe,"20""-60""",6+,3+,1,2,8,6+,1,17,,,,,,,Supersonic,"Necrons, <Dynasty>, Heavy
+Vehicle, Fly, Aircraft, Doom Scythe"
+30,,,,,,,,,,,,Death Ray,Heavy,"24""",1,8+,4+,Destroyer
+30,,,,,,,,,,,,Tesla Destructor,Heavy,"24""",2,6+,8+,
+30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,
+31,Transport,Night Scythe,"20""-60""",6+,3+,1,2,8,6+,1,14,,,,,,,"Supersonic
+Invasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6"" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.","Necrons, <Dynasty>, Heavy
+Vehicle, Fly, Aircraft, Night Scythe"
+31,,,,,,,,,,,,Tesla Destructor,Heavy,"24""",2,6+,8+,
+31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,
+32,Lord,Monolith,"6""",6+,3+,1,4,8,5+,1,17,,,,,,,"Deep Strike
+Portal of Exile: After this unit ends a Move action choose one enemy unit within 1"" of this unit and roll one D6; on a 5+, place a blast marker next to that unit.
+Eternity Gate: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6"" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.
+Hover: Distances are measured to and from this unit's hull, even though it has a base.","Necrons, <Dynasty>, Super-heavy
+Titanic, Fly, Monolith"
+32,,,,,,,,,,,,Gauss Flux Arc,Heavy,"24""",1,5+,6+,
+32,,,,,,,,,,,,Particle Whip,Heavy,"24""",1,5+,5+,
+32,,,,,,,,,,,,Crushing Bulk,Melee,Melee,User,9+,10+,
