@@ -5,7 +5,7 @@ import csv
 import json
 from pathlib import Path
 
-from army_list_options import format_options_from_texts
+from army_list_options import format_options_from_texts, normalize_options
 
 OUTPUT_DIR = Path(__file__).resolve().parent
 
@@ -107,6 +107,8 @@ def write_json(path, faction, source_name, units_by_slot):
         unit = dict(slot["unit"])
         unit["no"] = slot["no"]
         unit["type"] = slot["type"]
+        if unit.get("options"):
+            unit["options"] = normalize_options(unit["options"])
         units.append(unit)
 
     data = {"faction": faction, "source": source_name, "units": units}

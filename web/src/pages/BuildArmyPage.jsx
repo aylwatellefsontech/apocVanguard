@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import RosterEntrySummary from '../components/RosterEntrySummary.jsx'
 import UnitDetail from '../components/UnitDetail.jsx'
 import { MAX_SAVED_ARMIES } from '../constants.js'
 import { useArmy, useFactions } from '../hooks/useFactions.js'
@@ -7,25 +8,31 @@ import {
   deleteSavedArmy,
   loadSavedArmies,
   saveArmy,
+  toggleRosterOption,
 } from '../utils/armyStorage.js'
-import { groupUnitsByType } from '../utils/units.js'
+import { summarizeOption } from '../utils/formatOption.js'
+import { getProfileStatsForEntry, groupUnitsByType } from '../utils/units.js'
 
-export default function BuildArmyPage({ onBack }) {
+export default function BuildArmyPage({ initialArmy = null }) {
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
-  const [selectedFactionId, setSelectedFactionId] = useState(null)
+  const [selectedFactionId, setSelectedFactionId] = useState(initialArmy?.factionId ?? null)
   const activeFactionId = selectedFactionId ?? factions[0]?.id ?? null
   const { army, loading: loadingArmy, error: armyError } = useArmy(activeFactionId)
-  const [selectedUnitNo, setSelectedUnitNo] = useState(null)
+  const [selectedUnitNo, setSelectedUnitNo] = useState(initialArmy?.roster?.[0]?.unitNo ?? null)
+  const [selectedRosterEntryId, setSelectedRosterEntryId] = useState(
+    initialArmy?.roster?.[0]?.id ?? null,
+  )
   const [search, setSearch] = useState('')
-  const [roster, setRoster] = useState([])
-  const [armyName, setArmyName] = useState('')
-  const [editingArmyId, setEditingArmyId] = useState(null)
+  const [roster, setRoster] = useState(initialArmy?.roster ?? [])
+  const [armyName, setArmyName] = useState(initialArmy?.name ?? '')
+  const [editingArmyId, setEditingArmyId] = useState(initialArmy?.id ?? null)
   const [savedArmies, setSavedArmies] = useState(() => loadSavedArmies())
   const [saveMessage, setSaveMessage] = useState(null)
 
   function handleSelectFaction(factionId) {
     setSelectedFactionId(factionId)
     setSelectedUnitNo(null)
+    setSelectedRosterEntryId(null)
     setSearch('')
   }
 
@@ -50,16 +57,65 @@ export default function BuildArmyPage({ onBack }) {
     (unit) => unit.no === (selectedUnitNo ?? army?.units?.[0]?.no),
   )
   const activeUnitNo = selectedUnit?.no
+  const selectedRosterEntry = roster.find((entry) => entry.id === selectedRosterEntryId)
+  const optionProfileStats = useMemo(() => {
+    if (!selectedUnit || !selectedRosterEntry) {
+      return null
+    }
+    if (selectedRosterEntry.unitNo !== selectedUnit.no) {
+      return null
+    }
+    return getProfileStatsForEntry(selectedUnit, selectedRosterEntry)
+  }, [selectedUnit, selectedRosterEntry])
+
+  const canEditOptions = Boolean(
+    selectedRosterEntry &&
+      selectedUnit &&
+      selectedRosterEntry.unitNo === selectedUnit.no,
+  )
+
   const totalPoints = roster.reduce((sum, entry) => sum + entry.points, 0)
   const error = factionsError || armyError
 
   function handleAddProfile(unit, profile) {
-    setRoster((current) => [...current, createRosterEntry(unit, profile)])
+    const entry = createRosterEntry(unit, profile)
+    setRoster((current) => [...current, entry])
+    setSelectedRosterEntryId(entry.id)
+    setSelectedUnitNo(unit.no)
+    setSaveMessage(null)
+  }
+
+  function handleSelectRosterEntry(entry) {
+    setSelectedRosterEntryId(entry.id)
+    setSelectedUnitNo(entry.unitNo)
+  }
+
+  function handleToggleOption(optionIndex, option) {
+    if (!selectedRosterEntry || !selectedUnit) {
+      return
+    }
+    if (selectedRosterEntry.unitNo !== selectedUnit.no) {
+      return
+    }
+
+    const profileStats = getProfileStatsForEntry(selectedUnit, selectedRosterEntry)
+    const summary = summarizeOption(option, profileStats)
+
+    setRoster((current) =>
+      current.map((entry) =>
+        entry.id === selectedRosterEntry.id
+          ? toggleRosterOption(entry, optionIndex, summary)
+          : entry,
+      ),
+    )
     setSaveMessage(null)
   }
 
   function handleRemoveEntry(entryId) {
     setRoster((current) => current.filter((entry) => entry.id !== entryId))
+    if (selectedRosterEntryId === entryId) {
+      setSelectedRosterEntryId(null)
+    }
     setSaveMessage(null)
   }
 
@@ -67,6 +123,7 @@ export default function BuildArmyPage({ onBack }) {
     setRoster([])
     setArmyName('')
     setEditingArmyId(null)
+    setSelectedRosterEntryId(null)
     setSaveMessage(null)
   }
 
@@ -107,6 +164,8 @@ export default function BuildArmyPage({ onBack }) {
     setArmyName(saved.name)
     setEditingArmyId(saved.id)
     setRoster(saved.roster)
+    setSelectedRosterEntryId(saved.roster[0]?.id ?? null)
+    setSelectedUnitNo(saved.roster[0]?.unitNo ?? null)
     setSaveMessage({ type: 'success', text: `Loaded "${saved.name}".` })
   }
 
@@ -125,11 +184,6 @@ export default function BuildArmyPage({ onBack }) {
         <div>
           <p className="eyebrow">Warhammer 40,000 · Apocalypse</p>
           <h1>Build Army</h1>
-        </div>
-        <div className="header-actions">
-          <button type="button" className="secondary-btn" onClick={onBack}>
-            Back to Browse
-          </button>
         </div>
       </header>
 
@@ -214,6 +268,13 @@ export default function BuildArmyPage({ onBack }) {
               <UnitDetail
                 unit={selectedUnit}
                 onAddProfile={handleAddProfile}
+                onToggleOption={canEditOptions ? handleToggleOption : undefined}
+                selectedOptionIndexes={
+                  canEditOptions
+                    ? selectedRosterEntry.selectedOptions.map((option) => option.index)
+                    : []
+                }
+                optionProfileStats={optionProfileStats}
                 emptyMessage="Select a unit to add profiles to your army."
               />
             </section>
@@ -243,21 +304,13 @@ export default function BuildArmyPage({ onBack }) {
           ) : (
             <ul className="roster-list">
               {roster.map((entry) => (
-                <li key={entry.id} className="roster-item">
-                  <div>
-                    <strong>{entry.unitName}</strong>
-                    <p className="roster-item-meta">
-                      {entry.profileLabel} · {entry.points} Pt
-                    </p>
-                  </div>
-                  <button
-                    type="button"
-                    className="text-btn"
-                    onClick={() => handleRemoveEntry(entry.id)}
-                  >
-                    Remove
-                  </button>
-                </li>
+                <RosterEntrySummary
+                  key={entry.id}
+                  entry={entry}
+                  active={entry.id === selectedRosterEntryId}
+                  onSelect={handleSelectRosterEntry}
+                  onRemove={handleRemoveEntry}
+                />
               ))}
             </ul>
           )}

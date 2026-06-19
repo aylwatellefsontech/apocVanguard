@@ -29,7 +29,10 @@
         "Lord Castellan Creed"
       ],
       "options": [
-        "Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army."
+        {
+          "per": "Per Unit",
+          "text": "Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army."
+        }
       ],
       "weapons": [
         {
@@ -106,7 +109,10 @@
         "Lord Commissar"
       ],
       "options": [
-        "per Unit: Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        {
+          "per": "Per Unit",
+          "text": "Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        }
       ],
       "weapons": [
         {
@@ -145,10 +151,25 @@
         "Command Squad"
       ],
       "options": [
-        "per Unit (Power Rating +1): It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
-        "per Unit (Power Rating +1): This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
-        "per Unit: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.",
-        "per Unit (Power Rating +1): This unit can have a Regimental Standard (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Regimental Standard (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -284,8 +305,14 @@
         "Primaris Psyker"
       ],
       "options": [
-        "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.",
-        "Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability."
+        {
+          "per": "Per Unit",
+          "text": "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability."
+        }
       ],
       "weapons": [
         {
@@ -323,8 +350,15 @@
         "Infantry Squad"
       ],
       "options": [
-        "per Unit (Power Rating +1): It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
-        "per Unit: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        {
+          "per": "Per Unit",
+          "text": "It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        }
       ],
       "weapons": [
         {
@@ -425,7 +459,11 @@
         }
       ],
       "options": [
-        "per 30 models (Power Rating 4): It can contain 30 models (Power Rating 4)."
+        {
+          "per": "Per 30 models",
+          "text": "It can contain 30 models (Power Rating 4).",
+          "Pt": "4"
+        }
       ],
       "weapons": [
         {
@@ -472,9 +510,20 @@
         "Veterans"
       ],
       "options": [
-        "per Unit (Power Rating +1): It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
-        "per Unit (Power Rating +1): This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
-        "per Unit: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        {
+          "per": "Per Unit",
+          "text": "It can contain 1 weapons team model instead of 2 other models (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        }
       ],
       "weapons": [
         {
@@ -584,7 +633,11 @@
         }
       ],
       "options": [
-        "per 10 models (Power Rating 5): It can contain 10 models (Power Rating 5)."
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 5).",
+          "Pt": "5"
+        }
       ],
       "weapons": [
         {
@@ -644,7 +697,11 @@
         }
       ],
       "options": [
-        "per 10 models (Power Rating 3): It can contain 10 models (Power Rating 3)."
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 3).",
+          "Pt": "3"
+        }
       ],
       "weapons": [
         {
@@ -715,8 +772,16 @@
         }
       ],
       "options": [
-        "per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10)",
-        "per 9 models (Power Rating 15): 9 models (Power Rating 15)."
+        {
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per 9 models",
+          "text": "9 models (Power Rating 15).",
+          "Pt": "15"
+        }
       ],
       "weapons": [
         {
@@ -770,7 +835,10 @@
         "Special Weapons Squad"
       ],
       "options": [
-        "per Unit: Instead of Special Weapons, this unit can be equipped with Sniper Rifles."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Special Weapons, this unit can be equipped with Sniper Rifles."
+        }
       ],
       "weapons": [
         {
@@ -858,9 +926,20 @@
         }
       ],
       "options": [
-        "per 2 models (Power Rating 7): It can contain 2 models (Power Rating 7)",
-        "per 3 models (Power Rating 10): 3 models (Power Rating 10).",
-        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 10).",
+          "Pt": "10"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
+        }
       ],
       "weapons": [
         {
@@ -940,9 +1019,19 @@
         "Hellhound"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1032,9 +1121,19 @@
         "Devil Dog"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1122,7 +1221,10 @@
         "Heavy Weapons Squad"
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
+        }
       ],
       "weapons": [
         {
@@ -1201,9 +1303,19 @@
         "Hydra"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1284,9 +1396,19 @@
         "Basilisk"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1367,9 +1489,19 @@
         "Manticore"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1451,11 +1583,29 @@
         "Leman Russ Battle Tank"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon): Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.",
-        "per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1611,9 +1761,21 @@
         "Baneblade"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with Baneblade Anti-personnel Weapons (Power Rating +1).",
-        "per Unit (Power Rating +2): This unit can also be equipped with two (Power Rating +2)",
-        "per Unit (Power Rating +4): four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with Baneblade Anti-personnel Weapons (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with two (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.",
+          "Pt": "4"
+        }
       ],
       "weapons": [
         {
@@ -1710,9 +1872,21 @@
         "Shadowsword"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with Shadowsword Anti-personnel Weapons (Power Rating +1).",
-        "per Unit (Power Rating +2): This unit can also be equipped with two (Power Rating +2)",
-        "per Unit (Power Rating +4): four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with Shadowsword Anti-personnel Weapons (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with two (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.",
+          "Pt": "4"
+        }
       ],
       "weapons": [
         {
@@ -1793,9 +1967,19 @@
         "Chimera"
       ],
       "options": [
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
-        "per Unit: Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1887,10 +2071,23 @@
         "Valkyrie"
       ],
       "options": [
-        "per Unit: Supersonic Vehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.",
-        "per Unit: Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.",
-        "per Unit (Power Rating +2): This unit can also be equipped with 2 Heavy Bolters (Power Rating +2)."
+        {
+          "per": "Per Unit",
+          "text": "Supersonic Vehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -1961,7 +2158,11 @@
         "Taurox"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2037,7 +2238,11 @@
         }
       ],
       "options": [
-        "per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6)."
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 6).",
+          "Pt": "6"
+        }
       ],
       "weapons": [
         {
@@ -2091,9 +2296,19 @@
         "Wyvern"
       ],
       "options": [
-        "per Unit: Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2177,10 +2392,25 @@
         "Tank Commander"
       ],
       "options": [
-        "per Unit (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon): Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",
-        "per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.",
-        "per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2335,7 +2565,11 @@
         "Militarum Tempestus Command Squad"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can have a Platoon Standard (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Platoon Standard (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2383,9 +2617,19 @@
         "Taurox Prime"
       ],
       "options": [
-        "per Unit: Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher.",
-        "per Unit: Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons.",
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2482,7 +2726,10 @@
         "Commissar"
       ],
       "options": [
-        "per Unit: Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        {
+          "per": "Per Unit",
+          "text": "Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        }
       ],
       "weapons": [
         {

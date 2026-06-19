@@ -178,7 +178,10 @@
         "Catacomb Command Barge"
       ],
       "options": [
-        "per Unit: Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        }
       ],
       "weapons": [
         {
@@ -299,7 +302,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines."
+        }
       ],
       "weapons": [
         {
@@ -366,7 +372,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields."
+        }
       ],
       "weapons": [
         {
@@ -549,7 +558,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades."
+        }
       ],
       "weapons": [
         {
@@ -666,7 +678,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer."
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -823,7 +839,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines."
+        }
       ],
       "weapons": [
         {
@@ -1036,7 +1055,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
+        {
+          "per": "Per weapon",
+          "text": "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1115,7 +1138,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1161,7 +1188,10 @@
         "Annihilation Barge"
       ],
       "options": [
-        "per Unit: Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1274,7 +1304,11 @@
         "Triarch Stalker"
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1436,7 +1470,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."
+        {
+          "per": "Per weapon",
+          "text": "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1515,7 +1553,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {

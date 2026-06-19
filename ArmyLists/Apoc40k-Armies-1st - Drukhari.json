@@ -207,7 +207,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance."
+        {
+          "per": "Per weapon",
+          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -305,7 +309,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon."
+        {
+          "per": "Per weapon",
+          "text": "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -585,7 +593,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
+        }
       ],
       "weapons": [
         {
@@ -781,7 +792,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -1213,7 +1228,10 @@
         "Beastmaster"
       ],
       "options": [
-        "per Unit: Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        {
+          "per": "Per Unit",
+          "text": "Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        }
       ],
       "weapons": [
         {
@@ -1252,9 +1270,18 @@
         "Talos"
       ],
       "options": [
-        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
-        "per Unit: Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        {
+          "per": "Per Unit",
+          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        }
       ],
       "weapons": [
         {
@@ -1335,8 +1362,15 @@
         "Cronos"
       ],
       "options": [
-        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit (Power Rating +1): This unit can also be equipped with 1 Spirit Vortex (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1392,9 +1426,18 @@
         "Ravager"
       ],
       "options": [
-        "per Unit: Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.",
-        "per Unit: Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.",
-        "per Unit: Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
+        }
       ],
       "weapons": [
         {
@@ -1541,7 +1584,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -1637,9 +1684,18 @@
         "Talos"
       ],
       "options": [
-        "per Unit: Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.",
-        "per Unit: Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.",
-        "per Unit: Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        {
+          "per": "Per Unit",
+          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
+        }
       ],
       "weapons": [
         {
@@ -1804,7 +1860,10 @@
         "Raider"
       ],
       "options": [
-        "per Unit: Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1860,8 +1919,14 @@
         "Razorwing Jetfighter"
       ],
       "options": [
-        "per Unit: Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.",
-        "per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1943,7 +2008,10 @@
         "Venom"
       ],
       "options": [
-        "per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1998,7 +2066,10 @@
         "Webway Gate"
       ],
       "options": [
-        "per Unit: Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
+        {
+          "per": "Per Unit",
+          "text": "Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
+        }
       ]
     }
   ]

@@ -122,7 +122,10 @@
         "Manipulus"
       ],
       "options": [
-        "per Unit: Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
+        }
       ],
       "weapons": [
         {
@@ -240,8 +243,15 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
-        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance."
+        },
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -453,7 +463,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        }
       ],
       "weapons": [
         {
@@ -543,8 +556,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        }
       ],
       "weapons": [
         {
@@ -617,7 +636,11 @@
         "Servitors"
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -788,7 +811,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        }
       ],
       "weapons": [
         {
@@ -1019,8 +1045,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        }
       ],
       "weapons": [
         {
@@ -1108,7 +1140,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        }
       ],
       "weapons": [
         {
@@ -1187,8 +1222,15 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",
-        "per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance."
+        },
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1265,7 +1307,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        }
       ],
       "weapons": [
         {
@@ -1392,8 +1437,14 @@
         "Onager Dunecrawler"
       ],
       "options": [
-        "per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
-        "per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber."
+        }
       ],
       "weapons": [
         {
@@ -1474,7 +1525,11 @@
         "Skorpius Disintegrator"
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1570,7 +1625,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        }
       ],
       "weapons": [
         {
@@ -1649,8 +1707,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        }
       ],
       "weapons": [
         {
@@ -1749,7 +1813,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1839,8 +1906,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+        }
       ],
       "weapons": [
         {
@@ -1960,8 +2033,14 @@
         "Onager Dunecrawler"
       ],
       "options": [
-        "per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",
-        "per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber."
+        }
       ],
       "weapons": [
         {
@@ -2119,7 +2198,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+        }
       ],
       "weapons": [
         {
@@ -2174,7 +2256,11 @@
         "Skorpius Disintegrator"
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2270,8 +2356,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        }
       ],
       "weapons": [
         {

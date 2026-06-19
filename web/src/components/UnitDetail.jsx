@@ -1,5 +1,6 @@
 import StatsTable from './StatsTable.jsx'
 import UnitAbilities from './UnitAbilities.jsx'
+import UnitOptions from './UnitOptions.jsx'
 import UnitWeapons from './UnitWeapons.jsx'
 import { getUnitProfiles } from '../utils/units.js'
 
@@ -23,6 +24,9 @@ function ProfilePicker({ profile, onAdd }) {
 export default function UnitDetail({
   unit,
   onAddProfile,
+  onToggleOption,
+  selectedOptionIndexes,
+  optionProfileStats,
   emptyMessage = 'Select a unit to view its datasheet.',
 }) {
   if (!unit) {
@@ -91,16 +95,14 @@ export default function UnitDetail({
         </section>
       )}
 
-      {unit.options?.length > 0 && (
-        <section>
-          <h3>Options</h3>
-          <ul className="options-list">
-            {unit.options.map((option, index) => (
-              <li key={index}>{option}</li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <UnitOptions
+        options={unit.options}
+        interactive={Boolean(onToggleOption)}
+        selectedOptionIndexes={selectedOptionIndexes ?? []}
+        profileStats={optionProfileStats}
+        onToggleOption={onToggleOption}
+        showSelectHint={Boolean(onAddProfile && !onToggleOption && unit.options?.length)}
+      />
     </div>
   )
 }

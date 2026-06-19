@@ -6,6 +6,8 @@ import json
 import re
 from pathlib import Path
 
+from army_list_options import normalize_options, options_from_text
+
 ARMY_LISTS_DIR = Path(__file__).resolve().parent
 
 STAT_FIELDS = ["M", "WS", "BS", "A", "W", "Ld", "Sv", "N", "Pt"]
@@ -151,7 +153,10 @@ def finalize_unit(unit):
     if parts:
         unit["abilities"] = "\n".join(parts)
     elif unit.get("options"):
-        unit["abilities"] = "\n".join(unit["options"])
+        unit["abilities"] = "\n".join(
+            opt["text"] if isinstance(opt, dict) else opt for opt in unit["options"]
+        )
+    unit["options"] = normalize_options(unit.get("options", []))
     unit.pop("_options_from_column", None)
     ordered = order_unit(unit)
     unit.clear()
@@ -200,7 +205,10 @@ def csv_to_json(csv_path):
 
                 options_col = row.get("Options", "").strip()
                 current["profiles"] = []
-                current["options"] = parse_options_column(options_col) if options_col else []
+                current["options"] = (
+                    normalize_options(parse_options_column(options_col))
+                    if options_col else []
+                )
                 current["_options_from_column"] = bool(options_col)
                 current["_ability_continuations"] = []
                 current["weapons"] = []
@@ -230,7 +238,7 @@ def csv_to_json(csv_path):
                     profile["name"] = name
                 current["profiles"].append(profile)
             elif option_text and not current.get("_options_from_column"):
-                current["options"].append(option_text)
+                current["options"].extend(options_from_text(option_text))
             elif option_text and current.get("_options_from_column"):
                 current["_ability_continuations"].append(option_text)
             elif row["Keywords"].strip():

@@ -48,3 +48,23 @@ export function groupUnitsByType(units) {
 
   return orderedTypes.map((type) => [type, groups.get(type)])
 }
+
+export function getProfileStatsForEntry(unit, entry) {
+  if (!unit || !entry) {
+    return null
+  }
+
+  if (entry.profileKind === 'primary') {
+    return unit.stats ?? null
+  }
+
+  return unit.profiles?.[entry.profileIndex] ?? null
+}
+
+export function isProfileSelected(profile, entry) {
+  if (!entry) {
+    return false
+  }
+
+  return profile.kind === entry.profileKind && profile.index === entry.profileIndex
+}

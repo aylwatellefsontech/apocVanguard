@@ -30,7 +30,11 @@
         "Farseer"
       ],
       "options": [
-        "This unit can have a Skyrunner Jetbike (Power Rating +2). If this unit has a Skyrunner Jetbike, it:\n- Has a Move characteristic of 17\".\n- Has a Save characteristic of 5+.\n- Has the following additional keywords: Biker, Fly, Farseer Skyrunner.\n- Loses the following keywords: Infantry."
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Skyrunner Jetbike (Power Rating +2)",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -70,9 +74,18 @@
         "Autarch"
       ],
       "options": [
-        "per Unit: Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each.",
-        "per Unit: Skyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving.",
-        "per Unit: Warp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump."
+        {
+          "per": "Per Unit",
+          "text": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Skyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Warp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump."
+        }
       ],
       "weapons": [
         {
@@ -111,7 +124,10 @@
         "Phoenix Lord"
       ],
       "options": [
-        "Select one Phoenix Lord. Each has unique Move, abilities and wargear as listed in the Abilities column."
+        {
+          "per": "Per Unit",
+          "text": "Select one Phoenix Lord. Each has unique Move, abilities and wargear as listed in the Abilities column."
+        }
       ],
       "weapons": [
         {
@@ -312,7 +328,11 @@
         }
       ],
       "options": [
-        "This unit can have Skyrunner Jetbikes (Power Rating +3). If this unit has Skyrunner Jetbikes, it:\n- Has a Move characteristic of 17\".\n- Has a Save characteristic of 5+.\n- Is also equipped with Twin Shuriken Catapults.\n- Has the following additional keywords: Biker, Fly, Warlock Skyrunner Conclave.\n- Loses the following keywords: Warlock Conclave, Infantry."
+        {
+          "per": "Per Unit",
+          "text": "This unit can have Skyrunner Jetbikes (Power Rating +3)",
+          "Pt": "3"
+        }
       ],
       "weapons": [
         {
@@ -357,7 +377,7 @@
         "N": "10",
         "Pt": "4"
       },
-      "abilities": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model). For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
+      "abilities": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model)\nFor each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -382,7 +402,15 @@
         }
       ],
       "options": [
-        "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model). For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        {
+          "per": "Per model",
+          "text": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        }
       ],
       "weapons": [
         {
@@ -482,7 +510,10 @@
         }
       ],
       "options": [
-        "per Unit: Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker."
+        {
+          "per": "Per Unit",
+          "text": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker."
+        }
       ],
       "weapons": [
         {
@@ -765,7 +796,7 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields. If this unit has Forceshields, it has a Save characteristic of 4+.",
+      "abilities": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -790,7 +821,10 @@
         }
       ],
       "options": [
-        "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields. If this unit has Forceshields, it has a Save characteristic of 4+."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields."
+        }
       ],
       "weapons": [
         {
@@ -889,7 +923,10 @@
         }
       ],
       "options": [
-        "Instead of Wraithcannons, this unit can be equipped with D-scythes."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Wraithcannons, this unit can be equipped with D-scythes."
+        }
       ],
       "weapons": [
         {
@@ -1029,7 +1066,10 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+        }
       ],
       "weapons": [
         {
@@ -1118,7 +1158,14 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+        }
       ],
       "weapons": [
         {
@@ -1220,7 +1267,10 @@
         }
       ],
       "options": [
-        "per Unit: Deep Strike Skyleap: When this unit makes a Move action, it can skyleap instead of moving."
+        {
+          "per": "Per Unit",
+          "text": "Deep Strike Skyleap: When this unit makes a Move action, it can skyleap instead of moving."
+        }
       ],
       "weapons": [
         {
@@ -1281,7 +1331,10 @@
         }
       ],
       "options": [
-        "per Unit: Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump."
+        {
+          "per": "Per Unit",
+          "text": "Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump."
+        }
       ],
       "weapons": [
         {
@@ -1428,7 +1481,10 @@
         }
       ],
       "options": [
-        "For each model this unit contains, it must also be equipped with two of the following in any combination: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with two of the following in any combination: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        }
       ],
       "weapons": [
         {
@@ -1496,7 +1552,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
+      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nInstead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1508,7 +1564,15 @@
         "Wraithlord"
       ],
       "options": [
-        "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive."
+        }
       ],
       "weapons": [
         {
@@ -1597,7 +1661,10 @@
         "Support Weapon"
       ],
       "options": [
-        "per Unit: Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        {
+          "per": "Per Unit",
+          "text": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+        }
       ],
       "weapons": [
         {
@@ -1721,7 +1788,14 @@
         "Falcon"
       ],
       "options": [
-        "Instead of 1 Shuriken Cannon, this unit can be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Starcannon.\nInstead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Shuriken Cannon, this unit can be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Starcannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1817,7 +1891,10 @@
         "Fire Prism"
       ],
       "options": [
-        "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1882,7 +1959,10 @@
         "Night Spinner"
       ],
       "options": [
-        "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1935,7 +2015,7 @@
         "N": "1",
         "Pt": "21"
       },
-      "abilities": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
+      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.\nInstead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1947,7 +2027,15 @@
         "Wraithknight"
       ],
       "options": [
-        "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive."
+        }
       ],
       "weapons": [
         {
@@ -2038,7 +2126,14 @@
         "Wave Serpent"
       ],
       "options": [
-        "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following: 1 Twin Aeldari Missile Launcher; 1 Twin Bright Lance; 1 Twin Scatter Laser; 1 Twin Starcannon.\nInstead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following: 1 Twin Aeldari Missile Launcher; 1 Twin Bright Lance; 1 Twin Scatter Laser; 1 Twin Starcannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+        }
       ],
       "weapons": [
         {
@@ -2135,7 +2230,11 @@
         "Crimson Hunter"
       ],
       "options": [
-        "This unit can have an Exarch Pilot (Power Rating +1). If this unit has an Exarch Pilot, it has the following additional abilities: Marksman's Eye."
+        {
+          "per": "Per Unit",
+          "text": "This unit can have an Exarch Pilot (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2237,7 +2336,10 @@
         "Webway Gate"
       ],
       "options": [
-        "per Unit: Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
+        {
+          "per": "Per Unit",
+          "text": "Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
+        }
       ]
     }
   ]

@@ -113,7 +113,10 @@
         "Imagifier"
       ],
       "options": [
-        "per Unit: Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it."
+        {
+          "per": "Per Unit",
+          "text": "Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it."
+        }
       ],
       "weapons": [
         {
@@ -260,7 +263,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -346,7 +353,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -433,7 +444,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -519,7 +534,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1184,7 +1203,10 @@
         "Exorcist"
       ],
       "options": [
-        "per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        }
       ],
       "weapons": [
         {
@@ -1240,7 +1262,10 @@
         "Immolator"
       ],
       "options": [
-        "per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        }
       ],
       "weapons": [
         {
@@ -1338,7 +1363,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        }
       ],
       "weapons": [
         {
@@ -1427,7 +1455,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        }
       ],
       "weapons": [
         {
@@ -1475,7 +1506,10 @@
         "Exorcist"
       ],
       "options": [
-        "per Unit: Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        }
       ],
       "weapons": [
         {
@@ -1564,7 +1598,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
+        }
       ],
       "weapons": [
         {
@@ -1619,7 +1656,10 @@
         "Triumph of Saint Katherine"
       ],
       "options": [
-        "per Unit: • Once per turn, instead of making a hit roll, wound roll or saving throw for an Adepta Sororitas unit within 6\" of this unit, you can use this ability."
+        {
+          "per": "Per Unit",
+          "text": "• Once per turn, instead of making a hit roll, wound roll or saving throw for an Adepta Sororitas unit within 6\" of this unit, you can use this ability."
+        }
       ],
       "weapons": [
         {
@@ -1818,7 +1858,10 @@
         "Immolator"
       ],
       "options": [
-        "per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        }
       ],
       "weapons": [
         {
@@ -1915,7 +1958,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
+        }
       ],
       "weapons": [
         {

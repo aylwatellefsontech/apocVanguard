@@ -107,10 +107,24 @@
         "Big Mek"
       ],
       "options": [
-        "per Unit (Power Rating +1): Can be equipped with a Tellyport Blasta (Power Rating +1)",
-        "per Unit (Power Rating +1): can also have a Kustom Force Field (Power Rating +1)",
-        "per Unit: This unit can have Mega Armour.",
-        "per Unit: If this unit has Mega Armour, it: - Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons."
+        {
+          "per": "Per Unit",
+          "text": "Can be equipped with a Tellyport Blasta (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "can also have a Kustom Force Field (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can have Mega Armour."
+        },
+        {
+          "per": "Per Unit",
+          "text": "If this unit has Mega Armour, it: - Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons."
+        }
       ],
       "weapons": [
         {
@@ -279,8 +293,15 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1)",
-        "per 10 models: For every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per 10 models",
+          "text": "For every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha."
+        }
       ],
       "weapons": [
         {
@@ -381,7 +402,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can include a Runtherd (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can include a Runtherd (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -808,7 +833,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1 per Kommando Burna): This unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha."
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1225,7 +1254,10 @@
         }
       ],
       "options": [
-        "per Unit: For each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota."
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota."
+        }
       ],
       "weapons": [
         {

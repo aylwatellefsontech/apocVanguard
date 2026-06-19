@@ -28,10 +28,25 @@
         "Captain"
       ],
       "options": [
-        "per Unit: This unit can have one of the following:.",
-        "per Unit (Power Rating +2): Jump Pack (Power Rating +2)",
-        "per Unit (Power Rating +2): Terminator Armour (Power Rating +2)",
-        "per Unit (Power Rating +1): Bike (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have one of the following:."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jump Pack (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Terminator Armour (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Bike (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -70,10 +85,25 @@
         "Captain"
       ],
       "options": [
-        "per Unit: This unit can have one of the following:.",
-        "per Unit (Power Rating +2): Jump Pack (Power Rating +2)",
-        "per Unit (Power Rating +2): Terminator Armour (Power Rating +2)",
-        "per Unit (Power Rating +1): Bike (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have one of the following:."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jump Pack (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Terminator Armour (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Bike (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -113,10 +143,25 @@
         "Librarian"
       ],
       "options": [
-        "per Unit: This unit can have one of the following:.",
-        "per Unit (Power Rating +2): Jump Pack (Power Rating +2)",
-        "per Unit (Power Rating +2): Terminator Armour (Power Rating +2)",
-        "per Unit (Power Rating +1): Bike (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have one of the following:."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jump Pack (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Terminator Armour (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Bike (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -156,11 +201,29 @@
         "Chaplain"
       ],
       "options": [
-        "per Unit: Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.",
-        "per Unit: This unit can have one of the following:.",
-        "per Unit (Power Rating +2): Jump Pack (Power Rating +2)",
-        "per Unit (Power Rating +2): Terminator Armour (Power Rating +2)",
-        "per Unit (Power Rating +1): Bike (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can have one of the following:."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jump Pack (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Terminator Armour (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Bike (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -199,10 +262,25 @@
         "Techmarine"
       ],
       "options": [
-        "per Unit: This unit can have one of the following:.",
-        "per Unit (Power Rating +2): Jump Pack (Power Rating +2)",
-        "per Unit (Power Rating +1): Bike (Power Rating +1)",
-        "per Unit (Power Rating +1): This unit can have a Servo-harness (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have one of the following:."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jump Pack (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Bike (Power Rating +1)",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Servo-harness (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -262,7 +340,11 @@
         }
       ],
       "options": [
-        "per 10 models (Power Rating +1): If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon."
+        {
+          "per": "Per 10 models",
+          "text": "If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -372,8 +454,16 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.",
-        "per Unit (Power Rating +1): Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -522,7 +612,11 @@
         }
       ],
       "options": [
-        "per 10 models (Power Rating +2 for 5 models, or Power Rating +4 for 10 models): This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models)"
+        {
+          "per": "Per 10 models",
+          "text": "This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models)",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -581,7 +675,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -700,7 +798,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon."
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -794,7 +896,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -841,7 +947,11 @@
         "Apothecary"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can have a Bike (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Bike (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -927,8 +1037,15 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +2): This unit can have Jump Packs (Power Rating +2)",
-        "per 5 models: For every 5 models this unit contains, it can also be equipped with 1 Eviscerator."
+        {
+          "per": "Per Unit",
+          "text": "This unit can have Jump Packs (Power Rating +2)",
+          "Pt": "2"
+        },
+        {
+          "per": "Per 5 models",
+          "text": "For every 5 models this unit contains, it can also be equipped with 1 Eviscerator."
+        }
       ],
       "weapons": [
         {
@@ -1006,7 +1123,11 @@
         }
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can contain 1 Attack Bike model (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can contain 1 Attack Bike model (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1094,8 +1215,14 @@
         }
       ],
       "options": [
-        "per Unit: For each model, must also be equipped with one of: Heavy Bolter; Multi-melta.",
-        "per Unit: For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher."
+        {
+          "per": "Per Unit",
+          "text": "For each model, must also be equipped with one of: Heavy Bolter; Multi-melta."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher."
+        }
       ],
       "weapons": [
         {
@@ -1258,7 +1385,10 @@
         }
       ],
       "options": [
-        "per Unit: Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators."
+        }
       ],
       "weapons": [
         {
@@ -1326,7 +1456,11 @@
         }
       ],
       "options": [
-        "per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon)."
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1479,9 +1613,18 @@
         "Dreadnought"
       ],
       "options": [
-        "per Unit: Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon.",
-        "per Unit: Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.",
-        "per Unit: Instead of Storm Bolter: Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Storm Bolter: Heavy Flamer."
+        }
       ],
       "weapons": [
         {
@@ -1612,9 +1755,18 @@
         "Venerable Dreadnought"
       ],
       "options": [
-        "per Unit: Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon.",
-        "per Unit: Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.",
-        "per Unit: Instead of Storm Bolter: Heavy Flamer."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Storm Bolter: Heavy Flamer."
+        }
       ],
       "weapons": [
         {
@@ -1744,8 +1896,15 @@
         "Predator"
       ],
       "options": [
-        "per Unit: Instead of Predator Autocannon: Twin Lascannon.",
-        "per Unit (Power Rating +2): 2 Lascannons (Power Rating +2)."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Predator Autocannon: Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "2 Lascannons (Power Rating +2).",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -1858,7 +2017,11 @@
         "Vindicator"
       ],
       "options": [
-        "per Unit (Power Rating +1): This unit can have a Siege Shield (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Siege Shield (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1906,7 +2069,11 @@
         "Land Raider"
       ],
       "options": [
-        "per Unit (Power Rating +1): Can also be equipped with 1 Multi-melta (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1971,9 +2138,19 @@
         "Stormraven Gunship"
       ],
       "options": [
-        "per Unit: Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.",
-        "per Unit: Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.",
-        "per Unit (Power Rating +4): Can also be equipped with 2 Hurricane Bolters (Power Rating +4)."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 2 Hurricane Bolters (Power Rating +4).",
+          "Pt": "4"
+        }
       ],
       "weapons": [
         {
@@ -2078,7 +2255,11 @@
         "Land Raider"
       ],
       "options": [
-        "per Unit (Power Rating +1): Can also be equipped with 1 Multi-melta (Power Rating +1)."
+        {
+          "per": "Per Unit",
+          "text": "Can also be equipped with 1 Multi-melta (Power Rating +1).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2141,7 +2322,10 @@
         "Rhino"
       ],
       "options": [
-        "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
+        {
+          "per": "Per Unit",
+          "text": "Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units."
+        }
       ],
       "weapons": [
         {
@@ -2189,7 +2373,11 @@
         "Razorback"
       ],
       "options": [
-        "per Unit (Power Rating +1): Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1)"
+        {
+          "per": "Per Unit",
+          "text": "Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1)",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -2252,7 +2440,10 @@
         "Drop Pod"
       ],
       "options": [
-        "per Unit: Instead of Storm Bolter: Deathwind Launcher."
+        {
+          "per": "Per Unit",
+          "text": "Instead of Storm Bolter: Deathwind Launcher."
+        }
       ],
       "weapons": [
         {

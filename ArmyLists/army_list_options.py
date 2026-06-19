@@ -111,3 +111,59 @@ def format_options_from_texts(texts):
                 seen.add(entry)
                 entries.append(entry)
     return "; ".join(entries)
+
+
+OPTION_LINE = re.compile(
+    r"^per (.+?)(?: \(Power Rating ([^)]+)\))?: (.+)$",
+    re.IGNORECASE,
+)
+
+
+def _format_per(per_raw):
+    return f"Per {per_raw.strip()}"
+
+
+def _parse_pt(pr_raw):
+    if not pr_raw:
+        return None
+    match = re.search(r"\+?(\d+)", pr_raw.strip())
+    return match.group(1) if match else pr_raw.strip()
+
+
+def parse_option_line(line):
+    """Parse a formatted Options column entry into a JSON option object."""
+    line = _normalize(line)
+    match = OPTION_LINE.match(line)
+    if not match:
+        return {"per": "Per Unit", "text": line}
+
+    per_raw, pt_raw, text = match.groups()
+    obj = {"per": _format_per(per_raw), "text": text.strip()}
+    pt = _parse_pt(pt_raw)
+    if pt is not None:
+        obj["Pt"] = pt
+    return obj
+
+
+def options_from_text(text):
+    """Build option objects from raw wargear option text."""
+    formatted = format_option_entry(text) + format_non_pr_entries(text)
+    if formatted:
+        return [parse_option_line(entry) for entry in formatted]
+
+    text = _normalize(text)
+    return [parse_option_line(text)] if text else []
+
+
+def normalize_options(options):
+    """Convert option strings (or mixed input) to JSON option objects."""
+    result = []
+    for item in options:
+        if isinstance(item, dict):
+            result.append(item)
+        elif isinstance(item, str):
+            if re.match(r"^per ", item.strip(), re.IGNORECASE):
+                result.append(parse_option_line(item))
+            else:
+                result.extend(options_from_text(item))
+    return result

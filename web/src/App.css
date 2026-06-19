@@ -5,6 +5,96 @@
   text-align: left;
 }
 
+.app-nav {
+  display: flex;
+  gap: 8px;
+  padding: 12px 32px;
+  border-bottom: 1px solid var(--border);
+  background: var(--code-bg);
+}
+
+.nav-btn {
+  padding: 8px 14px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.nav-btn:hover {
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.nav-btn.active {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--text-h);
+}
+
+.view-armies-body {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  flex: 1;
+  min-height: 0;
+}
+
+.saved-armies-panel,
+.army-detail-panel {
+  min-height: 0;
+  overflow: auto;
+  padding: 24px;
+}
+
+.saved-armies-panel {
+  border-right: 1px solid var(--border);
+}
+
+.saved-armies-panel h2,
+.army-detail-panel h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.army-detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.army-detail-header .header-actions {
+  flex-direction: row;
+  align-items: center;
+}
+
+.army-detail-header h2 {
+  margin: 0 0 6px;
+}
+
+.saved-army-item.active {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.saved-army-select {
+  flex: 1;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
 .app-header {
   display: flex;
   align-items: flex-end;
@@ -339,6 +429,167 @@
   margin-bottom: 0;
 }
 
+.options-help {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.options-list-interactive .option-item {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.options-list-interactive .option-item.selected {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.option-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.option-toggle input {
+  margin-top: 4px;
+}
+
+.option-toggle-text {
+  line-height: 1.45;
+}
+
+.option-pts {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.roster-item.active {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.roster-item-main {
+  flex: 1;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.roster-option-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.roster-option-list li + li {
+  margin-top: 4px;
+}
+
+.dimmed {
+  opacity: 0.42;
+}
+
+.profile-block {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--code-bg);
+}
+
+.profile-block.selected {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+  opacity: 1;
+}
+
+.profile-block.dimmed {
+  opacity: 0.42;
+}
+
+.profile-block-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.profile-block-header h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.army-roster-list .army-roster-entry {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.army-roster-entry-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.army-roster-entry-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.roster-expand-icon {
+  flex: 0 0 auto;
+  width: 16px;
+  margin-top: 2px;
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.army-roster-entry-detail {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.army-roster-entry-detail .unit-detail section {
+  margin-bottom: 20px;
+}
+
+.army-roster-entry-detail h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.options-list .option-item.selected {
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--accent-bg);
+  opacity: 1;
+}
+
+.options-list .option-item.dimmed {
+  opacity: 0.42;
+}
+
 .build-body {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -548,5 +799,24 @@
   .roster-panel {
     border-left: none;
     border-top: 1px solid var(--border);
+  }
+
+  .app-nav {
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  .view-armies-body {
+    grid-template-columns: 1fr;
+  }
+
+  .saved-armies-panel {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .army-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
