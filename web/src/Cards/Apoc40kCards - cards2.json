@@ -1,0 +1,1107 @@
+{
+  "source": "Apoc40kCards - cards2.csv",
+  "cards": [
+    {
+      "set": "C2",
+      "nm": 1,
+      "fac": "Knights",
+      "facNm": 1,
+      "name": "Rotate Ion Shields",
+      "type": "Knights",
+      "ability": "Play in the damage phase.  Remove 1 blast unit from an Imperial Knights or Chaos Knights unit."
+    },
+    {
+      "set": "C2",
+      "nm": 2,
+      "fac": "Knights",
+      "facNm": 2,
+      "name": "Full Tilt",
+      "type": "Knights",
+      "ability": "Play in the action phase. Imperial Knights or Chaos Knights units in a detachment gain 6” to their Move."
+    },
+    {
+      "set": "C2",
+      "nm": 3,
+      "fac": "Knights",
+      "facNm": 3,
+      "name": "Thunderstomp",
+      "type": "Knights",
+      "ability": "Use in an action phase. After an Imperial Knight or Chaos Knight unit fights, roll a D12 for each enemy light unit in base contact with it. On an 6+, that unit gets a blast marker."
+    },
+    {
+      "set": "C2",
+      "nm": 4,
+      "fac": "Knights",
+      "facNm": 4,
+      "name": "Devestating Attack",
+      "type": "Knights",
+      "ability": "Use in the action phase.  A single Imperial Knight or Chaos Knight unit gets +1 to hit and damage rolls in melee."
+    },
+    {
+      "set": "C2",
+      "nm": 5,
+      "fac": "Knights",
+      "facNm": 5,
+      "name": "Heirlooms of the Household",
+      "type": "Knights",
+      "ability": "Search your deck for a Knight, Imperial Knight or Traitor Knight card, and then play it."
+    },
+    {
+      "set": "C2",
+      "nm": 6,
+      "fac": "Imperial Knights",
+      "facNm": 1,
+      "name": "Ion Aegis",
+      "type": "Imperial Knights",
+      "ability": "Use in the damage phase.  Chose an Imperial Knight.  Imperial units within 6” of it gain Ignore Damage (6+) ability."
+    },
+    {
+      "set": "C2",
+      "nm": 7,
+      "fac": "Knights",
+      "facNm": 1,
+      "name": "Legendary Hero",
+      "type": "Freeblade",
+      "ability": "Use in the action phase. A Freeblade unit can reroll hit and wound rolls."
+    },
+    {
+      "set": "C2",
+      "nm": 8,
+      "fac": "Imperial Knights",
+      "facNm": 1,
+      "name": "Benevolence of The Machine God",
+      "type": "Questor Mechanicus",
+      "ability": "Use in the Order phase.  A Questor Mechanicus unit can roll a d6 for each damage marker on it. On a 5+, remove 1 damage marker from that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 9,
+      "fac": "Knights",
+      "facNm": 1,
+      "name": "Valiant Last Stand",
+      "type": "Questor Imperialis",
+      "ability": "Use when a Questor Imperialis unit is destroyed. Before removing it, it makes a free shoot or fight action."
+    },
+    {
+      "set": "C2",
+      "nm": 10,
+      "fac": "Traitor Knights",
+      "facNm": 1,
+      "name": "The Traitor's Mark",
+      "type": "Questor Traitoris",
+      "ability": "Use at the start of the damage phase. One Questor Traitoris unit gains the Terror Troops ability until the end of the phase. Then you may force the closest enemy unit within 6” of the Traitoris unit to make an immediate morale test."
+    },
+    {
+      "set": "C2",
+      "nm": 11,
+      "fac": "Imperial Knights",
+      "facNm": 1,
+      "name": "Glory of the Charge",
+      "type": "House Griffith",
+      "ability": "Use before carrying out an order for a Detachment lead by a House Griffith Commander. The order is changed to Assault, and until the end of the phase, reroll missed hits for melee attacks for House Griffith units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 12,
+      "fac": "Imperial Knights",
+      "facNm": 2,
+      "name": "Gallant Warriors",
+      "type": "House Terryn",
+      "ability": "Use in the action phase. House Terryn units in a detachment add 1 to their Attacks and hit rolls made with melee attacks, until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 13,
+      "fac": "Imperial Knights",
+      "facNm": 3,
+      "name": "Relentless March",
+      "type": "House Raven",
+      "ability": "Use before carrying out an order for a Detachment lead by a House Krast Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for House Krast units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 14,
+      "fac": "Imperial Knights",
+      "facNm": 4,
+      "name": "OathKeepers",
+      "type": "House Hawkshroud",
+      "ability": "Use in the action phase.  House Hawkshroud units in a detachment ignore criticaly damaged penalties and gain 1 to hit rolls against a chosen enemy unit."
+    },
+    {
+      "set": "C2",
+      "nm": 15,
+      "fac": "Imperial Knights",
+      "facNm": 5,
+      "name": "Hunters of the Foe",
+      "type": "House Cadmus",
+      "ability": "Use in the Action Phase.  House Cadmus units in an attachment may reroll wound rolls for melee attacks against light units."
+    },
+    {
+      "set": "C2",
+      "nm": 16,
+      "fac": "Imperial Knights",
+      "facNm": 6,
+      "name": "Close-Quarters Killers",
+      "type": "House Mortan",
+      "ability": "Use in the Action phase. Select 1 House Mortan unit. It may make an additional fight action after its normal actions this phase."
+    },
+    {
+      "set": "C2",
+      "nm": 17,
+      "fac": "Imperial Knights",
+      "facNm": 7,
+      "name": "Cold Fury",
+      "type": "House Kraft",
+      "ability": "Use in the Action phase. Select 1 House Krast unit that hasn't carried out its order. A unit that scores a hit with a melee weapon scores 2 hits instead of 1, for 3 for a super-heavy attack."
+    },
+    {
+      "set": "C2",
+      "nm": 18,
+      "fac": "Imperial Knights",
+      "facNm": 8,
+      "name": "Firestorm Protocols",
+      "type": "House Vulker",
+      "ability": "Use before carrying out an order for a Detachment lead by a House Vulker Commander. The order is changed to Aimed Fire, and one House Vulker unit may make an a free additional shoot action."
+    },
+    {
+      "set": "C2",
+      "nm": 19,
+      "fac": "Imperial Knights",
+      "facNm": 9,
+      "name": "Omnissiah's Grace",
+      "type": "House Taranis",
+      "ability": "Use in the damage phase. Units in a House Taranis Detachment gain the Ignore Damage(5+) ability."
+    },
+    {
+      "set": "C2",
+      "nm": 20,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 1,
+      "name": "Incantation of the Iron Soul",
+      "type": "Adeptus Mechanicus",
+      "subType": "Canticle",
+      "ability": "Play during the start of the Damage Phase. Adeptus Mechanicus units in a detachment automatically pass morale tests."
+    },
+    {
+      "set": "C2",
+      "nm": 21,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 2,
+      "name": "Benediction of the Omnissiah",
+      "type": "Adeptus Mechanicus",
+      "subType": "Canticle",
+      "ability": "Play in any phase.  One Adeptus Mechanic Detachment rolls D12s instead of D6s for ranged hit rolls until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 22,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 3,
+      "name": "Chant of the Remorseless Fist",
+      "type": "Adeptus Mechanicus",
+      "subType": "Canticle",
+      "ability": "Play in any phase.  One Adeptus Mechanic Detachment rolls D12s instead of D6s for melee hit rolls until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 23,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 4,
+      "name": "Machine Spirits Revenge",
+      "type": "Adeptus Mechanicus",
+      "subType": "Vehicle",
+      "ability": "Play when an Adeptus Mechanicus Vehicle unit is destroyed.  Roll a d6 for each unit within 6” of it. On a 4+, that unit gets a blast marker."
+    },
+    {
+      "set": "C2",
+      "nm": 24,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 5,
+      "name": "Acquisition at Any Cost",
+      "type": "Adeptus Mechanicus",
+      "ability": "Use in any phase. Adeptus Mechanicus units of a chosen detachment have Objective Secured ability until end of turn. This turn, an Adeptus Mechanicus Warlord in that detachment can roll a D12 instead of a D6 for one Armour Save roll."
+    },
+    {
+      "set": "C2",
+      "nm": 25,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 6,
+      "name": "Litany of the Electromancer",
+      "type": "Adeptus Mechanicus",
+      "subType": "Canticle",
+      "ability": "Use in an action phase. Roll a D12 for each Adeptus Mechanicus unit of one detachment in base contact with an enemy unit. On an 8+, each enemy in base contact with that unit gts a blast marker."
+    },
+    {
+      "set": "C2",
+      "nm": 26,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 7,
+      "name": "Protector Imperative",
+      "type": "Adeptus Mechanicus",
+      "subType": "Skitarii",
+      "ability": "Use in an action phase. 3 Skitarii units in your army may make a free shoot action."
+    },
+    {
+      "set": "C2",
+      "nm": 27,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 8,
+      "name": "Machine Spirit Resurgent",
+      "type": "Adeptus Mechanicus",
+      "subType": "Vehicle",
+      "ability": "Use during the Damage phase. Mechanicus Vehicle Units in a single detachment get Ignore Damage (5+) ability."
+    },
+    {
+      "set": "C2",
+      "nm": 28,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 9,
+      "name": "Gloria Mechanicus",
+      "type": "Adeptus Mechanicus",
+      "ability": "Play at any time. Search your deck for a Canticle and play it."
+    },
+    {
+      "set": "C2",
+      "nm": 29,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 10,
+      "name": "First-Hand Field Testing",
+      "type": "Ryza",
+      "ability": "Use in the action phase. 1 Ryza Character in your army within 24” of an enemy unit rolls a d6.  If the result is equal or greater than the Character's BS, place 2 blast markers on the enemy unit."
+    },
+    {
+      "set": "C2",
+      "nm": 30,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 11,
+      "name": "Shroud Protocols",
+      "type": "Stygies VIII",
+      "ability": "Use in the action phase. Stygies VIII units in a detachment are obscured targets."
+    },
+    {
+      "set": "C2",
+      "nm": 31,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 12,
+      "name": "Staunch Defenders",
+      "type": "Agripinaa",
+      "ability": "Use before carrying out an order for a Detachment lead by a Agripinaa Commander. The order is changed to Aimed Fire, and until the end of the phase, re-roll wound rolls of 1 for ranged attacks from Agripinaa units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 32,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 13,
+      "name": "Legio Teleportarium",
+      "type": "Lucius",
+      "ability": "Use in the action phase. Select 1 Lucius unit, remove it, and then set it up anywhere on the battlefield more than 9” from enemy units."
+    },
+    {
+      "set": "C2",
+      "nm": 33,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 14,
+      "name": "Deafening Assault",
+      "type": "Metalica",
+      "ability": "Use in the Damage Phase. 1 Metalica unit gains Terror Troops until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 34,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 15,
+      "name": "Refusal to Yield",
+      "type": "Graia",
+      "ability": "Use in the Damage Phase. Graia units in an detachment gain the Ignore Damage(5+) ability until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 35,
+      "fac": "Adeptus Mechanicus",
+      "facNm": 16,
+      "name": "Wrath of Mars",
+      "type": "Mars",
+      "ability": "Use in the action phase. Marss units in a detachment can add 1 to wound rolls for ranged attacks."
+    },
+    {
+      "set": "C2",
+      "nm": 36,
+      "fac": "Sisters of Battle",
+      "facNm": 1,
+      "name": "Divine Guidance",
+      "type": "Sisters of Battle",
+      "ability": "Play when you carry out an order. Until end of phase, roll D12s instead of D6s for ranged weapon hit rolls by Adeptus Sororitas in this detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 37,
+      "fac": "Sisters of Battle",
+      "facNm": 2,
+      "name": "Spirit of the Martyr",
+      "type": "Sisters of Battle",
+      "subType": "Infantry",
+      "ability": "Play in the action phase. Roll a D12 for every Adeptus Sororitas Infantry unit in a detachment. on a 9+, remove 1 damage marker on that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 38,
+      "fac": "Sisters of Battle",
+      "facNm": 3,
+      "name": "Light of the Emperor",
+      "type": "Sisters of Battle",
+      "ability": "Play at the start of the damage phase. All Adeptus Sororitas units in 1 detachment automatically pass their morale tests."
+    },
+    {
+      "set": "C2",
+      "nm": 39,
+      "fac": "Sisters of Battle",
+      "facNm": 4,
+      "name": "Shield of Faith",
+      "type": "Sisters of Battle",
+      "ability": "Play at the start of the Damage phase. One Adeptus Sororitas unit always rolls D12s when making saving rolls for this phase."
+    },
+    {
+      "set": "C2",
+      "nm": 40,
+      "fac": "Sisters of Battle",
+      "facNm": 5,
+      "name": "Purity of Faith",
+      "type": "Sisters of Battle",
+      "ability": "Play if an enemy plays a psychic power asset within 36” of an Adeptus Sororitas unit. Roll a D12. on a 1-5, keep this card. On a 6+, that psychic power's effects are not resolved. Alternatively, discard this to reroll a hit roll."
+    },
+    {
+      "set": "C2",
+      "nm": 41,
+      "fac": "Sisters of Battle",
+      "facNm": 6,
+      "name": "Faith and Fury",
+      "type": "Sisters of Battle",
+      "ability": "Play before an Adeptus Sororitas unit makes a shoot or fight action. Each hit counts as two hits instead of one."
+    },
+    {
+      "set": "C2",
+      "nm": 42,
+      "fac": "Sisters of Battle",
+      "facNm": 7,
+      "name": "The Passion",
+      "type": "Sisters of Battle",
+      "ability": "Use before carrying out an order for a Detachment lead by a Adepta Sororitas Commander. The order is changed to Advance, and until the end of the phase, double the Move Characterstic for Adepta Sororitas units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 43,
+      "fac": "Sisters of Battle",
+      "facNm": 8,
+      "name": "Hand of the Emperor",
+      "type": "Sisters of Battle",
+      "ability": "Play when you carry out an order. Add 1 to melee weapon attacks by Adepta Sororitas, or 2 for Adepta Sororitas characters."
+    },
+    {
+      "set": "C2",
+      "nm": 44,
+      "fac": "Sisters of Battle",
+      "facNm": 9,
+      "name": "Blood of Martyrs",
+      "type": "Our Martyred Lady",
+      "ability": "Play when an Order of Our Martyred Lady warlord is destroyed. Each unit in the warlord's detachment may make a free shoot or fight action."
+    },
+    {
+      "set": "C2",
+      "nm": 45,
+      "fac": "Sisters of Battle",
+      "facNm": 10,
+      "name": "Daughters of the Emperor",
+      "type": "Ebon Chalice",
+      "ability": "Play at the start of the Orders Phase. If you have an Order of the Ebon Chalice Warlord, draw 1 Sisters asset from your discard pile."
+    },
+    {
+      "set": "C2",
+      "nm": 46,
+      "fac": "Sisters of Battle",
+      "facNm": 11,
+      "name": "Devout Serenity",
+      "type": "Sacred Rose",
+      "ability": "Play when you carry out an order. Replace that order with Aimed Fire. Ranged attacks by Order of the Sacred Rose units can reroll wound rolls of 1 for attacks."
+    },
+    {
+      "set": "C2",
+      "nm": 47,
+      "fac": "Sisters of Battle",
+      "facNm": 12,
+      "name": "Quick to Anger",
+      "type": "Bloody Rose",
+      "ability": "Use in the action phase. Up to 3 Order of the Bloody Rose add 1 to their attacks for fight actions until the end of the phase."
+    },
+    {
+      "set": "C2",
+      "nm": 48,
+      "fac": "Sisters of Battle",
+      "facNm": 13,
+      "name": "Deeds, Not Words",
+      "type": "Argent Shroud",
+      "ability": "Use in the action phase. Up to 2 Order of the Argen Shroud units may make a free shoot or fight action."
+    },
+    {
+      "set": "C2",
+      "nm": 49,
+      "fac": "Sisters of Battle",
+      "facNm": 14,
+      "name": "Stoic Endurance",
+      "type": "Valorous hearth",
+      "ability": "Use at the start of the Damage phase. Up to 3 Order of the Valorous heart units gain the Ignore Damage (5+) ability.  Then remove this card from the game."
+    },
+    {
+      "set": "C2",
+      "nm": 50,
+      "fac": "Necrons",
+      "facNm": 1,
+      "name": "Star Pulse",
+      "type": "Necrons",
+      "ability": "Use in the action phase. Select 1 Necron Warlord and a point visible to that warlord. Roll a D12 for up to 3 units within 6” of that point, subtracting 2 if the unit is a light character, and adding 2 if it is Super-Heavy or is garrisoning a Defensibel Terrain Feature. On a 8+, place a blast market next to the unit."
+    },
+    {
+      "set": "C2",
+      "nm": 51,
+      "fac": "Necrons",
+      "facNm": 2,
+      "name": "Entropic Plague",
+      "type": "Necrons",
+      "ability": "Use at the start of the damage phase. Select 1 enemy unit with 12” of one of your Necron units.  Halve the result of saving throws made for that enemy unit. This effect lasts until the enemy unit succeeds on a saving throw in a damage phase."
+    },
+    {
+      "set": "C2",
+      "nm": 52,
+      "fac": "Necrons",
+      "facNm": 3,
+      "name": "Resurrection Orb",
+      "type": "Necrons",
+      "ability": "Use in action phase. Select up to 2 Light Necron units within 6” of a Lord, Overlord, or Destroyer Lord. Remove up to d3 damage markers from that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 53,
+      "fac": "Necrons",
+      "facNm": 4,
+      "name": "Reconstitution Protocols",
+      "type": "Necrons",
+      "ability": "Use in action phase. Select a Necron unit. remove up to d3 damage markers from that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 54,
+      "fac": "Necrons",
+      "facNm": 5,
+      "name": "Stellar Alignment protocols",
+      "type": "Necrons",
+      "ability": "Use in action phase. A Necron unit acts as if it is at full strength until the end of the turn."
+    },
+    {
+      "set": "C2",
+      "nm": 55,
+      "fac": "Necrons",
+      "facNm": 6,
+      "name": "Self Destruction",
+      "type": "Necrons",
+      "subType": "Scarabs",
+      "ability": "Use when Scarabs make a fight action. Select 1 enemy unit in base contact. Roll a D12 for each model in that scarabs unit. On a 3-7, place a blast marker next to the enemy. On an 8+ place 2 blast markers instead. The Scarabs unit is then destroyed."
+    },
+    {
+      "set": "C2",
+      "nm": 56,
+      "fac": "Necrons",
+      "facNm": 7,
+      "name": "Cosmic Fire",
+      "type": "C'tan",
+      "ability": "Use in the action phase. Select 1 C'tan Shard unit and roll a d12 for each enemy within 9”, adding 1 to the result if the C'tan is Titanic. On a 7+, place a blast marker next to the unit."
+    },
+    {
+      "set": "C2",
+      "nm": 57,
+      "fac": "Necrons",
+      "facNm": 8,
+      "name": "Antimatter Meteor",
+      "type": "C'tan",
+      "ability": "Use in the action phase. Select 1 C'tan Shard and roll a D12. Add 4 to the roll if it is titanic. On a 2-8, place  blast marker next to the enemy unit. On a 9-11, place 2 next to the unit. On a 12-14, place 3 blast markers, and on 15-16 place 4."
+    },
+    {
+      "set": "C2",
+      "nm": 58,
+      "fac": "Necrons",
+      "facNm": 9,
+      "name": "Sky of Falling Stars",
+      "type": "C'tan",
+      "ability": "Use in the action phase. Select 1 C'tan shard and 3 units with 3+ models within 24” of the C'tan. Roll a D12 for each of those unit, adding 3 if the C'tan is Titanic, and 2 if the unit has 10+ models. If the number is 7+, place a blast marker next to the unit."
+    },
+    {
+      "set": "C2",
+      "nm": 59,
+      "fac": "Necrons",
+      "facNm": 10,
+      "name": "Solar Fury",
+      "type": "Mephrit",
+      "ability": "Use in the action phase. Until the end of the turn, select 1 detachment led by a Mephrit commander. Mephrit units add 1 to wound rolls for attacks made by ranged weapons within 1/2 the weapon's range for this phase."
+    },
+    {
+      "set": "C2",
+      "nm": 60,
+      "fac": "Necrons",
+      "facNm": 11,
+      "name": "Awakened By Murder",
+      "type": "Novokh",
+      "ability": "Use in the action phase. Select 1 Detachment lead by a Novokh Commander. Until the end of the turn, reroll hit rolls for attacks made with melee weapons by Novokh units."
+    },
+    {
+      "set": "C2",
+      "nm": 61,
+      "fac": "Necrons",
+      "facNm": 12,
+      "name": "Reclaim a Lost Empire",
+      "type": "Nihilakh",
+      "ability": "Use in any phase. Nihilakh units of a selected detachment with a Nihilakh commander gains the Objective Secured ability until the end of the turn. This turn, a Nihilakh Warlord in that detachment can roll a D12 instead of a D6 for one Armour Save roll."
+    },
+    {
+      "set": "C2",
+      "nm": 62,
+      "fac": "Necrons",
+      "facNm": 13,
+      "name": "Methodical Destruction",
+      "type": "Sautekh",
+      "ability": "Use in the action phase. Select 1 enemy unit. Until the end of the turn, add 1 to hit rolls for Sautekh units targeting that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 63,
+      "fac": "Necrons",
+      "facNm": 14,
+      "name": "Translocation Beams",
+      "type": "Nephrekh",
+      "ability": "Select a detachment led by a Nephrekh Commander. The detachment's order is replaced with 'Assault', and Nephrekh units in the detachment add 5” to their move after doubling it and move as if they could Fly, but cannot end in base contact with enemy units."
+    },
+    {
+      "set": "C2",
+      "nm": 64,
+      "fac": "Tyranids",
+      "facNm": 1,
+      "name": "Adapted to Kill",
+      "type": "Tyranids",
+      "ability": "Use in the Action Phase. Select one Tyranid unit. Until the end of the turn, re-roll hit and wound rolls by that unit, and re-roll saving throws and morale test for that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 65,
+      "fac": "Tyranids",
+      "facNm": 2,
+      "name": "Adrenal Glands",
+      "type": "Tyranids",
+      "ability": "Use in the action phase. Select one Tyranid Detachment lead by a Tyranid Commander. Up to 3 Tyranid units in that detachment may make a free action."
+    },
+    {
+      "set": "C2",
+      "nm": 66,
+      "fac": "Tyranids",
+      "facNm": 3,
+      "name": "Sporefield",
+      "type": "Tyranids",
+      "ability": "Use in the action phase. Select on Tyranid Warlord, and select a point visible to that unit. Roll a D12 for each unit within 9” of it, subtracting 2 from the roll of the unit if it is a Light character or Tyranids unit.  On a 7+, place a blast marker next to it."
+    },
+    {
+      "set": "C2",
+      "nm": 67,
+      "fac": "Tyranids",
+      "facNm": 4,
+      "name": "Instinctive Behavior",
+      "type": "Tyranids",
+      "ability": "Use in the Action or Damage phase. Select 1 Tyranid unit that is Out of Command. Until the end of the turn, they do not count as Out of Command, and they add 1 to hit and wound rolls."
+    },
+    {
+      "set": "C2",
+      "nm": 68,
+      "fac": "Tyranids",
+      "facNm": 5,
+      "name": "Endless Swarm",
+      "type": "Tyranids",
+      "subType": "Light",
+      "ability": "Use in the Reinforcements Step. Select one Tyranid Light unit that was destroyed, and roll D12 and add 4. If the result is greater than the Power of the unit, it is returned to the field within 9” of a field edge, and more than 9” from any enemy units, as a new Detachment. Otherwise return this card to your hand and you can't use it this turn."
+    },
+    {
+      "set": "C2",
+      "nm": 69,
+      "fac": "Tyranids",
+      "facNm": 6,
+      "name": "Shadow in the Warp",
+      "type": "Tyranids",
+      "ability": "Use when an opponent uses a Psychic power, before its effects are resolved, if at least one Tyranid Synapse unit is on the battlefied. Roll a D12. On a 3+, the effects of that Command Asset are not resolved."
+    },
+    {
+      "set": "C2",
+      "nm": 70,
+      "fac": "Tyranids",
+      "facNm": 7,
+      "name": "The Horror",
+      "type": "Tyranids",
+      "subType": "Psychic",
+      "ability": "Use in the Damage phase. Choose a Tyranid Psyker unit, and roll a D12. On a 2+, units within 24” of the psyker subtract 2 from their leadership characterstic."
+    },
+    {
+      "set": "C2",
+      "nm": 71,
+      "fac": "Tyranids",
+      "facNm": 8,
+      "name": "Catalyst",
+      "type": "Tyranids",
+      "subType": "Psychic",
+      "ability": "Use in the Damage phase. Select a Tyranid Psyker unit and roll a D12. On a 2+, that unit gains Ignore Damage (4+). On a 12+, they gain Ignore Damage (3+) instead."
+    },
+    {
+      "set": "C2",
+      "nm": 72,
+      "fac": "Tyranids",
+      "facNm": 9,
+      "name": "Hyper Aggression",
+      "type": "Behemoth",
+      "ability": "Use when selecting a detachment led by a Behemoth Commander to carry out an order.  Replace their order with Assault, and until the end of the phase, Behemoth units in that detachment add 1 to hit rolls for attacks using melee weapons."
+    },
+    {
+      "set": "C2",
+      "nm": 73,
+      "fac": "Tyranids",
+      "facNm": 10,
+      "name": "Questing Tendrils",
+      "type": "Kraken",
+      "ability": "Use when selecting a detachment led by a Kraken Commander to carry out an order.  Replace their order with Assault, and until the end of the phase, Kraken units in that detachment triple their move instead of doubling them."
+    },
+    {
+      "set": "C2",
+      "nm": 74,
+      "fac": "Tyranids",
+      "facNm": 11,
+      "name": "Synaptic Imperative",
+      "type": "Leviathan",
+      "ability": "Use at the start of the Damage phase. Select a detachment led by a Leviathan Commander.  Until the end of the phase, Leviathan units in that detachment gain Ignore Damage (5+)."
+    },
+    {
+      "set": "C2",
+      "nm": 75,
+      "fac": "Tyranids",
+      "facNm": 12,
+      "name": "Adaptive Toxins",
+      "type": "Gorgon",
+      "ability": "Use in the Action phase. Select a detachment led by a Gorgon Commander. Until the end of the phase Gorgon units add 1 to wound rolls made with melee weapons."
+    },
+    {
+      "set": "C2",
+      "nm": 76,
+      "fac": "Tyranids",
+      "facNm": 13,
+      "name": "Tunnel Networks",
+      "type": "Jormungandr",
+      "ability": "Use when selecting a detachment led by a Jormungandr Commander to carry out an order.  Replace their order with Aimed Fire or Advance, and and Jormungandr units are obscured targets."
+    },
+    {
+      "set": "C2",
+      "nm": 77,
+      "fac": "Tyranids",
+      "facNm": 14,
+      "name": "Endless Regeneration",
+      "type": "Hydra",
+      "ability": "Use in the Action phase.  Select on Hydra unit and remove up to D3 damage from that unit."
+    },
+    {
+      "set": "C2",
+      "nm": 78,
+      "fac": "Tyranids",
+      "facNm": 15,
+      "name": "Bio Barrage",
+      "type": "Kronos",
+      "ability": "Use when selecting a detachment led by a Kronos Commander to carry out an order.  Replace their order with Aimed Fire, and until the end of the phase, roll D12s instead of D6s for hit rolls made by ranged weapons by Kronos units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 79,
+      "fac": "Drukhari",
+      "facNm": 1,
+      "name": "Webway Portal",
+      "type": "Drukhari",
+      "ability": "Use in the Reinforcements Step. Select one Light Drukhari unit that has been destroyed and roll a D12. If the result exceeds the Power of the unit, place it set up anywhere more than 9” from enemy units. That unit is part of a new detachment. Otherwise, return this card to your hand you can't use it this turn."
+    },
+    {
+      "set": "C2",
+      "nm": 80,
+      "fac": "Drukhari",
+      "facNm": 2,
+      "name": "Drain from Pain",
+      "type": "Drukhari",
+      "ability": "Use in the Action Phase, after a blast marker has been placed on an enemy unit.  Until the end of the turn, Drukhari units within 6” of that unit ignore critically damaged effects, and +1 to their damage rolls."
+    },
+    {
+      "set": "C2",
+      "nm": 81,
+      "fac": "Drukhari",
+      "facNm": 3,
+      "name": "Lightning Speed",
+      "type": "Drukhari",
+      "ability": "Use before carrying out an order for a Detachment lead by a Drukhari Commander. The order is changed to Asault, and until the end of the phase, triple instead of double the Move Characterstic for Drukhari units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 82,
+      "fac": "Drukhari",
+      "facNm": 4,
+      "name": "Hit And Run",
+      "type": "Drukhari",
+      "ability": "Use before carrying out an order for a Detachment lead by a Drukhari Commander. The order is changed to Advance, and at the end of the detachments activation, each Drukhari unit in that Detachment may move 6”."
+    },
+    {
+      "set": "C2",
+      "nm": 83,
+      "fac": "Drukhari",
+      "facNm": 5,
+      "name": "Meat Hooks",
+      "type": "Drukhari",
+      "ability": "Choose a detachment lead by a Drukhari leader.  Up to 4 units with Fly that move over enemy Light units roll a D12. On a 6+, place a blast marker next to one enemy they flew over."
+    },
+    {
+      "set": "C2",
+      "nm": 84,
+      "fac": "Drukhari",
+      "facNm": 6,
+      "name": "Cruel Deception",
+      "type": "Drukhari",
+      "ability": "Use before carrying out an order for a Detachment lead by a Drukhari Commander. The order is changed to Advance, and until the end of the phase, Drukhari units that Fell Back may still attack after Falling Back."
+    },
+    {
+      "set": "C2",
+      "nm": 85,
+      "fac": "Drukhari",
+      "facNm": 7,
+      "name": "Crucible of Malediction",
+      "type": "Drukhari",
+      "subType": "Haemonculus",
+      "ability": "Use if you have a Haemonculus unit when an opponent uses a psychic power Command Asset, after manifesting but before it is resolved. When used, roll a D6 and a D12. If the D6 is a 3+, cancel the effect of the power. If the D12 is a 5+, place a blast marker next to the unit manifesting that power."
+    },
+    {
+      "set": "C2",
+      "nm": 86,
+      "fac": "Drukhari",
+      "facNm": 8,
+      "name": "Torment Bomb",
+      "type": "Drukhari",
+      "subType": "Archon",
+      "ability": "Use in the action phase. Select one Archon unit in your army, and select one point visible to the Archon. Roll a D12 for each enemy unit within 6” of that point. If the result is greater than or equal to the Leadership of the enemy unit, place a blast marker next to that unitA"
+    },
+    {
+      "set": "C2",
+      "nm": 87,
+      "fac": "Drukhari",
+      "facNm": 9,
+      "name": "Combat Drugs",
+      "type": "Drukhari",
+      "subType": "Succubi",
+      "ability": "Use in the Action phase. Select one Detachment lead by a Succubus unit in your army. Until the end of turn, roll D12s instead of D6s for hit rolls made by melee weapons with from Wych Cult units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 88,
+      "fac": "Drukhari",
+      "facNm": 10,
+      "name": "Agents of vect",
+      "type": "Kabal Black Heart",
+      "subType": "Kabal",
+      "ability": "Play when a non-psychic Command Asset is played, before resolving its effect, if you have a Kabal of the Black Heart Warlord.  Roll a D12. On a 4+, the effect of the Command Card is cancelled, and discarded."
+    },
+    {
+      "set": "C2",
+      "nm": 89,
+      "fac": "Drukhari",
+      "facNm": 11,
+      "name": "Failure is not an Option",
+      "type": "Kabal of the Obsidian Rose",
+      "subType": "Kabal",
+      "ability": "Play when a Kabal of the Obsidion Rose unit fails its Morale Test. They pass the test instead, and may then make a free shoot or fight action."
+    },
+    {
+      "set": "C2",
+      "nm": 90,
+      "fac": "Drukhari",
+      "facNm": 12,
+      "name": "The Serpent's Kiss",
+      "type": "Kabal",
+      "subType": "Kabal",
+      "ability": "Play in the Action Phase. Select one detachment lead by a Kabal of the Poisoned Tongue Commander. Until the end of the phase, add 1 to wound rolls for weapons made by Kabal of the Poisoned Tongue unit in that detachment, that target Light units."
+    },
+    {
+      "set": "C2",
+      "nm": 91,
+      "fac": "Drukhari",
+      "facNm": 13,
+      "name": "Slay from the Skies",
+      "type": "Kabal of the Flayed Skull",
+      "subType": "Kabal",
+      "ability": "Use before carrying out an order for a Detachment lead by a Kabal of the Flayed Skull Commander. The order is changed to Advance, and until the end of the phase, add 1 for to-hit rolls and double the Move Characterstic for Kabal of Flayed Skull units with Fly in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 92,
+      "fac": "Drukhari",
+      "facNm": 14,
+      "name": "No Method of Death Beyond Grasp",
+      "type": "Cult of Strife",
+      "subType": "Wych Cult",
+      "ability": "Select a detachment led by a Cult of Strife Commander. The detachment's order is replaced with 'Advance'. Select up to 3 Cult of Strife units in that detachment. After activating, they may make an addition shoot action, even targeting enemy units in base contact with them."
+    },
+    {
+      "set": "C2",
+      "nm": 93,
+      "fac": "Drukhari",
+      "facNm": 15,
+      "name": "Hyper Swift Reflexes",
+      "type": "Cult of the Red Grief",
+      "subType": "Wych Cult",
+      "ability": "Use in the damage phase.  Choose a Cult of the Red Grief unit, a Cult of Red Grief light Character, or both in your army. Until the end of the phase, they Roll D12s for saving throws no matter the size of blast markers next to it."
+    },
+    {
+      "set": "C2",
+      "nm": 94,
+      "fac": "Drukhari",
+      "facNm": 16,
+      "name": "Only the Strong Thrive",
+      "type": "Cult of the Cursed Blade",
+      "subType": "Wych Cult",
+      "ability": "Use before carrying out an order for a Detachment lead by a Cult of the Cursed Blade Commander. Until the end of the turn, re-roll hit and wound rolls of 1 for attacks by Cult of Cursed Blade units in that detachment, as well as saving throws of 1 by Cult of Cursed Blade units in that detachment."
+    },
+    {
+      "set": "C2",
+      "nm": 95,
+      "fac": "Drukhari",
+      "facNm": 17,
+      "name": "Connoisseurs of pain",
+      "type": "Prophets of Flesh",
+      "subType": "Coven",
+      "ability": "Use at the start of the Damage phase. Select one detachment led by a Prophets of Flesh Commander. Until the end of the phase, Prophets of Felsh units in the deatchment have Ignore Damage (5+) ability."
+    },
+    {
+      "set": "C2",
+      "nm": 96,
+      "fac": "Drukhari",
+      "facNm": 18,
+      "name": "Distillers of Fear",
+      "type": "Dark Creed",
+      "subType": "Coven",
+      "ability": "Use at the start of the Damage Phase. Select one detachment lead by a Dark Creed Commander.  Until the end of the phase, Dark Creed units in that detachment have the Terror Troops ability."
+    },
+    {
+      "set": "C2",
+      "nm": 97,
+      "fac": "Drukhari",
+      "facNm": 19,
+      "name": "Administer Punishment",
+      "type": "Coven of Twelve",
+      "subType": "Coven",
+      "ability": "Use in the action phase. Select one detachment led by a Coven of Twelve Commander. Until the end of phase, Coven of Twelve units may make shoot actions against enemy units engaged by friendly units to gain re-rolls on failed to wound rolls. On to-hit rolls of a 1, resolve against friendly units engaging the target."
+    },
+    {
+      "set": "C2",
+      "nm": 98
+    },
+    {
+      "set": "C2",
+      "nm": 99
+    },
+    {
+      "set": "C2",
+      "nm": 100
+    },
+    {
+      "set": "C2",
+      "nm": 101
+    },
+    {
+      "set": "C2",
+      "nm": 102
+    },
+    {
+      "set": "C2",
+      "nm": 103
+    },
+    {
+      "set": "C2",
+      "nm": 104
+    },
+    {
+      "set": "C2",
+      "nm": 105
+    },
+    {
+      "set": "C2",
+      "nm": 106
+    },
+    {
+      "set": "C2",
+      "nm": 107
+    },
+    {
+      "set": "C2",
+      "nm": 108
+    },
+    {
+      "set": "C2",
+      "nm": 109
+    },
+    {
+      "set": "C2",
+      "nm": 110
+    },
+    {
+      "set": "C2",
+      "nm": 111
+    },
+    {
+      "set": "C2",
+      "nm": 112
+    },
+    {
+      "set": "C2",
+      "nm": 113
+    },
+    {
+      "set": "C2",
+      "nm": 114
+    },
+    {
+      "set": "C2",
+      "nm": 115
+    },
+    {
+      "set": "C2",
+      "nm": 116
+    },
+    {
+      "set": "C2",
+      "nm": 117
+    },
+    {
+      "set": "C2",
+      "nm": 118
+    },
+    {
+      "set": "C2",
+      "nm": 119
+    },
+    {
+      "set": "C2",
+      "nm": 120
+    },
+    {
+      "set": "C2",
+      "nm": 121
+    },
+    {
+      "set": "C2",
+      "nm": 122
+    },
+    {
+      "set": "C2",
+      "nm": 123
+    },
+    {
+      "set": "C2",
+      "nm": 124
+    },
+    {
+      "set": "C2",
+      "nm": 125
+    },
+    {
+      "set": "C2",
+      "nm": 126
+    },
+    {
+      "set": "C2",
+      "nm": 127
+    },
+    {
+      "set": "C2",
+      "nm": 128
+    },
+    {
+      "set": "C2",
+      "nm": 129
+    },
+    {
+      "set": "C2",
+      "nm": 130
+    },
+    {
+      "set": "C2",
+      "nm": 131
+    },
+    {
+      "set": "C2",
+      "nm": 132
+    },
+    {
+      "set": "C2",
+      "nm": 133
+    },
+    {
+      "set": "C2",
+      "nm": 134
+    },
+    {
+      "set": "C2",
+      "nm": 135
+    },
+    {
+      "set": "C2",
+      "nm": 136
+    },
+    {
+      "set": "C2",
+      "nm": 137
+    },
+    {
+      "set": "C2",
+      "nm": 138
+    },
+    {
+      "set": "C2",
+      "nm": 139
+    },
+    {
+      "set": "C2",
+      "nm": 140
+    },
+    {
+      "set": "C2",
+      "nm": 141
+    },
+    {
+      "set": "C2",
+      "nm": 142
+    },
+    {
+      "set": "C3",
+      "nm": 1
+    },
+    {
+      "set": "C3",
+      "nm": 2
+    },
+    {
+      "set": "C3",
+      "nm": 3
+    },
+    {
+      "set": "C3",
+      "nm": 4
+    },
+    {
+      "set": "C3",
+      "nm": 5
+    },
+    {
+      "set": "C3",
+      "nm": 6
+    }
+  ]
+}

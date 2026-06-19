@@ -1,0 +1,908 @@
+{
+  "source": "Apoc40kCards - cards3.csv",
+  "cards": [
+    {
+      "set": "C3",
+      "nm": 1,
+      "fac": "Chaos",
+      "facNm": 1,
+      "name": "Magical Boon",
+      "type": "Demons",
+      "ability": "Use at any time. Look into your command deck, and draw a Daemonica Command Asset card that is a psychic power or a Deny the Witch card. Add that card to your hand, then shuffle the deck."
+    },
+    {
+      "set": "C3",
+      "nm": 2,
+      "fac": "Chaos",
+      "facNm": 2,
+      "name": "Warp Surge",
+      "type": "Demons",
+      "ability": "Use when resolving damage to a Daemonica unit before saving throws are amde. Until the end of the phase, roll D12s for the saving throws, regardless of the blast marker size."
+    },
+    {
+      "set": "C3",
+      "nm": 3,
+      "fac": "Chaos",
+      "facNm": 3,
+      "name": "Denizens of the Warp",
+      "type": "Demons",
+      "ability": "Use in the Reinforcement Step. Select a Daemonica Warlord, and Daemonica unit that has been destroyed. Roll a D12 and add 4. If it exceeds the Power rating of the destroyed unit, return it anywhere more than 9” from enemy units, as part of the Warlord's detachment. Otherwise return this card to your hand and you can't use it this turn."
+    },
+    {
+      "set": "C3",
+      "nm": 4,
+      "fac": "Chaos",
+      "facNm": 4,
+      "name": "Demonic Possession",
+      "type": "Demons",
+      "ability": "Use when your opponent uses a psychic power, if at least one Daemonica unit is on the field. Roll a D12. If the result is greater than the leadership of the unit manifesting the power, place a damage marker next to it. If that destroys the unit, Roll a D12. On a 7+, replace that unit with a daemonica character less than the roll number as a new detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 5,
+      "fac": "Chaos",
+      "facNm": 5,
+      "name": "Locus of Rage",
+      "type": "Khorne Demons",
+      "ability": "Select a detachment led by a Daemonica Khorne Commander. The detachment's order is replaced with 'Assault', and roll D12s instead of D6s for hit rolls for attacks made by melee weapons for daemonica Khorne units for that phase."
+    },
+    {
+      "set": "C3",
+      "nm": 6,
+      "fac": "Chaos",
+      "facNm": 6,
+      "name": "Locus of Trickery",
+      "type": "Tzeentch Demons",
+      "ability": "Use in the action phase. Select a detachment led by a Daemonica Tzeentch Commander. Until the end of the phase, Daemonica Tzeentch units in that detachment are obscured targets."
+    },
+    {
+      "set": "C3",
+      "nm": 7,
+      "fac": "Chaos",
+      "facNm": 7,
+      "name": "Locus of Virulence",
+      "type": "Nurgle Demons",
+      "ability": "Use in the action phase. Select a detachment led by a Daemonica Nurgle Commander. Until the end of the phase, you can re-roll wound rolls for attacks made by Daemonica Nurgle units."
+    },
+    {
+      "set": "C3",
+      "nm": 8,
+      "fac": "Chaos",
+      "facNm": 8,
+      "name": "Locus of Swiftness",
+      "type": "Slannesh Demons",
+      "ability": "Select a detachment led by a Daemonica Slaanesh Commander. The detachment's order is replaced with 'Assault', and Daemonica Slaanesh units in the detachment triple their move characteristic instead of doubling it, but cannot end in base contact with enemy units."
+    },
+    {
+      "set": "C3",
+      "nm": 9,
+      "fac": "Chaos",
+      "facNm": 9,
+      "name": "Wrath of Khorne",
+      "type": "Khorne Demons",
+      "ability": "Use when an opponent uses a psychic power, before the effects are resolved, if you have a Khorne unit on the battlefield. Roll a D12 for the manifesting unit and every unit within 3” of it. On an 8+, place 2 blast markers next to the unit."
+    },
+    {
+      "set": "C3",
+      "nm": 10,
+      "fac": "Chaos",
+      "facNm": 10,
+      "name": "Cacophonic Choir",
+      "type": "Slannesh Demons",
+      "subType": "Psychic",
+      "ability": "Use in action phase. Choose one Daemonica Slaanesh Psyker unit and one enemy unit within 24” of the psyker. Roll a D12. If the result is less than the enemy's unit's Leadership, place 1 blast marker next to it. If it is equal or greater, place 2 blast markers next to it."
+    },
+    {
+      "set": "C3",
+      "nm": 11,
+      "fac": "Chaos",
+      "facNm": 11,
+      "name": "Stream of Corruption",
+      "type": "Nurgle Demons",
+      "subType": "Psychic",
+      "ability": "Use in the action Phase. Choose one Daemonica Nurgle Psyker unit and an enemy unit within 12” of the psyker. Roll a D12. On a 4-7, place 2 blast markers next to it. On an 8-10, place 3 blast markers, and on an 11+, place 4 blast markers."
+    },
+    {
+      "set": "C3",
+      "nm": 12,
+      "fac": "Chaos",
+      "facNm": 12,
+      "name": "Infernal Gateway",
+      "type": "Tzeentch Demons",
+      "subType": "Psychic",
+      "ability": "Use in action phase. Select a Daemonica Tzeentch Psyker and one point on the battlefield within 24” of the Psyker.  Roll a D12 for each unit within 6” of that point, subtracting 1 if it is a light Character. On a 6+, place a blast marker next to it."
+    },
+    {
+      "set": "C3",
+      "nm": 13,
+      "fac": "Chaos",
+      "facNm": 13,
+      "name": "Gaze of Fate",
+      "type": "Tzeentch Demons",
+      "subType": "Psychic",
+      "ability": "Use at end of Orders Phase. Select a Tzeentch Psyker. Roll a D12. On a 2+, Choose an opponent to Look at their Command Asset Cards, then draw a Command Card."
+    },
+    {
+      "set": "C3",
+      "nm": 14,
+      "fac": "Chaos",
+      "facNm": 14,
+      "name": "Aura of Acquiescence",
+      "type": "Slannesh Demons",
+      "ability": "Use in Action Phase. Select a Daemonica Slaanesh unit. Until the end of the phase, the Attacks characteristic in base contact with it is halved."
+    },
+    {
+      "set": "C3",
+      "nm": 15,
+      "fac": "Chaos",
+      "facNm": 15,
+      "name": "Frenetic Bloodlust",
+      "type": "Khorne Demons",
+      "ability": "Use in Action Phase. Select a Daemonica Khorne unit. That unit makes 2 free fight actions back-to-back."
+    },
+    {
+      "set": "C3",
+      "nm": 16,
+      "fac": "Chaos",
+      "facNm": 16,
+      "name": "Revolting Regeneration",
+      "type": "Nurgle Demons",
+      "ability": "Use in Action Phase. Select a Daemonica Nurgle detachment. Remove up to D3 damage markers from that unit."
+    },
+    {
+      "set": "C3",
+      "nm": 17,
+      "fac": "Chaos",
+      "facNm": 17,
+      "name": "Gift of Chaos",
+      "type": "Chaos",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Pick the closest non-character light unit of 5 within 18” to a psyker.  Roll a d12. On a 1-9, place a blast marker on that unit. On a 10+, place 2 blast markers on that unit, and place a chaos spawn next to it. The Spawn is part of the Psyker's detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 18,
+      "fac": "Chaos",
+      "facNm": 18,
+      "name": "Bolt of Change",
+      "type": "Tzeentch",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Pick a Tzeentch Psyker to manifest, then select a light character within 18” and roll 2d6. If it is less than the character's power rating, place a blast marker next to it. Otherwise, immediately destroy it and replace it with a chaos spawn unit, as part of the Psyker's detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 19,
+      "fac": "Chaos",
+      "facNm": 19,
+      "name": "Fury of Khorne",
+      "type": "Khorne",
+      "ability": "Choose a Khorne character. Add +2 to its attacks and damage rolls  for this character this turn."
+    },
+    {
+      "set": "C3",
+      "nm": 20,
+      "fac": "Chaos",
+      "facNm": 20,
+      "name": "Delightful Agonies",
+      "type": "Slannesh",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Slaanesh Psyker and one slaanesh unit with 36” of each other. Until the end of the turn, that unit ignores penalties for critical damage, and add 1 to attacks for each damage marker next to it."
+    },
+    {
+      "set": "C3",
+      "nm": 21,
+      "fac": "Chaos",
+      "facNm": 21,
+      "name": "Plague Wind",
+      "type": "Nurgle",
+      "subType": "Psychic",
+      "ability": "Use in the action phase. Choose a Nurgle Psyker and roll a D12. On a 2+, place a blast marker next to the closest enemy within 18” to the psyker. Then roll a D12” for every other unit within 6” of that unit. On a 7+, place a blast marker nexto that unit."
+    },
+    {
+      "set": "C3",
+      "nm": 22,
+      "fac": "Tau",
+      "facNm": 1,
+      "name": "Markerlights",
+      "type": "Tau",
+      "ability": "Use in the action phase. Select 1 enemy detachment. Reroll to-hit rolls of 1 from ranged weapons by Tau units against the units in that detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 23,
+      "fac": "Tau",
+      "facNm": 2,
+      "name": "Saviour Protocols",
+      "type": "Tau",
+      "ability": "Use at the start of the damage phase. One Tau unit within 6” of a friendly T'au Empire Drones unit, they may remove up to D3 blast markers from that unit and place it on the Drones instead."
+    },
+    {
+      "set": "C3",
+      "nm": 24,
+      "fac": "Tau",
+      "facNm": 3,
+      "name": "Kauyon",
+      "type": "Tau",
+      "ability": "Use when your oponnent selects one of their detachments to carry out an order. One of your detachments led by a Tau Commander that has not carried out their order replaces their order with Aimed Fire, and then carries out that order before the enemy detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 25,
+      "fac": "Tau",
+      "facNm": 4,
+      "name": "Coordinated Fire Arcs",
+      "type": "Tau",
+      "subType": "Tau Sept",
+      "ability": "Use in the Action phase. Select 1 detachment led by a a Tau Sept Commander. Until the end of the phase, when an enemy unit moves in base contact of a Tau Sept in that detachment, that Tau Sept unit may make a free shoot action, targeting the enemy that moved into base contact, as if they were not in base contact."
+    },
+    {
+      "set": "C3",
+      "nm": 26,
+      "fac": "Tau",
+      "facNm": 5,
+      "name": "Focus Fire",
+      "type": "Tau",
+      "subType": "Tau Sept",
+      "ability": "Use in the Action phase. Select an enemy unit and a Tau detachment. Reroll wound rolls for attacks by ranged weapons by Tau Sept units in that detachment that target that unit until the end of this turn."
+    },
+    {
+      "set": "C3",
+      "nm": 27,
+      "fac": "Tau",
+      "facNm": 6,
+      "name": "Mont'ka",
+      "type": "Tau",
+      "ability": "Use when your opponent selects 1 detachment to carry out an order. One detachment lead by a Tau Commander that hasn't carried out its order replaced their order with Advance, and carries out its order before your opponent does so."
+    },
+    {
+      "set": "C3",
+      "nm": 28,
+      "fac": "Tau",
+      "facNm": 7,
+      "name": "Seeker Missiles",
+      "type": "Tau",
+      "subType": "Vehicles",
+      "ability": "Use when a Tau Vehicle makes a shoot action. Select an enemy visible to that vehicle and roll a d6. On e a 2+, place a blast marker next to that unit. If the enemy was a Heavy or Super-Heavy, place 2 blast markers instead."
+    },
+    {
+      "set": "C3",
+      "nm": 29,
+      "fac": "Tau",
+      "facNm": 8,
+      "name": "Invocation of the Elements",
+      "type": "Tau",
+      "subType": "Ethereal",
+      "ability": "Use in the Action phase. When used, select one Tau Ethereal unit. Until the end of the turn, add 1 to hit and wound rolls by Tau units within 6” of the Ethereal unit, and add 1 to saving throws for Tau units within 6” of that Ethereal unit."
+    },
+    {
+      "set": "C3",
+      "nm": 30,
+      "fac": "Tau",
+      "facNm": 9,
+      "name": "Early Warning Overrides",
+      "type": "Tau",
+      "subType": "Battlesuit",
+      "ability": "Use in the Set up Reinforcements step, after an enemy has set up an enemy unit that phase. One Tau Battlesuit makes a free shoot action against that enemy unit."
+    },
+    {
+      "set": "C3",
+      "nm": 31,
+      "fac": "Tau",
+      "facNm": 10,
+      "name": "Calm Discipline",
+      "type": "Sa'cea",
+      "ability": "Select a detachment led by a Sa'cea Sept Commander. The detachment's order is replaced with 'Advance', and Sa'cea Sept units in the detachment add 1 to hit rolls with ranged weapons, and 2 to their leadership characterstic, until the end of their turn."
+    },
+    {
+      "set": "C3",
+      "nm": 32,
+      "fac": "Tau",
+      "facNm": 11,
+      "name": "Adaptive Camoflage",
+      "type": "Dal'yth",
+      "ability": "Use in the action phase. Select a detachment lead by a Dal'yth Sept Commander. Until the end of the turn, Dal'yth Sept units in that detachment are obscured targets."
+    },
+    {
+      "set": "C3",
+      "nm": 33,
+      "fac": "Tau",
+      "facNm": 12,
+      "name": "Drop Zone Clearance",
+      "type": "Farsight Enclaves",
+      "ability": "Use in the Set up Reinforcements step. Up to 3 Farsight Enclaves Battlesuit units that were set up this phase make make 1 free shoot action."
+    },
+    {
+      "set": "C3",
+      "nm": 34,
+      "fac": "Tau",
+      "facNm": 13,
+      "name": "Superior Craftsmanship",
+      "type": "Bork'an",
+      "ability": "Use in the Action phase. Select a detachment lead by a Bork'an Commander. Until the end of the turn, add 6” to the Range of ranged weapons for Bork'an Sept units, or 12” if they are performing the Aim Fire order."
+    },
+    {
+      "set": "C3",
+      "nm": 35,
+      "fac": "Tau",
+      "facNm": 14,
+      "name": "Strike Fast",
+      "type": "Vior'la",
+      "ability": "Select a detachment led by a Vior'la Sept Commander. The detachment's order is replaced with 'Advance', and Vior'la Sept units in the detachment double their Move is doubled until the end of turn.."
+    },
+    {
+      "set": "C3",
+      "nm": 36,
+      "fac": "Genestealer Cults",
+      "facNm": 1,
+      "name": "Concealed Explosives",
+      "type": "Genestealer Cults",
+      "subType": "Warlord",
+      "ability": "Use in the Action Phase. Select D3 points within 18” of a Genstealer Cults Warlord. Roll a D12 for each unit within 6” of those points, subtracting 2 from rolls if they are a Light Character, and 2 to the roll if they are Super-Heavy or Garrisoning Defensible Terrain. On an 8+, place a blast marker next to the unit."
+    },
+    {
+      "set": "C3",
+      "nm": 37,
+      "fac": "Genestealer Cults",
+      "facNm": 2,
+      "name": "Unquestioning Loyalty",
+      "type": "Genestealer Cults",
+      "subType": "Character",
+      "ability": "Use at the start of the Damage phase. Select a Genestealer Cults Character that has blast markers on it. Move up to 3 blast markers to a friendly Genestealer Cults Light unit within 6”."
+    },
+    {
+      "set": "C3",
+      "nm": 38,
+      "fac": "Genestealer Cults",
+      "facNm": 3,
+      "name": "A Perfect Ambush",
+      "type": "Genestealer Cults",
+      "subType": "Light",
+      "ability": "Use in the Reinforcements Step. Select a Genestealer Cults Light unit that was destroyed and roll a D12. If the result was equal or above the power of the unit, set up that unit anywhere on the battlefield, and 9” from any enemy units.  If you roll below the power of the unit, put this card back into your hand instead of discarding it."
+    },
+    {
+      "set": "C3",
+      "nm": 39,
+      "fac": "Genestealer Cults",
+      "facNm": 4,
+      "name": "Lurk in the Shadows",
+      "type": "Genestealer Cults",
+      "ability": "Use in the Action Phase. Select a Genstealer Cults detachment. Until the end of the turn, Genestealer Cults in that detachment are Obscured targets."
+    },
+    {
+      "set": "C3",
+      "nm": 40,
+      "fac": "Genestealer Cults",
+      "facNm": 5,
+      "name": "Dark Shadows",
+      "type": "Genestealer Cults",
+      "subType": "Light",
+      "ability": "Use at the end of the damage phase, remove up to 2 Genestealer Cults Light unit from the battlefield, put the unit into Tactical Reserves. Remove up to 3 damage markers on them. They have Deep Strike."
+    },
+    {
+      "set": "C3",
+      "nm": 41,
+      "fac": "Genestealer Cults",
+      "facNm": 6,
+      "name": "Rigged to Blow",
+      "type": "Genestealer Cults",
+      "subType": "Biker or Vehicle",
+      "ability": "Use when a Genestealer Cults biker or vehicle is destroyed. Roll a D12 for units within 6”.  on a 6+, put a blast marker next to them."
+    },
+    {
+      "set": "C3",
+      "nm": 42,
+      "fac": "Genestealer Cults",
+      "facNm": 7,
+      "name": "Mass Hypnosis",
+      "type": "Genestealer Cults",
+      "subType": "Psychic",
+      "ability": "Use in the Action phase. Select a Genestealer Cults Psyker and roll a D12. On a 2+, 1/2 the Attacks characterstic of enemy light units within 6” of that Psyker. On an 11+, Increase the range to 9”."
+    },
+    {
+      "set": "C3",
+      "nm": 43,
+      "fac": "Genestealer Cults",
+      "facNm": 8,
+      "name": "Telepathic Summons",
+      "type": "Genestealer Cults",
+      "subType": "Psychic",
+      "ability": "Use in the Action phase. Select a Genestealer Cults Psyker and roll a D12. On a 3+, add a Genestealer Cults Light unit with Power Rating 10 or less anywhere on the battlefield, and 9” from any enemy units.  It is part of the Psyker's detachment."
+    },
+    {
+      "set": "C3",
+      "nm": 44,
+      "fac": "Genestealer Cults",
+      "facNm": 9,
+      "name": "Mind Control",
+      "type": "Genestealer Cults",
+      "subType": "Psychic",
+      "ability": "Use in the Action phase. Select a Genestealer Cults Psyker and roll a D12. On a 3+, a Light or Heavy unit within 24” of the Psyker makes a free shoot or fight action as if it were part of your army."
+    },
+    {
+      "set": "C3",
+      "nm": 45,
+      "fac": "Genestealer Cults",
+      "facNm": 10,
+      "name": "Driven By Demolitions",
+      "type": "Rusted Claw",
+      "subType": "Biker or Vehicle",
+      "ability": "Use when a Rusted Claw Biker or Vehicle makes a Move action. Select  1 enemy unit within 6”, and roll a D12. On a 3-7, place a blast marker next to it. on a 8+, place 2 blast markers next to that unit. If the enemy unit is Super-Heavy, double the blast markers place next to it."
+    },
+    {
+      "set": "C3",
+      "nm": 46,
+      "fac": "Genestealer Cults",
+      "facNm": 11,
+      "name": "Overthrow the Oppressors",
+      "type": "Bladed Cog",
+      "ability": "Use in the action phase. Until the end of the turn, Bladed Clog units that arget enemy Character units roll D12s instead of D6s for to-hit rolls."
+    },
+    {
+      "set": "C3",
+      "nm": 47,
+      "fac": "Genestealer Cults",
+      "facNm": 12,
+      "name": "Subterranean Ambushers",
+      "type": "Cult of the Four-Armed Emperor",
+      "ability": "Use when your opponent selects a detachment to carry out an order. Select a detachment lead by a Four-Armed Emperor that has not carried out an order. They carry out their order, and if a Four-Armed Emperor unit in that detachment was set up on the battlefield this turn, they add 1 to hit rolls."
+    },
+    {
+      "set": "C3",
+      "nm": 48,
+      "fac": "Genestealer Cults",
+      "facNm": 13,
+      "name": "Devoted Zealots",
+      "type": "Pauper Princes",
+      "ability": "Use in the Action Phase. Select one detachment lead by a Pauper Princes Commander.  Until the end of the turn, Pauper Prince units in that detachment can re-roll to hit rolls for attacks with melee weapons, and can re-roll Morale tests."
+    },
+    {
+      "set": "C3",
+      "nm": 49,
+      "fac": "Genestealer Cults",
+      "facNm": 14,
+      "name": "Disciplined Militants",
+      "type": "Hivecult",
+      "ability": "Use in the Action phase before choosing a detachment to carry out their order. Select one detachment lead by a Hivecult Commander. Until the end of the turn, Hivecult units in that detachment that Fall Back may still make Fight or Shoot actions, and add 2 to their Leadership Characteristic."
+    },
+    {
+      "set": "C3",
+      "nm": 50,
+      "fac": "Genestealer Cults",
+      "facNm": 15,
+      "name": "Monstrous Bio-Horrors",
+      "type": "Twisted Helix",
+      "subType": "Light",
+      "ability": "Use in the Action Phase. Choose 1 Twisted Helix Light unit in your army.  That unit makes 2 free Fight actions immediately."
+    },
+    {
+      "set": "C3",
+      "nm": 51,
+      "fac": "Harlequins",
+      "facNm": 1,
+      "name": "Prismatic Blur",
+      "type": "Harlequins",
+      "ability": "Use at the start of the damage phase. Until the end of the phase, all Harlequins in one detachment gain +2 to saving throws."
+    },
+    {
+      "set": "C3",
+      "nm": 52,
+      "fac": "Harlequins",
+      "facNm": 2,
+      "name": "Luck of the Laughing God",
+      "type": "Harlequins",
+      "ability": "Use after you roll a D6 or D12 in the orders, action or damage phase for a Harlequins unit. Change the result of a single D6 or D12 to the result of your choosing."
+    },
+    {
+      "set": "C3",
+      "nm": 53,
+      "fac": "Harlequins",
+      "facNm": 3,
+      "name": "Webway Assault",
+      "type": "Harlequins",
+      "ability": "Use in the Reinforcements Step.  Select a Harlequins non-character Light unit  that has been destroyed and roll a D12. If the result exceeds the Power Rating of the unit, set it up more than 9” from enemy units, in its own deatchment. Otherwise return this card to your hand and you can't use it this turn."
+    },
+    {
+      "set": "C3",
+      "nm": 54,
+      "fac": "Harlequins",
+      "facNm": 4,
+      "name": "Veil of Tears",
+      "type": "Harlequins",
+      "subType": "Psychic",
+      "ability": "use in the Action phase. Roll a D12. on a 2+, a Harlequin unit within 12” of a Harlequins Psyker can only be target of ranged weapons if it is the closest enemy to the firing unit until the end of the phase."
+    },
+    {
+      "set": "C3",
+      "nm": 55,
+      "fac": "Adeptus Custodes",
+      "facNm": 1,
+      "name": "Sword Guardians",
+      "type": "Adeptus Custodes",
+      "ability": "Use at the start of the Damage phase. Move d3 blast markers from an Imperium Character to a Light Adeptus Custodes unit within 6” of it."
+    },
+    {
+      "set": "C3",
+      "nm": 56,
+      "fac": "Adeptus Custodes",
+      "facNm": 2,
+      "name": "Peerless Warrior",
+      "type": "Adeptus Custodes",
+      "subType": "Character",
+      "ability": "Use in the Action phase. Until the end of the phase, 1 Adeptus Custodes Characters gets +2 attacks and +3 to wound rolls with melee weapons."
+    },
+    {
+      "set": "C3",
+      "nm": 57,
+      "fac": "Adeptus Custodes",
+      "facNm": 3,
+      "name": "From Golden Light",
+      "type": "Adeptus Custodes",
+      "subType": "Light or Deadnaught",
+      "ability": "Use in the Action phase. Remove 1 Adeptus Custodes Light or Dreadnaught from the table, and set it up anywhere more than 9” from your enemy units."
+    },
+    {
+      "set": "C3",
+      "nm": 58
+    },
+    {
+      "set": "C3",
+      "nm": 59
+    },
+    {
+      "set": "C3",
+      "nm": 60
+    },
+    {
+      "set": "C3",
+      "nm": 61
+    },
+    {
+      "set": "C3",
+      "nm": 62
+    },
+    {
+      "set": "C3",
+      "nm": 63
+    },
+    {
+      "set": "C3",
+      "nm": 64
+    },
+    {
+      "set": "C3",
+      "nm": 65
+    },
+    {
+      "set": "C3",
+      "nm": 66
+    },
+    {
+      "set": "C3",
+      "nm": 67
+    },
+    {
+      "set": "C3",
+      "nm": 68
+    },
+    {
+      "set": "C3",
+      "nm": 69
+    },
+    {
+      "set": "C3",
+      "nm": 70
+    },
+    {
+      "set": "C3",
+      "nm": 71
+    },
+    {
+      "set": "C3",
+      "nm": 72
+    },
+    {
+      "set": "C3",
+      "nm": 73
+    },
+    {
+      "set": "C3",
+      "nm": 74
+    },
+    {
+      "set": "C3",
+      "nm": 75
+    },
+    {
+      "set": "C3",
+      "nm": 76
+    },
+    {
+      "set": "C3",
+      "nm": 77
+    },
+    {
+      "set": "C3",
+      "nm": 78
+    },
+    {
+      "set": "C3",
+      "nm": 79
+    },
+    {
+      "set": "C3",
+      "nm": 80
+    },
+    {
+      "set": "C3",
+      "nm": 81
+    },
+    {
+      "set": "C3",
+      "nm": 82
+    },
+    {
+      "set": "C3",
+      "nm": 83
+    },
+    {
+      "set": "C3",
+      "nm": 84
+    },
+    {
+      "set": "C3",
+      "nm": 85
+    },
+    {
+      "set": "C3",
+      "nm": 86
+    },
+    {
+      "set": "C3",
+      "nm": 87
+    },
+    {
+      "set": "C3",
+      "nm": 88
+    },
+    {
+      "set": "C3",
+      "nm": 89
+    },
+    {
+      "set": "C3",
+      "nm": 90
+    },
+    {
+      "set": "C3",
+      "nm": 91
+    },
+    {
+      "set": "C3",
+      "nm": 92
+    },
+    {
+      "set": "C3",
+      "nm": 93
+    },
+    {
+      "set": "C3",
+      "nm": 94
+    },
+    {
+      "set": "C3",
+      "nm": 95
+    },
+    {
+      "set": "C3",
+      "nm": 96
+    },
+    {
+      "set": "C3",
+      "nm": 97
+    },
+    {
+      "set": "C3",
+      "nm": 98
+    },
+    {
+      "set": "C3",
+      "nm": 99
+    },
+    {
+      "set": "C3",
+      "nm": 100
+    },
+    {
+      "set": "C3",
+      "nm": 101
+    },
+    {
+      "set": "C3",
+      "nm": 102
+    },
+    {
+      "set": "C3",
+      "nm": 103
+    },
+    {
+      "set": "C3",
+      "nm": 104
+    },
+    {
+      "set": "C3",
+      "nm": 105
+    },
+    {
+      "set": "C3",
+      "nm": 106
+    },
+    {
+      "set": "C3",
+      "nm": 107
+    },
+    {
+      "set": "C3",
+      "nm": 108
+    },
+    {
+      "set": "C3",
+      "nm": 109
+    },
+    {
+      "set": "C3",
+      "nm": 110
+    },
+    {
+      "set": "C3",
+      "nm": 111
+    },
+    {
+      "set": "C3",
+      "nm": 112
+    },
+    {
+      "set": "C3",
+      "nm": 113
+    },
+    {
+      "set": "C3",
+      "nm": 114
+    },
+    {
+      "set": "C3",
+      "nm": 115
+    },
+    {
+      "set": "C3",
+      "nm": 116
+    },
+    {
+      "set": "C3",
+      "nm": 117
+    },
+    {
+      "set": "C3",
+      "nm": 118
+    },
+    {
+      "set": "C3",
+      "nm": 119
+    },
+    {
+      "set": "C3",
+      "nm": 120
+    },
+    {
+      "set": "C3",
+      "nm": 121
+    },
+    {
+      "set": "C3",
+      "nm": 122
+    },
+    {
+      "set": "C3",
+      "nm": 123
+    },
+    {
+      "set": "C3",
+      "nm": 124
+    },
+    {
+      "set": "C3",
+      "nm": 125
+    },
+    {
+      "set": "C3",
+      "nm": 126
+    },
+    {
+      "set": "C3",
+      "nm": 127
+    },
+    {
+      "set": "C3",
+      "nm": 128
+    },
+    {
+      "set": "C3",
+      "nm": 129
+    },
+    {
+      "set": "C3",
+      "nm": 130
+    },
+    {
+      "set": "C3",
+      "nm": 131
+    },
+    {
+      "set": "C3",
+      "nm": 132
+    },
+    {
+      "set": "C3",
+      "nm": 133
+    },
+    {
+      "set": "C3",
+      "nm": 134
+    },
+    {
+      "set": "C3",
+      "nm": 135
+    },
+    {
+      "set": "C3",
+      "nm": 136
+    },
+    {
+      "set": "C3",
+      "nm": 137
+    },
+    {
+      "set": "C3",
+      "nm": 138
+    },
+    {
+      "set": "C3",
+      "nm": 139
+    },
+    {
+      "set": "C3",
+      "nm": 140
+    },
+    {
+      "set": "C3",
+      "nm": 141
+    },
+    {
+      "set": "C3",
+      "nm": 142
+    },
+    {
+      "set": "C3",
+      "nm": 143
+    },
+    {
+      "set": "C3",
+      "nm": 144
+    },
+    {
+      "set": "C3",
+      "nm": 145
+    },
+    {
+      "set": "C3",
+      "nm": 146
+    },
+    {
+      "set": "C3",
+      "nm": 147
+    },
+    {
+      "set": "C3",
+      "nm": 148
+    }
+  ]
+}
