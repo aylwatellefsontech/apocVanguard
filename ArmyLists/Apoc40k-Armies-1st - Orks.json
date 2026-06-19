@@ -1,0 +1,1893 @@
+{
+  "faction": "Orks",
+  "source": "Apoc40k-Armies-1st - Orks.csv",
+  "units": [
+    {
+      "no": 1,
+      "type": "HQ",
+      "name": "Gazzghull Thraka",
+      "stats": {
+        "M": "5\"",
+        "WS": "2+",
+        "BS": "5+",
+        "A": "2",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "3+",
+        "N": "1",
+        "Pt": "9"
+      },
+      "abilities": "Great Waaagh!: Add 1 to the Attacks characteristic of friendly Orks Light units whilst they are making Fight actions whilst within 6\" of this unit.\nWaaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Goff units whilst they are within 6\" of this unit.",
+      "keywords": [
+        "Orks",
+        "Goff",
+        "Light",
+        "Infantry",
+        "Character",
+        "Mega Armour",
+        "Warboss",
+        "Ghazghkull Thraka"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kustom Klaw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "Usr",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "type": "HQ",
+      "name": "Warboss",
+      "stats": {
+        "M": "5\"",
+        "WS": "2+",
+        "BS": "5+",
+        "A": "2",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <clan> units whilst they are within 6\" of this unit.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Warboss"
+      ],
+      "weapons": [
+        {
+          "name": "Boss Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "Usr",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "type": "HQ",
+      "name": "Big Mek",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "abilities": "Big Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nKustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Big Mek"
+      ],
+      "options": [
+        "This unit can have Mega Armour. If this unit has Mega Armour, it:\n- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.\n- Has a Move characteristic of 4\", and Save characteristic of 4+.\n- Has the following keyword: Mega Armour.\n- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force\nField (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field."
+      ],
+      "weapons": [
+        {
+          "name": "Shokk Attack Gun",
+          "type": "Heavy",
+          "range": "60\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "6+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Tellyport Blasta",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "9+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Mek Mega Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Mek Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "type": "HQ",
+      "name": "Weirdboy",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "abilities": "Waaagh! Energy: At the start of the Action phase, if this unit is within 6\" of three or more friendly <Clan> units that each contain at least 10 models, you can turn over the top 3 cards of your Command Asset deck. If you reveal any Command Asset cards that are psychic powers, you can select one of those psychic powers and put in into your hand. Then put the remaining cards back in your Command Asset deck and shuffle the deck.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Psyker",
+        "Character",
+        "Weirdboy"
+      ],
+      "weapons": [
+        {
+          "name": "Weirdboy Staff",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "type": "HQ",
+      "name": "Deffkilla Wartrike",
+      "stats": {
+        "M": "14\"",
+        "WS": "2+",
+        "BS": "5+",
+        "A": "2",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8",
+        "N": "1",
+        "Pt": "6"
+      },
+      "abilities": "Speedwaaagh!: If a <Clan> Speed Freeks unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit’s Move characteristic whilst making that Move action.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Character",
+        "Speed Freeks",
+        "Speedboss",
+        "Deffkilla Wartrike"
+      ],
+      "weapons": [
+        {
+          "name": "Killa Jet",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Snagga Klaw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "type": "Troops",
+      "name": "Boyz",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Boyz"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "4",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "10+",
+          "N": "30",
+          "Pt": "13"
+        }
+      ],
+      "options": [
+        "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).\nFor every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha."
+      ],
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Shootas",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "4x",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Sluggas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "2x",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "3x",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "2x",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "type": "Troops",
+      "name": "Gretchin",
+      "stats": {
+        "M": "5\"",
+        "WS": "5+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "4",
+        "Sv": "11+",
+        "N": "10",
+        "Pt": "1"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Gretchin"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "5+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "4",
+          "Sv": "11+",
+          "N": "20",
+          "Pt": "2"
+        },
+        {
+          "M": "5\"",
+          "WS": "5+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "4",
+          "Sv": "11+",
+          "N": "30",
+          "Pt": "3"
+        }
+      ],
+      "options": [
+        "This unit can include a Runtherd (Power Rating +1). If this unit includes a Runtherd, it has a Leadership characteristic of 6."
+      ],
+      "weapons": [
+        {
+          "name": "Grot Blasta",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "Usr",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "Usr",
+          "skill": "9+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "type": "Elites",
+      "name": "Painboy",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "abilities": "Sawbonez: At the end of the Action phase, this unit can attempt to heal one friendly <Clan> Light unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Painboy"
+      ],
+      "weapons": [
+        {
+          "name": "Doks Tools",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "Usr",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "type": "Elites",
+      "name": "Mek",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "abilities": "Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Mek"
+      ],
+      "weapons": [
+        {
+          "name": "Meks Tools",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "Usr",
+          "skill": "9+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "type": "Elites",
+      "name": "Burna Boyz",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Burna Boyz"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "6"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "9"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Burna (Ranged)",
+          "type": "Small Arms",
+          "range": "8\"",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Burna (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "type": "Elites",
+      "name": "Tankbustaz",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "3"
+      },
+      "abilities": "Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18\" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.\nTank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Tankbustas"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "6"
+        },
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "7",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "9"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Tankbusta Rokkit Launchas",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Tankbusta Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "type": "Elites",
+      "name": "Nobz",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Nobz"
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Sluggas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Nob Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "type": "Elites",
+      "name": "Nobz w Waaagh! Banner",
+      "stats": {
+        "M": "5\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "abilities": "Waaagh! Banner: Add 1 to hit rolls for attacks made with melee weapons by <Clan> units whilst they are within 6\" of any friendly <Clan> units with this ability.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Nob"
+      ],
+      "weapons": [
+        {
+          "name": "Waaagh! Banner",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "type": "Elites",
+      "name": "Meganobz",
+      "stats": {
+        "M": "4\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "4+",
+        "N": "3",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Mega Armour",
+        "Nobz",
+        "Meganobz"
+      ],
+      "profiles": [
+        {
+          "M": "4\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "4+",
+          "N": "6",
+          "Pt": "12"
+        },
+        {
+          "M": "4\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "9",
+          "Pt": "18"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Meganob Shootas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Meganob Melee Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "type": "Elites",
+      "name": "Kommandos",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "3"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Kommandos"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "6"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "7",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "9"
+        }
+      ],
+      "options": [
+        "This unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha."
+      ],
+      "weapons": [
+        {
+          "name": "Kommando Sluggas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kommando Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kommando Burna",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "type": "Fast",
+      "name": "Nobz On Bikes",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "3",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Biker",
+        "Speed Freeks",
+        "Nobz"
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "14"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "21"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Dakka Guns",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Nob Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "type": "Fast",
+      "name": "Warbikers",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "7+",
+        "N": "3",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Biker",
+        "Speed Freeks",
+        "Warbikers"
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "6",
+          "Pt": "8"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "7",
+          "Sv": "7+",
+          "N": "9",
+          "Pt": "12"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "4",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "7+",
+          "N": "12",
+          "Pt": "16"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Dakka Guns",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Nob Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "type": "Fast",
+      "name": "Warbuggies",
+      "stats": {
+        "M": "12\"",
+        "WS": "4+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "4",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "abilities": "Ram: After this unit makes a Move action, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 5+ place one blast marker next to that unit.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Speed Freeks",
+        "Kustom Boosta-blastas",
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Speed Freeks",
+        "Shokkjump Dragstas"
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "4+",
+          "BS": "5+",
+          "A": "2",
+          "W": "4",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "10"
+        },
+        {
+          "M": "12\"",
+          "WS": "4+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "15"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Burna Exhaust",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Rivet Kannons",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spiked Rams",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Nose Drills",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Kustom Shokk Rifles",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "type": "Fast",
+      "name": "Stormboyz",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Light",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Stormboyz"
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "7"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "13"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "6",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "10+",
+          "N": "30",
+          "Pt": "19"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Stormboy Sluggas",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "type": "Fast",
+      "name": "Deffkoptas",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "2",
+          "W": "2",
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "2",
+          "Pt": "7"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "5+",
+          "A": "3",
+          "W": "3",
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "3",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        "For each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota."
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "type": "Heavy",
+      "name": "Mek Gun",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "type": "Heavy",
+      "name": "Battlewagon",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "type": "Heavy",
+      "name": "Killa Kans",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "type": "Heavy",
+      "name": "Deff Dread",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "type": "Heavy",
+      "name": "Lootas",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Speed Freeks",
+        "Deffkoptas"
+      ],
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "type": "Heavy",
+      "name": "Flash Gits",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "type": "Lord",
+      "name": "Morkanaut",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "type": "Lord",
+      "name": "Gorkanaut",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "type": "Transport",
+      "name": "Trukk",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "type": "Air",
+      "name": "Dakka Jet",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "type": "Air",
+      "name": "Bomba",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "type": "Lord",
+      "name": "Stompa",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Deep Strike",
+      "weapons": [
+        {
+          "name": "Twin Big Shootas",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Kopta Rokkits",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Spinnin' Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Stormboy Choppas",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
+    }
+  ]
+}
