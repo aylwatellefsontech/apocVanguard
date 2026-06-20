@@ -1,5 +1,6 @@
 import StatsTable from './StatsTable'
 import UnitAbilities from './UnitAbilities'
+import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
 import UnitWeapons from './UnitWeapons'
 import { getUnitProfiles } from '../utils/units'
@@ -56,11 +57,7 @@ export default function UnitDetail({
 
   return (
     <div className="unit-detail">
-      <header className="unit-detail-header">
-        <span className="unit-type">{unit.type}</span>
-        <h2>{unit.name}</h2>
-        <span className="unit-no">#{unit.no}</span>
-      </header>
+      <UnitDetailHeader unit={unit} />
 
       {profiles ? (
         <section>

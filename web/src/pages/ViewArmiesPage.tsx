@@ -6,6 +6,8 @@ import HandModal from '../components/HandModal'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useArmy } from '../hooks/useFactions'
 import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
+import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
+import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { sortRosterByType } from '../utils/units'
 import type { SavedArmy, Unit, ViewMode } from '../types'
 
@@ -74,6 +76,11 @@ export default function ViewArmiesPage() {
   const sortedRoster = useMemo(
     () => (selectedArmy ? sortRosterByType(selectedArmy.roster) : []),
     [selectedArmy],
+  )
+
+  const printableCards = useMemo(
+    () => armyCards.map(armyCardEntryToCard),
+    [armyCards],
   )
 
   function nextViewMode(mode: ViewMode): ViewMode {
@@ -239,6 +246,32 @@ export default function ViewArmiesPage() {
                       {allCardsExpanded ? 'Collapse All' : 'Expand All'}
                     </button>
                   )}
+                  <button
+                    type="button"
+                    className="secondary-btn"
+                    disabled={loadingArmy || !hasUnits}
+                    onClick={() =>
+                      openPrintableInNewTab(
+                        generateArmyPrintHtml(selectedArmy, unitsByNo),
+                        `${selectedArmy.name} — Army List`,
+                      )
+                    }
+                  >
+                    Print Army
+                  </button>
+                  <button
+                    type="button"
+                    className="secondary-btn"
+                    disabled={!hasCards}
+                    onClick={() =>
+                      openCommandCardsPrint(
+                        printableCards,
+                        `${selectedArmy.name} — Command Cards`,
+                      )
+                    }
+                  >
+                    Print Cards
+                  </button>
                   <button
                     type="button"
                     className="secondary-btn"

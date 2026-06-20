@@ -4,6 +4,8 @@ import CardDetail from '../components/CardDetail'
 import UnitDetail from '../components/UnitDetail'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
+import { openCommandCardsPrint } from '../utils/cardPrintExport'
+import { generateFactionPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { groupUnitsByType } from '../utils/units'
 import type { BrowseMode } from '../types'
 
@@ -78,6 +80,13 @@ export default function BrowsePage() {
     )
   }, [army, search])
 
+  const cardsForPrint = useMemo(() => {
+    if (!selectedCardFac) {
+      return cards
+    }
+    return cards.filter((card) => card.fac === selectedCardFac)
+  }, [cards, selectedCardFac])
+
   const filteredCards = useMemo(() => {
     let list = cards
     if (selectedCardFac) {
@@ -123,9 +132,34 @@ export default function BrowsePage() {
               {selectedCardFac ? ` · ${selectedCardFac}` : ' · all factions'}
             </p>
           )}
-          <button type="button" className="primary-btn" onClick={() => navigate({ to: '/build' })}>
-            Create Army
-          </button>
+          <div className="header-button-row">
+            {browseMode === 'cards' && !loadingCards && cardsForPrint.length > 0 && (
+              <button
+                type="button"
+                className="secondary-btn"
+                onClick={() => openCommandCardsPrint(cardsForPrint, cardsPanelTitle)}
+              >
+                Print Cards
+              </button>
+            )}
+            {browseMode === 'army' && army && !loadingArmy && (
+              <button
+                type="button"
+                className="secondary-btn"
+                onClick={() =>
+                  openPrintableInNewTab(
+                    generateFactionPrintHtml(army),
+                    `${army.faction} — Army List`,
+                  )
+                }
+              >
+                Print
+              </button>
+            )}
+            <button type="button" className="primary-btn" onClick={() => navigate({ to: '/build' })}>
+              Create Army
+            </button>
+          </div>
         </div>
       </header>
 

@@ -1,9 +1,11 @@
 import StatsTable from './StatsTable'
 import UnitAbilities from './UnitAbilities'
+import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
 import UnitWeapons from './UnitWeapons'
 import { formatRosterEntryMeta } from '../utils/roster'
 import {
+  formatUnitTypeLabel,
   getProfileStatsForEntry,
   getUnitProfiles,
   isProfileSelected,
@@ -40,7 +42,11 @@ export default function ArmyRosterEntry({
         <span className="army-roster-entry-summary">
           <strong>{entry.unitName}</strong>
           <span className="roster-item-meta">{formatRosterEntryMeta(entry)}</span>
-          {entry.unitType && <span className="roster-item-meta">{entry.unitType}</span>}
+          {entry.unitType && (
+            <span className="roster-item-meta">
+              {formatUnitTypeLabel(entry.unitType, unit)}
+            </span>
+          )}
         </span>
       </button>
 
@@ -50,6 +56,8 @@ export default function ArmyRosterEntry({
             <p className="muted panel-message">Unit datasheet not available.</p>
           ) : (
             <>
+              <UnitDetailHeader unit={unit} />
+
               <section>
                 <h3>Profiles</h3>
                 <div className="profile-picker-list">

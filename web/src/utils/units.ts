@@ -85,3 +85,15 @@ export function isProfileSelected(profile: UnitProfile, entry: RosterEntry | nul
 
   return profile.kind === entry.profileKind && profile.index === entry.profileIndex
 }
+
+export function unitHasInfantryKeyword(unit: Unit | null | undefined): boolean {
+  return unit?.keywords?.some((keyword) => keyword.toLowerCase() === 'infantry') ?? false
+}
+
+export function formatUnitTypeLabel(type: string, unit?: Unit | null): string {
+  if (unitHasInfantryKeyword(unit)) {
+    return `${type} - Infantry`
+  }
+
+  return type
+}

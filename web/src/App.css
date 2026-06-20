@@ -135,6 +135,13 @@
   gap: 12px;
 }
 
+.header-button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
 .primary-btn,
 .secondary-btn,
 .text-btn {
@@ -417,6 +424,32 @@
   align-items: baseline;
   gap: 8px 12px;
   margin-bottom: 20px;
+}
+
+.unit-detail > .unit-detail-header {
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.unit-detail-header-main {
+  min-width: 0;
+}
+
+.unit-detail-header-aside {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.35em;
+  flex-shrink: 0;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.unit-header-keyword {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
 }
 
 .unit-detail-header h2 {
