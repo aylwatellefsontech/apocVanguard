@@ -12,11 +12,21 @@ function shuffle(ids: string[]): string[] {
   return next
 }
 
+function normalizeHandState(state: HandState): HandState {
+  return {
+    deck: state.deck ?? [],
+    hand: state.hand ?? [],
+    discard: state.discard ?? [],
+    topDeck: state.topDeck ?? [],
+  }
+}
+
 export function createInitialHand(cards: ArmyCardEntry[]): HandState {
   return {
     deck: shuffle(cards.map((card) => card.id)),
     hand: [],
     discard: [],
+    topDeck: [],
   }
 }
 
@@ -40,9 +50,14 @@ function isValidHandState(cards: ArmyCardEntry[], state: HandState | undefined):
     return false
   }
 
+  const topDeck = state.topDeck ?? []
+  if (!Array.isArray(topDeck)) {
+    return false
+  }
+
   const cardIds = new Set(cards.map((card) => card.id))
   const seen = new Set<string>()
-  const allIds = [...state.deck, ...state.hand, ...state.discard]
+  const allIds = [...state.deck, ...state.hand, ...state.discard, ...topDeck]
 
   if (allIds.length !== cards.length) {
     return false
@@ -60,8 +75,11 @@ function isValidHandState(cards: ArmyCardEntry[], state: HandState | undefined):
 
 export function loadHandState(armyId: string, cards: ArmyCardEntry[]): HandState {
   const saved = loadAllHands()[armyId]
-  if (saved && isValidHandState(cards, saved)) {
-    return saved
+  if (saved) {
+    const normalized = normalizeHandState(saved)
+    if (isValidHandState(cards, normalized)) {
+      return normalized
+    }
   }
   return createInitialHand(cards)
 }
@@ -77,29 +95,63 @@ export function cloneHandState(state: HandState): HandState {
     deck: [...state.deck],
     hand: [...state.hand],
     discard: [...state.discard],
+    topDeck: [...state.topDeck],
   }
 }
 
+export function getDeckDrawCount(state: HandState): number {
+  return state.topDeck.length + state.deck.length
+}
+
+export function getDeckDisplayIds(state: HandState): string[] {
+  return [...state.topDeck, ...state.deck]
+}
+
 export function drawFromDeck(state: HandState, count = 1): HandState {
-  const drawCount = Math.min(count, state.deck.length)
+  const drawCount = Math.min(count, getDeckDrawCount(state))
   if (drawCount === 0) {
     return state
   }
 
-  const drawn = state.deck.slice(0, drawCount)
+  const topDeck = [...state.topDeck]
+  const deck = [...state.deck]
+  const drawn: string[] = []
+
+  for (let index = 0; index < drawCount; index += 1) {
+    if (topDeck.length > 0) {
+      drawn.push(topDeck.shift()!)
+      continue
+    }
+
+    if (deck.length > 0) {
+      drawn.push(deck.shift()!)
+    }
+  }
+
   return {
-    deck: state.deck.slice(drawCount),
+    topDeck,
+    deck,
     hand: [...state.hand, ...drawn],
     discard: state.discard,
   }
 }
 
 export function drawCardFromDeck(state: HandState, entryId: string): HandState {
+  if (state.topDeck.includes(entryId)) {
+    return {
+      topDeck: state.topDeck.filter((id) => id !== entryId),
+      deck: state.deck,
+      hand: [...state.hand, entryId],
+      discard: state.discard,
+    }
+  }
+
   if (!state.deck.includes(entryId)) {
     return state
   }
 
   return {
+    topDeck: state.topDeck,
     deck: state.deck.filter((id) => id !== entryId),
     hand: [...state.hand, entryId],
     discard: state.discard,
@@ -112,6 +164,7 @@ export function discardFromHand(state: HandState, entryId: string): HandState {
   }
 
   return {
+    topDeck: state.topDeck,
     deck: state.deck,
     hand: state.hand.filter((id) => id !== entryId),
     discard: [...state.discard, entryId],
@@ -124,9 +177,62 @@ export function drawCardFromDiscard(state: HandState, entryId: string): HandStat
   }
 
   return {
+    topDeck: state.topDeck,
     deck: state.deck,
     hand: [...state.hand, entryId],
     discard: state.discard.filter((id) => id !== entryId),
+  }
+}
+
+export function moveToTopDeckFromHand(state: HandState, entryId: string): HandState {
+  if (!state.hand.includes(entryId)) {
+    return state
+  }
+
+  return {
+    topDeck: [...state.topDeck, entryId],
+    deck: state.deck,
+    hand: state.hand.filter((id) => id !== entryId),
+    discard: state.discard,
+  }
+}
+
+export function moveToTopDeckFromDiscard(state: HandState, entryId: string): HandState {
+  if (!state.discard.includes(entryId)) {
+    return state
+  }
+
+  return {
+    topDeck: [...state.topDeck, entryId],
+    deck: state.deck,
+    hand: state.hand,
+    discard: state.discard.filter((id) => id !== entryId),
+  }
+}
+
+export function shuffleBackIntoDeckFromDiscard(state: HandState, entryId: string): HandState {
+  if (!state.discard.includes(entryId)) {
+    return state
+  }
+
+  return {
+    topDeck: state.topDeck,
+    deck: shuffle([...state.deck, entryId]),
+    hand: state.hand,
+    discard: state.discard.filter((id) => id !== entryId),
+  }
+}
+
+export function shuffleBackIntoDeck(state: HandState, entryId: string): HandState {
+  if (!state.topDeck.includes(entryId)) {
+    return state
+  }
+
+  return {
+    topDeck: state.topDeck.filter((id) => id !== entryId),
+    deck: shuffle([...state.deck, entryId]),
+    hand: state.hand,
+    discard: state.discard,
   }
 }
 
@@ -136,6 +242,7 @@ export function reshuffleDiscardIntoDeck(state: HandState): HandState {
   }
 
   return {
+    topDeck: state.topDeck,
     deck: shuffle([...state.deck, ...state.discard]),
     hand: state.hand,
     discard: [],

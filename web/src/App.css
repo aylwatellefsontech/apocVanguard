@@ -1446,6 +1446,27 @@
   border-bottom: none;
 }
 
+.hand-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.hand-card-item.top-deck-card {
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+}
+
+.hand-top-deck-badge {
+  margin: -8px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
 @media (max-width: 900px) {
   .rules-body {
     grid-template-columns: 1fr;

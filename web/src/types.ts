@@ -145,6 +145,7 @@ export interface HandState {
   deck: string[]
   hand: string[]
   discard: string[]
+  topDeck: string[]
 }
 
 export interface RulesHeading {

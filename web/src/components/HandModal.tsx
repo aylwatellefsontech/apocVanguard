@@ -8,10 +8,16 @@ import {
   drawCardFromDeck,
   drawCardFromDiscard,
   drawFromDeck,
+  getDeckDisplayIds,
+  getDeckDrawCount,
   loadHandState,
   MAX_HAND_UNDO,
+  moveToTopDeckFromDiscard,
+  moveToTopDeckFromHand,
   persistHandState,
   reshuffleDiscardIntoDeck,
+  shuffleBackIntoDeck,
+  shuffleBackIntoDeckFromDiscard,
 } from '../utils/handStorage'
 import type { HandPile, HandState, SavedArmy } from '../types'
 
@@ -59,9 +65,12 @@ export default function HandModal({ army, onClose }: HandModalProps) {
     }
   }, [onClose])
 
-  const activeIds = handState[activePile] ?? []
+  const activeIds =
+    activePile === 'deck' ? getDeckDisplayIds(handState) : (handState[activePile] ?? [])
+  const topDeckIds = useMemo(() => new Set(handState.topDeck), [handState.topDeck])
+  const deckDrawCount = getDeckDrawCount(handState)
   const piles: { id: HandPile; label: string; count: number }[] = [
-    { id: 'deck', label: 'Deck', count: handState.deck.length },
+    { id: 'deck', label: 'Deck', count: deckDrawCount },
     { id: 'hand', label: 'Hand', count: handState.hand.length },
     { id: 'discard', label: 'Discard', count: handState.discard.length },
   ]
@@ -139,7 +148,7 @@ export default function HandModal({ army, onClose }: HandModalProps) {
             <button
               type="button"
               className="secondary-btn"
-              disabled={handState.deck.length === 0}
+              disabled={deckDrawCount === 0}
               onClick={() => applyAction((state) => drawFromDeck(state, 1))}
             >
               Draw 1
@@ -147,7 +156,7 @@ export default function HandModal({ army, onClose }: HandModalProps) {
             <button
               type="button"
               className="secondary-btn"
-              disabled={handState.deck.length === 0}
+              disabled={deckDrawCount === 0}
               onClick={() => applyAction((state) => drawFromDeck(state, 3))}
             >
               Draw 3
@@ -199,37 +208,101 @@ export default function HandModal({ army, onClose }: HandModalProps) {
                 }
 
                 return (
-                  <div key={entryId} className="hand-card-item">
+                  <div
+                    key={entryId}
+                    className={
+                      activePile === 'deck' && topDeckIds.has(entryId)
+                        ? 'hand-card-item top-deck-card'
+                        : 'hand-card-item'
+                    }
+                  >
                     <CardDetail
                       card={armyCardToDetail(entry)}
                       headerAction={
-                        activePile === 'hand' ? (
-                          <button
-                            type="button"
-                            className="secondary-btn"
-                            onClick={() =>
-                              applyAction((state) => discardFromHand(state, entryId))
-                            }
-                          >
-                            Discard
-                          </button>
-                        ) : (
-                          <button
-                            type="button"
-                            className="primary-btn"
-                            onClick={() =>
-                              applyAction((state) =>
-                                activePile === 'deck'
-                                  ? drawCardFromDeck(state, entryId)
-                                  : drawCardFromDiscard(state, entryId),
-                              )
-                            }
-                          >
-                            Draw
-                          </button>
-                        )
+                        <div className="hand-card-actions">
+                          {activePile === 'hand' ? (
+                            <>
+                              <button
+                                type="button"
+                                className="secondary-btn"
+                                onClick={() =>
+                                  applyAction((state) => moveToTopDeckFromHand(state, entryId))
+                                }
+                              >
+                                Top Deck
+                              </button>
+                              <button
+                                type="button"
+                                className="secondary-btn"
+                                onClick={() =>
+                                  applyAction((state) => discardFromHand(state, entryId))
+                                }
+                              >
+                                Discard
+                              </button>
+                            </>
+                          ) : activePile === 'discard' ? (
+                            <>
+                              <button
+                                type="button"
+                                className="primary-btn"
+                                onClick={() =>
+                                  applyAction((state) => drawCardFromDiscard(state, entryId))
+                                }
+                              >
+                                Draw
+                              </button>
+                              <button
+                                type="button"
+                                className="secondary-btn"
+                                onClick={() =>
+                                  applyAction((state) => moveToTopDeckFromDiscard(state, entryId))
+                                }
+                              >
+                                Top Deck
+                              </button>
+                              <button
+                                type="button"
+                                className="secondary-btn"
+                                onClick={() =>
+                                  applyAction((state) =>
+                                    shuffleBackIntoDeckFromDiscard(state, entryId),
+                                  )
+                                }
+                              >
+                                Shuffle Back In
+                              </button>
+                            </>
+                          ) : activePile === 'deck' ? (
+                            <>
+                              <button
+                                type="button"
+                                className="primary-btn"
+                                onClick={() =>
+                                  applyAction((state) => drawCardFromDeck(state, entryId))
+                                }
+                              >
+                                Draw
+                              </button>
+                              {topDeckIds.has(entryId) && (
+                                <button
+                                  type="button"
+                                  className="secondary-btn"
+                                  onClick={() =>
+                                    applyAction((state) => shuffleBackIntoDeck(state, entryId))
+                                  }
+                                >
+                                  Shuffle Back In
+                                </button>
+                              )}
+                            </>
+                          ) : null}
+                        </div>
                       }
                     />
+                    {activePile === 'deck' && topDeckIds.has(entryId) && (
+                      <p className="hand-top-deck-badge">Top Deck</p>
+                    )}
                   </div>
                 )
               })}
