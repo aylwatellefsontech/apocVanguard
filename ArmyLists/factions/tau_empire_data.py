@@ -299,7 +299,7 @@ TAU_EMPIRE = {
     ),
     "Cadre Fireblade": u(
         "Cadre Fireblade",
-        {"M": '6"', "WS": "3+", "BS": "2+", "A": "1", "W": "1", "Ld": "6", "Sv": "8+", "N": "1", "Pt": "4"},
+        {"M": '6"', "WS": "3+", "BS": "2+", "A": "1", "W": "1", "Ld": "6", "Sv": "8+", "N": "1", "Pt": "11"},
         ["T'au Empire", "<Sept>", "Light", "Infantry", "Character", "Cadre Fireblade"],
         [
             {"name": "Pulse Rifle", "type": "Small Arms", "range": '30"', "attacks": "User", "skill": "9+", "armorPen": "10+", "abilities": "Rapid Fire"},
@@ -323,6 +323,42 @@ TAU_EMPIRE = {
         'Wisest of their Kind: Friendly Kroot units can use this unit\'s Leadership characteristic instead of their own whilst they are within 6" of this unit.\n'
         'The Shaper Commands: Re-roll wound rolls of 1 for attacks made by friendly Kroot units whilst they are within 6" of this unit.',
         options=["A Kroot Shaper is a unit that contains 1 model. It is equipped with: Ritual Blade."],
+    ),
+    "Krootox Riders": u(
+        "Krootox Riders",
+        {"M": '8"', "WS": "3+", "BS": "4+", "A": "1", "W": "1", "Ld": "4", "Sv": "10+", "N": "1", "Pt": "1"},
+        ["T'au Empire", "Kroot", "Light", "Cavalry", "Krootox Riders"],
+        [
+            {"name": "Kroot Guns", "type": "Small Arms", "range": '48"', "attacks": "User", "skill": "8+", "armorPen": "8+", "abilities": "Rapid Fire"},
+            {"name": "Krootox Fists", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        profiles=[
+            {"M": '8"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "4", "Sv": "10+", "N": "2", "Pt": "2"},
+            {"M": '8"', "WS": "3+", "BS": "4+", "A": "3", "W": "3", "Ld": "4", "Sv": "10+", "N": "3", "Pt": "3"},
+        ],
+        options=[
+            "Krootox Riders are a unit that contains 1 model. It can contain 2 models (Power Rating 2) or 3 models (Power Rating 3). "
+            "It is equipped with: Kroot Guns; Krootox Fists.",
+        ],
+    ),
+    "Krootox Rampagers": u(
+        "Krootox Rampagers",
+        {"M": '8"', "WS": "3+", "BS": "5+", "A": "2", "W": "1", "Ld": "4", "Sv": "10+", "N": "1", "Pt": "3"},
+        ["T'au Empire", "Kroot", "Light", "Cavalry", "Krootox Rampagers"],
+        [
+            {"name": "Kroot Pistols", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "8+", "armorPen": "10+"},
+            {"name": "Hunting Blades", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "9+"},
+            {"name": "Rampager Fists", "type": "Melee", "range": "Melee", "attacks": "x4", "skill": "5+", "armorPen": "8+"},
+        ],
+        "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.",
+        profiles=[
+            {"M": '8"', "WS": "3+", "BS": "5+", "A": "4", "W": "2", "Ld": "4", "Sv": "10+", "N": "2", "Pt": "5"},
+            {"M": '8"', "WS": "3+", "BS": "5+", "A": "6", "W": "3", "Ld": "4", "Sv": "10+", "N": "3", "Pt": "7"},
+        ],
+        options=[
+            "Krootox Rampagers are a unit that contains 1 model. It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7). "
+            "It is equipped with: Hunting Blades; Rampager Fists.",
+        ],
     ),
     "TX4 Piranhas": u(
         "TX4 Piranhas",
@@ -507,6 +543,24 @@ TAU_EMPIRE = {
             "For each Shielded Missile Drone this unit has, it is also equipped with 1 Missile Pod.",
         ],
     ),
+    "XV9 Hazard Battlesuit": u(
+        "XV9 Hazard Battlesuit",
+        {"M": '8"', "WS": "5+", "BS": "4+", "A": "1", "W": "2", "Ld": "6", "Sv": "5+", "N": "1", "Pt": "4"},
+        ["T'au Empire", "<Sept>", "Light", "Battlesuit", "Fly", "Jet Pack", "XV9 Hazard Battlesuit"],
+        [
+            {"name": "Fusion Cascade", "type": "Heavy", "range": '12"', "attacks": "1", "skill": "9+", "armorPen": "4+"},
+            {"name": "Twin Hazard Burst Cannon", "type": "Heavy", "range": '24"', "attacks": "4", "skill": "7+", "armorPen": "9+"},
+            {"name": "Phased Ion Gun", "type": "Heavy", "range": '30"', "attacks": "2", "skill": "7+", "armorPen": "8+"},
+            {"name": "Battlesuit Fists", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "9+"},
+        ],
+        "Deep Strike\n"
+        "Reactive Impact Dampeners: Re-roll wound rolls of 1 for attacks made with melee weapons by this unit.",
+        options=[
+            "An XV9 Hazard Battlesuit is a unit that contains 1 model. It is equipped with: Fusion Cascade; Twin Hazard Burst Cannon; Battlesuit Fists.",
+            "Instead of 1 Fusion Cascade, this unit can be equipped with 1 Phased Ion Gun.",
+            "Instead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion Cascade or 1 Phased Ion Gun.",
+        ],
+    ),
     "MV71 Sniper Drones": u(
         "MV71 Sniper Drones",
         {"M": '8"', "WS": "5+", "BS": "5+", "A": "1", "W": "1", "Ld": "4", "Sv": "8+", "N": "3", "Pt": "3"},
@@ -619,6 +673,28 @@ TAU_EMPIRE = {
             "This unit can also be equipped with 1 Missile Pod (Power Rating +1).",
         ],
     ),
+    "Tidewall": u(
+        "Tidewall",
+        {"M": '6"', "WS": "-", "BS": "5+", "A": "-", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "6"},
+        ["T'au Empire", "<Sept>", "Building", "Vehicle", "Transport", "Tidewall"],
+        [
+            {"name": "Supremacy Railgun", "type": "Heavy", "range": '72"', "attacks": "1", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Pulse Carbines", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "9+", "armorPen": "9+"},
+        ],
+        "Open-topped\n"
+        "Mobile Defence Platform: This unit can only make a Move action if any models are embarked aboard it.\n"
+        "TRANSPORT: This unit can transport up to 10 T'au Empire Infantry models.\n"
+        "Tidewall Gunrig — Automated Fire Control Systems: This unit will always target the closest enemy unit with its Supremacy Railgun "
+        "unless a friendly <Sept> unit is embarked aboard it. If two enemy units are equally close, you can choose which one this unit targets.\n"
+        "Tidewall Droneport — Automated Drone Control Systems: This unit will always target the closest enemy unit with its Pulse Carbines. "
+        "If two enemy units are equally close, you can choose which one this unit targets.",
+        options=[
+            "Select one Tidewall configuration when including this unit: Tidewall Gunrig, Tidewall Droneport, or Tidewall Shieldline.",
+            "Tidewall Gunrig is equipped with: Supremacy Railgun.",
+            "Tidewall Droneport is equipped with: 2 Pulse Carbines.",
+            "Tidewall Shieldline has no ranged weapons.",
+        ],
+    ),
     "Tidewall Gunrig": u(
         "Tidewall Gunrig",
         {"M": '6"', "WS": "-", "BS": "5+", "A": "-", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "6"},
@@ -634,36 +710,36 @@ TAU_EMPIRE = {
 }
 
 TAU_EMPIRE_SLOTS = [
-    slot(1, "HQ", TAU_EMPIRE["Commander Shadowsun"]),
+    slot(1, "HQ", TAU_EMPIRE["Commander"]),
     slot(2, "HQ", TAU_EMPIRE["Commander Farsight"]),
-    slot(3, "HQ", TAU_EMPIRE["Commander"]),
-    slot(4, "Lord", TAU_EMPIRE["Aun'Va"]),
-    slot(5, "HQ", TAU_EMPIRE["Ethereal"]),
-    slot(6, "Troops", TAU_EMPIRE["Strike Team"]),
-    slot(7, "Troops", TAU_EMPIRE["Breacher Team"]),
-    slot(8, "Troops", TAU_EMPIRE["Kroot Carnivores"]),
-    slot(9, "Elites", TAU_EMPIRE["XV25 Stealth Battlesuits"]),
-    slot(10, "Elites", TAU_EMPIRE["XV8 Crisis Battlesuits"]),
-    slot(11, "Elites", TAU_EMPIRE["XV8 Crisis Bodyguards"]),
-    slot(12, "Elites", TAU_EMPIRE["Pathfinder Team"]),
-    slot(13, "Elites", TAU_EMPIRE["Firesight Marksman"]),
-    slot(14, "Elites", TAU_EMPIRE["Darkstrider"]),
-    slot(15, "Elites", TAU_EMPIRE["Cadre Fireblade"]),
-    slot(16, "Elites", TAU_EMPIRE["Kroot Shaper"]),
-    slot(17, "Fast", TAU_EMPIRE["TX4 Piranhas"]),
-    slot(18, "Fast", TAU_EMPIRE["Vespid Stingwings"]),
+    slot(3, "HQ", TAU_EMPIRE["Cadre Fireblade"]),
+    slot(4, "HQ", TAU_EMPIRE["Ethereal"]),
+    slot(5, "Troops", TAU_EMPIRE["Breacher Team"]),
+    slot(6, "Troops", TAU_EMPIRE["Kroot Carnivores"]),
+    slot(7, "Troops", TAU_EMPIRE["Strike Team"]),
+    slot(8, "Elites", TAU_EMPIRE["Firesight Marksman"]),
+    slot(9, "Elites", TAU_EMPIRE["Kroot Shaper"]),
+    slot(10, "Elites", TAU_EMPIRE["Krootox Riders"]),
+    slot(11, "Elites", TAU_EMPIRE["Krootox Rampagers"]),
+    slot(12, "Elites", TAU_EMPIRE["XV25 Stealth Battlesuits"]),
+    slot(13, "Elites", TAU_EMPIRE["XV8 Crisis Battlesuits"]),
+    slot(14, "Elites", TAU_EMPIRE["XV8 Crisis Bodyguards"]),
+    slot(15, "Elites", TAU_EMPIRE["XV95 Ghostkeel Battlesuit"]),
+    slot(16, "Elites", TAU_EMPIRE["XV104 Riptide Battlesuit"]),
+    slot(17, "Elites", TAU_EMPIRE["XV9 Hazard Battlesuit"]),
+    slot(18, "Fast", TAU_EMPIRE["Pathfinder Team"]),
     slot(19, "Fast", TAU_EMPIRE["Kroot Hounds"]),
     slot(20, "Fast", TAU_EMPIRE["Tactical Drones"]),
-    slot(21, "Heavy", TAU_EMPIRE["XV88 Broadside Battlesuits"]),
-    slot(22, "Heavy", TAU_EMPIRE["TX7 Hammerhead Gunship"]),
-    slot(23, "Heavy", TAU_EMPIRE["TX78 Sky Ray Gunship"]),
-    slot(24, "Heavy", TAU_EMPIRE["XV95 Ghostkeel Battlesuit"]),
-    slot(25, "Heavy", TAU_EMPIRE["XV104 Riptide Battlesuit"]),
-    slot(26, "Heavy", TAU_EMPIRE["MV71 Sniper Drones"]),
-    slot(27, "Heavy", TAU_EMPIRE["Longstrike"]),
-    slot(28, "Lord", TAU_EMPIRE["KV128 Stormsurge"]),
-    slot(29, "Transport", TAU_EMPIRE["TY7 Devilfish"]),
-    slot(30, "Air", TAU_EMPIRE["AX3 Razorshark Strike Fighter"]),
-    slot(31, "Air", TAU_EMPIRE["AX39 Sun Shark Bomber"]),
-    slot(32, "Lord", TAU_EMPIRE["Tidewall Gunrig"]),
+    slot(21, "Fast", TAU_EMPIRE["TX4 Piranhas"]),
+    slot(22, "Fast", TAU_EMPIRE["Vespid Stingwings"]),
+    slot(23, "Heavy", TAU_EMPIRE["Longstrike"]),
+    slot(24, "Heavy", TAU_EMPIRE["MV71 Sniper Drones"]),
+    slot(25, "Heavy", TAU_EMPIRE["TX7 Hammerhead Gunship"]),
+    slot(26, "Heavy", TAU_EMPIRE["TX78 Sky Ray Gunship"]),
+    slot(27, "Heavy", TAU_EMPIRE["XV88 Broadside Battlesuits"]),
+    slot(28, "Air", TAU_EMPIRE["AX3 Razorshark Strike Fighter"]),
+    slot(29, "Air", TAU_EMPIRE["AX39 Sun Shark Bomber"]),
+    slot(30, "Transport", TAU_EMPIRE["TY7 Devilfish"]),
+    slot(31, "Lord", TAU_EMPIRE["KV128 Stormsurge"]),
+    slot(32, "Lord", TAU_EMPIRE["Tidewall"]),
 ]

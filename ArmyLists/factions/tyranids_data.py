@@ -41,13 +41,22 @@ TYRANIDS = {
         'Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warrior units whilst they are within 6" of any friendly units with this ability.',
         options=["A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons."],
     ),
-    "Broodlord": u(
-        "Broodlord",
-        {"M": '9"', "WS": "2+", "BS": "-", "A": "2", "W": "1", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "6"},
-        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Light", "Infantry", "Psyker", "Character", "Genestealer", "Synapse Creature", "Broodlord"],
-        [{"name": "Monstrous Rending Claws", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "4+", "armorPen": "7+"}],
-        'Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Hive Fleet> Genestealer units whilst they are within 6" of any friendly <Hive Fleet> units with this ability.',
-        options=["A Broodlord is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws."],
+    "Tervigon": u(
+        "Tervigon",
+        {"M": '8"', "WS": "4+", "BS": "4+", "A": "1", "W": "3", "Ld": "7", "Sv": "6+", "N": "1", "Pt": "6"},
+        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Heavy", "Monster", "Psyker", "Character", "Synapse Creature", "Tervigon"],
+        [
+            {"name": "Stinger Salvo", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Massive Crushing Claws", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "5+"},
+            {"name": "Massive Scything Talons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "7+"},
+        ],
+        "Brood Progenitor: Re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Hive Fleet> Termagant units whilst they are within 6\" of this unit.\n"
+        "Synaptic Backlash: If this unit is destroyed, place one blast marker next to every friendly <Hive Fleet> Termagant unit within 6\" of this unit before removing it from the battlefield.\n"
+        "Spawn Termagants: Once per turn, at the start of the Set Up Reinforcements step of the Orders phase, this unit can spawn Termagants. If it does, add a new unit of 10 Termagant models equipped with Fleshborers to your army: it is part of this unit's Detachment and has the <Hive Fleet> keyword. Set the new unit up on the battlefield wholly within 6\" of this unit and more than 1\" from enemy units. If the unit cannot be placed in this way, it is destroyed. Then roll a D6; on a 1-3 this unit cannot use this ability again this battle.",
+        options=[
+            "A Tervigon is a unit that contains 1 model. It is equipped with: Stinger Salvo; Massive Scything Talons.",
+            "Instead of Massive Scything Talons, this unit can be equipped with Massive Crushing Claws.",
+        ],
     ),
     "The Swarmlord": u(
         "The Swarmlord",
@@ -166,16 +175,37 @@ TYRANIDS = {
         "Deep Strike, Stealth",
         options=["A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons."],
     ),
-    "Deathleaper": u(
-        "Deathleaper",
-        {"M": '9"', "WS": "2+", "BS": "4+", "A": "1", "W": "1", "Ld": "8", "Sv": "10+", "N": "1", "Pt": "4"},
-        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Light", "Infantry", "Character", "Lictor", "Deathleaper"],
+    "Pyrovores": u(
+        "Pyrovores",
+        {"M": '5"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "3"},
+        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Light", "Infantry", "Pyrovores"],
         [
-            {"name": "Flesh Hooks", "type": "Small Arms", "range": '6"', "attacks": "User", "skill": "8+", "armorPen": "9+"},
-            {"name": "Grasping Talons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "8+"},
+            {"name": "Flamespurt", "type": "Heavy", "range": '10"', "attacks": "User", "skill": "4+", "armorPen": "8+", "abilities": "Inferno"},
+            {"name": "Acid Maw", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "8+"},
         ],
-        "Deep Strike, Stealth, Terror Troops",
-        options=["Deathleaper is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons. You can only include one of this unit in your army."],
+        "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
+        profiles=[
+            {"M": '5"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "4", "Sv": "8+", "N": "2", "Pt": "5"},
+            {"M": '5"', "WS": "4+", "BS": "4+", "A": "3", "W": "3", "Ld": "4", "Sv": "8+", "N": "3", "Pt": "7"},
+        ],
+        options=[
+            "Pyrovores are a unit that contains 1 model. It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7). It is equipped with: Flamespurt; Acid Maw.",
+        ],
+    ),
+    "Haruspex": u(
+        "Haruspex",
+        {"M": '7"', "WS": "4+", "BS": "4+", "A": "2", "W": "3", "Ld": "4", "Sv": "6+", "N": "1", "Pt": "8"},
+        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Heavy", "Monster", "Haruspex"],
+        [
+            {"name": "Grasping Tongue", "type": "Small Arms", "range": '12"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Ravenous Maw", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "6+", "armorPen": "9+"},
+            {"name": "Shovelling Claws", "type": "Melee", "range": "Melee", "attacks": "1", "skill": "5+", "armorPen": "4+"},
+        ],
+        "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.\n"
+        "Rapacious Hunger: When an enemy Light unit is destroyed whilst in base contact with this unit, if this unit has at least one damage marker next to it, remove one damage marker from this unit.",
+        options=[
+            "A Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws.",
+        ],
     ),
     "Tyrant Guard": u(
         "Tyrant Guard",
@@ -258,17 +288,6 @@ TYRANIDS = {
         options=[
             "Raveners are a unit that contains 3 models. It can contain 6 models (Power Rating 10) or 9 models (Power Rating 15). It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons.",
         ],
-    ),
-    "The Red Terror": u(
-        "The Red Terror",
-        {"M": '12"', "WS": "3+", "BS": "4+", "A": "1", "W": "1", "Ld": "5", "Sv": "8+", "N": "1", "Pt": "5"},
-        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Light", "Infantry", "Character", "Ravener", "The Red Terror"],
-        [
-            {"name": "Prehensile Pincer Tail", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
-            {"name": "Scything Talons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
-        ],
-        'Deep Strike\nFeeding Frenzy: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Ravener units whilst they are within 6" of this unit.',
-        options=["The Red Terror is a unit that contains 1 model. It is equipped with: Prehensile Pincer Tail; Scything Talons. You can only include one of this unit in your army."],
     ),
     "Spore Mines": u(
         "Spore Mines",
@@ -387,19 +406,18 @@ TYRANIDS = {
         "Deep Strike",
         options=["A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons."],
     ),
-    "Old One Eye": u(
-        "Old One Eye",
-        {"M": '7"', "WS": "3+", "BS": "-", "A": "2", "W": "2", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "7"},
-        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Heavy", "Monster", "Character", "Carnifex", "Old One Eye"],
+    "Mawloc": u(
+        "Mawloc",
+        {"M": '9"', "WS": "4+", "BS": "-", "A": "1", "W": "3", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "10"},
+        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Heavy", "Monster", "Mawloc"],
         [
-            {"name": "Monstrous Crushing Claws", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "5+"},
-            {"name": "Monstrous Scything Talons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "6+"},
+            {"name": "Distensible Jaws", "type": "Melee", "range": "Melee", "attacks": "1", "skill": "5+", "armorPen": "6+"},
+            {"name": "Scything Talons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
         ],
-        'Alpha Leader: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Carnifex units whilst they are within 6" of this unit.\n'
-        "Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
-        options=[
-            "Old One Eye is a unit that contains 1 model. It is equipped with: Monstrous Crushing Claws; Monstrous Scything Talons. You can only include one of this unit in your army.",
-        ],
+        "Deep Strike\n"
+        "Burrow: When this unit makes a Move action, it can burrow instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up as described in the Terror from the Deep ability. A unit cannot burrow if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\n"
+        'Terror from the Deep: When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1" away from any enemy units, instead of 9". After setting this unit up using the Deep Strike ability, if there are any enemy units within 3" of it, select one of those units and roll one D12. On a 3-5 place one blast marker next to that unit, on a 6-9 place two blast markers next to that unit and on a 10+ place three blast markers next to that unit.',
+        options=["A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons."],
     ),
     "Tyrannocyte": u(
         "Tyrannocyte",
@@ -449,58 +467,56 @@ TYRANIDS = {
         ],
         options=["A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur."],
     ),
-    "Sporocyst": u(
-        "Sporocyst",
-        {"M": "-", "WS": "5+", "BS": "5+", "A": "1", "W": "2", "Ld": "5", "Sv": "8+", "N": "1", "Pt": "7"},
-        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Heavy", "Monster", "Synapse Creature", "Sporocyst"],
+    "Hierophant": u(
+        "Hierophant",
+        {"M": '12"', "WS": "3+", "BS": "3+", "A": "6", "W": "8", "Ld": "8", "Sv": "3+", "N": "1", "Pt": "30"},
+        ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Super-heavy", "Monster", "Transport", "Titanic", "Hierophant Bio-titan"],
         [
-            {"name": "Barbed Stranglers", "type": "Heavy", "range": '36"', "attacks": "5", "skill": "7+", "armorPen": "9+"},
-            {"name": "Deathspitters", "type": "Heavy", "range": '24"', "attacks": "5", "skill": "6+", "armorPen": "9+"},
-            {"name": "Spore Node", "type": "Heavy", "range": '9"', "attacks": "1", "skill": "4+", "armorPen": "4+", "abilities": "Barrage"},
-            {"name": "Venom Cannons", "type": "Heavy", "range": '36"', "attacks": "5", "skill": "9+", "armorPen": "7+"},
-            {"name": "Barbed Tentacles", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+            {"name": "Bio-plasma Torrent", "type": "Heavy", "range": '8"', "attacks": "5", "skill": "7+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Dire Bio-cannon", "type": "Heavy", "range": '48"', "attacks": "3", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Gargantuan Scything Talons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Lashwhip Pods", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "8+"},
         ],
-        "Deep Strike\n"
-        "Immobile: This unit is never Out of Command: an Out of Command marker is never placed next to it.\n"
-        "Bio-fortress: When this unit makes a Shoot action, it can target enemy units in base contact with it.",
+        "Incendiary Ichor: Each time a blast marker is placed next to this unit, if there are any enemy units in base contact with this unit, roll one D6; on a 3+ place one blast marker next to an enemy unit in base contact with this unit.\n"
+        "Frenzied Metabolism: When this unit makes a Shoot action, you can place one blast marker next to this unit. If you do so, add 1 to wound rolls for attacks made by this unit for that action.\n"
+        "Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.",
         options=[
-            "A Sporocyst is a unit that contains 1 model. It is equipped with: Deathspitters; Spore Node; Barbed Tentacles.",
-            "Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",
+            "A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.",
         ],
     ),
 }
 
 TYRANIDS_SLOTS = [
-    slot(1, "HQ", TYRANIDS["Hive Tyrant"]),
-    slot(2, "HQ", TYRANIDS["Tyranid Prime"]),
-    slot(3, "HQ", TYRANIDS["Broodlord"]),
-    slot(4, "Lord", TYRANIDS["The Swarmlord"]),
-    slot(5, "Troops", TYRANIDS["Termagants"]),
+    slot(1, "HQ", TYRANIDS["The Swarmlord"]),
+    slot(2, "HQ", TYRANIDS["Tervigon"]),
+    slot(3, "HQ", TYRANIDS["Hive Tyrant"]),
+    slot(4, "HQ", TYRANIDS["Tyranid Prime"]),
+    slot(5, "Troops", TYRANIDS["Tyranid Warriors"]),
     slot(6, "Troops", TYRANIDS["Hormagaunts"]),
     slot(7, "Troops", TYRANIDS["Ripper Swarms"]),
-    slot(8, "Elites", TYRANIDS["Tyranid Warriors"]),
+    slot(8, "Troops", TYRANIDS["Termagants"]),
     slot(9, "Elites", TYRANIDS["Genestealers"]),
-    slot(10, "Elites", TYRANIDS["Zoanthropes"]),
+    slot(10, "Elites", TYRANIDS["Hive Guard"]),
     slot(11, "Elites", TYRANIDS["Lictor"]),
-    slot(12, "Elites", TYRANIDS["Deathleaper"]),
+    slot(12, "Elites", TYRANIDS["Neurothrope"]),
     slot(13, "Elites", TYRANIDS["Tyrant Guard"]),
-    slot(14, "Elites", TYRANIDS["Hive Guard"]),
-    slot(15, "Elites", TYRANIDS["Venomthropes"]),
-    slot(16, "Elites", TYRANIDS["Neurothrope"]),
-    slot(17, "Fast", TYRANIDS["Gargoyles"]),
-    slot(18, "Fast", TYRANIDS["Raveners"]),
-    slot(19, "Fast", TYRANIDS["The Red Terror"]),
+    slot(14, "Elites", TYRANIDS["Venomthropes"]),
+    slot(15, "Elites", TYRANIDS["Zoanthropes"]),
+    slot(16, "Elites", TYRANIDS["Pyrovores"]),
+    slot(17, "Elites", TYRANIDS["Haruspex"]),
+    slot(18, "Fast", TYRANIDS["Gargoyles"]),
+    slot(19, "Fast", TYRANIDS["Raveners"]),
     slot(20, "Fast", TYRANIDS["Spore Mines"]),
-    slot(21, "Heavy", TYRANIDS["Carnifex"]),
-    slot(22, "Heavy", TYRANIDS["Exocrine"]),
-    slot(23, "Heavy", TYRANIDS["Tyrannofex"]),
-    slot(24, "Heavy", TYRANIDS["Biovores"]),
+    slot(21, "Heavy", TYRANIDS["Biovores"]),
+    slot(22, "Heavy", TYRANIDS["Carnifex"]),
+    slot(23, "Heavy", TYRANIDS["Exocrine"]),
+    slot(24, "Heavy", TYRANIDS["Screamer-Killer"]),
     slot(25, "Heavy", TYRANIDS["Toxicrene"]),
-    slot(26, "Heavy", TYRANIDS["Screamer-Killer"]),
-    slot(27, "Heavy", TYRANIDS["Trygon"]),
-    slot(28, "Lord", TYRANIDS["Old One Eye"]),
-    slot(29, "Transport", TYRANIDS["Tyrannocyte"]),
-    slot(30, "Air", TYRANIDS["Harpy"]),
-    slot(31, "Air", TYRANIDS["Hive Crone"]),
-    slot(32, "Lord", TYRANIDS["Sporocyst"]),
+    slot(26, "Heavy", TYRANIDS["Trygon"]),
+    slot(27, "Heavy", TYRANIDS["Tyrannofex"]),
+    slot(28, "Heavy", TYRANIDS["Mawloc"]),
+    slot(29, "Air", TYRANIDS["Harpy"]),
+    slot(30, "Air", TYRANIDS["Hive Crone"]),
+    slot(31, "Transport", TYRANIDS["Tyrannocyte"]),
+    slot(32, "Lord", TYRANIDS["Hierophant"]),
 ]

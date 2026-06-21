@@ -3,6 +3,124 @@
   "source": "Apoc40k-Armies-1st - Tyranids.csv",
   "units": [
     {
+      "name": "The Swarmlord",
+      "stats": {
+        "M": "9\"",
+        "WS": "2+",
+        "BS": "3+",
+        "A": "2",
+        "W": "2",
+        "Ld": "8",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "12"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Psyker",
+        "Character",
+        "Synapse Creature",
+        "Hive Tyrant",
+        "The Swarmlord"
+      ],
+      "weapons": [
+        {
+          "name": "Bone Sabres",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Prehensile Pincer Tail",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nHive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army."
+        }
+      ],
+      "no": 1,
+      "type": "HQ"
+    },
+    {
+      "name": "Tervigon",
+      "stats": {
+        "M": "8\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "3",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Psyker",
+        "Character",
+        "Synapse Creature",
+        "Tervigon"
+      ],
+      "weapons": [
+        {
+          "name": "Stinger Salvo",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Massive Crushing Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Massive Scything Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Brood Progenitor: Re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Hive Fleet> Termagant units whilst they are within 6\" of this unit.\nSynaptic Backlash: If this unit is destroyed, place one blast marker next to every friendly <Hive Fleet> Termagant unit within 6\" of this unit before removing it from the battlefield.\nSpawn Termagants: Once per turn, at the start of the Set Up Reinforcements step of the Orders phase, this unit can spawn Termagants. If it does, add a new unit of 10 Termagant models equipped with Fleshborers to your army: it is part of this unit's Detachment and has the <Hive Fleet> keyword. Set the new unit up on the battlefield wholly within 6\" of this unit and more than 1\" from enemy units. If the unit cannot be placed in this way, it is destroyed. Then roll a D6; on a 1-3 this unit cannot use this ability again this battle.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Tervigon is a unit that contains 1 model. It is equipped with: Stinger Salvo; Massive Scything Talons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Massive Scything Talons, this unit can be equipped with Massive Crushing Claws."
+        }
+      ],
+      "no": 2,
+      "type": "HQ"
+    },
+    {
       "name": "Hive Tyrant",
       "stats": {
         "M": "9\"",
@@ -116,7 +234,7 @@
           "text": "- Has the following additional keywords: Fly."
         }
       ],
-      "no": 1,
+      "no": 3,
       "type": "HQ"
     },
     {
@@ -167,120 +285,21 @@
           "text": "A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons."
         }
       ],
-      "no": 2,
-      "type": "HQ"
-    },
-    {
-      "name": "Broodlord",
-      "stats": {
-        "M": "9\"",
-        "WS": "2+",
-        "BS": "-",
-        "A": "2",
-        "W": "1",
-        "Ld": "8",
-        "Sv": "7+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Psyker",
-        "Character",
-        "Genestealer",
-        "Synapse Creature",
-        "Broodlord"
-      ],
-      "weapons": [
-        {
-          "name": "Monstrous Rending Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "4+",
-          "armorPen": "7+"
-        }
-      ],
-      "abilities": "Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Hive Fleet> Genestealer units whilst they are within 6\" of any friendly <Hive Fleet> units with this ability.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Broodlord is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws."
-        }
-      ],
-      "no": 3,
-      "type": "HQ"
-    },
-    {
-      "name": "The Swarmlord",
-      "stats": {
-        "M": "9\"",
-        "WS": "2+",
-        "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "8",
-        "Sv": "5+",
-        "N": "1",
-        "Pt": "12"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Psyker",
-        "Character",
-        "Synapse Creature",
-        "Hive Tyrant",
-        "The Swarmlord"
-      ],
-      "weapons": [
-        {
-          "name": "Bone Sabres",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "6+",
-          "abilities": "Destroyer"
-        },
-        {
-          "name": "Prehensile Pincer Tail",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nHive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army."
-        }
-      ],
       "no": 4,
-      "type": "Lord"
+      "type": "HQ"
     },
     {
-      "name": "Termagants",
+      "name": "Tyranid Warriors",
       "stats": {
         "M": "6\"",
-        "WS": "4+",
+        "WS": "3+",
         "BS": "4+",
         "A": "2",
         "W": "2",
-        "Ld": "4",
-        "Sv": "10+",
-        "N": "10",
-        "Pt": "2"
+        "Ld": "7",
+        "Sv": "8+",
+        "N": "3",
+        "Pt": "4"
       },
       "keywords": [
         "Tyranids",
@@ -288,87 +307,82 @@
         "<Hive Fleet>",
         "Light",
         "Infantry",
-        "Termagants"
+        "Synapse Creature",
+        "Tyranid Warriors"
       ],
       "weapons": [
         {
-          "name": "Fleshborers",
+          "name": "Barbed Strangler",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Venom Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Ranged Bio-weapons",
           "type": "Small Arms",
-          "range": "12\"",
+          "range": "24\"",
           "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Spinefists",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Devourers",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "x3",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Termagant Melee Weapons",
+          "name": "Melee Bio-weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+"
+          "skill": "7+",
+          "armorPen": "7+"
         }
       ],
-      "abilities": "Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.",
       "profiles": [
         {
           "M": "6\"",
-          "WS": "4+",
+          "WS": "3+",
           "BS": "4+",
           "A": "4",
           "W": "4",
-          "Ld": "4",
-          "Sv": "10+",
-          "N": "20",
-          "Pt": "4"
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "8"
         },
         {
           "M": "6\"",
-          "WS": "4+",
+          "WS": "3+",
           "BS": "4+",
           "A": "6",
           "W": "6",
-          "Ld": "4",
-          "Sv": "10+",
-          "N": "30",
-          "Pt": "7"
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "12"
         }
       ],
       "options": [
         {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models (Power Rating 4)",
-          "Pt": "4"
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 8)",
+          "Pt": "8"
         },
         {
-          "per": "Per 30 models",
-          "text": "30 models (Power Rating 7)",
-          "Pt": "7"
+          "per": "Per 9 models",
+          "text": "9 models (Power Rating 12)",
+          "Pt": "12"
         },
         {
-          "per": "Per 10 models",
-          "text": "Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).",
+          "per": "Per weapon",
+          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon.",
           "Pt": "1"
-        },
-        {
-          "per": "Per 10 models",
-          "text": "Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains).",
-          "Pt": "2"
         }
       ],
       "no": 5,
@@ -517,17 +531,17 @@
       "type": "Troops"
     },
     {
-      "name": "Tyranid Warriors",
+      "name": "Termagants",
       "stats": {
         "M": "6\"",
-        "WS": "3+",
+        "WS": "4+",
         "BS": "4+",
         "A": "2",
         "W": "2",
-        "Ld": "7",
-        "Sv": "8+",
-        "N": "3",
-        "Pt": "4"
+        "Ld": "4",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "2"
       },
       "keywords": [
         "Tyranids",
@@ -535,86 +549,91 @@
         "<Hive Fleet>",
         "Light",
         "Infantry",
-        "Synapse Creature",
-        "Tyranid Warriors"
+        "Termagants"
       ],
       "weapons": [
         {
-          "name": "Barbed Strangler",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Venom Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Ranged Bio-weapons",
+          "name": "Fleshborers",
           "type": "Small Arms",
-          "range": "24\"",
+          "range": "12\"",
           "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         },
         {
-          "name": "Melee Bio-weapons",
+          "name": "Spinefists",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Devourers",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Termagant Melee Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "7+"
+          "skill": "8+",
+          "armorPen": "10+"
         }
       ],
+      "abilities": "Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.",
       "profiles": [
         {
           "M": "6\"",
-          "WS": "3+",
+          "WS": "4+",
           "BS": "4+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "8"
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "4"
         },
         {
           "M": "6\"",
-          "WS": "3+",
+          "WS": "4+",
           "BS": "4+",
           "A": "6",
           "W": "6",
-          "Ld": "7",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "12"
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "30",
+          "Pt": "7"
         }
       ],
       "options": [
         {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models (Power Rating 8)",
-          "Pt": "8"
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 4)",
+          "Pt": "4"
         },
         {
-          "per": "Per 9 models",
-          "text": "9 models (Power Rating 12)",
-          "Pt": "12"
+          "per": "Per 30 models",
+          "text": "30 models (Power Rating 7)",
+          "Pt": "7"
         },
         {
-          "per": "Per weapon",
-          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon.",
+          "per": "Per 10 models",
+          "text": "Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).",
           "Pt": "1"
+        },
+        {
+          "per": "Per 10 models",
+          "text": "Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains).",
+          "Pt": "2"
         }
       ],
       "no": 8,
-      "type": "Elites"
+      "type": "Troops"
     },
     {
       "name": "Genestealers",
@@ -704,228 +723,6 @@
       "type": "Elites"
     },
     {
-      "name": "Zoanthropes",
-      "stats": {
-        "M": "5\"",
-        "WS": "4+",
-        "BS": "3+",
-        "A": "1",
-        "W": "2",
-        "Ld": "7",
-        "Sv": "6+",
-        "N": "3",
-        "Pt": "5"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Fly",
-        "Psyker",
-        "Synapse Creature",
-        "Zoanthropes"
-      ],
-      "weapons": [
-        {
-          "name": "Warp Blast",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "4+",
-          "armorPen": "4+",
-          "abilities": "Witchfire"
-        },
-        {
-          "name": "Zoanthrope Melee Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ],
-      "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "6",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models (Power Rating 10)",
-          "Pt": "10"
-        }
-      ],
-      "no": 10,
-      "type": "Elites"
-    },
-    {
-      "name": "Lictor",
-      "stats": {
-        "M": "9\"",
-        "WS": "2+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "7",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "3"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Lictor"
-      ],
-      "weapons": [
-        {
-          "name": "Flesh Hooks",
-          "type": "Small Arms",
-          "range": "6\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Grasping Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Deep Strike, Stealth",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons."
-        }
-      ],
-      "no": 11,
-      "type": "Elites"
-    },
-    {
-      "name": "Deathleaper",
-      "stats": {
-        "M": "9\"",
-        "WS": "2+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "8",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "4"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Lictor",
-        "Deathleaper"
-      ],
-      "weapons": [
-        {
-          "name": "Flesh Hooks",
-          "type": "Small Arms",
-          "range": "6\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Grasping Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Deep Strike, Stealth, Terror Troops",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Deathleaper is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons. You can only include one of this unit in your army."
-        }
-      ],
-      "no": 12,
-      "type": "Elites"
-    },
-    {
-      "name": "Tyrant Guard",
-      "stats": {
-        "M": "7\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "2",
-        "W": "2",
-        "Ld": "4",
-        "Sv": "6+",
-        "N": "3",
-        "Pt": "5"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Tyrant Guard"
-      ],
-      "weapons": [
-        {
-          "name": "Tyrant Guard Melee Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "4+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.",
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "4",
-          "Sv": "6+",
-          "N": "6",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models (Power Rating 10)",
-          "Pt": "10"
-        }
-      ],
-      "no": 13,
-      "type": "Elites"
-    },
-    {
       "name": "Hive Guard",
       "stats": {
         "M": "5\"",
@@ -997,7 +794,166 @@
           "text": "Instead of Impaler Cannons, this unit can be equipped with Shockcannons."
         }
       ],
-      "no": 14,
+      "no": 10,
+      "type": "Elites"
+    },
+    {
+      "name": "Lictor",
+      "stats": {
+        "M": "9\"",
+        "WS": "2+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Light",
+        "Infantry",
+        "Lictor"
+      ],
+      "weapons": [
+        {
+          "name": "Flesh Hooks",
+          "type": "Small Arms",
+          "range": "6\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Grasping Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Deep Strike, Stealth",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons."
+        }
+      ],
+      "no": 11,
+      "type": "Elites"
+    },
+    {
+      "name": "Neurothrope",
+      "stats": {
+        "M": "5\"",
+        "WS": "4+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Light",
+        "Fly",
+        "Psyker",
+        "Character",
+        "Infantry",
+        "Zoanthrope",
+        "Synapse Creature",
+        "Neurothrope"
+      ],
+      "weapons": [
+        {
+          "name": "Spirit Leech",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+",
+          "abilities": "Witchfire"
+        },
+        {
+          "name": "Claws & Teeth",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth."
+        }
+      ],
+      "no": 12,
+      "type": "Elites"
+    },
+    {
+      "name": "Tyrant Guard",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "2",
+        "W": "2",
+        "Ld": "4",
+        "Sv": "6+",
+        "N": "3",
+        "Pt": "5"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Light",
+        "Infantry",
+        "Tyrant Guard"
+      ],
+      "weapons": [
+        {
+          "name": "Tyrant Guard Melee Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "4+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.",
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "4",
+          "Sv": "6+",
+          "N": "6",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 10)",
+          "Pt": "10"
+        }
+      ],
+      "no": 13,
       "type": "Elites"
     },
     {
@@ -1061,20 +1017,20 @@
           "Pt": "8"
         }
       ],
-      "no": 15,
+      "no": 14,
       "type": "Elites"
     },
     {
-      "name": "Neurothrope",
+      "name": "Zoanthropes",
       "stats": {
         "M": "5\"",
         "WS": "4+",
         "BS": "3+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "7",
         "Sv": "6+",
-        "N": "1",
+        "N": "3",
         "Pt": "5"
       },
       "keywords": [
@@ -1082,41 +1038,190 @@
         "Tyranid Hive Fleets",
         "<Hive Fleet>",
         "Light",
+        "Infantry",
         "Fly",
         "Psyker",
-        "Character",
-        "Infantry",
-        "Zoanthrope",
         "Synapse Creature",
-        "Neurothrope"
+        "Zoanthropes"
       ],
       "weapons": [
         {
-          "name": "Spirit Leech",
+          "name": "Warp Blast",
           "type": "Small Arms",
-          "range": "18\"",
+          "range": "24\"",
           "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+",
+          "skill": "4+",
+          "armorPen": "4+",
           "abilities": "Witchfire"
         },
         {
-          "name": "Claws & Teeth",
+          "name": "Zoanthrope Melee Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "10+",
           "armorPen": "10+"
         }
       ],
       "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "6",
+          "Pt": "10"
+        }
+      ],
       "options": [
         {
-          "per": "Per Unit",
-          "text": "A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth."
+          "per": "Per 6 models",
+          "text": "It can contain 6 models (Power Rating 10)",
+          "Pt": "10"
+        }
+      ],
+      "no": 15,
+      "type": "Elites"
+    },
+    {
+      "name": "Pyrovores",
+      "stats": {
+        "M": "5\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "3"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Light",
+        "Infantry",
+        "Pyrovores"
+      ],
+      "weapons": [
+        {
+          "name": "Flamespurt",
+          "type": "Heavy",
+          "range": "10\"",
+          "attacks": "User",
+          "skill": "4+",
+          "armorPen": "8+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Acid Maw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "5"
+        },
+        {
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "7"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 5)",
+          "Pt": "5"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 7)",
+          "Pt": "7"
         }
       ],
       "no": 16,
+      "type": "Elites"
+    },
+    {
+      "name": "Haruspex",
+      "stats": {
+        "M": "7\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "2",
+        "W": "3",
+        "Ld": "4",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "8"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Haruspex"
+      ],
+      "weapons": [
+        {
+          "name": "Grasping Tongue",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Ravenous Maw",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shovelling Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "4+"
+        }
+      ],
+      "abilities": "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.\nRapacious Hunger: When an enemy Light unit is destroyed whilst in base contact with this unit, if this unit has at least one damage marker next to it, remove one damage marker from this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws."
+        }
+      ],
+      "no": 17,
       "type": "Elites"
     },
     {
@@ -1196,7 +1301,7 @@
           "Pt": "12"
         }
       ],
-      "no": 17,
+      "no": 18,
       "type": "Fast"
     },
     {
@@ -1275,57 +1380,6 @@
           "Pt": "15"
         }
       ],
-      "no": 18,
-      "type": "Fast"
-    },
-    {
-      "name": "The Red Terror",
-      "stats": {
-        "M": "12\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "5"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Ravener",
-        "The Red Terror"
-      ],
-      "weapons": [
-        {
-          "name": "Prehensile Pincer Tail",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Scything Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ],
-      "abilities": "Deep Strike\nFeeding Frenzy: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Ravener units whilst they are within 6\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "The Red Terror is a unit that contains 1 model. It is equipped with: Prehensile Pincer Tail; Scything Talons. You can only include one of this unit in your army."
-        }
-      ],
       "no": 19,
       "type": "Fast"
     },
@@ -1390,6 +1444,85 @@
       ],
       "no": 20,
       "type": "Fast"
+    },
+    {
+      "name": "Biovores",
+      "stats": {
+        "M": "5\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "4",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Light",
+        "Infantry",
+        "Biovores"
+      ],
+      "weapons": [
+        {
+          "name": "Spore Mine Launcher",
+          "type": "Small Arms",
+          "range": "48\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "6+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "2",
+          "Pt": "4"
+        },
+        {
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "3",
+          "Ld": "4",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 2 models",
+          "text": "It can contain 2 models (Power Rating 4)",
+          "Pt": "4"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 6)",
+          "Pt": "6"
+        }
+      ],
+      "no": 21,
+      "type": "Heavy"
     },
     {
       "name": "Carnifex",
@@ -1500,7 +1633,7 @@
           "Pt": "1"
         }
       ],
-      "no": 21,
+      "no": 22,
       "type": "Heavy"
     },
     {
@@ -1549,7 +1682,163 @@
           "text": "An Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs."
         }
       ],
-      "no": 22,
+      "no": 23,
+      "type": "Heavy"
+    },
+    {
+      "name": "Screamer-Killer",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "4",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Carnifex",
+        "Screamer-Killer"
+      ],
+      "weapons": [
+        {
+          "name": "Bio-plasmic Scream",
+          "type": "Heavy",
+          "range": "18\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Screamer-Killer Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "6+"
+        }
+      ],
+      "abilities": "Terror Troops\nMonstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons."
+        }
+      ],
+      "no": 24,
+      "type": "Heavy"
+    },
+    {
+      "name": "Toxicrene",
+      "stats": {
+        "M": "8\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "1",
+        "W": "3",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "8"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Toxicrene"
+      ],
+      "weapons": [
+        {
+          "name": "Choking Spores",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Massive Toxic Lashes (Ranged)",
+          "type": "Small Arms",
+          "range": "8\"",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Massive Toxic Lashes (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6\" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.\nAcid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee)."
+        }
+      ],
+      "no": 25,
+      "type": "Heavy"
+    },
+    {
+      "name": "Trygon",
+      "stats": {
+        "M": "9\"",
+        "WS": "3+",
+        "BS": "4+",
+        "A": "3",
+        "W": "3",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Trygon"
+      ],
+      "weapons": [
+        {
+          "name": "Bio-electric Pulse",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Massive Scything Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Deep Strike",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons."
+        }
+      ],
+      "no": 26,
       "type": "Heavy"
     },
     {
@@ -1627,202 +1916,16 @@
           "text": "Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 Fleshborer Hive; 1 Rupture Cannon."
         }
       ],
-      "no": 23,
+      "no": 27,
       "type": "Heavy"
     },
     {
-      "name": "Biovores",
-      "stats": {
-        "M": "5\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "2"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Light",
-        "Infantry",
-        "Biovores"
-      ],
-      "weapons": [
-        {
-          "name": "Spore Mine Launcher",
-          "type": "Small Arms",
-          "range": "48\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "6+",
-          "abilities": "Barrage"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "4",
-          "Sv": "8+",
-          "N": "2",
-          "Pt": "4"
-        },
-        {
-          "M": "5\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "3",
-          "W": "3",
-          "Ld": "4",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "6"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 4)",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models (Power Rating 6)",
-          "Pt": "6"
-        }
-      ],
-      "no": 24,
-      "type": "Heavy"
-    },
-    {
-      "name": "Toxicrene",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "1",
-        "W": "3",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "8"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Toxicrene"
-      ],
-      "weapons": [
-        {
-          "name": "Choking Spores",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Massive Toxic Lashes (Ranged)",
-          "type": "Small Arms",
-          "range": "8\"",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Massive Toxic Lashes (Melee)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6\" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.\nAcid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee)."
-        }
-      ],
-      "no": 25,
-      "type": "Heavy"
-    },
-    {
-      "name": "Screamer-Killer",
-      "stats": {
-        "M": "7\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "4",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Carnifex",
-        "Screamer-Killer"
-      ],
-      "weapons": [
-        {
-          "name": "Bio-plasmic Scream",
-          "type": "Heavy",
-          "range": "18\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Screamer-Killer Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "6+"
-        }
-      ],
-      "abilities": "Terror Troops\nMonstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons."
-        }
-      ],
-      "no": 26,
-      "type": "Heavy"
-    },
-    {
-      "name": "Trygon",
+      "name": "Mawloc",
       "stats": {
         "M": "9\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "3",
+        "WS": "4+",
+        "BS": "-",
+        "A": "1",
         "W": "3",
         "Ld": "5",
         "Sv": "6+",
@@ -1835,156 +1938,35 @@
         "<Hive Fleet>",
         "Heavy",
         "Monster",
-        "Trygon"
+        "Mawloc"
       ],
       "weapons": [
         {
-          "name": "Bio-electric Pulse",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Massive Scything Talons",
+          "name": "Distensible Jaws",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
-      ],
-      "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons."
-        }
-      ],
-      "no": 27,
-      "type": "Heavy"
-    },
-    {
-      "name": "Old One Eye",
-      "stats": {
-        "M": "7\"",
-        "WS": "3+",
-        "BS": "-",
-        "A": "2",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "7"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Character",
-        "Carnifex",
-        "Old One Eye"
-      ],
-      "weapons": [
-        {
-          "name": "Monstrous Crushing Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Monstrous Scything Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
+          "attacks": "1",
           "skill": "5+",
           "armorPen": "6+"
+        },
+        {
+          "name": "Scything Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
         }
       ],
-      "abilities": "Alpha Leader: Add 1 to hit rolls for attacks made with melee weapons by friendly <Hive Fleet> Carnifex units whilst they are within 6\" of this unit.\nRegeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "abilities": "Deep Strike\nBurrow: When this unit makes a Move action, it can burrow instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up as described in the Terror from the Deep ability. A unit cannot burrow if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nTerror from the Deep: When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1\" away from any enemy units, instead of 9\". After setting this unit up using the Deep Strike ability, if there are any enemy units within 3\" of it, select one of those units and roll one D12. On a 3-5 place one blast marker next to that unit, on a 6-9 place two blast markers next to that unit and on a 10+ place three blast markers next to that unit.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Old One Eye is a unit that contains 1 model. It is equipped with: Monstrous Crushing Claws; Monstrous Scything Talons. You can only include one of this unit in your army."
+          "text": "A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons."
         }
       ],
       "no": 28,
-      "type": "Lord"
-    },
-    {
-      "name": "Tyrannocyte",
-      "stats": {
-        "M": "6\"",
-        "WS": "5+",
-        "BS": "5+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "8"
-      },
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Fly",
-        "Tyrannocyte"
-      ],
-      "weapons": [
-        {
-          "name": "Barbed Stranglers",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "5",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Deathspitters",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "5",
-          "skill": "6+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Venom Cannons",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "5",
-          "skill": "9+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Barbed Tentacles",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ],
-      "abilities": "Deep Strike\nTransport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6\" of this unit and more than 9\" from enemy units. If that unit cannot be placed in this way, it is destroyed.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
-        }
-      ],
-      "no": 29,
-      "type": "Transport"
+      "type": "Heavy"
     },
     {
       "name": "Harpy",
@@ -2053,7 +2035,7 @@
           "text": "Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Cannons."
         }
       ],
-      "no": 30,
+      "no": 29,
       "type": "Air"
     },
     {
@@ -2128,13 +2110,13 @@
           "text": "A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur."
         }
       ],
-      "no": 31,
+      "no": 30,
       "type": "Air"
     },
     {
-      "name": "Sporocyst",
+      "name": "Tyrannocyte",
       "stats": {
-        "M": "-",
+        "M": "6\"",
         "WS": "5+",
         "BS": "5+",
         "A": "1",
@@ -2142,7 +2124,7 @@
         "Ld": "5",
         "Sv": "8+",
         "N": "1",
-        "Pt": "7"
+        "Pt": "8"
       },
       "keywords": [
         "Tyranids",
@@ -2150,8 +2132,8 @@
         "<Hive Fleet>",
         "Heavy",
         "Monster",
-        "Synapse Creature",
-        "Sporocyst"
+        "Fly",
+        "Tyrannocyte"
       ],
       "weapons": [
         {
@@ -2171,15 +2153,6 @@
           "armorPen": "9+"
         },
         {
-          "name": "Spore Node",
-          "type": "Heavy",
-          "range": "9\"",
-          "attacks": "1",
-          "skill": "4+",
-          "armorPen": "4+",
-          "abilities": "Barrage"
-        },
-        {
           "name": "Venom Cannons",
           "type": "Heavy",
           "range": "36\"",
@@ -2196,15 +2169,85 @@
           "armorPen": "10+"
         }
       ],
-      "abilities": "Deep Strike\nImmobile: This unit is never Out of Command: an Out of Command marker is never placed next to it.\nBio-fortress: When this unit makes a Shoot action, it can target enemy units in base contact with it.",
+      "abilities": "Deep Strike\nTransport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6\" of this unit and more than 9\" from enemy units. If that unit cannot be placed in this way, it is destroyed.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "A Sporocyst is a unit that contains 1 model. It is equipped with: Deathspitters; Spore Node; Barbed Tentacles."
+          "text": "A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles."
         },
         {
           "per": "Per Unit",
           "text": "Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
+        }
+      ],
+      "no": 31,
+      "type": "Transport"
+    },
+    {
+      "name": "Hierophant",
+      "stats": {
+        "M": "12\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "6",
+        "W": "8",
+        "Ld": "8",
+        "Sv": "3+",
+        "N": "1",
+        "Pt": "30"
+      },
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Super-heavy",
+        "Monster",
+        "Transport",
+        "Titanic",
+        "Hierophant Bio-titan"
+      ],
+      "weapons": [
+        {
+          "name": "Bio-plasma Torrent",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "5",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Dire Bio-cannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "3",
+          "skill": "8+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Gargantuan Scything Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Lashwhip Pods",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Incendiary Ichor: Each time a blast marker is placed next to this unit, if there are any enemy units in base contact with this unit, roll one D6; on a 3+ place one blast marker next to an enemy unit in base contact with this unit.\nFrenzied Metabolism: When this unit makes a Shoot action, you can place one blast marker next to this unit. If you do so, add 1 to wound rolls for attacks made by this unit for that action.\nTransport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons."
         }
       ],
       "no": 32,

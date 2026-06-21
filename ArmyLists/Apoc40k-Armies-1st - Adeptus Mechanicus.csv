@@ -19,200 +19,187 @@ Light, Infantry, Character, Tech-Priest, Manipulus","per Unit: Instead of 1 Magn
 3,,,,,,,,,,,,Magnarail Lance,Heavy,"18""",1,8+,7+,,,
 3,,,,,,,,,,,,Transonic Cannon,Heavy,"8""",1,7+,9+,Inferno,,
 3,,,,,,,,,,,,Omnissian Staff,Melee,Melee,User,10+,10+,,,
-4,HQ,Tech-Priest Enginseer,"6""",4+,4+,1,1,6,5+,1,5,,,,,,,"Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Character, Tech-Priest, Enginseer",
-4,,,,,,,,,,,,Omnissian Axe & Servo-arm,Melee,Melee,User,8+,7+,,,
-5,Fast,Sydonian Dragoons,"10""",3+,3+,1,1,6,7+,1,5,,,,,,,"Incense Cloud: This unit is always an obscured target.
-Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Heavy, Vehicle, Sydonian Dragoons","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.; per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
-5,,,"10""",3+,3+,3,3,6,7+,3,15,,,,,,,,,
-5,,,"10""",3+,3+,6,6,6,7+,6,30,,,,,,,,,
-5,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",,
-5,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",,
-5,,,,,,,,,,,,Phosphor Serpenta,Heavy,"18""",1,7+,9+,,,
-5,,,,,,,,,,,,Radium Jezzail,Heavy,"30""",1,6+,8+,Sniper,,
-5,,,,,,,,,,,,Taser Lance,Melee,Melee,x2,6+,7+,,,
-5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-6,Troops,Skitarii Rangers,"6""",4+,3+,1,1,5,8+,5,3,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+4,HQ,Skatarii Marshal,"5""",3+,3+,1,1,6,4+,1,4,,,,,,,"Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6"" of this unit.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Character, Skatarii Marshal",
+4,,,,,,,,,,,,,,,,,,A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave.,,
+4,,,,,,,,,,,,Radium Serpenta,Small Arms,"12""",User,7+,9+,,,
+4,,,,,,,,,,,,Control Stave,Melee,Melee,User,8+,8+,,,
+5,Troops,Skitarii Rangers,"6""",4+,3+,1,1,5,8+,5,3,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Light, Infantry, Skitarii Rangers",
-6,,,"6""",4+,3+,2,2,5,8+,10,6,,,,,,,,,
-6,,,,,,,,,,,,Galvanic Rifles,Small Arms,"30""",User,7+,9+,Rapid Fire,,
-6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
-7,Troops,Skitarii Vanguard,"6""",4+,3+,1,1,5,8+,5,3,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+5,,,"6""",4+,3+,2,2,5,8+,10,6,,,,,,,,,
+5,,,,,,,,,,,,Galvanic Rifles,Small Arms,"30""",User,7+,9+,Rapid Fire,,
+5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
+6,Troops,Skitarii Vanguard,"6""",4+,3+,1,1,5,8+,5,3,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Light, Infantry, Skitarii Vanguard",
-7,,,"6""",4+,3+,2,2,5,8+,10,6,,,,,,,,,
-7,,,,,,,,,,,,Radium Carbines,Small Arms,"18""",x3,7+,10+,,,
-7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
-8,Elites,Kataphron Breachers,"6""",4+,4+,1,2,5,6+,3,6,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Kataphron Breachers","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
-8,,,"6""",4+,4+,2,4,5,6+,6,12,,,,,,,,,
-8,,,"6""",4+,4+,3,6,5,6+,9,18,,,,,,,,,
-8,,,"6""",4+,4+,4,8,5,6+,12,24,,,,,,,,,
-8,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",,
-8,,,,,,,,,,,,Heavy Arc Rifle,Heavy,"36""",1,7+,7+,,,
-8,,,,,,,,,,,,Torsion Cannon,Heavy,"24""",1,9+,5+,,,
-8,,,,,,,,,,,,Kataphron Claws,Melee,Melee,x2,6+,6+,,,
-9,Elites,Kataphron Destroyers,"6""",4+,4+,1,2,5,8+,3,7,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Kataphron Destroyers","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.; per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
-9,,,"6""",4+,4+,2,4,5,8+,6,14,,,,,,,,,
-9,,,"6""",4+,4+,3,6,5,8+,9,21,,,,,,,,,
-9,,,"6""",4+,4+,4,8,5,8+,12,28,,,,,,,,,
-9,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",,
-9,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",,
-9,,,,,,,,,,,,Cognis Flamer,Heavy,"8""",1,7+,10+,Inferno,,
-9,,,,,,,,,,,,Heavy Grav-cannon,Heavy,"30""",1,7+,5+,,,
-9,,,,,,,,,,,,Phosphor Blaster,Heavy,"24""",1,7+,9+,Rapid Fire,,
-9,,,,,,,,,,,,Plasma Culverin,Heavy,"36""",1,7+,7+,Supercharge,,
-9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-10,Elites,Servitors,"5""",5+,5+,1,1,4,8+,4,2,,,,,,,"Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6"" of at least one friendly <Forge World> Tech-Priest unit.","Imperium, Adeptus Mechanicus, <Forge World>
-Light, Infantry, Servitors",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.
-10,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.,,
-10,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
-10,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
-10,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
-10,,,,,,,,,,,,Servo-arms,Melee,Melee,User,8+,8+,,,
-11,Elites,Cybernetica Datasmith,"6""",3+,3+,1,1,6,4+,1,5,,,,,,,"Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+6,,,"6""",4+,3+,2,2,5,8+,10,6,,,,,,,,,
+6,,,,,,,,,,,,Radium Carbines,Small Arms,"18""",x3,7+,10+,,,
+6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
+7,Elites,Tech-Priest Enginseer,"6""",4+,4+,1,1,6,5+,1,5,,,,,,,"Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+Light, Infantry, Character, Tech-Priest, Enginseer",
+7,,,,,,,,,,,,Omnissian Axe & Servo-arm,Melee,Melee,User,8+,7+,,,
+8,Elites,Corpuscarii Electro-Priests,"6""",4+,3+,1,1,6,10+,5,4,,,,,,,Ignore Damage (5+),"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+Light, Infantry, Electro-Priests, Corpuscarii",
+8,,,"6""",4+,3+,2,2,6,10+,10,8,,,,,,,,,
+8,,,"6""",4+,3+,3,3,6,10+,15,12,,,,,,,,,
+8,,,"6""",4+,3+,4,4,6,10+,20,16,,,,,,,,,
+8,,,,,,,,,,,,Electrostatic Gauntlets (Ranged),Small Arms,"12""",x3,6+,8+,,,
+8,,,,,,,,,,,,Electrostatic Gauntlets (Melee),Melee,Melee,x3,6+,8+,,,
+9,Elites,Cybernetica Datasmith,"6""",3+,3+,1,1,6,4+,1,5,,,,,,,"Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
 Light, Infantry, Character, Tech-Priest, Cybernetica Datasmith",
-11,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,9+,,,
-12,Elites,Sicarian Ruststalkers,"8""",3+,3+,1,2,5,8+,5,4,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Light, Infantry, Sicarian Ruststalkers",
-12,,,"8""",3+,3+,2,4,5,8+,10,10,,,,,,,,,
-12,,,,,,,,,,,,Chordclaws,Melee,Melee,User,7+,9+,,,
-12,,,,,,,,,,,,Transonic Weapons,Melee,Melee,x3,6+,8+,,,
-13,Elites,Sicarian Infiltrators,"8""",3+,3+,1,2,5,8+,5,6,,,,,,,"Infiltrators, Terror Troops","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Light, Infantry, Sicarian Infiltrators","per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
-13,,,"8""",3+,3+,2,4,5,8+,10,12,,,,,,,,,
-13,,,,,,,,,,,,,,,,,,"Instead of Stubcarbines, this unit can be equipped with Flechette Blasters.",,
-13,,,,,,,,,,,,Flechette Blasters,Small Arms,"12""",x2,8+,10+,,,
-13,,,,,,,,,,,,Stubcarbines,Small Arms,"18""",User,7+,9+,,,
-13,,,,,,,,,,,,Infiltrator Weapons,Melee,Melee,x2,7+,9+,,,
-14,Elites,Fulgurite Electro-Priests,"6""",3+,4+,1,1,6,10+,5,3,,,,,,,"Ignore Damage (5+)
+9,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,9+,,,
+10,Elites,Fulgurite Electro-Priests,"6""",3+,4+,1,1,6,10+,5,3,,,,,,,"Ignore Damage (5+)
 Siphoned Vigour: If an enemy unit is destroyed within 1"" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
 Light, Infantry, Electro-Priests, Fulgurite",
-14,,,"6""",3+,4+,2,2,6,10+,10,6,,,,,,,,,
-14,,,"6""",3+,4+,3,3,6,10+,15,9,,,,,,,,,
-14,,,"6""",3+,4+,4,4,6,10+,20,12,,,,,,,,,
-14,,,,,,,,,,,,Electroleech Staves,Melee,Melee,x2,5+,7+,,,
-15,Elites,Corpuscarii Electro-Priests,"6""",4+,3+,1,1,6,10+,5,4,,,,,,,Ignore Damage (5+),"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Electro-Priests, Corpuscarii",
-15,,,"6""",4+,3+,2,2,6,10+,10,8,,,,,,,,,
-15,,,"6""",4+,3+,3,3,6,10+,15,12,,,,,,,,,
-15,,,"6""",4+,3+,4,4,6,10+,20,16,,,,,,,,,
-15,,,,,,,,,,,,Electrostatic Gauntlets (Ranged),Small Arms,"12""",x3,6+,8+,,,
-15,,,,,,,,,,,,Electrostatic Gauntlets (Melee),Melee,Melee,x3,6+,8+,,,
-16,Fast,Kastelan Robots,"8""",4+,4+,2,2,8,5+,2,7,,,,,,,"Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.
-Advance: Add 1 to saving throws made for this unit.
-Aimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.
-Assault: You can re-roll hit rolls for attacks made by this unit with melee weapons.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Heavy, Vehicle, Kastelan Robots","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.; per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
-16,,,"8""",4+,4+,4,4,8,5+,4,14,,,,,,,,,
-16,,,"8""",4+,4+,6,6,8,5+,6,21,,,,,,,,,
-16,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",,
-16,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",,
-16,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
-16,,,,,,,,,,,,Incendine Combustor,Heavy,"12""",1,6+,9+,Inferno,,
-16,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
-16,,,,,,,,,,,,Kastelan Fists,Melee,Melee,User,6+,5+,,,
-17,Fast,Ironstrider Ballistarii,"10""",3+,3+,1,1,6,8+,1,6,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Heavy, Vehicle, Ironstrider Ballistarii","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
-17,,,"10""",3+,3+,3,3,6,8+,3,18,,,,,,,,,
-17,,,"10""",3+,3+,6,6,6,8+,6,36,,,,,,,,,
-17,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",,
-17,,,,,,,,,,,,Twin Cognis Autocannon,Heavy,"48""",2,8+,8+,,,
-17,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
-17,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-18,Fast,Sydonian Dragoons,"10""",3+,3+,1,1,6,7+,1,5,,,,,,,"Incense Cloud: This unit is always an obscured target.
+10,,,"6""",3+,4+,2,2,6,10+,10,6,,,,,,,,,
+10,,,"6""",3+,4+,3,3,6,10+,15,9,,,,,,,,,
+10,,,"6""",3+,4+,4,4,6,10+,20,12,,,,,,,,,
+10,,,,,,,,,,,,Electroleech Staves,Melee,Melee,x2,5+,7+,,,
+11,Elites,Kataphron Breachers,"6""",4+,4+,1,2,5,6+,3,6,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+Light, Infantry, Kataphron Breachers","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+11,,,"6""",4+,4+,2,4,5,6+,6,12,,,,,,,,,
+11,,,"6""",4+,4+,3,6,5,6+,9,18,,,,,,,,,
+11,,,"6""",4+,4+,4,8,5,6+,12,24,,,,,,,,,
+11,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",,
+11,,,,,,,,,,,,Heavy Arc Rifle,Heavy,"36""",1,7+,7+,,,
+11,,,,,,,,,,,,Torsion Cannon,Heavy,"24""",1,9+,5+,,,
+11,,,,,,,,,,,,Kataphron Claws,Melee,Melee,x2,6+,6+,,,
+12,Elites,Servitors,"5""",5+,5+,1,1,4,8+,4,2,,,,,,,"Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6"" of at least one friendly <Forge World> Tech-Priest unit.","Imperium, Adeptus Mechanicus, <Forge World>
+Light, Infantry, Servitors",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.
+12,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.,,
+12,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+12,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+12,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
+12,,,,,,,,,,,,Servo-arms,Melee,Melee,User,8+,8+,,,
+13,Elites,Sicarian Ruststalkers,"8""",3+,3+,1,2,5,8+,5,4,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Sicarian Ruststalkers",
+13,,,"8""",3+,3+,2,4,5,8+,10,10,,,,,,,,,
+13,,,,,,,,,,,,Chordclaws,Melee,Melee,User,7+,9+,,,
+13,,,,,,,,,,,,Transonic Weapons,Melee,Melee,x3,6+,8+,,,
+14,Elites,Sicarian Infiltrators,"8""",3+,3+,1,2,5,8+,5,6,,,,,,,"Infiltrators, Terror Troops","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Sicarian Infiltrators","per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+14,,,"8""",3+,3+,2,4,5,8+,10,12,,,,,,,,,
+14,,,,,,,,,,,,,,,,,,"Instead of Stubcarbines, this unit can be equipped with Flechette Blasters.",,
+14,,,,,,,,,,,,Flechette Blasters,Small Arms,"12""",x2,8+,10+,,,
+14,,,,,,,,,,,,Stubcarbines,Small Arms,"18""",User,7+,9+,,,
+14,,,,,,,,,,,,Infiltrator Weapons,Melee,Melee,x2,7+,9+,,,
+15,Elites,Sydonian Dragoons,"10""",3+,3+,1,1,6,7+,1,5,,,,,,,"Incense Cloud: This unit is always an obscured target.
 Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Sydonian Dragoons","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.; per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon)."
-18,,,"10""",3+,3+,3,3,6,7+,3,15,,,,,,,,,
-18,,,"10""",3+,3+,6,6,6,7+,6,30,,,,,,,,,
-18,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",,
-18,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",,
-18,,,,,,,,,,,,Phosphor Serpenta,Heavy,"18""",1,7+,9+,,,
-18,,,,,,,,,,,,Radium Jezzail,Heavy,"30""",1,6+,8+,Sniper,,
-18,,,,,,,,,,,,Taser Lance,Melee,Melee,x2,6+,7+,,,
-18,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-19,Fast,Sicarian Infiltrators,"8""",3+,3+,1,2,5,8+,5,6,,,,,,,"Infiltrators, Terror Troops","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Light, Infantry, Sicarian Infiltrators","per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
-19,,,"8""",3+,3+,2,4,5,8+,10,12,,,,,,,,,
-19,,,,,,,,,,,,,,,,,,"Instead of Stubcarbines, this unit can be equipped with Flechette Blasters.",,
-19,,,,,,,,,,,,Flechette Blasters,Small Arms,"12""",x2,8+,10+,,,
-19,,,,,,,,,,,,Stubcarbines,Small Arms,"18""",User,7+,9+,,,
-19,,,,,,,,,,,,Infiltrator Weapons,Melee,Melee,x2,7+,9+,,,
-20,Fast,Fulgurite Electro-Priests,"6""",3+,4+,1,1,6,10+,5,3,,,,,,,"Ignore Damage (5+)
-Siphoned Vigour: If an enemy unit is destroyed within 1"" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Electro-Priests, Fulgurite",
-20,,,"6""",3+,4+,2,2,6,10+,10,6,,,,,,,,,
-20,,,"6""",3+,4+,3,3,6,10+,15,9,,,,,,,,,
-20,,,"6""",3+,4+,4,4,6,10+,20,12,,,,,,,,,
-20,,,,,,,,,,,,Electroleech Staves,Melee,Melee,x2,5+,7+,,,
-21,Heavy,Onager Dunecrawler,"8""",5+,3+,1,2,6,5+,1,8,,,,,,,"Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6"" of any other friendly <Forge World> Onager Dunecrawler units.
-Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Heavy, Vehicle, Onager Dunecrawler","per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.; per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
-21,,,,,,,,,,,,,,,,,,"Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",,
-21,,,,,,,,,,,,,,,,,,This unit can also be equipped with 1 Cognis Heavy Stubber.,,
-21,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-21,,,,,,,,,,,,Eradication Beamer,Heavy,"36""",2,6+,6+,,,
-21,,,,,,,,,,,,Icarus Array,Heavy,"48""",2,10+,5+,Anti-air,,
-21,,,,,,,,,,,,Neutron Laser,Heavy,"48""",1,11+,3+,Destroyer,,
-21,,,,,,,,,,,,Twin Heavy Phosphor Blaster,Heavy,"36""",2,6+,8+,,,
-21,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
-22,Heavy,Skorpius Disintegrator,"12""",6+,3+,1,2,6,6+,1,8,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Heavy, Vehicle, Skorpius Disintegrator","per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
-22,,,,,,,,,,,,,,,,,,"Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",,
-22,,,,,,,,,,,,Belleros Energy Cannon,Heavy,"48""",2,6+,7+,Barrage,,
-22,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-22,,,,,,,,,,,,Disruptor Missile Launcher,Heavy,"36""",1,7+,8+,,,
-22,,,,,,,,,,,,Ferrumite Cannon,Heavy,"48""",1,6+,5+,,,
-22,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-23,Heavy,Ironstrider Ballistarii,"10""",3+,3+,1,1,6,8+,1,6,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+15,,,"10""",3+,3+,3,3,6,7+,3,15,,,,,,,,,
+15,,,"10""",3+,3+,6,6,6,7+,6,30,,,,,,,,,
+15,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.",,
+15,,,,,,,,,,,,,,,,,,"For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",,
+15,,,,,,,,,,,,Phosphor Serpenta,Heavy,"18""",1,7+,9+,,,
+15,,,,,,,,,,,,Radium Jezzail,Heavy,"30""",1,6+,8+,Sniper,,
+15,,,,,,,,,,,,Taser Lance,Melee,Melee,x2,6+,7+,,,
+15,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+16,Elites,Hastarii Exterminators,"5""",4+,4+,1,2,7,7+,5,8,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Hastarii Exterminators",
+16,,,,,,,,,,,,,,,,,,Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons.,,
+16,,,,,,,,,,,,Eradication Caster,Small Arms,"15""",2,4+,8+,,,
+16,,,,,,,,,,,,Hastarii Arc Blaster,Heavy,"18""",1,4+,7+,,,
+16,,,,,,,,,,,,Power Weapon,Melee,Melee,User,6+,7+,,,
+16,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
+17,Elites,Hastarii Fusiliers,"5""",4+,4+,1,2,7,7+,5,8,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Hastarii Fusiliers",
+17,,,,,,,,,,,,,,,,,,Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons.,,
+17,,,,,,,,,,,,Neutron Fusil,Heavy,"30""",2,4+,5+,,,
+17,,,,,,,,,,,,Hastarii Phosphor Blaster,Small Arms,"18""",User,7+,9+,Rapid Fire,,
+17,,,,,,,,,,,,Power Weapon,Melee,Melee,User,6+,7+,,,
+17,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
+18,Fast,Ironstrider Ballistarii,"10""",3+,3+,1,1,6,8+,1,6,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
 Heavy, Vehicle, Ironstrider Ballistarii","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
-23,,,"10""",3+,3+,3,3,6,8+,3,18,,,,,,,,,
-23,,,"10""",3+,3+,6,6,6,8+,6,36,,,,,,,,,
-23,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",,
-23,,,,,,,,,,,,Twin Cognis Autocannon,Heavy,"48""",2,8+,8+,,,
-23,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
-23,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-24,Heavy,Kastelan Robots,"8""",4+,4+,2,2,8,5+,2,7,,,,,,,"Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.
+18,,,"10""",3+,3+,3,3,6,8+,3,18,,,,,,,,,
+18,,,"10""",3+,3+,6,6,6,8+,6,36,,,,,,,,,
+18,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",,
+18,,,,,,,,,,,,Twin Cognis Autocannon,Heavy,"48""",2,8+,8+,,,
+18,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
+18,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
+19,Fast,Kastelan Robots,"8""",4+,4+,2,2,8,5+,2,7,,,,,,,"Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.
 Advance: Add 1 to saving throws made for this unit.
 Aimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.
 Assault: You can re-roll hit rolls for attacks made by this unit with melee weapons.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
 Heavy, Vehicle, Kastelan Robots","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.; per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
-24,,,"8""",4+,4+,4,4,8,5+,4,14,,,,,,,,,
-24,,,"8""",4+,4+,6,6,8,5+,6,21,,,,,,,,,
-24,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",,
-24,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",,
-24,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
-24,,,,,,,,,,,,Incendine Combustor,Heavy,"12""",1,6+,9+,Inferno,,
-24,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
-24,,,,,,,,,,,,Kastelan Fists,Melee,Melee,User,6+,5+,,,
-25,Heavy,Kataphron Breachers,"6""",4+,4+,1,2,5,6+,3,6,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Kataphron Breachers","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
-25,,,"6""",4+,4+,2,4,5,6+,6,12,,,,,,,,,
-25,,,"6""",4+,4+,3,6,5,6+,9,18,,,,,,,,,
-25,,,"6""",4+,4+,4,8,5,6+,12,24,,,,,,,,,
-25,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",,
-25,,,,,,,,,,,,Heavy Arc Rifle,Heavy,"36""",1,7+,7+,,,
-25,,,,,,,,,,,,Torsion Cannon,Heavy,"24""",1,9+,5+,,,
-25,,,,,,,,,,,,Kataphron Claws,Melee,Melee,x2,6+,6+,,,
-26,Heavy,Kataphron Destroyers,"6""",4+,4+,1,2,5,8+,3,7,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+19,,,"8""",4+,4+,4,4,8,5+,4,14,,,,,,,,,
+19,,,"8""",4+,4+,6,6,8,5+,6,21,,,,,,,,,
+19,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",,
+19,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",,
+19,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
+19,,,,,,,,,,,,Incendine Combustor,Heavy,"12""",1,6+,9+,Inferno,,
+19,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
+19,,,,,,,,,,,,Kastelan Fists,Melee,Melee,User,6+,5+,,,
+20,Fast,Sicarian Infiltrators,"8""",3+,3+,1,2,5,8+,5,6,,,,,,,"Infiltrators, Terror Troops","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Sicarian Infiltrators","per Unit: Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+20,,,"8""",3+,3+,2,4,5,8+,10,12,,,,,,,,,
+20,,,,,,,,,,,,,,,,,,"Instead of Stubcarbines, this unit can be equipped with Flechette Blasters.",,
+20,,,,,,,,,,,,Flechette Blasters,Small Arms,"12""",x2,8+,10+,,,
+20,,,,,,,,,,,,Stubcarbines,Small Arms,"18""",User,7+,9+,,,
+20,,,,,,,,,,,,Infiltrator Weapons,Melee,Melee,x2,7+,9+,,,
+21,Fast,Serberys Sulphurhounds,"12""",4+,4+,1,2,7,7+,5,6,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Cavalry, Serberys Sulphurhounds",
+21,,,,,,,,,,,,,,,,,,Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: 2 Phosphor Pistols; Sulphur Breath; Clawed Limbs.,,
+21,,,,,,,,,,,,,,,,,,"For every 3 models in this unit, 1 Serberys Sulphurhound's 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol.",,
+21,,,,,,,,,,,,Phosphor Pistols,Small Arms,"12""",x2,7+,9+,,,
+21,,,,,,,,,,,,Phosphor Blast Carbine,Small Arms,"18""",User,6+,9+,Inferno,,
+21,,,,,,,,,,,,Sulphur Breath,Small Arms,"9""",User,5+,9+,Inferno,,
+21,,,,,,,,,,,,Cavalry Arc Maul,Melee,Melee,User,6+,7+,,,
+21,,,,,,,,,,,,Clawed Limbs,Melee,Melee,User,8+,9+,,,
+22,Fast,Serberys Raiders,"12""",4+,3+,1,2,7,7+,5,6,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Cavalry, Serberys Raiders",
+22,,,,,,,,,,,,,,,,,,Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Cavalry Sabre; Clawed Limbs.,,
+22,,,,,,,,,,,,Galvanic Carbine,Small Arms,"18""",User,7+,9+,Rapid Fire,,
+22,,,,,,,,,,,,Archeo-revolver,Small Arms,"12""",1,6+,8+,,,
+22,,,,,,,,,,,,Cavalry Sabre,Melee,Melee,User,6+,8+,,,
+22,,,,,,,,,,,,Clawed Limbs,Melee,Melee,User,8+,9+,,,
+23,Fast,Pteraxii Sterylizors,"12""",4+,4+,1,2,7,8+,5,4,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Fly, Pteraxii Sterylizors",per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8)
+23,,,"12""",4+,4+,2,4,7,8+,10,8,,,,,,,,,
+23,,,,,,,,,,,,,,,,,,Pteraxii Sterylizors are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Phosphor Torch; Pteraxii Talons.,,
+23,,,,,,,,,,,,Phosphor Torch,Small Arms,"12""",User,5+,9+,Inferno,,
+23,,,,,,,,,,,,Pteraxii Talons,Melee,Melee,x2,6+,8+,,,
+23,,,,,,,,,,,,Taser Goad,Melee,Melee,User,7+,8+,,,
+24,Fast,Pteraxii Skywalkers,"12""",4+,4+,1,2,7,8+,5,4,,,,,,,,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Light, Infantry, Fly, Pteraxii Skywalkers",per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8)
+24,,,"12""",4+,4+,2,4,7,8+,10,8,,,,,,,,,
+24,,,,,,,,,,,,,,,,,,Pteraxii Skywalkers are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Flechette Carbine; Close Combat Weapon.,,
+24,,,,,,,,,,,,Flechette Carbine,Small Arms,"18""",User,7+,9+,,,
+24,,,,,,,,,,,,Flechette Blaster,Small Arms,"12""",x5,8+,10+,,,
+24,,,,,,,,,,,,Taser Goad,Melee,Melee,User,7+,8+,,,
+24,,,,,,,,,,,,Close Combat Weapon,Melee,Melee,User,8+,10+,,,
+25,Heavy,Ironstrider Ballistarii,"10""",3+,3+,1,1,6,8+,1,6,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+Heavy, Vehicle, Ironstrider Ballistarii","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+25,,,"10""",3+,3+,3,3,6,8+,3,18,,,,,,,,,
+25,,,"10""",3+,3+,6,6,6,8+,6,36,,,,,,,,,
+25,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",,
+25,,,,,,,,,,,,Twin Cognis Autocannon,Heavy,"48""",2,8+,8+,,,
+25,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
+25,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
+26,Heavy,Kastelan Robots,"8""",4+,4+,2,2,8,5+,2,7,,,,,,,"Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.
+Advance: Add 1 to saving throws made for this unit.
+Aimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.
+Assault: You can re-roll hit rolls for attacks made by this unit with melee weapons.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
+Heavy, Vehicle, Kastelan Robots","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.; per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+26,,,"8""",4+,4+,4,4,8,5+,4,14,,,,,,,,,
+26,,,"8""",4+,4+,6,6,8,5+,6,21,,,,,,,,,
+26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",,
+26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",,
+26,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
+26,,,,,,,,,,,,Incendine Combustor,Heavy,"12""",1,6+,9+,Inferno,,
+26,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
+26,,,,,,,,,,,,Kastelan Fists,Melee,Melee,User,6+,5+,,,
+27,Heavy,Kataphron Destroyers,"6""",4+,4+,1,2,5,8+,3,7,,,,,,,,"Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
 Light, Infantry, Kataphron Destroyers","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.; per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
-26,,,"6""",4+,4+,2,4,5,8+,6,14,,,,,,,,,
-26,,,"6""",4+,4+,3,6,5,8+,9,21,,,,,,,,,
-26,,,"6""",4+,4+,4,8,5,8+,12,28,,,,,,,,,
-26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",,
-26,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",,
-26,,,,,,,,,,,,Cognis Flamer,Heavy,"8""",1,7+,10+,Inferno,,
-26,,,,,,,,,,,,Heavy Grav-cannon,Heavy,"30""",1,7+,5+,,,
-26,,,,,,,,,,,,Phosphor Blaster,Heavy,"24""",1,7+,9+,Rapid Fire,,
-26,,,,,,,,,,,,Plasma Culverin,Heavy,"36""",1,7+,7+,Supercharge,,
-26,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-27,Lord,Tech-Priest Dominus,"6""",3+,2+,1,1,6,4+,1,7,,,,,,,"Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6"" of this unit.
-Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Light, Infantry, Character, Tech-Priest, Dominus",
-27,,,,,,,,,,,,Tech-Priest Weapons,Heavy,"24""",1,8+,8+,,,
-27,,,,,,,,,,,,Omnissian Axe,Melee,Melee,1,8+,8+,,,
-28,Lord,Onager Dunecrawler,"8""",5+,3+,1,2,6,5+,1,8,,,,,,,"Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6"" of any other friendly <Forge World> Onager Dunecrawler units.
+27,,,"6""",4+,4+,2,4,5,8+,6,14,,,,,,,,,
+27,,,"6""",4+,4+,3,6,5,8+,9,21,,,,,,,,,
+27,,,"6""",4+,4+,4,8,5,8+,12,28,,,,,,,,,
+27,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.",,
+27,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",,
+27,,,,,,,,,,,,Cognis Flamer,Heavy,"8""",1,7+,10+,Inferno,,
+27,,,,,,,,,,,,Heavy Grav-cannon,Heavy,"30""",1,7+,5+,,,
+27,,,,,,,,,,,,Phosphor Blaster,Heavy,"24""",1,7+,9+,Rapid Fire,,
+27,,,,,,,,,,,,Plasma Culverin,Heavy,"36""",1,7+,7+,Supercharge,,
+27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+28,Heavy,Onager Dunecrawler,"8""",5+,3+,1,2,6,5+,1,8,,,,,,,"Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6"" of any other friendly <Forge World> Onager Dunecrawler units.
 Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Onager Dunecrawler","per Unit: Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.; per Unit: This unit can also be equipped with 1 Cognis Heavy Stubber."
 28,,,,,,,,,,,,,,,,,,"Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.",,
@@ -223,38 +210,56 @@ Heavy, Vehicle, Onager Dunecrawler","per Unit: Instead of 1 Eradication Beamer, 
 28,,,,,,,,,,,,Neutron Laser,Heavy,"48""",1,11+,3+,Destroyer,,
 28,,,,,,,,,,,,Twin Heavy Phosphor Blaster,Heavy,"36""",2,6+,8+,,,
 28,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
-29,Transport,Skorpius Dunerider,"12""",6+,3+,1,2,6,6+,1,7,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.
+29,Heavy,Skorpius Disintegrator,"12""",6+,3+,1,2,6,6+,1,8,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Heavy, Vehicle, Skorpius Disintegrator","per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
+29,,,,,,,,,,,,,,,,,,"Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",,
+29,,,,,,,,,,,,Belleros Energy Cannon,Heavy,"48""",2,6+,7+,Barrage,,
+29,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+29,,,,,,,,,,,,Disruptor Missile Launcher,Heavy,"36""",1,7+,8+,,,
+29,,,,,,,,,,,,Ferrumite Cannon,Heavy,"48""",1,6+,5+,,,
+29,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
+30,Air,Archaeopter Stratoraptor,"20""",4+,3+,1,2,7,3+,1,8,,,,,,,Hover,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Heavy, Vehicle, Fly, Aircraft, Archaeopter Stratoraptor",
+30,,,,,,,,,,,,,,,,,,An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.,,
+30,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",3,8+,10+,,,
+30,,,,,,,,,,,,Hellstrike Missiles,Heavy,"48""",1,4+,4+,Destroyer,,
+30,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",3,6+,8+,,,
+30,,,,,,,,,,,,Armoured Hull,Melee,Melee,3,7+,9+,,,
+31,Air,Archaeopter Fusilave,"20""",4+,3+,1,2,7,3+,1,7,,,,,,,"Hover
+Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Heavy, Vehicle, Fly, Aircraft, Archaeopter Fusilave",
+31,,,,,,,,,,,,,,,,,,An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.,,
+31,,,,,,,,,,,,Cognis Heavy Stubber Array,Heavy,"36""",9,8+,10+,Rapid Fire,,
+31,,,,,,,,,,,,Armoured Hull,Melee,Melee,3,7+,9+,,,
+32,Transport,Skorpius Dunerider,"12""",6+,3+,1,2,6,6+,1,7,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.
 TRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Transport, Skorpius Dunerider",
-29,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-29,,,,,,,,,,,,Twin Cognis Heavy Stubber,Heavy,"36""",2,8+,10+,,,
-29,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-30,Air,Ironstrider Ballistarii,"10""",3+,3+,1,1,6,8+,1,6,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Heavy, Vehicle, Ironstrider Ballistarii","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
-30,,,"10""",3+,3+,3,3,6,8+,3,18,,,,,,,,,
-30,,,"10""",3+,3+,6,6,6,8+,6,36,,,,,,,,,
-30,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",,
-30,,,,,,,,,,,,Twin Cognis Autocannon,Heavy,"48""",2,8+,8+,,,
-30,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
-30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-31,Transport,Skorpius Disintegrator,"12""",6+,3+,1,2,6,6+,1,8,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Heavy, Vehicle, Skorpius Disintegrator","per Unit (Power Rating +1): Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1)."
-31,,,,,,,,,,,,,,,,,,"Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",,
-31,,,,,,,,,,,,Belleros Energy Cannon,Heavy,"48""",2,6+,7+,Barrage,,
-31,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-31,,,,,,,,,,,,Disruptor Missile Launcher,Heavy,"36""",1,7+,8+,,,
-31,,,,,,,,,,,,Ferrumite Cannon,Heavy,"48""",1,6+,5+,,,
-31,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-32,Lord,Kastelan Robots,"8""",4+,4+,2,2,8,5+,2,7,,,,,,,"Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.
-Advance: Add 1 to saving throws made for this unit.
-Aimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.
-Assault: You can re-roll hit rolls for attacks made by this unit with melee weapons.","Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>
-Heavy, Vehicle, Kastelan Robots","per Unit: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.; per Unit: For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
-32,,,"8""",4+,4+,4,4,8,5+,4,14,,,,,,,,,
-32,,,"8""",4+,4+,6,6,8,5+,6,21,,,,,,,,,
-32,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.",,
-32,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",,
-32,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
-32,,,,,,,,,,,,Incendine Combustor,Heavy,"12""",1,6+,9+,Inferno,,
-32,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
-32,,,,,,,,,,,,Kastelan Fists,Melee,Melee,User,6+,5+,,,
+32,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+32,,,,,,,,,,,,Twin Cognis Heavy Stubber,Heavy,"36""",2,8+,10+,,,
+32,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
+33,Lord,Mars Pattern Knight,"12""",3+,3+,4,5,7,5+,1,24,,,,,,,Questor Mechanicus: This unit has the Questor Mechanicus keyword and can benefit from Adeptus Mechanicus Master of Machines abilities.,"Imperium, Adeptus Mechanicus, Questor Mechanicus, Mars
+Super-heavy, Vehicle, Titanic, Questoris Class, Knight Paladin","per Unit: • Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.; per Unit: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+33,,,,,,,,,,,,,,,,,,A Mars Pattern Knight is a Questoris-class Knight Paladin equipped with: Rapid-fire Battle Cannon; 2 Heavy Stubbers; Reaper Chainsword.,,
+33,,,,,,,,,,,,,,,,,,"• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.",,
+33,,,,,,,,,,,,,,,,,,• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.,,
+33,,,,,,,,,,,,,,,,,,"• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",,
+33,,,,,,,,,,,,Rapid-fire Battle Cannon,Heavy,"72""",4,6+,6+,,,
+33,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+33,,,,,,,,,,,,Ironstorm Missile Pod,Heavy,"72""",2,6+,9+,Barrage,,
+33,,,,,,,,,,,,Meltagun,Heavy,"12""",1,11+,7+,,,
+33,,,,,,,,,,,,Stormspear Rocket Pod,Heavy,"48""",1,6+,5+,,,
+33,,,,,,,,,,,,Twin Icarus Autocannon,Heavy,"48""",2,8+,8+,Anti-air,,
+33,,,,,,,,,,,,Reaper Chainsword,Melee,Melee,User,5+,6+,Destroyer,,
+33,,,,,,,,,,,,Thunderstrike Gauntlet,Melee,Melee,User,6+,5+,Destroyer,,
+34,Lord,Mars Pattern Armiger,"14""",3+,3+,2,2,6,5+,1,9,,,,,,,"Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Adeptus Mechanicus, Questor Mechanicus, Mars
+Heavy, Vehicle, Armiger Class","per Unit: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+34,,,,,,,,,,,,,,,,,,Select Armiger Helverin or Armiger Warglaive loadout when including this unit.,,
+34,,,,,,,,,,,,,,,,,,"Armiger Helverin: equipped with 2 Armiger Autocannons, Heavy Stubber, Armoured Feet.",,
+34,,,,,,,,,,,,,,,,,,"Armiger Warglaive: equipped with Heavy Stubber, Thermal Spear, Armoured Feet, Reaper Chain-cleaver.",,
+34,,,,,,,,,,,,,,,,,,"• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",,
+34,,,,,,,,,,,,Armiger Autocannon,Heavy,"60""",2,7+,7+,,,
+34,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+34,,,,,,,,,,,,Meltagun,Heavy,"12""",1,11+,7+,,,
+34,,,,,,,,,,,,Thermal Spear,Heavy,"30""",1,10+,4+,,,
+34,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,9+,10+,,,
+34,,,,,,,,,,,,Reaper Chain-cleaver,Melee,Melee,User,7+,7+,,,

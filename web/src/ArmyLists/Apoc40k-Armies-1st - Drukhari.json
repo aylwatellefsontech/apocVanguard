@@ -3,44 +3,6 @@
   "source": "Apoc40k-Armies-1st - Drukhari.csv",
   "units": [
     {
-      "no": 1,
-      "type": "HQ",
-      "name": "Drazhar",
-      "stats": {
-        "M": "7\"",
-        "WS": "2+",
-        "BS": "2+",
-        "A": "1",
-        "W": "1",
-        "Ld": "7",
-        "Sv": "4+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "abilities": "Master of Blades: Add 1 to hit rolls for attacks made with melee weapons by friendly Incubi units whilst they are within 6\" of this unit.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Incubi",
-        "Light",
-        "Infantry",
-        "Character",
-        "Drazhar"
-      ],
-      "weapons": [
-        {
-          "name": "Demiklaives",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "7+"
-        }
-      ]
-    },
-    {
-      "no": 2,
-      "type": "HQ",
       "name": "Archon",
       "stats": {
         "M": "8\"",
@@ -53,7 +15,6 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nOverlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6\" of this unit.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -72,47 +33,63 @@
           "skill": "7+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nOverlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6\" of this unit.",
+      "no": 1,
+      "type": "HQ"
     },
     {
-      "no": 3,
-      "type": "HQ",
-      "name": "Succubus",
+      "name": "Lady Malys",
       "stats": {
-        "M": "9\"",
+        "M": "8\"",
         "WS": "2+",
         "BS": "2+",
         "A": "1",
         "W": "1",
-        "Ld": "6",
-        "Sv": "6+",
+        "Ld": "7",
+        "Sv": "3+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "6"
       },
-      "abilities": "Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6\" of this unit.\nNo Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "<Wych Cult>",
+        "Kabal of the Poisoned Tongue",
         "Light",
         "Infantry",
         "Character",
-        "Succubus"
+        "Archon",
+        "Lady Malys"
       ],
       "weapons": [
         {
-          "name": "Wych Cult Weapons",
+          "name": "The Lady's Blade",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Razor Fan",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade; Razor Fan. You can only include one of this unit in your army."
+        }
+      ],
+      "no": 2,
+      "type": "HQ"
     },
     {
-      "no": 4,
-      "type": "HQ",
       "name": "Haemonculus",
       "stats": {
         "M": "7\"",
@@ -125,7 +102,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Ignore Damage (6+)\nMaster of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6\" of any <Haemonculus Coven> units from your army with this ability.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -144,91 +120,85 @@
           "skill": "6+",
           "armorPen": "12+"
         }
-      ]
+      ],
+      "abilities": "Ignore Damage (6+)\nMaster of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6\" of any <Haemonculus Coven> units from your army with this ability.",
+      "no": 3,
+      "type": "HQ"
     },
     {
-      "no": 5,
-      "type": "Fast",
-      "name": "Reavers",
+      "name": "Succubus",
       "stats": {
-        "M": "20\"",
-        "WS": "3+",
-        "BS": "3+",
+        "M": "9\"",
+        "WS": "2+",
+        "BS": "2+",
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "8+",
-        "N": "3",
+        "Sv": "6+",
+        "N": "1",
         "Pt": "4"
       },
-      "abilities": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
       "keywords": [
         "Aeldari",
         "Drukhari",
         "<Wych Cult>",
         "Light",
-        "Biker",
-        "Fly",
-        "Reavers"
-      ],
-      "profiles": [
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "8"
-        },
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "12"
-        },
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "12",
-          "Pt": "16"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
-          "Pt": "1"
-        }
+        "Infantry",
+        "Character",
+        "Succubus"
       ],
       "weapons": [
         {
-          "name": "Blaster",
+          "name": "Wych Cult Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6\" of this unit.\nNo Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
+      "no": 4,
+      "type": "HQ"
+    },
+    {
+      "name": "Kabalite Warriors",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "5",
+        "Pt": "2"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Light",
+        "Infantry",
+        "Kabalite Warriors"
+      ],
+      "weapons": [
+        {
+          "name": "Dark Lance",
           "type": "Heavy",
-          "range": "18\"",
+          "range": "36\"",
           "attacks": "1",
           "skill": "10+",
           "armorPen": "5+"
         },
         {
-          "name": "Heat Lance",
+          "name": "Splinter Cannon",
           "type": "Heavy",
-          "range": "18\"",
+          "range": "36\"",
           "attacks": "1",
-          "skill": "9+",
-          "armorPen": "6+"
+          "skill": "5+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
         },
         {
           "name": "Splinter Rifles",
@@ -244,34 +214,9 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "9+"
         }
-      ]
-    },
-    {
-      "no": 6,
-      "type": "Troops",
-      "name": "Kabalite Warriors",
-      "stats": {
-        "M": "7\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "10+",
-        "N": "5",
-        "Pt": "2"
-      },
-      "abilities": "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
-        "Kabalite Warriors",
-        "Light",
-        "Infantry"
       ],
       "profiles": [
         {
@@ -315,46 +260,10 @@
           "Pt": "1"
         }
       ],
-      "weapons": [
-        {
-          "name": "Dark Lance",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Splinter Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "12+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Splinter Rifles",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "12+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 5,
+      "type": "Troops"
     },
     {
-      "no": 7,
-      "type": "Troops",
       "name": "Wyches",
       "stats": {
         "M": "9\"",
@@ -367,7 +276,6 @@
         "N": "5",
         "Pt": "2"
       },
-      "abilities": "No Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -376,6 +284,25 @@
         "Infantry",
         "Wyches"
       ],
+      "weapons": [
+        {
+          "name": "Splinter Pistols",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "12+"
+        },
+        {
+          "name": "Wych Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "No Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "profiles": [
         {
           "M": "9\"",
@@ -411,131 +338,58 @@
           "Pt": "8"
         }
       ],
-      "weapons": [
-        {
-          "name": "Splinter Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "12+"
-        },
-        {
-          "name": "Wych Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 6,
+      "type": "Troops"
     },
     {
-      "no": 8,
-      "type": "Elites",
-      "name": "Incubi",
+      "name": "Wracks",
       "stats": {
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
-        "Ld": "7",
-        "Sv": "6+",
+        "Ld": "6",
+        "Sv": "9+",
         "N": "5",
-        "Pt": "4"
+        "Pt": "3"
       },
-      "abilities": "Tormentors: If the result of a Morale test taken for an enemy unit within 6\" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "Incubi",
-        "Incubi",
+        "<Haemonculus Coven>",
         "Light",
-        "Infantry"
+        "Infantry",
+        "Wracks"
       ],
+      "weapons": [
+        {
+          "name": "Haemonculus Tools",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Ignore Damage (6+)",
       "profiles": [
         {
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Klaives",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x3",
-          "skill": "5+",
-          "armorPen": "9+"
-        }
-      ]
-    },
-    {
-      "no": 9,
-      "type": "Elites",
-      "name": "Mandrakes",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "9+",
-        "N": "5",
-        "Pt": "4"
-      },
-      "abilities": "Deep Strike, Stealth",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Light",
-        "Infantry",
-        "Mandrakes"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
+          "A": "4",
           "W": "2",
           "Ld": "6",
           "Sv": "9+",
           "N": "10",
-          "Pt": "7"
+          "Pt": "5"
         }
       ],
-      "weapons": [
-        {
-          "name": "Baleblasts",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Glimmersteel Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 7,
+      "type": "Troops"
     },
     {
-      "no": 10,
-      "type": "Elites",
       "name": "Grotesques",
       "stats": {
         "M": "7\"",
@@ -548,7 +402,6 @@
         "N": "3",
         "Pt": "5"
       },
-      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -556,6 +409,33 @@
         "Light",
         "Infantry",
         "Grotesques"
+      ],
+      "weapons": [
+        {
+          "name": "Liquifier Gun",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Flesh Gauntlets",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Monstrous Cleaver",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "2",
+          "skill": "5+",
+          "armorPen": "8+"
+        }
       ],
       "profiles": [
         {
@@ -598,86 +478,215 @@
           "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
         }
       ],
-      "weapons": [
-        {
-          "name": "Liquifier Gun",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Flesh Gauntlets",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Monstrous Cleaver",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "2",
-          "skill": "5+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 8,
+      "type": "Elites"
     },
     {
-      "no": 11,
-      "type": "Elites",
-      "name": "Wracks",
+      "name": "Incubi",
       "stats": {
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "Incubi",
+        "Light",
+        "Infantry",
+        "Incubi"
+      ],
+      "weapons": [
+        {
+          "name": "Klaives",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "5+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Tormentors: If the result of a Morale test taken for an enemy unit within 6\" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.",
+      "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "no": 9,
+      "type": "Elites"
+    },
+    {
+      "name": "Mandrakes",
+      "stats": {
+        "M": "8\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
         "W": "1",
         "Ld": "6",
         "Sv": "9+",
         "N": "5",
-        "Pt": "3"
+        "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "<Haemonculus Coven>",
         "Light",
         "Infantry",
-        "Wracks"
+        "Mandrakes"
+      ],
+      "weapons": [
+        {
+          "name": "Baleblasts",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Glimmersteel Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Deep Strike, Stealth",
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "7"
+        }
+      ],
+      "no": 10,
+      "type": "Elites"
+    },
+    {
+      "name": "Hand of Archon",
+      "stats": {
+        "M": "7\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Light",
+        "Infantry",
+        "Hand of the Archon"
+      ],
+      "weapons": [
+        {
+          "name": "Splinter Rifles",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Blaster",
+          "type": "Heavy",
+          "range": "18\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Dark Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Power Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "4",
+          "A": "2",
           "W": "2",
           "Ld": "6",
-          "Sv": "9+",
+          "Sv": "8+",
           "N": "10",
-          "Pt": "5"
+          "Pt": "8"
         }
       ],
-      "weapons": [
+      "options": [
         {
-          "name": "Haemonculus Tools",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "12+"
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 8)",
+          "Pt": "8"
+        },
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per weapon",
+          "text": "For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Up to 1 model in this unit can be equipped with 1 Power Weapon."
         }
-      ]
+      ],
+      "no": 11,
+      "type": "Elites"
     },
     {
-      "no": 12,
-      "type": "Elites",
-      "name": "Lhamaean",
+      "name": "Court of the Archon",
       "stats": {
         "M": "8\"",
         "WS": "3+",
@@ -686,18 +695,16 @@
         "W": "1",
         "Ld": "6",
         "Sv": "10+",
-        "N": "1",
-        "Pt": "1"
+        "N": "4",
+        "Pt": "8"
       },
-      "abilities": "Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.",
       "keywords": [
         "Aeldari",
         "Drukhari",
         "<Kabal>",
         "Light",
         "Infantry",
-        "Court of the Archon",
-        "Lhamaean"
+        "Court of the Archon"
       ],
       "weapons": [
         {
@@ -707,35 +714,7 @@
           "attacks": "User",
           "skill": "6+",
           "armorPen": "12+"
-        }
-      ]
-    },
-    {
-      "no": 13,
-      "type": "Elites",
-      "name": "Medusae",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "2"
-      },
-      "abilities": "Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
-        "Light",
-        "Infantry",
-        "Court of the Archon",
-        "Medusae"
-      ],
-      "weapons": [
+        },
         {
           "name": "Eyeburst Attack (Ranged)",
           "type": "Heavy",
@@ -751,13 +730,73 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "12+"
+        },
+        {
+          "name": "Sslyth Battle-blade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Flensing Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Court of the Archon is a unit that contains 4 models representing a combined Court of the Archon retinue."
+        }
+      ],
+      "no": 12,
+      "type": "Elites"
     },
     {
-      "no": 14,
-      "type": "Elites",
-      "name": "Scourges",
+      "name": "Beastmaster",
+      "stats": {
+        "M": "12\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Light",
+        "Infantry",
+        "Fly",
+        "Skyboard",
+        "Beastmaster"
+      ],
+      "weapons": [
+        {
+          "name": "Agoniser",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "12+"
+        }
+      ],
+      "abilities": "Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6\" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.",
+      "no": 13,
+      "type": "Elites"
+    },
+    {
+      "name": "Scourges with Shard Carbines",
       "stats": {
         "M": "14\"",
         "WS": "3+",
@@ -769,7 +808,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.\nIf this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -778,76 +816,7 @@
         "Fly",
         "Scourges"
       ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
-          "Pt": "2"
-        }
-      ],
       "weapons": [
-        {
-          "name": "Blaster",
-          "type": "Heavy",
-          "range": "18\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Dark Lance",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Haywire Blaster",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "12+",
-          "armorPen": "4+"
-        },
-        {
-          "name": "Heat Lance",
-          "type": "Heavy",
-          "range": "18\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "Shredder",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Splinter Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "12+",
-          "abilities": "Rapid Fire"
-        },
         {
           "name": "Shardcarbines",
           "type": "Small Arms",
@@ -864,16 +833,37 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Deep Strike",
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 10)",
+          "Pt": "10"
+        }
+      ],
+      "no": 14,
+      "type": "Fast"
     },
     {
-      "no": 15,
-      "type": "Elites",
-      "name": "Sslyth",
+      "name": "Clawed Fiends",
       "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "3+",
+        "M": "10\"",
+        "WS": "4+",
+        "BS": "-",
         "A": "1",
         "W": "1",
         "Ld": "4",
@@ -881,30 +871,52 @@
         "N": "1",
         "Pt": "2"
       },
-      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "<Kabal>",
         "Light",
-        "Infantry",
-        "Court of the Archon",
-        "Sslyth"
+        "Beast",
+        "Clawed Fiends"
       ],
       "weapons": [
         {
-          "name": "Sslyth Battle-blade",
+          "name": "Clawed Fists",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
+          "attacks": "x2",
+          "skill": "6+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.",
+      "profiles": [
+        {
+          "M": "10\"",
+          "WS": "4+",
+          "BS": "-",
+          "A": "3",
+          "W": "3",
+          "Ld": "4",
+          "Sv": "9+",
+          "N": "3",
+          "Pt": "5"
+        },
+        {
+          "M": "10\"",
+          "WS": "4+",
+          "BS": "-",
+          "A": "6",
+          "W": "6",
+          "Ld": "4",
+          "Sv": "9+",
+          "N": "6",
+          "Pt": "10"
+        }
+      ],
+      "no": 15,
+      "type": "Fast"
     },
     {
-      "no": 16,
-      "type": "Fast",
       "name": "Hellions",
       "stats": {
         "M": "14\"",
@@ -917,7 +929,6 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -928,6 +939,25 @@
         "Skyboard",
         "Hellions"
       ],
+      "weapons": [
+        {
+          "name": "Splinter Pods",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "12+"
+        },
+        {
+          "name": "Hellglaives",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.",
       "profiles": [
         {
           "M": "14\"",
@@ -963,28 +993,10 @@
           "Pt": "17"
         }
       ],
-      "weapons": [
-        {
-          "name": "Splinter Pods",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "12+"
-        },
-        {
-          "name": "Hellglaives",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 16,
+      "type": "Fast"
     },
     {
-      "no": 17,
-      "type": "Fast",
       "name": "Khymerae",
       "stats": {
         "M": "10\"",
@@ -1004,6 +1016,16 @@
         "Beast",
         "Daemon",
         "Khymerae"
+      ],
+      "weapons": [
+        {
+          "name": "Claws & Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -1062,78 +1084,10 @@
           "Pt": "6"
         }
       ],
-      "weapons": [
-        {
-          "name": "Claws & Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 17,
+      "type": "Fast"
     },
     {
-      "no": 18,
-      "type": "Fast",
-      "name": "Clawed Fiends",
-      "stats": {
-        "M": "10\"",
-        "WS": "4+",
-        "BS": "-",
-        "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "9+",
-        "N": "1",
-        "Pt": "2"
-      },
-      "abilities": "Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Light",
-        "Beast",
-        "Clawed Fiends"
-      ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "4+",
-          "BS": "-",
-          "A": "3",
-          "W": "3",
-          "Ld": "4",
-          "Sv": "9+",
-          "N": "3",
-          "Pt": "5"
-        },
-        {
-          "M": "10\"",
-          "WS": "4+",
-          "BS": "-",
-          "A": "6",
-          "W": "6",
-          "Ld": "4",
-          "Sv": "9+",
-          "N": "6",
-          "Pt": "10"
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Clawed Fists",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
-      ]
-    },
-    {
-      "no": 19,
-      "type": "Fast",
       "name": "Razorwing Flocks",
       "stats": {
         "M": "12\"",
@@ -1154,6 +1108,16 @@
         "Fly",
         "Swarm",
         "Razorwing Flocks"
+      ],
+      "weapons": [
+        {
+          "name": "Razor Feathers",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -1190,107 +1154,39 @@
           "Pt": "8"
         }
       ],
-      "weapons": [
-        {
-          "name": "Razor Feathers",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 18,
+      "type": "Fast"
     },
     {
-      "no": 20,
-      "type": "Fast",
-      "name": "Beastmaster",
+      "name": "Reavers",
       "stats": {
-        "M": "12\"",
+        "M": "20\"",
         "WS": "3+",
         "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "5",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "2"
+        "Ld": "6",
+        "Sv": "8+",
+        "N": "3",
+        "Pt": "4"
       },
-      "abilities": "Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6\" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.",
       "keywords": [
         "Aeldari",
         "Drukhari",
         "<Wych Cult>",
         "Light",
-        "Infantry",
+        "Biker",
         "Fly",
-        "Skyboard",
-        "Beastmaster"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
-        }
+        "Reavers"
       ],
       "weapons": [
         {
-          "name": "Agoniser",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "12+"
-        }
-      ]
-    },
-    {
-      "no": 21,
-      "type": "Heavy",
-      "name": "Talos",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "4+",
-        "A": "2",
-        "W": "2",
-        "Ld": "6",
-        "Sv": "5+",
-        "N": "1",
-        "Pt": "7"
-      },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.\nInstead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
-        "Heavy",
-        "Monster",
-        "Fly",
-        "Talos"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Haywire Blaster",
+          "name": "Blaster",
           "type": "Heavy",
-          "range": "24\"",
+          "range": "18\"",
           "attacks": "1",
-          "skill": "12+",
-          "armorPen": "4+"
+          "skill": "10+",
+          "armorPen": "5+"
         },
         {
           "name": "Heat Lance",
@@ -1301,44 +1197,69 @@
           "armorPen": "6+"
         },
         {
-          "name": "Splinter Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
+          "name": "Splinter Rifles",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
           "skill": "5+",
           "armorPen": "12+",
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Stinger Pod",
-          "type": "Heavy",
-          "range": "18\"",
-          "attacks": "3",
-          "skill": "5+",
-          "armorPen": "12+"
-        },
-        {
-          "name": "Twin Liquifier Gun",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Gruesome Combat Weapon",
+          "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
           "skill": "7+",
-          "armorPen": "7+"
+          "armorPen": "9+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "8"
+        },
+        {
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "12"
+        },
+        {
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "12",
+          "Pt": "16"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
+          "Pt": "1"
+        }
+      ],
+      "no": 19,
+      "type": "Fast"
     },
     {
-      "no": 22,
-      "type": "Heavy",
       "name": "Cronos",
       "stats": {
         "M": "8\"",
@@ -1351,7 +1272,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.\nThis unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1360,17 +1280,6 @@
         "Monster",
         "Fly",
         "Cronos"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -1398,11 +1307,19 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 20,
+      "type": "Heavy"
     },
     {
-      "no": 23,
-      "type": "Heavy",
       "name": "Ravager",
       "stats": {
         "M": "14\"",
@@ -1415,7 +1332,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.\nInstead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.\nInstead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1424,20 +1340,6 @@
         "Vehicle",
         "Fly",
         "Ravager"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
-        }
       ],
       "weapons": [
         {
@@ -1464,92 +1366,77 @@
           "skill": "10+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons."
+        }
+      ],
+      "no": 21,
+      "type": "Heavy"
     },
     {
-      "no": 24,
-      "type": "Heavy",
-      "name": "Hellions",
+      "name": "Reaper",
       "stats": {
         "M": "14\"",
-        "WS": "3+",
+        "WS": "4+",
         "BS": "3+",
         "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "9+",
-        "N": "5",
-        "Pt": "5"
+        "W": "3",
+        "Ld": "5",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "7"
       },
-      "abilities": "Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "<Wych Cult>",
-        "Light",
-        "Infantry",
+        "<Kabal>",
+        "Heavy",
+        "Vehicle",
         "Fly",
-        "Skyboard",
-        "Hellions"
-      ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "10",
-          "Pt": "9"
-        },
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "15",
-          "Pt": "13"
-        },
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "20",
-          "Pt": "17"
-        }
+        "Reaper"
       ],
       "weapons": [
         {
-          "name": "Splinter Pods",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "12+"
+          "name": "Storm Vortex Projector",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
         },
         {
-          "name": "Hellglaives",
+          "name": "Scythevanes",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes."
+        }
+      ],
+      "no": 22,
+      "type": "Heavy"
     },
     {
-      "no": 25,
-      "type": "Heavy",
-      "name": "Scourges",
+      "name": "Scourges with Heavy Weapons",
       "stats": {
         "M": "14\"",
         "WS": "3+",
@@ -1561,7 +1448,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.\nIf this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Shardcarbines.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1569,26 +1455,6 @@
         "Infantry",
         "Fly",
         "Scourges"
-      ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon); 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
-          "Pt": "2"
-        }
       ],
       "weapons": [
         {
@@ -1641,14 +1507,6 @@
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Shardcarbines",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "12+"
-        },
-        {
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
@@ -1656,11 +1514,37 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Deep Strike",
+      "profiles": [
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 10)",
+          "Pt": "10"
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
+          "Pt": "2"
+        }
+      ],
+      "no": 23,
+      "type": "Heavy"
     },
     {
-      "no": 26,
-      "type": "Heavy",
       "name": "Talos",
       "stats": {
         "M": "8\"",
@@ -1673,7 +1557,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.\nInstead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1682,20 +1565,6 @@
         "Monster",
         "Fly",
         "Talos"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
-        }
       ],
       "weapons": [
         {
@@ -1748,122 +1617,43 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ]
-    },
-    {
-      "no": 27,
-      "type": "Lord",
-      "name": "Lelith Hesperax",
-      "stats": {
-        "M": "10\"",
-        "WS": "2+",
-        "BS": "2+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "5+",
-        "N": "1",
-        "Pt": "5"
-      },
-      "abilities": "A League Apart: You can re-roll hit rolls and wound rolls for attacks made with melee weapons by this unit that target Character units.\nBrides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Cult of Strife units whilst they are within 6\" of this unit.\nNo Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Cult of Strife",
-        "Light",
-        "Infantry",
-        "Character",
-        "Succubus",
-        "Lelith Hesperax"
       ],
-      "weapons": [
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "options": [
         {
-          "name": "Penetrating Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
-      ]
-    },
-    {
-      "no": 28,
-      "type": "Lord",
-      "name": "Urien Rakarth",
-      "stats": {
-        "M": "7\"",
-        "WS": "2+",
-        "BS": "2+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "5"
-      },
-      "abilities": "Ignore Damage (6+)\nSculptor of Torments: Add 1 to wound rolls for attacks made by friendly Prophets of Flesh units when using melee weapons whilst they are within 6\" of this unit.\nMaster of Pain: Add 1 to saving throws taken for friendly Prophets of Flesh units whilst they are within 6\" of any Prophets of Flesh units from your army with this ability.\nContempt for Death: At the start of the Damage phase, you can remove half of the blast markers, rounding down, from this unit. Small blast markers must be removed before large blast markers.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Prophets of Flesh",
-        "Light",
-        "Infantry",
-        "Character",
-        "Haemonculus",
-        "Urien Rakarth"
-      ],
-      "weapons": [
-        {
-          "name": "The Casket of Flensing",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "9+",
-          "armorPen": "9+",
-          "abilities": "One Use Only"
+          "per": "Per Unit",
+          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
         },
         {
-          "name": "Haemonculus Tools",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "12+"
+          "per": "Per Unit",
+          "text": "Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun."
         }
-      ]
+      ],
+      "no": 24,
+      "type": "Heavy"
     },
     {
-      "no": 29,
-      "type": "Transport",
-      "name": "Raider",
+      "name": "Raven Strike Fighter",
       "stats": {
-        "M": "14\"",
-        "WS": "4+",
+        "M": "20-72\"",
+        "WS": "6+",
         "BS": "3+",
         "A": "1",
         "W": "2",
         "Ld": "5",
         "Sv": "7+",
         "N": "1",
-        "Pt": "6"
+        "Pt": "10"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nInstead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "<Kabal> or <Wych Cult>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Transport",
-        "Raider"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
-        }
+        "Aircraft",
+        "Raven Strike Fighter"
       ],
       "weapons": [
         {
@@ -1872,29 +1662,37 @@
           "range": "36\"",
           "attacks": "1",
           "skill": "10+",
-          "armorPen": "5+"
+          "armorPen": "4+"
         },
         {
-          "name": "Disintegrator Cannon",
+          "name": "Splinterstorm Cannon",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "10+"
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
         },
         {
-          "name": "Bladevanes",
+          "name": "Bladed Hull",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "10+",
-          "armorPen": "11+"
+          "skill": "9+",
+          "armorPen": "10+"
         }
-      ]
+      ],
+      "abilities": "Supersonic",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull."
+        }
+      ],
+      "no": 25,
+      "type": "Air"
     },
     {
-      "no": 30,
-      "type": "Air",
       "name": "Razorwing Jetfighter",
       "stats": {
         "M": "20-72\"",
@@ -1907,7 +1705,6 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Supersonic\nInstead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -1917,16 +1714,6 @@
         "Fly",
         "Aircraft",
         "Razorwing Jetfighter"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
-        }
       ],
       "weapons": [
         {
@@ -1979,11 +1766,153 @@
           "skill": "10+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Supersonic",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        }
+      ],
+      "no": 26,
+      "type": "Air"
     },
     {
-      "no": 31,
-      "type": "Transport",
+      "name": "Voidraven Bomber",
+      "stats": {
+        "M": "20-72\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Voidraven Bomber"
+      ],
+      "weapons": [
+        {
+          "name": "Dark Scythe",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "4+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Void Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "4+"
+        },
+        {
+          "name": "Voidraven Missiles",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bladed Wings",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ],
+      "abilities": "Supersonic",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with Voidraven Missiles (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 27,
+      "type": "Air"
+    },
+    {
+      "name": "Raider",
+      "stats": {
+        "M": "14\"",
+        "WS": "4+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Raider"
+      ],
+      "weapons": [
+        {
+          "name": "Dark Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Disintegrator Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Bladevanes",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+        }
+      ],
+      "no": 28,
+      "type": "Transport"
+    },
+    {
       "name": "Venom",
       "stats": {
         "M": "16\"",
@@ -1996,7 +1925,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
         "Aeldari",
         "Drukhari",
@@ -2006,12 +1934,6 @@
         "Fly",
         "Transport",
         "Venom"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
-        }
       ],
       "weapons": [
         {
@@ -2040,11 +1962,150 @@
           "skill": "10+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        }
+      ],
+      "no": 29,
+      "type": "Transport"
     },
     {
-      "no": 32,
-      "type": "Lord",
+      "name": "Tantalus",
+      "stats": {
+        "M": "16\"",
+        "WS": "4+",
+        "BS": "3+",
+        "A": "2",
+        "W": "4",
+        "Ld": "5",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "18"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Tantalus"
+      ],
+      "weapons": [
+        {
+          "name": "Pulse-disintegrator",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "4+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Dire Scythe Blade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Tantalus is a unit that contains 1 model. It is equipped with: 2 Pulse-disintegrators; Dire Scythe Blade."
+        }
+      ],
+      "no": 30,
+      "type": "Lord"
+    },
+    {
+      "name": "Asdrubael Vect",
+      "stats": {
+        "M": "14\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "2",
+        "W": "4",
+        "Ld": "8",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "24"
+      },
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "Kabal of the Black Heart",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Character",
+        "Ravager",
+        "Asdrubael Vect"
+      ],
+      "weapons": [
+        {
+          "name": "Dark Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Disintegrator Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Splinterstorm Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "6+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Scepter of the Dark City",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Bladevanes",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        }
+      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nShadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nSkyhook Escape: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 2 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes."
+        },
+        {
+          "per": "Per Unit",
+          "text": "You can only include one of this unit in your army."
+        }
+      ],
+      "no": 31,
+      "type": "Lord"
+    },
+    {
       "name": "Webway Gate",
       "stats": {
         "M": "-",
@@ -2057,7 +2118,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
       "keywords": [
         "Aeldari",
         "Heavy",
@@ -2065,12 +2125,10 @@
         "Building",
         "Webway Gate"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
-        }
-      ]
+      "weapons": [],
+      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+      "no": 32,
+      "type": "Lord"
     }
   ]
 }

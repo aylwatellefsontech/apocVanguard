@@ -1,0 +1,437 @@
+from generate_all_faction_lists import slot, u
+
+# ---------------------------------------------------------------------------
+# Necrons unit datasheets (Apoc_Datasheet_Necrons.pdf)
+# ---------------------------------------------------------------------------
+
+NECRONS = {
+    "Annihilation Barge": u(
+        "Annihilation Barge",
+        {"M": "12\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "11"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Annihilation Barge"],
+        [
+            {"name": "Gauss Cannon", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "5+", "armorPen": "7+"},
+            {"name": "Tesla Cannon", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "8+", "armorPen": "10+"},
+            {"name": "Twin Tesla Destructor", "type": "Heavy", "range": "24\"", "attacks": "4", "skill": "6+", "armorPen": "8+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "11+"},
+        ],
+        "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
+        options=["Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."],
+    ),
+    "C'tan Shard of the Deceiver": u(
+        "C'tan Shard of the Deceiver",
+        {"M": "8\"", "WS": "2+", "BS": "2+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "10"},
+        ["Necrons", "C'tan Shards", "Heavy", "Monster", "C'tan Shard of the Deceiver"],
+        [
+            {"name": "Powers of the C'tan", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "5+", "armorPen": "5+"},
+            {"name": "Star-god Fists", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"},
+        ],
+        "Terror Troops\nGrand Illusion: When you select this unit's Detachment to carry out an order, before any units in that Detachment make any actions for that order, you can replace that Detachment's order with Advance, Aimed Fire or Assault.\nEnslaved Star God: This unit cannot be a Warlord.\nImmune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+    ),
+    "C'tan Shard of the Nightbringer": u(
+        "C'tan Shard of the Nightbringer",
+        {"M": "8\"", "WS": "2+", "BS": "2+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "10"},
+        ["Necrons", "C'tan Shards", "Heavy", "Monster", "C'tan Shard of the Nightbringer"],
+        [
+            {"name": "Powers of the C'tan", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "5+", "armorPen": "5+"},
+            {"name": "Scythe of the Nightbringer", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "3+", "armorPen": "5+"},
+        ],
+        "Terror Troops\nEnslaved Star God: This unit cannot be a Warlord.\nImmune to natural law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+    ),
+    "Canoptek Scarabs": u(
+        "Canoptek Scarabs",
+        {"M": "10\"", "WS": "4+", "BS": "-", "A": "2", "W": "2", "Ld": "8", "Sv": "10+", "N": "3", "Pt": "4"},
+        ["Necrons", "Canoptek", "<Dynasty>", "Light", "Swarm", "Fly", "Canoptek Scarabs"],
+        [
+            {"name": "Feeder Mandibles", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "9+"},
+        ],
+        profiles=[
+            {"M": "10\"", "WS": "4+", "BS": "-", "A": "4", "W": "4", "Ld": "8", "Sv": "10+", "N": "6", "Pt": "8"},
+            {"M": "10\"", "WS": "4+", "BS": "-", "A": "6", "W": "6", "Ld": "8", "Sv": "10+", "N": "9", "Pt": "12"},
+        ],
+    ),
+    "Canoptek Spyders": u(
+        "Canoptek Spyders",
+        {"M": "6\"", "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "6"},
+        ["Necrons", "Canoptek", "<Dynasty>", "Light", "Monster", "Fly", "Canoptek Spyders"],
+        [
+            {"name": "Particle Beamer", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "5+", "armorPen": "8+"},
+            {"name": "Automaton Claws", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
+        ],
+        "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.\nFor each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).",
+        profiles=[
+            {"M": "6\"", "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "8", "Sv": "5+", "N": "2", "Pt": "11"},
+            {"M": "6\"", "WS": "4+", "BS": "4+", "A": "3", "W": "3", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "16"},
+        ],
+        options=["For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon)."],
+    ),
+    "Canoptek Wraiths": u(
+        "Canoptek Wraiths",
+        {"M": "12\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "8"},
+        ["Necrons", "Canoptek", "<Dynasty>", "Light", "Beasts", "Canoptek Wraiths"],
+        [
+            {"name": "Particle Caster", "type": "Heavy", "range": "12\"", "attacks": "1", "skill": "6+", "armorPen": "9+"},
+            {"name": "Transdimensional Beamer", "type": "Heavy", "range": "12\"", "attacks": "1", "skill": "7+", "armorPen": "10+"},
+            {"name": "Wraith Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "8+"},
+        ],
+        "Wraith Form: This unit can move across models and terrain as if they were not there.\nFor each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.",
+        profiles=[
+            {"M": "12\"", "WS": "3+", "BS": "3+", "A": "4", "W": "4", "Ld": "8", "Sv": "5+", "N": "6", "Pt": "15"},
+        ],
+        options=["For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer."],
+    ),
+    "Catacomb Command Barge": u(
+        "Catacomb Command Barge",
+        {"M": "12\"", "WS": "2+", "BS": "2+", "A": "1", "W": "2", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "10"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Character", "Overlord", "Catacomb Command Barge"],
+        [
+            {"name": "Gauss Cannon", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "5+", "armorPen": "7+"},
+            {"name": "Tesla Cannon", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "8+", "armorPen": "10+"},
+            {"name": "Overlord's Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+        ],
+        "Wave of Command: If a Light <Dynasty> unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic for that action.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.",
+        options=["Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon."],
+    ),
+    "Cryptek": u(
+        "Cryptek",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "5"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Character", "Cryptek"],
+        [
+            {"name": "Staff of Light", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "10+"},
+        ],
+        "Chronometron: Re-roll saving throws of 1 for friendly <Dynasty> Infantry units whilst they are within 6\" of this unit.\nTechnomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.",
+    ),
+    "Deathmarks": u(
+        "Deathmarks",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "6+", "N": "5", "Pt": "7"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Deathmarks"],
+        [
+            {"name": "Synaptic Disintegrators", "type": "Small Arms", "range": "24\"", "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire, Sniper"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Deep Strike",
+        profiles=[
+            {"M": "5\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "10", "Pt": "13"},
+        ],
+    ),
+    "Destroyer Lord": u(
+        "Destroyer Lord",
+        {"M": "10\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "6"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Fly", "Character", "Destroyer Lord"],
+        [
+            {"name": "Lord's Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+        ],
+        "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nUnited in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6\" of this unit.",
+    ),
+    "Destroyers": u(
+        "Destroyers",
+        {"M": "10\"", "WS": "3+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "8"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Fly", "Destroyers"],
+        [
+            {"name": "Gauss Cannons", "type": "Heavy", "range": "24\"", "attacks": "User", "skill": "5+", "armorPen": "7+"},
+            {"name": "Heavy Gauss Cannon", "type": "Heavy", "range": "36\"", "attacks": "1", "skill": "10+", "armorPen": "5+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nFor every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).",
+        profiles=[
+            {"M": "10\"", "WS": "3+", "BS": "3+", "A": "2", "W": "4", "Ld": "8", "Sv": "5+", "N": "6", "Pt": "15"},
+            {"M": "10\"", "WS": "3+", "BS": "3+", "A": "3", "W": "6", "Ld": "8", "Sv": "5+", "N": "9", "Pt": "22"},
+        ],
+        options=["For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon)."],
+    ),
+    "Doom Scythe": u(
+        "Doom Scythe",
+        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "17"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Aircraft", "Doom Scythe"],
+        [
+            {"name": "Death Ray", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Tesla Destructor", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "6+", "armorPen": "8+"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        "Supersonic",
+    ),
+    "Doomsday Ark": u(
+        "Doomsday Ark",
+        {"M": "12\"", "WS": "6+", "BS": "3+", "A": "1", "W": "3", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "12"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Doomsday Ark"],
+        [
+            {"name": "Doomsday Cannon", "type": "Heavy", "range": "72\"", "attacks": "2", "skill": "6+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Gauss Flayer Array", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "12+"},
+        ],
+        "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+    ),
+    "Flayed Ones": u(
+        "Flayed Ones",
+        {"M": "5\"", "WS": "3+", "BS": "6+", "A": "1", "W": "1", "Ld": "8", "Sv": "8+", "N": "5", "Pt": "5"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Flayed Ones"],
+        [
+            {"name": "Flayer Claws", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "10+"},
+        ],
+        "Deep Strike, Terror Troops",
+        profiles=[
+            {"M": "5\"", "WS": "3+", "BS": "6+", "A": "2", "W": "2", "Ld": "8", "Sv": "8+", "N": "10", "Pt": "8"},
+            {"M": "5\"", "WS": "3+", "BS": "6+", "A": "3", "W": "3", "Ld": "8", "Sv": "8+", "N": "15", "Pt": "11"},
+            {"M": "5\"", "WS": "3+", "BS": "6+", "A": "4", "W": "4", "Ld": "8", "Sv": "8+", "N": "20", "Pt": "14"},
+        ],
+    ),
+    "Ghost Ark": u(
+        "Ghost Ark",
+        {"M": "12\"", "WS": "6+", "BS": "3+", "A": "1", "W": "3", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "12"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Transport", "Ghost Ark"],
+        [
+            {"name": "Gauss Flayer Array", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "11+"},
+        ],
+        "Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.",
+    ),
+    "Heavy Destroyers": u(
+        "Heavy Destroyers",
+        {"M": "10\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "6"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Fly", "Heavy Destroyers"],
+        [
+            {"name": "Heavy Gauss Cannons", "type": "Heavy", "range": "36\"", "attacks": "User", "skill": "10+", "armorPen": "5+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+        profiles=[
+            {"M": "10\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "5+", "N": "2", "Pt": "11"},
+            {"M": "10\"", "WS": "3+", "BS": "3+", "A": "3", "W": "3", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "16"},
+        ],
+    ),
+    "Illuminor Szeras": u(
+        "Illuminor Szeras",
+        {"M": "6\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "6"},
+        ["Necrons", "Light", "Infantry", "Character", "Cryptek", "Illuminor Szeras"],
+        [
+            {"name": "Eldritch Lance (Ranged)", "type": "Heavy", "range": "36\"", "attacks": "1", "skill": "9+", "armorPen": "6+"},
+            {"name": "Eldritch Lance (Melee)", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
+        ],
+        "Mechanical Augmentations: After this unit makes a Move action, you can select one friendly Necrons Warriors or Immortals unit within 1\" of this unit to mechanically augment. Roll a D3 and apply the result from the table below to the chosen unit for the rest of the battle. A unit can only be mechanically augmented once per battle.\nTechnomancer: Friendly Necrons units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.\nD3 AUGMENTATION\n1 Improve the SAP characteristic of weapons the unit is equipped with by 1 (e.g. 8+ becomes 7+).\n2 Improve the unit's Save characteristic by 1 (e.g. 5+ becomes 4+).\n3 Improve the unit's Ballistic Skill characteristic by 1 (e.g. 4+ becomes 3+).",
+    ),
+    "Immortals": u(
+        "Immortals",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "6+", "N": "5", "Pt": "4"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Immortals"],
+        [
+            {"name": "Gauss Blasters", "type": "Small Arms", "range": "24\"", "attacks": "User", "skill": "6+", "armorPen": "8+", "abilities": "Rapid Fire"},
+            {"name": "Tesla Carbines", "type": "Small Arms", "range": "24\"", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.",
+        profiles=[
+            {"M": "5\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "10", "Pt": "8"},
+        ],
+        options=["Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines."],
+    ),
+    "Imotekh the Stormlord": u(
+        "Imotekh the Stormlord",
+        {"M": "5\"", "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "8", "Sv": "4+", "N": "1", "Pt": "9"},
+        ["Necrons", "Sautekh", "Light", "Infantry", "Character", "Overlord", "Imotekh the Stormlord"],
+        [
+            {"name": "The Staff of the Destroyer (Ranged)", "type": "Heavy", "range": "18\"", "attacks": "1", "skill": "6+", "armorPen": "8+"},
+            {"name": "The Staff of the Destroyer (Melee)", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "8+"},
+        ],
+        "Hyper-logical Strategist: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light Sautekh units whilst they are within 6\" of this unit.\nLord of the Storm: Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24\" of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6\" of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.",
+    ),
+    "Lord": u(
+        "Lord",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "4"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Character", "Lord"],
+        [
+            {"name": "Lord's Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+        ],
+        "The Lord's Will: Re-roll wound rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are with 6\" of this unit.",
+    ),
+    "Lychguard": u(
+        "Lychguard",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "5", "Pt": "7"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Lychguard"],
+        [
+            {"name": "Hyperphase Swords", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+            {"name": "Warscythes", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "4+", "armorPen": "4+"},
+        ],
+        "Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nInstead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields. If this unit has Dispersion Shields, it has a Save characteristic of 4+.",
+        profiles=[
+            {"M": "5\"", "WS": "3+", "BS": "3+", "A": "4", "W": "4", "Ld": "8", "Sv": "6+", "N": "10", "Pt": "14"},
+        ],
+        options=["Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields."],
+    ),
+    "Monolith": u(
+        "Monolith",
+        {"M": "6\"", "WS": "6+", "BS": "3+", "A": "1", "W": "4", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "17"},
+        ["Necrons", "<Dynasty>", "Super-heavy", "Titanic", "Fly", "Monolith"],
+        [
+            {"name": "Gauss Flux Arc", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "5+", "armorPen": "6+"},
+            {"name": "Particle Whip", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "5+", "armorPen": "5+"},
+            {"name": "Crushing Bulk", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "10+"},
+        ],
+        "Deep Strike\nPortal of Exile: After this unit ends a Move action choose one enemy unit within 1\" of this unit and roll one D6; on a 5+, place a blast marker next to that unit.\nEternity Gate: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.\nHover: Distances are measured to and from this unit's hull, even though it has a base.",
+    ),
+    "Necron Warriors": u(
+        "Necron Warriors",
+        {"M": "5\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "8+", "N": "10", "Pt": "6"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Necron Warriors"],
+        [
+            {"name": "Gauss Flayers", "type": "Small Arms", "range": "24\"", "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Heavy Blades", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        profiles=[
+            {"M": "5\"", "WS": "3+", "BS": "3+", "A": "4", "W": "4", "Ld": "8", "Sv": "8+", "N": "20", "Pt": "12"},
+        ],
+    ),
+    "Night Scythe": u(
+        "Night Scythe",
+        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "14"},
+        ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Aircraft", "Night Scythe"],
+        [
+            {"name": "Tesla Destructor", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "6+", "armorPen": "8+"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "10+"},
+        ],
+        "Supersonic\nInvasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+    ),
+    "Overlord": u(
+        "Overlord",
+        {"M": "5\"", "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "5"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Character", "Overlord"],
+        [
+            {"name": "Overlord's Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+        ],
+        "My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 6\" of this unit.",
+    ),
+    "Tomb Blades": u(
+        "Tomb Blades",
+        {"M": "14\"", "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "8", "Sv": "7+", "N": "3", "Pt": "8"},
+        ["Necrons", "<Dynasty>", "Light", "Biker", "Fly", "Tomb Blades"],
+        [
+            {"name": "Gauss Blasters", "type": "Small Arms", "range": "24\"", "attacks": "x2", "skill": "6+", "armorPen": "8+", "abilities": "Rapid Fire"},
+            {"name": "Particle Beamers", "type": "Small Arms", "range": "24\"", "attacks": "x3", "skill": "5+", "armorPen": "8+"},
+            {"name": "Tesla Carbines", "type": "Small Arms", "range": "24\"", "attacks": "x4", "skill": "7+", "armorPen": "9+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Stealth\nInstead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.",
+        profiles=[
+            {"M": "14\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "7+", "N": "6", "Pt": "15"},
+            {"M": "14\"", "WS": "3+", "BS": "3+", "A": "3", "W": "3", "Ld": "8", "Sv": "7+", "N": "9", "Pt": "22"},
+        ],
+        options=["Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines."],
+    ),
+    "Transcendent C'tan": u(
+        "Transcendent C'tan",
+        {"M": "8\"", "WS": "2+", "BS": "2+", "A": "2", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "10"},
+        ["Necrons", "C'tan Shards", "Heavy", "Monster", "Fly", "Character", "Transcendent C'tan"],
+        [
+            {"name": "Powers of the C'tan", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "5+", "armorPen": "5+"},
+            {"name": "Crackling Tendrils", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "5+"},
+        ],
+        "Enslaved Star God: This unit cannot be a Warlord.\nImmune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.\nCosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for an attack made by this unit, or you can re-roll one saving throw made for this unit.",
+    ),
+    "Triarch Praetorians": u(
+        "Triarch Praetorians",
+        {"M": "10\"", "WS": "3+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "5", "Pt": "8"},
+        ["Necrons", "Light", "Infantry", "Fly", "Triarch Praetorians"],
+        [
+            {"name": "Particle Casters", "type": "Small Arms", "range": "12\"", "attacks": "x2", "skill": "6+", "armorPen": "9+"},
+            {"name": "Rods of Covenant (Ranged)", "type": "Small Arms", "range": "12\"", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+            {"name": "Rods of Covenant (Melee)", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "7+"},
+            {"name": "Voidblades", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "9+"},
+        ],
+        "A Purpose Unshakable: Morale tests taken for this unit are automatically passed.\nInstead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades.",
+        profiles=[
+            {"M": "10\"", "WS": "3+", "BS": "3+", "A": "2", "W": "4", "Ld": "8", "Sv": "6+", "N": "10", "Pt": "15"},
+        ],
+        options=["Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades."],
+    ),
+    "Triarch Stalker": u(
+        "Triarch Stalker",
+        {"M": "10\"", "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "11"},
+        ["Necrons", "Heavy", "Vehicle", "Triarch Stalker"],
+        [
+            {"name": "Heat Ray (Dispersed)", "type": "Heavy", "range": "8\"", "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Heat Ray (Focused)", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "8+", "armorPen": "4+"},
+            {"name": "Particle Shredder", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "7+", "armorPen": "7+"},
+            {"name": "Twin Heavy Gauss Cannon", "type": "Heavy", "range": "36\"", "attacks": "2", "skill": "10+", "armorPen": "5+"},
+            {"name": "Massive Forelimbs", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+        ],
+        "Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.\nTargeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.\nInstead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).",
+        options=["Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1)."],
+    ),
+    "Skorpekh Destroyers": u(
+        "Skorpekh Destroyers",
+        {"M": '8"', "WS": "3+", "BS": "3+", "A": "3", "W": "1", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "7"},
+        ["Necrons", "<Dynasty>", "Light", "Infantry", "Destroyer Cult", "Skorpekh Destroyers"],
+        [{"name": "Skorpekh Hyperphase Weapons", "type": "Melee", "range": "Melee", "attacks": "x4", "skill": "5+", "armorPen": "7+"}],
+        "Hardwired Hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+        options=["Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons."],
+    ),
+    "Canoptek Doomstalker": u(
+        "Canoptek Doomstalker",
+        {"M": '8"', "WS": "5+", "BS": "4+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "11"},
+        ["Necrons", "Canoptek", "<Dynasty>", "Heavy", "Vehicle", "Walker", "Canoptek Doomstalker"],
+        [
+            {"name": "Doomsday Blaster", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "6+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Twin Gauss Flayer", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Doomstalker Limbs", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "7+", "armorPen": "9+"},
+        ],
+        "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+        options=["A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs."],
+    ),
+    "Obelisk": u(
+        "Obelisk",
+        {"M": '8"', "WS": "6+", "BS": "3+", "A": "1", "W": "5", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "20"},
+        ["Necrons", "<Dynasty>", "Super-heavy", "Vehicle", "Titanic", "Fly", "Obelisk"],
+        [
+            {"name": "Tesla Sphere", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Crushing Bulk", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "10+"},
+        ],
+        "Deep Strike\nGravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12\" of this unit; on a 9+ place one blast marker next to that unit.",
+        options=["An Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk."],
+    ),
+    "Tesseract Vault": u(
+        "Tesseract Vault",
+        {"M": '8"', "WS": "6+", "BS": "3+", "A": "1", "W": "6", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "24"},
+        ["Necrons", "C'tan Shards", "<Dynasty>", "Super-heavy", "Vehicle", "Titanic", "Fly", "Tesseract Vault"],
+        [
+            {"name": "Tesla Sphere", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "6+", "armorPen": "8+"},
+            {"name": "Unbridled Powers of the C'tan", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "5+", "armorPen": "5+", "abilities": "Destroyer"},
+            {"name": "Crushing Bulk", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "10+"},
+        ],
+        "Deep Strike",
+        options=["A Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk."],
+    ),
+}
+
+NECRONS_SLOTS = [
+    slot(1, "HQ", NECRONS["Cryptek"]),
+    slot(2, "HQ", NECRONS["Imotekh the Stormlord"]),
+    slot(3, "HQ", NECRONS["Destroyer Lord"]),
+    slot(4, "HQ", NECRONS["Overlord"]),
+    slot(5, "HQ", NECRONS["Catacomb Command Barge"]),
+    slot(6, "Troops", NECRONS["Immortals"]),
+    slot(7, "Troops", NECRONS["Necron Warriors"]),
+    slot(8, "Elites", NECRONS["Deathmarks"]),
+    slot(9, "Elites", NECRONS["Destroyer Lord"]),
+    slot(10, "Elites", NECRONS["Flayed Ones"]),
+    slot(11, "Elites", NECRONS["Illuminor Szeras"]),
+    slot(12, "Elites", NECRONS["Lychguard"]),
+    slot(13, "Elites", NECRONS["Triarch Praetorians"]),
+    slot(14, "Elites", NECRONS["Triarch Stalker"]),
+    slot(15, "Elites", NECRONS["Skorpekh Destroyers"]),
+    slot(16, "Fast", NECRONS["Canoptek Wraiths"]),
+    slot(17, "Fast", NECRONS["Canoptek Scarabs"]),
+    slot(18, "Fast", NECRONS["Destroyers"]),
+    slot(19, "Fast", NECRONS["Tomb Blades"]),
+    slot(20, "Heavy", NECRONS["Annihilation Barge"]),
+    slot(21, "Heavy", NECRONS["Canoptek Spyders"]),
+    slot(22, "Heavy", NECRONS["Destroyers"]),
+    slot(23, "Heavy", NECRONS["Doomsday Ark"]),
+    slot(24, "Heavy", NECRONS["Heavy Destroyers"]),
+    slot(25, "Heavy", NECRONS["Monolith"]),
+    slot(26, "Heavy", NECRONS["Transcendent C'tan"]),
+    slot(27, "Heavy", NECRONS["Canoptek Doomstalker"]),
+    slot(28, "Air", NECRONS["Doom Scythe"]),
+    slot(29, "Air", NECRONS["Night Scythe"]),
+    slot(30, "Transport", NECRONS["Ghost Ark"]),
+    slot(31, "Lord", NECRONS["Obelisk"]),
+    slot(32, "Lord", NECRONS["Tesseract Vault"]),
+]
