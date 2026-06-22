@@ -1,12 +1,11 @@
 No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords,Options
 ,,,,,,,,,,,,,,,,,,,,
-1,HQ,Morvenn Vahl,"8""",3+,3+,2,3,6,4+,1,8,,,,,,,"Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6"" of this unit.
+1,HQ,Morvenn Vahl,"8""",3+,3+,2,3,6,5+,1,8,,,,,,,"Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6"" of this unit.
 Leader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas Infantry units by 1 whilst they are wholly within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas, Order of Our Martyred Lady
 Heavy, Vehicle, Walker, Character, Morvenn Vahl",
 1,,,,,,,,,,,,,,,,,,Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army.,,
 1,,,,,,,,,,,,Fidelis,Small Arms,"36""",User,6+,10+,Rapid Fire,,
-1,,,,,,,,,,,,Paragon Missile Launcher (Prioris),Heavy,"36""",2,7+,6+,,,
-1,,,,,,,,,,,,Paragon Missile Launcher (Sanctorum),Heavy,"36""",2,5+,9+,,,
+1,,,,,,,,,,,,Paragon Missile Launcher (Prioris),Heavy,"36""",2,5+,6+,,,
 1,,,,,,,,,,,,Lance of Illumination,Melee,Melee,User,6+,6+,,,
 2,HQ,Canoness,"6""",2+,2+,1,1,7,5+,1,4,,,,,,,"Lead the Righteous: Re-roll hit rolls of 1 for attacks made by friendly <Order> units whilst they are within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Character, Canoness",
@@ -104,18 +103,17 @@ Light, Infantry, Dominion Squad",per weapon (Power Rating +1 per weapon): This u
 17,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
 17,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 17,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
-18,Fast,Novitiate Squad,"6""",4+,4+,1,1,6,10+,10,4,,,,,,,Infiltrators,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
+18,Fast,Novitiate Squad,"6""",4+,3+,2,2,6,10+,10,6,,,,,,,Infiltrators,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Novitiate Squad",
 18,,,,,,,,,,,,,,,,,,Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons.,,
 18,,,,,,,,,,,,Autoguns,Small Arms,"24""",User,8+,10+,Rapid Fire,,
 18,,,,,,,,,,,,Novitiate Melee Weapons,Melee,Melee,x2,7+,9+,,,
-19,Fast,Sanctifiers,"6""",4+,4+,1,1,6,11+,10,4,,,,,,,"Infiltrators
+19,Fast,Sanctifiers,"6""",4+,4+,2,2,6,11+,10,6,,,,,,,"Infiltrators
 Purge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that target Infantry units.","Imperium, Adeptus Ministorum, Adepta Sororitas
 Light, Infantry, Sanctifiers",
 19,,,,,,,,,,,,,,,,,,Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons.,,
-19,,,,,,,,,,,,Braziers of Holy Fire,Heavy,"12""",2,7+,10+,Inferno,,
-19,,,,,,,,,,,,Ministorum Flamers,Heavy,"12""",1,7+,10+,Inferno,,
-19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
+19,,,,,,,,,,,,Braziers of Holy Fire,Heavy,"12""",3,7+,10+,Inferno,,
+19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
 20,Fast,Seraphim Squad,"12""",3+,3+,1,1,6,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Fly, Jump Pack, Seraphim Squad",
 20,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,,
@@ -181,9 +179,9 @@ Heavy, Vehicle, Walker, Paragon Warsuits",per model (Power Rating +1 per model):
 28,,,,,,,,,,,,,,,,,,Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).,,
 28,,,,,,,,,,,,,,,,,,Any model can have its Paragon War Blade replaced with 1 Paragon War Mace.,,
 28,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
-28,,,,,,,,,,,,Paragon Storm Bolters,Small Arms,"24""",x2,7+,10+,Rapid Fire,,
+28,,,,,,,,,,,,Paragon Storm Bolters,Small Arms,"24""",User,7+,10+,Rapid Fire,,
 28,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
-28,,,,,,,,,,,,Paragon War Blade,Melee,Melee,x2,5+,7+,,,
+28,,,,,,,,,,,,Paragon War Blade,Melee,Melee,User,5+,6+,,,
 28,,,,,,,,,,,,Paragon War Mace,Melee,Melee,User,6+,6+,,,
 29,Transport,Immolator,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Heavy, Vehicle, Transport, Immolator","per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
@@ -202,12 +200,10 @@ Heavy, Vehicle, Transport, Repressor",
 31,,,,,,,,,,,,Twin Heavy Flamer,Heavy,"8""",2,7+,10+,Inferno,,
 31,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 31,,,,,,,,,,,,Dozer Ram,Melee,Melee,User,9+,10+,,,
-32,Lord,Celestine & Geminae,"12""",2+,2+,3,4,7,4+,3,11,,,,,,,"Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6"" of this unit.
+32,Lord,Celestine & Geminae,"12""",2+,2+,3,4,7,4+,3,14,,,,,,,"Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6"" of this unit.
 Miraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.
-Lifewards: At the start of the Damage phase, you can select one friendly Character unit in this unit that has at least one blast marker next to it. Remove up to D3 blast markers from that Character and place them on other models in this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas
+Lifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.","Imperium, Adeptus Ministorum, Adepta Sororitas
 Light, Infantry, Fly, Character, Jump Pack, Celestine, Geminae Superia",
 32,,,,,,,,,,,,,,,,,,Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army.,,
 32,,,,,,,,,,,,The Ardent Blade (Ranged),Heavy,"8""",1,6+,9+,Inferno,,
-32,,,,,,,,,,,,The Ardent Blade (Melee),Melee,Melee,User,7+,7+,,,
-32,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
-32,,,,,,,,,,,,Geminae Power Swords,Melee,Melee,User,8+,8+,,,
+32,,,,,,,,,,,,Ardent Blades,Melee,Melee,User,7+,7+,,,

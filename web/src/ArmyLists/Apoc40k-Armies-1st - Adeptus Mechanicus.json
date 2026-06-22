@@ -3,8 +3,6 @@
   "source": "Apoc40k-Armies-1st - Adeptus Mechanicus.csv",
   "units": [
     {
-      "no": 1,
-      "type": "HQ",
       "name": "Belisarius Cawl",
       "stats": {
         "M": "6\"",
@@ -17,7 +15,6 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -46,11 +43,12 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "no": 1,
+      "type": "HQ"
     },
     {
-      "no": 2,
-      "type": "HQ",
       "name": "Tech-Priest Dominus",
       "stats": {
         "M": "6\"",
@@ -63,7 +61,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -92,11 +89,12 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "no": 2,
+      "type": "HQ"
     },
     {
-      "no": 3,
-      "type": "HQ",
       "name": "Tech-Priest Manipulus",
       "stats": {
         "M": "6\"",
@@ -109,7 +107,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nInstead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -120,12 +117,6 @@
         "Character",
         "Tech-Priest",
         "Manipulus"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
-        }
       ],
       "weapons": [
         {
@@ -153,11 +144,18 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
+        }
+      ],
+      "no": 3,
+      "type": "HQ"
     },
     {
-      "no": 4,
-      "type": "HQ",
       "name": "Skatarii Marshal",
       "stats": {
         "M": "5\"",
@@ -166,11 +164,10 @@
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "4+",
+        "Sv": "6+",
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -180,12 +177,6 @@
         "Infantry",
         "Character",
         "Skatarii Marshal"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave."
-        }
       ],
       "weapons": [
         {
@@ -202,13 +193,20 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "8+"
+          "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave."
+        }
+      ],
+      "no": 4,
+      "type": "HQ"
     },
     {
-      "no": 5,
-      "type": "Troops",
       "name": "Skitarii Rangers",
       "stats": {
         "M": "6\"",
@@ -230,19 +228,6 @@
         "Infantry",
         "Skitarii Rangers"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
-      ],
       "weapons": [
         {
           "name": "Galvanic Rifles",
@@ -261,11 +246,24 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "no": 5,
+      "type": "Troops"
     },
     {
-      "no": 6,
-      "type": "Troops",
       "name": "Skitarii Vanguard",
       "stats": {
         "M": "6\"",
@@ -287,19 +285,6 @@
         "Infantry",
         "Skitarii Vanguard"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
-      ],
       "weapons": [
         {
           "name": "Radium Carbines",
@@ -317,11 +302,24 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "no": 6,
+      "type": "Troops"
     },
     {
-      "no": 7,
-      "type": "Elites",
       "name": "Tech-Priest Enginseer",
       "stats": {
         "M": "6\"",
@@ -334,7 +332,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -355,11 +352,12 @@
           "skill": "8+",
           "armorPen": "7+"
         }
-      ]
+      ],
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "no": 7,
+      "type": "Elites"
     },
     {
-      "no": 8,
-      "type": "Elites",
       "name": "Corpuscarii Electro-Priests",
       "stats": {
         "M": "6\"",
@@ -372,7 +370,6 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (5+)",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -383,6 +380,25 @@
         "Electro-Priests",
         "Corpuscarii"
       ],
+      "weapons": [
+        {
+          "name": "Electrostatic Gauntlets (Ranged)",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Electrostatic Gauntlets (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ],
+      "abilities": "Ignore Damage (5+)",
       "profiles": [
         {
           "M": "6\"",
@@ -418,28 +434,10 @@
           "Pt": "16"
         }
       ],
-      "weapons": [
-        {
-          "name": "Electrostatic Gauntlets (Ranged)",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x3",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Electrostatic Gauntlets (Melee)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x3",
-          "skill": "6+",
-          "armorPen": "8+"
-        }
-      ]
+      "no": 8,
+      "type": "Elites"
     },
     {
-      "no": 9,
-      "type": "Elites",
       "name": "Cybernetica Datasmith",
       "stats": {
         "M": "6\"",
@@ -452,7 +450,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -473,11 +470,12 @@
           "skill": "9+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.",
+      "no": 9,
+      "type": "Elites"
     },
     {
-      "no": 10,
-      "type": "Elites",
       "name": "Fulgurite Electro-Priests",
       "stats": {
         "M": "6\"",
@@ -490,7 +488,6 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "Ignore Damage (5+)\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -501,6 +498,17 @@
         "Electro-Priests",
         "Fulgurite"
       ],
+      "weapons": [
+        {
+          "name": "Electroleech Staves",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ],
+      "abilities": "Ignore Damage (5+)\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.",
       "profiles": [
         {
           "M": "6\"",
@@ -536,20 +544,10 @@
           "Pt": "12"
         }
       ],
-      "weapons": [
-        {
-          "name": "Electroleech Staves",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
-      ]
+      "no": 10,
+      "type": "Elites"
     },
     {
-      "no": 11,
-      "type": "Elites",
       "name": "Kataphron Breachers",
       "stats": {
         "M": "6\"",
@@ -562,7 +560,6 @@
         "N": "3",
         "Pt": "6"
       },
-      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -571,6 +568,32 @@
         "Light",
         "Infantry",
         "Kataphron Breachers"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Arc Rifle",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Torsion Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Kataphron Claws",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "6+"
+        }
       ],
       "profiles": [
         {
@@ -613,36 +636,10 @@
           "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
         }
       ],
-      "weapons": [
-        {
-          "name": "Heavy Arc Rifle",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Torsion Cannon",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Kataphron Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "6+"
-        }
-      ]
+      "no": 11,
+      "type": "Elites"
     },
     {
-      "no": 12,
-      "type": "Elites",
       "name": "Servitors",
       "stats": {
         "M": "5\"",
@@ -655,7 +652,6 @@
         "N": "4",
         "Pt": "2"
       },
-      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.\nThis unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -663,13 +659,6 @@
         "Light",
         "Infantry",
         "Servitors"
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -705,11 +694,19 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.",
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
+          "Pt": "1"
+        }
+      ],
+      "no": 12,
+      "type": "Elites"
     },
     {
-      "no": 13,
-      "type": "Elites",
       "name": "Sicarian Ruststalkers",
       "stats": {
         "M": "8\"",
@@ -731,19 +728,6 @@
         "Infantry",
         "Sicarian Ruststalkers"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
       "weapons": [
         {
           "name": "Chordclaws",
@@ -761,11 +745,24 @@
           "skill": "6+",
           "armorPen": "8+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "no": 13,
+      "type": "Elites"
     },
     {
-      "no": 14,
-      "type": "Elites",
       "name": "Sicarian Infiltrators",
       "stats": {
         "M": "8\"",
@@ -778,7 +775,6 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -787,25 +783,6 @@
         "Light",
         "Infantry",
         "Sicarian Infiltrators"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
-        }
       ],
       "weapons": [
         {
@@ -832,11 +809,31 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Infiltrators, Terror Troops",
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        }
+      ],
+      "no": 14,
+      "type": "Elites"
     },
     {
-      "no": 15,
-      "type": "Elites",
       "name": "Sydonian Dragoons",
       "stats": {
         "M": "10\"",
@@ -849,7 +846,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.\nFor each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -858,41 +854,6 @@
         "Heavy",
         "Vehicle",
         "Sydonian Dragoons"
-      ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "3",
-          "Pt": "15"
-        },
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "6",
-          "Pt": "30"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance."
-        },
-        {
-          "per": "Per weapon",
-          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -928,24 +889,59 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "profiles": [
+        {
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "3",
+          "Pt": "15"
+        },
+        {
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "6",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "6",
+          "Pt": "30"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance."
+        },
+        {
+          "per": "Per weapon",
+          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
+          "Pt": "1"
+        }
+      ],
+      "no": 15,
+      "type": "Elites"
     },
     {
-      "no": 16,
-      "type": "Elites",
       "name": "Hastarii Exterminators",
       "stats": {
         "M": "5\"",
-        "WS": "4+",
+        "WS": "3+",
         "BS": "4+",
         "A": "1",
         "W": "2",
         "Ld": "7",
         "Sv": "7+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "7"
       },
-      "abilities": "Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -955,35 +951,21 @@
         "Infantry",
         "Hastarii Exterminators"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons."
-        }
-      ],
       "weapons": [
         {
           "name": "Eradication Caster",
           "type": "Small Arms",
-          "range": "15\"",
+          "range": "30\"",
           "attacks": "2",
-          "skill": "4+",
-          "armorPen": "8+"
+          "skill": "7+",
+          "armorPen": "9+"
         },
         {
           "name": "Hastarii Arc Blaster",
           "type": "Heavy",
           "range": "18\"",
           "attacks": "1",
-          "skill": "4+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Power Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
+          "skill": "9+",
           "armorPen": "7+"
         },
         {
@@ -994,24 +976,29 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons."
+        }
+      ],
+      "no": 16,
+      "type": "Elites"
     },
     {
-      "no": 17,
-      "type": "Elites",
       "name": "Hastarii Fusiliers",
       "stats": {
         "M": "5\"",
-        "WS": "4+",
+        "WS": "3+",
         "BS": "4+",
         "A": "1",
         "W": "2",
         "Ld": "7",
         "Sv": "7+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "7"
       },
-      "abilities": "Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1021,36 +1008,21 @@
         "Infantry",
         "Hastarii Fusiliers"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons."
-        }
-      ],
       "weapons": [
-        {
-          "name": "Neutron Fusil",
-          "type": "Heavy",
-          "range": "30\"",
-          "attacks": "2",
-          "skill": "4+",
-          "armorPen": "5+"
-        },
         {
           "name": "Hastarii Phosphor Blaster",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
+          "attacks": "3",
           "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
+          "armorPen": "9+"
         },
         {
-          "name": "Power Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
+          "name": "Hastarii Arc Blaster",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
           "armorPen": "7+"
         },
         {
@@ -1061,11 +1033,17 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons."
+        }
+      ],
+      "no": 17,
+      "type": "Elites"
     },
     {
-      "no": 18,
-      "type": "Fast",
       "name": "Ironstrider Ballistarii",
       "stats": {
         "M": "10\"",
@@ -1078,7 +1056,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1088,6 +1065,33 @@
         "Vehicle",
         "Ironstrider Ballistarii"
       ],
+      "weapons": [
+        {
+          "name": "Twin Cognis Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Cognis Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "profiles": [
         {
           "M": "10\"",
@@ -1118,36 +1122,10 @@
           "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
         }
       ],
-      "weapons": [
-        {
-          "name": "Twin Cognis Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Twin Cognis Lascannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "10+"
-        }
-      ]
+      "no": 18,
+      "type": "Fast"
     },
     {
-      "no": 19,
-      "type": "Fast",
       "name": "Kastelan Robots",
       "stats": {
         "M": "8\"",
@@ -1160,7 +1138,6 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1169,40 +1146,6 @@
         "Heavy",
         "Vehicle",
         "Kastelan Robots"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "4",
-          "Pt": "14"
-        },
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "6",
-          "W": "6",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "21"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
-        }
       ],
       "weapons": [
         {
@@ -1238,11 +1181,46 @@
           "skill": "6+",
           "armorPen": "5+"
         }
-      ]
+      ],
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "4",
+          "Pt": "14"
+        },
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "6",
+          "W": "6",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        }
+      ],
+      "no": 19,
+      "type": "Fast"
     },
     {
-      "no": 20,
-      "type": "Fast",
       "name": "Sicarian Infiltrators",
       "stats": {
         "M": "8\"",
@@ -1255,7 +1233,6 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1264,25 +1241,6 @@
         "Light",
         "Infantry",
         "Sicarian Infiltrators"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
-        }
       ],
       "weapons": [
         {
@@ -1309,11 +1267,31 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "abilities": "Infiltrators, Terror Troops",
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Stubcarbines, this unit can be equipped with Flechette Blasters."
+        }
+      ],
+      "no": 20,
+      "type": "Fast"
     },
     {
-      "no": 21,
-      "type": "Fast",
       "name": "Serberys Sulphurhounds",
       "stats": {
         "M": "12\"",
@@ -1322,11 +1300,10 @@
         "A": "1",
         "W": "2",
         "Ld": "7",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: 2 Phosphor Pistols; Sulphur Breath; Clawed Limbs.\nFor every 3 models in this unit, 1 Serberys Sulphurhound's 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1336,50 +1313,23 @@
         "Cavalry",
         "Serberys Sulphurhounds"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: 2 Phosphor Pistols; Sulphur Breath; Clawed Limbs."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For every 3 models in this unit, 1 Serberys Sulphurhound's 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol."
-        }
-      ],
       "weapons": [
         {
-          "name": "Phosphor Pistols",
+          "name": "Pistols",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "x2",
+          "attacks": "1",
           "skill": "7+",
           "armorPen": "9+"
-        },
-        {
-          "name": "Phosphor Blast Carbine",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
         },
         {
           "name": "Sulphur Breath",
           "type": "Small Arms",
           "range": "9\"",
-          "attacks": "User",
-          "skill": "5+",
+          "attacks": "2",
+          "skill": "6+",
           "armorPen": "9+",
           "abilities": "Inferno"
-        },
-        {
-          "name": "Cavalry Arc Maul",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "7+"
         },
         {
           "name": "Clawed Limbs",
@@ -1389,11 +1339,17 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: Pistols; Sulphur Breath; Clawed Limbs."
+        }
+      ],
+      "no": 21,
+      "type": "Fast"
     },
     {
-      "no": 22,
-      "type": "Fast",
       "name": "Serberys Raiders",
       "stats": {
         "M": "12\"",
@@ -1402,115 +1358,79 @@
         "A": "1",
         "W": "2",
         "Ld": "7",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Cavalry Sabre; Clawed Limbs.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
         "Skitarii",
         "<Forge World>",
+        "Infiltrators",
         "Light",
         "Cavalry",
         "Serberys Raiders"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Cavalry Sabre; Clawed Limbs."
-        }
       ],
       "weapons": [
         {
           "name": "Galvanic Carbine",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Archeo-revolver",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Cavalry Sabre",
+          "name": "Claws & Sabers",
           "type": "Melee",
-          "range": "Melee",
+          "range": "2x Melee",
           "attacks": "User",
-          "skill": "6+",
+          "skill": "7+",
           "armorPen": "8+"
-        },
-        {
-          "name": "Clawed Limbs",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
         }
-      ]
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres"
+        }
+      ],
+      "no": 22,
+      "type": "Fast"
     },
     {
-      "no": 23,
-      "type": "Fast",
       "name": "Pteraxii Sterylizors",
       "stats": {
         "M": "12\"",
         "WS": "4+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "7",
         "Sv": "8+",
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Pteraxii Sterylizors are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Phosphor Torch; Pteraxii Talons.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
         "Skitarii",
         "<Forge World>",
+        "Infiltrators",
         "Light",
         "Infantry",
         "Fly",
         "Pteraxii Sterylizors"
-      ],
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "8"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 8)",
-          "Pt": "8"
-        }
       ],
       "weapons": [
         {
           "name": "Phosphor Torch",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "User",
-          "skill": "5+",
+          "attacks": "User x2",
+          "skill": "7+",
           "armorPen": "9+",
           "abilities": "Inferno"
         },
@@ -1519,44 +1439,9 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Taser Goad",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
+          "skill": "8+",
+          "armorPen": "10+"
         }
-      ]
-    },
-    {
-      "no": 24,
-      "type": "Fast",
-      "name": "Pteraxii Skywalkers",
-      "stats": {
-        "M": "12\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "7",
-        "Sv": "8+",
-        "N": "5",
-        "Pt": "4"
-      },
-      "abilities": "Pteraxii Skywalkers are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Flechette Carbine; Close Combat Weapon.",
-      "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
-        "Light",
-        "Infantry",
-        "Fly",
-        "Pteraxii Skywalkers"
       ],
       "profiles": [
         {
@@ -1564,7 +1449,7 @@
           "WS": "4+",
           "BS": "4+",
           "A": "2",
-          "W": "4",
+          "W": "2",
           "Ld": "7",
           "Sv": "8+",
           "N": "10",
@@ -1578,30 +1463,41 @@
           "Pt": "8"
         }
       ],
+      "no": 23,
+      "type": "Fast"
+    },
+    {
+      "name": "Pteraxii Skywalkers",
+      "stats": {
+        "M": "12\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "7",
+        "Sv": "8+",
+        "N": "5",
+        "Pt": "4"
+      },
+      "keywords": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Infiltrators",
+        "Light",
+        "Infantry",
+        "Fly",
+        "Pteraxii Skywalkers"
+      ],
       "weapons": [
         {
           "name": "Flechette Carbine",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Flechette Blaster",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x5",
+          "attacks": "x4",
           "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Taser Goad",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
+          "armorPen": "12+"
         },
         {
           "name": "Close Combat Weapon",
@@ -1611,11 +1507,31 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 10 models",
+          "text": "It can contain 10 models (Power Rating 8)",
+          "Pt": "8"
+        }
+      ],
+      "no": 24,
+      "type": "Fast"
     },
     {
-      "no": 25,
-      "type": "Heavy",
       "name": "Ironstrider Ballistarii",
       "stats": {
         "M": "10\"",
@@ -1628,7 +1544,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1638,6 +1553,33 @@
         "Vehicle",
         "Ironstrider Ballistarii"
       ],
+      "weapons": [
+        {
+          "name": "Twin Cognis Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Cognis Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "10+"
+        }
+      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "profiles": [
         {
           "M": "10\"",
@@ -1668,36 +1610,10 @@
           "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
         }
       ],
-      "weapons": [
-        {
-          "name": "Twin Cognis Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Twin Cognis Lascannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "2",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "10+"
-        }
-      ]
+      "no": 25,
+      "type": "Heavy"
     },
     {
-      "no": 26,
-      "type": "Heavy",
       "name": "Kastelan Robots",
       "stats": {
         "M": "8\"",
@@ -1710,7 +1626,6 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1719,40 +1634,6 @@
         "Heavy",
         "Vehicle",
         "Kastelan Robots"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "4",
-          "Pt": "14"
-        },
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "6",
-          "W": "6",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "21"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
-        }
       ],
       "weapons": [
         {
@@ -1788,11 +1669,46 @@
           "skill": "6+",
           "armorPen": "5+"
         }
-      ]
+      ],
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "profiles": [
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "4",
+          "Pt": "14"
+        },
+        {
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "6",
+          "W": "6",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+        },
+        {
+          "per": "Per Unit",
+          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+        }
+      ],
+      "no": 26,
+      "type": "Heavy"
     },
     {
-      "no": 27,
-      "type": "Heavy",
       "name": "Kataphron Destroyers",
       "stats": {
         "M": "6\"",
@@ -1805,7 +1721,6 @@
         "N": "3",
         "Pt": "7"
       },
-      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.\nFor each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1814,6 +1729,51 @@
         "Light",
         "Infantry",
         "Kataphron Destroyers"
+      ],
+      "weapons": [
+        {
+          "name": "Cognis Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "10+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Heavy Grav-cannon",
+          "type": "Heavy",
+          "range": "30\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Phosphor Blaster",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Plasma Culverin",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
@@ -1860,55 +1820,10 @@
           "text": "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
         }
       ],
-      "weapons": [
-        {
-          "name": "Cognis Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Heavy Grav-cannon",
-          "type": "Heavy",
-          "range": "30\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Phosphor Blaster",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Plasma Culverin",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+",
-          "abilities": "Supercharge"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ]
+      "no": 27,
+      "type": "Heavy"
     },
     {
-      "no": 28,
-      "type": "Heavy",
       "name": "Onager Dunecrawler",
       "stats": {
         "M": "8\"",
@@ -1921,7 +1836,6 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.\nThis unit can also be equipped with 1 Cognis Heavy Stubber.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -1930,16 +1844,6 @@
         "Heavy",
         "Vehicle",
         "Onager Dunecrawler"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber."
-        }
       ],
       "weapons": [
         {
@@ -1992,11 +1896,22 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ]
+      ],
+      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber."
+        }
+      ],
+      "no": 28,
+      "type": "Heavy"
     },
     {
-      "no": 29,
-      "type": "Heavy",
       "name": "Skorpius Disintegrator",
       "stats": {
         "M": "12\"",
@@ -2009,7 +1924,6 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2018,13 +1932,6 @@
         "Heavy",
         "Vehicle",
         "Skorpius Disintegrator"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
-          "Pt": "1"
-        }
       ],
       "weapons": [
         {
@@ -2068,11 +1975,19 @@
           "skill": "11+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
+          "Pt": "1"
+        }
+      ],
+      "no": 29,
+      "type": "Heavy"
     },
     {
-      "no": 30,
-      "type": "Air",
       "name": "Archaeopter Stratoraptor",
       "stats": {
         "M": "20\"",
@@ -2085,7 +2000,6 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Hover",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2097,35 +2011,28 @@
         "Aircraft",
         "Archaeopter Stratoraptor"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull."
-        }
-      ],
       "weapons": [
         {
           "name": "Cognis Heavy Stubber",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "3",
+          "attacks": "1",
           "skill": "8+",
           "armorPen": "10+"
         },
         {
-          "name": "Hellstrike Missiles",
+          "name": "Twin Cognis Lascannon",
           "type": "Heavy",
           "range": "48\"",
-          "attacks": "1",
-          "skill": "4+",
-          "armorPen": "4+",
-          "abilities": "Destroyer"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
         },
         {
           "name": "Heavy Phosphor Blaster",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "3",
+          "attacks": "1",
           "skill": "6+",
           "armorPen": "8+"
         },
@@ -2133,15 +2040,22 @@
           "name": "Armoured Hull",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "3",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Hover",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull."
+        }
+      ],
+      "no": 30,
+      "type": "Air"
     },
     {
-      "no": 31,
-      "type": "Air",
       "name": "Archaeopter Fusilave",
       "stats": {
         "M": "20\"",
@@ -2154,7 +2068,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover\nBomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2166,19 +2079,13 @@
         "Aircraft",
         "Archaeopter Fusilave"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull."
-        }
-      ],
       "weapons": [
         {
           "name": "Cognis Heavy Stubber Array",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "9",
-          "skill": "8+",
+          "attacks": "2",
+          "skill": "6+",
           "armorPen": "10+",
           "abilities": "Rapid Fire"
         },
@@ -2186,15 +2093,22 @@
           "name": "Armoured Hull",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "3",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Hover\nBomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull."
+        }
+      ],
+      "no": 31,
+      "type": "Air"
     },
     {
-      "no": 32,
-      "type": "Transport",
       "name": "Skorpius Dunerider",
       "stats": {
         "M": "12\"",
@@ -2207,7 +2121,6 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2243,11 +2156,12 @@
           "skill": "11+",
           "armorPen": "11+"
         }
-      ]
+      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
+      "no": 32,
+      "type": "Transport"
     },
     {
-      "no": 33,
-      "type": "Lord",
       "name": "Mars Pattern Knight",
       "stats": {
         "M": "12\"",
@@ -2260,7 +2174,6 @@
         "N": "1",
         "Pt": "24"
       },
-      "abilities": "Questor Mechanicus: This unit has the Questor Mechanicus keyword and can benefit from Adeptus Mechanicus Master of Machines abilities.\nA Mars Pattern Knight is a Questoris-class Knight Paladin equipped with: Rapid-fire Battle Cannon; 2 Heavy Stubbers; Reaper Chainsword.\n• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.\n• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2271,21 +2184,6 @@
         "Titanic",
         "Questoris Class",
         "Knight Paladin"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
       ],
       "weapons": [
         {
@@ -2356,11 +2254,31 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ]
+      ],
+      "abilities": "Questor Mechanicus: This unit has the Questor Mechanicus keyword and can benefit from Adeptus Mechanicus Master of Machines abilities.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Mars Pattern Knight is a Questoris-class Knight Paladin equipped with: Rapid-fire Battle Cannon; 2 Heavy Stubbers; Reaper Chainsword."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
+      ],
+      "no": 33,
+      "type": "Lord"
     },
     {
-      "no": 34,
-      "type": "Lord",
       "name": "Mars Pattern Armiger",
       "stats": {
         "M": "14\"",
@@ -2373,7 +2291,6 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSelect Armiger Helverin or Armiger Warglaive loadout when including this unit.\nArmiger Helverin: equipped with 2 Armiger Autocannons, Heavy Stubber, Armoured Feet.\nArmiger Warglaive: equipped with Heavy Stubber, Thermal Spear, Armoured Feet, Reaper Chain-cleaver.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2382,12 +2299,6 @@
         "Heavy",
         "Vehicle",
         "Armiger Class"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
       ],
       "weapons": [
         {
@@ -2438,7 +2349,28 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ]
+      ],
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Select Armiger Helverin or Armiger Warglaive loadout when including this unit."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Armiger Helverin: equipped with 2 Armiger Autocannons, Heavy Stubber, Armoured Feet."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Armiger Warglaive: equipped with Heavy Stubber, Thermal Spear, Armoured Feet, Reaper Chain-cleaver."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
+      ],
+      "no": 34,
+      "type": "Lord"
     }
   ]
 }

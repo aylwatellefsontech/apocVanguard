@@ -469,16 +469,14 @@ TYRANIDS = {
     ),
     "Hierophant": u(
         "Hierophant",
-        {"M": '12"', "WS": "3+", "BS": "3+", "A": "6", "W": "8", "Ld": "8", "Sv": "3+", "N": "1", "Pt": "30"},
+        {"M": '12"', "WS": "3+", "BS": "3+", "A": "2", "W": "7", "Ld": "7", "Sv": "5+", "N": "1", "Pt": "45"},
         ["Tyranids", "Tyranid Hive Fleets", "<Hive Fleet>", "Super-heavy", "Monster", "Transport", "Titanic", "Hierophant Bio-titan"],
         [
-            {"name": "Bio-plasma Torrent", "type": "Heavy", "range": '8"', "attacks": "5", "skill": "7+", "armorPen": "9+", "abilities": "Inferno"},
-            {"name": "Dire Bio-cannon", "type": "Heavy", "range": '48"', "attacks": "3", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
+            {"name": "Bio-plasma Torrent", "type": "Heavy", "range": '8"', "attacks": "4", "skill": "7+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Dire Bio-cannon", "type": "Heavy", "range": '48"', "attacks": "2", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
             {"name": "Gargantuan Scything Talons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
-            {"name": "Lashwhip Pods", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "8+"},
+            {"name": "Lashwhip Pods", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "6+", "armorPen": "9+"},
         ],
-        "Incendiary Ichor: Each time a blast marker is placed next to this unit, if there are any enemy units in base contact with this unit, roll one D6; on a 3+ place one blast marker next to an enemy unit in base contact with this unit.\n"
-        "Frenzied Metabolism: When this unit makes a Shoot action, you can place one blast marker next to this unit. If you do so, add 1 to wound rolls for attacks made by this unit for that action.\n"
         "Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.",
         options=[
             "A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.",

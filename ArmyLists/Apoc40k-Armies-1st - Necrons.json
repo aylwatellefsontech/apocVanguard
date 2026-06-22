@@ -757,10 +757,10 @@
         "M": "8\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "3",
-        "W": "1",
+        "A": "2",
+        "W": "2",
         "Ld": "8",
-        "Sv": "5+",
+        "Sv": "7+",
         "N": "3",
         "Pt": "7"
       },
@@ -777,12 +777,11 @@
           "name": "Skorpekh Hyperphase Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x4",
+          "attacks": "x2",
           "skill": "5+",
           "armorPen": "7+"
         }
       ],
-      "abilities": "Hardwired Hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -1535,14 +1534,14 @@
       "name": "Canoptek Doomstalker",
       "stats": {
         "M": "8\"",
-        "WS": "5+",
+        "WS": "4+",
         "BS": "4+",
         "A": "1",
         "W": "2",
         "Ld": "8",
         "Sv": "6+",
         "N": "1",
-        "Pt": "11"
+        "Pt": "8"
       },
       "keywords": [
         "Necrons",
@@ -1576,12 +1575,11 @@
           "name": "Doomstalker Limbs",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         }
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
       "options": [
         {
           "per": "Per Unit",

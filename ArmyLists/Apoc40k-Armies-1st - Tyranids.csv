@@ -235,12 +235,10 @@ Heavy, Monster, Fly, Tyrannocyte","per Unit: Instead of Deathspitters, this unit
 31,,,,,,,,,,,,Deathspitters,Heavy,"24""",5,6+,9+,,,
 31,,,,,,,,,,,,Venom Cannons,Heavy,"36""",5,9+,7+,,,
 31,,,,,,,,,,,,Barbed Tentacles,Melee,Melee,User,10+,10+,,,
-32,Lord,Hierophant,"12""",3+,3+,6,8,8,3+,1,30,,,,,,,"Incendiary Ichor: Each time a blast marker is placed next to this unit, if there are any enemy units in base contact with this unit, roll one D6; on a 3+ place one blast marker next to an enemy unit in base contact with this unit.
-Frenzied Metabolism: When this unit makes a Shoot action, you can place one blast marker next to this unit. If you do so, add 1 to wound rolls for attacks made by this unit for that action.
-Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+32,Lord,Hierophant,"12""",3+,3+,2,7,7,5+,1,45,,,,,,,"Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
 Super-heavy, Monster, Transport, Titanic, Hierophant Bio-titan",
 32,,,,,,,,,,,,,,,,,,A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.,,
-32,,,,,,,,,,,,Bio-plasma Torrent,Heavy,"8""",5,7+,9+,Inferno,,
-32,,,,,,,,,,,,Dire Bio-cannon,Heavy,"48""",3,8+,4+,Destroyer,,
+32,,,,,,,,,,,,Bio-plasma Torrent,Heavy,"8""",4,7+,9+,Inferno,,
+32,,,,,,,,,,,,Dire Bio-cannon,Heavy,"48""",2,8+,4+,Destroyer,,
 32,,,,,,,,,,,,Gargantuan Scything Talons,Melee,Melee,User,8+,4+,Destroyer,,
-32,,,,,,,,,,,,Lashwhip Pods,Melee,Melee,x3,6+,8+,,,
+32,,,,,,,,,,,,Lashwhip Pods,Melee,Melee,x2,6+,9+,,,

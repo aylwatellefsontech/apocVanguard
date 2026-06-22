@@ -30,7 +30,7 @@ def split_keywords(keywords):
                     "Black Legion", "Khorne", "Nurgle", "Slaanesh", "Tzeentch",
                     "Orks", "Freebooterz", "Goff", "Bad Moons", "Deathskulls", "Blood Axe", "Evil Sunz", "Snakebites",
                     "Tyranids", "Tyranid Hive Fleets", "Genestealer Cults", "Brood Brothers",
-                    "Necrons", "C'tan Shards", "Canoptek", "Sautekh", "<Dynasty>"}
+                    "Necrons", "C'tan Shards", "Canoptek", "Sautekh", "<Dynasty>", "Infiltrators"}
     placeholder_keys = {"<Kabal>", "<Wych Cult>", "<Haemonculus Coven>", "<Sept>",
                         "<Order>", "<Forge World>", "<Legion>", "<Mark of Chaos>",
                         "<Chapter>", "<Regiment>", "<Questor Allegiance>", "<Questor Traitoris>",
@@ -172,12 +172,11 @@ DRUKHARI = {
         {"M": '8"', "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "7", "Sv": "3+", "N": "1", "Pt": "6"},
         ["Aeldari", "Drukhari", "Kabal of the Poisoned Tongue", "Light", "Infantry", "Character", "Archon", "Lady Malys"],
         [
-            {"name": "The Lady's Blade", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "8+"},
-            {"name": "Razor Fan", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
+            {"name": "The Lady's Blade", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "8+"},
         ],
         "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\n"
         "Precognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
-        options=["Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade; Razor Fan. You can only include one of this unit in your army."],
+        options=["Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army."],
     ),
     "Haemonculus": u(
         "Haemonculus",
@@ -280,16 +279,16 @@ DRUKHARI = {
     ),
     "Hand of Archon": u(
         "Hand of Archon",
-        {"M": '7"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "8+", "N": "5", "Pt": "4"},
+        {"M": '7"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "8+", "N": "5", "Pt": "3"},
         ["Aeldari", "Drukhari", "<Kabal>", "Light", "Infantry", "Hand of the Archon"],
         [
             {"name": "Splinter Rifles", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "5+", "armorPen": "12+", "abilities": "Rapid Fire"},
             {"name": "Blaster", "type": "Heavy", "range": '18"', "attacks": "1", "skill": "9+", "armorPen": "5+"},
             {"name": "Dark Lance", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "9+", "armorPen": "5+"},
             {"name": "Power Weapon", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
-            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
         ],
-        profiles=[{"M": '7"', "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "6", "Sv": "8+", "N": "10", "Pt": "8"}],
+        profiles=[{"M": '7"', "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "6", "Sv": "8+", "N": "10", "Pt": "6"}],
         options=[
             "Hand of the Archon are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Splinter Rifles; Close Combat Weapons.",
             "For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).",
@@ -299,14 +298,10 @@ DRUKHARI = {
     ),
     "Court of the Archon": u(
         "Court of the Archon",
-        {"M": '8"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "10+", "N": "4", "Pt": "8"},
+        {"M": '8"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "8+", "N": "4", "Pt": "4"},
         ["Aeldari", "Drukhari", "<Kabal>", "Light", "Infantry", "Court of the Archon"],
         [
-            {"name": "Shaimeshi Blade", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "12+"},
-            {"name": "Eyeburst Attack (Ranged)", "type": "Heavy", "range": '9"', "attacks": "1", "skill": "10+", "armorPen": "10+"},
-            {"name": "Eyeburst Attack (Melee)", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "12+"},
-            {"name": "Sslyth Battle-blade", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
-            {"name": "Flensing Claws", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "9+"},
         ],
         "Ignore Damage (6+)\n"
         "Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\n"
@@ -453,8 +448,8 @@ DRUKHARI = {
         {"M": '14"', "WS": "4+", "BS": "3+", "A": "1", "W": "3", "Ld": "5", "Sv": "7+", "N": "1", "Pt": "7"},
         ["Aeldari", "Drukhari", "<Kabal>", "Heavy", "Vehicle", "Fly", "Reaper"],
         [
-            {"name": "Storm Vortex Projector", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "10+", "armorPen": "5+"},
-            {"name": "Scythevanes", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "11+"},
+            {"name": "Storm Vortex Projector", "type": "Heavy", "range": '36"', "attacks": "3", "skill": "7+", "armorPen": "7+"},
+            {"name": "Bladevanes", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "10+", "armorPen": "11+"},
         ],
         "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
         options=["A Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes."],
@@ -523,7 +518,7 @@ DRUKHARI = {
         {"M": '20-72"', "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "5", "Sv": "7+", "N": "1", "Pt": "10"},
         ["Aeldari", "Drukhari", "<Kabal> or <Wych Cult>", "Heavy", "Vehicle", "Fly", "Aircraft", "Raven Strike Fighter"],
         [
-            {"name": "Dark Lance", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "10+", "armorPen": "4+"},
+            {"name": "Dark Lance", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "10+", "armorPen": "5+"},
             {"name": "Splinterstorm Cannon", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "6+", "armorPen": "12+", "abilities": "Rapid Fire"},
             {"name": "Bladed Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "10+"},
         ],
@@ -548,10 +543,10 @@ DRUKHARI = {
     ),
     "Tantalus": u(
         "Tantalus",
-        {"M": '16"', "WS": "4+", "BS": "3+", "A": "2", "W": "4", "Ld": "5", "Sv": "5+", "N": "1", "Pt": "18"},
+        {"M": '16"', "WS": "4+", "BS": "3+", "A": "2", "W": "4", "Ld": "5", "Sv": "6+", "N": "1", "Pt": "16"},
         ["Aeldari", "Drukhari", "<Kabal> or <Wych Cult> or <Haemonculus Coven>", "Heavy", "Vehicle", "Fly", "Transport", "Tantalus"],
         [
-            {"name": "Pulse-disintegrator", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "4+", "armorPen": "9+"},
+            {"name": "Pulse-disintegrator", "type": "Heavy", "range": '36"', "attacks": "4", "skill": "7+", "armorPen": "7+"},
             {"name": "Dire Scythe Blade", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "10+"},
         ],
         "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\n"
@@ -560,20 +555,20 @@ DRUKHARI = {
     ),
     "Asdrubael Vect": u(
         "Asdrubael Vect",
-        {"M": '14"', "WS": "3+", "BS": "3+", "A": "2", "W": "4", "Ld": "8", "Sv": "7+", "N": "1", "Pt": "24"},
+        {"M": '14"', "WS": "2+", "BS": "3+", "A": "2", "W": "4", "Ld": "8", "Sv": "5+", "N": "1", "Pt": "20"},
         ["Aeldari", "Drukhari", "Kabal of the Black Heart", "Heavy", "Vehicle", "Fly", "Character", "Ravager", "Asdrubael Vect"],
         [
             {"name": "Dark Lance", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "9+", "armorPen": "5+"},
-            {"name": "Disintegrator Cannon", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "5+", "armorPen": "10+"},
+            {"name": "Obsidian Orbs (Ranged)", "type": "Heavy", "range": '12"', "attacks": "2", "skill": "3+", "armorPen": "10+", "abilities": "Destroyer"},
             {"name": "Splinterstorm Cannon", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "6+", "armorPen": "12+", "abilities": "Rapid Fire"},
-            {"name": "Scepter of the Dark City", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
-            {"name": "Bladevanes", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
+            {"name": "Obsidian Orbs (Melee)", "type": "Melee", "range": "Melee", "attacks": "2", "skill": "3+", "armorPen": "10+", "abilities": "Destroyer"},
+            {"name": "Retinue Weaponry", "type": "Melee", "range": "Melee", "attacks": "4", "skill": "6+", "armorPen": "8+"},
         ],
         "Hover: Distances are measured to and from this unit's hull, even though it has a base.\n"
-        "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\n"
-        "Skyhook Escape: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
+        "Lord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\n"
+        "Master of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
         options=[
-            "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 2 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.",
+            "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.",
             "You can only include one of this unit in your army.",
         ],
     ),
@@ -660,12 +655,11 @@ SISTERS = {
     ),
     "Morvenn Vahl": u(
         "Morvenn Vahl",
-        {"M": '8"', "WS": "3+", "BS": "3+", "A": "2", "W": "3", "Ld": "6", "Sv": "4+", "N": "1", "Pt": "8"},
+        {"M": '8"', "WS": "3+", "BS": "3+", "A": "2", "W": "3", "Ld": "6", "Sv": "5+", "N": "1", "Pt": "8"},
         ["Imperium", "Adeptus Ministorum", "Adepta Sororitas", "Order of Our Martyred Lady", "Heavy", "Vehicle", "Walker", "Character", "Morvenn Vahl"],
         [
             {"name": "Fidelis", "type": "Small Arms", "range": '36"', "attacks": "User", "skill": "6+", "armorPen": "10+", "abilities": "Rapid Fire"},
-            {"name": "Paragon Missile Launcher (Prioris)", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "7+", "armorPen": "6+"},
-            {"name": "Paragon Missile Launcher (Sanctorum)", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "5+", "armorPen": "9+"},
+            {"name": "Paragon Missile Launcher (Prioris)", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "5+", "armorPen": "6+"},
             {"name": "Lance of Illumination", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"},
         ],
         "Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6\" of this unit.\n"
@@ -841,7 +835,7 @@ SISTERS = {
     ),
     "Novitiate Squad": u(
         "Novitiate Squad",
-        {"M": '6"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "6", "Sv": "10+", "N": "10", "Pt": "4"},
+        {"M": '6"', "WS": "4+", "BS": "3+", "A": "2", "W": "2", "Ld": "6", "Sv": "10+", "N": "10", "Pt": "6"},
         ["Imperium", "Adeptus Ministorum", "Adepta Sororitas", "<Order>", "Light", "Infantry", "Novitiate Squad"],
         [
             {"name": "Autoguns", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
@@ -852,12 +846,11 @@ SISTERS = {
     ),
     "Sanctifiers": u(
         "Sanctifiers",
-        {"M": '6"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "6", "Sv": "11+", "N": "10", "Pt": "4"},
+        {"M": '6"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "6", "Sv": "11+", "N": "10", "Pt": "6"},
         ["Imperium", "Adeptus Ministorum", "Adepta Sororitas", "Light", "Infantry", "Sanctifiers"],
         [
-            {"name": "Braziers of Holy Fire", "type": "Heavy", "range": '12"', "attacks": "2", "skill": "7+", "armorPen": "10+", "abilities": "Inferno"},
-            {"name": "Ministorum Flamers", "type": "Heavy", "range": '12"', "attacks": "1", "skill": "7+", "armorPen": "10+", "abilities": "Inferno"},
-            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
+            {"name": "Braziers of Holy Fire", "type": "Heavy", "range": '12"', "attacks": "3", "skill": "7+", "armorPen": "10+", "abilities": "Inferno"},
+            {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
         ],
         "Infiltrators\nPurge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that target Infantry units.",
         options=["Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons."],
@@ -977,9 +970,9 @@ SISTERS = {
         ["Imperium", "Adeptus Ministorum", "Adepta Sororitas", "Heavy", "Vehicle", "Walker", "Paragon Warsuits"],
         [
             {"name": "Heavy Bolter", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
-            {"name": "Paragon Storm Bolters", "type": "Small Arms", "range": '24"', "attacks": "x2", "skill": "7+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Paragon Storm Bolters", "type": "Small Arms", "range": '24"', "attacks": "User", "skill": "7+", "armorPen": "10+", "abilities": "Rapid Fire"},
             {"name": "Multi-melta", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "10+", "armorPen": "4+"},
-            {"name": "Paragon War Blade", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "5+", "armorPen": "7+"},
+            {"name": "Paragon War Blade", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "6+"},
             {"name": "Paragon War Mace", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"},
         ],
         "Righteous Paragons: Re-roll hit rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
@@ -1003,17 +996,15 @@ SISTERS = {
     ),
     "Celestine & Geminae": u(
         "Celestine & Geminae",
-        {"M": '12"', "WS": "2+", "BS": "2+", "A": "3", "W": "4", "Ld": "7", "Sv": "4+", "N": "3", "Pt": "11"},
+        {"M": '12"', "WS": "2+", "BS": "2+", "A": "3", "W": "4", "Ld": "7", "Sv": "4+", "N": "3", "Pt": "14"},
         ["Imperium", "Adeptus Ministorum", "Adepta Sororitas", "Light", "Infantry", "Fly", "Character", "Jump Pack", "Celestine", "Geminae Superia"],
         [
             {"name": "The Ardent Blade (Ranged)", "type": "Heavy", "range": '8"', "attacks": "1", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
-            {"name": "The Ardent Blade (Melee)", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
-            {"name": "Bolt Pistols", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "7+", "armorPen": "9+"},
-            {"name": "Geminae Power Swords", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+            {"name": "Ardent Blades", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
         ],
         "Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6\" of this unit.\n"
         "Miraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.\n"
-        "Lifewards: At the start of the Damage phase, you can select one friendly Character unit in this unit that has at least one blast marker next to it. Remove up to D3 blast markers from that Character and place them on other models in this unit.",
+        "Lifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.",
         options=["Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army."],
     ),
     "Triumph of Saint Katherine": u(
@@ -1123,11 +1114,11 @@ ADMECH = {
     ),
     "Skatarii Marshal": u(
         "Skatarii Marshal",
-        {"M": '5"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "4+", "N": "1", "Pt": "4"},
+        {"M": '5"', "WS": "3+", "BS": "3+", "A": "1", "W": "1", "Ld": "6", "Sv": "6+", "N": "1", "Pt": "4"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Infantry", "Character", "Skatarii Marshal"],
         [
             {"name": "Radium Serpenta", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "7+", "armorPen": "9+"},
-            {"name": "Control Stave", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"},
+            {"name": "Control Stave", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
         ],
         "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
         options=["A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave."],
@@ -1367,12 +1358,11 @@ ADMECH = {
     ),
     "Hastarii Exterminators": u(
         "Hastarii Exterminators",
-        {"M": '5"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "8"},
+        {"M": '5"', "WS": "3+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "7"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Infantry", "Hastarii Exterminators"],
         [
-            {"name": "Eradication Caster", "type": "Small Arms", "range": '15"', "attacks": "2", "skill": "4+", "armorPen": "8+"},
-            {"name": "Hastarii Arc Blaster", "type": "Heavy", "range": '18"', "attacks": "1", "skill": "4+", "armorPen": "7+"},
-            {"name": "Power Weapon", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
+            {"name": "Eradication Caster", "type": "Small Arms", "range": '30"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
+            {"name": "Hastarii Arc Blaster", "type": "Heavy", "range": '18"', "attacks": "1", "skill": "9+", "armorPen": "7+"},
             {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
         ],
         options=[
@@ -1381,12 +1371,11 @@ ADMECH = {
     ),
     "Hastarii Fusiliers": u(
         "Hastarii Fusiliers",
-        {"M": '5"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "8"},
+        {"M": '5"', "WS": "3+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "7"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Infantry", "Hastarii Fusiliers"],
         [
-            {"name": "Neutron Fusil", "type": "Heavy", "range": '30"', "attacks": "2", "skill": "4+", "armorPen": "5+"},
-            {"name": "Hastarii Phosphor Blaster", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
-            {"name": "Power Weapon", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
+            {"name": "Hastarii Phosphor Blaster", "type": "Small Arms", "range": '18"', "attacks": "3", "skill": "7+", "armorPen": "9+"},
+            {"name": "Hastarii Arc Blaster", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "9+", "armorPen": "7+"},
             {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
         ],
         options=[
@@ -1395,59 +1384,51 @@ ADMECH = {
     ),
     "Serberys Sulphurhounds": u(
         "Serberys Sulphurhounds",
-        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "6"},
+        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "6+", "N": "5", "Pt": "6"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Cavalry", "Serberys Sulphurhounds"],
         [
-            {"name": "Phosphor Pistols", "type": "Small Arms", "range": '12"', "attacks": "x2", "skill": "7+", "armorPen": "9+"},
-            {"name": "Phosphor Blast Carbine", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
-            {"name": "Sulphur Breath", "type": "Small Arms", "range": '9"', "attacks": "User", "skill": "5+", "armorPen": "9+", "abilities": "Inferno"},
-            {"name": "Cavalry Arc Maul", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "7+"},
+            {"name": "Pistols", "type": "Small Arms", "range": '12"', "attacks": "1", "skill": "7+", "armorPen": "9+"},
+            {"name": "Sulphur Breath", "type": "Small Arms", "range": '9"', "attacks": "2", "skill": "6+", "armorPen": "9+", "abilities": "Inferno"},
             {"name": "Clawed Limbs", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
         ],
         options=[
-            "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: 2 Phosphor Pistols; Sulphur Breath; Clawed Limbs.",
-            "For every 3 models in this unit, 1 Serberys Sulphurhound's 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol.",
+            "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with:  Pistols; Sulphur Breath; Clawed Limbs.",
         ],
     ),
     "Serberys Raiders": u(
         "Serberys Raiders",
-        {"M": '12"', "WS": "4+", "BS": "3+", "A": "1", "W": "2", "Ld": "7", "Sv": "7+", "N": "5", "Pt": "6"},
-        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Cavalry", "Serberys Raiders"],
+        {"M": '12"', "WS": "4+", "BS": "3+", "A": "1", "W": "2", "Ld": "7", "Sv": "6+", "N": "5", "Pt": "6"},
+        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Infiltrators", "Light", "Cavalry", "Serberys Raiders"],
         [
-            {"name": "Galvanic Carbine", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
-            {"name": "Archeo-revolver", "type": "Small Arms", "range": '12"', "attacks": "1", "skill": "6+", "armorPen": "8+"},
-            {"name": "Cavalry Sabre", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "8+"},
-            {"name": "Clawed Limbs", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "9+"},
+            {"name": "Galvanic Carbine", "type": "Small Arms", "range": '18"', "attacks": "2", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
+            {"name": "Claws & Sabers", "type": "Melee", "range": "2x Melee", "attacks": "User", "skill": "7+", "armorPen": "8+"},
         ],
         options=[
-            "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Cavalry Sabre; Clawed Limbs.",
+            "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres",
         ],
     ),
     "Pteraxii Sterylizors": u(
         "Pteraxii Sterylizors",
-        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "8+", "N": "5", "Pt": "4"},
-        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Infantry", "Fly", "Pteraxii Sterylizors"],
+        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "7", "Sv": "8+", "N": "5", "Pt": "4"},
+        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Infiltrators", "Light", "Infantry", "Fly", "Pteraxii Sterylizors"],
         [
-            {"name": "Phosphor Torch", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "5+", "armorPen": "9+", "abilities": "Inferno"},
-            {"name": "Pteraxii Talons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "6+", "armorPen": "8+"},
-            {"name": "Taser Goad", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "8+"},
+            {"name": "Phosphor Torch", "type": "Small Arms", "range": '12"', "attacks": "User x2", "skill": "7+", "armorPen": "9+", "abilities": "Inferno"},
+            {"name": "Pteraxii Talons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "8+", "armorPen": "10+"},
         ],
-        profiles=[{"M": '12"', "WS": "4+", "BS": "4+", "A": "2", "W": "4", "Ld": "7", "Sv": "8+", "N": "10", "Pt": "8"}],
+        profiles=[{"M": '12"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "7", "Sv": "8+", "N": "10", "Pt": "8"}],
         options=[
             "Pteraxii Sterylizors are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Phosphor Torch; Pteraxii Talons.",
         ],
     ),
     "Pteraxii Skywalkers": u(
         "Pteraxii Skywalkers",
-        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "7", "Sv": "8+", "N": "5", "Pt": "4"},
-        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Light", "Infantry", "Fly", "Pteraxii Skywalkers"],
+        {"M": '12"', "WS": "4+", "BS": "4+", "A": "1", "W": "1", "Ld": "7", "Sv": "8+", "N": "5", "Pt": "4"},
+        ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Infiltrators", "Light", "Infantry", "Fly", "Pteraxii Skywalkers"],
         [
-            {"name": "Flechette Carbine", "type": "Small Arms", "range": '18"', "attacks": "User", "skill": "7+", "armorPen": "9+"},
-            {"name": "Flechette Blaster", "type": "Small Arms", "range": '12"', "attacks": "x5", "skill": "8+", "armorPen": "10+"},
-            {"name": "Taser Goad", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "8+"},
+            {"name": "Flechette Carbine", "type": "Small Arms", "range": '18"', "attacks": "x4", "skill": "8+", "armorPen": "12+"},
             {"name": "Close Combat Weapon", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "10+"},
         ],
-        profiles=[{"M": '12"', "WS": "4+", "BS": "4+", "A": "2", "W": "4", "Ld": "7", "Sv": "8+", "N": "10", "Pt": "8"}],
+        profiles=[{"M": '12"', "WS": "4+", "BS": "4+", "A": "2", "W": "2", "Ld": "7", "Sv": "8+", "N": "10", "Pt": "8"}],
         options=[
             "Pteraxii Skywalkers are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Flechette Carbine; Close Combat Weapon.",
         ],
@@ -1457,10 +1438,10 @@ ADMECH = {
         {"M": '20"', "WS": "4+", "BS": "3+", "A": "1", "W": "2", "Ld": "7", "Sv": "3+", "N": "1", "Pt": "8"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Heavy", "Vehicle", "Fly", "Aircraft", "Archaeopter Stratoraptor"],
         [
-            {"name": "Cognis Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "3", "skill": "8+", "armorPen": "10+"},
-            {"name": "Hellstrike Missiles", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "4+", "armorPen": "4+", "abilities": "Destroyer"},
-            {"name": "Heavy Phosphor Blaster", "type": "Heavy", "range": '36"', "attacks": "3", "skill": "6+", "armorPen": "8+"},
-            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "3", "skill": "7+", "armorPen": "9+"},
+            {"name": "Cognis Heavy Stubber", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "8+", "armorPen": "10+"},
+            {"name": "Twin Cognis Lascannon", "type": "Heavy", "range": '48"', "attacks": "2", "skill": "10+", "armorPen": "5+"},
+            {"name": "Heavy Phosphor Blaster", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "6+", "armorPen": "8+"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "11+"},
         ],
         "Hover",
         options=["An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull."],
@@ -1470,8 +1451,8 @@ ADMECH = {
         {"M": '20"', "WS": "4+", "BS": "3+", "A": "1", "W": "2", "Ld": "7", "Sv": "3+", "N": "1", "Pt": "7"},
         ["Imperium", "Adeptus Mechanicus", "Skitarii", "<Forge World>", "Heavy", "Vehicle", "Fly", "Aircraft", "Archaeopter Fusilave"],
         [
-            {"name": "Cognis Heavy Stubber Array", "type": "Heavy", "range": '36"', "attacks": "9", "skill": "8+", "armorPen": "10+", "abilities": "Rapid Fire"},
-            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "3", "skill": "7+", "armorPen": "9+"},
+            {"name": "Cognis Heavy Stubber Array", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "6+", "armorPen": "10+", "abilities": "Rapid Fire"},
+            {"name": "Armoured Hull", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "11+", "armorPen": "11+"},
         ],
         "Hover\nBomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.",
         options=["An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull."],

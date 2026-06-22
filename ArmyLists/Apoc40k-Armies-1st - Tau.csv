@@ -96,14 +96,14 @@ Light, Cavalry, Krootox Riders",per 2 models (Power Rating 2): It can contain 2 
 10,,,,,,,,,,,,,,,,,,Krootox Riders are a unit that contains 1 model. It can contain 2 models (Power Rating 2) or 3 models (Power Rating 3). It is equipped with: Kroot Guns; Krootox Fists.,,
 10,,,,,,,,,,,,Kroot Guns,Small Arms,"48""",User,8+,8+,Rapid Fire,,
 10,,,,,,,,,,,,Krootox Fists,Melee,Melee,User,7+,9+,,,
-11,Elites,Krootox Rampagers,"8""",3+,5+,2,1,4,10+,1,3,,,,,,,Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.,"T'au Empire, Kroot
-Light, Cavalry, Krootox Rampagers",per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7)
-11,,,"8""",3+,5+,4,2,4,10+,2,5,,,,,,,,,
-11,,,"8""",3+,5+,6,3,4,10+,3,7,,,,,,,,,
-11,,,,,,,,,,,,,,,,,,Krootox Rampagers are a unit that contains 1 model. It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7). It is equipped with: Hunting Blades; Rampager Fists.,,
+11,Elites,Krootox Rampagers,"8""",3+,4+,3,3,4,10+,2,4,,,,,,,Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.,"T'au Empire, Kroot
+Light, Cavalry, Krootox Rampagers",per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7).
+11,,,"8""",3+,4+,2,2,4,10+,2,5,,,,,,,,,
+11,,,"8""",3+,4+,3,3,4,10+,3,7,,,,,,,,,
+11,,,,,,,,,,,,,,,,,,Krootox Rampagers are a unit that contains 3 models. It is equipped with: Kroot Pistols; Fists & Blades.,,
+11,,,,,,,,,,,,,,,,,,It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7).,,
 11,,,,,,,,,,,,Kroot Pistols,Small Arms,"12""",User,8+,10+,,,
-11,,,,,,,,,,,,Hunting Blades,Melee,Melee,x3,6+,9+,,,
-11,,,,,,,,,,,,Rampager Fists,Melee,Melee,x4,5+,8+,,,
+11,,,,,,,,,,,,Fists & Blades,Melee,Melee,User,6+,8+,,,
 12,Elites,XV25 Stealth Battlesuits,"8""",5+,4+,1,1,6,6+,3,6,,,,,,,"Infiltrators, Stealth","T'au Empire, <Sept>
 Light, Battlesuit, Fly, Infantry, Jet Pack, XV25 Stealth Battlesuits","per 6 models (Power Rating 10): It can contain 6 models (Power Rating 10); per Unit (Power Rating +1): This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone."
 12,,,"8""",5+,4+,2,2,6,6+,6,10,,,,,,,,,
@@ -182,7 +182,7 @@ Light, Battlesuit, Fly, Jet Pack, XV9 Hazard Battlesuit","per Unit: Instead of 1
 17,,,,,,,,,,,,,,,,,,"Instead of 1 Fusion Cascade, this unit can be equipped with 1 Phased Ion Gun.",,
 17,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion Cascade or 1 Phased Ion Gun.",,
 17,,,,,,,,,,,,Fusion Cascade,Heavy,"12""",1,9+,4+,,,
-17,,,,,,,,,,,,Twin Hazard Burst Cannon,Heavy,"24""",4,7+,9+,,,
+17,,,,,,,,,,,,Twin Hazard Burst Cannon,Heavy,"24""",3,7+,9+,,,
 17,,,,,,,,,,,,Phased Ion Gun,Heavy,"30""",2,7+,8+,,,
 17,,,,,,,,,,,,Battlesuit Fists,Melee,Melee,x3,6+,9+,,,
 18,Fast,Pathfinder Team,"7""",5+,4+,1,1,5,8+,5,5,,,,,,,Infiltrators,"T'au Empire, <Sept>

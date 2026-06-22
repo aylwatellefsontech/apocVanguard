@@ -358,22 +358,20 @@ NECRONS = {
     ),
     "Skorpekh Destroyers": u(
         "Skorpekh Destroyers",
-        {"M": '8"', "WS": "3+", "BS": "3+", "A": "3", "W": "1", "Ld": "8", "Sv": "5+", "N": "3", "Pt": "7"},
+        {"M": '8"', "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "8", "Sv": "7+", "N": "3", "Pt": "7"},
         ["Necrons", "<Dynasty>", "Light", "Infantry", "Destroyer Cult", "Skorpekh Destroyers"],
-        [{"name": "Skorpekh Hyperphase Weapons", "type": "Melee", "range": "Melee", "attacks": "x4", "skill": "5+", "armorPen": "7+"}],
-        "Hardwired Hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+        [{"name": "Skorpekh Hyperphase Weapons", "type": "Melee", "range": "Melee", "attacks": "x2", "skill": "5+", "armorPen": "7+"}],
         options=["Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons."],
     ),
     "Canoptek Doomstalker": u(
         "Canoptek Doomstalker",
-        {"M": '8"', "WS": "5+", "BS": "4+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "11"},
+        {"M": '8"', "WS": "4+", "BS": "4+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "8"},
         ["Necrons", "Canoptek", "<Dynasty>", "Heavy", "Vehicle", "Walker", "Canoptek Doomstalker"],
         [
             {"name": "Doomsday Blaster", "type": "Heavy", "range": '48"', "attacks": "1", "skill": "6+", "armorPen": "4+", "abilities": "Destroyer"},
             {"name": "Twin Gauss Flayer", "type": "Heavy", "range": '24"', "attacks": "1", "skill": "7+", "armorPen": "9+", "abilities": "Rapid Fire"},
-            {"name": "Doomstalker Limbs", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "7+", "armorPen": "9+"},
+            {"name": "Doomstalker Limbs", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "9+"},
         ],
-        "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
         options=["A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs."],
     ),
     "Obelisk": u(

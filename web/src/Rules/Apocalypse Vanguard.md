@@ -1,8 +1,8 @@
 # Apocalypse Vanguard
 
-V0.5.1 \- 2021 01 10
+V0.6.1 \- 2026 06 21
 
-Apocalypse Vanguard is meant to play Apocalypse games in a smaller footprint, and faster.  
+Apocalypse Vanguard is a cleaned up fan version of Apocalypse, meant to play games of Apocalypse in a smaller footprint, and faster.  
 
 # Setup Changes
 
@@ -10,25 +10,26 @@ To play vanguard, play with between 100 to 150 points of units, on a 48” x 48�
 
 # Rules Modifications {#rules-modifications}
 
-When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up.
+The following are a rough list of modifications of the original Apocalypse:  
+\- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up.
 
-# Tactic Deck Construction
+## Tactic Deck Construction
 
-Each player creates a deck of 16 cards \- 8 of those cards should be the ‘base card’ set.  The other 8 can come from the extra cards, psychics cards, or from that particular faction’s special cards.
+Each player creates a deck of 16 command cards \- 8 of those cards should be the ‘base card’ set, the first 8 cards.  The other 8 can come from the extra cards, psychics cards, or from that particular faction’s special cards.
 
-# Relaxed Construction
+## Relaxed Construction
 
 For Force organisation, use the following changes to the chart organisation chart.  Any requirement of 3-6 or 3-5 of a unit is instead 2-6 or 2-5 respectively.
 
-# Supersonic
+## Supersonic
 
 Reduce the Power of Supersonic units by 2 if they cannot lose Supersonic. During deployment, this unit can be set up in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the field more than 9” from enemy units. At the start of the Reinforcements Step or the End of the Game, if this unit is on the field, put it into Tactical Reserves.  While in Tactical Reserves, it may attack other Supersonic units in Tactical Reserves as if it were in Range. In addition, Subtract 1 from hit rolls for attacks with ranged weapons that target this unit. Melee weapon attacks against this unit miss unless the attacker has Fly.
 
-# Reinforcements
+## Reinforcements
 
 You can, if you wish, play with reinforcements. Starting on the 3rd turn, at the start of each turn, you get 10 reinforcement points, with which you can reinforce units with.  Any points you do not spend can be banked for future turns.
 
-Any units that reinforce are placed with 12” of your table edge, and 9” away from enemy units.  They join the closest Force.  Units should come on at ½ wounds, rounded up. If they have only 1 wound, they should come on with a blast marker. HQ, Lords of War, and Flyers cannot reinforce.
+Any units that reinforce are placed within 12” of your table edge, and 9” away from enemy units.  They join the closest Force.  Units should come on at ½ wounds, rounded up. If they have only 1 wound, they should come on with a blast marker. HQ, Lords of War, and Flyers cannot reinforce.
 
 # Table of Contents
 
@@ -86,7 +87,7 @@ Command Assets	4
 
 [**Faction abilities**](#faction-abilities)	**9**
 
-[**Warmaster Traits**](#warmaster-traits)	**[1](#warmaster-traits)**1
+[**Warmaster Traits**](#warmaster-traits)	**[1](#warmaster-traits)1**
 
 [**Apocalypse Missions**](#apocalypse-missions)	**12**
 
@@ -128,27 +129,87 @@ Command Assets	4
 
 # How to Play {#how-to-play}
 
+To play, you will need to build an army, made up of units of models, lots of dice (d6 and d12s), rulers, command cards, tokens, a board (48”x48” to 48”x72”), and terrain on that board.
+
+To start, you must decide on a points level for your game, and build an appropriately sized army. The normal game sizes are:  
+100 Points \- standard game  
+125 Points \- medium game  
+150 \- larger game
+
 # Army Composition {#army-composition}
 
-Divide up units into divisions.
+Armies are made up of units.
 
-For 100-125 points, use 3 divisions.  For 125-150, use 4 divisions. For 150-250, use 5 divisions.
+## Units
+
+A unit is a certain number of models of a specific type \- usually, 1, 3, 5, 10 or 20 models.
+
+Units are chosen from faction lists.  
+You can use the army builder, or find the list of units here:  
+  Each unit has a unit sheet with the following:
+
+**Name** \- the name of the unit.
+
+**Profile** \- each unit may have multiple profiles, with different stats.  
+**M** \- The Movement this unit moves in inches  
+**WS** \- How good this unit attacks in Melee  
+**BS** \- How good this unit attacks at ranged  
+**A** \- How many attacks this unit generally has  
+**W** \- How much damage this unit can take  
+**Ld** \- The likelihood this unit breaks  
+**Sv** \- How good this unit is at deflecting damage  
+**N** \- How many models this unit is composed of  
+**Pt** \- The number of Points this profile is to take.  
+**Abilities** \- any special abilities the unit has
+
+**Weapons**  
+Each profile will have a number of weapons with the following stats  
+**Name** \- the name of the weapon  
+**Type** \- the type of weapon, often with special rules attached  
+**Rng** \- the Range the weapon can be used at  
+**A** \- the number of attacks the unit makes when attacking with the weapon  
+**S/AP** \- The effectiveness of the weapon against Infantry vs Armour  
+**Abilities** \- any special abilities the weapon has
+
+**Options**  
+Units may have options, some of which cost points, or require a specific profile to be chosen. These must be selected at army build time.
+
+### Units of multiple models
+
+Units of 1 model are placed and move individually.
+
+Units of 1-3 models are placed individually, but must always be within ½” of each other at the start and end of each activation.
+
+Units of 5+ models are instead placed as blocks of 5, and each block must be within ½” of another block.
+
+### Blocks.
+
+Use base blocks that have each of the 5 miniatures in the block within ½” of at least 2 other models.  Base blocks act as a single base with 5 models on them. If you do not have a block, you can simulate this by choosing 1 unit as leader of the block, and having the 4 other units within ½” of that leader.
+
+## 
+
+## Army Detachments
+
+Divide up units into detachments, which have a specific number of min and max number units of specific types (see Core Detachments).
+
+For 100-125 points, use 3 detachments.  For 125-150, use 4 divisions. For 150-250, use 5 divisions.
 
 The game is divided into 5 rounds.  
 
-Each player should have 16 Command Assets. These are cards. 8 should be the default cards, the other 8 can be from the faction cards, or the other cards.
+Each player should have 16 Command Assets. These are cards. 8 should be the default cards (the first 8 cards from the apoc set), the other 8 can be from the faction cards, or the other cards from the base apoc set.
 
-Each Detachment must include the units listed below. Each unit is of one of the specific role types: HQ, Troops, Elites, Fast Attack, Heavy Support, Transports, Flyers, Fortifications, Lords of War.
+Each Detachment must include the units listed for that detachment type. Each unit is of one of the specific role types: HQ, Troops, Elites, Fast Attack, Heavy Support, Transports, Flyers, Fortifications, Lords of War.
 
 Units also have a number of keywords.  All units will have either the Light, Heavy, or Super-Heavy keywords. They may have further keywords such as infantry, vehicle, titanic, flyer, or monster.  
 Units also have Faction keywords.
 
-One unit is then chosen as the commander. If it is a character, it is also a Warlord.
+One unit per detachment is then chosen as the commander. If it is a character, it is also a Warlord. You must choose at least 1 warlord in your army.
 
 Then, chose one Warlord to be the Warmaster. Warmasters get 2 Warlord traits.
 
-If all the units in a detachment are part of 1 faction, they gain their faction trait.  
-If all the units in a detachment
+If all the units in a detachment are all part of 1 faction, they gain their faction trait.
+
+You can find the army lists in the army builder, or here: [https://drive.google.com/drive/folders/1NGlbYpQG-3\_dgBRkrxjs4m9ZGRU-RDug?usp=sharing](https://drive.google.com/drive/folders/1NGlbYpQG-3_dgBRkrxjs4m9ZGRU-RDug?usp=sharing)
 
 ## Core detachments {#core-detachments}
 
@@ -239,11 +300,11 @@ Any, but does not get command benefits, nor can any units be your warlord
 
 ## Command Assets
 
-The cards can be found below.  
+The command cards can be found in the army builder, or the links below:  
 Use the cards in the following link:  
 [https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23\_Ar?usp=sharing](https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23_Ar?usp=sharing)
 
-[https://docs.google.com/spreadsheets/d/13g1Y02lPtKGk4NDqlbcnKZ5wbYaHj-hDM\_qWGxFZCC4/edit?usp=sharing](https://docs.google.com/spreadsheets/d/13g1Y02lPtKGk4NDqlbcnKZ5wbYaHj-hDM_qWGxFZCC4/edit?usp=sharing)
+Command Assets are drawn each turn, and can be discarded during the game to produce special effects.  The card will indicate when it can be used, otherwise, it can be used at anytime.
 
 # Setup {#setup}
 
@@ -253,15 +314,15 @@ Setup the table as per the mission. The size should be roughly based on the size
 
 Lay down Terrain. In general, there should be at least 1 terrain feature per 24” x 24” section of the board.
 
+## Start Playing
+
 Players roll off, and add their army’s strategy rating.  The higher roll can choose to either choose deployment and deploy second, or choose who starts with initiative.  The other player gets the option not chosen.
 
-The Players then alternate, deploying divisions.
+The Players then alternate, deploying detachments.
 
-When deploying a Division, deploy the HQ as the Division commander.  Other units in that division must be deployed within 12” of the HQ.  If there are multiple HQ, or no HQ, choose 1 unit to act as the commander.
+When deploying a detachment, deploy the HQ as the detachment commander and warlord.  Other units in that detachment must be deployed within 12” of the HQ (at least one model in the unit must be within 12”).  If there are multiple HQ, choose 1 to to act as the commander. If there are no HQ, choose over unit to be the commander.
 
-Start the game with 3 chosen cards.  Shuffle the remainder of your cards into your command deck.  
-
-#  {#heading}
+Start the game with 3 chosen command cards.  Shuffle the remainder of your cards into your command deck.  
 
 # Starting the game
 
@@ -274,7 +335,7 @@ A game is played in the phases:
 
 Starting on the second turn, alternate who has initiative.
 
-Each player draws 3 cards, up to 7\. For every Warlord you have, you can draw an additional card and then put a card on the top of your deck in any order.
+Each player draws 3 cards, up to 7\. For every Warlord you have, you can draw an additional card, but after drawing those extra cards you must put an equal number back on the top of your deck in any order.
 
 Any reinforcements are deployed, starting with the player with initiative.
 
@@ -286,7 +347,7 @@ There are 3 commands: Assault, Advance, and Aim.
 
 # Action Phase {#action-phase}
 
-When a division activates, they perform actions based on the command.  You can choose the order in which they move.
+When a detachment activates, they perform actions based on the command.  You can choose the order in which they move.
 
 **Assault** \- Your units in that division move, doubling their move value.  They may then fight.
 
@@ -296,9 +357,11 @@ When a division activates, they perform actions based on the command.  You can c
 
 ## Move {#move}
 
-Move \- Your unit moves that distance in inches. Vertical movement over terrain features counts as part of this movement. Units of size 1-3 move individually, but must stay within 1/2” of each other. Units of greater size move in blocks of 5, and each block must be within 1/2” of another block.
+Move \- Your unit moves that distance in inches. Vertical movement over terrain features counts as part of this movement. Units of size 1-3 move individually, but must stay within ½” of each other. Units of greater size move in blocks of 5, and each block must be within ½” of another block.
 
-Blocks. Use base blocks that have each of the 5 miniatures in the block within ½” of at least 2 other models.
+### Blocks.
+
+ Use base blocks that have each of the 5 miniatures in the block within ½” of at least 2 other models. If you do not have a block, you can simulate this by choosing 1 unit as leader of the block, and having the 4 other units within ½” of that leader.
 
 ### Flight {#flight}
 
@@ -312,28 +375,29 @@ If any part of the unit moves through difficult terrain, subtract 1” from thei
 
 #### Defensible Terrain & Garrisoning {#defensible-terrain-&-garrisoning}
 
-Terrain that can moved into and provides some form of protection (i.e. a building or ruins) is Defensible Terrain.  
-If all your models in a unit are within 6” of a building or defensible terrain, and at least one is within 1/2”, you can garrison the terrain. Move the full unit within the defensible terrain.
+Terrain that can be moved into and provides some form of protection (i.e. a building or ruins) is Defensible Terrain.  
+If all your models in a unit are within 6” of a building or defensible terrain, and at least one is within ½”, you can garrison the terrain. Move the full unit within the defensible terrain.
 
 This gives your units the benefits of that terrain, which is usually defensible terrain.  Enemy units cannot garrison already garrisoned terrain. They can fight the unit in garrisoning the terrain if they are within ½” of the defensible terrain, but do not count as engaging that unit.
 
 A garrisoning unit can use their move to leave the terrain, by using their Move action to move within 6” of the defensible terrain.
 
-If the garrison terrain is larger then 6” by 12”, split it up into parts, roughly equal in size and each as close to 6” x 12” as possible.
+If the garrison terrain is larger than 6” by 12”, split it up into parts, roughly equal in size and each as close to 6” x 12” or 6” x 6” as possible.
 
 #### Obstacles Terrain {#obstacles-terrain}
 
 Obstacles are terrain that blocks some line of sight, but that units do move into, such as Barricades.  Moving over them requires vertical movement. Units that make shoot attacks where the Line of Sight between the units crosses the obstacle, and the target is within ½” of the obstacle, the target counts as an obscured target.
 
-Units within ½ inch of the obstacle can attack targets within ½ of the obstacle and within 2” of them with a fight attack, even if they are not engaged.
+Units within ½” of the obstacle can attack targets within ½” of the obstacle and within 2” of them with a fight attack, even if they are not engaged.
 
-If you end within 1/2” of an enemy unit, you are engaging that enemy. Engaged enemies cannot normally shoot, only fight.
+If you end within ½” of an enemy unit, you are engaging that enemy. Engaged enemies cannot normally shoot, only fight.
 
 ### Fall Back {#fall-back}
 
 If your units are engaged with an enemy, you can Fall Back. If you do so, you must end more than 1” from enemy units, and cannot shoot or fight unless you have Titanic or Flight.
 
-Out of command  
+#### Out of command
+
 If a unit out of command ends a move within their commander, they lose their out of command token.
 
 ### Transports {#transports}
@@ -348,7 +412,7 @@ If a Transport is destroyed with models inside, place the unit inside within 6�
 
 ## Shoot {#shoot}
 
-Units shoot all their ranged weapons, and can choose different targets for their weapons.  To shoot, roll a number of (A) for the weapon. Each that matches their BS number is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP, if it is mechanised, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit.
+Units shoot all their ranged weapons, and can choose different targets for their weapons.  To shoot, roll a number of (A) for the weapon. Each that matches their BS number (e.g. a BS of 3+ requires a 3, 4, 5, or 6\) is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP, if it is mechanised, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit.
 
 Obscured Character \- If you shoot a character that is not the closest enemy, it is obscured.
 
@@ -358,7 +422,7 @@ Characters targeted when not the closest enemy are obscured targets, as are unit
 
 ## Fight {#fight}
 
-Units attack with their Melee weapons, and can choose different targets for their weapons. Melee attacks can happen only against enemies engaged (within 1/2” of the unit).  To fight, roll a number of (A) for the weapon. Each that matches their WS number is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP, if it is mechanised, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit. Every 2 blast markers turns into a large blast marker.
+Units attack with their Melee weapons, and can choose different targets for their weapons. Melee attacks can happen only against enemies engaged (within 1/2” of the unit).  To fight, roll a number of (A) for the weapon. Each that matches their WS number is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP; otherwise, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit. Every 2 blast markers turns into a large blast marker.
 
 Units within ½ and inch of the obstacle can attack targets within ½ of the obstacle and within 2” of them with a fight attack, even if they are not engaged.
 
@@ -366,7 +430,7 @@ Units within ½ and inch of the obstacle can attack targets within ½ of the obs
 
 At the end of the turn, is the Damage phase.
 
-First, any units that are out of command are removed from the table (they are routed)
+First, any units that are out of command take damage equal to ½ their starting wounds (they are routed).
 
 Players alternate resolving units with blast markers.
 
@@ -378,8 +442,9 @@ Units with blast markers then make a Morale test. They then roll a D6 and add th
 
 Units in defensible terrain gain Cover \- They get a 6+ save instead of their normal save if they desire.
 
-Failed saves  
-Those blasts that are not saved, result in 1 damage on the unit.  Units that have damage up to half their health remove ½ the models of the unit (rounded down), and become critically damaged.  They suffer \-1 to hit, and if they are over 1 model. Units that have damage equal or more to their health instead die, and are removed from the table.
+### Failed Saves
+
+Those blasts that are not saved, result in 1 damage on the unit.  Units that have damage up to half their wounds remove ½ the models of the unit (rounded down), and become critically damaged.  They suffer \-1 to hit, and if they are over 1 model. Units that have damage equal or more to their health instead die, and are removed from the table.
 
 In addition, a unit that took 1+ blast markers must make a leadership roll, which is a d12, to reach their leadership. If they fail, they take 1 more damage.  
 
@@ -457,13 +522,17 @@ Units embarked in this unit can make shoot actions, measuring distance and line 
 
 Subtract 1 from hit rolls for attacks made with ranged weapons that target this unit.
 
-#### Supersonic
+#### Supersonic (old, deprecated)
 
-Subtract 1 from hit roll for attacks made with ranged weapons that target this unit. Fight attacks automatically miss unless the attacker has Fly.
+Subtract 1 from hit roll for attacks made with ranged weapons that target this unit. Fight attacks automatically miss unless the attacker has Fly. (Note \- the army list Power should increase by 2 if the unit cannot lose supersonic).
 
-#### Supersonic (Alt)
+#### Supersonic (New)
 
-Reduce the Power of Supersonic units by 2 if they cannot lose Supersonic. During deployment, this unit can be set up in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the field more than 9” from enemy units. At the start of the Reinforcements Step or the End of the Game, if this unit is on the field, put it into Tactical Reserves.  While in Tactical Reserves, it may attack other Supersonic units in Tactical Reserves as if it were in Range. In addition, Subtract 1 from hit rolls for attacks with ranged weapons that target this unit. Melee weapon attacks against this unit miss unless the attacker has Fly.
+During deployment, this unit can be set up in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the field more than 9” from enemy units. At the start of the Reinforcements Step or the End of the Game, if this unit is on the field, put it into Tactical Reserves.  While in Tactical Reserves, it may attack other Supersonic units in Tactical Reserves as if it were in Range. In addition, Subtract 1 from hit rolls for attacks with ranged weapons that target this unit. Melee weapon attacks against this unit miss unless the attacker has Fly.
+
+#### Harrier (New)
+
+At the start of the round, can gain or lose Supersonic.
 
 #### Terror Troops
 
@@ -507,7 +576,7 @@ Re-roll wound rolls of 1 for attacks made by Heretic Astartes units in this deta
 #### Imperial Knights
 
 **Knight Lances**  
-One Imperial Knights unit the detachment becomes a character, and so an be a warlord. It also gains a Warmaster trait, even if it is not your warmaster.
+One Imperial Knights unit the detachment becomes a character, and so can be a warlord. It also gains a Warmaster trait, even if it is not your warmaster.
 
 #### Questor Traitoris (Chaos Knights)
 
@@ -521,7 +590,7 @@ These factions shall be added on the second draft of the rules
 #### Adeptus Mechanicus
 
 **Blessings of the Omnissiah**  
-Re-roll saving throws of 1 made for Adeptus Mechanics units in this Detachment.
+Re-roll saving throws of 1 made for Adeptus Mechanics units in this Detachment. Imperial Knights can count as Adeptus Mechanicus instead of Imperial Knights.
 
 #### Adepta Sororitas (Sisters of Battle)
 
@@ -665,6 +734,8 @@ The player with the most victory points is the winner.
 # 
 
 # Winds of War {#winds-of-war}
+
+Winds of War is the primary way to generate missions if you are not playing a player-made mission (the other normal way to play).
 
 ## Mission Generator
 
@@ -853,7 +924,7 @@ Once per battle, in the Set Up Reinforcements step, the Defender can select on o
 
 ## Sudden Death Table {#sudden-death-table}
 
-If the Defender’s army starts out at ½ the points level of the Attacker’s army, they gain a Sudden Death Victory Condition. If they succeed in this Condition, they win the game.
+As an optional way to play, you may play a game where a Defender starts out at ½ the level of points as the Attacker’s army. In such a case, the Defender gains a Sudden Death Victory Condition. If they succeed in this Condition, they win the game.
 
 1. #### Kill Order
 
@@ -883,12 +954,16 @@ This Sudden Death victory condition is met if, at the end of the battle, no enem
 
 # Warzones {#warzones}
 
-If both players agree, games should be played in a warzone.  
-Fog Of War  
-Firestorm  
-Warp Storm  
-Sector Imperialis  
-Death World Forest
+If both players agree, games should be played in a warzone:
+
+1. Fog Of War  
+2. Firestorm  
+3. Warp Storm  
+4. Sector Imperialis  
+5. Death World Forest  
+6. Sector Mechanicus  
+7. Wall of Martyrs  
+8. Defender World
 
 ## War Zone: Fog of War {#war-zone:-fog-of-war}
 

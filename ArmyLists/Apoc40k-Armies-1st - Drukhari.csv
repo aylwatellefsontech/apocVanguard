@@ -7,9 +7,8 @@ Light, Infantry, Character, Archon",
 2,HQ,Lady Malys,"8""",2+,2+,1,1,7,3+,1,6,,,,,,,"Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.
 Precognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.","Aeldari, Drukhari, Kabal of the Poisoned Tongue
 Light, Infantry, Character, Archon, Lady Malys",
-2,,,,,,,,,,,,,,,,,,Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade; Razor Fan. You can only include one of this unit in your army.,,
-2,,,,,,,,,,,,The Lady's Blade,Melee,Melee,User,6+,8+,,,
-2,,,,,,,,,,,,Razor Fan,Melee,Melee,x2,7+,9+,,,
+2,,,,,,,,,,,,,,,,,,Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army.,,
+2,,,,,,,,,,,,The Lady's Blade,Melee,Melee,x2,7+,8+,,,
 3,HQ,Haemonculus,"7""",2+,2+,1,1,6,8+,1,5,,,,,,,"Ignore Damage (6+)
 Master of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6"" of any <Haemonculus Coven> units from your army with this ability.","Aeldari, Drukhari, <Haemonculus Coven>
 Light, Infantry, Character, Haemonculus",
@@ -57,9 +56,9 @@ Light, Infantry, Mandrakes",
 10,,,"8""",3+,3+,2,2,6,9+,10,7,,,,,,,,,
 10,,,,,,,,,,,,Baleblasts,Small Arms,"18""",User,6+,9+,,,
 10,,,,,,,,,,,,Glimmersteel Blades,Melee,Melee,User,6+,9+,,,
-11,Elites,Hand of Archon,"7""",3+,3+,1,1,6,8+,5,4,,,,,,,,"Aeldari, Drukhari, <Kabal>
+11,Elites,Hand of Archon,"7""",3+,3+,1,1,6,8+,5,3,,,,,,,,"Aeldari, Drukhari, <Kabal>
 Light, Infantry, Hand of the Archon","per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8); per weapon (Power Rating +1 per weapon): For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).; per weapon (Power Rating +1 per weapon): For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).; per Unit: Up to 1 model in this unit can be equipped with 1 Power Weapon."
-11,,,"7""",3+,3+,2,2,6,8+,10,8,,,,,,,,,
+11,,,"7""",3+,3+,2,2,6,8+,10,6,,,,,,,,,
 11,,,,,,,,,,,,,,,,,,Hand of the Archon are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Splinter Rifles; Close Combat Weapons.,,
 11,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).",,
 11,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).",,
@@ -68,17 +67,13 @@ Light, Infantry, Hand of the Archon","per 10 models (Power Rating 8): It can con
 11,,,,,,,,,,,,Blaster,Heavy,"18""",1,9+,5+,,,
 11,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,9+,5+,,,
 11,,,,,,,,,,,,Power Weapon,Melee,Melee,User,6+,7+,,,
-11,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-12,Elites,Court of the Archon,"8""",3+,3+,1,1,6,10+,4,8,,,,,,,"Ignore Damage (6+)
+11,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
+12,Elites,Court of the Archon,"8""",3+,3+,1,1,6,8+,4,4,,,,,,,"Ignore Damage (6+)
 Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3"" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.
 Cold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3"" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.","Aeldari, Drukhari, <Kabal>
 Light, Infantry, Court of the Archon",
 12,,,,,,,,,,,,,,,,,,Court of the Archon is a unit that contains 4 models representing a combined Court of the Archon retinue.,,
-12,,,,,,,,,,,,Shaimeshi Blade,Melee,Melee,User,6+,12+,,,
-12,,,,,,,,,,,,Eyeburst Attack (Ranged),Heavy,"9""",1,10+,10+,,,
-12,,,,,,,,,,,,Eyeburst Attack (Melee),Melee,Melee,User,10+,12+,,,
-12,,,,,,,,,,,,Sslyth Battle-blade,Melee,Melee,User,8+,9+,,,
-12,,,,,,,,,,,,Flensing Claws,Melee,Melee,x2,7+,9+,,,
+12,,,,,,,,,,,,Combat Weapons,Melee,Melee,x3,6+,9+,,,
 13,Elites,Beastmaster,"12""",3+,3+,1,1,5,10+,1,2,,,,,,,"Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6"" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.","Aeldari, Drukhari, <Wych Cult>
 Light, Infantry, Fly, Skyboard, Beastmaster",
 13,,,,,,,,,,,,Agoniser,Melee,Melee,User,6+,12+,,,
@@ -142,8 +137,8 @@ Heavy, Vehicle, Fly, Ravager",per Unit: Instead of 1 Dark Lance this unit can be
 22,Heavy,Reaper,"14""",4+,3+,1,3,5,7+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.","Aeldari, Drukhari, <Kabal>
 Heavy, Vehicle, Fly, Reaper",
 22,,,,,,,,,,,,,,,,,,A Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes.,,
-22,,,,,,,,,,,,Storm Vortex Projector,Heavy,"36""",2,10+,5+,,,
-22,,,,,,,,,,,,Scythevanes,Melee,Melee,User,9+,11+,,,
+22,,,,,,,,,,,,Storm Vortex Projector,Heavy,"36""",3,7+,7+,,,
+22,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
 23,Heavy,Scourges with Heavy Weapons,"14""",3+,3+,1,1,6,7+,5,4,,,,,,,Deep Strike,"Aeldari, Drukhari
 Light, Infantry, Fly, Scourges",per 10 models (Power Rating 10): It can contain 10 models (Power Rating 10); per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
 23,,,"14""",3+,3+,2,2,6,7+,10,10,,,,,,,,,
@@ -169,7 +164,7 @@ Heavy, Monster, Fly, Talos","per Unit: Instead of 2 Splinter Cannons, this unit 
 25,Air,Raven Strike Fighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
 Heavy, Vehicle, Fly, Aircraft, Raven Strike Fighter",
 25,,,,,,,,,,,,,,,,,,A Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull.,,
-25,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,4+,,,
+25,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
 25,,,,,,,,,,,,Splinterstorm Cannon,Heavy,"36""",2,6+,12+,Rapid Fire,,
 25,,,,,,,,,,,,Bladed Hull,Melee,Melee,User,9+,10+,,,
 26,Air,Razorwing Jetfighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
@@ -206,24 +201,24 @@ Heavy, Vehicle, Fly, Transport, Venom","per Unit: Instead of 1 Twin Splinter Rif
 29,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire,,
 29,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire,,
 29,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
-30,Lord,Tantalus,"16""",4+,3+,2,4,5,5+,1,18,,,,,,,"Open-topped
+30,Lord,Tantalus,"16""",4+,3+,2,4,5,6+,1,16,,,,,,,"Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
 Heavy, Vehicle, Fly, Transport, Tantalus",
 30,,,,,,,,,,,,,,,,,,A Tantalus is a unit that contains 1 model. It is equipped with: 2 Pulse-disintegrators; Dire Scythe Blade.,,
-30,,,,,,,,,,,,Pulse-disintegrator,Heavy,"36""",2,4+,9+,,,
+30,,,,,,,,,,,,Pulse-disintegrator,Heavy,"36""",4,7+,7+,,,
 30,,,,,,,,,,,,Dire Scythe Blade,Melee,Melee,User,6+,10+,,,
-31,Lord,Asdrubael Vect,"14""",3+,3+,2,4,8,7+,1,24,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
-Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.
-Skyhook Escape: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.","Aeldari, Drukhari, Kabal of the Black Heart
+31,Lord,Asdrubael Vect,"14""",2+,3+,2,4,8,5+,1,20,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
+Lord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.
+Master of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.","Aeldari, Drukhari, Kabal of the Black Heart
 Heavy, Vehicle, Fly, Character, Ravager, Asdrubael Vect",
-31,,,,,,,,,,,,,,,,,,Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 2 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.,,
+31,,,,,,,,,,,,,,,,,,Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.,,
 31,,,,,,,,,,,,,,,,,,You can only include one of this unit in your army.,,
 31,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,9+,5+,,,
-31,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,,,
+31,,,,,,,,,,,,Obsidian Orbs (Ranged),Heavy,"12""",2,3+,10+,Destroyer,,
 31,,,,,,,,,,,,Splinterstorm Cannon,Heavy,"36""",2,6+,12+,Rapid Fire,,
-31,,,,,,,,,,,,Scepter of the Dark City,Melee,Melee,User,6+,7+,,,
-31,,,,,,,,,,,,Bladevanes,Melee,Melee,User,8+,9+,,,
+31,,,,,,,,,,,,Obsidian Orbs (Melee),Melee,Melee,2,3+,10+,Destroyer,,
+31,,,,,,,,,,,,Retinue Weaponry,Melee,Melee,4,6+,8+,,,
 32,Lord,Webway Gate,-,-,-,-,3,-,5+,1,6,,,,,,,"Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12"" away from your opponent's deployment zone and any enemy units, and more than 3"" away from any other terrain features or the centre of any objective markers.
 Webway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.
 Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3"" of that Webway Gate and more than 9"" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.","Aeldari

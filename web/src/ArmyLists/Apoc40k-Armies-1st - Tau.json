@@ -759,13 +759,13 @@
       "stats": {
         "M": "8\"",
         "WS": "3+",
-        "BS": "5+",
-        "A": "2",
-        "W": "1",
+        "BS": "4+",
+        "A": "3",
+        "W": "3",
         "Ld": "4",
         "Sv": "10+",
-        "N": "1",
-        "Pt": "3"
+        "N": "2",
+        "Pt": "4"
       },
       "keywords": [
         "T'au Empire",
@@ -784,19 +784,11 @@
           "armorPen": "10+"
         },
         {
-          "name": "Hunting Blades",
+          "name": "Fists & Blades",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "User",
           "skill": "6+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Rampager Fists",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x4",
-          "skill": "5+",
           "armorPen": "8+"
         }
       ],
@@ -805,8 +797,8 @@
         {
           "M": "8\"",
           "WS": "3+",
-          "BS": "5+",
-          "A": "4",
+          "BS": "4+",
+          "A": "2",
           "W": "2",
           "Ld": "4",
           "Sv": "10+",
@@ -816,8 +808,8 @@
         {
           "M": "8\"",
           "WS": "3+",
-          "BS": "5+",
-          "A": "6",
+          "BS": "4+",
+          "A": "3",
           "W": "3",
           "Ld": "4",
           "Sv": "10+",
@@ -827,13 +819,17 @@
       ],
       "options": [
         {
+          "per": "Per Unit",
+          "text": "Krootox Rampagers are a unit that contains 3 models. It is equipped with: Kroot Pistols; Fists & Blades."
+        },
+        {
           "per": "Per 2 models",
           "text": "It can contain 2 models (Power Rating 5)",
           "Pt": "5"
         },
         {
           "per": "Per 3 models",
-          "text": "3 models (Power Rating 7)",
+          "text": "3 models (Power Rating 7).",
           "Pt": "7"
         }
       ],
@@ -1462,7 +1458,7 @@
           "name": "Twin Hazard Burst Cannon",
           "type": "Heavy",
           "range": "24\"",
-          "attacks": "4",
+          "attacks": "3",
           "skill": "7+",
           "armorPen": "9+"
         },

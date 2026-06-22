@@ -11,7 +11,7 @@
         "A": "2",
         "W": "3",
         "Ld": "6",
-        "Sv": "4+",
+        "Sv": "5+",
         "N": "1",
         "Pt": "8"
       },
@@ -41,16 +41,8 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "Paragon Missile Launcher (Sanctorum)",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
           "skill": "5+",
-          "armorPen": "9+"
+          "armorPen": "6+"
         },
         {
           "name": "Lance of Illumination",
@@ -1005,13 +997,13 @@
       "stats": {
         "M": "6\"",
         "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
+        "BS": "3+",
+        "A": "2",
+        "W": "2",
         "Ld": "6",
         "Sv": "10+",
         "N": "10",
-        "Pt": "4"
+        "Pt": "6"
       },
       "keywords": [
         "Imperium",
@@ -1057,12 +1049,12 @@
         "M": "6\"",
         "WS": "4+",
         "BS": "4+",
-        "A": "1",
-        "W": "1",
+        "A": "2",
+        "W": "2",
         "Ld": "6",
         "Sv": "11+",
         "N": "10",
-        "Pt": "4"
+        "Pt": "6"
       },
       "keywords": [
         "Imperium",
@@ -1077,16 +1069,7 @@
           "name": "Braziers of Holy Fire",
           "type": "Heavy",
           "range": "12\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Ministorum Flamers",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "1",
+          "attacks": "3",
           "skill": "7+",
           "armorPen": "10+",
           "abilities": "Inferno"
@@ -1096,7 +1079,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "9+"
         }
       ],
@@ -1728,7 +1711,7 @@
           "name": "Paragon Storm Bolters",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "10+",
           "abilities": "Rapid Fire"
@@ -1745,9 +1728,9 @@
           "name": "Paragon War Blade",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "5+",
-          "armorPen": "7+"
+          "armorPen": "6+"
         },
         {
           "name": "Paragon War Mace",
@@ -1964,7 +1947,7 @@
         "Ld": "7",
         "Sv": "4+",
         "N": "3",
-        "Pt": "11"
+        "Pt": "14"
       },
       "keywords": [
         "Imperium",
@@ -1989,31 +1972,15 @@
           "abilities": "Inferno"
         },
         {
-          "name": "The Ardent Blade (Melee)",
+          "name": "Ardent Blades",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
           "skill": "7+",
           "armorPen": "7+"
-        },
-        {
-          "name": "Bolt Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Geminae Power Swords",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
         }
       ],
-      "abilities": "Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6\" of this unit.\nMiraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.\nLifewards: At the start of the Damage phase, you can select one friendly Character unit in this unit that has at least one blast marker next to it. Remove up to D3 blast markers from that Character and place them on other models in this unit.",
+      "abilities": "Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6\" of this unit.\nMiraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.\nLifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.",
       "options": [
         {
           "per": "Per Unit",

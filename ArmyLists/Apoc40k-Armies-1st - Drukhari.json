@@ -66,24 +66,16 @@
           "name": "The Lady's Blade",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Razor Fan",
-          "type": "Melee",
-          "range": "Melee",
           "attacks": "x2",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "8+"
         }
       ],
       "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade; Razor Fan. You can only include one of this unit in your army."
+          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army."
         }
       ],
       "no": 2,
@@ -595,7 +587,7 @@
         "Ld": "6",
         "Sv": "8+",
         "N": "5",
-        "Pt": "4"
+        "Pt": "3"
       },
       "keywords": [
         "Aeldari",
@@ -643,7 +635,7 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -658,7 +650,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "6"
         }
       ],
       "options": [
@@ -694,9 +686,9 @@
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "10+",
+        "Sv": "8+",
         "N": "4",
-        "Pt": "8"
+        "Pt": "4"
       },
       "keywords": [
         "Aeldari",
@@ -708,43 +700,11 @@
       ],
       "weapons": [
         {
-          "name": "Shaimeshi Blade",
+          "name": "Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x3",
           "skill": "6+",
-          "armorPen": "12+"
-        },
-        {
-          "name": "Eyeburst Attack (Ranged)",
-          "type": "Heavy",
-          "range": "9\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Eyeburst Attack (Melee)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "12+"
-        },
-        {
-          "name": "Sslyth Battle-blade",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Flensing Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
           "armorPen": "9+"
         }
       ],
@@ -1412,16 +1372,16 @@
           "name": "Storm Vortex Projector",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "2",
-          "skill": "10+",
-          "armorPen": "5+"
+          "attacks": "3",
+          "skill": "7+",
+          "armorPen": "7+"
         },
         {
-          "name": "Scythevanes",
+          "name": "Bladevanes",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "9+",
+          "skill": "10+",
           "armorPen": "11+"
         }
       ],
@@ -1662,7 +1622,7 @@
           "range": "36\"",
           "attacks": "1",
           "skill": "10+",
-          "armorPen": "4+"
+          "armorPen": "5+"
         },
         {
           "name": "Splinterstorm Cannon",
@@ -1982,9 +1942,9 @@
         "A": "2",
         "W": "4",
         "Ld": "5",
-        "Sv": "5+",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "18"
+        "Pt": "16"
       },
       "keywords": [
         "Aeldari",
@@ -2001,9 +1961,9 @@
           "name": "Pulse-disintegrator",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "2",
-          "skill": "4+",
-          "armorPen": "9+"
+          "attacks": "4",
+          "skill": "7+",
+          "armorPen": "7+"
         },
         {
           "name": "Dire Scythe Blade",
@@ -2028,14 +1988,14 @@
       "name": "Asdrubael Vect",
       "stats": {
         "M": "14\"",
-        "WS": "3+",
+        "WS": "2+",
         "BS": "3+",
         "A": "2",
         "W": "4",
         "Ld": "8",
-        "Sv": "7+",
+        "Sv": "5+",
         "N": "1",
-        "Pt": "24"
+        "Pt": "20"
       },
       "keywords": [
         "Aeldari",
@@ -2058,12 +2018,13 @@
           "armorPen": "5+"
         },
         {
-          "name": "Disintegrator Cannon",
+          "name": "Obsidian Orbs (Ranged)",
           "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "10+"
+          "range": "12\"",
+          "attacks": "2",
+          "skill": "3+",
+          "armorPen": "10+",
+          "abilities": "Destroyer"
         },
         {
           "name": "Splinterstorm Cannon",
@@ -2075,27 +2036,28 @@
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Scepter of the Dark City",
+          "name": "Obsidian Orbs (Melee)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "7+"
+          "attacks": "2",
+          "skill": "3+",
+          "armorPen": "10+",
+          "abilities": "Destroyer"
         },
         {
-          "name": "Bladevanes",
+          "name": "Retinue Weaponry",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
+          "attacks": "4",
+          "skill": "6+",
+          "armorPen": "8+"
         }
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nShadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nSkyhook Escape: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nLord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\nMaster of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 2 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes."
+          "text": "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes."
         },
         {
           "per": "Per Unit",

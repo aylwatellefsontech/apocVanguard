@@ -164,7 +164,7 @@
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "4+",
+        "Sv": "6+",
         "N": "1",
         "Pt": "4"
       },
@@ -193,7 +193,7 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "8+"
+          "armorPen": "9+"
         }
       ],
       "abilities": "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
@@ -933,14 +933,14 @@
       "name": "Hastarii Exterminators",
       "stats": {
         "M": "5\"",
-        "WS": "4+",
+        "WS": "3+",
         "BS": "4+",
         "A": "1",
         "W": "2",
         "Ld": "7",
         "Sv": "7+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "7"
       },
       "keywords": [
         "Imperium",
@@ -955,25 +955,17 @@
         {
           "name": "Eradication Caster",
           "type": "Small Arms",
-          "range": "15\"",
+          "range": "30\"",
           "attacks": "2",
-          "skill": "4+",
-          "armorPen": "8+"
+          "skill": "7+",
+          "armorPen": "9+"
         },
         {
           "name": "Hastarii Arc Blaster",
           "type": "Heavy",
           "range": "18\"",
           "attacks": "1",
-          "skill": "4+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Power Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
+          "skill": "9+",
           "armorPen": "7+"
         },
         {
@@ -998,14 +990,14 @@
       "name": "Hastarii Fusiliers",
       "stats": {
         "M": "5\"",
-        "WS": "4+",
+        "WS": "3+",
         "BS": "4+",
         "A": "1",
         "W": "2",
         "Ld": "7",
         "Sv": "7+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "7"
       },
       "keywords": [
         "Imperium",
@@ -1018,28 +1010,19 @@
       ],
       "weapons": [
         {
-          "name": "Neutron Fusil",
-          "type": "Heavy",
-          "range": "30\"",
-          "attacks": "2",
-          "skill": "4+",
-          "armorPen": "5+"
-        },
-        {
           "name": "Hastarii Phosphor Blaster",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
+          "attacks": "3",
           "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
+          "armorPen": "9+"
         },
         {
-          "name": "Power Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
+          "name": "Hastarii Arc Blaster",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
           "armorPen": "7+"
         },
         {
@@ -1317,7 +1300,7 @@
         "A": "1",
         "W": "2",
         "Ld": "7",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "6"
       },
@@ -1332,38 +1315,21 @@
       ],
       "weapons": [
         {
-          "name": "Phosphor Pistols",
+          "name": "Pistols",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "x2",
+          "attacks": "1",
           "skill": "7+",
           "armorPen": "9+"
-        },
-        {
-          "name": "Phosphor Blast Carbine",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
         },
         {
           "name": "Sulphur Breath",
           "type": "Small Arms",
           "range": "9\"",
-          "attacks": "User",
-          "skill": "5+",
+          "attacks": "2",
+          "skill": "6+",
           "armorPen": "9+",
           "abilities": "Inferno"
-        },
-        {
-          "name": "Cavalry Arc Maul",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "7+"
         },
         {
           "name": "Clawed Limbs",
@@ -1377,11 +1343,7 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: 2 Phosphor Pistols; Sulphur Breath; Clawed Limbs."
-        },
-        {
-          "per": "Per Unit",
-          "text": "For every 3 models in this unit, 1 Serberys Sulphurhound's 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol."
+          "text": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: Pistols; Sulphur Breath; Clawed Limbs."
         }
       ],
       "no": 21,
@@ -1396,7 +1358,7 @@
         "A": "1",
         "W": "2",
         "Ld": "7",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "6"
       },
@@ -1405,6 +1367,7 @@
         "Adeptus Mechanicus",
         "Skitarii",
         "<Forge World>",
+        "Infiltrators",
         "Light",
         "Cavalry",
         "Serberys Raiders"
@@ -1414,40 +1377,24 @@
           "name": "Galvanic Carbine",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Archeo-revolver",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Cavalry Sabre",
+          "name": "Claws & Sabers",
           "type": "Melee",
-          "range": "Melee",
+          "range": "2x Melee",
           "attacks": "User",
-          "skill": "6+",
+          "skill": "7+",
           "armorPen": "8+"
-        },
-        {
-          "name": "Clawed Limbs",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "9+"
         }
       ],
       "options": [
         {
           "per": "Per Unit",
-          "text": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Cavalry Sabre; Clawed Limbs."
+          "text": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres"
         }
       ],
       "no": 22,
@@ -1460,7 +1407,7 @@
         "WS": "4+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "7",
         "Sv": "8+",
         "N": "5",
@@ -1471,6 +1418,7 @@
         "Adeptus Mechanicus",
         "Skitarii",
         "<Forge World>",
+        "Infiltrators",
         "Light",
         "Infantry",
         "Fly",
@@ -1481,8 +1429,8 @@
           "name": "Phosphor Torch",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "User",
-          "skill": "5+",
+          "attacks": "User x2",
+          "skill": "7+",
           "armorPen": "9+",
           "abilities": "Inferno"
         },
@@ -1491,16 +1439,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Taser Goad",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
+          "skill": "8+",
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -1509,7 +1449,7 @@
           "WS": "4+",
           "BS": "4+",
           "A": "2",
-          "W": "4",
+          "W": "2",
           "Ld": "7",
           "Sv": "8+",
           "N": "10",
@@ -1533,7 +1473,7 @@
         "WS": "4+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "7",
         "Sv": "8+",
         "N": "5",
@@ -1544,6 +1484,7 @@
         "Adeptus Mechanicus",
         "Skitarii",
         "<Forge World>",
+        "Infiltrators",
         "Light",
         "Infantry",
         "Fly",
@@ -1554,25 +1495,9 @@
           "name": "Flechette Carbine",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Flechette Blaster",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x5",
+          "attacks": "x4",
           "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Taser Goad",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
+          "armorPen": "12+"
         },
         {
           "name": "Close Combat Weapon",
@@ -1589,7 +1514,7 @@
           "WS": "4+",
           "BS": "4+",
           "A": "2",
-          "W": "4",
+          "W": "2",
           "Ld": "7",
           "Sv": "8+",
           "N": "10",
@@ -2091,24 +2016,23 @@
           "name": "Cognis Heavy Stubber",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "3",
+          "attacks": "1",
           "skill": "8+",
           "armorPen": "10+"
         },
         {
-          "name": "Hellstrike Missiles",
+          "name": "Twin Cognis Lascannon",
           "type": "Heavy",
           "range": "48\"",
-          "attacks": "1",
-          "skill": "4+",
-          "armorPen": "4+",
-          "abilities": "Destroyer"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
         },
         {
           "name": "Heavy Phosphor Blaster",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "3",
+          "attacks": "1",
           "skill": "6+",
           "armorPen": "8+"
         },
@@ -2116,9 +2040,9 @@
           "name": "Armoured Hull",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "3",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
       ],
       "abilities": "Hover",
@@ -2160,8 +2084,8 @@
           "name": "Cognis Heavy Stubber Array",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "9",
-          "skill": "8+",
+          "attacks": "2",
+          "skill": "6+",
           "armorPen": "10+",
           "abilities": "Rapid Fire"
         },
@@ -2169,9 +2093,9 @@
           "name": "Armoured Hull",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "3",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
         }
       ],
       "abilities": "Hover\nBomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.",

@@ -88,10 +88,10 @@ Heavy, Vehicle, Triarch Stalker","per Unit (Power Rating +1): Instead of 1 Heat 
 14,,,,,,,,,,,,Particle Shredder,Heavy,"24""",2,7+,7+,,,
 14,,,,,,,,,,,,Twin Heavy Gauss Cannon,Heavy,"36""",2,10+,5+,,,
 14,,,,,,,,,,,,Massive Forelimbs,Melee,Melee,User,7+,7+,,,
-15,Elites,Skorpekh Destroyers,"8""",3+,3+,3,1,8,5+,3,7,,,,,,,Hardwired Hatred: Re-roll hit rolls of 1 for attacks made by this unit.,"Necrons, <Dynasty>
+15,Elites,Skorpekh Destroyers,"8""",3+,3+,2,2,8,7+,3,7,,,,,,,,"Necrons, <Dynasty>
 Light, Infantry, Destroyer Cult, Skorpekh Destroyers",
 15,,,,,,,,,,,,,,,,,,Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons.,,
-15,,,,,,,,,,,,Skorpekh Hyperphase Weapons,Melee,Melee,x4,5+,7+,,,
+15,,,,,,,,,,,,Skorpekh Hyperphase Weapons,Melee,Melee,x2,5+,7+,,,
 16,Fast,Canoptek Wraiths,"12""",3+,3+,2,2,8,5+,3,8,,,,,,,"Wraith Form: This unit can move across models and terrain as if they were not there.
 For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.","Necrons, Canoptek, <Dynasty>
 Light, Beasts, Canoptek Wraiths","per weapon (Power Rating +1 per weapon): For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer."
@@ -175,12 +175,12 @@ Cosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for
 Heavy, Monster, Fly, Character, Transcendent C'tan",
 26,,,,,,,,,,,,Powers of the C'tan,Heavy,"24""",2,5+,5+,,,
 26,,,,,,,,,,,,Crackling Tendrils,Melee,Melee,User,6+,5+,,,
-27,Heavy,Canoptek Doomstalker,"8""",5+,4+,1,2,8,6+,1,11,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.","Necrons, Canoptek, <Dynasty>
+27,Heavy,Canoptek Doomstalker,"8""",4+,4+,1,2,8,6+,1,8,,,,,,,,"Necrons, Canoptek, <Dynasty>
 Heavy, Vehicle, Walker, Canoptek Doomstalker",
 27,,,,,,,,,,,,,,,,,,A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs.,,
 27,,,,,,,,,,,,Doomsday Blaster,Heavy,"48""",1,6+,4+,Destroyer,,
 27,,,,,,,,,,,,Twin Gauss Flayer,Heavy,"24""",1,7+,9+,Rapid Fire,,
-27,,,,,,,,,,,,Doomstalker Limbs,Melee,Melee,x3,7+,9+,,,
+27,,,,,,,,,,,,Doomstalker Limbs,Melee,Melee,User,7+,9+,,,
 28,Air,Doom Scythe,"20""-60""",6+,3+,1,2,8,6+,1,17,,,,,,,Supersonic,"Necrons, <Dynasty>
 Heavy, Vehicle, Fly, Aircraft, Doom Scythe",
 28,,,,,,,,,,,,Death Ray,Heavy,"24""",1,8+,4+,Destroyer,,
