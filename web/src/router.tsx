@@ -72,6 +72,7 @@ const routeTree = rootRoute.addChildren([indexRoute, armiesRoute, buildRoute, ru
 
 export const router = createRouter({
   routeTree,
+  basepath: '/apocVanguard',
 })
 
 declare module '@tanstack/react-router' {
