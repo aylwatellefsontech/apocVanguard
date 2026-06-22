@@ -8,11 +8,11 @@ from generate_all_faction_lists import slot, u
 ORKS = {
     "Gazzghull Thraka": u(
         "Gazzghull Thraka",
-        {"M": '5"', "WS": "2+", "BS": "5+", "A": "2", "W": "1", "Ld": "6", "Sv": "3+", "N": "1", "Pt": "9"},
+        {"M": '5"', "WS": "2+", "BS": "5+", "A": "2", "W": "2", "Ld": "6", "Sv": "3+", "N": "1", "Pt": "10"},
         ["Orks", "Goff", "Light", "Infantry", "Character", "Mega Armour", "Warboss", "Ghazghkull Thraka"],
         [
             {"name": "Twin Big Shoota", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
-            {"name": "Kustom Klaw", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "7+", "armorPen": "7+"},
+            {"name": "Kustom Klaw", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "5+"},
         ],
         'Great Waaagh!: Add 1 to the Attacks characteristic of friendly Orks Light units whilst they are making Fight actions whilst within 6" of this unit.\n'
         'Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Goff units whilst they are within 6" of this unit.',
@@ -22,7 +22,7 @@ ORKS = {
         "Warboss",
         {"M": '5"', "WS": "2+", "BS": "5+", "A": "2", "W": "1", "Ld": "6", "Sv": "8+", "N": "1", "Pt": "3"},
         ["Orks", "<Clan>", "Light", "Infantry", "Character", "Warboss"],
-        [{"name": "Boss Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"}],
+        [{"name": "Boss Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"}],
         'Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6" of this unit.',
         options=["A Warboss is a unit that contains 1 model. It is equipped with: Boss Weapons."],
     ),
@@ -95,15 +95,15 @@ ORKS = {
     ),
     "Gretchin": u(
         "Gretchin",
-        {"M": '5"', "WS": "5+", "BS": "4+", "A": "2", "W": "2", "Ld": "4", "Sv": "11+", "N": "10", "Pt": "1"},
+        {"M": '5"', "WS": "5+", "BS": "4+", "A": "1", "W": "1", "Ld": "4", "Sv": "11+", "N": "10", "Pt": "1"},
         ["Orks", "<Clan>", "Light", "Infantry", "Gretchin"],
         [
             {"name": "Grot Blasta", "type": "Small Arms", "range": '12"', "attacks": "User", "skill": "8+", "armorPen": "10+"},
             {"name": "Close Combat Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "9+", "armorPen": "11+"},
         ],
         profiles=[
-            {"M": '5"', "WS": "4+", "BS": "3+", "A": "4", "W": "4", "Ld": "4", "Sv": "11+", "N": "20", "Pt": "2"},
-            {"M": '5"', "WS": "4+", "BS": "3+", "A": "6", "W": "6", "Ld": "4", "Sv": "11+", "N": "30", "Pt": "3"},
+            {"M": '5"', "WS": "5+", "BS": "4+", "A": "2", "W": "2", "Ld": "4", "Sv": "11+", "N": "20", "Pt": "2"},
+            {"M": '5"', "WS": "5+", "BS": "4+", "A": "3", "W": "3", "Ld": "4", "Sv": "11+", "N": "30", "Pt": "3"},
         ],
         options=[
             "Gretchin are a unit that contains 10 models. It can contain 20 models (Power Rating 2) or 30 models (Power Rating 3). It is equipped with: Grot Blastas; Close Combat Weapons.",

@@ -6,14 +6,14 @@ Light, Infantry, Character, Captain",per Unit: This unit can have one of the fol
 1,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). If this unit has a Jump Pack, it has Move 12"", Deep Strike, and keywords Jump Pack, Fly.",,
 1,,,,,,,,,,,,,,,,,,"- Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it has Move 5"", Save 4+, Deep Strike, and keyword Terminator.",,
 1,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). If this unit has a Bike, it has Move 14"" and keyword Biker; loses keyword Infantry.",,
-1,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,8+,8+,,,
+1,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,6+,6+,,,
 2,HQ,Captain,"6""",2+,2+,1,1,7,5+,1,5,,,,,,,"Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6"" of this unit.","Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Character, Captain",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
 2,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
 2,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 2,,,,,,,,,,,,,,,,,,"- Terminator Armour (Power Rating +2). Move 5"", Save 4+, Deep Strike, keyword Terminator.",,
 2,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). Move 14"", keyword Biker; loses keyword Infantry.",,
-2,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,8+,8+,,,
+2,,,,,,,,,,,,Master-crafted Weapons,Melee,Melee,User,6+,6+,,,
 3,HQ,Librarian,"6""",3+,3+,1,1,7,6+,1,3,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Psyker, Character, Librarian",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
 3,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,

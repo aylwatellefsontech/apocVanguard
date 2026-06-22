@@ -351,12 +351,11 @@ TAU_EMPIRE = {
         ],
         "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.",
         profiles=[
-            {"M": '8"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "4", "Sv": "10+", "N": "2", "Pt": "5"},
             {"M": '8"', "WS": "3+", "BS": "4+", "A": "3", "W": "3", "Ld": "4", "Sv": "10+", "N": "3", "Pt": "7"},
         ],
         options=[
-            "Krootox Rampagers are a unit that contains 3 models. It is equipped with: Kroot Pistols; Fists & Blades.",
-            "It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7).",
+            "per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7)",
+            "Krootox Rampagers are a unit that contains 2 models. It can contain 3 models (Power Rating 7). It is equipped with: Kroot Pistols; Fists & Blades.",
         ],
     ),
     "TX4 Piranhas": u(
@@ -549,7 +548,6 @@ TAU_EMPIRE = {
         [
             {"name": "Fusion Cascade", "type": "Heavy", "range": '12"', "attacks": "1", "skill": "9+", "armorPen": "4+"},
             {"name": "Twin Hazard Burst Cannon", "type": "Heavy", "range": '24"', "attacks": "3", "skill": "7+", "armorPen": "9+"},
-            {"name": "Phased Ion Gun", "type": "Heavy", "range": '30"', "attacks": "2", "skill": "7+", "armorPen": "8+"},
             {"name": "Battlesuit Fists", "type": "Melee", "range": "Melee", "attacks": "x3", "skill": "6+", "armorPen": "9+"},
         ],
         "Deep Strike\n"

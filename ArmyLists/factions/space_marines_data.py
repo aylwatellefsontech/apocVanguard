@@ -10,7 +10,7 @@ SPACE_MARINES = {
         "Titus",
         {"M": '6"', "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "7", "Sv": "5+", "N": "1", "Pt": "5"},
         ["Imperium", "Adeptus Astartes", "<Chapter>", "Light", "Infantry", "Character", "Captain"],
-        [{"name": "Master-crafted Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"}],
+        [{"name": "Master-crafted Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"}],
         'Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6" of this unit.',
         options=[
             "This unit can have one of the following:",
@@ -23,7 +23,7 @@ SPACE_MARINES = {
         "Captain",
         {"M": '6"', "WS": "2+", "BS": "2+", "A": "1", "W": "1", "Ld": "7", "Sv": "5+", "N": "1", "Pt": "5"},
         ["Imperium", "Adeptus Astartes", "<Chapter>", "Light", "Infantry", "Character", "Captain"],
-        [{"name": "Master-crafted Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "8+", "armorPen": "8+"}],
+        [{"name": "Master-crafted Weapons", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "6+", "armorPen": "6+"}],
         'Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6" of this unit.',
         options=[
             "This unit can have one of the following:",
