@@ -2,11 +2,13 @@ import { useMemo, useRef, useState } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import ArmyCardSummary from '../components/ArmyCardSummary'
 import CardDetail from '../components/CardDetail'
+import MobileBackBar from '../components/MobileBackBar'
 import RosterEntrySummary from '../components/RosterEntrySummary'
 import UnitDetail from '../components/UnitDetail'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
+import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import {
   createArmyCardEntry,
   createRosterEntry,
@@ -30,6 +32,8 @@ import type {
 } from '../types'
 
 const buildRouteApi = getRouteApi('/build')
+
+type BuildMobilePanel = 'factions' | 'list' | 'detail' | 'roster'
 
 export default function BuildArmyPage() {
   const { armyId } = buildRouteApi.useSearch()
@@ -72,6 +76,8 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   const [editingArmyId, setEditingArmyId] = useState<string | null>(initialArmy?.id ?? null)
   const [savedArmies, setSavedArmies] = useState<SavedArmy[]>(() => loadSavedArmies())
   const [saveMessage, setSaveMessage] = useState<SaveMessage | null>(null)
+  const isMobile = useMediaQuery(MOBILE_QUERY)
+  const [mobilePanel, setMobilePanel] = useState<BuildMobilePanel>('factions')
 
   function handleSelectFaction(factionId: string) {
     setBuildMode('army')
@@ -81,6 +87,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSelectedRosterEntryId(null)
     setSelectedCardId(null)
     setSearch('')
+    if (isMobile) {
+      setMobilePanel('list')
+    }
   }
 
   function handleSelectCards(fac: string | null) {
@@ -90,6 +99,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSelectedRosterEntryId(null)
     setSelectedCardId(null)
     setSearch('')
+    if (isMobile) {
+      setMobilePanel('list')
+    }
   }
 
   const filteredUnits = useMemo(() => {
@@ -223,6 +235,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   function handleSelectCard(card: Card) {
     setSelectedCardId(card.id)
     cardDetailRefs.current.get(card.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    if (isMobile) {
+      setMobilePanel('detail')
+    }
   }
 
   function handleClearRoster() {
@@ -288,6 +303,10 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSaveMessage({ type: 'success', text: 'Saved army deleted.' })
   }
 
+  const mobileBuildClass = isMobile
+    ? `build-body mobile-layout mobile-panel-${mobilePanel}`
+    : 'build-body'
+
   return (
     <>
       <header className="app-header">
@@ -299,7 +318,27 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
 
       {error && <p className="error-banner">{error}</p>}
 
-      <div className="build-body">
+      {isMobile && mobilePanel === 'list' && (
+        <MobileBackBar
+          label={buildMode === 'cards' ? 'Cards' : 'Units'}
+          onBack={() => setMobilePanel('factions')}
+        />
+      )}
+      {isMobile && mobilePanel === 'detail' && (
+        <MobileBackBar
+          label={
+            buildMode === 'cards'
+              ? (selectedCard?.name ?? 'Card')
+              : (selectedUnit?.name ?? 'Unit')
+          }
+          onBack={() => setMobilePanel('list')}
+        />
+      )}
+      {isMobile && mobilePanel === 'roster' && (
+        <MobileBackBar label="Your Army" onBack={() => setMobilePanel('factions')} />
+      )}
+
+      <div className={mobileBuildClass}>
         <div className="build-main">
           <div className="app-body build-grid">
             <aside className="faction-panel">
@@ -397,7 +436,12 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                                 className={
                                   unit.no === activeUnitNo ? 'unit-btn active' : 'unit-btn'
                                 }
-                                onClick={() => setSelectedUnitNo(unit.no)}
+                                onClick={() => {
+                                  setSelectedUnitNo(unit.no)
+                                  if (isMobile) {
+                                    setMobilePanel('detail')
+                                  }
+                                }}
                               >
                                 <span className="unit-name">{unit.name}</span>
                                 <span className="unit-pts">{unit.stats?.Pt} Pt</span>
@@ -622,6 +666,16 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
           </section>
         </aside>
       </div>
+
+      {isMobile && mobilePanel !== 'roster' && (
+        <button
+          type="button"
+          className="mobile-roster-fab"
+          onClick={() => setMobilePanel('roster')}
+        >
+          Army · {totalPoints} Pt
+        </button>
+      )}
     </>
   )
 }

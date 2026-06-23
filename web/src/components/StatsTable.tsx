@@ -12,6 +12,7 @@ export default function StatsTable({ stats, label }: StatsTableProps) {
   return (
     <div className="stats-block">
       {label && <h4>{label}</h4>}
+      <div className="table-scroll">
       <table className="data-table stats-table">
         <thead>
           <tr>
@@ -28,6 +29,7 @@ export default function StatsTable({ stats, label }: StatsTableProps) {
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
   )
 }

@@ -10,6 +10,7 @@ export default function UnitWeapons({ weapons }: UnitWeaponsProps) {
   return (
     <section>
       <h3>Weapons</h3>
+      <div className="table-scroll">
       <table className="data-table weapons-table">
         <thead>
           <tr>
@@ -37,6 +38,7 @@ export default function UnitWeapons({ weapons }: UnitWeaponsProps) {
           ))}
         </tbody>
       </table>
+      </div>
     </section>
   )
 }

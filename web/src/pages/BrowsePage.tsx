@@ -1,13 +1,17 @@
 import { useEffect, useMemo, useState } from 'react'
 import { getRouteApi, useNavigate } from '@tanstack/react-router'
 import CardDetail from '../components/CardDetail'
+import MobileBackBar from '../components/MobileBackBar'
 import UnitDetail from '../components/UnitDetail'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
+import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import { openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateFactionPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { groupUnitsByType } from '../utils/units'
 import type { BrowseMode } from '../types'
+
+type BrowseMobilePanel = 'factions' | 'list' | 'detail'
 
 const browseRouteApi = getRouteApi('/')
 
@@ -55,17 +59,32 @@ export default function BrowsePage() {
   )
   const [selectedUnitNo, setSelectedUnitNo] = useState<number | null>(null)
   const [search, setSearch] = useState('')
+  const isMobile = useMediaQuery(MOBILE_QUERY)
+  const [mobilePanel, setMobilePanel] = useState<BrowseMobilePanel>('factions')
 
   function handleSelectFaction(factionId: string) {
     navigate({ search: { faction: factionId, cards: undefined } })
     setSelectedUnitNo(null)
     setSearch('')
+    if (isMobile) {
+      setMobilePanel('list')
+    }
   }
 
   function handleSelectCards(fac: string | null) {
     navigate({ search: { cards: fac ?? '', faction: undefined } })
     setSelectedUnitNo(null)
     setSearch('')
+    if (isMobile) {
+      setMobilePanel('list')
+    }
+  }
+
+  function handleSelectUnit(unitNo: number) {
+    setSelectedUnitNo(unitNo)
+    if (isMobile) {
+      setMobilePanel('detail')
+    }
   }
 
   const filteredUnits = useMemo(() => {
@@ -112,6 +131,9 @@ export default function BrowsePage() {
   const selectedFaction = factions.find((faction) => faction.id === activeFactionId)
   const error = factionsError || armyError || cardsError
   const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
+  const mobileBodyClass = isMobile
+    ? `app-body mobile-layout mobile-panel-${mobilePanel}${browseMode === 'cards' ? ' cards-mode' : ''}`
+    : `app-body${browseMode === 'cards' ? ' cards-mode' : ''}`
 
   return (
     <>
@@ -165,7 +187,20 @@ export default function BrowsePage() {
 
       {error && <p className="error-banner">{error}</p>}
 
-      <div className={`app-body${browseMode === 'cards' ? ' cards-mode' : ''}`}>
+      {isMobile && mobilePanel === 'list' && (
+        <MobileBackBar
+          label={browseMode === 'cards' ? 'Cards' : 'Units'}
+          onBack={() => setMobilePanel('factions')}
+        />
+      )}
+      {isMobile && mobilePanel === 'detail' && browseMode === 'army' && (
+        <MobileBackBar
+          label={selectedUnit?.name ?? 'Unit'}
+          onBack={() => setMobilePanel('list')}
+        />
+      )}
+
+      <div className={mobileBodyClass}>
         <aside className="faction-panel">
           <h2>Factions</h2>
           {loadingFactions ? (
@@ -288,7 +323,7 @@ export default function BrowsePage() {
                               className={
                                 unit.no === activeUnitNo ? 'unit-btn active' : 'unit-btn'
                               }
-                              onClick={() => setSelectedUnitNo(unit.no)}
+                              onClick={() => handleSelectUnit(unit.no)}
                             >
                               <span className="unit-name">{unit.name}</span>
                               <span className="unit-pts">{unit.stats?.Pt} Pt</span>

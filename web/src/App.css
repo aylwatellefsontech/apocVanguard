@@ -1479,3 +1479,295 @@
     max-height: 40vh;
   }
 }
+
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-back-bar {
+  display: none;
+}
+
+.mobile-roster-fab {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .app {
+    overflow: visible;
+    min-height: 100svh;
+  }
+
+  .app-header {
+    padding: 16px 16px 14px;
+    gap: 12px;
+  }
+
+  .app-header h1 {
+    font-size: 24px;
+  }
+
+  .app-nav {
+    padding: 10px 12px;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+  }
+
+  .nav-btn {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .error-banner {
+    padding: 10px 16px;
+  }
+
+  .faction-panel,
+  .unit-panel,
+  .detail-panel,
+  .cards-feed,
+  .saved-armies-panel,
+  .army-detail-panel,
+  .roster-panel,
+  .rules-nav-panel,
+  .rules-content-scroll {
+    padding: 16px;
+  }
+
+  .rules-content {
+    padding: 8px 16px 32px;
+  }
+
+  .rules-message {
+    padding: 16px;
+  }
+
+  .header-button-row {
+    flex-wrap: wrap;
+  }
+
+  .header-actions {
+    align-items: stretch;
+  }
+
+  .unit-detail > .unit-detail-header {
+    flex-wrap: wrap;
+  }
+
+  .unit-detail-header h2 {
+    font-size: 22px;
+  }
+
+  .unit-detail-header-aside {
+    margin-left: 0;
+    white-space: normal;
+  }
+
+  .card-detail .unit-detail-header.has-header-action {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'type'
+      'card-id'
+      'title';
+  }
+
+  .card-detail-title-block {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .army-detail-header .header-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hand-modal-header {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .hand-modal-actions {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .hand-pile-tabs {
+    padding: 12px 16px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+  }
+
+  .hand-pile-tab {
+    flex: 0 0 auto;
+  }
+
+  .hand-modal-body {
+    padding: 12px 16px 16px;
+  }
+
+  .modal-backdrop {
+    padding: 12px;
+    align-items: flex-end;
+  }
+
+  .modal-panel {
+    max-height: 92vh;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .build-tab-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .roster-actions {
+    flex-wrap: wrap;
+  }
+
+  .app-body,
+  .build-body,
+  .view-armies-body,
+  .rules-body {
+    overflow: visible;
+    min-height: auto;
+    flex: none;
+  }
+
+  .app-body.mobile-layout,
+  .build-body.mobile-layout .app-body.build-grid {
+    display: block;
+  }
+
+  .build-main {
+    min-height: auto;
+  }
+
+  .build-grid {
+    min-height: auto;
+    flex: none;
+  }
+
+  .faction-panel,
+  .unit-panel,
+  .detail-panel,
+  .cards-feed,
+  .saved-armies-panel,
+  .army-detail-panel,
+  .roster-panel {
+    overflow: visible;
+    border-bottom: none;
+  }
+
+  .mobile-back-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--code-bg);
+  }
+
+  .mobile-back-btn {
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--text-h);
+    font: inherit;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .mobile-back-label {
+    min-width: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-h);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-roster-fab {
+    display: block;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 50;
+    padding: 12px 16px;
+    border: 1px solid var(--accent-border);
+    border-radius: 999px;
+    background: var(--accent-bg);
+    color: var(--text-h);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .app-body.mobile-layout .faction-panel,
+  .app-body.mobile-layout .unit-panel,
+  .app-body.mobile-layout .detail-panel,
+  .app-body.mobile-layout .cards-feed {
+    display: none;
+  }
+
+  .app-body.mobile-layout.mobile-panel-factions .faction-panel,
+  .app-body.mobile-layout.mobile-panel-list .unit-panel,
+  .app-body.mobile-layout.mobile-panel-list .cards-feed,
+  .app-body.mobile-layout.mobile-panel-detail .detail-panel {
+    display: block;
+  }
+
+  .build-body.mobile-layout .faction-panel,
+  .build-body.mobile-layout .unit-panel,
+  .build-body.mobile-layout .detail-panel,
+  .build-body.mobile-layout .roster-panel {
+    display: none;
+  }
+
+  .build-body.mobile-layout.mobile-panel-factions .faction-panel,
+  .build-body.mobile-layout.mobile-panel-list .unit-panel,
+  .build-body.mobile-layout.mobile-panel-detail .detail-panel,
+  .build-body.mobile-layout.mobile-panel-roster .roster-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .view-armies-body.mobile-layout .saved-armies-panel,
+  .view-armies-body.mobile-layout .army-detail-panel {
+    display: none;
+  }
+
+  .view-armies-body.mobile-layout.mobile-panel-list .saved-armies-panel,
+  .view-armies-body.mobile-layout.mobile-panel-detail .army-detail-panel {
+    display: block;
+  }
+
+  .rules-body.mobile-layout .rules-nav-panel,
+  .rules-body.mobile-layout .rules-content-scroll {
+    display: none;
+  }
+
+  .rules-body.mobile-layout.mobile-panel-nav .rules-nav-panel,
+  .rules-body.mobile-layout.mobile-panel-content .rules-content-scroll {
+    display: block;
+  }
+
+  .rules-body.mobile-layout.mobile-panel-content {
+    grid-template-rows: auto 1fr;
+  }
+
+  .rules-body.mobile-layout.mobile-panel-content .rules-nav-panel {
+    display: none;
+  }
+}

@@ -3,8 +3,10 @@ import { useNavigate } from '@tanstack/react-router'
 import ArmyCardEntry from '../components/ArmyCardEntry'
 import ArmyRosterEntry from '../components/ArmyRosterEntry'
 import HandModal from '../components/HandModal'
+import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useArmy } from '../hooks/useFactions'
+import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
 import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
@@ -42,6 +44,8 @@ export default function ViewArmiesPage() {
   const [expandedCardIds, setExpandedCardIds] = useState<Set<string>>(() => new Set())
   const [viewMode, setViewMode] = useState<ViewMode>('army')
   const [handModalOpen, setHandModalOpen] = useState(false)
+  const isMobile = useMediaQuery(MOBILE_QUERY)
+  const [mobilePanel, setMobilePanel] = useState<'list' | 'detail'>('list')
 
   const selectedArmy = useMemo(
     () => savedArmies.find((army) => army.id === selectedArmyId) ?? null,
@@ -82,6 +86,20 @@ export default function ViewArmiesPage() {
     () => armyCards.map(armyCardEntryToCard),
     [armyCards],
   )
+
+  const mobileBodyClass = isMobile
+    ? `view-armies-body mobile-layout mobile-panel-${mobilePanel}`
+    : 'view-armies-body'
+
+  function handleSelectArmy(armyId: string) {
+    setSelectedArmyId(armyId)
+    setExpandedEntryIds(new Set())
+    setExpandedCardIds(new Set())
+    setViewMode('army')
+    if (isMobile) {
+      setMobilePanel('detail')
+    }
+  }
 
   function nextViewMode(mode: ViewMode): ViewMode {
     const index = VIEW_CYCLE.indexOf(mode)
@@ -164,7 +182,11 @@ export default function ViewArmiesPage() {
 
       {armyError && <p className="error-banner">{armyError}</p>}
 
-      <div className="view-armies-body">
+      {isMobile && mobilePanel === 'detail' && selectedArmy && (
+        <MobileBackBar label={selectedArmy.name} onBack={() => setMobilePanel('list')} />
+      )}
+
+      <div className={mobileBodyClass}>
         <aside className="saved-armies-panel">
           <h2>Saved Armies</h2>
           {savedArmies.length === 0 ? (
@@ -183,12 +205,7 @@ export default function ViewArmiesPage() {
                   <button
                     type="button"
                     className="saved-army-select"
-                    onClick={() => {
-                      setSelectedArmyId(army.id)
-                      setExpandedEntryIds(new Set())
-                      setExpandedCardIds(new Set())
-                      setViewMode('army')
-                    }}
+                    onClick={() => handleSelectArmy(army.id)}
                   >
                     <strong>{army.name}</strong>
                     <p className="roster-item-meta">

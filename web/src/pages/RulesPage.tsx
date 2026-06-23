@@ -1,6 +1,8 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import Markdown from 'react-markdown'
+import MobileBackBar from '../components/MobileBackBar'
 import { useRules } from '../hooks/useRules'
+import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import {
   createHeadingComponent,
   extractRulesHeadings,
@@ -22,13 +24,28 @@ function scrollToRulesHeading(event: React.MouseEvent<HTMLAnchorElement>, id: st
   window.history.replaceState(null, '', `#${id}`)
 }
 
+type RulesMobilePanel = 'nav' | 'content'
+
 export default function RulesPage() {
   const { markdown, loading, error } = useRules()
+  const isMobile = useMediaQuery(MOBILE_QUERY)
+  const [mobilePanel, setMobilePanel] = useState<RulesMobilePanel>('nav')
   const processedMarkdown = useMemo(
     () => (markdown ? preprocessRulesMarkdown(markdown) : ''),
     [markdown],
   )
   const headings = useMemo(() => extractRulesHeadings(processedMarkdown), [processedMarkdown])
+
+  function handleRulesNavClick(event: React.MouseEvent<HTMLAnchorElement>, id: string) {
+    scrollToRulesHeading(event, id)
+    if (isMobile) {
+      setMobilePanel('content')
+    }
+  }
+
+  const rulesBodyClass = isMobile
+    ? `rules-body mobile-layout mobile-panel-${mobilePanel}`
+    : 'rules-body'
 
   return (
     <>
@@ -44,7 +61,12 @@ export default function RulesPage() {
       ) : error ? (
         <p className="error-banner rules-message">{error}</p>
       ) : (
-        <div className="rules-body">
+        <>
+          {isMobile && mobilePanel === 'content' && (
+            <MobileBackBar label="Contents" onBack={() => setMobilePanel('nav')} />
+          )}
+
+          <div className={rulesBodyClass}>
           <aside className="rules-nav-panel">
             <h2>Contents</h2>
             <nav aria-label="Rules sections">
@@ -57,7 +79,7 @@ export default function RulesPage() {
                     <a
                       href={`#${heading.id}`}
                       className="rules-nav-link"
-                      onClick={(event) => scrollToRulesHeading(event, heading.id)}
+                      onClick={(event) => handleRulesNavClick(event, heading.id)}
                     >
                       {heading.title}
                     </a>
@@ -73,6 +95,7 @@ export default function RulesPage() {
             </article>
           </div>
         </div>
+        </>
       )}
     </>
   )

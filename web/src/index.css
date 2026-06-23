@@ -68,3 +68,31 @@ button,
 input {
   font-family: inherit;
 }
+
+@media (max-width: 1024px) {
+  #root {
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+  }
+
+  .app {
+    overflow: visible;
+    min-height: 100svh;
+  }
+
+  .app-body,
+  .build-body,
+  .view-armies-body,
+  .rules-body {
+    overflow: visible;
+    min-height: auto;
+    flex: none;
+  }
+
+  .build-main,
+  .build-grid {
+    min-height: auto;
+    flex: none;
+  }
+}
