@@ -1649,7 +1649,7 @@
         "Ld": "8",
         "Sv": "6+",
         "N": "1",
-        "Pt": "17"
+        "Pt": "15"
       },
       "abilities": "Supersonic",
       "keywords": [
@@ -1702,7 +1702,7 @@
         "Ld": "8",
         "Sv": "6+",
         "N": "1",
-        "Pt": "14"
+        "Pt": "12"
       },
       "abilities": "Supersonic\nInvasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.",
       "keywords": [

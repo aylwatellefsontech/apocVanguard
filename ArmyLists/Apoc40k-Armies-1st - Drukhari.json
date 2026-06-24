@@ -1671,7 +1671,7 @@
         "Ld": "5",
         "Sv": "7+",
         "N": "1",
-        "Pt": "10"
+        "Pt": "8"
       },
       "abilities": "Supersonic",
       "keywords": [
@@ -1731,7 +1731,7 @@
         "Ld": "5",
         "Sv": "7+",
         "N": "1",
-        "Pt": "10"
+        "Pt": "8"
       },
       "abilities": "Supersonic\nInstead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
@@ -1820,7 +1820,7 @@
         "Ld": "5",
         "Sv": "7+",
         "N": "1",
-        "Pt": "10"
+        "Pt": "8"
       },
       "abilities": "Supersonic\nA Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings.\nThis unit can also be equipped with Voidraven Missiles (Power Rating +1).",
       "keywords": [

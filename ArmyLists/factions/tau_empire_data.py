@@ -638,7 +638,7 @@ TAU_EMPIRE = {
     ),
     "AX3 Razorshark Strike Fighter": u(
         "AX3 Razorshark Strike Fighter",
-        {"M": '20-50"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "11"},
+        {"M": '20-50"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "9"},
         ["T'au Empire", "<Sept>", "Heavy", "Aircraft", "Vehicle", "Fly", "AX3 Razorshark Strike Fighter"],
         [
             {"name": "Burst Cannon", "type": "Heavy", "range": '18"', "attacks": "2", "skill": "8+", "armorPen": "9+"},
@@ -654,7 +654,7 @@ TAU_EMPIRE = {
     ),
     "AX39 Sun Shark Bomber": u(
         "AX39 Sun Shark Bomber",
-        {"M": '20-50"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "4", "Sv": "7+", "N": "1", "Pt": "10"},
+        {"M": '20-50"', "WS": "6+", "BS": "4+", "A": "1", "W": "2", "Ld": "4", "Sv": "7+", "N": "1", "Pt": "8"},
         ["T'au Empire", "<Sept>", "Heavy", "Aircraft", "Vehicle", "Fly", "AX39 Sun Shark Bomber"],
         [
             {"name": "Ion Rifles", "type": "Heavy", "range": '30"', "attacks": "2", "skill": "6+", "armorPen": "8+", "abilities": "Supercharge"},

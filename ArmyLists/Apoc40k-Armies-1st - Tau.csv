@@ -294,7 +294,7 @@ Light, Battlesuit, XV88 Broadside Battlesuits","per 2 models (Power Rating 11): 
 27,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
 27,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-28,Air,AX3 Razorshark Strike Fighter,"20-50""",6+,4+,1,2,4,8+,1,11,,,,,,,Supersonic,"T'au Empire, <Sept>
+28,Air,AX3 Razorshark Strike Fighter,"20-50""",6+,4+,1,2,4,8+,1,9,,,,,,,Supersonic,"T'au Empire, <Sept>
 Heavy, Aircraft, Vehicle, Fly, AX3 Razorshark Strike Fighter","per Unit: Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod."
 28,,,,,,,,,,,,,,,,,,An AX3 Razorshark Strike Fighter is a unit that contains 1 model. It is equipped with: Burst Cannon; Quad Ion Turret; Armoured Hull.,,
 28,,,,,,,,,,,,,,,,,,"Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod.",,
@@ -302,7 +302,7 @@ Heavy, Aircraft, Vehicle, Fly, AX3 Razorshark Strike Fighter","per Unit: Instead
 28,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 28,,,,,,,,,,,,Quad Ion Turret,Heavy,"30""",2,7+,7+,Supercharge,,
 28,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-29,Air,AX39 Sun Shark Bomber,"20-50""",6+,4+,1,2,4,7+,1,10,,,,,,,"Supersonic
+29,Air,AX39 Sun Shark Bomber,"20-50""",6+,4+,1,2,4,7+,1,8,,,,,,,"Supersonic
 Bombing Run: When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.","T'au Empire, <Sept>
 Heavy, Aircraft, Vehicle, Fly, AX39 Sun Shark Bomber",per Unit (Power Rating +1): This unit can also be equipped with 1 Missile Pod (Power Rating +1).
 29,,,,,,,,,,,,,,,,,,An AX39 Sun Shark Bomber is a unit that contains 1 model. It is equipped with: Ion Rifles; Missile Pod; Armoured Hull.,,

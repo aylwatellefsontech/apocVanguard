@@ -232,14 +232,14 @@ Heavy, Vehicle, Transport, Trukk",
 29,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 12 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
 29,,,,,,,,,,,,Big Shoota,Heavy,"36""",1,7+,9+,,,
 29,,,,,,,,,,,,Trukk Weapons,Melee,Melee,User,9+,9+,,,
-30,Air,Dakka Jet,"20-60""",5+,5+,1,2,4,8+,1,7,,,,,,,"Supersonic
+30,Air,Dakka Jet,"20-60""",5+,5+,1,2,4,8+,1,5,,,,,,,"Supersonic
 All da Dakka: Add 1 to hit rolls for attacks made by this unit with ranged weapons.","Orks, <Clan>
 Heavy, Vehicle, Fly, Aircraft, Dakkajet",per Unit (Power Rating +1): This unit can also be equipped with 2 Supa-shootas (Power Rating +1).
 30,,,,,,,,,,,,,,,,,,A Dakkajet is a unit that contains 1 model. It is equipped with: 4 Supa-shootas; Armoured Bulk.,,
 30,,,,,,,,,,,,,,,,,,This unit can also be equipped with 2 Supa-shootas (Power Rating +1).,,
 30,,,,,,,,,,,,Supa-shoota,Heavy,"36""",1,6+,8+,,,
 30,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-31,Air,Bomba,"20-50""",5+,5+,1,2,4,8+,1,8,,,,,,,"Supersonic
+31,Air,Bomba,"20-50""",5+,5+,1,2,4,8+,1,6,,,,,,,"Supersonic
 Burna Bombs: After this unit makes a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is garrisoning a Defensible Terrain feature; for each result of 4+ place one blast marker next to that unit.","Orks, <Clan>
 Heavy, Vehicle, Fly, Aircraft, Burna-Bommer",per Unit (Power Rating +1): This unit can also be equipped with Skorcha Missiles (Power Rating +1).
 31,,,,,,,,,,,,,,,,,,A Burna-bommer is a unit that contains 1 model. It is equipped with: Twin Big Shoota; 2 Supa-shootas; Armoured Bulk.,,

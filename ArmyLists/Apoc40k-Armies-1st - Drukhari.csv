@@ -172,13 +172,13 @@ Heavy, Vehicle, Fly, Transport, Venom","per Unit: Instead of 1 Twin Splinter Rif
 29,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire,,
 29,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire,,
 29,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
-25,Air,Raven Strike Fighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
+25,Air,Raven Strike Fighter,"20-72""",6+,3+,1,2,5,7+,1,8,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
 Heavy, Vehicle, Fly, Aircraft, Raven Strike Fighter",
 25,,,,,,,,,,,,,,,,,,A Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull.,,
 25,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
 25,,,,,,,,,,,,Splinterstorm Cannon,Heavy,"36""",2,6+,12+,Rapid Fire,,
 25,,,,,,,,,,,,Bladed Hull,Melee,Melee,User,9+,10+,,,
-26,Air,Razorwing Jetfighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
+26,Air,Razorwing Jetfighter,"20-72""",6+,3+,1,2,5,7+,1,8,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
 Heavy, Vehicle, Fly, Aircraft, Razorwing Jetfighter","per Unit: Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.; per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
 26,,,,,,,,,,,,,,,,,,"Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.",,
 26,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",,
@@ -188,7 +188,7 @@ Heavy, Vehicle, Fly, Aircraft, Razorwing Jetfighter","per Unit: Instead of 2 Dis
 26,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire,,
 26,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire,,
 26,,,,,,,,,,,,Bladed Wings,Melee,Melee,User,10+,11+,,,
-27,Air,Voidraven Bomber,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
+27,Air,Voidraven Bomber,"20-72""",6+,3+,1,2,5,7+,1,8,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
 Heavy, Vehicle, Fly, Aircraft, Voidraven Bomber",per Unit (Power Rating +1): This unit can also be equipped with Voidraven Missiles (Power Rating +1).
 27,,,,,,,,,,,,,,,,,,A Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings.,,
 27,,,,,,,,,,,,,,,,,,This unit can also be equipped with Voidraven Missiles (Power Rating +1).,,

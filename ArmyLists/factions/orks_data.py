@@ -481,7 +481,7 @@ ORKS = {
     ),
     "Dakka Jet": u(
         "Dakka Jet",
-        {"M": '20-60"', "WS": "5+", "BS": "5+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "7"},
+        {"M": '20-60"', "WS": "5+", "BS": "5+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "5"},
         ["Orks", "<Clan>", "Heavy", "Vehicle", "Fly", "Aircraft", "Dakkajet"],
         [
             {"name": "Supa-shoota", "type": "Heavy", "range": '36"', "attacks": "1", "skill": "6+", "armorPen": "8+"},
@@ -495,7 +495,7 @@ ORKS = {
     ),
     "Bomba": u(
         "Bomba",
-        {"M": '20-50"', "WS": "5+", "BS": "5+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "8"},
+        {"M": '20-50"', "WS": "5+", "BS": "5+", "A": "1", "W": "2", "Ld": "4", "Sv": "8+", "N": "1", "Pt": "6"},
         ["Orks", "<Clan>", "Heavy", "Vehicle", "Fly", "Aircraft", "Burna-Bommer"],
         [
             {"name": "Skorcha Missiles", "type": "Heavy", "range": '24"', "attacks": "2", "skill": "5+", "armorPen": "9+"},

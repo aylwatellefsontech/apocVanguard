@@ -2106,7 +2106,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "11"
+        "Pt": "9"
       },
       "abilities": "Supersonic\nSkyhunters: You can re-roll wound rolls for attacks made by this unit that target units that can Fly.\nMarksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.",
       "keywords": [
@@ -2167,7 +2167,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "11"
+        "Pt": "9"
       },
       "abilities": "Ignore Damage (6+), Supersonic, Terror Troops",
       "keywords": [

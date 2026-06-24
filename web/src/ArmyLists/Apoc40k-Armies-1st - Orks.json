@@ -2054,7 +2054,7 @@
         "Ld": "4",
         "Sv": "8+",
         "N": "1",
-        "Pt": "7"
+        "Pt": "5"
       },
       "abilities": "Supersonic\nAll da Dakka: Add 1 to hit rolls for attacks made by this unit with ranged weapons.\nA Dakkajet is a unit that contains 1 model. It is equipped with: 4 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
       "keywords": [
@@ -2105,7 +2105,7 @@
         "Ld": "4",
         "Sv": "8+",
         "N": "1",
-        "Pt": "8"
+        "Pt": "6"
       },
       "abilities": "Supersonic\nBurna Bombs: After this unit makes a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is garrisoning a Defensible Terrain feature; for each result of 4+ place one blast marker next to that unit.\nA Burna-bommer is a unit that contains 1 model. It is equipped with: Twin Big Shoota; 2 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with Skorcha Missiles (Power Rating +1).",
       "keywords": [

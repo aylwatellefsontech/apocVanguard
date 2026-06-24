@@ -233,7 +233,7 @@ Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken C
 29,,,,,,,,,,,,Twin Shuriken Catapult,Heavy,"12""",2,8+,11+,,,
 29,,,,,,,,,,,,Twin Starcannon,Heavy,"36""",2,8+,6+,,,
 29,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-30,Air,Crimson Hunter,"20""-60""",6+,2+,1,2,6,6+,1,11,,,,,,,"Supersonic
+30,Air,Crimson Hunter,"20""-60""",6+,2+,1,2,6,6+,1,9,,,,,,,"Supersonic
 Skyhunters: You can re-roll wound rolls for attacks made by this unit that target units that can Fly.
 Marksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
 Heavy, Vehicle, Fly, Aircraft, Crimson Hunter",
@@ -241,7 +241,7 @@ Heavy, Vehicle, Fly, Aircraft, Crimson Hunter",
 30,,,,,,,,,,,,Bright Lance,Heavy,"36""",1,10+,5+,,,
 30,,,,,,,,,,,,Pulse Laser,Heavy,"48""",2,10+,5+,,,
 30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-31,Air,Hemlock Wraithfighter,"20""-60""",6+,3+,1,2,6,6+,1,11,,,,,,,"Ignore Damage (6+), Supersonic, Terror Troops","Aeldari, Asuryani, Spirit Host, <Craftworld>
+31,Air,Hemlock Wraithfighter,"20""-60""",6+,3+,1,2,6,6+,1,9,,,,,,,"Ignore Damage (6+), Supersonic, Terror Troops","Aeldari, Asuryani, Spirit Host, <Craftworld>
 Heavy, Psyker, Fly, Aircraft, Vehicle, Wraith Construct, Hemlock Wraithfighter",
 31,,,,,,,,,,,,Heavy D-scythe,Heavy,"16""",1,3+,5+,Inferno,,
 31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
