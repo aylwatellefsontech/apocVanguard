@@ -8,8 +8,8 @@ C,5,Apoc,5,Divine Intervention,Apoc,Base,,,,,"Use after rolling any dice in Orde
 C,6,Apoc,6,Strike True,Apoc,Base,,,,,Reroll the dice for a single Wound roll.,
 C,7,Apoc,7,Miraculous Escape,Apoc,Base,,,,,Use in the Damage Phase. Remove 1 blast marker on a friendly unit.,
 C,8,Apoc,8,Go to Ground,Apoc,Base,,,,,Use at start of the Damage phase. 1 Infantry unit not in base contact with an enemy unit doubles their saving throw results until the end of the phase.,
-C,9,Apoc,9,Medical Suppies,Apoc,Base,,,,,Use at the start of the Action phase. Remove d3 damage markers from a light unit.,remove
-C,10,Apoc,10,Aim True,Apoc,Base,,,,,Reroll the dice for a single Hit Roll.,remove
+C,9,Apoc,9,Medical Suppies,Apoc,Extra,,,,,Use at the start of the Action phase. Remove d3 damage markers from a light unit.,remove
+C,10,Apoc,10,Aim True,Apoc,Extra,,,,,Reroll the dice for a single Hit Roll.,remove
 C,11,Apoc,11,Finest Hour,Apoc,Extra,,,,,"Use in action phase.  Select 1 warmaster or Warlord. Until the end of the turn, add 1 to the unit's Attacks characteristic, add 2 to wound rolls for that unit's melee attacks, and the units melee attacks gain Destroyer.",
 C,12,Apoc,12,Armour of Contempt,Apoc,Extra,,,,,"Use in the Damage phase. 1 unit rolls D12s for all their saving throws, regardless of the blast type.",
 C,13,Apoc,13,Deny the Witch,Apoc,Extra,,,,,"Use when an enemy uses a Psychic Command Asset before resolving it. Roll a D12. On a 4+, cancel that asset.",

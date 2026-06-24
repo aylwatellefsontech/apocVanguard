@@ -90,6 +90,18 @@ export function unitHasInfantryKeyword(unit: Unit | null | undefined): boolean {
   return unit?.keywords?.some((keyword) => keyword.toLowerCase() === 'infantry') ?? false
 }
 
+const WEIGHT_KEYWORDS = new Set(['light', 'heavy'])
+
+export function getUnitWeightKeyword(unit: Unit | null | undefined): string | null {
+  for (const keyword of unit?.keywords ?? []) {
+    if (WEIGHT_KEYWORDS.has(keyword.toLowerCase())) {
+      return keyword
+    }
+  }
+
+  return null
+}
+
 export function formatUnitTypeLabel(type: string, unit?: Unit | null): string {
   if (unitHasInfantryKeyword(unit)) {
     return `${type} - Infantry`

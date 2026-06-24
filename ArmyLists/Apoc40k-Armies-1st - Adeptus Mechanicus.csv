@@ -214,15 +214,15 @@ Heavy, Vehicle, Transport, Skorpius Dunerider",
 32,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
 32,,,,,,,,,,,,Twin Cognis Heavy Stubber,Heavy,"36""",2,8+,10+,,,
 32,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-30,Air,Archaeopter Stratoraptor,"20""",4+,3+,1,2,7,3+,1,8,,,,,,,Hover,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+30,Air,Archaeopter Stratoraptor,"14""",4+,3+,1,2,7,3+,1,8,,,,,,,Harrier,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Fly, Aircraft, Archaeopter Stratoraptor",
 30,,,,,,,,,,,,,,,,,,An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.,,
 30,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
 30,,,,,,,,,,,,Twin Cognis Lascannon,Heavy,"48""",2,10+,5+,,,
 30,,,,,,,,,,,,Heavy Phosphor Blaster,Heavy,"36""",1,6+,8+,,,
 30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,11+,11+,,,
-31,Air,Archaeopter Fusilave,"20""",4+,3+,1,2,7,3+,1,7,,,,,,,"Hover
-Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+31,Air,Archaeopter Fusilave,"14""",4+,3+,1,2,7,3+,1,7,,,,,,,"Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.
+Harrier","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Fly, Aircraft, Archaeopter Fusilave",
 31,,,,,,,,,,,,,,,,,,An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.,,
 31,,,,,,,,,,,,Cognis Heavy Stubber Array,Heavy,"36""",2,6+,10+,Rapid Fire,,

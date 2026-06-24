@@ -61,12 +61,12 @@ Light, Infantry, Breacher Team","per 10 models (Power Rating 6): It can contain 
 5,,,,,,,,,,,,,,,,,,"- If this unit has a Shield Drone, improve its Save characteristic by 1.",,
 5,,,,,,,,,,,,Pulse Blasters,Small Arms,"15""",x2,5+,9+,,,
 5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-6,Troops,Kroot Carnivores,"6""",3+,4+,2,2,5,10+,10,4,,,,,,,Infiltrators,"T'au Empire, Kroot
+6,Troops,Kroot Carnivores,"7""",3+,4+,1,2,4,10+,10,4,,,,,,,Infiltrators,"T'au Empire, Kroot
 Light, Infantry, Kroot Carnivores",per 20 models (Power Rating 7): It can contain 20 models (Power Rating 7)
-6,,,"6""",3+,4+,4,4,5,10+,20,7,,,,,,,,,
+6,,,"7""",3+,4+,2,4,4,10+,20,7,,,,,,,,,
 6,,,,,,,,,,,,,,,,,,Kroot Carnivores are a unit that contains 10 models. It can contain 20 models (Power Rating 7). It is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee).,,
-6,,,,,,,,,,,,Kroot Rifles (Ranged),Small Arms,"24""",User,8+,10+,Rapid Fire,,
-6,,,,,,,,,,,,Kroot Rifles (Melee),Melee,Melee,User,7+,9+,,,
+6,,,,,,,,,,,,Kroot Rifles (Ranged),Small Arms,"24""",User,7+,9+,Rapid Fire,,
+6,,,,,,,,,,,,Kroot Rifles (Melee),Melee,Melee,x2,7+,9+,,,
 7,Troops,Strike Team,"6""",5+,4+,1,1,5,8+,5,3,,,,,,,,"T'au Empire, <Sept>
 Light, Infantry, Strike Team","per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6); per 2 models (Power Rating 7): 12 models (Power Rating 7); per Unit (Power Rating +1): This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone."
 7,,,"6""",5+,4+,2,2,5,8+,10,6,,,,,,,,,
@@ -97,8 +97,9 @@ Light, Cavalry, Krootox Riders",per 2 models (Power Rating 2): It can contain 2 
 10,,,,,,,,,,,,Kroot Guns,Small Arms,"48""",User,8+,8+,Rapid Fire,,
 10,,,,,,,,,,,,Krootox Fists,Melee,Melee,User,7+,9+,,,
 11,Elites,Krootox Rampagers,"8""",3+,4+,3,3,4,10+,2,4,,,,,,,Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.,"T'au Empire, Kroot
-Light, Cavalry, Krootox Rampagers",per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7)
+Light, Cavalry, Krootox Rampagers",per 3 models (Power Rating 5): per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7); per 3 models (Power Rating 7): per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7); per 3 models (Power Rating 7): It can contain 3 models (Power Rating 7)
 11,,,"8""",3+,4+,3,3,4,10+,3,7,,,,,,,,,
+11,,,,,,,,,,,,,,,,,,per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7),,
 11,,,,,,,,,,,,,,,,,,Krootox Rampagers are a unit that contains 2 models. It can contain 3 models (Power Rating 7). It is equipped with: Kroot Pistols; Fists & Blades.,,
 11,,,,,,,,,,,,Kroot Pistols,Small Arms,"12""",User,8+,10+,,,
 11,,,,,,,,,,,,Fists & Blades,Melee,Melee,User,6+,8+,,,
@@ -204,7 +205,7 @@ Light, Beasts, Kroot Hounds",per Unit (Power Rating 4): It can contain 8 models 
 19,,,"12""",3+,-,2,2,4,10+,8,4,,,,,,,,,
 19,,,"12""",3+,-,3,3,4,10+,12,6,,,,,,,,,
 19,,,,,,,,,,,,,,,,,,Kroot Hounds are a unit that contains 4 models. It can contain 8 models (Power Rating 4) or 12 models (Power Rating 6). It is equipped with: Ripping Fangs.,,
-19,,,,,,,,,,,,Ripping Fangs,Melee,Melee,x2,8+,10+,,,
+19,,,,,,,,,,,,Ripping Fangs,Melee,Melee,x2,7+,9+,,,
 20,Fast,Tactical Drones,"8""",5+,5+,1,1,4,8+,4,3,,,,,,,"Deep Strike
 Threat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.","T'au Empire, <Sept>
 Light, Drone, Fly, Tactical Drones","per Unit (Power Rating 5): It can contain 8 models (Power Rating 5); per 2 models (Power Rating 7): 12 models (Power Rating 7); per 4 models (Power Rating +1 for each 4 models this unit contains): This unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones."
@@ -293,15 +294,6 @@ Light, Battlesuit, XV88 Broadside Battlesuits","per 2 models (Power Rating 11): 
 27,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
 27,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-30,Transport,TY7 Devilfish,"12""",6+,4+,1,2,6,6+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
-TRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.","T'au Empire, <Sept>
-Heavy, Vehicle, Fly, Transport, TY7 Devilfish","per Unit: Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
-30,,,,,,,,,,,,,,,,,,A TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.,,
-30,,,,,,,,,,,,,,,,,,"Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",,
-30,,,,,,,,,,,,Burst Cannon,Heavy,"18""",2,8+,9+,,,
-30,,,,,,,,,,,,Pulse Carbine,Small Arms,"18""",User,9+,9+,,,
-30,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
-30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
 28,Air,AX3 Razorshark Strike Fighter,"20-50""",6+,4+,1,2,4,8+,1,11,,,,,,,Supersonic,"T'au Empire, <Sept>
 Heavy, Aircraft, Vehicle, Fly, AX3 Razorshark Strike Fighter","per Unit: Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod."
 28,,,,,,,,,,,,,,,,,,An AX3 Razorshark Strike Fighter is a unit that contains 1 model. It is equipped with: Burst Cannon; Quad Ion Turret; Armoured Hull.,,
@@ -318,6 +310,15 @@ Heavy, Aircraft, Vehicle, Fly, AX39 Sun Shark Bomber",per Unit (Power Rating +1)
 29,,,,,,,,,,,,Ion Rifles,Heavy,"30""",2,6+,8+,Supercharge,,
 29,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 29,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
+30,Transport,TY7 Devilfish,"12""",6+,4+,1,2,6,6+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.","T'au Empire, <Sept>
+Heavy, Vehicle, Fly, Transport, TY7 Devilfish","per Unit: Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
+30,,,,,,,,,,,,,,,,,,A TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.,,
+30,,,,,,,,,,,,,,,,,,"Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",,
+30,,,,,,,,,,,,Burst Cannon,Heavy,"18""",2,8+,9+,,,
+30,,,,,,,,,,,,Pulse Carbine,Small Arms,"18""",User,9+,9+,,,
+30,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
+30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
 31,Lord,KV128 Stormsurge,"6""",5+,4+,1,5,6,5+,1,20,,,,,,,Stabilising Anchors: Re-roll hit rolls of 1 for attacks made with ranged weapons by this unit if it did not make a Move action this turn.,"T'au Empire, <Sept>
 Super-heavy, Titanic, Vehicle, KV128 Stormsurge","per Unit: Instead of Flamers, this unit can be equipped with one of the following: Airbursting Fragmentation Projectors; 2 Burst Cannons.; per Unit: Instead of 1 Pulse Blastcannon, this unit can be equipped with 1 Pulse Driver Cannon."
 31,,,,,,,,,,,,,,,,,,A KV128 Stormsurge is a unit that contains 1 model. It is equipped with: Cluster Rocket System; 4 Destroyer Missiles; Flamers; Pulse Blastcannon; Smart Missile Systems; Crushing Feet.,,

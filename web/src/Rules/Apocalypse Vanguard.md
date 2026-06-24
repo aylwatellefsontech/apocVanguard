@@ -1,6 +1,6 @@
 # Apocalypse Vanguard
 
-V0.6.1 \- 2026 06 21
+V0.6.2 \- 2026 06 24
 
 Apocalypse Vanguard is a cleaned up fan version of Apocalypse, meant to play games of Apocalypse in a smaller footprint, and faster.  
 
@@ -47,7 +47,7 @@ Command Assets	4
 
 [**Setup**](#setup)	**4**
 
-[**Starting the game**](#heading)	**5**
+[**Starting the game**](#heading=h.82aj307ol5hg)	**5**
 
 [**Order Phase**](#order-phase)	**5**
 
@@ -190,13 +190,12 @@ Use base blocks that have each of the 5 miniatures in the block within ½” of 
 
 ## Army Detachments
 
+Each unit in your army must all have the the same trait of one of the following:  
+Imperium, Chaos, Orks, Aeldari, T’au Empire, Tyranids
+
+For 100-125 points, use 3-4 detachments.  For 125-150, use 4-5 detachments. For 150-250, use 5-6 detachments.
+
 Divide up units into detachments, which have a specific number of min and max number units of specific types (see Core Detachments).
-
-For 100-125 points, use 3 detachments.  For 125-150, use 4 divisions. For 150-250, use 5 divisions.
-
-The game is divided into 5 rounds.  
-
-Each player should have 16 Command Assets. These are cards. 8 should be the default cards (the first 8 cards from the apoc set), the other 8 can be from the faction cards, or the other cards from the base apoc set.
 
 Each Detachment must include the units listed for that detachment type. Each unit is of one of the specific role types: HQ, Troops, Elites, Fast Attack, Heavy Support, Transports, Flyers, Fortifications, Lords of War.
 
@@ -205,7 +204,7 @@ Units also have Faction keywords.
 
 One unit per detachment is then chosen as the commander. If it is a character, it is also a Warlord. You must choose at least 1 warlord in your army.
 
-Then, chose one Warlord to be the Warmaster. Warmasters get 2 Warlord traits.
+Then, chose one Warlord to be the Warmaster. Warmasters get 1 Warmaster trait.
 
 If all the units in a detachment are all part of 1 faction, they gain their faction trait.
 
@@ -300,6 +299,8 @@ Any, but does not get command benefits, nor can any units be your warlord
 
 ## Command Assets
 
+Each player should have 16 Command Assets. These are Command Asset Cards. 8 should be the default cards (the first 8 cards from the apoc set), the other 8 can be from the faction cards, or the other cards from the base apoc set.
+
 The command cards can be found in the army builder, or the links below:  
 Use the cards in the following link:  
 [https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23\_Ar?usp=sharing](https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23_Ar?usp=sharing)
@@ -316,11 +317,17 @@ Lay down Terrain. In general, there should be at least 1 terrain feature per 24�
 
 ## Start Playing
 
+The game is divided into 4 turns.
+
 Players roll off, and add their army’s strategy rating.  The higher roll can choose to either choose deployment and deploy second, or choose who starts with initiative.  The other player gets the option not chosen.
 
 The Players then alternate, deploying detachments.
 
 When deploying a detachment, deploy the HQ as the detachment commander and warlord.  Other units in that detachment must be deployed within 12” of the HQ (at least one model in the unit must be within 12”).  If there are multiple HQ, choose 1 to to act as the commander. If there are no HQ, choose over unit to be the commander.
+
+### Reinforcements
+
+Up to ⅓ your units (unless noted in the mission) can be held back during deployment as Tactical Reserves. Reinforcements not deployed by the end of the game are considered destroyed.
 
 Start the game with 3 chosen command cards.  Shuffle the remainder of your cards into your command deck.  
 
@@ -337,9 +344,9 @@ Starting on the second turn, alternate who has initiative.
 
 Each player draws 3 cards, up to 7\. For every Warlord you have, you can draw an additional card, but after drawing those extra cards you must put an equal number back on the top of your deck in any order.
 
-Any reinforcements are deployed, starting with the player with initiative.
+Any reinforcements from Tactical Reserves can be deployed, starting with the player with initiative. If they have no special rules dictating placement, they must be deployed within 6” of your deployment zone table edge within your deployment zone, and further than 9” from enemies.
 
-Units out of command (further than 12” from the Leader) count as out of command.
+Units out of command (further than 12” from a commander) count as out of command.
 
 Each player chooses a command for each of their divisions.
 
@@ -347,7 +354,10 @@ There are 3 commands: Assault, Advance, and Aim.
 
 # Action Phase {#action-phase}
 
-When a detachment activates, they perform actions based on the command.  You can choose the order in which they move.
+When a detachment activates, they perform actions based on the command.  
+The commander and up to 6 friendly units haven’t activated yet activate as the detachment. These units must be within 12” (or 24” with infiltrator) or units out of command, and be closer to this commander than any other friendly commander.
+
+  You can choose the order in which they move.
 
 **Assault** \- Your units in that division move, doubling their move value.  They may then fight.
 
@@ -398,7 +408,7 @@ If your units are engaged with an enemy, you can Fall Back. If you do so, you mu
 
 #### Out of command
 
-If a unit out of command ends a move within their commander, they lose their out of command token.
+If a unit out of command ends a move within a commander, they lose their out of command token.
 
 ### Transports {#transports}
 
@@ -412,17 +422,17 @@ If a Transport is destroyed with models inside, place the unit inside within 6�
 
 ## Shoot {#shoot}
 
-Units shoot all their ranged weapons, and can choose different targets for their weapons.  To shoot, roll a number of (A) for the weapon. Each that matches their BS number (e.g. a BS of 3+ requires a 3, 4, 5, or 6\) is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP, if it is mechanised, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit.
+Units shoot all their ranged weapons, and can choose different targets for their weapons.  To shoot, roll a number of (A) for the weapon. Each that matches their BS number (e.g. a BS of 3+ requires a 3, 4, 5, or 6\) is a success.  For any that are hit, check the target type. If it is light, make a roll for SAP, otherwise use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit.
 
 Obscured Character \- If you shoot a character that is not the closest enemy, it is obscured.
 
 ### Obscured Target {#obscured-target}
 
-Characters targeted when not the closest enemy are obscured targets, as are units obscured by terrain through obstacles or garrisoning terrain. Attacking obscured targets subtract 1 from to-hit rolls against them.
+Characters targeted when not the closest enemy are obscured targets, as are units obscured by terrain through obstacles or garrisoning terrain. Attacking obscured targets subtract 1 from to-hit rolls against them. Light Characters instead subtract an additional 1 (so \-2) from to-hit rolls against them.
 
 ## Fight {#fight}
 
-Units attack with their Melee weapons, and can choose different targets for their weapons. Melee attacks can happen only against enemies engaged (within 1/2” of the unit).  To fight, roll a number of (A) for the weapon. Each that matches their WS number is a success.  For any that are hit, check the target type. If it is Infantry, make a roll for SAP; otherwise, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit. Every 2 blast markers turns into a large blast marker.
+Units attack with their Melee weapons, and can choose different targets for their weapons. Melee attacks can happen only against enemies engaged (within 1/2” of the unit).  To fight, roll a number of (A) for the weapon. Each that matches their WS number is a success.  For any that are hit, check the target type. If it is Light, make a roll for SAP; otherwise, use the SAT roll.  Each roll of those that succeeds causes a blast marker on the hit unit. Every 2 blast markers turns into a large blast marker.
 
 Units within ½ and inch of the obstacle can attack targets within ½ of the obstacle and within 2” of them with a fight attack, even if they are not engaged.
 
@@ -448,7 +458,7 @@ Those blasts that are not saved, result in 1 damage on the unit.  Units that hav
 
 In addition, a unit that took 1+ blast markers must make a leadership roll, which is a d12, to reach their leadership. If they fail, they take 1 more damage.  
 
-If your commander is destroyed, nominate a new unit to be commander.
+If a commander is destroyed, nominate a new unit within 12” to be the commander (that is not already a commander). You must prioritize Characters first. If there are no characters, then you can select other units. If there are no units within 12”, choose the closest friendly unit to the destroyed commander.
 
 Super-Heavy destruction. When a Super heavy is destroyed, roll a D12. On a 10+ (it explodes), disembark any unit inside them, then put a blast marker next to each unit within 6” of it.
 
@@ -462,7 +472,7 @@ The following are common abilities
 
 #### Anti-air
 
-Add 2 to hit rolls for attacks made with anti air weapons
+Add 2 to hit rolls for attacks made with anti air weapons against units with ‘aircraft’.
 
 #### Barrage
 
@@ -522,6 +532,10 @@ Units embarked in this unit can make shoot actions, measuring distance and line 
 
 Subtract 1 from hit rolls for attacks made with ranged weapons that target this unit.
 
+#### Super-Heavy
+
+Super Heavy that carry out Aimed Fire or Advance can make one shoot action and one fight action (instead of only 1 of these).
+
 #### Supersonic (old, deprecated)
 
 Subtract 1 from hit roll for attacks made with ranged weapons that target this unit. Fight attacks automatically miss unless the attacker has Fly. (Note \- the army list Power should increase by 2 if the unit cannot lose supersonic).
@@ -535,6 +549,10 @@ During deployment, this unit can be set up in Tactical Reserves. When this unit 
 At the start of the round, can gain or lose Supersonic.
 
 #### Terror Troops
+
+Subtract 1 from the leadership characteristics of units within 6" of enemy units with this ability.
+
+#### Farseekers
 
 Subtract 1 from the leadership characteristics of units within 6" of enemy units with this ability.
 

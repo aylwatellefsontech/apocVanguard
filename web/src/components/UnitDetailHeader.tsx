@@ -1,4 +1,4 @@
-import { unitHasInfantryKeyword } from '../utils/units'
+import { getUnitWeightKeyword } from '../utils/units'
 import type { Unit } from '../types'
 
 interface UnitDetailHeaderProps {
@@ -6,7 +6,7 @@ interface UnitDetailHeaderProps {
 }
 
 export default function UnitDetailHeader({ unit }: UnitDetailHeaderProps) {
-  const showInfantry = unitHasInfantryKeyword(unit)
+  const weightKeyword = getUnitWeightKeyword(unit)
 
   return (
     <header className="unit-detail-header">
@@ -15,7 +15,7 @@ export default function UnitDetailHeader({ unit }: UnitDetailHeaderProps) {
         <h2>{unit.name}</h2>
       </div>
       <div className="unit-detail-header-aside">
-        {showInfantry && <span className="unit-header-keyword">Infantry</span>}
+        {weightKeyword && <span className="unit-header-keyword">{weightKeyword}</span>}
         <span className="unit-no">#{unit.no}</span>
       </div>
     </header>

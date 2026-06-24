@@ -17,7 +17,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Deep Strike, Master of War\r\nEnforcer Battlesuit: At the start of the Damage phase, if this unit has an XV85 Enforcer Battlesuit, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.\nA Commander is a unit that contains 1 model. It is equipped with: Close Combat Weapons.\nThis unit must be equipped with two items from the Commander Weapons list.\nThis unit can also be equipped with two items from the Commander Weapons list.\nCommander Weapons list: Add 1 to the Power Rating for each Airbursting Fragmentation Projector, Fusion Blaster and Missile Pod, and 2 for each Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle. Cyclic Ion Blaster cannot be taken by a Commander that has an XV86 Coldstar Battlesuit.\nThis model can have one of the following (Power Rating +1):\n- XV8-02 Crisis Iridium Battlesuit. If this unit has an XV8-02 Crisis Iridium Battlesuit, improve its Save characteristic by 1.\n- XV85 Enforcer Battlesuit. If this unit has an XV85 Enforcer Battlesuit, it has the following additional abilities: Enforcer Battlesuit; has the XV85 Enforcer keyword instead of the XV8 Crisis keyword.\n- XV86 Coldstar Battlesuit. If this unit has an XV86 Coldstar Battlesuit, it has a Move characteristic of 20\"; is equipped with 1 High-output Burst Cannon instead of one item from the Commander Weapons list; has the XV86 Coldstar keyword instead of the XV8 Crisis keyword.\nThis unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike, Master of War\nEnforcer Battlesuit: At the start of the Damage phase, if this unit has an XV85 Enforcer Battlesuit, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.\nA Commander is a unit that contains 1 model. It is equipped with: Close Combat Weapons.\nThis unit must be equipped with two items from the Commander Weapons list.\nThis unit can also be equipped with two items from the Commander Weapons list.\nCommander Weapons list: Add 1 to the Power Rating for each Airbursting Fragmentation Projector, Fusion Blaster and Missile Pod, and 2 for each Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle. Cyclic Ion Blaster cannot be taken by a Commander that has an XV86 Coldstar Battlesuit.\nThis model can have one of the following (Power Rating +1):\n- XV8-02 Crisis Iridium Battlesuit. If this unit has an XV8-02 Crisis Iridium Battlesuit, improve its Save characteristic by 1.\n- XV85 Enforcer Battlesuit. If this unit has an XV85 Enforcer Battlesuit, it has the following additional abilities: Enforcer Battlesuit; has the XV85 Enforcer keyword instead of the XV8 Crisis keyword.\n- XV86 Coldstar Battlesuit. If this unit has an XV86 Coldstar Battlesuit, it has a Move characteristic of 20\"; is equipped with 1 High-output Burst Cannon instead of one item from the Commander Weapons list; has the XV86 Coldstar keyword instead of the XV8 Crisis keyword.\nThis unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -150,7 +150,7 @@
         "N": "1",
         "Pt": "13"
       },
-      "abilities": "Deep Strike, Master of War\r\nGenius of Mont'ka: Once per battle, at the start of the Action phase, this unit can declare Mont'ka even if Kauyon or Mont'ka has already been declared. Mont'ka and Kauyon cannot be both declared in the same turn.\r\nWay of the Short Blade: Re-roll hit rolls of 1 made for friendly Farsight Enclave units when using melee weapons whilst they are within 6\" of this unit (and ranged weapons, if the target is an Orks unit).",
+      "abilities": "Deep Strike, Master of War\nGenius of Mont'ka: Once per battle, at the start of the Action phase, this unit can declare Mont'ka even if Kauyon or Mont'ka has already been declared. Mont'ka and Kauyon cannot be both declared in the same turn.\nWay of the Short Blade: Re-roll hit rolls of 1 made for friendly Farsight Enclave units when using melee weapons whilst they are within 6\" of this unit (and ranged weapons, if the target is an Orks unit).",
       "keywords": [
         "T'au Empire",
         "Farsight Enclaves",
@@ -366,12 +366,12 @@
       "type": "Troops",
       "name": "Kroot Carnivores",
       "stats": {
-        "M": "6\"",
+        "M": "7\"",
         "WS": "3+",
         "BS": "4+",
-        "A": "2",
+        "A": "1",
         "W": "2",
-        "Ld": "5",
+        "Ld": "4",
         "Sv": "10+",
         "N": "10",
         "Pt": "4"
@@ -386,12 +386,12 @@
       ],
       "profiles": [
         {
-          "M": "6\"",
+          "M": "7\"",
           "WS": "3+",
           "BS": "4+",
-          "A": "4",
+          "A": "2",
           "W": "4",
-          "Ld": "5",
+          "Ld": "4",
           "Sv": "10+",
           "N": "20",
           "Pt": "7"
@@ -410,15 +410,15 @@
           "type": "Small Arms",
           "range": "24\"",
           "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+",
+          "skill": "7+",
+          "armorPen": "9+",
           "abilities": "Rapid Fire"
         },
         {
           "name": "Kroot Rifles (Melee)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -523,7 +523,7 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Stealth\r\nDrone Uplink: Add 1 to hit rolls for attacks made with ranged weapons by <Sept> MV71 Sniper Drones whilst they are within 6\" of any friendly units with this ability.",
+      "abilities": "Stealth\nDrone Uplink: Add 1 to hit rolls for attacks made with ranged weapons by <Sept> MV71 Sniper Drones whilst they are within 6\" of any friendly units with this ability.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -564,7 +564,7 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Wisest of their Kind: Friendly Kroot units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\r\nThe Shaper Commands: Re-roll wound rolls of 1 for attacks made by friendly Kroot units whilst they are within 6\" of this unit.",
+      "abilities": "Wisest of their Kind: Friendly Kroot units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nThe Shaper Commands: Re-roll wound rolls of 1 for attacks made by friendly Kroot units whilst they are within 6\" of this unit.",
       "keywords": [
         "T'au Empire",
         "Kroot",
@@ -684,7 +684,7 @@
         "N": "2",
         "Pt": "4"
       },
-      "abilities": "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.\nKrootox Rampagers are a unit that contains 2 models. It can contain 3 models (Power Rating 7). It is equipped with: Kroot Pistols; Fists & Blades.",
+      "abilities": "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.\nper 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7)\nKrootox Rampagers are a unit that contains 2 models. It can contain 3 models (Power Rating 7). It is equipped with: Kroot Pistols; Fists & Blades.",
       "keywords": [
         "T'au Empire",
         "Kroot",
@@ -707,13 +707,28 @@
       ],
       "options": [
         {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 5)",
+          "per": "Per 3 models",
+          "text": "per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5)",
           "Pt": "5"
         },
         {
           "per": "Per 3 models",
           "text": "3 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "3 models (Power Rating 7)",
+          "Pt": "7"
+        },
+        {
+          "per": "Per 3 models",
+          "text": "It can contain 3 models (Power Rating 7)",
           "Pt": "7"
         }
       ],
@@ -962,7 +977,7 @@
         "N": "3",
         "Pt": "8"
       },
-      "abilities": "Deep Strike\r\nSworn Protectors: At the start of the Damage phase, you can select one friendly <Sept> Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nXV8 Crisis Bodyguards are a unit that contains 3 models. It can contain 6 models (Power Rating 15) or 9 models (Power Rating 22). It is equipped with: Close Combat Weapons.\nFor each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.\nThis unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike\nSworn Protectors: At the start of the Damage phase, you can select one friendly <Sept> Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nXV8 Crisis Bodyguards are a unit that contains 3 models. It can contain 6 models (Power Rating 15) or 9 models (Power Rating 22). It is equipped with: Close Combat Weapons.\nFor each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.\nThis unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -1295,7 +1310,7 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Deep Strike\r\nReactive Impact Dampeners: Re-roll wound rolls of 1 for attacks made with melee weapons by this unit.\nAn XV9 Hazard Battlesuit is a unit that contains 1 model. It is equipped with: Fusion Cascade; Twin Hazard Burst Cannon; Battlesuit Fists.\nInstead of 1 Fusion Cascade, this unit can be equipped with 1 Phased Ion Gun.\nInstead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion Cascade or 1 Phased Ion Gun.",
+      "abilities": "Deep Strike\nReactive Impact Dampeners: Re-roll wound rolls of 1 for attacks made with melee weapons by this unit.\nAn XV9 Hazard Battlesuit is a unit that contains 1 model. It is equipped with: Fusion Cascade; Twin Hazard Burst Cannon; Battlesuit Fists.\nInstead of 1 Fusion Cascade, this unit can be equipped with 1 Phased Ion Gun.\nInstead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion Cascade or 1 Phased Ion Gun.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -1506,8 +1521,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
+          "skill": "7+",
+          "armorPen": "9+"
         }
       ]
     },
@@ -1526,7 +1541,7 @@
         "N": "4",
         "Pt": "3"
       },
-      "abilities": "Deep Strike\r\nThreat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.\nTactical Drones are a unit that contains 4 models. It can contain 8 models (Power Rating 5) or 12 models (Power Rating 7). It is equipped with: Pulse Carbines; Close Combat Weapons.\nThis unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike\nThreat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.\nTactical Drones are a unit that contains 4 models. It can contain 8 models (Power Rating 5) or 12 models (Power Rating 7). It is equipped with: Pulse Carbines; Close Combat Weapons.\nThis unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -1788,7 +1803,7 @@
         "N": "1",
         "Pt": "12"
       },
-      "abilities": "Tank Ace: Add 1 to wound rolls for attacks made by this unit with ranged weapons that target Heavy or Super-heavy units.\r\nFire Caste Exemplar: Add 1 to hit rolls for attacks made with ranged weapons by friendly T'au Sept TX7 Hammerhead Gunship units whilst they are within 6\" of this unit.\r\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nLongstrike is a unit that contains 1 model. It is equipped with: 2 Pulse Carbines; Railgun; Armoured Hull. You can only include one of this unit in your army.\nInstead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.\nInstead of 2 Pulse Carbines, this unit can be equipped with one of the following: 2 Burst Cannons; Smart Missile Systems.",
+      "abilities": "Tank Ace: Add 1 to wound rolls for attacks made by this unit with ranged weapons that target Heavy or Super-heavy units.\nFire Caste Exemplar: Add 1 to hit rolls for attacks made with ranged weapons by friendly T'au Sept TX7 Hammerhead Gunship units whilst they are within 6\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nLongstrike is a unit that contains 1 model. It is equipped with: 2 Pulse Carbines; Railgun; Armoured Hull. You can only include one of this unit in your army.\nInstead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.\nInstead of 2 Pulse Carbines, this unit can be equipped with one of the following: 2 Burst Cannons; Smart Missile Systems.",
       "keywords": [
         "T'au Empire",
         "T'au Sept",
@@ -2047,7 +2062,7 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\r\nVelocity Tracker: Add 2 to hit rolls for attacks made with ranged weapons by this unit that target Aircraft units.\nA TX78 Sky Ray Gunship is a unit that contains 1 model. It is equipped with: Seeker Missiles; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nVelocity Tracker: Add 2 to hit rolls for attacks made with ranged weapons by this unit that target Aircraft units.\nA TX78 Sky Ray Gunship is a unit that contains 1 model. It is equipped with: Seeker Missiles; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -2254,7 +2269,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\r\nTRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.\nA TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.\nA TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -2388,7 +2403,7 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Supersonic\r\nBombing Run: When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.\nAn AX39 Sun Shark Bomber is a unit that contains 1 model. It is equipped with: Ion Rifles; Missile Pod; Armoured Hull.\nThis unit can also be equipped with 1 Missile Pod (Power Rating +1).",
+      "abilities": "Supersonic\nBombing Run: When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.\nAn AX39 Sun Shark Bomber is a unit that contains 1 model. It is equipped with: Ion Rifles; Missile Pod; Armoured Hull.\nThis unit can also be equipped with 1 Missile Pod (Power Rating +1).",
       "keywords": [
         "T'au Empire",
         "<Sept>",
@@ -2562,7 +2577,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\r\nMobile Defence Platform: This unit can only make a Move action if any models are embarked aboard it.\r\nTRANSPORT: This unit can transport up to 10 T'au Empire Infantry models.\r\nTidewall Gunrig — Automated Fire Control Systems: This unit will always target the closest enemy unit with its Supremacy Railgun unless a friendly <Sept> unit is embarked aboard it. If two enemy units are equally close, you can choose which one this unit targets.\r\nTidewall Droneport — Automated Drone Control Systems: This unit will always target the closest enemy unit with its Pulse Carbines. If two enemy units are equally close, you can choose which one this unit targets.",
+      "abilities": "Open-topped\nMobile Defence Platform: This unit can only make a Move action if any models are embarked aboard it.\nTRANSPORT: This unit can transport up to 10 T'au Empire Infantry models.\nTidewall Gunrig — Automated Fire Control Systems: This unit will always target the closest enemy unit with its Supremacy Railgun unless a friendly <Sept> unit is embarked aboard it. If two enemy units are equally close, you can choose which one this unit targets.\nTidewall Droneport — Automated Drone Control Systems: This unit will always target the closest enemy unit with its Pulse Carbines. If two enemy units are equally close, you can choose which one this unit targets.",
       "keywords": [
         "T'au Empire",
         "<Sept>",

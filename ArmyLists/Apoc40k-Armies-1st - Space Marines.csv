@@ -20,7 +20,7 @@ Light, Infantry, Psyker, Character, Librarian",per Unit: This unit can have one 
 3,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 3,,,,,,,,,,,,,,,,,,"- Terminator Armour (Power Rating +2). Move 5"", Save 4+, Deep Strike, keyword Terminator.",,
 3,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). Move 14"", keyword Biker; loses keyword Infantry.",,
-3,,,,,,,,,,,,Force Weapon,Melee,Melee,User,7+,8+,,,
+3,,,,,,,,,,,,Force Weapon,Melee,Melee,User,8+,8+,,,
 4,HQ,Chaplain,"6""",2+,3+,1,1,7,5+,1,5,,,,,,,"Litanies of Hate: You can re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units whilst they are within 6"" of this unit.
 Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Character, Priest, Chaplain",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +2): Terminator Armour (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1)
@@ -28,11 +28,18 @@ Light, Infantry, Character, Priest, Chaplain",per Unit: This unit can have one o
 4,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 4,,,,,,,,,,,,,,,,,,"- Terminator Armour (Power Rating +2). Move 5"", Save 4+, Deep Strike, keyword Terminator.",,
 4,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). Move 14"", keyword Biker; loses keyword Infantry.",,
-4,,,,,,,,,,,,Crozius Arcanum,Melee,Melee,User,7+,8+,,,
-6,Troops,Tactical Marines,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+4,,,,,,,,,,,,Crozius Arcanum,Melee,Melee,User,8+,8+,,,
+5,Elite,Techmarine,"6""",3+,2+,1,1,6,4+,1,5,,,,,,,"Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Astartes, <Chapter>
+Light, Infantry, Character, Techmarine",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1); per Unit (Power Rating +1): This unit can have a Servo-harness (Power Rating +1)
+5,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
+5,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
+5,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). Move 14"", keyword Biker; loses keyword Infantry.",,
+5,,,,,,,,,,,,,,,,,,"This unit can have a Servo-harness (Power Rating +1). If it has a Servo-harness, Attacks 2 and it is also equipped with 1 Flamer & Plasma Cutter.",,
+5,,,,,,,,,,,,Flamer & Plasma Cutter,Heavy,"12""",1,8+,9+,Inferno,,
+5,,,,,,,,,,,,Servo-arm & Power Weapon,Melee,Melee,User,9+,9+,,,
+6,Troops,Tactical Marines,"6""",3+,3+,1,1,6,6+,5,4,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Tactical Squad","per 10 models (Power Rating +1): If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon."
-6,,,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,,
-6,,,"6""",3+,3+,4,4,7,6+,10,12,,,,,,,,,
+6,,,"6""",3+,3+,2,2,6,6+,10,9,,,,,,,,,
 6,,,,,,,,,,,,,,,,,,"If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.",,
 6,,,,,,,,,,,,Grav-cannon,Heavy,"24""",1,8+,6+,,,
 6,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
@@ -42,10 +49,9 @@ Light, Infantry, Tactical Squad","per 10 models (Power Rating +1): If this unit 
 6,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
 6,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
 6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-7,Troops,Scouts,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,Infiltrators,"Imperium, Adeptus Astartes, <Chapter>
+7,Troops,Scouts,"6""",3+,3+,1,1,6,8+,5,4,,,,,,,Infiltrators,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Scout, Scout Squad","per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.; per Unit (Power Rating +1): Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)"
-7,,,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,,
-7,,,"6""",3+,3+,4,4,7,6+,10,12,,,,,,,,,
+7,,,"6""",3+,3+,2,2,6,8+,10,7,,,,,,,,,
 7,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.,,
 7,,,,,,,,,,,,,,,,,,"Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1). If it is, it has Stealth.",,
 7,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
@@ -54,31 +60,20 @@ Light, Infantry, Scout, Scout Squad","per Unit (Power Rating +1): This unit can 
 7,,,,,,,,,,,,Sniper Rifles,Small Arms,"36""",User,7+,9+,Sniper,,
 7,,,,,,,,,,,,Combat Knives,Melee,Melee,User,6+,9+,,,
 7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-8,Troops,Intercessors,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+8,Troops,Intercessors,"6""",3+,3+,1,2,6,6+,5,6,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Primaris, Intercessor Squad",
-8,,,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,,
-8,,,"6""",3+,3+,4,4,7,6+,10,12,,,,,,,,,
+8,,,"6""",3+,3+,2,4,6,6+,10,12,,,,,,,,,
 8,,,,,,,,,,,,Bolt Rifles,Small Arms,"30""",User,5+,8+,Rapid Fire,,
-8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-5,Elites,Techmarine,"6""",3+,2+,1,1,6,4+,1,5,,,,,,,"Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Adeptus Astartes, <Chapter>
-Light, Infantry, Character, Techmarine",per Unit: This unit can have one of the following:.; per Unit (Power Rating +2): Jump Pack (Power Rating +2); per Unit (Power Rating +1): Bike (Power Rating +1); per Unit (Power Rating +1): This unit can have a Servo-harness (Power Rating +1)
-5,,,,,,,,,,,,,,,,,,This unit can have one of the following:,,
-5,,,,,,,,,,,,,,,,,,"- Jump Pack (Power Rating +2). Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
-5,,,,,,,,,,,,,,,,,,"- Bike (Power Rating +1). Move 14"", keyword Biker; loses keyword Infantry.",,
-5,,,,,,,,,,,,,,,,,,"This unit can have a Servo-harness (Power Rating +1). If it has a Servo-harness, Attacks 2 and it is also equipped with 1 Flamer & Plasma Cutter.",,
-5,,,,,,,,,,,,Flamer & Plasma Cutter,Heavy,"12""",1,8+,9+,Inferno,,
-5,,,,,,,,,,,,Servo-arm & Power Weapon,Melee,Melee,User,9+,8+,,,
-9,Elites,Vanguard Veterans,"6""",3+,3+,2,2,7,6+,5,10,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
+9,Elites,Vanguard Veterans,"6""",3+,3+,1,1,7,6+,5,5,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Vanguard Veteran Squad","per 10 models (Power Rating +2 for 5 models, or Power Rating +4 for 10 models): This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models)"
-9,,,"6""",3+,3+,2,2,7,6+,5,10,,,,,,,,,
-9,,,"6""",3+,3+,4,4,7,6+,10,20,,,,,,,,,
+9,,,"6""",3+,3+,2,2,7,6+,10,10,,,,,,,,,
 9,,,,,,,,,,,,,,,,,,"This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models). If this unit has Jump Packs, Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 9,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
 9,,,,,,,,,,,,Vanguard Weapons,Melee,Melee,x3,6+,8+,,,
-10,Elites,Veteran Squad,"6""",3+,3+,2,2,7,6+,5,5,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+10,Elites,Veteran Squad,"6""",3+,3+,1,1,7,6+,5,5,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Sternguard Veteran Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.
-10,,,"6""",3+,3+,2,2,7,6+,5,5,,,,,,,,,
-10,,,"6""",3+,3+,4,4,7,6+,10,10,,,,,,,,,
+10,,,"6""",3+,3+,2,2,7,6+,10,10,,,,,,,,,
 10,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.,,
 10,,,,,,,,,,,,Grav-cannon,Heavy,"24""",1,8+,6+,,,
 10,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
@@ -89,44 +84,41 @@ Light, Infantry, Sternguard Veteran Squad",per weapon (Power Rating +1 per weapo
 10,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
 10,,,,,,,,,,,,Special Issue Boltguns,Small Arms,"30""",User,6+,9+,Rapid Fire,,
 10,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
-11,Elites,Terminator Squad,"5""",3+,3+,2,2,7,6+,5,11,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
+11,Elites,Terminator Squad,"5""",3+,3+,1,2,7,4+,5,11,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Terminator, Terminator Squad","per weapon (Power Rating +1 per weapon): For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon."
-11,,,"5""",3+,3+,2,2,7,6+,5,11,,,,,,,,,
-11,,,"5""",3+,3+,4,4,7,6+,10,21,,,,,,,,,
+11,,,"5""",3+,3+,2,4,7,4+,10,21,,,,,,,,,
 11,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.",,
 11,,,,,,,,,,,,Assault Cannon,Heavy,"24""",2,6+,8+,,,
 11,,,,,,,,,,,,Cyclone Missile Launcher,Heavy,"36""",2,7+,7+,,,
 11,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
 11,,,,,,,,,,,,Reaper Autocannon,Heavy,"36""",2,8+,8+,,,
-11,,,,,,,,,,,,Storm Bolters,Small Arms,"24""",User,7+,9+,Rapid Fire,,
-11,,,,,,,,,,,,Terminator Power Weapons,Melee,Melee,User,6+,6+,,,
-12,Elites,Terminator Assault Squad,"5""",3+,3+,2,2,7,6+,5,9,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
+11,,,,,,,,,,,,Storm Bolters,Small Arms,"24""",x2,7+,9+,Rapid Fire,,
+11,,,,,,,,,,,,Terminator Power Weapons,Melee,Melee,x2,6+,7+,,,
+12,Elites,Terminator Assault Squad,"5""",3+,3+,1,2,7,4+,5,9,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Terminator, Terminator Assault Squad","per Unit (Power Rating +1): Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1)"
-12,,,"5""",3+,3+,2,2,7,6+,5,9,,,,,,,,,
-12,,,"5""",3+,3+,4,4,7,6+,10,18,,,,,,,,,
+12,,,"5""",3+,3+,2,4,7,4+,10,18,,,,,,,,,
 12,,,,,,,,,,,,,,,,,,"Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1). If this unit has Storm Shields, Save 3+.",,
-12,,,,,,,,,,,,Lightning Claws,Melee,Melee,x2,7+,8+,,,
-12,,,,,,,,,,,,Thunder Hammers,Melee,Melee,User,6+,6+,,,
+12,,,,,,,,,,,,Lightning Claws,Melee,Melee,x3,6+,8+,,,
+12,,,,,,,,,,,,Thunder Hammers,Melee,Melee,x2,6+,6+,,,
 13,Elites,Apothecary,"6""",3+,3+,1,1,6,6+,1,4,,,,,,,"Narthecium: At the end of the Action phase, this unit can attempt to heal one friendly <Chapter> Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.","Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Character, Apothecary",per Unit (Power Rating +1): This unit can have a Bike (Power Rating +1)
 13,,,,,,,,,,,,,,,,,,"This unit can have a Bike (Power Rating +1). If it has a Bike, Move 14"", keyword Biker; loses keyword Infantry.",,
 13,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,9+,,,
-14,Elites,Honour Guard,"6""",3+,3+,2,2,7,4+,5,5,,,,,,,"Honour Guard: At the start of the Damage phase, you can select one friendly <Chapter> Light Character unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.","Imperium, Adeptus Astartes, <Chapter>
+14,Elites,Honour Guard,"6""",3+,3+,1,1,7,4+,2,5,,,,,,,"Honour Guard: At the start of the Damage phase, you can select one friendly <Chapter> Light Character unit that has at least one blast marker next to it and is within 6"" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.","Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Honour Guard",
 14,,,,,,,,,,,,Honoured Weapons,Melee,Melee,User,7+,8+,,,
-15,Fast,Assault Squad,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+15,Fast,Assault Squad,"6""",3+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Assault Squad","per Unit (Power Rating +2): This unit can have Jump Packs (Power Rating +2); per 5 models: For every 5 models this unit contains, it can also be equipped with 1 Eviscerator."
-15,,,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,,
-15,,,"6""",3+,3+,4,4,7,6+,10,12,,,,,,,,,
+15,,,"6""",3+,3+,2,2,6,6+,10,6,,,,,,,,,
 15,,,,,,,,,,,,,,,,,,"This unit can have Jump Packs (Power Rating +2). If it has Jump Packs, Move 12"", Deep Strike, keywords Jump Pack, Fly.",,
 15,,,,,,,,,,,,,,,,,,"For every 5 models this unit contains, it can also be equipped with 1 Eviscerator.",,
 15,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
 15,,,,,,,,,,,,Chainswords,Melee,Melee,x2,7+,9+,,,
 15,,,,,,,,,,,,Eviscerator,Melee,Melee,1,8+,8+,,,
-16,Fast,Bike Squad,"14""",3+,3+,2,2,7,6+,3,11,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+16,Fast,Bike Squad,"14""",3+,3+,1,1,6,5+,3,8,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Biker, Bike Squad",per Unit (Power Rating +1): This unit can contain 1 Attack Bike model (Power Rating +1)
-16,,,"14""",3+,3+,4,4,7,6+,6,22,,,,,,,,,
-16,,,"14""",3+,3+,6,6,7,6+,9,33,,,,,,,,,
+16,,,"14""",3+,3+,2,2,6,5+,6,16,,,,,,,,,
+16,,,"14""",3+,3+,3,3,6,5+,9,24,,,,,,,,,
 16,,,,,,,,,,,,,,,,,,"This unit can contain 1 Attack Bike model (Power Rating +1). If it has an Attack Bike, add 1 to Wounds and equip Heavy Bolter or Multi-melta.",,
 16,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
 16,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
@@ -144,23 +136,22 @@ Heavy, Vehicle, Fly, Land Speeders","per Unit: For each model, must also be equi
 17,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
 17,,,,,,,,,,,,Typhoon Missile Launcher,Heavy,"48""",2,7+,7+,,,
 17,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-18,Fast,Scout Bike Squad,"16""",3+,3+,2,2,6,7+,3,10,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+18,Fast,Scout Bike Squad,"16""",3+,3+,1,1,6,7+,3,7,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Biker, Scout Bike Squad",
-18,,,"16""",3+,3+,4,4,7,6+,6,20,,,,,,,,,
-18,,,"16""",3+,3+,6,6,7,6+,9,30,,,,,,,,,
+18,,,"16""",3+,3+,2,2,6,7+,6,14,,,,,,,,,
+18,,,"16""",3+,3+,3,3,6,7+,9,21,,,,,,,,,
 18,,,,,,,,,,,,Twin Boltguns,Small Arms,"24""",x2,7+,9+,Rapid Fire,,
 18,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-19,Fast,Inceptor Squad,"10""",3+,3+,2,2,6,5+,3,12,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
+19,Fast,Inceptor Squad,"10""",3+,3+,1,2,6,5+,3,11,,,,,,,Deep Strike,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Fly, Jump Pack, Primaris, Mk X Gravis, Inceptor Squad","per Unit: Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators."
-19,,,"10""",3+,3+,4,4,7,6+,6,24,,,,,,,,,
+19,,,"10""",3+,3+,2,4,6,5+,6,22,,,,,,,,,
 19,,,,,,,,,,,,,,,,,,"Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators.",,
-19,,,,,,,,,,,,Assault Bolters,Small Arms,"18""",x2,7+,9+,,,
-19,,,,,,,,,,,,Plasma Exterminators,Small Arms,"18""",User,5+,6+,Supercharge,,
-19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-20,Heavy,Devastator Squad,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+19,,,,,,,,,,,,Assault Bolters,Small Arms,"18""",x3,7+,9+,,,
+19,,,,,,,,,,,,Plasma Exterminators,Small Arms,"18""",x2,5+,6+,Supercharge,,
+19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
+20,Heavy,Devastator Squad,"6""",3+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Devastator Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).
-20,,,"6""",3+,3+,2,2,7,6+,5,6,,,,,,,,,
-20,,,"6""",3+,3+,4,4,7,6+,10,12,,,,,,,,,
+20,,,"6""",3+,3+,2,2,6,6+,10,7,,,,,,,,,
 20,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).,,
 20,,,,,,,,,,,,,,,,,,"If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Boltguns.",,
 20,,,,,,,,,,,,Grav-cannon,Heavy,"24""",1,8+,6+,,,
@@ -171,12 +162,11 @@ Light, Infantry, Devastator Squad",per weapon (Power Rating +1 per weapon): This
 20,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
 20,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
 20,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-21,Heavy,Hellblaster Squad,"6""",3+,3+,2,2,7,6+,5,12,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+21,Heavy,Hellblaster Squad,"6""",3+,3+,1,2,6,6+,5,7,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Light, Infantry, Primaris, Hellblaster Squad",
-21,,,"6""",3+,3+,2,2,7,6+,5,12,,,,,,,,,
-21,,,"6""",3+,3+,4,4,7,6+,10,24,,,,,,,,,
+21,,,"6""",3+,3+,2,4,6,6+,10,14,,,,,,,,,
 21,,,,,,,,,,,,Plasma Incinerators,Heavy,"30""",User,5+,6+,"Rapid Fire, Supercharge",,
-21,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+21,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
 22,Heavy,Dreadnought,"6""",3+,3+,2,2,6,6+,1,7,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Heavy, Vehicle, Dreadnought",per Unit: Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon.; per Unit: Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.; per Unit: Instead of Storm Bolter: Heavy Flamer.
 22,,,,,,,,,,,,,,,,,,Default: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.,,
@@ -239,6 +229,32 @@ Heavy, Vehicle, Transport, Land Raider",per Unit (Power Rating +1): Can also be 
 27,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
 27,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
 27,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
+28,Air,Stormraven,"14""",6+,3+,1,3,7,6+,1,20,,,,,,,"Supersonic
+Harrier","Imperium, Adeptus Astartes, <Chapter>
+Heavy, Vehicle, Fly, Transport, Aircraft, Stormraven Gunship",per Unit: Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.; per Unit: Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.; per Unit (Power Rating +4): Can also be equipped with 2 Hurricane Bolters (Power Rating +4).
+28,,,,,,,,,,,,,,,,,,Default: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.,,
+28,,,,,,,,,,,,,,,,,,Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.,,
+28,,,,,,,,,,,,,,,,,,Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.,,
+28,,,,,,,,,,,,,,,,,,Can also be equipped with 2 Hurricane Bolters (Power Rating +4).,,
+28,,,,,,,,,,,,,,,,,,Transport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.,,
+28,,,,,,,,,,,,Hurricane Bolter,Heavy,"24""",2,7+,9+,Rapid Fire,,
+28,,,,,,,,,,,,Stormstrike Missile Launcher,Heavy,"72""",1,10+,6+,,,
+28,,,,,,,,,,,,Twin Assault Cannon,Heavy,"24""",4,6+,8+,,,
+28,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+28,,,,,,,,,,,,Twin Heavy Plasma Cannon,Heavy,"36""",2,7+,7+,Supercharge,,
+28,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+28,,,,,,,,,,,,Twin Multi-Melta,Heavy,"24""",2,10+,4+,,,
+28,,,,,,,,,,,,Typhoon Missile Launcher,Heavy,"48""",2,7+,7+,,,
+28,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
+29,Lord,Venerable Land Raider,"10""",5+,3+,2,3,7,4+,1,13,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
+Heavy, Vehicle, Transport, Land Raider",per Unit (Power Rating +1): Can also be equipped with 1 Multi-melta (Power Rating +1).
+29,,,,,,,,,,,,,,,,,,Not in PDF — using Land Raider datasheet.,,
+29,,,,,,,,,,,,,,,,,,Can also be equipped with 1 Multi-melta (Power Rating +1).,,
+29,,,,,,,,,,,,,,,,,,Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.,,
+29,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
+29,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
+29,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
+29,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 30,Transport,Rhino,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
 Heavy, Vehicle, Transport, Rhino",
 30,,,,,,,,,,,,,,,,,,"Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.",,
@@ -262,29 +278,3 @@ Heavy, Vehicle, Transport, Drop Pod",per Unit: Instead of Storm Bolter: Deathwin
 32,,,,,,,,,,,,,,,,,,"Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.",,
 32,,,,,,,,,,,,Deathwind Launcher,Heavy,"12""",2,7+,9+,,,
 32,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
-28,Air,Stormraven,"20-45""",6+,3+,1,3,7,6+,1,20,,,,,,,"Supersonic
-Hover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, Move becomes 20"" but it loses Supersonic.","Imperium, Adeptus Astartes, <Chapter>
-Heavy, Vehicle, Fly, Transport, Aircraft, Stormraven Gunship",per Unit: Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.; per Unit: Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.; per Unit (Power Rating +4): Can also be equipped with 2 Hurricane Bolters (Power Rating +4).
-28,,,,,,,,,,,,,,,,,,Default: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.,,
-28,,,,,,,,,,,,,,,,,,Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.,,
-28,,,,,,,,,,,,,,,,,,Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.,,
-28,,,,,,,,,,,,,,,,,,Can also be equipped with 2 Hurricane Bolters (Power Rating +4).,,
-28,,,,,,,,,,,,,,,,,,Transport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.,,
-28,,,,,,,,,,,,Hurricane Bolter,Heavy,"24""",2,7+,9+,Rapid Fire,,
-28,,,,,,,,,,,,Stormstrike Missile Launcher,Heavy,"72""",1,10+,6+,,,
-28,,,,,,,,,,,,Twin Assault Cannon,Heavy,"24""",4,6+,8+,,,
-28,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
-28,,,,,,,,,,,,Twin Heavy Plasma Cannon,Heavy,"36""",2,7+,7+,Supercharge,,
-28,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
-28,,,,,,,,,,,,Twin Multi-Melta,Heavy,"24""",2,10+,4+,,,
-28,,,,,,,,,,,,Typhoon Missile Launcher,Heavy,"48""",2,7+,7+,,,
-28,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-29,Lord,Venerable Land Raider,"10""",4+,2+,2,5,7,4+,1,20,,,,,,,,"Imperium, Adeptus Astartes, <Chapter>
-Heavy, Vehicle, Transport, Land Raider",per Unit (Power Rating +1): Can also be equipped with 1 Multi-melta (Power Rating +1).
-29,,,,,,,,,,,,,,,,,,Not in PDF — using Land Raider datasheet.,,
-29,,,,,,,,,,,,,,,,,,Can also be equipped with 1 Multi-melta (Power Rating +1).,,
-29,,,,,,,,,,,,,,,,,,Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.,,
-29,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
-29,,,,,,,,,,,,Twin Heavy Bolter,Heavy,"36""",2,7+,9+,,,
-29,,,,,,,,,,,,Twin Lascannon,Heavy,"48""",2,10+,5+,,,
-29,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,

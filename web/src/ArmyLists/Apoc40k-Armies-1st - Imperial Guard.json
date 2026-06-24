@@ -46,6 +46,43 @@
       ]
     },
     {
+      "no": 2,
+      "type": "HQ",
+      "name": "Company Commander",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "9+",
+        "N": "1",
+        "Pt": "2"
+      },
+      "abilities": "Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.",
+      "keywords": [
+        "Imperium",
+        "Astra Militarum",
+        "<Regiment>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Officer",
+        "Company Commander"
+      ],
+      "weapons": [
+        {
+          "name": "Officer Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
       "no": 3,
       "type": "HQ",
       "name": "Lord Commissar",
@@ -485,7 +522,7 @@
         "N": "20",
         "Pt": "3"
       },
-      "abilities": "Conscripts is a unit that contains 20 models.",
+      "abilities": "Conscripts is a unit that contains 20 models. It can contain 30 models (Power Rating 4).",
       "keywords": [
         "Imperium",
         "Astra Militarum",
@@ -494,10 +531,24 @@
         "Infantry",
         "Conscripts"
       ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "5+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "30",
+          "Pt": "4"
+        }
+      ],
       "options": [
         {
-          "per": "Per Unit",
-          "text": "Conscripts is a unit that contains 20 models."
+          "per": "Per 30 models",
+          "text": "It can contain 30 models (Power Rating 4).",
+          "Pt": "4"
         }
       ],
       "weapons": [
@@ -517,43 +568,6 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "10+"
-        }
-      ]
-    },
-    {
-      "no": 2,
-      "type": "Elites",
-      "name": "Company Commander",
-      "stats": {
-        "M": "6\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "9+",
-        "N": "1",
-        "Pt": "2"
-      },
-      "abilities": "Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.",
-      "keywords": [
-        "Imperium",
-        "Astra Militarum",
-        "<Regiment>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Officer",
-        "Company Commander"
-      ],
-      "weapons": [
-        {
-          "name": "Officer Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "11+"
         }
       ]
     },
@@ -599,8 +613,8 @@
       "name": "Sanctioned Psyker",
       "stats": {
         "M": "6\"",
-        "WS": "4+",
-        "BS": "4+",
+        "WS": "3+",
+        "BS": "3+",
         "A": "1",
         "W": "1",
         "Ld": "6",
@@ -820,12 +834,12 @@
       "type": "Elites",
       "name": "Snipers",
       "stats": {
-        "M": "6\"",
-        "WS": "4+",
-        "BS": "4+",
+        "M": "5\"",
+        "WS": "5+",
+        "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "5",
+        "Ld": "4",
         "Sv": "10+",
         "N": "5",
         "Pt": "2"
@@ -841,12 +855,12 @@
       ],
       "profiles": [
         {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
+          "M": "5\"",
+          "WS": "5+",
+          "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "5",
+          "Ld": "4",
           "Sv": "10+",
           "N": "10",
           "Pt": "3"
@@ -945,7 +959,7 @@
           "type": "Small Arms",
           "range": "12\"",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -953,8 +967,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "6+",
+          "armorPen": "8+"
         },
         {
           "name": "Crusader Power Swords",
@@ -1115,7 +1129,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "10+",
+          "skill": "11+",
           "armorPen": "11+"
         }
       ]
@@ -1248,9 +1262,9 @@
         "A": "1",
         "W": "2",
         "Ld": "5",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "5"
+        "Pt": "6"
       },
       "abilities": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.\nInstead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.\nVariant: Bane Wolf (Chem Cannon, Pt 6).",
       "keywords": [
@@ -1345,9 +1359,9 @@
         "A": "1",
         "W": "2",
         "Ld": "5",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "5"
+        "Pt": "6"
       },
       "abilities": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; Heavy Bolter; Armoured Tracks.\nInstead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
       "keywords": [
@@ -1440,11 +1454,11 @@
         "WS": "4+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "5",
         "Sv": "10+",
         "N": "5",
-        "Pt": "3"
+        "Pt": "2"
       },
       "abilities": "Rough Riders is a unit that contains 5 models. It can contain 10 models (Power Rating 6).",
       "keywords": [
@@ -1461,7 +1475,7 @@
           "WS": "4+",
           "BS": "4+",
           "A": "2",
-          "W": "4",
+          "W": "2",
           "Ld": "5",
           "Sv": "10+",
           "N": "10",
@@ -1507,62 +1521,106 @@
       "type": "Fast",
       "name": "Aquilons",
       "stats": {
-        "M": "10\"",
-        "WS": "4+",
+        "M": "14\"",
+        "WS": "6+",
         "BS": "3+",
         "A": "1",
-        "W": "1",
+        "W": "2",
         "Ld": "5",
-        "Sv": "8+",
-        "N": "5",
-        "Pt": "4"
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "8"
       },
-      "abilities": "Infiltrators\nAquilons are Tempestus Scions with Move 10\" and Infiltrators. It can contain 10 models (Power Rating 6).",
+      "abilities": "Aquilons does not appear in this Apocalypse datasheet; Taurox Prime is the closest Fast-slot Tempestus vehicle substitute.\nTRANSPORT: This unit can transport up to 10 friendly Militarum Tempestus or Officio Prefectus Infantry models.\nA Taurox Prime is a unit that contains 1 model. It is equipped with: Taurox Battle Cannon; 2 Hot-shot Volley Guns; Armoured Hull.\nInstead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher.\nInstead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons.\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
       "keywords": [
         "Imperium",
         "Astra Militarum",
         "Militarum Tempestus",
-        "Light",
-        "Infantry",
-        "Militarum Tempestus Scions",
-        "Aquilons"
-      ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Taurox Prime"
       ],
       "options": [
         {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 6).",
-          "Pt": "6"
+          "per": "Per Unit",
+          "text": "Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
         }
       ],
       "weapons": [
         {
-          "name": "Hot-shot Lasguns",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
+          "name": "Taurox Battle Cannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
           "skill": "6+",
-          "armorPen": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Taurox Gatling Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+",
           "abilities": "Rapid Fire"
         },
         {
-          "name": "Close Combat Weapons",
+          "name": "Taurox Missile Launcher",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Hot-shot Volley Gun",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Storm Bolter",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "10+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Armoured Hull",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "10+",
           "armorPen": "10+"
         }
       ]
@@ -1925,11 +1983,11 @@
         "WS": "6+",
         "BS": "4+",
         "A": "1",
-        "W": "3",
+        "W": "2",
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "11"
+        "Pt": "10"
       },
       "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nGrinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.\nInstead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).\nInstead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.\nThis unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
       "keywords": [
@@ -2190,9 +2248,9 @@
         "A": "1",
         "W": "2",
         "Ld": "5",
-        "Sv": "7+",
+        "Sv": "6+",
         "N": "1",
-        "Pt": "6"
+        "Pt": "7"
       },
       "abilities": "TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.\nA Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.\nInstead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.\nInstead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.\nThis unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
       "keywords": [
@@ -2354,7 +2412,7 @@
       "type": "Air",
       "name": "Valkyrie",
       "stats": {
-        "M": "20\"-45\"",
+        "M": "14\"",
         "WS": "6+",
         "BS": "4+",
         "A": "1",
@@ -2364,7 +2422,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Supersonic\nVehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Flyers slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nHover Jet: At the start of the Action phase, you can declare that this unit will hover. If it does, then until the end of the phase, its Move characteristic changes to 20\" but it loses the Supersonic ability.\nGrav-chute Insertion: Units may disembark from this unit during its Move action. Units that disembark in this manner must be set up more than 9\" from any enemy units.\nTRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.\nA Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Missiles; Multi-laser; Armoured Bulk.\nInstead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.\nInstead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.\nThis unit can also be equipped with 2 Heavy Bolters (Power Rating +2).",
+      "abilities": "Supersonic\nVehicle Squadron: Each Flyers slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Flyers slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nGrav-chute Insertion: Units may disembark from this unit during its Move action. Units that disembark in this manner must be set up more than 9\" from any enemy units.\nHarrier\nTRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.\nA Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Missiles; Multi-laser; Armoured Bulk.\nInstead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.\nInstead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.\nThis unit can also be equipped with 2 Heavy Bolters (Power Rating +2).",
       "keywords": [
         "Imperium",
         "Astra Militarum",

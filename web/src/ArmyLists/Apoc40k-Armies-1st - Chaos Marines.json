@@ -17,7 +17,7 @@
         "N": "1",
         "Pt": "15"
       },
-      "abilities": "You can only include one of this unit in your army.\r\nDeep Strike\r\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\r\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\r\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
       "keywords": [
         "Chaos",
         "Khorne",
@@ -176,7 +176,7 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\r\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nThis unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12\"; keyword Fly.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
+      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nThis unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12\"; keyword Fly.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
       "keywords": [
         "Chaos",
         "Heretic Astartes",
@@ -250,12 +250,12 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "4"
       },
       "abilities": "This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.\nInstead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.\nIf this unit contains 10 or more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.",
       "keywords": [
@@ -274,10 +274,21 @@
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "5",
+          "N": "10",
           "Pt": "8"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "12"
         },
         {
           "M": "6\"",
@@ -285,21 +296,10 @@
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "10",
+          "N": "20",
           "Pt": "16"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "24"
         }
       ],
       "options": [
@@ -400,11 +400,11 @@
       "name": "Cultists",
       "stats": {
         "M": "6\"",
-        "WS": "5+",
-        "BS": "5+",
-        "A": "1",
-        "W": "1",
-        "Ld": "5",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "2",
+        "W": "2",
+        "Ld": "4",
         "Sv": "10+",
         "N": "10",
         "Pt": "2"
@@ -422,25 +422,36 @@
       "profiles": [
         {
           "M": "6\"",
-          "WS": "5+",
-          "BS": "5+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "4",
           "Sv": "10+",
           "N": "20",
-          "Pt": "4"
+          "Pt": "6"
         },
         {
           "M": "6\"",
-          "WS": "5+",
-          "BS": "5+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "6",
+          "W": "6",
+          "Ld": "4",
           "Sv": "10+",
           "N": "30",
-          "Pt": "6"
+          "Pt": "9"
+        },
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "8",
+          "W": "8",
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "40",
+          "Pt": "12"
         }
       ],
       "options": [
@@ -556,12 +567,12 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
+        "A": "1",
+        "W": "1",
         "Ld": "7",
         "Sv": "6+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "4"
       },
       "abilities": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons.",
       "keywords": [
@@ -582,30 +593,8 @@
           "W": "2",
           "Ld": "7",
           "Sv": "6+",
-          "N": "5",
-          "Pt": "8"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "6+",
           "N": "10",
-          "Pt": "16"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "24"
+          "Pt": "8"
         }
       ],
       "options": [
@@ -655,17 +644,17 @@
       "type": "Elites",
       "name": "Cult Marines",
       "stats": {
-        "M": "6\"",
+        "M": "5\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "4"
       },
-      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\r\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\r\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.",
+      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.",
       "keywords": [
         "Chaos",
         "Heretic Astartes",
@@ -676,37 +665,37 @@
       ],
       "profiles": [
         {
-          "M": "6\"",
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "5",
-          "Pt": "8"
+          "N": "10",
+          "Pt": "7"
         },
         {
-          "M": "6\"",
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "10"
+        },
+        {
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "10",
-          "Pt": "16"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "24"
+          "N": "20",
+          "Pt": "13"
         }
       ],
       "options": [
@@ -794,10 +783,10 @@
         "M": "5\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
+        "A": "1",
         "W": "2",
         "Ld": "7",
-        "Sv": "6+",
+        "Sv": "4+",
         "N": "5",
         "Pt": "11"
       },
@@ -817,20 +806,9 @@
           "WS": "3+",
           "BS": "3+",
           "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "11"
-        },
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
           "W": "4",
           "Ld": "7",
-          "Sv": "6+",
+          "Sv": "4+",
           "N": "10",
           "Pt": "21"
         }
@@ -894,7 +872,7 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\r\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
+      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -925,12 +903,12 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "D3+1",
+        "A": "D3",
         "W": "2",
         "Ld": "6",
         "Sv": "5+",
         "N": "5",
-        "Pt": "10"
+        "Pt": "4"
       },
       "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.",
       "keywords": [
@@ -948,23 +926,34 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2D3+2",
+          "A": "2D3",
           "W": "4",
           "Ld": "6",
           "Sv": "5+",
           "N": "10",
-          "Pt": "20"
+          "Pt": "11"
         },
         {
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "3D3+3",
+          "A": "3D3",
           "W": "6",
           "Ld": "6",
           "Sv": "5+",
           "N": "15",
-          "Pt": "30"
+          "Pt": "16"
+        },
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4D3",
+          "W": "8",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "20",
+          "Pt": "21"
         }
       ],
       "weapons": [
@@ -983,15 +972,15 @@
       "type": "Elites",
       "name": "Plague Marines",
       "stats": {
-        "M": "6\"",
+        "M": "5\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "4"
       },
       "abilities": "Ignore Damage (6+)\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.",
       "keywords": [
@@ -1005,37 +994,37 @@
       ],
       "profiles": [
         {
-          "M": "6\"",
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "5",
+          "N": "10",
           "Pt": "7"
         },
         {
-          "M": "6\"",
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "10"
+        },
+        {
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "20"
+          "N": "20",
+          "Pt": "13"
         }
       ],
       "options": [
@@ -1090,12 +1079,12 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "4"
       },
       "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.",
       "keywords": [
@@ -1114,10 +1103,21 @@
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "5",
-          "Pt": "7"
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "12"
         },
         {
           "M": "6\"",
@@ -1125,21 +1125,10 @@
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "20"
+          "N": "20",
+          "Pt": "16"
         }
       ],
       "weapons": [
@@ -1166,15 +1155,15 @@
       "type": "Elites",
       "name": "Rubric Marines",
       "stats": {
-        "M": "6\"",
+        "M": "5\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
-        "Sv": "6+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "5+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "5"
       },
       "abilities": "For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).\nInstead of Inferno Boltguns, this unit can be equipped with Warpflamers.",
       "keywords": [
@@ -1189,37 +1178,37 @@
       ],
       "profiles": [
         {
-          "M": "6\"",
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "7"
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "10",
+          "Pt": "9"
         },
         {
-          "M": "6\"",
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "15",
+          "Pt": "13"
+        },
+        {
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "20"
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "20",
+          "Pt": "17"
         }
       ],
       "options": [
@@ -1327,7 +1316,7 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Terror Troops\r\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\r\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\r\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\r\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
+      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
       "keywords": [
         "Chaos",
         "<Mark of Chaos>",
@@ -1402,12 +1391,12 @@
         "M": "14\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
+        "A": "1",
+        "W": "1",
         "Ld": "6",
         "Sv": "5+",
         "N": "3",
-        "Pt": "10"
+        "Pt": "8"
       },
       "keywords": [
         "Chaos",
@@ -1423,12 +1412,23 @@
           "M": "14\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "6+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "5+",
           "N": "6",
-          "Pt": "18"
+          "Pt": "10"
+        },
+        {
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "9",
+          "Pt": "15"
         }
       ],
       "weapons": [
@@ -1464,7 +1464,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "5"
       },
       "abilities": "Deep Strike, Terror Troops",
       "keywords": [
@@ -1483,23 +1483,23 @@
           "M": "12\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "7",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
           "Sv": "6+",
           "N": "10",
-          "Pt": "20"
+          "Pt": "8"
         },
         {
           "M": "12\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
           "Sv": "6+",
           "N": "15",
-          "Pt": "25"
+          "Pt": "11"
         }
       ],
       "weapons": [
@@ -1529,7 +1529,7 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
+        "A": "1",
         "W": "1",
         "Ld": "6",
         "Sv": "5+",
@@ -2105,7 +2105,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "9+"
         }
       ]
@@ -2171,12 +2171,12 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "4"
       },
       "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.\nThis unit can also be equipped with 1 Blastmaster (Power Rating +1).\nIf the unit contains 10 or more models, it can also be equipped with 1 Blastmaster (Power Rating +1).",
       "keywords": [
@@ -2195,10 +2195,21 @@
           "BS": "3+",
           "A": "2",
           "W": "2",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "5",
-          "Pt": "7"
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "15",
+          "Pt": "12"
         },
         {
           "M": "6\"",
@@ -2206,21 +2217,10 @@
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "20"
+          "N": "20",
+          "Pt": "16"
         }
       ],
       "options": [
@@ -2313,7 +2313,7 @@
       "type": "Air",
       "name": "Helldrake",
       "stats": {
-        "M": "30\"",
+        "M": "6\"-20\"",
         "WS": "3+",
         "BS": "4+",
         "A": "2",
@@ -2387,7 +2387,7 @@
         "N": "1",
         "Pt": "14"
       },
-      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\r\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\r\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\r\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\r\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.\nLord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).\nGreat Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.\nKeeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.",
+      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.\nLord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).\nGreat Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.\nKeeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.",
       "keywords": [
         "Chaos",
         "Daemon",

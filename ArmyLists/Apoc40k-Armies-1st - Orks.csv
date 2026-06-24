@@ -1,13 +1,12 @@
 No,Type,Name,M,WS,BS,A,W,Ld,Sv,N,Pt,Weapon,Type,Rng,A,SAP,SAT,Abilties,Keywords,Options
 ,,,,,,,,,,,,,,,,,,,,
-1,HQ,Gazzghull Thraka,"5""",2+,5+,3,2,6,3+,1,10,,,,,,,"Great Waaagh!: Add 1 to the Attacks characteristic of other friendly Ork Light units whilst they are making Fight actions whilst within 6"" of this unit.
+1,HQ,Gazzghkull Thraka,"5""",2+,5+,2,2,6,3+,1,10,,,,,,,"Great Waaagh!: Add 1 to the Attacks characteristic of friendly Orks Light units whilst they are making Fight actions whilst within 6"" of this unit.
 Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Goff units whilst they are within 6"" of this unit.","Orks, Goff
-Light, Infantry, Character, Mega Armour, Warboss, Ghazghkull Thraka",
+Heavy, Infantry, Character, Mega Armour, Warboss, Ghazghkull Thraka",
 1,,,,,,,,,,,,,,,,,,Ghazghkull Thraka is a unit that contains 1 model. It is equipped with: Kustom Klaw; Twin Big Shoota. You can only include one of this unit in your army.,,
-1,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",User,7+,9+,,,
+1,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
 1,,,,,,,,,,,,Kustom Klaw,Melee,Melee,User,5+,5+,,,
-2,HQ,Warboss,"5""",2+,5+,2,1,6,8+,1,3,,,,,,,"Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6"" of this unit.
-Ignore Damage (+6)","Orks, <Clan>
+2,HQ,Warboss,"5""",2+,5+,2,1,6,8+,1,3,,,,,,,"Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6"" of this unit.","Orks, <Clan>
 Light, Infantry, Character, Warboss",
 2,,,,,,,,,,,,,,,,,,A Warboss is a unit that contains 1 model. It is equipped with: Boss Weapons.,,
 2,,,,,,,,,,,,Boss Weapons,Melee,Melee,User,6+,6+,,,
@@ -22,30 +21,30 @@ Light, Infantry, Character, Big Mek",per Unit: This unit can have Mega Armour.; 
 3,,,,,,,,,,,,,,,,,,- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force Field (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field.,,
 3,,,,,,,,,,,,Shokk Attack Gun,Heavy,"60""",2,6+,6+,Destroyer,,
 3,,,,,,,,,,,,Tellyport Blasta,Heavy,"12""",1,9+,9+,Destroyer,,
-3,,,,,,,,,,,,Mek Mega Weapons,Melee,Melee,User,7+,7+,,,
-3,,,,,,,,,,,,Mek Weapons,Melee,Melee,User,8+,8+,,,
-4,HQ,Weirdboy,"5""",3+,5+,1,1,4,9+,1,2,,,,,,,"Waaagh! Energy: At the start of the Action phase, if this unit is within 6"" of three or more friendly <Clan> units that each contain at least 10 models, you can turn over the top 3 cards of your Command Asset deck. If you reveal any Command Asset cards that are psychic powers, you can select one of those psychic powers and put in into your hand. Then put the remaining cards back in your Command Asset deck and shuffle the deck.","Orks, <Clan>
+3,,,,,,,,,,,,Mek Mega Weapons,Melee,Melee,User,8+,8+,,,
+3,,,,,,,,,,,,Mek Weapons,Melee,Melee,User,9+,9+,,,
+4,HQ,Weirdboy,"5""",3+,5+,1,1,4,10+,1,2,,,,,,,"Waaagh! Energy: At the start of the Action phase, if this unit is within 6"" of three or more friendly <Clan> units that each contain at least 10 models, you can turn over the top 3 cards of your Command Asset deck. If you reveal any Command Asset cards that are psychic powers, you can select one of those psychic powers and put in into your hand. Then put the remaining cards back in your Command Asset deck and shuffle the deck.","Orks, <Clan>
 Light, Infantry, Psyker, Character, Weirdboy",
 4,,,,,,,,,,,,,,,,,,A Weirdboy is a unit that contains 1 model. It is equipped with: Weirdboy Staff.,,
-4,,,,,,,,,,,,Weirdboy Staff,Melee,Melee,User,7+,9+,,,
+4,,,,,,,,,,,,Weirdboy Staff,Melee,Melee,User,9+,9+,,,
 5,HQ,Deffkilla Wartrike,"14""",2+,5+,2,2,5,8+,1,6,,,,,,,"Speedwaaagh!: If a <Clan> Speed Freeks unit starts a Move action within 6"" of any friendly units with this ability, add 3"" to that unit's Move characteristic whilst making that Move action.","Orks, <Clan>
 Heavy, Vehicle, Character, Speed Freeks, Speedboss, Deffkilla Wartrike",
 5,,,,,,,,,,,,,,,,,,A Deffkilla Wartrike is a unit that contains 1 model. It is equipped with: Killa Jet; Snagga Klaw.,,
 5,,,,,,,,,,,,Killa Jet,Heavy,"8""",1,6+,9+,Inferno,,
-5,,,,,,,,,,,,Snagga Klaw,Melee,Melee,User,7+,7+,,,
-6,Troops,Boyz,"5""",3+,5+,2,2,5,9+,10,5,,,,,,,,"Orks, <Clan>
-Light, Infantry, Boyz",per 20 models (Power Rating 10): It can contain 20 models (Power Rating 10); per 30 models (Power Rating 15): 30 models (Power Rating 15)
-6,,,"5""",3+,5+,4,4,5,9+,20,10,,,,,,,,,
-6,,,"5""",3+,5+,6,6,5,9+,30,15,,,,,,,,,
-6,,,,,,,,,,,,,,,,,,Boyz are a unit that contains 10 models. It can contain 20 models (Power Rating 10) or 30 models (Power Rating 15). It is equipped with: Sluggas; Choppas.,,
-6,,,,,,,,,,,,,,,,,,,,
+5,,,,,,,,,,,,Snagga Klaw,Melee,Melee,User,8+,8+,,,
+6,Troops,Boyz,"5""",3+,5+,1,2,5,10+,10,4,,,,,,,,"Orks, <Clan>
+Light, Infantry, Boyz","per 20 models (Power Rating 8): It can contain 20 models (Power Rating 8); per 30 models (Power Rating 13): 30 models (Power Rating 13); per Unit (Power Rating +1): Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).; per 10 models: For every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha."
+6,,,"5""",3+,5+,2,4,6,10+,20,8,,,,,,,,,
+6,,,"5""",3+,5+,4,6,7,10+,30,13,,,,,,,,,
+6,,,,,,,,,,,,,,,,,,Boyz are a unit that contains 10 models. It can contain 20 models (Power Rating 8) or 30 models (Power Rating 13). It is equipped with: Sluggas; Choppas.,,
+6,,,,,,,,,,,,,,,,,,"Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).",,
 6,,,,,,,,,,,,,,,,,,"For every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha.",,
 6,,,,,,,,,,,,Big Shoota,Heavy,"36""",1,7+,9+,,,
 6,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
-6,,,,,,,,,,,,Shootas,Small Arms,"18""",x2,7+,9+,,,
+6,,,,,,,,,,,,Shootas,Small Arms,"18""",x4,7+,9+,,,
 6,,,,,,,,,,,,Sluggas,Small Arms,"12""",x2,7+,9+,,,
-6,,,,,,,,,,,,Choppas,Melee,Melee,x2,7+,9+,,,
-6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+6,,,,,,,,,,,,Choppas,Melee,Melee,x3,7+,9+,,,
+6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
 7,Troops,Gretchin,"5""",5+,4+,1,1,4,11+,10,1,,,,,,,,"Orks, <Clan>
 Light, Infantry, Gretchin",per 20 models (Power Rating 2): It can contain 20 models (Power Rating 2); per 30 models (Power Rating 3): 30 models (Power Rating 3); per Unit (Power Rating +1): This unit can include a Runtherd (Power Rating +1)
 7,,,"5""",5+,4+,2,2,4,11+,20,2,,,,,,,,,
@@ -53,23 +52,23 @@ Light, Infantry, Gretchin",per 20 models (Power Rating 2): It can contain 20 mod
 7,,,,,,,,,,,,,,,,,,Gretchin are a unit that contains 10 models. It can contain 20 models (Power Rating 2) or 30 models (Power Rating 3). It is equipped with: Grot Blastas; Close Combat Weapons.,,
 7,,,,,,,,,,,,,,,,,,"This unit can include a Runtherd (Power Rating +1). If this unit includes a Runtherd, it has a Leadership characteristic of 6.",,
 7,,,,,,,,,,,,Grot Blasta,Small Arms,"12""",User,8+,10+,,,
-7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,,,
+7,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,11+,,,
 8,Elites,Painboy,"5""",3+,5+,1,1,4,10+,1,2,,,,,,,"Sawbonez: At the end of the Action phase, this unit can attempt to heal one friendly <Clan> Light unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.","Orks, <Clan>
 Light, Infantry, Character, Painboy",
 8,,,,,,,,,,,,,,,,,,A Painboy is a unit that contains 1 model. It is equipped with: Dok's Tools.,,
-8,,,,,,,,,,,,Doks Tools,Melee,Melee,User,8+,9+,,,
+8,,,,,,,,,,,,Doks Tools,Melee,Melee,User,9+,9+,,,
 9,Elites,Mek,"5""",3+,5+,1,1,4,10+,1,2,,,,,,,"Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Orks, <Clan>
 Light, Infantry, Character, Mek",
 9,,,,,,,,,,,,,,,,,,A Mek is a unit that contains 1 model. It is equipped with: Mek's Tools.,,
-9,,,,,,,,,,,,Meks Tools,Melee,Melee,User,9+,8+,,,
-10,Elites,Burna Boyz,"5""",3+,5+,1,1,4,9+,5,3,,,,,,,,"Orks, <Clan>
+9,,,,,,,,,,,,Meks Tools,Melee,Melee,User,9+,9+,,,
+10,Elites,Burna Boyz,"5""",3+,5+,1,1,4,10+,5,3,,,,,,,,"Orks, <Clan>
 Light, Infantry, Burna Boyz",per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6); per 15 models (Power Rating 9): 15 models (Power Rating 9)
 10,,,"5""",3+,5+,2,2,5,10+,10,6,,,,,,,,,
 10,,,"5""",3+,5+,3,3,6,10+,15,9,,,,,,,,,
 10,,,,,,,,,,,,,,,,,,"Burna Boyz are a unit that contains 5 models. It can contain 10 models (Power Rating 6), or 15 models (Power Rating 9). It is equipped with: Burnas (Ranged); Burnas (Melee).",,
 10,,,,,,,,,,,,Burna (Ranged),Small Arms,"8""",x3,7+,9+,Inferno,,
 10,,,,,,,,,,,,Burna (Melee),Melee,Melee,x2,7+,9+,,,
-11,Elites,Tankbustaz,"5""",3+,5+,1,1,5,9+,5,4,,,,,,,"Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18"" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.
+11,Elites,Tankbustaz,"5""",3+,5+,1,1,5,10+,5,4,,,,,,,"Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18"" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.
 Tank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.","Orks, <Clan>
 Light, Infantry, Tankbustas",per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8); per 15 models (Power Rating 12): 15 models (Power Rating 12)
 11,,,"5""",3+,5+,2,2,6,10+,10,8,,,,,,,,,
@@ -77,24 +76,24 @@ Light, Infantry, Tankbustas",per 10 models (Power Rating 8): It can contain 10 m
 11,,,,,,,,,,,,,,,,,,Tankbustas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Tankbusta Rokkit Launchas; Tankbusta Weapons.,,
 11,,,,,,,,,,,,Tankbusta Rokkit Launchas,Small Arms,"24""",x2,7+,7+,,,
 11,,,,,,,,,,,,Tankbusta Weapons,Melee,Melee,x2,7+,7+,,,
-12,Elites,Nobz,"5""",3+,5+,3,2,5,7+,5,6,,,,,,,,"Orks, <Clan>
+12,Elites,Nobz,"5""",3+,5+,1,2,5,8+,5,6,,,,,,,,"Orks, <Clan>
 Light, Infantry, Nobz",per 10 models (Power Rating 12): It can contain 10 models (Power Rating 12)
-12,,,"5""",3+,5+,6,4,6,7+,10,12,,,,,,,,,
+12,,,"5""",3+,5+,2,4,6,8+,10,12,,,,,,,,,
 12,,,,,,,,,,,,,,,,,,Nobz are a unit that contains 5 models. It can contain 10 models (Power Rating 12). It is equipped with: Sluggas; Nob Choppas.,,
-12,,,,,,,,,,,,Sluggas,Small Arms,"12""",User,7+,9+,,,
-12,,,,,,,,,,,,Nob Choppas,Melee,Melee,User,6+,6+,,,
-13,Elites,Nobz w Waaagh! Banner,"5""",3+,5+,1,1,4,9+,1,3,,,,,,,"Waaagh! Banner: Add 1 to hit rolls for attacks made with melee weapons by <Clan> units whilst they are within 6"" of any friendly <Clan> units with this ability.","Orks, <Clan>
+12,,,,,,,,,,,,Sluggas,Small Arms,"12""",x2,7+,9+,,,
+12,,,,,,,,,,,,Nob Choppas,Melee,Melee,x3,6+,6+,,,
+13,Elites,Nobz w Waaagh! Banner,"5""",3+,5+,1,1,4,8+,1,3,,,,,,,"Waaagh! Banner: Add 1 to hit rolls for attacks made with melee weapons by <Clan> units whilst they are within 6"" of any friendly <Clan> units with this ability.","Orks, <Clan>
 Light, Infantry, Character, Nob",
 13,,,,,,,,,,,,,,,,,,A Nob with Waaagh! Banner is a unit that contains 1 model. It is equipped with: Waaagh! Banner.,,
 13,,,,,,,,,,,,Waaagh! Banner,Melee,Melee,User,8+,8+,,,
-14,Elites,Meganobz,"4""",3+,5+,2,2,5,4+,3,6,,,,,,,,"Orks, <Clan>
+14,Elites,Meganobz,"4""",3+,5+,1,2,5,4+,3,6,,,,,,,,"Orks, <Clan>
 Light, Infantry, Mega Armour, Nobz, Meganobz",per 6 models (Power Rating 12): It can contain 6 models (Power Rating 12); per 9 models (Power Rating 18): 9 models (Power Rating 18)
-14,,,"4""",3+,5+,4,4,6,4+,6,12,,,,,,,,,
-14,,,"4""",3+,5+,6,6,7,4+,9,18,,,,,,,,,
+14,,,"4""",3+,5+,2,4,6,4+,6,12,,,,,,,,,
+14,,,"4""",3+,5+,3,6,7,4+,9,18,,,,,,,,,
 14,,,,,,,,,,,,,,,,,,Meganobz are a unit that contains 3 models. It can contain 6 models (Power Rating 12) or 9 models (Power Rating 18). It is equipped with: Meganob Shootas; Meganob Melee Weapons.,,
-14,,,,,,,,,,,,Meganob Shootas,Small Arms,"18""",x2,7+,9+,,,
-14,,,,,,,,,,,,Meganob Melee Weapons,Melee,Melee,User,6+,6+,,,
-15,Elites,Kommandos,"6""",3+,5+,1,1,5,9+,5,3,,,,,,,Deep Strike,"Orks, <Clan>
+14,,,,,,,,,,,,Meganob Shootas,Small Arms,"18""",x3,7+,9+,,,
+14,,,,,,,,,,,,Meganob Melee Weapons,Melee,Melee,x2,6+,6+,,,
+15,Elites,Kommandos,"6""",3+,5+,1,1,5,10+,5,3,,,,,,,Deep Strike,"Orks, <Clan>
 Light, Infantry, Kommandos",per 10 models (Power Rating 5): It can contain 10 models (Power Rating 5); per 15 models (Power Rating 7): 15 models (Power Rating 7); per Unit (Power Rating +1 per Kommando Burna): This unit can also be equipped with up to two of the following (Power Rating +1 per Kommando Burna): 1 Big Shoota; 1 Kommando Burna; 1 Rokkit Launcha.
 15,,,"6""",3+,5+,2,2,6,10+,10,5,,,,,,,,,
 15,,,"6""",3+,5+,3,3,7,10+,15,7,,,,,,,,,
@@ -105,13 +104,13 @@ Light, Infantry, Kommandos",per 10 models (Power Rating 5): It can contain 10 mo
 15,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
 15,,,,,,,,,,,,Kommando Sluggas,Small Arms,"12""",User,7+,9+,,,
 15,,,,,,,,,,,,Kommando Choppas,Melee,Melee,User,7+,9+,,,
-16,Fast,Nobz On Bikes,"14""",3+,5+,2,2,5,8+,3,7,,,,,,,,"Orks, <Clan>
+16,Fast,Nobz On Bikes,"14""",3+,5+,1,2,5,8+,3,7,,,,,,,,"Orks, <Clan>
 Light, Biker, Speed Freeks, Nobz",per 6 models (Power Rating 14): It can contain 6 models (Power Rating 14); per 9 models (Power Rating 21): 9 models (Power Rating 21)
-16,,,"14""",3+,5+,4,4,5,8+,6,14,,,,,,,,,
-16,,,"14""",3+,5+,6,6,5,8+,9,21,,,,,,,,,
+16,,,"14""",3+,5+,2,4,6,8+,6,14,,,,,,,,,
+16,,,"14""",3+,5+,3,6,7,8+,9,21,,,,,,,,,
 16,,,,,,,,,,,,,,,,,,Nobz on Warbikes are a unit that contains 3 models. It can contain 6 models (Power Rating 14) or 9 models (Power Rating 21). It is equipped with: Dakkaguns; Nob Choppas.,,
 16,,,,,,,,,,,,Dakka Guns,Small Arms,"18""",x3,7+,9+,,,
-16,,,,,,,,,,,,Nob Choppas,Melee,Melee,User,6+,6+,,,
+16,,,,,,,,,,,,Nob Choppas,Melee,Melee,x2,6+,6+,,,
 17,Fast,Warbikers,"14""",3+,5+,1,1,5,7+,3,4,,,,,,,,"Orks, <Clan>
 Light, Biker, Speed Freeks, Warbikers","per 9 models (Power Rating 8): It can contain 6 models (Power Rating 8), 9 models (Power Rating 12); per 9 models (Power Rating 12): It can contain 6 models (Power Rating 8), 9 models (Power Rating 12); per 2 models (Power Rating 16): 12 models (Power Rating 16)"
 17,,,"14""",3+,5+,2,2,6,7+,6,8,,,,,,,,,
@@ -128,7 +127,7 @@ Heavy, Vehicle, Speed Freeks, Kustom Boosta-blastas",per 2 models (Power Rating 
 18,,,,,,,,,,,,Burna Exhaust,Heavy,"8""",User,7+,9+,Inferno,,
 18,,,,,,,,,,,,Rivet Kannons,Heavy,"36""",x2,6+,7+,,,
 18,,,,,,,,,,,,Spiked Rams,Melee,Melee,User,10+,10+,,,
-19,Fast,Stormboyz,"14""",3+,5+,1,1,5,9+,5,4,,,,,,,Deep Strike,"Orks, <Clan>
+19,Fast,Stormboyz,"14""",3+,5+,1,1,5,10+,5,4,,,,,,,Deep Strike,"Orks, <Clan>
 Light, Infantry, Fly, Jump Pack, Stormboyz","per 20 models (Power Rating 7): It can contain 10 models (Power Rating 7), 20 models (Power Rating 13); per 20 models (Power Rating 13): It can contain 10 models (Power Rating 7), 20 models (Power Rating 13); per 30 models (Power Rating 19): 30 models (Power Rating 19)"
 19,,,"14""",3+,5+,2,2,5,10+,10,7,,,,,,,,,
 19,,,"14""",3+,5+,4,4,6,10+,20,13,,,,,,,,,
@@ -195,19 +194,38 @@ Heavy, Vehicle, Deff Dread","per Unit: Instead of 1 Dread Klaw, this unit can be
 24,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,10+,11+,,,
 24,,,,,,,,,,,,Dread Klaws,Melee,Melee,User,6+,8+,,,
 24,,,,,,,,,,,,Dread Saw,Melee,Melee,User,8+,6+,,,
-25,Heavy,Lootas,"5""",3+,5+,1,1,4,9+,5,4,,,,,,,,"Orks, <Clan>
+25,Heavy,Lootas,"5""",3+,5+,1,1,4,10+,5,4,,,,,,,,"Orks, <Clan>
 Light, Infantry, Lootas",per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8); per 15 models (Power Rating 12): 15 models (Power Rating 12)
 25,,,"5""",3+,5+,2,2,5,10+,10,8,,,,,,,,,
 25,,,"5""",3+,5+,3,3,6,10+,15,12,,,,,,,,,
 25,,,,,,,,,,,,,,,,,,Lootas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Deffguns; Close Combat Weapons.,,
 25,,,,,,,,,,,,Deffguns,Small Arms,"48""",x4,7+,7+,,,
 25,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,7+,9+,,,
-26,Heavy,Flash Gits,"5""",3+,4+,2,2,4,7+,5,8,,,,,,,,"Orks, Freebooterz
+26,Heavy,Flash Gits,"5""",3+,4+,2,2,4,8+,5,8,,,,,,,,"Orks, Freebooterz
 Light, Infantry, Flash Gitz",per 10 models (Power Rating 16): It can contain 10 models (Power Rating 16)
 26,,,"5""",3+,4+,4,4,5,8+,10,16,,,,,,,,,
 26,,,,,,,,,,,,,,,,,,Flash Gitz are a unit that contains 5 models. It can contain 10 models (Power Rating 16). It is equipped with: Snazzguns; Close Combat Weapons.,,
 26,,,,,,,,,,,,Snazzguns,Small Arms,"24""",x3,6+,8+,,,
 26,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+27,Lord,Morkanaut,"8""",3+,5+,1,4,5,6+,1,15,,,,,,,"Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9"" of any friendly <Clan> units with a Kustom Force Field.","Orks, <Clan>
+Super-heavy, Vehicle, Transport, Morkanaut",per Unit: This unit can have a Kustom Force Field.
+27,,,,,,,,,,,,,,,,,,A Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).,,
+27,,,,,,,,,,,,,,,,,,"This unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.",,
+27,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
+27,,,,,,,,,,,,Kustom Mega-blasta,Heavy,"24""",1,9+,5+,Supercharge,,
+27,,,,,,,,,,,,Kustom Mega-zappa,Heavy,"36""",3,9+,5+,Supercharge,,
+27,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
+27,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
+27,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
+28,Lord,Gorkanaut,"8""",3+,5+,2,4,5,6+,1,15,,,,,,,,"Orks, <Clan>
+Super-heavy, Vehicle, Transport, Gorkanaut",
+28,,,,,,,,,,,,,,,,,,A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).,,
+28,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
+28,,,,,,,,,,,,Deffstorm Mega-shoota,Heavy,"36""",8,6+,8+,,,
+28,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
+28,,,,,,,,,,,,Skorcha,Heavy,"8""",1,7+,9+,Inferno,,
+28,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
+28,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
 29,Transport,Trukk,"12""",5+,5+,1,2,4,8+,1,4,,,,,,,"Open-topped, Ignore Damage (6+)","Orks, <Clan>
 Heavy, Vehicle, Transport, Trukk",
 29,,,,,,,,,,,,,,,,,,A Trukk is a unit that contains 1 model. It is equipped with: Big Shoota; Trukk Weapons.,,
@@ -230,26 +248,7 @@ Heavy, Vehicle, Fly, Aircraft, Burna-Bommer",per Unit (Power Rating +1): This un
 31,,,,,,,,,,,,Supa-shoota,Heavy,"36""",1,6+,8+,,,
 31,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
 31,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
-27,Lord,Morkanaut,"8""",3+,5+,1,4,5,6+,1,15,,,,,,,"Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9"" of any friendly <Clan> units with a Kustom Force Field.","Orks, <Clan>
-Super-heavy, Vehicle, Transport, Morkanaut",per Unit: This unit can have a Kustom Force Field.
-27,,,,,,,,,,,,,,,,,,A Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).,,
-27,,,,,,,,,,,,,,,,,,"This unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.",,
-27,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
-27,,,,,,,,,,,,Kustom Mega-blasta,Heavy,"24""",1,9+,5+,Supercharge,,
-27,,,,,,,,,,,,Kustom Mega-zappa,Heavy,"36""",3,9+,5+,Supercharge,,
-27,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
-27,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
-27,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
-28,Lord,Gorkanaut,"8""",3+,5+,2,4,5,6+,1,15,,,,,,,,"Orks, <Clan>
-Super-heavy, Vehicle, Transport, Gorkanaut",
-28,,,,,,,,,,,,,,,,,,A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).,,
-28,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
-28,,,,,,,,,,,,Deffstorm Mega-shoota,Heavy,"36""",8,6+,8+,,,
-28,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
-28,,,,,,,,,,,,Skorcha,Heavy,"8""",1,7+,9+,Inferno,,
-28,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
-28,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
-32,Lord,Stompa,"12""",3+,5+,4,8,6,6+,1,40,,,,,,,"Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6"" of this unit.
+32,Lord,Stompa,"12""",3+,5+,2,8,6,6+,1,49,,,,,,,"Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6"" of this unit.
 Stompa Rigger Crew: At the end of the Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 4+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.","Orks, <Clan>
 Super-heavy, Vehicle, Titanic, Transport, Stompa",per Unit (Power Rating +2): This unit can also be equipped with 2 Supa-rokkits (Power Rating +2).
 32,,,,,,,,,,,,,,,,,,A Stompa is a unit that contains 1 model. It is equipped with: Deffkannon; Supa-gatler; 3 Big Shootas; 3 Supa-rokkits; Skorcha; Mega-choppa.,,
@@ -260,5 +259,4 @@ Super-heavy, Vehicle, Titanic, Transport, Stompa",per Unit (Power Rating +2): Th
 32,,,,,,,,,,,,Skorcha,Heavy,"8""",1,7+,9+,Inferno,,
 32,,,,,,,,,,,,Supa-gatler,Heavy,"48""",12,6+,8+,,,
 32,,,,,,,,,,,,Supa-rokkit,Heavy,"100""",2,7+,4+,One Use Only,,
-32,,,,,,,,,,,,Mega-choppa,Melee,Melee,User,4+,3+,Destroyer,,
-32,,,,,,,,,,,,Stomp,Melee,Melee,User,7+,9+,,,
+32,,,,,,,,,,,,Mega-choppa,Melee,Melee,x2,4+,3+,Destroyer,,

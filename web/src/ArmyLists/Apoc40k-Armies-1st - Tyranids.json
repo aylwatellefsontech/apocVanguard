@@ -384,7 +384,7 @@
         "N": "10",
         "Pt": "2"
       },
-      "abilities": "Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.\nHormagaunts are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Scything Talons.",
+      "abilities": "Hungering Swarm: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.\nHormagaunts are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Scything Talons.",
       "keywords": [
         "Tyranids",
         "Tyranid Hive Fleets",
@@ -403,7 +403,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "20",
-          "Pt": "5"
+          "Pt": "4"
         },
         {
           "M": "9\"",
@@ -434,8 +434,8 @@
           "name": "Scything Talons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
+          "attacks": "x2",
+          "skill": "7+",
           "armorPen": "9+"
         }
       ]

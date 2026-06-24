@@ -6,10 +6,10 @@ from generate_all_faction_lists import slot, u
 # ---------------------------------------------------------------------------
 
 ORKS = {
-    "Gazzghull Thraka": u(
-        "Gazzghull Thraka",
+    "Gazzghkull Thraka": u(
+        "Gazzghkull Thraka",
         {"M": '5"', "WS": "2+", "BS": "5+", "A": "2", "W": "2", "Ld": "6", "Sv": "3+", "N": "1", "Pt": "10"},
-        ["Orks", "Goff", "Light", "Infantry", "Character", "Mega Armour", "Warboss", "Ghazghkull Thraka"],
+        ["Orks", "Goff", "Heavy", "Infantry", "Character", "Mega Armour", "Warboss", "Ghazghkull Thraka"],
         [
             {"name": "Twin Big Shoota", "type": "Heavy", "range": '36"', "attacks": "2", "skill": "7+", "armorPen": "9+"},
             {"name": "Kustom Klaw", "type": "Melee", "range": "Melee", "attacks": "User", "skill": "5+", "armorPen": "5+"},
@@ -536,7 +536,7 @@ ORKS = {
 }
 
 ORKS_SLOTS = [
-    slot(1, "HQ", ORKS["Gazzghull Thraka"]),
+    slot(1, "HQ", ORKS["Gazzghkull Thraka"]),
     slot(2, "HQ", ORKS["Warboss"]),
     slot(3, "HQ", ORKS["Big Mek"]),
     slot(4, "HQ", ORKS["Weirdboy"]),

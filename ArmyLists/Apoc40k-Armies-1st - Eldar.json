@@ -43,7 +43,8 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "8+"
+          "armorPen": "8+",
+          "abilities": "Witchfire"
         }
       ]
     },
@@ -106,14 +107,14 @@
         "M": "7\"",
         "WS": "2+",
         "BS": "2+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "7",
         "Sv": "4+",
         "N": "1",
-        "Pt": "8"
+        "Pt": "9"
       },
-      "abilities": "You can only include one Phoenix Lord in your army. Use the datasheet for the chosen Phoenix Lord.\nAsurmen - Hand of Asuryan: Add 1 to saving throws made for friendly Aspect Warrior units whilst they are within 6\" of this unit. Add a further 1 to saving throws made for friendly Dire Avengers units whilst they are within 6\" of this unit. This cannot improve a saving throw roll beyond 4+. Bladestorm: Re-roll hit rolls of 1 for attacks made by this unit and friendly Dire Avengers units whilst they are within 6\" of this unit.\nBaharroth - Deep Strike, Brilliant Sun, Blazing Fury, Skyleap (M 14\", Fly, Jump Pack, Pt 9).\nFuegan - Ignore Damage (6+), Assured Destruction, Unflinching Focus (Pt 7).\nJain Zar - Terror Troops, Cry of War Unending, Banshee Mask (M 12\", Pt 8).\nKarandras - Deep Strike, Infiltrators, The Shadow Hunter, Shadow Strike, Death by a Thousand Stings (Pt 9).\nMaugan Ra - The Harvester, Inescapable Death, Legacy of Altansar (M 6\", Pt 8).",
+      "abilities": "You can only include one Phoenix Lord in your army.\nLord of <Aspect>: <Aspect> units within 6\" of this unit and this unit re-roll failed attacks.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -126,25 +127,65 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Select one Phoenix Lord. Each has unique Move, abilities and wargear as listed in the Abilities column."
+          "text": "Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. Hand of Asuryan. Improve saving throws of Aspect Warriors within 6\" by 1. Lord of <Dire Avengers>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Baharoth - equipped with Hawks Talon and Shining Blade. Deep strike. Harrier. Brilliant sun. Add 1 to leadership to aspect warriors within 6\". Lord of <Swooping Hawks>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Feugan - equipped with Fire Pike and Fire Axe. Ignore Damage (6+). Assured Destruction. Fire Dragons within 6\" of this unit and this unit re-roll wound rolls of 1 against Heavy or Super-heavy units. Lord of <Fire Dragons>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Karandras - equipped with Lord Weapon and Scorpion's Bite. Deep strike. Infiltrators. A thousand stings: for each attack against a Light non-character unit, add 1 A. Lord of <Striking Scorpions>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Jain Zar - equipped with Lord Ranged Weapon and Blade of Destruction. Terror Troops. Cry of War: enemy units within 2\" of this unit subtract 1 from hit rolls with melee weapons. Lord of <Howling Banshees>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Maugan Ra - equipped with Maugetar. Legacy of Altansar: this unit and Dark Reapers within 6\" reroll wound rolls of 1 against Chaos units. Lord of <Dark Reapers>."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Lhykhis - equipped with Lord Weapon and Weaveender. Deep strike. Infiltrators. Perfect Warp Jump: instead of a Move action, this unit can perform a warp jump and set up anywhere more than 9\" from enemy units. Whispering Web: Warp Spiders within 6\" of this unit gain Perfect Warp Jump and Infiltrators. Lord of <Warp Spiders>."
         }
       ],
       "weapons": [
+        {
+          "name": "Lord Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Lord Ranged Weapon",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
         {
           "name": "Avenger Shuriken Catapults",
           "type": "Small Arms",
           "range": "18\"",
           "attacks": "User",
-          "skill": "9+",
-          "armorPen": "10+"
+          "skill": "7+",
+          "armorPen": "8+"
         },
         {
-          "name": "The Sword of Asur",
+          "name": "Sword of Asur",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
           "skill": "6+",
-          "armorPen": "9+"
+          "armorPen": "8+"
         },
         {
           "name": "Hawk's Talon",
@@ -155,7 +196,7 @@
           "armorPen": "10+"
         },
         {
-          "name": "The Shining Blade",
+          "name": "Shining Blade",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
@@ -163,15 +204,16 @@
           "armorPen": "8+"
         },
         {
-          "name": "Firepike",
+          "name": "Fire Pike",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "6\"",
           "attacks": "1",
-          "skill": "10+",
-          "armorPen": "4+"
+          "skill": "11+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
         },
         {
-          "name": "The Fire Axe",
+          "name": "Fire Axe",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
@@ -179,51 +221,45 @@
           "armorPen": "4+"
         },
         {
-          "name": "Silent Death",
-          "type": "Heavy",
-          "range": "12\"",
+          "name": "Blade of Destruction",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Scorpion's Bite",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "1",
+          "skill": "4+",
+          "armorPen": "10+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Maugetar (Melee)",
+          "type": "Melee",
+          "range": "Melee",
           "attacks": "1",
           "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "The Blade of Destruction",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "The Scorpion's Bite",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Scorpion's Claw",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "The Maugetar (Ranged)",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
-          "skill": "6+",
           "armorPen": "9+"
         },
         {
-          "name": "The Maugetar (Melee)",
-          "type": "Melee",
-          "range": "Melee",
+          "name": "Maugetar (Ranged)",
+          "type": "Small Arms",
+          "range": "36\"",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "6+",
+          "armorPen": "8+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Weaveender",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "6+",
           "armorPen": "8+"
         }
       ]
@@ -310,7 +346,8 @@
           "range": "Melee",
           "attacks": "x2",
           "skill": "10+",
-          "armorPen": "11+"
+          "armorPen": "11+",
+          "abilities": "Witchfire"
         }
       ]
     },
@@ -1193,7 +1230,7 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Deep Strike\nSkyleap: When this unit makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.",
+      "abilities": "Deep Strike\nHarrier",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1221,7 +1258,7 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Deep Strike Skyleap: When this unit makes a Move action, it can skyleap instead of moving."
+          "text": "Deep Strike"
         }
       ],
       "weapons": [
@@ -2174,12 +2211,12 @@
         "M": "7\"",
         "WS": "2+",
         "BS": "2+",
-        "A": "2",
-        "W": "2",
+        "A": "4",
+        "W": "3",
         "Ld": "7",
         "Sv": "5+",
         "N": "1",
-        "Pt": "10"
+        "Pt": "16"
       },
       "abilities": "Ignore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
       "keywords": [

@@ -88,7 +88,7 @@
       "facNm": 9,
       "name": "Medical Suppies",
       "type": "Apoc",
-      "subType": "Base",
+      "subType": "Extra",
       "ability": "Use at the start of the Action phase. Remove d3 damage markers from a light unit.",
       "removed": true
     },
@@ -99,7 +99,7 @@
       "facNm": 10,
       "name": "Aim True",
       "type": "Apoc",
-      "subType": "Base",
+      "subType": "Extra",
       "ability": "Reroll the dice for a single Hit Roll.",
       "removed": true
     },

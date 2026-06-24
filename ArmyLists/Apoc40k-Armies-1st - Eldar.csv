@@ -7,7 +7,7 @@ Light, Infantry, Psyker, Character, Farseer",
 - Has a Save characteristic of 5+.
 - Has the following additional keywords: Biker, Fly, Farseer Skyrunner.
 - Loses the following keywords: Infantry.",,,
-1,,,,,,,,,,,,Witchblade,Melee,Melee,User,8+,8+,,,
+1,,,,,,,,,,,,Witchblade,Melee,Melee,User,8+,8+,Witchfire,,
 2,HQ,Autarch,"7""",2+,2+,1,1,7,5+,1,5,,,,,,,"Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.
 Skyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9"" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.
 Warp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9"" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.","Aeldari, Asuryani, Warhost, <Craftworld>
@@ -25,27 +25,22 @@ Light, Infantry, Character, Autarch","per Unit: Path of Command: If this unit is
   - Has the following additional abilities: Deep Strike, Skyleap.
   - Has the following additional keywords: Jump Pack, Fly.",,,
 2,,,,,,,,,,,,Autarch Weapons,Melee,Melee,User,8+,8+,,,
-3,HQ,Phoenix Lord,"7""",2+,2+,1,1,7,4+,1,8,,,,,,,"You can only include one Phoenix Lord in your army. Use the datasheet for the chosen Phoenix Lord.
-Asurmen - Hand of Asuryan: Add 1 to saving throws made for friendly Aspect Warrior units whilst they are within 6"" of this unit. Add a further 1 to saving throws made for friendly Dire Avengers units whilst they are within 6"" of this unit. This cannot improve a saving throw roll beyond 4+. Bladestorm: Re-roll hit rolls of 1 for attacks made by this unit and friendly Dire Avengers units whilst they are within 6"" of this unit.
-Baharroth - Deep Strike, Brilliant Sun, Blazing Fury, Skyleap (M 14"", Fly, Jump Pack, Pt 9).
-Fuegan - Ignore Damage (6+), Assured Destruction, Unflinching Focus (Pt 7).
-Jain Zar - Terror Troops, Cry of War Unending, Banshee Mask (M 12"", Pt 8).
-Karandras - Deep Strike, Infiltrators, The Shadow Hunter, Shadow Strike, Death by a Thousand Stings (Pt 9).
-Maugan Ra - The Harvester, Inescapable Death, Legacy of Altansar (M 6"", Pt 8).","Aeldari, Asuryani, Aspect Warrior
-Light, Infantry, Character, Phoenix Lord",
-3,,,,,,,,,,,,,,,,,"Select one Phoenix Lord. Each has unique Move, abilities and wargear as listed in the Abilities column.",,,
-3,,,,,,,,,,,,Avenger Shuriken Catapults,Small Arms,"18""",User,9+,10+,,,
-3,,,,,,,,,,,,The Sword of Asur,Melee,Melee,User,6+,9+,,,
+3,HQ,Phoenix Lord,"7""",2+,2+,2,1,7,4+,1,9,,,,,,,"You can only include one Phoenix Lord in your army.
+Lord of <Aspect>: <Aspect> units within 6"" of this unit and this unit re-roll failed attacks.","Aeldari, Asuryani, Aspect Warrior
+Light, Infantry, Character, Phoenix Lord","per Unit: Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. Hand of Asuryan. Improve saving throws of Aspect Warriors within 6"" by 1. Lord of <Dire Avengers>.; per Unit: Baharoth - equipped with Hawks Talon and Shining Blade. Deep strike. Harrier. Brilliant sun. Add 1 to leadership to aspect warriors within 6"". Lord of <Swooping Hawks>.; per Unit: Feugan - equipped with Fire Pike and Fire Axe. Ignore Damage (6+). Assured Destruction. Fire Dragons within 6"" of this unit and this unit re-roll wound rolls of 1 against Heavy or Super-heavy units. Lord of <Fire Dragons>.; per Unit: Karandras - equipped with Lord Weapon and Scorpion's Bite. Deep strike. Infiltrators. A thousand stings: for each attack against a Light non-character unit, add 1 A. Lord of <Striking Scorpions>.; per Unit: Jain Zar - equipped with Lord Ranged Weapon and Blade of Destruction. Terror Troops. Cry of War: enemy units within 2"" of this unit subtract 1 from hit rolls with melee weapons. Lord of <Howling Banshees>.; per Unit: Maugan Ra - equipped with Maugetar. Legacy of Altansar: this unit and Dark Reapers within 6"" reroll wound rolls of 1 against Chaos units. Lord of <Dark Reapers>.; per Unit: Lhykhis - equipped with Lord Weapon and Weaveender. Deep strike. Infiltrators. Perfect Warp Jump: instead of a Move action, this unit can perform a warp jump and set up anywhere more than 9"" from enemy units. Whispering Web: Warp Spiders within 6"" of this unit gain Perfect Warp Jump and Infiltrators. Lord of <Warp Spiders>."
+3,,,,,,,,,,,,Lord Weapon,Melee,Melee,User,6+,8+,,,
+3,,,,,,,,,,,,Lord Ranged Weapon,Small Arms,"12""",1,7+,8+,,,
+3,,,,,,,,,,,,Avenger Shuriken Catapults,Small Arms,"18""",User,7+,8+,,,
+3,,,,,,,,,,,,Sword of Asur,Melee,Melee,User,6+,8+,,,
 3,,,,,,,,,,,,Hawk's Talon,Small Arms,"24""",User,9+,10+,,,
-3,,,,,,,,,,,,The Shining Blade,Melee,Melee,User,7+,8+,,,
-3,,,,,,,,,,,,Firepike,Heavy,"12""",1,10+,4+,,,
-3,,,,,,,,,,,,The Fire Axe,Melee,Melee,User,8+,4+,,,
-3,,,,,,,,,,,,Silent Death,Heavy,"12""",1,7+,8+,,,
-3,,,,,,,,,,,,The Blade of Destruction,Melee,Melee,User,6+,8+,,,
-3,,,,,,,,,,,,The Scorpion's Bite,Melee,Melee,User,6+,10+,,,
-3,,,,,,,,,,,,Scorpion's Claw,Melee,Melee,User,5+,6+,,,
-3,,,,,,,,,,,,The Maugetar (Ranged),Heavy,"36""",2,6+,9+,,,
-3,,,,,,,,,,,,The Maugetar (Melee),Melee,Melee,User,8+,8+,,,
+3,,,,,,,,,,,,Shining Blade,Melee,Melee,User,7+,8+,,,
+3,,,,,,,,,,,,Fire Pike,Heavy,"6""",1,11+,4+,Destroyer,,
+3,,,,,,,,,,,,Fire Axe,Melee,Melee,User,8+,4+,,,
+3,,,,,,,,,,,,Blade of Destruction,Melee,Melee,x2,6+,8+,,,
+3,,,,,,,,,,,,Scorpion's Bite,Melee,Melee,1,4+,10+,Inferno,,
+3,,,,,,,,,,,,Maugetar (Melee),Melee,Melee,1,7+,9+,,,
+3,,,,,,,,,,,,Maugetar (Ranged),Small Arms,"36""",User,6+,8+,Inferno,,
+3,,,,,,,,,,,,Weaveender,Small Arms,"12""",User,6+,8+,,,
 5,HQ,Seer Council,"7""",3+,3+,1,1,6,6+,1,3,,,,,,,"Conclave of Power: If this unit contains 5 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 10 models, add 4 to wound rolls for attacks made by this unit instead.","Aeldari, Asuryani, Warhost, <Craftworld>
 Light, Infantry, Psyker, Warlock, Warlock Conclave",
 5,,,,,,,,,,,,,,,,,"This unit can have Skyrunner Jetbikes (Power Rating +3). If this unit has Skyrunner Jetbikes, it:
@@ -56,7 +51,7 @@ Light, Infantry, Psyker, Warlock, Warlock Conclave",
 - Loses the following keywords: Warlock Conclave, Infantry.",,,
 5,,,,,,,,,,,,Destructor,Small Arms,"12""",User,10+,10+,Witchfire,,
 5,,,,,,,,,,,,Twin Shuriken Catapults,Small Arms,"12""",x2,8+,11+,,,
-5,,,,,,,,,,,,Witchblades & Singing Spears,Melee,Melee,x2,10+,11+,,,
+5,,,,,,,,,,,,Witchblades & Singing Spears,Melee,Melee,x2,10+,11+,Witchfire,,
 5,,,"7""",3+,3+,2,2,6,6+,5,6,,,,,,,,,
 5,,,"7""",3+,3+,3,4,6,6+,10,12,,,,,,,,,
 6,Troops,Guardian,"7""",3+,3+,2,2,5,10+,10,4,,,,,,,,"Aeldari, Asuryani, Warhost, <Craftworld>
@@ -143,8 +138,8 @@ For each model this unit contains, it must also be equipped with one of the foll
 17,,,"16""",6+,3+,2,2,6,6+,2,10,,,,,,,,,
 17,,,"20""",6+,3+,3,3,6,6+,3,15,,,,,,,,,
 18,Fast,Swooping Hawks,"14""",3+,3+,1,1,6,8+,5,6,,,,,,,"Deep Strike
-Skyleap: When this unit makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9"" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
-Light, Infantry, Fly, Jump Pack, Swooping Hawks","per Unit: Deep Strike Skyleap: When this unit makes a Move action, it can skyleap instead of moving."
+Harrier","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
+Light, Infantry, Fly, Jump Pack, Swooping Hawks",per Unit: Deep Strike
 18,,,,,,,,,,,,Lasblasters,Small Arms,"24""",x3,8+,10+,,,
 18,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 18,,,"14""",3+,3+,2,2,6,8+,10,12,,,,,,,,,
@@ -250,7 +245,7 @@ Heavy, Vehicle, Fly, Aircraft, Crimson Hunter",
 Heavy, Psyker, Fly, Aircraft, Vehicle, Wraith Construct, Hemlock Wraithfighter",
 31,,,,,,,,,,,,Heavy D-scythe,Heavy,"16""",1,3+,5+,Inferno,,
 31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-4,Lord,Avatar,"7""",2+,2+,2,2,7,5+,1,10,,,,,,,"Ignore Damage (5+)
+4,Lord,Avatar,"7""",2+,2+,4,3,7,5+,1,16,,,,,,,"Ignore Damage (5+)
 Khaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12"" of this unit.","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
 Heavy, Monster, Character, Daemon, Avatar of Khaine",
 4,,,,,,,,,,,,The Wailing Doom (Ranged),Heavy,"12""",1,9+,5+,Destroyer,,

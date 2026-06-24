@@ -5,23 +5,23 @@
     {
       "no": 1,
       "type": "HQ",
-      "name": "Gazzghull Thraka",
+      "name": "Gazzghkull Thraka",
       "stats": {
         "M": "5\"",
         "WS": "2+",
         "BS": "5+",
-        "A": "3",
+        "A": "2",
         "W": "2",
         "Ld": "6",
         "Sv": "3+",
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Great Waaagh!: Add 1 to the Attacks characteristic of other friendly Ork Light units whilst they are making Fight actions whilst within 6\" of this unit.\r\nWaaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Goff units whilst they are within 6\" of this unit.",
+      "abilities": "Great Waaagh!: Add 1 to the Attacks characteristic of friendly Orks Light units whilst they are making Fight actions whilst within 6\" of this unit.\nWaaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Goff units whilst they are within 6\" of this unit.",
       "keywords": [
         "Orks",
         "Goff",
-        "Light",
+        "Heavy",
         "Infantry",
         "Character",
         "Mega Armour",
@@ -39,7 +39,7 @@
           "name": "Twin Big Shoota",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "User",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -68,7 +68,7 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6\" of this unit.\r\nIgnore Damage (+6)",
+      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6\" of this unit.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -109,7 +109,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Big Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\r\nKustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Big Mek is a unit that contains 1 model. It is equipped with: Shokk Attack Gun; Mek Weapons.\nThis unit can have Mega Armour. If this unit has Mega Armour, it:\n- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.\n- Has a Move characteristic of 4\", and Save characteristic of 4+.\n- Has the following keyword: Mega Armour.\n- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force Field (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field.",
+      "abilities": "Big Mekaniak: At the end of the Action phase, this unit can attempt to repair one friendly <Clan> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nKustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Big Mek is a unit that contains 1 model. It is equipped with: Shokk Attack Gun; Mek Weapons.\nThis unit can have Mega Armour. If this unit has Mega Armour, it:\n- Is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.\n- Has a Move characteristic of 4\", and Save characteristic of 4+.\n- Has the following keyword: Mega Armour.\n- Can be equipped with a Tellyport Blasta (Power Rating +1) or can also have a Kustom Force Field (Power Rating +1). If this unit has a Kustom Force Field it has the following additional abilities: Kustom Force Field.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -162,16 +162,16 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "7+"
+          "skill": "8+",
+          "armorPen": "8+"
         },
         {
           "name": "Mek Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
+          "skill": "9+",
+          "armorPen": "9+"
         }
       ]
     },
@@ -186,7 +186,7 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "1",
         "Pt": "2"
       },
@@ -212,7 +212,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "9+",
           "armorPen": "9+"
         }
       ]
@@ -264,8 +264,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "7+"
+          "skill": "8+",
+          "armorPen": "8+"
         }
       ]
     },
@@ -277,14 +277,14 @@
         "M": "5\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "2",
+        "A": "1",
         "W": "2",
         "Ld": "5",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "10",
-        "Pt": "5"
+        "Pt": "4"
       },
-      "abilities": "Boyz are a unit that contains 10 models. It can contain 20 models (Power Rating 10) or 30 models (Power Rating 15). It is equipped with: Sluggas; Choppas.\nFor every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha.",
+      "abilities": "Boyz are a unit that contains 10 models. It can contain 20 models (Power Rating 8) or 30 models (Power Rating 13). It is equipped with: Sluggas; Choppas.\nInstead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).\nFor every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -297,35 +297,44 @@
           "M": "5\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "4",
+          "A": "2",
           "W": "4",
-          "Ld": "5",
-          "Sv": "9+",
+          "Ld": "6",
+          "Sv": "10+",
           "N": "20",
-          "Pt": "10"
+          "Pt": "8"
         },
         {
           "M": "5\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "6",
+          "A": "4",
           "W": "6",
-          "Ld": "5",
-          "Sv": "9+",
+          "Ld": "7",
+          "Sv": "10+",
           "N": "30",
-          "Pt": "15"
+          "Pt": "13"
         }
       ],
       "options": [
         {
           "per": "Per 20 models",
-          "text": "It can contain 20 models (Power Rating 10)",
-          "Pt": "10"
+          "text": "It can contain 20 models (Power Rating 8)",
+          "Pt": "8"
         },
         {
           "per": "Per 30 models",
-          "text": "30 models (Power Rating 15)",
-          "Pt": "15"
+          "text": "30 models (Power Rating 13)",
+          "Pt": "13"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of Sluggas and Choppas, this unit can be equipped with Shootas and Close Combat Weapons (Power Rating +1).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per 10 models",
+          "text": "For every 10 models in the unit, it can also be equipped with one of the following: 1 Big Shoota; 1 Rokkit Launcha."
         }
       ],
       "weapons": [
@@ -349,7 +358,7 @@
           "name": "Shootas",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "x2",
+          "attacks": "x4",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -365,7 +374,7 @@
           "name": "Choppas",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "x3",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -373,7 +382,7 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -457,7 +466,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "10+",
+          "skill": "9+",
           "armorPen": "11+"
         }
       ]
@@ -498,7 +507,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "9+",
           "armorPen": "9+"
         }
       ]
@@ -540,7 +549,7 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "9+",
-          "armorPen": "8+"
+          "armorPen": "9+"
         }
       ]
     },
@@ -555,7 +564,7 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "5",
         "Pt": "3"
       },
@@ -634,11 +643,11 @@
         "A": "1",
         "W": "1",
         "Ld": "5",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18\" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.\r\nTank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.\nTankbustas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Tankbusta Rokkit Launchas; Tankbusta Weapons.",
+      "abilities": "Bomb Squigs: Once per battle, after this unit makes a Shoot action, select one enemy Vehicle unit (other than an Aircraft) within 18\" of this unit and roll one D6. On a 4+ place one blast marker next to that unit.\nTank Hunters: You can re-roll hit rolls for attacks made by this unit that target Vehicle units.\nTankbustas are a unit that contains 5 models. It can contain 10 models (Power Rating 8) or 15 models (Power Rating 12). It is equipped with: Tankbusta Rokkit Launchas; Tankbusta Weapons.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -709,10 +718,10 @@
         "M": "5\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "3",
+        "A": "1",
         "W": "2",
         "Ld": "5",
-        "Sv": "7+",
+        "Sv": "8+",
         "N": "5",
         "Pt": "6"
       },
@@ -729,10 +738,10 @@
           "M": "5\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "6",
+          "A": "2",
           "W": "4",
           "Ld": "6",
-          "Sv": "7+",
+          "Sv": "8+",
           "N": "10",
           "Pt": "12"
         }
@@ -749,7 +758,7 @@
           "name": "Sluggas",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -757,7 +766,7 @@
           "name": "Nob Choppas",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x3",
           "skill": "6+",
           "armorPen": "6+"
         }
@@ -774,7 +783,7 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "9+",
+        "Sv": "8+",
         "N": "1",
         "Pt": "3"
       },
@@ -812,7 +821,7 @@
         "M": "4\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "2",
+        "A": "1",
         "W": "2",
         "Ld": "5",
         "Sv": "4+",
@@ -834,7 +843,7 @@
           "M": "4\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "4",
+          "A": "2",
           "W": "4",
           "Ld": "6",
           "Sv": "4+",
@@ -845,7 +854,7 @@
           "M": "4\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "6",
+          "A": "3",
           "W": "6",
           "Ld": "7",
           "Sv": "4+",
@@ -870,7 +879,7 @@
           "name": "Meganob Shootas",
           "type": "Small Arms",
           "range": "18\"",
-          "attacks": "x2",
+          "attacks": "x3",
           "skill": "7+",
           "armorPen": "9+"
         },
@@ -878,7 +887,7 @@
           "name": "Meganob Melee Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "6+",
           "armorPen": "6+"
         }
@@ -895,7 +904,7 @@
         "A": "1",
         "W": "1",
         "Ld": "5",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "5",
         "Pt": "3"
       },
@@ -1000,7 +1009,7 @@
         "M": "14\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "2",
+        "A": "1",
         "W": "2",
         "Ld": "5",
         "Sv": "8+",
@@ -1021,9 +1030,9 @@
           "M": "14\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "4",
+          "A": "2",
           "W": "4",
-          "Ld": "5",
+          "Ld": "6",
           "Sv": "8+",
           "N": "6",
           "Pt": "14"
@@ -1032,9 +1041,9 @@
           "M": "14\"",
           "WS": "3+",
           "BS": "5+",
-          "A": "6",
+          "A": "3",
           "W": "6",
-          "Ld": "5",
+          "Ld": "7",
           "Sv": "8+",
           "N": "9",
           "Pt": "21"
@@ -1065,7 +1074,7 @@
           "name": "Nob Choppas",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "6+",
           "armorPen": "6+"
         }
@@ -1265,7 +1274,7 @@
         "A": "1",
         "W": "1",
         "Ld": "5",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "5",
         "Pt": "4"
       },
@@ -1850,7 +1859,7 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "9+",
+        "Sv": "10+",
         "N": "5",
         "Pt": "4"
       },
@@ -1928,7 +1937,7 @@
         "A": "2",
         "W": "2",
         "Ld": "4",
-        "Sv": "7+",
+        "Sv": "8+",
         "N": "5",
         "Pt": "8"
       },
@@ -2047,7 +2056,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Supersonic\r\nAll da Dakka: Add 1 to hit rolls for attacks made by this unit with ranged weapons.\nA Dakkajet is a unit that contains 1 model. It is equipped with: 4 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
+      "abilities": "Supersonic\nAll da Dakka: Add 1 to hit rolls for attacks made by this unit with ranged weapons.\nA Dakkajet is a unit that contains 1 model. It is equipped with: 4 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -2098,7 +2107,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Supersonic\r\nBurna Bombs: After this unit makes a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is garrisoning a Defensible Terrain feature; for each result of 4+ place one blast marker next to that unit.\nA Burna-bommer is a unit that contains 1 model. It is equipped with: Twin Big Shoota; 2 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with Skorcha Missiles (Power Rating +1).",
+      "abilities": "Supersonic\nBurna Bombs: After this unit makes a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is garrisoning a Defensible Terrain feature; for each result of 4+ place one blast marker next to that unit.\nA Burna-bommer is a unit that contains 1 model. It is equipped with: Twin Big Shoota; 2 Supa-shootas; Armoured Bulk.\nThis unit can also be equipped with Skorcha Missiles (Power Rating +1).",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -2311,14 +2320,14 @@
         "M": "12\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "4",
+        "A": "2",
         "W": "8",
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "40"
+        "Pt": "49"
       },
-      "abilities": "Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6\" of this unit.\r\nStompa Rigger Crew: At the end of the Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 4+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.\nA Stompa is a unit that contains 1 model. It is equipped with: Deffkannon; Supa-gatler; 3 Big Shootas; 3 Supa-rokkits; Skorcha; Mega-choppa.\nThis unit can also be equipped with 2 Supa-rokkits (Power Rating +2).\nTransport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "abilities": "Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6\" of this unit.\nStompa Rigger Crew: At the end of the Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 4+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.\nA Stompa is a unit that contains 1 model. It is equipped with: Deffkannon; Supa-gatler; 3 Big Shootas; 3 Supa-rokkits; Skorcha; Mega-choppa.\nThis unit can also be equipped with 2 Supa-rokkits (Power Rating +2).\nTransport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
       "keywords": [
         "Orks",
         "<Clan>",
@@ -2382,18 +2391,10 @@
           "name": "Mega-choppa",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "x2",
           "skill": "4+",
           "armorPen": "3+",
           "abilities": "Destroyer"
-        },
-        {
-          "name": "Stomp",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
         }
       ]
     }

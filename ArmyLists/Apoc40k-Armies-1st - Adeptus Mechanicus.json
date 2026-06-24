@@ -2053,7 +2053,7 @@
       "type": "Air",
       "name": "Archaeopter Stratoraptor",
       "stats": {
-        "M": "20\"",
+        "M": "14\"",
         "WS": "4+",
         "BS": "3+",
         "A": "1",
@@ -2063,7 +2063,7 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Hover",
+      "abilities": "Harrier",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
@@ -2121,7 +2121,7 @@
       "type": "Air",
       "name": "Archaeopter Fusilave",
       "stats": {
-        "M": "20\"",
+        "M": "14\"",
         "WS": "4+",
         "BS": "3+",
         "A": "1",
@@ -2131,7 +2131,7 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover\r\nBomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.",
+      "abilities": "Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.\nHarrier",
       "keywords": [
         "Imperium",
         "Adeptus Mechanicus",
