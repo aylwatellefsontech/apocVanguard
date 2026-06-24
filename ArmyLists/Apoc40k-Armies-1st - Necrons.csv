@@ -181,6 +181,12 @@ Heavy, Vehicle, Walker, Canoptek Doomstalker",
 27,,,,,,,,,,,,Doomsday Blaster,Heavy,"48""",1,6+,4+,Destroyer,,
 27,,,,,,,,,,,,Twin Gauss Flayer,Heavy,"24""",1,7+,9+,Rapid Fire,,
 27,,,,,,,,,,,,Doomstalker Limbs,Melee,Melee,User,7+,9+,,,
+30,Transport,Ghost Ark,"12""",6+,3+,1,3,8,7+,1,12,,,,,,,"Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.","Necrons, <Dynasty>
+Heavy, Vehicle, Fly, Transport, Ghost Ark",
+30,,,,,,,,,,,,Gauss Flayer Array,Heavy,"24""",1,7+,9+,Rapid Fire,,
+30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,,,
 28,Air,Doom Scythe,"20""-60""",6+,3+,1,2,8,6+,1,17,,,,,,,Supersonic,"Necrons, <Dynasty>
 Heavy, Vehicle, Fly, Aircraft, Doom Scythe",
 28,,,,,,,,,,,,Death Ray,Heavy,"24""",1,8+,4+,Destroyer,,
@@ -191,12 +197,6 @@ Invasion Beams: During deployment, you can set up any number of <Dynasty> Infant
 Heavy, Vehicle, Fly, Aircraft, Night Scythe",
 29,,,,,,,,,,,,Tesla Destructor,Heavy,"24""",2,6+,8+,,,
 29,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-30,Transport,Ghost Ark,"12""",6+,3+,1,3,8,7+,1,12,,,,,,,"Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.
-Hover: Distances are measured to and from this unit's hull, even though it has a base.
-TRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.","Necrons, <Dynasty>
-Heavy, Vehicle, Fly, Transport, Ghost Ark",
-30,,,,,,,,,,,,Gauss Flayer Array,Heavy,"24""",1,7+,9+,Rapid Fire,,
-30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,11+,,,
 31,Lord,Obelisk,"8""",6+,3+,1,5,8,6+,1,20,,,,,,,"Deep Strike
 Gravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12"" of this unit; on a 9+ place one blast marker next to that unit.","Necrons, <Dynasty>
 Super-heavy, Vehicle, Titanic, Fly, Obelisk",

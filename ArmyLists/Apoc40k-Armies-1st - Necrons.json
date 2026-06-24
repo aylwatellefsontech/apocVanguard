@@ -1592,6 +1592,51 @@
       ]
     },
     {
+      "no": 30,
+      "type": "Transport",
+      "name": "Ghost Ark",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "3",
+        "Ld": "8",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "12"
+      },
+      "abilities": "Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.",
+      "keywords": [
+        "Necrons",
+        "<Dynasty>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Ghost Ark"
+      ],
+      "weapons": [
+        {
+          "name": "Gauss Flayer Array",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Close Combat Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
       "no": 28,
       "type": "Air",
       "name": "Doom Scythe",
@@ -1685,51 +1730,6 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "10+"
-        }
-      ]
-    },
-    {
-      "no": 30,
-      "type": "Transport",
-      "name": "Ghost Ark",
-      "stats": {
-        "M": "12\"",
-        "WS": "6+",
-        "BS": "3+",
-        "A": "1",
-        "W": "3",
-        "Ld": "8",
-        "Sv": "7+",
-        "N": "1",
-        "Pt": "12"
-      },
-      "abilities": "Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.",
-      "keywords": [
-        "Necrons",
-        "<Dynasty>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
-        "Ghost Ark"
-      ],
-      "weapons": [
-        {
-          "name": "Gauss Flayer Array",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "11+"
         }
       ]
     },

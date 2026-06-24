@@ -210,6 +210,15 @@ Heavy, Monster, Mawloc",
 28,,,,,,,,,,,,,,,,,,A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons.,,
 28,,,,,,,,,,,,Distensible Jaws,Melee,Melee,1,5+,6+,,,
 28,,,,,,,,,,,,Scything Talons,Melee,Melee,x2,7+,9+,,,
+31,Transport,Tyrannocyte,"6""",5+,5+,1,2,5,8+,1,8,,,,,,,"Deep Strike
+Transport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6"" of this unit and more than 9"" from enemy units. If that unit cannot be placed in this way, it is destroyed.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+Heavy, Monster, Fly, Tyrannocyte","per Unit: Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
+31,,,,,,,,,,,,,,,,,,A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.,,
+31,,,,,,,,,,,,,,,,,,"Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",,
+31,,,,,,,,,,,,Barbed Stranglers,Heavy,"36""",5,7+,9+,,,
+31,,,,,,,,,,,,Deathspitters,Heavy,"24""",5,6+,9+,,,
+31,,,,,,,,,,,,Venom Cannons,Heavy,"36""",5,9+,7+,,,
+31,,,,,,,,,,,,Barbed Tentacles,Melee,Melee,User,10+,10+,,,
 29,Air,Harpy,"30""",4+,4+,1,2,7,8+,1,9,,,,,,,"Spore Mine Cysts: After this unit makes a Move action, you can select one enemy unit it moved over whilst making that Move action. Roll one D6; on a 3+ place one blast marker next to that unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
 Heavy, Monster, Fly, Harpy","per Unit: Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Cannons."
 29,,,,,,,,,,,,,,,,,,A Harpy is a unit that contains 1 model. It is equipped with: Stinger Salvo; Stranglethorn Cannons; Scything Wings.,,
@@ -226,15 +235,6 @@ Heavy, Monster, Fly, Hive Crone",
 30,,,,,,,,,,,,Tentaclids,Heavy,"36""",1,9+,5+,Anti-air,,
 30,,,,,,,,,,,,Scything Wings,Melee,Melee,User,5+,9+,,,
 30,,,,,,,,,,,,Wicked Spur,Melee,Melee,User,9+,5+,,,
-31,Transport,Tyrannocyte,"6""",5+,5+,1,2,5,8+,1,8,,,,,,,"Deep Strike
-Transport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6"" of this unit and more than 9"" from enemy units. If that unit cannot be placed in this way, it is destroyed.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
-Heavy, Monster, Fly, Tyrannocyte","per Unit: Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
-31,,,,,,,,,,,,,,,,,,A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.,,
-31,,,,,,,,,,,,,,,,,,"Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",,
-31,,,,,,,,,,,,Barbed Stranglers,Heavy,"36""",5,7+,9+,,,
-31,,,,,,,,,,,,Deathspitters,Heavy,"24""",5,6+,9+,,,
-31,,,,,,,,,,,,Venom Cannons,Heavy,"36""",5,9+,7+,,,
-31,,,,,,,,,,,,Barbed Tentacles,Melee,Melee,User,10+,10+,,,
 32,Lord,Hierophant,"12""",3+,3+,2,7,7,5+,1,45,,,,,,,"Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
 Super-heavy, Monster, Transport, Titanic, Hierophant Bio-titan",
 32,,,,,,,,,,,,,,,,,,A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.,,

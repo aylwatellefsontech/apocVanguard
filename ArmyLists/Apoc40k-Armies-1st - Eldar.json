@@ -229,54 +229,6 @@
       ]
     },
     {
-      "no": 4,
-      "type": "Lord",
-      "name": "Avatar",
-      "stats": {
-        "M": "7\"",
-        "WS": "2+",
-        "BS": "2+",
-        "A": "2",
-        "W": "2",
-        "Ld": "7",
-        "Sv": "5+",
-        "N": "1",
-        "Pt": "10"
-      },
-      "abilities": "Ignore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
-      "keywords": [
-        "Aeldari",
-        "Asuryani",
-        "Aspect Warrior",
-        "<Craftworld>",
-        "Heavy",
-        "Monster",
-        "Character",
-        "Daemon",
-        "Avatar of Khaine"
-      ],
-      "weapons": [
-        {
-          "name": "The Wailing Doom (Ranged)",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "5+",
-          "abilities": "Destroyer"
-        },
-        {
-          "name": "The Wailing Doom (Melee)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "5+",
-          "abilities": "Destroyer"
-        }
-      ]
-    },
-    {
       "no": 5,
       "type": "HQ",
       "name": "Seer Council",
@@ -2001,104 +1953,6 @@
       ]
     },
     {
-      "no": 28,
-      "type": "Lord",
-      "name": "Wraithknight",
-      "stats": {
-        "M": "12\"",
-        "WS": "3+",
-        "BS": "3+",
-        "A": "4",
-        "W": "5",
-        "Ld": "7",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "21"
-      },
-      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.\nInstead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive.",
-      "keywords": [
-        "Aeldari",
-        "Asuryani",
-        "Spirit Host",
-        "<Craftworld>",
-        "Super-heavy",
-        "Titanic",
-        "Wraith Construct",
-        "Wraithknight"
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Heavy Wraithcannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "3+",
-          "abilities": "Destroyer"
-        },
-        {
-          "name": "Scatter Laser",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Shuriken Cannon",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Starcannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "Suncannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "4",
-          "skill": "6+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "Titanic Ghostglaive",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "4+",
-          "armorPen": "4+",
-          "abilities": "Destroyer"
-        },
-        {
-          "name": "Titanic Wraithbone Fist",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "2",
-          "skill": "4+",
-          "armorPen": "4+"
-        }
-      ]
-    },
-    {
       "no": 29,
       "type": "Transport",
       "name": "Wave Serpent",
@@ -2309,6 +2163,152 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "type": "Lord",
+      "name": "Avatar",
+      "stats": {
+        "M": "7\"",
+        "WS": "2+",
+        "BS": "2+",
+        "A": "2",
+        "W": "2",
+        "Ld": "7",
+        "Sv": "5+",
+        "N": "1",
+        "Pt": "10"
+      },
+      "abilities": "Ignore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
+        "Heavy",
+        "Monster",
+        "Character",
+        "Daemon",
+        "Avatar of Khaine"
+      ],
+      "weapons": [
+        {
+          "name": "The Wailing Doom (Ranged)",
+          "type": "Heavy",
+          "range": "12\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "The Wailing Doom (Melee)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "5+",
+          "abilities": "Destroyer"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "type": "Lord",
+      "name": "Wraithknight",
+      "stats": {
+        "M": "12\"",
+        "WS": "3+",
+        "BS": "3+",
+        "A": "4",
+        "W": "5",
+        "Ld": "7",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "21"
+      },
+      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.\nInstead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive.",
+      "keywords": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
+        "Super-heavy",
+        "Titanic",
+        "Wraith Construct",
+        "Wraithknight"
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Wraithcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "3+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Scatter Laser",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Shuriken Cannon",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Starcannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Suncannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "4",
+          "skill": "6+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Titanic Ghostglaive",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "4+",
+          "armorPen": "4+",
+          "abilities": "Destroyer"
+        },
+        {
+          "name": "Titanic Wraithbone Fist",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "2",
+          "skill": "4+",
+          "armorPen": "4+"
         }
       ]
     },

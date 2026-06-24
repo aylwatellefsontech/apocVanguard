@@ -1539,6 +1539,126 @@
       ]
     },
     {
+      "no": 28,
+      "type": "Transport",
+      "name": "Raider",
+      "stats": {
+        "M": "14\"",
+        "WS": "4+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "7+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nInstead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Raider"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Dark Lance",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "10+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Disintegrator Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Bladevanes",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "type": "Transport",
+      "name": "Venom",
+      "stats": {
+        "M": "16\"",
+        "WS": "4+",
+        "BS": "3+",
+        "A": "1",
+        "W": "1",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "6"
+      },
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
+      "keywords": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Venom"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Splinter Cannon",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "5+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Twin Splinter Rifle",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "12+",
+          "abilities": "Rapid Fire"
+        },
+        {
+          "name": "Bladevanes",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
       "no": 25,
       "type": "Air",
       "name": "Raven Strike Fighter",
@@ -1747,126 +1867,6 @@
         },
         {
           "name": "Bladed Wings",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "11+"
-        }
-      ]
-    },
-    {
-      "no": 28,
-      "type": "Transport",
-      "name": "Raider",
-      "stats": {
-        "M": "14\"",
-        "WS": "4+",
-        "BS": "3+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "7+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nInstead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
-        "Raider"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Dark Lance",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Disintegrator Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Bladevanes",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "11+"
-        }
-      ]
-    },
-    {
-      "no": 29,
-      "type": "Transport",
-      "name": "Venom",
-      "stats": {
-        "M": "16\"",
-        "WS": "4+",
-        "BS": "3+",
-        "A": "1",
-        "W": "1",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
-      "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
-        "Venom"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Splinter Cannon",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "5+",
-          "armorPen": "12+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Twin Splinter Rifle",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "12+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Bladevanes",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",

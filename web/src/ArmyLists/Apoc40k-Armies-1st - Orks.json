@@ -1980,159 +1980,6 @@
       ]
     },
     {
-      "no": 27,
-      "type": "Lord",
-      "name": "Morkanaut",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "5+",
-        "A": "1",
-        "W": "4",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "15"
-      },
-      "abilities": "Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).\nThis unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
-      "keywords": [
-        "Orks",
-        "<Clan>",
-        "Super-heavy",
-        "Vehicle",
-        "Transport",
-        "Morkanaut"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Kustom Force Field."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Kustom Mega-blasta",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "5+",
-          "abilities": "Supercharge"
-        },
-        {
-          "name": "Kustom Mega-zappa",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "3",
-          "skill": "9+",
-          "armorPen": "5+",
-          "abilities": "Supercharge"
-        },
-        {
-          "name": "Rokkit Launcha",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Twin Big Shoota",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Klaw of Gork (or possibly Mork)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "5+"
-        }
-      ]
-    },
-    {
-      "no": 28,
-      "type": "Lord",
-      "name": "Gorkanaut",
-      "stats": {
-        "M": "8\"",
-        "WS": "3+",
-        "BS": "5+",
-        "A": "2",
-        "W": "4",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "15"
-      },
-      "abilities": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
-      "keywords": [
-        "Orks",
-        "<Clan>",
-        "Super-heavy",
-        "Vehicle",
-        "Transport",
-        "Gorkanaut"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork)."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Deffstorm Mega-shoota",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "8",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Rokkit Launcha",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Skorcha",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Twin Big Shoota",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Klaw of Gork (or possibly Mork)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "5+"
-        }
-      ]
-    },
-    {
       "no": 29,
       "type": "Transport",
       "name": "Trukk",
@@ -2300,6 +2147,159 @@
           "attacks": "User",
           "skill": "11+",
           "armorPen": "11+"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "type": "Lord",
+      "name": "Morkanaut",
+      "stats": {
+        "M": "8\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "1",
+        "W": "4",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "15"
+      },
+      "abilities": "Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9\" of any friendly <Clan> units with a Kustom Force Field.\nA Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).\nThis unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Super-heavy",
+        "Vehicle",
+        "Transport",
+        "Morkanaut"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Kustom Force Field."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kustom Mega-blasta",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Kustom Mega-zappa",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "3",
+          "skill": "9+",
+          "armorPen": "5+",
+          "abilities": "Supercharge"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Klaw of Gork (or possibly Mork)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "5+"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "type": "Lord",
+      "name": "Gorkanaut",
+      "stats": {
+        "M": "8\"",
+        "WS": "3+",
+        "BS": "5+",
+        "A": "2",
+        "W": "4",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "15"
+      },
+      "abilities": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).\nTransport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.",
+      "keywords": [
+        "Orks",
+        "<Clan>",
+        "Super-heavy",
+        "Vehicle",
+        "Transport",
+        "Gorkanaut"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork)."
+        },
+        {
+          "per": "Per Unit",
+          "text": "Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Deffstorm Mega-shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "8",
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Rokkit Launcha",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Skorcha",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Twin Big Shoota",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Klaw of Gork (or possibly Mork)",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "5+"
         }
       ]
     },

@@ -156,6 +156,22 @@ Heavy, Monster, Fly, Talos","per Unit: Instead of 2 Splinter Cannons, this unit 
 24,,,,,,,,,,,,Stinger Pod,Heavy,"18""",3,5+,12+,,,
 24,,,,,,,,,,,,Twin Liquifier Gun,Heavy,"8""",2,7+,10+,Inferno,,
 24,,,,,,,,,,,,Gruesome Combat Weapon,Melee,Melee,User,7+,7+,,,
+28,Transport,Raider,"14""",4+,3+,1,2,5,7+,1,6,,,,,,,"Open-topped
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
+Heavy, Vehicle, Fly, Transport, Raider","per Unit: Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
+28,,,,,,,,,,,,,,,,,,"Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",,
+28,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
+28,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,,,
+28,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
+29,Transport,Venom,"16""",4+,3+,1,1,5,6+,1,6,,,,,,,"Open-topped
+Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
+Heavy, Vehicle, Fly, Transport, Venom","per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
+29,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",,
+29,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire,,
+29,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire,,
+29,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
 25,Air,Raven Strike Fighter,"20-72""",6+,3+,1,2,5,7+,1,10,,,,,,,Supersonic,"Aeldari, Drukhari, <Kabal> or <Wych Cult>
 Heavy, Vehicle, Fly, Aircraft, Raven Strike Fighter",
 25,,,,,,,,,,,,,,,,,,A Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull.,,
@@ -180,22 +196,6 @@ Heavy, Vehicle, Fly, Aircraft, Voidraven Bomber",per Unit (Power Rating +1): Thi
 27,,,,,,,,,,,,Void Lance,Heavy,"36""",1,9+,4+,,,
 27,,,,,,,,,,,,Voidraven Missiles,Heavy,"48""",1,7+,7+,,,
 27,,,,,,,,,,,,Bladed Wings,Melee,Melee,User,10+,11+,,,
-28,Transport,Raider,"14""",4+,3+,1,2,5,7+,1,6,,,,,,,"Open-topped
-Hover: Distances are measured to and from this unit's hull, even though it has a base.
-TRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
-Heavy, Vehicle, Fly, Transport, Raider","per Unit: Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon."
-28,,,,,,,,,,,,,,,,,,"Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",,
-28,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
-28,,,,,,,,,,,,Disintegrator Cannon,Heavy,"36""",1,5+,10+,,,
-28,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
-29,Transport,Venom,"16""",4+,3+,1,1,5,6+,1,6,,,,,,,"Open-topped
-Hover: Distances are measured to and from this unit's hull, even though it has a base.
-TRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>
-Heavy, Vehicle, Fly, Transport, Venom","per Unit: Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon."
-29,,,,,,,,,,,,,,,,,,"Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",,
-29,,,,,,,,,,,,Splinter Cannon,Heavy,"36""",1,5+,12+,Rapid Fire,,
-29,,,,,,,,,,,,Twin Splinter Rifle,Small Arms,"24""",User,5+,12+,Rapid Fire,,
-29,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
 30,Lord,Tantalus,"16""",4+,3+,2,4,5,6+,1,16,,,,,,,"Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.","Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>

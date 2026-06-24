@@ -2240,6 +2240,73 @@
       ]
     },
     {
+      "no": 30,
+      "type": "Transport",
+      "name": "TY7 Devilfish",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\r\nTRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.\nA TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",
+      "keywords": [
+        "T'au Empire",
+        "<Sept>",
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "TY7 Devilfish"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cannon",
+          "type": "Heavy",
+          "range": "18\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Pulse Carbine",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "9+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Smart Missile Systems",
+          "type": "Heavy",
+          "range": "30\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "9+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Armoured Hull",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
       "no": 28,
       "type": "Air",
       "name": "AX3 Razorshark Strike Fighter",
@@ -2355,73 +2422,6 @@
           "attacks": "1",
           "skill": "6+",
           "armorPen": "8+"
-        },
-        {
-          "name": "Armoured Hull",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ]
-    },
-    {
-      "no": 30,
-      "type": "Transport",
-      "name": "TY7 Devilfish",
-      "stats": {
-        "M": "12\"",
-        "WS": "6+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "6",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "7"
-      },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\r\nTRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.\nA TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.\nInstead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",
-      "keywords": [
-        "T'au Empire",
-        "<Sept>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
-        "TY7 Devilfish"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Burst Cannon",
-          "type": "Heavy",
-          "range": "18\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Pulse Carbine",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Smart Missile Systems",
-          "type": "Heavy",
-          "range": "30\"",
-          "attacks": "2",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Barrage"
         },
         {
           "name": "Armoured Hull",

@@ -13,11 +13,11 @@ TYPE_ORDER = [
     "HQ",
     "Troops",
     "Elites",
-    "Fast Attack",
-    "Heavy Support",
-    "Flyer",
-    "Dedicated Transport",
-    "Lord of War",
+    "Fast",
+    "Heavy",
+    "Transport",
+    "Air",
+    "Lord",
 ]
 
 TYPE_NORMALIZE = {
@@ -25,13 +25,14 @@ TYPE_NORMALIZE = {
     "Troops": "Troops",
     "Elites": "Elites",
     "Elite": "Elites",
-    "Fast": "Fast Attack",
-    "Heavy": "Heavy Support",
-    "Air": "Flyer",
-    "air": "Flyer",
-    "Transport": "Dedicated Transport",
-    "transport": "Dedicated Transport",
-    "Lord": "Lord of War",
+    "elite": "Elites",
+    "Fast": "Fast",
+    "Heavy": "Heavy",
+    "Air": "Air",
+    "air": "Air",
+    "Transport": "Transport",
+    "transport": "Transport",
+    "Lord": "Lord",
 }
 
 

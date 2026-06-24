@@ -208,25 +208,6 @@ Light, Infantry, Flash Gitz",per 10 models (Power Rating 16): It can contain 10 
 26,,,,,,,,,,,,,,,,,,Flash Gitz are a unit that contains 5 models. It can contain 10 models (Power Rating 16). It is equipped with: Snazzguns; Close Combat Weapons.,,
 26,,,,,,,,,,,,Snazzguns,Small Arms,"24""",x3,6+,8+,,,
 26,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-27,Lord,Morkanaut,"8""",3+,5+,1,4,5,6+,1,15,,,,,,,"Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9"" of any friendly <Clan> units with a Kustom Force Field.","Orks, <Clan>
-Super-heavy, Vehicle, Transport, Morkanaut",per Unit: This unit can have a Kustom Force Field.
-27,,,,,,,,,,,,,,,,,,A Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).,,
-27,,,,,,,,,,,,,,,,,,"This unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.",,
-27,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
-27,,,,,,,,,,,,Kustom Mega-blasta,Heavy,"24""",1,9+,5+,Supercharge,,
-27,,,,,,,,,,,,Kustom Mega-zappa,Heavy,"36""",3,9+,5+,Supercharge,,
-27,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
-27,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
-27,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
-28,Lord,Gorkanaut,"8""",3+,5+,2,4,5,6+,1,15,,,,,,,,"Orks, <Clan>
-Super-heavy, Vehicle, Transport, Gorkanaut",
-28,,,,,,,,,,,,,,,,,,A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).,,
-28,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
-28,,,,,,,,,,,,Deffstorm Mega-shoota,Heavy,"36""",8,6+,8+,,,
-28,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
-28,,,,,,,,,,,,Skorcha,Heavy,"8""",1,7+,9+,Inferno,,
-28,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
-28,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
 29,Transport,Trukk,"12""",5+,5+,1,2,4,8+,1,4,,,,,,,"Open-topped, Ignore Damage (6+)","Orks, <Clan>
 Heavy, Vehicle, Transport, Trukk",
 29,,,,,,,,,,,,,,,,,,A Trukk is a unit that contains 1 model. It is equipped with: Big Shoota; Trukk Weapons.,,
@@ -249,6 +230,25 @@ Heavy, Vehicle, Fly, Aircraft, Burna-Bommer",per Unit (Power Rating +1): This un
 31,,,,,,,,,,,,Supa-shoota,Heavy,"36""",1,6+,8+,,,
 31,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
 31,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
+27,Lord,Morkanaut,"8""",3+,5+,1,4,5,6+,1,15,,,,,,,"Kustom Force Field: Subtract 1 from wound rolls for attacks made by ranged weapons that target <Clan> units whilst they are wholly within 9"" of any friendly <Clan> units with a Kustom Force Field.","Orks, <Clan>
+Super-heavy, Vehicle, Transport, Morkanaut",per Unit: This unit can have a Kustom Force Field.
+27,,,,,,,,,,,,,,,,,,A Morkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Kustom Mega-zappa; Kustom Mega-blasta; Klaw of Gork (or possibly Mork).,,
+27,,,,,,,,,,,,,,,,,,"This unit can have a Kustom Force Field. If this unit has a Kustom Force Field, it has the following additional abilities: Kustom Force Field.",,
+27,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
+27,,,,,,,,,,,,Kustom Mega-blasta,Heavy,"24""",1,9+,5+,Supercharge,,
+27,,,,,,,,,,,,Kustom Mega-zappa,Heavy,"36""",3,9+,5+,Supercharge,,
+27,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
+27,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
+27,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
+28,Lord,Gorkanaut,"8""",3+,5+,2,4,5,6+,1,15,,,,,,,,"Orks, <Clan>
+Super-heavy, Vehicle, Transport, Gorkanaut",
+28,,,,,,,,,,,,,,,,,,A Gorkanaut is a unit that contains 1 model. It is equipped with: 2 Twin Big Shootas; 2 Rokkit Launchas; Deffstorm Mega-shoota; Skorcha; Klaw of Gork (or possibly Mork).,,
+28,,,,,,,,,,,,,,,,,,Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantry models. Each Mega Armour or Jump Pack model takes the space of 2 other Infantry models.,,
+28,,,,,,,,,,,,Deffstorm Mega-shoota,Heavy,"36""",8,6+,8+,,,
+28,,,,,,,,,,,,Rokkit Launcha,Heavy,"24""",1,7+,7+,,,
+28,,,,,,,,,,,,Skorcha,Heavy,"8""",1,7+,9+,Inferno,,
+28,,,,,,,,,,,,Twin Big Shoota,Heavy,"36""",2,7+,9+,,,
+28,,,,,,,,,,,,Klaw of Gork (or possibly Mork),Melee,Melee,x2,5+,5+,,,
 32,Lord,Stompa,"12""",3+,5+,4,8,6,6+,1,40,,,,,,,"Effigy: You can re-roll Morale tests taken for friendly Orks units whilst they are within 6"" of this unit.
 Stompa Rigger Crew: At the end of the Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 4+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.","Orks, <Clan>
 Super-heavy, Vehicle, Titanic, Transport, Stompa",per Unit (Power Rating +2): This unit can also be equipped with 2 Supa-rokkits (Power Rating +2).

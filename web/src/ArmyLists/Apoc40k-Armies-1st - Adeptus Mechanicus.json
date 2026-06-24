@@ -1996,6 +1996,59 @@
       ]
     },
     {
+      "no": 32,
+      "type": "Transport",
+      "name": "Skorpius Dunerider",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "2",
+        "Ld": "6",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\r\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
+      "keywords": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Heavy",
+        "Vehicle",
+        "Transport",
+        "Skorpius Dunerider"
+      ],
+      "weapons": [
+        {
+          "name": "Cognis Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Twin Cognis Heavy Stubber",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Armoured Bulk",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "11+"
+        }
+      ]
+    },
+    {
       "no": 30,
       "type": "Air",
       "name": "Archaeopter Stratoraptor",
@@ -2108,59 +2161,6 @@
         },
         {
           "name": "Armoured Hull",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "11+",
-          "armorPen": "11+"
-        }
-      ]
-    },
-    {
-      "no": 32,
-      "type": "Transport",
-      "name": "Skorpius Dunerider",
-      "stats": {
-        "M": "12\"",
-        "WS": "6+",
-        "BS": "3+",
-        "A": "1",
-        "W": "2",
-        "Ld": "6",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "7"
-      },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\r\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
-      "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
-        "Heavy",
-        "Vehicle",
-        "Transport",
-        "Skorpius Dunerider"
-      ],
-      "weapons": [
-        {
-          "name": "Cognis Heavy Stubber",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Twin Cognis Heavy Stubber",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Armoured Bulk",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",

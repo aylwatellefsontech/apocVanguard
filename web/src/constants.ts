@@ -4,11 +4,11 @@ export const TYPE_ORDER = [
   'HQ',
   'Troops',
   'Elites',
-  'Fast Attack',
-  'Heavy Support',
-  'Flyer',
-  'Dedicated Transport',
-  'Lord of War',
+  'Fast',
+  'Heavy',
+  'Transport',
+  'Air',
+  'Lord',
 ] as const
 
 export const SAVED_ARMIES_KEY = '40kvanguard-saved-armies'

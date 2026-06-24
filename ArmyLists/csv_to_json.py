@@ -24,6 +24,18 @@ CANONICAL_TYPES = {
 }
 UNIT_TYPES = set(CANONICAL_TYPES.values())
 
+TYPE_ORDER = [
+    "HQ",
+    "Troops",
+    "Elites",
+    "Fast",
+    "Heavy",
+    "Transport",
+    "Air",
+    "Lord",
+]
+TYPE_RANK = {unit_type: index for index, unit_type in enumerate(TYPE_ORDER)}
+
 FIELDNAMES = [
     "No", "Type", "Name",
     "M", "WS", "BS", "A", "W", "Ld", "Sv", "N", "Pt",
@@ -47,6 +59,16 @@ def parse_options_column(text):
 
 def norm_type(value):
     return CANONICAL_TYPES.get(value.strip().lower(), value.strip())
+
+
+def sort_units(units):
+    return sorted(
+        units,
+        key=lambda unit: (
+            TYPE_RANK.get(unit.get("type", ""), len(TYPE_ORDER)),
+            unit.get("no", 0),
+        ),
+    )
 
 
 def parse_keywords(text):
@@ -251,7 +273,7 @@ def csv_to_json(csv_path):
     return {
         "faction": faction_from_csv_path(csv_path),
         "source": csv_path.name,
-        "units": [clean(unit) for unit in units],
+        "units": [clean(unit) for unit in sort_units(units)],
     }
 
 

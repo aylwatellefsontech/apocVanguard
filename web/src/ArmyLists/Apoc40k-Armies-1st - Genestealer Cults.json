@@ -132,21 +132,21 @@
       ]
     },
     {
-      "no": 4,
-      "type": "Lord",
-      "name": "Abominant",
+      "no": 15,
+      "type": "HQ",
+      "name": "Kelermorph",
       "stats": {
         "M": "6\"",
         "WS": "3+",
-        "BS": "6+",
+        "BS": "2+",
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "10+",
+        "Sv": "9+",
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)\nThe Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6\" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.",
+      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
       "keywords": [
         "Tyranids",
         "Genestealer Cults",
@@ -154,23 +154,30 @@
         "Light",
         "Infantry",
         "Character",
-        "Aberrant",
-        "Abominant"
+        "Kelermorph"
       ],
       "options": [
         {
           "per": "Per Unit",
-          "text": "An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer."
+          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
         }
       ],
       "weapons": [
         {
-          "name": "Power Sledgehammer",
+          "name": "Liberator Autostubs",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Cultist Knife",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "7+"
+          "skill": "11+",
+          "armorPen": "12+"
         }
       ]
     },
@@ -503,6 +510,70 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "type": "Troops",
+      "name": "Cult Combat Engineers",
+      "stats": {
+        "M": "6\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "4"
+      },
+      "abilities": "Cult Combat Engineers is a unit that contains 10 models. It can contain 20 models (Power Rating 8).\nRemote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Cult Combat Engineers"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 8).",
+          "Pt": "8"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Trench Clubs",
+          "type": "Melee",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Flamers",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Inferno"
         }
       ]
     },
@@ -889,56 +960,6 @@
         },
         {
           "name": "Familiar Claws",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "11+",
-          "armorPen": "12+"
-        }
-      ]
-    },
-    {
-      "no": 15,
-      "type": "HQ",
-      "name": "Kelermorph",
-      "stats": {
-        "M": "6\"",
-        "WS": "3+",
-        "BS": "2+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "9+",
-        "N": "1",
-        "Pt": "4"
-      },
-      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Kelermorph"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Liberator Autostubs",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Cultist Knife",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
@@ -1901,6 +1922,70 @@
       ]
     },
     {
+      "no": 29,
+      "type": "Heavy",
+      "name": "Cult Hydra",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.\nA Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Hydra",
+        "Cult Hydra"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Hydra Quad Autocannon",
+          "type": "Heavy",
+          "range": "72\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "6+",
+          "abilities": "Anti-air"
+        },
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Armoured Tracks",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
       "no": 27,
       "type": "Transport",
       "name": "Cult Chimera",
@@ -2136,6 +2221,49 @@
       ]
     },
     {
+      "no": 4,
+      "type": "Lord",
+      "name": "Abominant",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "6+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Ignore Damage (6+)\nThe Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6\" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Aberrant",
+        "Abominant"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Power Sledgehammer",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        }
+      ]
+    },
+    {
       "no": 32,
       "type": "Lord",
       "name": "Tectonic Fragdrill",
@@ -2161,134 +2289,6 @@
         {
           "per": "Per Unit",
           "text": "A Tectonic Fragdrill is a unit that contains 1 model."
-        }
-      ]
-    },
-    {
-      "no": 29,
-      "type": "Heavy",
-      "name": "Cult Hydra",
-      "stats": {
-        "M": "12\"",
-        "WS": "6+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "6+",
-        "N": "1",
-        "Pt": "7"
-      },
-      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.\nA Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Heavy",
-        "Vehicle",
-        "Hydra",
-        "Cult Hydra"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
-          "Pt": "1"
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Hydra Quad Autocannon",
-          "type": "Heavy",
-          "range": "72\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "6+",
-          "abilities": "Anti-air"
-        },
-        {
-          "name": "Heavy Bolter",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Armoured Tracks",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ]
-    },
-    {
-      "no": 30,
-      "type": "Troops",
-      "name": "Cult Combat Engineers",
-      "stats": {
-        "M": "6\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "10+",
-        "N": "10",
-        "Pt": "4"
-      },
-      "abilities": "Cult Combat Engineers is a unit that contains 10 models. It can contain 20 models (Power Rating 8).\nRemote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Light",
-        "Infantry",
-        "Cult Combat Engineers"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "20",
-          "Pt": "8"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models (Power Rating 8).",
-          "Pt": "8"
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Trench Clubs",
-          "type": "Melee",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Flamers",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
         }
       ]
     }

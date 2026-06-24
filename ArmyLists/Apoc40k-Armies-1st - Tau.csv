@@ -293,6 +293,15 @@ Light, Battlesuit, XV88 Broadside Battlesuits","per 2 models (Power Rating 11): 
 27,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
 27,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
+30,Transport,TY7 Devilfish,"12""",6+,4+,1,2,6,6+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
+TRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.","T'au Empire, <Sept>
+Heavy, Vehicle, Fly, Transport, TY7 Devilfish","per Unit: Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
+30,,,,,,,,,,,,,,,,,,A TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.,,
+30,,,,,,,,,,,,,,,,,,"Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",,
+30,,,,,,,,,,,,Burst Cannon,Heavy,"18""",2,8+,9+,,,
+30,,,,,,,,,,,,Pulse Carbine,Small Arms,"18""",User,9+,9+,,,
+30,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
+30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
 28,Air,AX3 Razorshark Strike Fighter,"20-50""",6+,4+,1,2,4,8+,1,11,,,,,,,Supersonic,"T'au Empire, <Sept>
 Heavy, Aircraft, Vehicle, Fly, AX3 Razorshark Strike Fighter","per Unit: Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod."
 28,,,,,,,,,,,,,,,,,,An AX3 Razorshark Strike Fighter is a unit that contains 1 model. It is equipped with: Burst Cannon; Quad Ion Turret; Armoured Hull.,,
@@ -309,15 +318,6 @@ Heavy, Aircraft, Vehicle, Fly, AX39 Sun Shark Bomber",per Unit (Power Rating +1)
 29,,,,,,,,,,,,Ion Rifles,Heavy,"30""",2,6+,8+,Supercharge,,
 29,,,,,,,,,,,,Missile Pod,Heavy,"36""",1,6+,8+,,,
 29,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-30,Transport,TY7 Devilfish,"12""",6+,4+,1,2,6,6+,1,7,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
-TRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.","T'au Empire, <Sept>
-Heavy, Vehicle, Fly, Transport, TY7 Devilfish","per Unit: Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems."
-30,,,,,,,,,,,,,,,,,,A TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.,,
-30,,,,,,,,,,,,,,,,,,"Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.",,
-30,,,,,,,,,,,,Burst Cannon,Heavy,"18""",2,8+,9+,,,
-30,,,,,,,,,,,,Pulse Carbine,Small Arms,"18""",User,9+,9+,,,
-30,,,,,,,,,,,,Smart Missile Systems,Heavy,"30""",2,7+,9+,Barrage,,
-30,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
 31,Lord,KV128 Stormsurge,"6""",5+,4+,1,5,6,5+,1,20,,,,,,,Stabilising Anchors: Re-roll hit rolls of 1 for attacks made with ranged weapons by this unit if it did not make a Move action this turn.,"T'au Empire, <Sept>
 Super-heavy, Titanic, Vehicle, KV128 Stormsurge","per Unit: Instead of Flamers, this unit can be equipped with one of the following: Airbursting Fragmentation Projectors; 2 Burst Cannons.; per Unit: Instead of 1 Pulse Blastcannon, this unit can be equipped with 1 Pulse Driver Cannon."
 31,,,,,,,,,,,,,,,,,,A KV128 Stormsurge is a unit that contains 1 model. It is equipped with: Cluster Rocket System; 4 Destroyer Missiles; Flamers; Pulse Blastcannon; Smart Missile Systems; Crushing Feet.,,

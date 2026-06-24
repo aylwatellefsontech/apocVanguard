@@ -208,6 +208,12 @@ Heavy, Vehicle, Skorpius Disintegrator","per Unit (Power Rating +1): Instead of 
 29,,,,,,,,,,,,Disruptor Missile Launcher,Heavy,"36""",1,7+,8+,,,
 29,,,,,,,,,,,,Ferrumite Cannon,Heavy,"48""",1,6+,5+,,,
 29,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
+32,Transport,Skorpius Dunerider,"12""",6+,3+,1,2,6,6+,1,7,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.
+TRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
+Heavy, Vehicle, Transport, Skorpius Dunerider",
+32,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
+32,,,,,,,,,,,,Twin Cognis Heavy Stubber,Heavy,"36""",2,8+,10+,,,
+32,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,
 30,Air,Archaeopter Stratoraptor,"20""",4+,3+,1,2,7,3+,1,8,,,,,,,Hover,"Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
 Heavy, Vehicle, Fly, Aircraft, Archaeopter Stratoraptor",
 30,,,,,,,,,,,,,,,,,,An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.,,
@@ -221,9 +227,3 @@ Heavy, Vehicle, Fly, Aircraft, Archaeopter Fusilave",
 31,,,,,,,,,,,,,,,,,,An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.,,
 31,,,,,,,,,,,,Cognis Heavy Stubber Array,Heavy,"36""",2,6+,10+,Rapid Fire,,
 31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,11+,11+,,,
-32,Transport,Skorpius Dunerider,"12""",6+,3+,1,2,6,6+,1,7,,,,,,,"Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3"" of any friendly units with this ability.
-TRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.","Imperium, Adeptus Mechanicus, Skitarii, <Forge World>
-Heavy, Vehicle, Transport, Skorpius Dunerider",
-32,,,,,,,,,,,,Cognis Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-32,,,,,,,,,,,,Twin Cognis Heavy Stubber,Heavy,"36""",2,8+,10+,,,
-32,,,,,,,,,,,,Armoured Bulk,Melee,Melee,User,11+,11+,,,

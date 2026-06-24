@@ -1943,6 +1943,72 @@
       ]
     },
     {
+      "no": 31,
+      "type": "Transport",
+      "name": "Tyrannocyte",
+      "stats": {
+        "M": "6\"",
+        "WS": "5+",
+        "BS": "5+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "1",
+        "Pt": "8"
+      },
+      "abilities": "Deep Strike\nTransport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6\" of this unit and more than 9\" from enemy units. If that unit cannot be placed in this way, it is destroyed.\nA Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.\nInstead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",
+      "keywords": [
+        "Tyranids",
+        "Tyranid Hive Fleets",
+        "<Hive Fleet>",
+        "Heavy",
+        "Monster",
+        "Fly",
+        "Tyrannocyte"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Barbed Stranglers",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "5",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Deathspitters",
+          "type": "Heavy",
+          "range": "24\"",
+          "attacks": "5",
+          "skill": "6+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Venom Cannons",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "5",
+          "skill": "9+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Barbed Tentacles",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
       "no": 29,
       "type": "Air",
       "name": "Harpy",
@@ -2081,72 +2147,6 @@
           "attacks": "User",
           "skill": "9+",
           "armorPen": "5+"
-        }
-      ]
-    },
-    {
-      "no": 31,
-      "type": "Transport",
-      "name": "Tyrannocyte",
-      "stats": {
-        "M": "6\"",
-        "WS": "5+",
-        "BS": "5+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "8"
-      },
-      "abilities": "Deep Strike\nTransport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6\" of this unit and more than 9\" from enemy units. If that unit cannot be placed in this way, it is destroyed.\nA Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.\nInstead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.",
-      "keywords": [
-        "Tyranids",
-        "Tyranid Hive Fleets",
-        "<Hive Fleet>",
-        "Heavy",
-        "Monster",
-        "Fly",
-        "Tyrannocyte"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Barbed Stranglers",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "5",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Deathspitters",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "5",
-          "skill": "6+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Venom Cannons",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "5",
-          "skill": "9+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Barbed Tentacles",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
         }
       ]
     },

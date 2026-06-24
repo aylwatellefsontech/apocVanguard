@@ -46,11 +46,6 @@ Light, Infantry, Character, Phoenix Lord",
 3,,,,,,,,,,,,Scorpion's Claw,Melee,Melee,User,5+,6+,,,
 3,,,,,,,,,,,,The Maugetar (Ranged),Heavy,"36""",2,6+,9+,,,
 3,,,,,,,,,,,,The Maugetar (Melee),Melee,Melee,User,8+,8+,,,
-4,Lord,Avatar,"7""",2+,2+,2,2,7,5+,1,10,,,,,,,"Ignore Damage (5+)
-Khaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12"" of this unit.","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
-Heavy, Monster, Character, Daemon, Avatar of Khaine",
-4,,,,,,,,,,,,The Wailing Doom (Ranged),Heavy,"12""",1,9+,5+,Destroyer,,
-4,,,,,,,,,,,,The Wailing Doom (Melee),Melee,Melee,User,5+,5+,Destroyer,,
 5,HQ,Seer Council,"7""",3+,3+,1,1,6,6+,1,3,,,,,,,"Conclave of Power: If this unit contains 5 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 10 models, add 4 to wound rolls for attacks made by this unit instead.","Aeldari, Asuryani, Warhost, <Craftworld>
 Light, Infantry, Psyker, Warlock, Warlock Conclave",
 5,,,,,,,,,,,,,,,,,"This unit can have Skyrunner Jetbikes (Power Rating +3). If this unit has Skyrunner Jetbikes, it:
@@ -230,17 +225,6 @@ Heavy, Vehicle, Fly, Night Spinner",
 27,,,,,,,,,,,,Shuriken Cannon,Heavy,"24""",1,6+,8+,,,
 27,,,,,,,,,,,,Twin Shuriken Catapult,Heavy,"12""",2,8+,11+,,,
 27,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-28,Lord,Wraithknight,"12""",3+,3+,4,5,7,6+,1,21,,,,,,,,"Aeldari, Asuryani, Spirit Host, <Craftworld>
-Super-heavy, Titanic, Wraith Construct, Wraithknight",
-28,,,,,,,,,,,,,,,,,"Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.
-This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",,,
-28,,,,,,,,,,,,Heavy Wraithcannon,Heavy,"36""",1,7+,3+,Destroyer,,
-28,,,,,,,,,,,,Scatter Laser,Heavy,"36""",1,7+,9+,,,
-28,,,,,,,,,,,,Shuriken Cannon,Heavy,"24""",1,6+,8+,,,
-28,,,,,,,,,,,,Starcannon,Heavy,"36""",1,8+,6+,,,
-28,,,,,,,,,,,,Suncannon,Heavy,"48""",4,6+,6+,,,
-28,,,,,,,,,,,,Titanic Ghostglaive,Melee,Melee,User,4+,4+,Destroyer,,
-28,,,,,,,,,,,,Titanic Wraithbone Fist,Melee,Melee,2,4+,4+,,,
 29,Transport,Wave Serpent,"16""",6+,3+,1,2,6,5+,1,10,,,,,,,"Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 12 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.","Aeldari, Asuryani, Warhost, <Craftworld>
 Heavy, Vehicle, Fly, Transport, Wave Serpent",
@@ -266,6 +250,22 @@ Heavy, Vehicle, Fly, Aircraft, Crimson Hunter",
 Heavy, Psyker, Fly, Aircraft, Vehicle, Wraith Construct, Hemlock Wraithfighter",
 31,,,,,,,,,,,,Heavy D-scythe,Heavy,"16""",1,3+,5+,Inferno,,
 31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
+4,Lord,Avatar,"7""",2+,2+,2,2,7,5+,1,10,,,,,,,"Ignore Damage (5+)
+Khaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12"" of this unit.","Aeldari, Asuryani, Aspect Warrior, <Craftworld>
+Heavy, Monster, Character, Daemon, Avatar of Khaine",
+4,,,,,,,,,,,,The Wailing Doom (Ranged),Heavy,"12""",1,9+,5+,Destroyer,,
+4,,,,,,,,,,,,The Wailing Doom (Melee),Melee,Melee,User,5+,5+,Destroyer,,
+28,Lord,Wraithknight,"12""",3+,3+,4,5,7,6+,1,21,,,,,,,,"Aeldari, Asuryani, Spirit Host, <Craftworld>
+Super-heavy, Titanic, Wraith Construct, Wraithknight",
+28,,,,,,,,,,,,,,,,,"Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive. If this unit has a Scattershield, it has a Save characteristic of 5+.
+This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",,,
+28,,,,,,,,,,,,Heavy Wraithcannon,Heavy,"36""",1,7+,3+,Destroyer,,
+28,,,,,,,,,,,,Scatter Laser,Heavy,"36""",1,7+,9+,,,
+28,,,,,,,,,,,,Shuriken Cannon,Heavy,"24""",1,6+,8+,,,
+28,,,,,,,,,,,,Starcannon,Heavy,"36""",1,8+,6+,,,
+28,,,,,,,,,,,,Suncannon,Heavy,"48""",4,6+,6+,,,
+28,,,,,,,,,,,,Titanic Ghostglaive,Melee,Melee,User,4+,4+,Destroyer,,
+28,,,,,,,,,,,,Titanic Wraithbone Fist,Melee,Melee,2,4+,4+,,,
 32,Lord,Webway Gate,-,-,-,-,3,-,5+,1,6,,,,,,,"Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12"" away from your opponent's deployment zone and any enemy units, and more than 3"" away from any other terrain features or the centre of any objective markers.
 Webway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.
 Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3"" of that Webway Gate and more than 9"" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.","Aeldari

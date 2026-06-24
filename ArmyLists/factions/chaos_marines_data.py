@@ -650,7 +650,7 @@ CHAOS_MARINES_SLOTS = [
     slot(27, "Elites", CHAOS_MARINES["Khorne Berzerkers"]),
     slot(28, "Heavy", CHAOS_MARINES["Noise Marines"]),
     slot(29, "Elites", CHAOS_MARINES["Rubric Marines"]),
-    slot(30, "HQ", CHAOS_MARINES["Traitor Guard"]),
+    slot(30, "Troops", CHAOS_MARINES["Traitor Guard"]),
     slot(31, "Elites", CHAOS_MARINES["Chaos Beastmen"]),
     slot(32, "Lord", CHAOS_MARINES["Greater Daemon"]),
 ]
