@@ -37,7 +37,7 @@ export function normalizeRosterEntry(entry: RosterEntry): RosterEntry {
 
 function normalizeSavedArmy(army: SavedArmy): SavedArmy {
   const roster = Array.isArray(army.roster) ? army.roster.map(normalizeRosterEntry) : []
-  const cards = Array.isArray(army.cards) ? army.cards : []
+  const cards = sortArmyCards(Array.isArray(army.cards) ? army.cards : [])
   return {
     ...army,
     roster,
@@ -84,6 +84,16 @@ export function createArmyCardEntry(card: Card): ArmyCardEntry {
     facNm: card.facNm ?? null,
     ability: card.ability ?? '',
   }
+}
+
+export function sortArmyCards(cards: ArmyCardEntry[]): ArmyCardEntry[] {
+  return [...cards].sort((a, b) => {
+    const setCompare = String(a.set ?? '').localeCompare(String(b.set ?? ''))
+    if (setCompare !== 0) {
+      return setCompare
+    }
+    return (a.nm ?? 0) - (b.nm ?? 0)
+  })
 }
 
 export function createRosterEntry(unit: Unit, profile: UnitProfile): RosterEntry {

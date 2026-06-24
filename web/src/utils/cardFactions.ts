@@ -14,3 +14,9 @@ export function cardMatchesArmyFaction(card: Card, factionName: string): boolean
   if (!factionName || !card.fac) return false
   return getCardFactionsForArmy(factionName).includes(card.fac)
 }
+
+export function getBaseApocCards(cards: Card[]): Card[] {
+  return cards.filter(
+    (card) => card.fac === 'Apoc' && card.subType?.toLowerCase() === 'base',
+  )
+}

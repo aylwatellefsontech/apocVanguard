@@ -15,9 +15,11 @@ import {
   deleteSavedArmy,
   loadSavedArmies,
   saveArmy,
+  sortArmyCards,
   toggleRosterOption,
 } from '../utils/armyStorage'
 import { summarizeOption } from '../utils/formatOption'
+import { getBaseApocCards } from '../utils/cardFactions'
 import { getProfileStatsForEntry, groupUnitsByType, sortRosterByType } from '../utils/units'
 import type {
   ArmyCardEntry,
@@ -164,6 +166,14 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
 
   const armyCardIds = useMemo(() => new Set(armyCards.map((entry) => entry.cardId)), [armyCards])
 
+  const baseApocCards = useMemo(() => getBaseApocCards(cards), [cards])
+  const allBaseCardsAdded = useMemo(
+    () => baseApocCards.length > 0 && baseApocCards.every((card) => armyCardIds.has(card.id)),
+    [baseApocCards, armyCardIds],
+  )
+
+  const sortedArmyCards = useMemo(() => sortArmyCards(armyCards), [armyCards])
+
   const selectedCard = filteredCards.find(
     (card) => card.id === (selectedCardId ?? filteredCards[0]?.id),
   )
@@ -252,6 +262,20 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     } else {
       setArmyCards((current) => [...current, createArmyCardEntry(card)])
     }
+    setSaveMessage(null)
+  }
+
+  function handleAddBaseCards() {
+    setArmyCards((current) => {
+      const existingIds = new Set(current.map((entry) => entry.cardId))
+      const toAdd = baseApocCards
+        .filter((card) => !existingIds.has(card.id))
+        .map(createArmyCardEntry)
+      if (toAdd.length === 0) {
+        return current
+      }
+      return [...current, ...toAdd]
+    })
     setSaveMessage(null)
   }
 
@@ -404,7 +428,17 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                 </ul>
               )}
 
-              <h2 className="sidebar-section-title">Cards</h2>
+              <div className="sidebar-section-header">
+                <h2 className="sidebar-section-title">Cards</h2>
+                <button
+                  type="button"
+                  className="secondary-btn sidebar-action-btn"
+                  onClick={handleAddBaseCards}
+                  disabled={loadingCards || baseApocCards.length === 0 || allBaseCardsAdded}
+                >
+                  Add base
+                </button>
+              </div>
               {loadingCards ? (
                 <p className="muted">Loading cards…</p>
               ) : (
@@ -643,9 +677,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                 <h3 className="roster-section-title">Command Cards</h3>
                 <span className="roster-section-count">{armyCards.length} Cards</span>
               </div>
-              {armyCards.length > 0 && (
+              {sortedArmyCards.length > 0 && (
                 <ul className="roster-list">
-                  {armyCards.map((entry) => (
+                  {sortedArmyCards.map((entry) => (
                     <ArmyCardSummary key={entry.id} entry={entry} onRemove={handleRemoveCard} />
                   ))}
                 </ul>

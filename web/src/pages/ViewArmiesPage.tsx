@@ -7,7 +7,7 @@ import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useArmy } from '../hooks/useFactions'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
-import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
+import { deleteSavedArmy, loadSavedArmies, sortArmyCards } from '../utils/armyStorage'
 import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { sortRosterByType } from '../utils/units'
@@ -72,7 +72,10 @@ export default function ViewArmiesPage() {
     selectedArmy?.cards?.length &&
       selectedArmy.cards.every((entry) => expandedCardIds.has(entry.id)),
   )
-  const armyCards = selectedArmy?.cards ?? []
+  const armyCards = useMemo(
+    () => sortArmyCards(selectedArmy?.cards ?? []),
+    [selectedArmy],
+  )
   const hasUnits = (selectedArmy?.roster.length ?? 0) > 0
   const hasCards = armyCards.length > 0
   const showArmySection = viewMode === 'army' || viewMode === 'all'

@@ -286,6 +286,28 @@
   color: var(--text);
 }
 
+.sidebar-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 24px 0 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.sidebar-section-header .sidebar-section-title {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.sidebar-section-header .sidebar-action-btn {
+  padding: 4px 10px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 .sidebar-section-title {
   margin-top: 24px;
   padding-top: 20px;
