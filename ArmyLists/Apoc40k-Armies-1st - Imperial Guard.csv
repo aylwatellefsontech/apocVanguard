@@ -5,7 +5,7 @@ Officer: At the start of the Generate Command Assets step, if this unit is a War
 Light, Infantry, Character, Officer, Lord Castellan Creed",
 1,,,,,,,,,,,,,,,,,,Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.,,
 1,,,,,,,,,,,,Signature Weapons,Melee,Melee,User,10+,10+,,,
-2,HQ,Company Commander,"6""",3+,3+,1,1,6,9+,1,2,,,,,,,"Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.","Imperium, Astra Militarum, <Regiment>
+2,Elites,Company Commander,"6""",3+,3+,1,1,6,9+,1,2,,,,,,,"Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.","Imperium, Astra Militarum, <Regiment>
 Light, Infantry, Character, Officer, Company Commander",
 2,,,,,,,,,,,,Officer Weapons,Melee,Melee,User,10+,11+,,,
 3,HQ,Lord Commissar,"6""",2+,2+,1,1,7,7+,1,4,,,,,,,"Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Astra Militarum, Officio Prefectus
@@ -28,7 +28,7 @@ Light, Infantry, Veterans, Command Squad","per Unit (Power Rating +1): It can co
 5,Elite,Enginseer,"6""",4+,4+,1,1,6,5+,1,5,,,,,,,"Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Astra Militarum Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.","Imperium, Astra Militarum
 Light, Infantry, Character, Tech-Priest, Enginseer",
 5,,,,,,,,,,,,Omnissian Axe & Servo-arm,Melee,Melee,User,8+,7+,,,
-6,Elite,Sanctioned Psyker,"6""",3+,3+,1,1,6,10+,1,2,,,,,,,,"Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana
+6,Elite,Sanctioned Psyker,"6""",4+,4+,1,1,6,10+,1,2,,,,,,,,"Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana
 Light, Infantry, Psyker, Character, Primaris Psyker",
 6,,,,,,,,,,,,,,,,,,A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.,,
 6,,,,,,,,,,,,,,,,,,"Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability.",,
@@ -45,9 +45,8 @@ Light, Infantry, Infantry Squad","per Unit (Power Rating +1): It can contain 1 w
 7,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
 7,,,,,,,,,,,,Mortar,Heavy,"48""",1,8+,10+,Barrage,,
 8,Troops,Conscripts,"6""",5+,5+,2,4,4,10+,20,3,,,,,,,,"Imperium, Astra Militarum, <Regiment>
-Light, Infantry, Conscripts",per 30 models (Power Rating 4): It can contain 30 models (Power Rating 4).
-8,,,"6""",5+,5+,3,6,4,10+,30,4,,,,,,,,,
-8,,,,,,,,,,,,,,,,,,Conscripts is a unit that contains 20 models. It can contain 30 models (Power Rating 4).,,
+Light, Infantry, Conscripts",
+8,,,,,,,,,,,,,,,,,,Conscripts is a unit that contains 20 models.,,
 8,,,,,,,,,,,,Lasguns,Small Arms,"24""",User,8+,10+,Rapid Fire,,
 8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
 9,Elites,Veterans,"6""",4+,3+,2,2,5,10+,10,4,,,,,,,,"Imperium, Astra Militarum, <Regiment>
@@ -69,9 +68,9 @@ Light, Infantry, Militarum Tempestus Scions",per 10 models (Power Rating 5): It 
 10,,,,,,,,,,,,,,,,,,Militarum Tempestus Scions are a unit that contains 5 models. It can contain 10 models (Power Rating 5).,,
 10,,,,,,,,,,,,Hot-shot Lasguns,Small Arms,"18""",User,6+,8+,Rapid Fire,,
 10,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
-11,Elites,Snipers,"5""",5+,3+,1,1,4,10+,5,2,,,,,,,"Infiltrators, Stealth","Imperium, Astra Militarum, Militarum Auxilia
+11,Elites,Snipers,"6""",4+,4+,1,1,5,10+,5,2,,,,,,,"Infiltrators, Stealth","Imperium, Astra Militarum, Militarum Auxilia
 Light, Infantry, Ratlings",per 10 models (Power Rating 3): It can contain 10 models (Power Rating 3).
-11,,,"5""",5+,3+,2,2,4,10+,10,3,,,,,,,,,
+11,,,"6""",4+,4+,2,2,5,10+,10,3,,,,,,,,,
 11,,,,,,,,,,,,,,,,,,Ratlings is a unit that contains 5 models. It can contain 10 models (Power Rating 3).,,
 11,,,,,,,,,,,,Sniper Rifles,Small Arms,"36""",User,7+,9+,Sniper,,
 11,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,11+,12+,,,
@@ -83,8 +82,8 @@ Light, Infantry, Ogryns",per 6 models (Power Rating 10): It can contain 6 models
 12,,,,,,,,,,,,,,,,,,"Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.",,
 12,,,,,,,,,,,,,,,,,,"Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.",,
 12,,,,,,,,,,,,,,,,,,"Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.",,
-12,,,,,,,,,,,,Ripper Guns,Small Arms,"12""",User,6+,9+,,,
-12,,,,,,,,,,,,Ripper Gun Stocks,Melee,Melee,User,6+,8+,,,
+12,,,,,,,,,,,,Ripper Guns,Small Arms,"12""",User,7+,9+,,,
+12,,,,,,,,,,,,Ripper Gun Stocks,Melee,Melee,User,7+,9+,,,
 12,,,,,,,,,,,,Crusader Power Swords,Melee,Melee,User,8+,8+,,,
 13,Elite,Special Weapons Squad,"6""",4+,4+,1,1,4,10+,6,2,,,,,,,,"Imperium, Astra Militarum, <Regiment>
 Light, Infantry, Special Weapons Squad","per Unit: Instead of Special Weapons, this unit can be equipped with Sniper Rifles."
@@ -106,7 +105,7 @@ Heavy, Vehicle, Scout Sentinels","per 2 models (Power Rating 7): It can contain 
 14,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
 14,,,,,,,,,,,,Multi-laser,Heavy,"36""",1,6+,10+,,,
 14,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
-15,Fast,Hellhound,"12""",6+,4+,1,2,5,6+,1,6,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
+15,Fast,Hellhound,"12""",6+,4+,1,2,5,7+,1,5,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
 Heavy, Vehicle, Hellhound","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 15,,,,,,,,,,,,,,,,,,A Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.,,
 15,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",,
@@ -119,7 +118,7 @@ Heavy, Vehicle, Hellhound","per Unit: Instead of 1 Heavy Bolter, this unit can b
 15,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
 15,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 15,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
-16,Fast,Devil Dog,"12""",6+,4+,1,2,5,6+,1,6,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
+16,Fast,Devil Dog,"12""",6+,4+,1,2,5,7+,1,5,,,,,,,"Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.","Imperium, Astra Militarum, <Regiment>
 Heavy, Vehicle, Hellhound, Devil Dog","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 16,,,,,,,,,,,,,,,,,,A Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; Heavy Bolter; Armoured Tracks.,,
 16,,,,,,,,,,,,,,,,,,"Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.",,
@@ -173,7 +172,7 @@ Heavy, Vehicle, Manticore","per Unit: Instead of 1 Heavy Bolter, this unit can b
 20,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
 20,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 20,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
-21,Heavy,Leman Russ,"10""",6+,4+,1,2,5,6+,1,10,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
+21,Heavy,Leman Russ,"10""",6+,4+,1,3,5,6+,1,11,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6"" of each other unit taken for the same slot the first time they are set up.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.","Imperium, Astra Militarum, <Regiment>
 Heavy, Vehicle, Leman Russ, Leman Russ Battle Tank","per Unit (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon): Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).; per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.; per Unit (Power Rating +2): This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 21,,,,,,,,,,,,,,,,,,"Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).",,
@@ -219,7 +218,7 @@ Super-heavy, Vehicle, Titanic, Shadowsword",per Unit (Power Rating +1): This uni
 23,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
 23,,,,,,,,,,,,Twin Heavy Flamer,Heavy,"8""",2,6+,9+,Inferno,,
 23,,,,,,,,,,,,Adamantium Tracks,Melee,Melee,User,7+,7+,,,
-24,transport,Chimera,"12""",6+,4+,1,2,5,6+,1,7,,,,,,,,"Imperium, Astra Militarum, <Regiment>
+24,transport,Chimera,"12""",6+,4+,1,2,5,7+,1,6,,,,,,,,"Imperium, Astra Militarum, <Regiment>
 Heavy, Vehicle, Transport, Chimera","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit: Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
 24,,,,,,,,,,,,,,,,,,TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.,,
 24,,,,,,,,,,,,,,,,,,A Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.,,
@@ -257,9 +256,9 @@ Heavy, Vehicle, Transport, Taurox",per Unit (Power Rating +1): This unit can als
 26,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
 26,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
 26,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-27,Fast,Rough Riders,"10""",4+,4+,1,1,5,10+,5,2,,,,,,,,"Imperium, Astra Militarum, <Regiment>
+27,Fast,Rough Riders,"10""",4+,4+,1,2,5,10+,5,3,,,,,,,,"Imperium, Astra Militarum, <Regiment>
 Light, Cavalry, Rough Riders",per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6).
-27,,,"10""",4+,4+,2,2,5,10+,10,6,,,,,,,,,
+27,,,"10""",4+,4+,2,4,5,10+,10,6,,,,,,,,,
 27,,,,,,,,,,,,,,,,,,Rough Riders is a unit that contains 5 models. It can contain 10 models (Power Rating 6).,,
 27,,,,,,,,,,,,Laspistols,Small Arms,"12""",User,8+,10+,,,
 27,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
@@ -309,22 +308,12 @@ Light, Infantry, Militarum Tempestus Command Squad",per Unit (Power Rating +1): 
 30,,,,,,,,,,,,,,,,,,"This unit can have a Platoon Standard (Power Rating +1). If this unit has a Platoon Standard, it has the following additional abilities: Platoon Standard.",,
 30,,,,,,,,,,,,Hot-shot Lasguns,Small Arms,"18""",User,6+,8+,Rapid Fire,,
 30,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
-31,Fast,Aquilons,"14""",6+,3+,1,2,5,6+,1,8,,,,,,,,"Imperium, Astra Militarum, Militarum Tempestus
-Heavy, Vehicle, Transport, Taurox Prime","per Unit: Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher.; per Unit: Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
-31,,,,,,,,,,,,,,,,,,Aquilons does not appear in this Apocalypse datasheet; Taurox Prime is the closest Fast-slot Tempestus vehicle substitute.,,
-31,,,,,,,,,,,,,,,,,,TRANSPORT: This unit can transport up to 10 friendly Militarum Tempestus or Officio Prefectus Infantry models.,,
-31,,,,,,,,,,,,,,,,,,A Taurox Prime is a unit that contains 1 model. It is equipped with: Taurox Battle Cannon; 2 Hot-shot Volley Guns; Armoured Hull.,,
-31,,,,,,,,,,,,,,,,,,"Instead of 1 Taurox Battle Cannon, this unit can be equipped with one of the following: 1 Taurox Gatling Cannon; 1 Taurox Missile Launcher.",,
-31,,,,,,,,,,,,,,,,,,"Instead of 2 Hot-shot Volley Guns, this unit can be equipped with 2 Autocannons.",,
-31,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.,,
-31,,,,,,,,,,,,Taurox Battle Cannon,Heavy,"48""",2,6+,6+,,,
-31,,,,,,,,,,,,Taurox Gatling Cannon,Heavy,"24""",2,7+,9+,Rapid Fire,,
-31,,,,,,,,,,,,Taurox Missile Launcher,Heavy,"48""",2,7+,7+,,,
-31,,,,,,,,,,,,Hot-shot Volley Gun,Heavy,"24""",1,7+,9+,,,
-31,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,,,
-31,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
-31,,,,,,,,,,,,Storm Bolter,Small Arms,"24""",1,9+,10+,Rapid Fire,,
-31,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
+31,Fast,Aquilons,"10""",4+,3+,1,1,5,8+,5,4,,,,,,,Infiltrators,"Imperium, Astra Militarum, Militarum Tempestus
+Light, Infantry, Militarum Tempestus Scions, Aquilons",per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6).
+31,,,"10""",4+,3+,2,2,5,8+,10,6,,,,,,,,,
+31,,,,,,,,,,,,,,,,,,"Aquilons are Tempestus Scions with Move 10"" and Infiltrators. It can contain 10 models (Power Rating 6).",,
+31,,,,,,,,,,,,Hot-shot Lasguns,Small Arms,"18""",User,6+,8+,Rapid Fire,,
+31,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
 32,Elite,Commissar,"6""",3+,3+,1,1,6,10+,1,2,,,,,,,"Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6"" of this unit.","Imperium, Astra Militarum, Officio Prefectus
 Light, Infantry, Character, Commissar",
-32,,,,,,,,,,,,Commissar Weapons,Melee,Melee,User,11+,11+,,,
+32,,,,,,,,,,,,Commissar Weapons,Melee,Melee,User,10+,11+,,,

@@ -19,19 +19,18 @@ Light, Infantry, Character, Ministorum Priest, Missionary",
 4,HQ,Hospitaller,"6""",4+,3+,1,1,6,6+,1,2,,,,,,,"Medicus Ministorum: At the end of the Action phase, this unit can attempt to heal one friendly Adeptus Ministorum Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.","Imperium, Adeptus Ministorum, Adepta Sororitas
 Light, Infantry, Character, Hospitaller",
 4,,,,,,,,,,,,Chirurgeon's Tools,Melee,Melee,User,11+,11+,,,
-5,Troops,Battle Sisters Squad,"6""",4+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
+5,Troops,Battle Sisters Squad,"6""",4+,3+,1,1,7,6+,5,3,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Battle Sisters Squad",per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
-5,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,,
-5,,,"6""",4+,3+,3,3,6,6+,15,12,,,,,,,,,
+5,,,"6""",4+,3+,2,2,7,6+,10,6,,,,,,,,,
 5,,,,,,,,,,,,,,,,,,This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.,,
 5,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
 5,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
 5,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
 5,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
 5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
-6,Troops,Zealots,"6""",5+,5+,2,4,7,10+,20,4,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
+6,Troops,Zealots,"6""",5+,5+,2,4,7,11+,20,4,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Zealots",per 30 models (Power Rating 6): It can contain 30 models (Power Rating 6)
-6,,,"6""",5+,5+,3,6,7,10+,30,6,,,,,,,,,
+6,,,"6""",5+,5+,3,6,7,11+,30,6,,,,,,,,,
 6,,,,,,,,,,,,,,,,,,Zealots is a unit that contains 20 models. It can contain 30 models (Power Rating 6). It is equipped with: Autopistols; Close Combat Weapons.,,
 6,,,,,,,,,,,,Autopistols,Small Arms,"12""",User,8+,10+,,,
 6,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
@@ -48,12 +47,12 @@ Light, Infantry, Celestian Squad",per Unit (Power Rating +1): This unit can also
 8,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
 8,,,,,,,,,,,,Boltguns,Small Arms,"24""",User,7+,9+,Rapid Fire,,
 8,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,x2,8+,9+,,,
-9,Elites,Celestian Sacrosancts,"6""",3+,4+,1,1,7,5+,5,4,,,,,,,"Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models in this unit by 1 against attacks made with melee weapons.
+9,Elites,Celestian Sacrosancts,"6""",3+,4+,1,1,7,6+,5,4,,,,,,,"Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models in this unit by 1 against attacks made with melee weapons.
 Sworn Protectors: You can re-roll hit rolls for attacks made with melee weapons by this unit whilst it is within 6"" of any friendly <Order> Canoness units.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Celestian Sacrosancts",per 10 models (Power Rating 8): It can contain 10 models (Power Rating 8)
-9,,,"6""",3+,4+,2,2,7,5+,10,8,,,,,,,,,
+9,,,"6""",3+,4+,2,2,7,6+,10,8,,,,,,,,,
 9,,,,,,,,,,,,,,,,,,Celestian Sacrosancts is a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Anointed Halberds.,,
-9,,,,,,,,,,,,Anointed Halberds,Melee,Melee,x2,5+,7+,,,
+9,,,,,,,,,,,,Anointed Halberds,Melee,Melee,x2,6+,8+,,,
 10,Elites,Dialogus,"6""",4+,3+,1,1,6,11+,1,1,,,,,,,"Laud Hailer: You can re-roll Morale tests taken for friendly Adepta Sororitas units whilst they are within 6"" of this unit.","Imperium, Adeptus Ministorum, Adepta Sororitas
 Light, Infantry, Character, Dialogus",
 10,,,,,,,,,,,,Dialogus Staff,Melee,Melee,User,11+,11+,,,
@@ -73,26 +72,22 @@ Light, Infantry, Sisters Repentia",
 14,Elites,Crusaders,"6""",3+,4+,1,1,5,6+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
 Light, Infantry, Ecclesiarchy Battle Conclave, Crusaders",
-14,,,"6""",3+,4+,2,2,5,6+,4,2,,,,,,,,,
-14,,,"6""",3+,4+,3,3,5,6+,6,3,,,,,,,,,
-14,,,"6""",3+,4+,4,4,5,6+,8,4,,,,,,,,,
-14,,,"6""",3+,4+,5,5,5,6+,10,5,,,,,,,,,
+14,,,"6""",3+,4+,1,1,5,6+,4,1,,,,,,,,,
+14,,,"6""",3+,4+,2,2,5,6+,8,2,,,,,,,,,
 14,,,,,,,,,,,,Crusader Power Swords,Melee,Melee,User,8+,8+,,,
 15,Elites,Death Cult Assassins,"7""",3+,4+,1,1,5,9+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
 Light, Infantry, Ecclesiarchy Battle Conclave, Death Cult Assassins",
+15,,,"7""",3+,4+,1,1,5,9+,2,1,,,,,,,,,
 15,,,"7""",3+,4+,2,2,5,9+,4,2,,,,,,,,,
-15,,,"7""",3+,4+,3,3,5,9+,6,3,,,,,,,,,
-15,,,"7""",3+,4+,4,4,5,9+,8,4,,,,,,,,,
-15,,,"7""",3+,4+,5,5,5,9+,10,5,,,,,,,,,
 15,,,,,,,,,,,,Death Cult Power Blades,Melee,Melee,x2,8+,8+,,,
 16,Elites,Arco-flagellants,"6""",4+,-,1,1,5,11+,3,2,,,,,,,"Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.
 Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.","Imperium, Adeptus Ministorum
 Light, Infantry, Ecclesiarchy Battle Conclave, Arco-flagellants",
-16,,,"6""",4+,-,2,1,5,11+,5,3,,,,,,,,,
-16,,,"6""",4+,-,4,2,5,11+,10,6,,,,,,,,,
-16,,,,,,,,,,,,Arco-flails,Melee,Melee,x2,7+,9+,,,
+16,,,"6""",4+,-,1,1,5,11+,5,2,,,,,,,,,
+16,,,"6""",4+,-,2,2,5,11+,10,3,,,,,,,,,
+16,,,,,,,,,,,,Arco-flails,Melee,Melee,x3,7+,9+,,,
 17,Fast,Dominion Squad,"6""",4+,3+,1,1,6,6+,5,4,,,,,,,Infiltrators,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Dominion Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.
 17,,,"6""",4+,3+,2,2,6,6+,10,8,,,,,,,,,
@@ -114,16 +109,16 @@ Light, Infantry, Sanctifiers",
 19,,,,,,,,,,,,,,,,,,Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons.,,
 19,,,,,,,,,,,,Braziers of Holy Fire,Heavy,"12""",3,7+,10+,Inferno,,
 19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
-20,Fast,Seraphim Squad,"12""",3+,3+,1,1,6,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
+20,Fast,Seraphim Squad,"12""",3+,3+,1,1,6,6+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Fly, Jump Pack, Seraphim Squad",
-20,,,"12""",3+,3+,2,2,6,5+,10,9,,,,,,,,,
+20,,,"12""",3+,3+,2,2,6,6+,10,9,,,,,,,,,
 20,,,,,,,,,,,,Twin Bolt Pistols,Small Arms,"12""",x2,7+,9+,,,
 20,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
-21,Fast,Zephyrim Squad,"12""",3+,3+,1,1,7,5+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
+21,Fast,Zephyrim Squad,"12""",3+,3+,1,1,7,6+,5,5,,,,,,,Deep Strike,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Jump Pack, Fly, Zephyrim Squad",
-21,,,"12""",3+,3+,2,2,7,5+,10,10,,,,,,,,,
+21,,,"12""",3+,3+,2,2,7,6+,10,10,,,,,,,,,
 21,,,,,,,,,,,,Bolt Pistols,Small Arms,"12""",User,7+,9+,,,
-21,,,,,,,,,,,,Zephyrim Power Swords,Melee,Melee,x3,5+,9+,,,
+21,,,,,,,,,,,,Zephyrim Power Swords,Melee,Melee,x2,5+,9+,,,
 22,Heavy,Retributor Squad,"6""",4+,3+,1,1,6,6+,5,3,,,,,,,,"Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Light, Infantry, Retributor Squad",per weapon (Power Rating +1 per weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.
 22,,,"6""",4+,3+,2,2,6,6+,10,6,,,,,,,,,
@@ -174,15 +169,14 @@ Heavy, Vehicle, Castigator","per Unit: Instead of 1 Castigator Autocannons, this
 27,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
 27,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
 28,Heavy,Paragon Warsuits,"8""",3+,3+,3,3,6,5+,3,9,,,,,,,Righteous Paragons: Re-roll hit rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.,"Imperium, Adeptus Ministorum, Adepta Sororitas
-Heavy, Vehicle, Walker, Paragon Warsuits",per model (Power Rating +1 per model): Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).; per Unit: Any model can have its Paragon War Blade replaced with 1 Paragon War Mace.
+Heavy, Vehicle, Walker, Paragon Warsuits",per model (Power Rating +1 per model): Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).
 28,,,,,,,,,,,,,,,,,,Paragon Warsuits is a unit that contains 3 models. Every model is equipped with: Heavy Bolter; Paragon Storm Bolters; Paragon War Blade.,,
 28,,,,,,,,,,,,,,,,,,Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).,,
-28,,,,,,,,,,,,,,,,,,Any model can have its Paragon War Blade replaced with 1 Paragon War Mace.,,
+28,,,,,,,,,,,,,,,,,,,,
 28,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
 28,,,,,,,,,,,,Paragon Storm Bolters,Small Arms,"24""",User,7+,10+,Rapid Fire,,
 28,,,,,,,,,,,,Multi-melta,Heavy,"24""",1,10+,4+,,,
-28,,,,,,,,,,,,Paragon War Blade,Melee,Melee,User,5+,6+,,,
-28,,,,,,,,,,,,Paragon War Mace,Melee,Melee,User,6+,6+,,,
+28,,,,,,,,,,,,Paragon War Blade,Melee,Melee,User,6+,6+,,,
 29,Transport,Immolator,"12""",6+,3+,1,2,6,6+,1,5,,,,,,,"TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.","Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>
 Heavy, Vehicle, Transport, Immolator","per Unit: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
 29,,,,,,,,,,,,,,,,,,"Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",,

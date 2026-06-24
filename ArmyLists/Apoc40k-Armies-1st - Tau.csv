@@ -61,12 +61,12 @@ Light, Infantry, Breacher Team","per 10 models (Power Rating 6): It can contain 
 5,,,,,,,,,,,,,,,,,,"- If this unit has a Shield Drone, improve its Save characteristic by 1.",,
 5,,,,,,,,,,,,Pulse Blasters,Small Arms,"15""",x2,5+,9+,,,
 5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,9+,10+,,,
-6,Troops,Kroot Carnivores,"7""",3+,4+,1,2,4,10+,10,4,,,,,,,Infiltrators,"T'au Empire, Kroot
+6,Troops,Kroot Carnivores,"6""",3+,4+,2,2,5,10+,10,4,,,,,,,Infiltrators,"T'au Empire, Kroot
 Light, Infantry, Kroot Carnivores",per 20 models (Power Rating 7): It can contain 20 models (Power Rating 7)
-6,,,"7""",3+,4+,2,4,4,10+,20,7,,,,,,,,,
+6,,,"6""",3+,4+,4,4,5,10+,20,7,,,,,,,,,
 6,,,,,,,,,,,,,,,,,,Kroot Carnivores are a unit that contains 10 models. It can contain 20 models (Power Rating 7). It is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee).,,
-6,,,,,,,,,,,,Kroot Rifles (Ranged),Small Arms,"24""",User,7+,9+,Rapid Fire,,
-6,,,,,,,,,,,,Kroot Rifles (Melee),Melee,Melee,x2,7+,9+,,,
+6,,,,,,,,,,,,Kroot Rifles (Ranged),Small Arms,"24""",User,8+,10+,Rapid Fire,,
+6,,,,,,,,,,,,Kroot Rifles (Melee),Melee,Melee,User,7+,9+,,,
 7,Troops,Strike Team,"6""",5+,4+,1,1,5,8+,5,3,,,,,,,,"T'au Empire, <Sept>
 Light, Infantry, Strike Team","per 10 models (Power Rating 6): It can contain 10 models (Power Rating 6); per 2 models (Power Rating 7): 12 models (Power Rating 7); per Unit (Power Rating +1): This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone."
 7,,,"6""",5+,4+,2,2,5,8+,10,6,,,,,,,,,
@@ -204,7 +204,7 @@ Light, Beasts, Kroot Hounds",per Unit (Power Rating 4): It can contain 8 models 
 19,,,"12""",3+,-,2,2,4,10+,8,4,,,,,,,,,
 19,,,"12""",3+,-,3,3,4,10+,12,6,,,,,,,,,
 19,,,,,,,,,,,,,,,,,,Kroot Hounds are a unit that contains 4 models. It can contain 8 models (Power Rating 4) or 12 models (Power Rating 6). It is equipped with: Ripping Fangs.,,
-19,,,,,,,,,,,,Ripping Fangs,Melee,Melee,x2,7+,9+,,,
+19,,,,,,,,,,,,Ripping Fangs,Melee,Melee,x2,8+,10+,,,
 20,Fast,Tactical Drones,"8""",5+,5+,1,1,4,8+,4,3,,,,,,,"Deep Strike
 Threat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.","T'au Empire, <Sept>
 Light, Drone, Fly, Tactical Drones","per Unit (Power Rating 5): It can contain 8 models (Power Rating 5); per 2 models (Power Rating 7): 12 models (Power Rating 7); per 4 models (Power Rating +1 for each 4 models this unit contains): This unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones."

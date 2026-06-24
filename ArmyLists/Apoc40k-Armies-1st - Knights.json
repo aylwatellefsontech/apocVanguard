@@ -3,6 +3,8 @@
   "source": "Apoc40k-Armies-1st - Knights.csv",
   "units": [
     {
+      "no": 1,
+      "type": "HQ",
       "name": "Knight Paladin",
       "stats": {
         "M": "12\"",
@@ -15,12 +17,41 @@
         "N": "1",
         "Pt": "24"
       },
+      "abilities": "Knight Desecrator (Chaos, Pt 21) - Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6\" of this unit.\nSelect allegiance and variant when including this unit (see Abilities).\nKnight Paladin (Imperial, Pt 24): equipped with Rapid-fire Battle Cannon, 2 Heavy Stubbers, Reaper Chainsword.\nKnight Desecrator (Chaos, Pt 21): equipped with Heavy Stubber, Laser Destructor, Reaper Chainsword.\n• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet (Paladin/Desecrator).\n• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon (Paladin only).\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Knights",
         "Super-heavy",
         "Vehicle",
         "Titanic",
         "Questoris Class"
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "5",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "21"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet (Paladin/Desecrator)."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon (Paladin only).",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -100,52 +131,11 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "abilities": "Knight Desecrator (Chaos, Pt 21) - Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6\" of this unit.",
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "5",
-          "Ld": "7",
-          "Sv": "5+",
-          "N": "1",
-          "Pt": "21"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance and variant when including this unit (see Abilities)."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Paladin (Imperial, Pt 24): equipped with Rapid-fire Battle Cannon, 2 Heavy Stubbers, Reaper Chainsword."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Desecrator (Chaos, Pt 21): equipped with Heavy Stubber, Laser Destructor, Reaper Chainsword."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet (Paladin/Desecrator)."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon (Paladin only).",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
-      ],
-      "no": 1,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 2,
+      "type": "HQ",
       "name": "Knight Errant",
       "stats": {
         "M": "12\"",
@@ -158,6 +148,7 @@
         "N": "1",
         "Pt": "24"
       },
+      "abilities": "Chaos players: field a Knight Despoiler (slot 7) with Thermal Cannon loadout as the equivalent.\n• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.\n• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Imperium",
         "Imperial Knights",
@@ -168,6 +159,21 @@
         "Titanic",
         "Questoris Class",
         "Knight Errant"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -239,30 +245,11 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Chaos players: field a Knight Despoiler (slot 7) with Thermal Cannon loadout as the equivalent."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
-      ],
-      "no": 2,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 3,
+      "type": "HQ",
       "name": "Knight Castellan",
       "stats": {
         "M": "10\"",
@@ -275,12 +262,23 @@
         "N": "1",
         "Pt": "30"
       },
+      "abilities": "Knight Castellan (Imperial, Pt 30): Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nKnight Tyrant (Chaos, Pt 30): Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one. Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nSelect allegiance and variant when including this unit (see Abilities).\nKnight Castellan (Imperial): equipped with Plasma Decimator, 2 Shieldbreaker Missiles, 2 Twin Meltaguns, 2 Twin Siegebreaker Cannons, Volcano Lance, Titanic Feet.\nKnight Tyrant (Chaos, default): same as Castellan loadout.\n• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.\n• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout).",
       "keywords": [
         "Knights",
         "Super-heavy",
         "Vehicle",
         "Titanic",
         "Dominus Class"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout)."
+        }
       ],
       "weapons": [
         {
@@ -352,34 +350,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Knight Castellan (Imperial, Pt 30): Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nKnight Tyrant (Chaos, Pt 30): Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one. Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance and variant when including this unit (see Abilities)."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Castellan (Imperial): equipped with Plasma Decimator, 2 Shieldbreaker Missiles, 2 Twin Meltaguns, 2 Twin Siegebreaker Cannons, Volcano Lance, Titanic Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Tyrant (Chaos, default): same as Castellan loadout."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout)."
-        }
-      ],
-      "no": 3,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 4,
+      "type": "HQ",
       "name": "Armiger Helveren",
       "stats": {
         "M": "14\"",
@@ -392,11 +367,18 @@
         "N": "1",
         "Pt": "9"
       },
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSelect allegiance when including this unit.\nArmiger Helverin (Imperial): equipped with 2 Armiger Autocannons, Heavy Stubber, Armoured Feet.\nWar Dog (Chaos, autocannon): equipped with 2 War Dog Autocannons, Heavy Stubber, Armoured Feet.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Knights",
         "Heavy",
         "Vehicle",
         "Armiger Class"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -455,30 +437,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance when including this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Armiger Helverin (Imperial): equipped with 2 Armiger Autocannons, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "War Dog (Chaos, autocannon): equipped with 2 War Dog Autocannons, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
-      ],
-      "no": 4,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 5,
+      "type": "HQ",
       "name": "Armiger Warglaive",
       "stats": {
         "M": "14\"",
@@ -491,11 +454,22 @@
         "N": "1",
         "Pt": "9"
       },
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSelect allegiance when including this unit.\nArmiger Warglaive (Imperial): equipped with Heavy Stubber, Thermal Spear, Armoured Feet, Reaper Chain-cleaver.\nWar Dog (Chaos, melee): instead of 2 War Dog Autocannons, equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.",
       "keywords": [
         "Knights",
         "Heavy",
         "Vehicle",
         "Armiger Class"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "War Dog (Chaos, melee): instead of 2 War Dog Autocannons, equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -554,30 +528,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance when including this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Armiger Warglaive (Imperial): equipped with Heavy Stubber, Thermal Spear, Armoured Feet, Reaper Chain-cleaver."
-        },
-        {
-          "per": "Per Unit",
-          "text": "War Dog (Chaos, melee): instead of 2 War Dog Autocannons, equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        }
-      ],
-      "no": 5,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 6,
+      "type": "Troops",
       "name": "Wardog",
       "stats": {
         "M": "14\"",
@@ -590,10 +545,21 @@
         "N": "1",
         "Pt": "9"
       },
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSelect allegiance and loadout when including this unit.\nImperial Armiger Helverin: 2 Armiger Autocannons, Heavy Stubber, Armoured Feet.\nImperial Armiger Warglaive: Thermal Spear, Reaper Chain-cleaver, Heavy Stubber, Armoured Feet.\nChaos War Dog (autocannon): 2 War Dog Autocannons, Heavy Stubber, Armoured Feet.\nChaos War Dog (melee): 1 Thermal Spear, 1 Reaper Chain-cleaver, Heavy Stubber, Armoured Feet.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.\n• Instead of 2 War Dog Autocannons / Armiger Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver.",
       "keywords": [
         "Knights",
         "Heavy",
         "Vehicle"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 2 War Dog Autocannons / Armiger Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver."
+        }
       ],
       "weapons": [
         {
@@ -652,42 +618,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance and loadout when including this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Imperial Armiger Helverin: 2 Armiger Autocannons, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Imperial Armiger Warglaive: Thermal Spear, Reaper Chain-cleaver, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Chaos War Dog (autocannon): 2 War Dog Autocannons, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Chaos War Dog (melee): 1 Thermal Spear, 1 Reaper Chain-cleaver, Heavy Stubber, Armoured Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 2 War Dog Autocannons / Armiger Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver."
-        }
-      ],
-      "no": 6,
-      "type": "Troops"
+      ]
     },
     {
+      "no": 7,
+      "type": "Troops",
       "name": "Knight Despoiler",
       "stats": {
         "M": "12\"",
@@ -700,6 +635,7 @@
         "N": "1",
         "Pt": "24"
       },
+      "abilities": "Engine of Destruction: If this unit is equipped with 1 Reaper Chainsword and 1 Thunderstrike Gauntlet, change its Weapon Skill characteristic to 2+.\nDefault: Heavy Stubber, Thunderstrike Gauntlet, Reaper Chainsword.\n• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.\n• Instead of 1 Thunderstrike Gauntlet, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.\n• Instead of 1 Reaper Chainsword, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.\n• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.\n• If this unit is not equipped with any other melee weapons, it is also equipped with Titanic Feet.",
       "keywords": [
         "Chaos",
         "Chaos Knights",
@@ -708,6 +644,25 @@
         "Titanic",
         "Vehicle",
         "Knight Despoiler"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Thunderstrike Gauntlet, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -812,39 +767,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Engine of Destruction: If this unit is equipped with 1 Reaper Chainsword and 1 Thunderstrike Gauntlet, change its Weapon Skill characteristic to 2+.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Default: Heavy Stubber, Thunderstrike Gauntlet, Reaper Chainsword."
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Thunderstrike Gauntlet, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Reaper Chainsword, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• If this unit is not equipped with any other melee weapons, it is also equipped with Titanic Feet."
-        }
-      ],
-      "no": 7,
-      "type": "Troops"
+      ]
     },
     {
+      "no": 8,
+      "type": "Elites",
       "name": "Knight Tyrant",
       "stats": {
         "M": "10\"",
@@ -857,12 +784,23 @@
         "N": "1",
         "Pt": "30"
       },
+      "abilities": "Knight Castellan (Imperial, Pt 30): Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nKnight Tyrant (Chaos, Pt 30): Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one. Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nSelect allegiance and variant when including this unit (see Abilities).\nKnight Castellan (Imperial): equipped with Plasma Decimator, 2 Shieldbreaker Missiles, 2 Twin Meltaguns, 2 Twin Siegebreaker Cannons, Volcano Lance, Titanic Feet.\nKnight Tyrant (Chaos, default): same as Castellan loadout.\n• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.\n• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout).",
       "keywords": [
         "Knights",
         "Super-heavy",
         "Vehicle",
         "Titanic",
         "Dominus Class"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles."
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout)."
+        }
       ],
       "weapons": [
         {
@@ -934,34 +872,11 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Knight Castellan (Imperial, Pt 30): Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nKnight Tyrant (Chaos, Pt 30): Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one. Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance and variant when including this unit (see Abilities)."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Castellan (Imperial): equipped with Plasma Decimator, 2 Shieldbreaker Missiles, 2 Twin Meltaguns, 2 Twin Siegebreaker Cannons, Volcano Lance, Titanic Feet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Tyrant (Chaos, default): same as Castellan loadout."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles."
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon (Tyrant / Valiant-style loadout)."
-        }
-      ],
-      "no": 8,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 9,
+      "type": "Elites",
       "name": "Knight Rampager",
       "stats": {
         "M": "12\"",
@@ -974,11 +889,36 @@
         "N": "1",
         "Pt": "19"
       },
+      "abilities": "Select allegiance and variant when including this unit.\nKnight Rampager (Chaos, Pt 19): equipped with Heavy Stubber, Reaper Chainsword, Thunderstrike Gauntlet.\nKnight Gallant (Imperial, Pt 24): equipped with Heavy Stubber, Thunderstrike Gauntlet, Reaper Chainsword.\n• Knight Gallant can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.\n• Instead of 1 Heavy Stubber, Knight Gallant can be equipped with 1 Meltagun.",
       "keywords": [
         "Knights",
         "Super-heavy",
         "Titanic",
         "Vehicle"
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "2+",
+          "BS": "3+",
+          "A": "4",
+          "W": "5",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "24"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Knight Gallant can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
+          "Pt": "1"
+        },
+        {
+          "per": "Per Unit",
+          "text": "• Instead of 1 Heavy Stubber, Knight Gallant can be equipped with 1 Meltagun."
+        }
       ],
       "weapons": [
         {
@@ -1041,45 +981,7 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "2+",
-          "BS": "3+",
-          "A": "4",
-          "W": "5",
-          "Ld": "7",
-          "Sv": "5+",
-          "N": "1",
-          "Pt": "24"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Select allegiance and variant when including this unit."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Rampager (Chaos, Pt 19): equipped with Heavy Stubber, Reaper Chainsword, Thunderstrike Gauntlet."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Gallant (Imperial, Pt 24): equipped with Heavy Stubber, Thunderstrike Gauntlet, Reaper Chainsword."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Knight Gallant can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "• Instead of 1 Heavy Stubber, Knight Gallant can be equipped with 1 Meltagun."
-        }
-      ],
-      "no": 9,
-      "type": "Elites"
+      ]
     }
   ]
 }

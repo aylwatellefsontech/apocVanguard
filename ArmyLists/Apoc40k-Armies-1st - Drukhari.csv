@@ -17,10 +17,8 @@ Light, Infantry, Character, Haemonculus",
 No Escape: If an Infantry unit within 1"" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.","Aeldari, Drukhari, <Wych Cult>
 Light, Infantry, Character, Succubus",
 4,,,,,,,,,,,,Wych Cult Weapons,Melee,Melee,User,8+,9+,,,
-5,Troops,Kabalite Warriors,"7""",3+,3+,1,1,6,10+,5,2,,,,,,,,"Aeldari, Drukhari, <Kabal>, Kabalite Warriors
+5,Troops,Kabalite Warriors,"7""",3+,3+,2,2,6,10+,10,4,,,,,,,,"Aeldari, Drukhari, <Kabal>, Kabalite Warriors
 Light, Infantry","per weapon (Power Rating +1 per weapon): For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon."
-5,,,"7""",3+,3+,2,2,6,10+,10,4,,,,,,,,,
-5,,,"7""",3+,3+,3,3,6,10+,15,6,,,,,,,,,
 5,,,"7""",3+,3+,4,4,6,10+,20,8,,,,,,,,,
 5,,,,,,,,,,,,,,,,,,"For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",,
 5,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
@@ -29,7 +27,6 @@ Light, Infantry","per weapon (Power Rating +1 per weapon): For every 10 models t
 5,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,9+,,,
 6,Troops,Wyches,"9""",3+,3+,1,1,6,8+,5,2,,,,,,,"No Escape: If an Infantry unit within 1"" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.","Aeldari, Drukhari, <Wych Cult>
 Light, Infantry, Wyches",
-6,,,"9""",3+,3+,2,2,6,8+,10,4,,,,,,,,,
 6,,,"9""",3+,3+,3,3,6,8+,15,6,,,,,,,,,
 6,,,"9""",3+,3+,4,4,6,8+,20,8,,,,,,,,,
 6,,,,,,,,,,,,Splinter Pistols,Small Arms,"12""",User,5+,12+,,,
@@ -83,6 +80,7 @@ Light, Infantry, Fly, Scourges",per 10 models (Power Rating 10): It can contain 
 14,,,,,,,,,,,,,,,,,,Scourges with Shard Carbines are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Shardcarbines; Close Combat Weapons.,,
 14,,,,,,,,,,,,Shardcarbines,Small Arms,"18""",x2,5+,12+,,,
 14,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,7+,9+,,,
+14,,,,,,,,,,,,Splinter Rifles,Small Arms,"24""",1,5+,12+,Rapid Fire,,
 15,Fast,Clawed Fiends,"10""",4+,-,1,1,4,9+,1,2,,,,,,,"Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.","Aeldari, Drukhari
 Light, Beast, Clawed Fiends",
 15,,,"10""",4+,-,3,3,4,9+,3,5,,,,,,,,,
@@ -95,13 +93,10 @@ Light, Infantry, Fly, Skyboard, Hellions",
 16,,,"14""",3+,3+,4,4,6,9+,20,17,,,,,,,,,
 16,,,,,,,,,,,,Splinter Pods,Small Arms,"18""",x2,5+,12+,,,
 16,,,,,,,,,,,,Hellglaives,Melee,Melee,x2,6+,8+,,,
-17,Fast,Khymerae,"10""",3+,-,1,1,4,9+,2,1,,,,,,,,"Aeldari, Drukhari, Daemon
+17,Fast,Khymerae,"10""",3+,-,1,1,4,9+,4,1,,,,,,,,"Aeldari, Drukhari, Daemon
 Light, Beast, Khymerae",
-17,,,"10""",3+,-,2,2,4,9+,4,2,,,,,,,,,
-17,,,"10""",3+,-,3,3,4,9+,6,3,,,,,,,,,
-17,,,"10""",3+,-,4,4,4,9+,8,4,,,,,,,,,
-17,,,"10""",3+,-,5,5,4,9+,10,5,,,,,,,,,
-17,,,"10""",3+,-,6,6,4,9+,12,6,,,,,,,,,
+17,,,"10""",3+,-,2,2,4,9+,8,2,,,,,,,,,
+17,,,"10""",3+,-,3,3,4,9+,12,3,,,,,,,,,
 17,,,,,,,,,,,,Claws & Talons,Melee,Melee,User,7+,9+,,,
 18,Fast,Razorwing Flocks,"12""",4+,-,2,1,4,10+,3,2,,,,,,,,"Aeldari, Drukhari
 Light, Beast, Fly, Swarm, Razorwing Flocks",
@@ -139,11 +134,11 @@ Heavy, Vehicle, Fly, Reaper",
 22,,,,,,,,,,,,,,,,,,A Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes.,,
 22,,,,,,,,,,,,Storm Vortex Projector,Heavy,"36""",3,7+,7+,,,
 22,,,,,,,,,,,,Bladevanes,Melee,Melee,User,10+,11+,,,
-23,Heavy,Scourges with Heavy Weapons,"14""",3+,3+,1,1,6,7+,5,4,,,,,,,Deep Strike,"Aeldari, Drukhari
-Light, Infantry, Fly, Scourges",per 10 models (Power Rating 10): It can contain 10 models (Power Rating 10); per Unit (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
-23,,,"14""",3+,3+,2,2,6,7+,10,10,,,,,,,,,
+23,Heavy,Scourges with Heavy Weapons,"14""",3+,3+,1,1,6,7+,5,6,,,,,,,Deep Strike,"Aeldari, Drukhari
+Light, Infantry, Fly, Scourges",per 10 models (Power Rating 10): It can contain 10 models (Power Rating 10); per Unit: This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
+23,,,"14""",3+,3+,2,2,6,7+,10,12,,,,,,,,,
 23,,,,,,,,,,,,,,,,,,Scourges with Heavy Weapons are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Close Combat Weapons.,,
-23,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.,,
+23,,,,,,,,,,,,,,,,,,This unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.,,
 23,,,,,,,,,,,,Blaster,Heavy,"18""",1,10+,5+,,,
 23,,,,,,,,,,,,Dark Lance,Heavy,"36""",1,10+,5+,,,
 23,,,,,,,,,,,,Haywire Blaster,Heavy,"24""",1,12+,4+,,,

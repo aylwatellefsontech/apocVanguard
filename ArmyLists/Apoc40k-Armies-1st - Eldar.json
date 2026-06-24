@@ -564,23 +564,23 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "8",
+          "Pt": "3"
+        },
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
           "A": "4",
           "W": "4",
           "Ld": "5",
           "Sv": "10+",
           "N": "16",
           "Pt": "6"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "5",
-          "Sv": "10+",
-          "N": "24",
-          "Pt": "9"
         }
       ],
       "weapons": [
@@ -596,7 +596,7 @@
           "name": "Aeldari Blades",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -653,7 +653,7 @@
           "name": "Power Swords",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "x3",
           "skill": "5+",
           "armorPen": "9+"
         }
@@ -793,8 +793,8 @@
         "W": "3",
         "Ld": "7",
         "Sv": "5+",
-        "N": "5",
-        "Pt": "7"
+        "N": "6",
+        "Pt": "8"
       },
       "abilities": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.",
       "keywords": [
@@ -817,7 +817,7 @@
           "Ld": "7",
           "Sv": "5+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "16"
         }
       ],
       "options": [
@@ -831,7 +831,7 @@
           "name": "Ghostswords",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x4",
+          "attacks": "x3",
           "skill": "6+",
           "armorPen": "7+"
         },
@@ -896,7 +896,7 @@
         "Ld": "7",
         "Sv": "5+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "9"
       },
       "abilities": "Implacable: This unit can still make a Shoot action in a turn in which it Fell Back.",
       "keywords": [
@@ -919,7 +919,7 @@
           "Ld": "7",
           "Sv": "5+",
           "N": "10",
-          "Pt": "15"
+          "Pt": "18"
         }
       ],
       "options": [
@@ -1121,7 +1121,7 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult.",
+      "abilities": "Harrier",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1775,7 +1775,7 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.\nHarrier",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1879,7 +1879,7 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1947,7 +1947,7 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier",
       "keywords": [
         "Aeldari",
         "Asuryani",

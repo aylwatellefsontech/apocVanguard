@@ -3,6 +3,8 @@
   "source": "Apoc40k-Armies-1st - Sisters of Battle.csv",
   "units": [
     {
+      "no": 1,
+      "type": "HQ",
       "name": "Morvenn Vahl",
       "stats": {
         "M": "8\"",
@@ -15,6 +17,7 @@
         "N": "1",
         "Pt": "8"
       },
+      "abilities": "Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6\" of this unit.\nLeader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas Infantry units by 1 whilst they are wholly within 6\" of this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -25,6 +28,12 @@
         "Walker",
         "Character",
         "Morvenn Vahl"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army."
+        }
       ],
       "weapons": [
         {
@@ -52,18 +61,11 @@
           "skill": "6+",
           "armorPen": "6+"
         }
-      ],
-      "abilities": "Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6\" of this unit.\nLeader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas Infantry units by 1 whilst they are wholly within 6\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army."
-        }
-      ],
-      "no": 1,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 2,
+      "type": "HQ",
       "name": "Canoness",
       "stats": {
         "M": "6\"",
@@ -76,6 +78,7 @@
         "N": "1",
         "Pt": "4"
       },
+      "abilities": "Lead the Righteous: Re-roll hit rolls of 1 for attacks made by friendly <Order> units whilst they are within 6\" of this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -95,12 +98,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Lead the Righteous: Re-roll hit rolls of 1 for attacks made by friendly <Order> units whilst they are within 6\" of this unit.",
-      "no": 2,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 3,
+      "type": "HQ",
       "name": "Missionary",
       "stats": {
         "M": "6\"",
@@ -113,6 +115,7 @@
         "N": "1",
         "Pt": "3"
       },
+      "abilities": "War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6\" of any friendly units with this ability.\nWord of the Emperor: Re-roll failed Morale tests taken for Adeptus Ministorum Infantry units whilst within 6\" of any friendly units with this ability.\nLone Mission: No more than one Missionary unit can be included in each Detachment.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -131,12 +134,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6\" of any friendly units with this ability.\nWord of the Emperor: Re-roll failed Morale tests taken for Adeptus Ministorum Infantry units whilst within 6\" of any friendly units with this ability.\nLone Mission: No more than one Missionary unit can be included in each Detachment.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
-      "no": 3,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 4,
+      "type": "HQ",
       "name": "Hospitaller",
       "stats": {
         "M": "6\"",
@@ -149,6 +151,7 @@
         "N": "1",
         "Pt": "2"
       },
+      "abilities": "Medicus Ministorum: At the end of the Action phase, this unit can attempt to heal one friendly Adeptus Ministorum Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -167,12 +170,11 @@
           "skill": "11+",
           "armorPen": "11+"
         }
-      ],
-      "abilities": "Medicus Ministorum: At the end of the Action phase, this unit can attempt to heal one friendly Adeptus Ministorum Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.",
-      "no": 4,
-      "type": "HQ"
+      ]
     },
     {
+      "no": 5,
+      "type": "Troops",
       "name": "Battle Sisters Squad",
       "stats": {
         "M": "6\"",
@@ -180,11 +182,12 @@
         "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "6",
+        "Ld": "7",
         "Sv": "6+",
         "N": "5",
         "Pt": "3"
       },
+      "abilities": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -193,6 +196,26 @@
         "Light",
         "Infantry",
         "Battle Sisters Squad"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -237,42 +260,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "6"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
-          "Pt": "1"
-        }
-      ],
-      "no": 5,
-      "type": "Troops"
+      ]
     },
     {
+      "no": 6,
+      "type": "Troops",
       "name": "Zealots",
       "stats": {
         "M": "6\"",
@@ -281,10 +273,11 @@
         "A": "2",
         "W": "4",
         "Ld": "7",
-        "Sv": "10+",
+        "Sv": "11+",
         "N": "20",
         "Pt": "4"
       },
+      "abilities": "Zealots is a unit that contains 20 models. It can contain 30 models (Power Rating 6). It is equipped with: Autopistols; Close Combat Weapons.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -293,6 +286,26 @@
         "Light",
         "Infantry",
         "Zealots"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "5+",
+          "BS": "5+",
+          "A": "3",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "11+",
+          "N": "30",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 30 models",
+          "text": "It can contain 30 models (Power Rating 6)",
+          "Pt": "6"
+        }
       ],
       "weapons": [
         {
@@ -311,31 +324,11 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "5+",
-          "BS": "5+",
-          "A": "3",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "10+",
-          "N": "30",
-          "Pt": "6"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 30 models",
-          "text": "It can contain 30 models (Power Rating 6)",
-          "Pt": "6"
-        }
-      ],
-      "no": 6,
-      "type": "Troops"
+      ]
     },
     {
+      "no": 7,
+      "type": "Elites",
       "name": "Imagifier",
       "stats": {
         "M": "6\"",
@@ -348,6 +341,7 @@
         "N": "1",
         "Pt": "2"
       },
+      "abilities": "Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it. That Command Asset cannot be played again this turn.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -367,12 +361,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "Simulacrum Imperialis: If any friendly units with this ability are on the battlefield when an Adepta Sororitas Command Asset is played, roll one D12; on a roll of 10+ return that Command Asset to your hand instead of discarding it. That Command Asset cannot be played again this turn.",
-      "no": 7,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 8,
+      "type": "Elites",
       "name": "Celestian Squad",
       "stats": {
         "M": "6\"",
@@ -385,6 +378,7 @@
         "N": "5",
         "Pt": "4"
       },
+      "abilities": "Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nSworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6\" of any friendly <Order> Canoness units.\nThis unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -393,6 +387,26 @@
         "Light",
         "Infantry",
         "Celestian Squad"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -437,32 +451,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nSworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6\" of any friendly <Order> Canoness units.",
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.",
-          "Pt": "1"
-        }
-      ],
-      "no": 8,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 9,
+      "type": "Elites",
       "name": "Celestian Sacrosancts",
       "stats": {
         "M": "6\"",
@@ -471,10 +464,11 @@
         "A": "1",
         "W": "1",
         "Ld": "7",
-        "Sv": "5+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "4"
       },
+      "abilities": "Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models in this unit by 1 against attacks made with melee weapons.\nSworn Protectors: You can re-roll hit rolls for attacks made with melee weapons by this unit whilst it is within 6\" of any friendly <Order> Canoness units.\nCelestian Sacrosancts is a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Anointed Halberds.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -484,17 +478,6 @@
         "Infantry",
         "Celestian Sacrosancts"
       ],
-      "weapons": [
-        {
-          "name": "Anointed Halberds",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
-      ],
-      "abilities": "Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models in this unit by 1 against attacks made with melee weapons.\nSworn Protectors: You can re-roll hit rolls for attacks made with melee weapons by this unit whilst it is within 6\" of any friendly <Order> Canoness units.",
       "profiles": [
         {
           "M": "6\"",
@@ -503,7 +486,7 @@
           "A": "2",
           "W": "2",
           "Ld": "7",
-          "Sv": "5+",
+          "Sv": "6+",
           "N": "10",
           "Pt": "8"
         }
@@ -515,10 +498,20 @@
           "Pt": "8"
         }
       ],
-      "no": 9,
-      "type": "Elites"
+      "weapons": [
+        {
+          "name": "Anointed Halberds",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "8+"
+        }
+      ]
     },
     {
+      "no": 10,
+      "type": "Elites",
       "name": "Dialogus",
       "stats": {
         "M": "6\"",
@@ -531,6 +524,7 @@
         "N": "1",
         "Pt": "1"
       },
+      "abilities": "Laud Hailer: You can re-roll Morale tests taken for friendly Adepta Sororitas units whilst they are within 6\" of this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -549,12 +543,11 @@
           "skill": "11+",
           "armorPen": "11+"
         }
-      ],
-      "abilities": "Laud Hailer: You can re-roll Morale tests taken for friendly Adepta Sororitas units whilst they are within 6\" of this unit.",
-      "no": 10,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 11,
+      "type": "Elites",
       "name": "Preacher",
       "stats": {
         "M": "6\"",
@@ -567,6 +560,7 @@
         "N": "1",
         "Pt": "3"
       },
+      "abilities": "War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6\" of any friendly units with this ability.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -585,12 +579,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "War Hymns: Add 1 to the Attacks characteristic of friendly Adeptus Ministorum Infantry and Astra Militarum Infantry units whilst they are making Fight actions whilst within 6\" of any friendly units with this ability.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
-      "no": 11,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 12,
+      "type": "Elites",
       "name": "Repentia Superior",
       "stats": {
         "M": "6\"",
@@ -603,6 +596,7 @@
         "N": "1",
         "Pt": "3"
       },
+      "abilities": "Driven Onwards: If an <Order> Sisters Repentia unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic whilst making that Move action.\nMistress of the Penitent: This unit does not take up slots in a Detachment that contains any <Order> Sisters Repentia units.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -622,12 +616,11 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "Driven Onwards: If an <Order> Sisters Repentia unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic whilst making that Move action.\nMistress of the Penitent: This unit does not take up slots in a Detachment that contains any <Order> Sisters Repentia units.",
-      "no": 12,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 13,
+      "type": "Elites",
       "name": "Sisters Repentia",
       "stats": {
         "M": "6\"",
@@ -640,6 +633,7 @@
         "N": "4",
         "Pt": "3"
       },
+      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -649,17 +643,6 @@
         "Infantry",
         "Sisters Repentia"
       ],
-      "weapons": [
-        {
-          "name": "Penitent Eviscerators",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "profiles": [
         {
           "M": "6\"",
@@ -673,10 +656,20 @@
           "Pt": "6"
         }
       ],
-      "no": 13,
-      "type": "Elites"
+      "weapons": [
+        {
+          "name": "Penitent Eviscerators",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "8+"
+        }
+      ]
     },
     {
+      "no": 14,
+      "type": "Elites",
       "name": "Crusaders",
       "stats": {
         "M": "6\"",
@@ -689,6 +682,7 @@
         "N": "2",
         "Pt": "1"
       },
+      "abilities": "Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -696,6 +690,30 @@
         "Infantry",
         "Ecclesiarchy Battle Conclave",
         "Crusaders"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "1",
+          "W": "1",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "4",
+          "Pt": "1"
+        },
+        {
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "8",
+          "Pt": "2"
+        }
       ],
       "weapons": [
         {
@@ -706,58 +724,11 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "abilities": "Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "4",
-          "Pt": "2"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "6",
-          "Pt": "3"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "8",
-          "Pt": "4"
-        },
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "5",
-          "W": "5",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "5"
-        }
-      ],
-      "no": 14,
-      "type": "Elites"
+      ]
     },
     {
+      "no": 15,
+      "type": "Elites",
       "name": "Death Cult Assassins",
       "stats": {
         "M": "7\"",
@@ -770,6 +741,7 @@
         "N": "2",
         "Pt": "1"
       },
+      "abilities": "Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -778,18 +750,18 @@
         "Ecclesiarchy Battle Conclave",
         "Death Cult Assassins"
       ],
-      "weapons": [
-        {
-          "name": "Death Cult Power Blades",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ],
-      "abilities": "Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "profiles": [
+        {
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "1",
+          "W": "1",
+          "Ld": "5",
+          "Sv": "9+",
+          "N": "2",
+          "Pt": "1"
+        },
         {
           "M": "7\"",
           "WS": "3+",
@@ -800,45 +772,22 @@
           "Sv": "9+",
           "N": "4",
           "Pt": "2"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "9+",
-          "N": "6",
-          "Pt": "3"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "9+",
-          "N": "8",
-          "Pt": "4"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "5",
-          "W": "5",
-          "Ld": "5",
-          "Sv": "9+",
-          "N": "10",
-          "Pt": "5"
         }
       ],
-      "no": 15,
-      "type": "Elites"
+      "weapons": [
+        {
+          "name": "Death Cult Power Blades",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "8+"
+        }
+      ]
     },
     {
+      "no": 16,
+      "type": "Elites",
       "name": "Arco-flagellants",
       "stats": {
         "M": "6\"",
@@ -851,6 +800,7 @@
         "N": "3",
         "Pt": "2"
       },
+      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.\nEcclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -859,45 +809,44 @@
         "Ecclesiarchy Battle Conclave",
         "Arco-flagellants"
       ],
-      "weapons": [
-        {
-          "name": "Arco-flails",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
-      ],
-      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.\nEcclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.",
       "profiles": [
         {
           "M": "6\"",
           "WS": "4+",
           "BS": "-",
-          "A": "2",
+          "A": "1",
           "W": "1",
           "Ld": "5",
           "Sv": "11+",
           "N": "5",
-          "Pt": "3"
+          "Pt": "2"
         },
         {
           "M": "6\"",
           "WS": "4+",
           "BS": "-",
-          "A": "4",
+          "A": "2",
           "W": "2",
           "Ld": "5",
           "Sv": "11+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "3"
         }
       ],
-      "no": 16,
-      "type": "Elites"
+      "weapons": [
+        {
+          "name": "Arco-flails",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ]
     },
     {
+      "no": 17,
+      "type": "Fast",
       "name": "Dominion Squad",
       "stats": {
         "M": "6\"",
@@ -910,6 +859,7 @@
         "N": "5",
         "Pt": "4"
       },
+      "abilities": "Infiltrators\nThis unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.\nIf this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -918,6 +868,26 @@
         "Light",
         "Infantry",
         "Dominion Squad"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -963,36 +933,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Infiltrators",
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "8"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns."
-        }
-      ],
-      "no": 17,
-      "type": "Fast"
+      ]
     },
     {
+      "no": 18,
+      "type": "Fast",
       "name": "Novitiate Squad",
       "stats": {
         "M": "6\"",
@@ -1005,6 +950,7 @@
         "N": "10",
         "Pt": "6"
       },
+      "abilities": "Infiltrators",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1013,6 +959,12 @@
         "Light",
         "Infantry",
         "Novitiate Squad"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons."
+        }
       ],
       "weapons": [
         {
@@ -1032,18 +984,11 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Infiltrators",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons."
-        }
-      ],
-      "no": 18,
-      "type": "Fast"
+      ]
     },
     {
+      "no": 19,
+      "type": "Fast",
       "name": "Sanctifiers",
       "stats": {
         "M": "6\"",
@@ -1056,6 +1001,7 @@
         "N": "10",
         "Pt": "6"
       },
+      "abilities": "Infiltrators\nPurge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that target Infantry units.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1063,6 +1009,12 @@
         "Light",
         "Infantry",
         "Sanctifiers"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons."
+        }
       ],
       "weapons": [
         {
@@ -1082,18 +1034,11 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Infiltrators\nPurge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that target Infantry units.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons."
-        }
-      ],
-      "no": 19,
-      "type": "Fast"
+      ]
     },
     {
+      "no": 20,
+      "type": "Fast",
       "name": "Seraphim Squad",
       "stats": {
         "M": "12\"",
@@ -1102,10 +1047,11 @@
         "A": "1",
         "W": "1",
         "Ld": "6",
-        "Sv": "5+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "5"
       },
+      "abilities": "Deep Strike",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1116,6 +1062,19 @@
         "Fly",
         "Jump Pack",
         "Seraphim Squad"
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "9"
+        }
       ],
       "weapons": [
         {
@@ -1134,25 +1093,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Deep Strike",
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "10",
-          "Pt": "9"
-        }
-      ],
-      "no": 20,
-      "type": "Fast"
+      ]
     },
     {
+      "no": 21,
+      "type": "Fast",
       "name": "Zephyrim Squad",
       "stats": {
         "M": "12\"",
@@ -1161,10 +1106,11 @@
         "A": "1",
         "W": "1",
         "Ld": "7",
-        "Sv": "5+",
+        "Sv": "6+",
         "N": "5",
         "Pt": "5"
       },
+      "abilities": "Deep Strike",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1175,6 +1121,19 @@
         "Jump Pack",
         "Fly",
         "Zephyrim Squad"
+      ],
+      "profiles": [
+        {
+          "M": "12\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "10"
+        }
       ],
       "weapons": [
         {
@@ -1189,29 +1148,15 @@
           "name": "Zephyrim Power Swords",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "x2",
           "skill": "5+",
           "armorPen": "9+"
         }
-      ],
-      "abilities": "Deep Strike",
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "5+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
-      "no": 21,
-      "type": "Fast"
+      ]
     },
     {
+      "no": 22,
+      "type": "Heavy",
       "name": "Retributor Squad",
       "stats": {
         "M": "6\"",
@@ -1224,6 +1169,7 @@
         "N": "5",
         "Pt": "3"
       },
+      "abilities": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.\nIf this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1232,6 +1178,26 @@
         "Light",
         "Infantry",
         "Retributor Squad"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per weapon",
+          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1276,35 +1242,11 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "6"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns."
-        }
-      ],
-      "no": 22,
-      "type": "Heavy"
+      ]
     },
     {
+      "no": 23,
+      "type": "Heavy",
       "name": "Exorcist",
       "stats": {
         "M": "12\"",
@@ -1317,6 +1259,7 @@
         "N": "1",
         "Pt": "7"
       },
+      "abilities": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1325,6 +1268,12 @@
         "Heavy",
         "Vehicle",
         "Exorcist"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
+        }
       ],
       "weapons": [
         {
@@ -1351,17 +1300,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets."
-        }
-      ],
-      "no": 23,
-      "type": "Heavy"
+      ]
     },
     {
+      "no": 24,
+      "type": "Heavy",
       "name": "Immolator",
       "stats": {
         "M": "12\"",
@@ -1374,6 +1317,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.\nInstead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1383,6 +1327,12 @@
         "Vehicle",
         "Transport",
         "Immolator"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        }
       ],
       "weapons": [
         {
@@ -1418,18 +1368,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
-        }
-      ],
-      "no": 24,
-      "type": "Heavy"
+      ]
     },
     {
+      "no": 25,
+      "type": "Heavy",
       "name": "Mortifiers",
       "stats": {
         "M": "9\"",
@@ -1442,6 +1385,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "Ignore Damage (6+)\nFor each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1450,34 +1394,6 @@
         "Vehicle",
         "Mortifiers"
       ],
-      "weapons": [
-        {
-          "name": "Heavy Bolter",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Mortifier Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
-      ],
-      "abilities": "Ignore Damage (6+)",
       "profiles": [
         {
           "M": "9\"",
@@ -1519,10 +1435,37 @@
           "text": "For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer."
         }
       ],
-      "no": 25,
-      "type": "Heavy"
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Mortifier Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ]
     },
     {
+      "no": 26,
+      "type": "Heavy",
       "name": "Penitent Engines",
       "stats": {
         "M": "7\"",
@@ -1535,6 +1478,7 @@
         "N": "1",
         "Pt": "4"
       },
+      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.\nFor each model this unit contains, it must also be equipped with 2 Heavy Flamers.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1542,26 +1486,6 @@
         "Vehicle",
         "Penitent Engines"
       ],
-      "weapons": [
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Penitent Engine Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
-      ],
-      "abilities": "Ignore Damage (6+)\nZealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.",
       "profiles": [
         {
           "M": "7\"",
@@ -1603,10 +1527,29 @@
           "text": "For each model this unit contains, it must also be equipped with 2 Heavy Flamers."
         }
       ],
-      "no": 26,
-      "type": "Heavy"
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "type": "Heavy",
+          "range": "8\"",
+          "attacks": "1",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Inferno"
+        },
+        {
+          "name": "Penitent Engine Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
+      ]
     },
     {
+      "no": 27,
+      "type": "Heavy",
       "name": "Castigator",
       "stats": {
         "M": "12\"",
@@ -1619,6 +1562,7 @@
         "N": "1",
         "Pt": "6"
       },
+      "abilities": "A Castigator is a unit that contains 1 model. It is equipped with: Castigator Autocannons; 3 Heavy Bolters; Armoured Tracks.\nInstead of 1 Castigator Autocannons, this unit can be equipped with 1 Castigator Battle Cannon.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1627,6 +1571,12 @@
         "Heavy",
         "Vehicle",
         "Castigator"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Castigator Autocannons, this unit can be equipped with 1 Castigator Battle Cannon."
+        }
       ],
       "weapons": [
         {
@@ -1662,21 +1612,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Castigator is a unit that contains 1 model. It is equipped with: Castigator Autocannons; 3 Heavy Bolters; Armoured Tracks."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Castigator Autocannons, this unit can be equipped with 1 Castigator Battle Cannon."
-        }
-      ],
-      "no": 27,
-      "type": "Heavy"
+      ]
     },
     {
+      "no": 28,
+      "type": "Heavy",
       "name": "Paragon Warsuits",
       "stats": {
         "M": "8\"",
@@ -1689,6 +1629,7 @@
         "N": "3",
         "Pt": "9"
       },
+      "abilities": "Righteous Paragons: Re-roll hit rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.\nParagon Warsuits is a unit that contains 3 models. Every model is equipped with: Heavy Bolter; Paragon Storm Bolters; Paragon War Blade.\nAny model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1697,6 +1638,13 @@
         "Vehicle",
         "Walker",
         "Paragon Warsuits"
+      ],
+      "options": [
+        {
+          "per": "Per model",
+          "text": "Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).",
+          "Pt": "1"
+        }
       ],
       "weapons": [
         {
@@ -1729,38 +1677,14 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "5+",
-          "armorPen": "6+"
-        },
-        {
-          "name": "Paragon War Mace",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
           "skill": "6+",
           "armorPen": "6+"
         }
-      ],
-      "abilities": "Righteous Paragons: Re-roll hit rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Paragon Warsuits is a unit that contains 3 models. Every model is equipped with: Heavy Bolter; Paragon Storm Bolters; Paragon War Blade."
-        },
-        {
-          "per": "Per model",
-          "text": "Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Any model can have its Paragon War Blade replaced with 1 Paragon War Mace."
-        }
-      ],
-      "no": 28,
-      "type": "Heavy"
+      ]
     },
     {
+      "no": 29,
+      "type": "Transport",
       "name": "Immolator",
       "stats": {
         "M": "12\"",
@@ -1773,6 +1697,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.\nInstead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1782,6 +1707,12 @@
         "Vehicle",
         "Transport",
         "Immolator"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
+        }
       ],
       "weapons": [
         {
@@ -1817,18 +1748,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta."
-        }
-      ],
-      "no": 29,
-      "type": "Transport"
+      ]
     },
     {
+      "no": 30,
+      "type": "Transport",
       "name": "Sororitas Rhino",
       "stats": {
         "M": "12\"",
@@ -1841,6 +1765,7 @@
         "N": "1",
         "Pt": "5"
       },
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1870,12 +1795,11 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
-      "no": 30,
-      "type": "Transport"
+      ]
     },
     {
+      "no": 31,
+      "type": "Transport",
       "name": "Repressor",
       "stats": {
         "M": "12\"",
@@ -1888,6 +1812,7 @@
         "N": "1",
         "Pt": "7"
       },
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1897,6 +1822,12 @@
         "Vehicle",
         "Transport",
         "Repressor"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Flamer; Storm Bolter; Dozer Ram."
+        }
       ],
       "weapons": [
         {
@@ -1925,18 +1856,11 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Flamer; Storm Bolter; Dozer Ram."
-        }
-      ],
-      "no": 31,
-      "type": "Transport"
+      ]
     },
     {
+      "no": 32,
+      "type": "Lord",
       "name": "Celestine & Geminae",
       "stats": {
         "M": "12\"",
@@ -1949,6 +1873,7 @@
         "N": "3",
         "Pt": "14"
       },
+      "abilities": "Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6\" of this unit.\nMiraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.\nLifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.",
       "keywords": [
         "Imperium",
         "Adeptus Ministorum",
@@ -1960,6 +1885,12 @@
         "Jump Pack",
         "Celestine",
         "Geminae Superia"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army."
+        }
       ],
       "weapons": [
         {
@@ -1979,16 +1910,7 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "abilities": "Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6\" of this unit.\nMiraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.\nLifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army."
-        }
-      ],
-      "no": 32,
-      "type": "Lord"
+      ]
     }
   ]
 }
