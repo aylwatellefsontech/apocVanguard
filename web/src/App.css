@@ -1489,6 +1489,10 @@
   display: none;
 }
 
+.build-mobile-bar {
+  display: none;
+}
+
 .mobile-roster-fab {
   display: none;
 }
@@ -1674,6 +1678,63 @@
     background: var(--code-bg);
   }
 
+  .build-mobile-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--code-bg);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+
+  .build-mobile-bar-start {
+    flex: 0 0 auto;
+    width: 36px;
+  }
+
+  .build-mobile-bar-stats {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .build-mobile-points {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent);
+    line-height: 1.2;
+  }
+
+  .build-mobile-count {
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  .build-mobile-toggle {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    border: 1px solid var(--accent-border);
+    border-radius: 8px;
+    background: var(--accent-bg);
+    color: var(--text-h);
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .build-mobile-toggle:hover {
+    border-color: var(--accent);
+  }
+
   .mobile-back-btn {
     flex: 0 0 auto;
     padding: 6px 10px;
@@ -1694,24 +1755,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-
-  .mobile-roster-fab {
-    display: block;
-    position: fixed;
-    right: 16px;
-    bottom: 16px;
-    z-index: 50;
-    padding: 12px 16px;
-    border: 1px solid var(--accent-border);
-    border-radius: 999px;
-    background: var(--accent-bg);
-    color: var(--text-h);
-    font: inherit;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   }
 
   .app-body.mobile-layout .faction-panel,

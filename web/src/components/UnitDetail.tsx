@@ -35,6 +35,8 @@ interface UnitDetailProps {
   selectedOptionIndexes?: number[]
   optionProfileStats?: UnitStats | null
   emptyMessage?: string
+  showProfilePicker?: boolean
+  editingProfileLabel?: string | null
 }
 
 export default function UnitDetail({
@@ -44,6 +46,8 @@ export default function UnitDetail({
   selectedOptionIndexes,
   optionProfileStats,
   emptyMessage = 'Select a unit to view its datasheet.',
+  showProfilePicker = true,
+  editingProfileLabel = null,
 }: UnitDetailProps) {
   if (!unit) {
     return (
@@ -53,7 +57,8 @@ export default function UnitDetail({
     )
   }
 
-  const profiles = onAddProfile ? getUnitProfiles(unit) : null
+  const profiles = onAddProfile && showProfilePicker ? getUnitProfiles(unit) : null
+  const editingStats = editingProfileLabel ? optionProfileStats : null
 
   return (
     <div className="unit-detail">
@@ -72,6 +77,8 @@ export default function UnitDetail({
             ))}
           </div>
         </section>
+      ) : editingStats ? (
+        <StatsTable stats={editingStats} label={editingProfileLabel ?? 'Profile'} />
       ) : (
         <>
           <StatsTable stats={unit.stats} label="Primary Profile" />

@@ -1,8 +1,8 @@
 import { useMemo, useRef, useState } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import ArmyCardSummary from '../components/ArmyCardSummary'
+import BuildArmyMobileBar from '../components/BuildArmyMobileBar'
 import CardDetail from '../components/CardDetail'
-import MobileBackBar from '../components/MobileBackBar'
 import RosterEntrySummary from '../components/RosterEntrySummary'
 import UnitDetail from '../components/UnitDetail'
 import { MAX_SAVED_ARMIES } from '../constants'
@@ -78,6 +78,21 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   const [saveMessage, setSaveMessage] = useState<SaveMessage | null>(null)
   const isMobile = useMediaQuery(MOBILE_QUERY)
   const [mobilePanel, setMobilePanel] = useState<BuildMobilePanel>('factions')
+  const [isEditingRosterEntry, setIsEditingRosterEntry] = useState(false)
+  const lastAddPanelRef = useRef<Exclude<BuildMobilePanel, 'roster'>>('factions')
+
+  function exitRosterEditMode() {
+    setSelectedRosterEntryId(null)
+    setIsEditingRosterEntry(false)
+  }
+
+  function handleSelectUnitFromList(unitNo: number) {
+    setSelectedUnitNo(unitNo)
+    exitRosterEditMode()
+    if (isMobile) {
+      setMobilePanel('detail')
+    }
+  }
 
   function handleSelectFaction(factionId: string) {
     setBuildMode('army')
@@ -85,6 +100,7 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSelectedCardFac(null)
     setSelectedUnitNo(null)
     setSelectedRosterEntryId(null)
+    setIsEditingRosterEntry(false)
     setSelectedCardId(null)
     setSearch('')
     if (isMobile) {
@@ -97,6 +113,7 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSelectedCardFac(fac)
     setSelectedUnitNo(null)
     setSelectedRosterEntryId(null)
+    setIsEditingRosterEntry(false)
     setSelectedCardId(null)
     setSearch('')
     if (isMobile) {
@@ -181,12 +198,18 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setRoster((current) => [...current, entry])
     setSelectedRosterEntryId(entry.id)
     setSelectedUnitNo(unit.no)
+    setIsEditingRosterEntry(true)
     setSaveMessage(null)
   }
 
   function handleSelectRosterEntry(entry: RosterEntry) {
     setSelectedRosterEntryId(entry.id)
     setSelectedUnitNo(entry.unitNo)
+    setIsEditingRosterEntry(true)
+    setBuildMode('army')
+    if (isMobile) {
+      setMobilePanel('detail')
+    }
   }
 
   function handleToggleOption(optionIndex: number, option: UnitOption) {
@@ -246,6 +269,7 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setArmyName('')
     setEditingArmyId(null)
     setSelectedRosterEntryId(null)
+    setIsEditingRosterEntry(false)
     setSelectedCardId(null)
     setSaveMessage(null)
   }
@@ -307,6 +331,29 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     ? `build-body mobile-layout mobile-panel-${mobilePanel}`
     : 'build-body'
 
+  function handleMobileBack() {
+    if (mobilePanel === 'detail') {
+      exitRosterEditMode()
+      setMobilePanel('list')
+      return
+    }
+    if (mobilePanel === 'list') {
+      setMobilePanel('factions')
+    }
+  }
+
+  function handleMobileToggleView() {
+    if (mobilePanel === 'roster') {
+      setMobilePanel(lastAddPanelRef.current)
+      return
+    }
+    lastAddPanelRef.current = mobilePanel
+    setMobilePanel('roster')
+  }
+
+  const editingRosterEntry = Boolean(isEditingRosterEntry && canEditOptions)
+  const editingFromRoster = Boolean(isMobile && mobilePanel === 'detail' && editingRosterEntry)
+
   return (
     <>
       <header className="app-header">
@@ -318,24 +365,15 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
 
       {error && <p className="error-banner">{error}</p>}
 
-      {isMobile && mobilePanel === 'list' && (
-        <MobileBackBar
-          label={buildMode === 'cards' ? 'Cards' : 'Units'}
-          onBack={() => setMobilePanel('factions')}
+      {isMobile && (
+        <BuildArmyMobileBar
+          mobilePanel={mobilePanel}
+          totalPoints={totalPoints}
+          unitCount={roster.length}
+          cardCount={armyCards.length}
+          onBack={handleMobileBack}
+          onToggleView={handleMobileToggleView}
         />
-      )}
-      {isMobile && mobilePanel === 'detail' && (
-        <MobileBackBar
-          label={
-            buildMode === 'cards'
-              ? (selectedCard?.name ?? 'Card')
-              : (selectedUnit?.name ?? 'Unit')
-          }
-          onBack={() => setMobilePanel('list')}
-        />
-      )}
-      {isMobile && mobilePanel === 'roster' && (
-        <MobileBackBar label="Your Army" onBack={() => setMobilePanel('factions')} />
       )}
 
       <div className={mobileBuildClass}>
@@ -436,12 +474,7 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                                 className={
                                   unit.no === activeUnitNo ? 'unit-btn active' : 'unit-btn'
                                 }
-                                onClick={() => {
-                                  setSelectedUnitNo(unit.no)
-                                  if (isMobile) {
-                                    setMobilePanel('detail')
-                                  }
-                                }}
+                                onClick={() => handleSelectUnitFromList(unit.no)}
                               >
                                 <span className="unit-name">{unit.name}</span>
                                 <span className="unit-pts">{unit.stats?.Pt} Pt</span>
@@ -545,14 +578,22 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                 <UnitDetail
                   unit={selectedUnit}
                   onAddProfile={handleAddProfile}
-                  onToggleOption={canEditOptions ? handleToggleOption : undefined}
+                  onToggleOption={editingRosterEntry ? handleToggleOption : undefined}
                   selectedOptionIndexes={
-                    canEditOptions
+                    editingRosterEntry
                       ? selectedRosterEntry!.selectedOptions.map((option) => option.index)
                       : []
                   }
                   optionProfileStats={optionProfileStats}
-                  emptyMessage="Select a unit to add profiles to your army."
+                  emptyMessage={
+                    editingFromRoster
+                      ? 'Loading unit datasheet…'
+                      : 'Select a unit to add profiles to your army.'
+                  }
+                  showProfilePicker={!editingFromRoster}
+                  editingProfileLabel={
+                    editingFromRoster ? (selectedRosterEntry?.profileLabel ?? null) : null
+                  }
                 />
               )}
             </section>
@@ -666,16 +707,6 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
           </section>
         </aside>
       </div>
-
-      {isMobile && mobilePanel !== 'roster' && (
-        <button
-          type="button"
-          className="mobile-roster-fab"
-          onClick={() => setMobilePanel('roster')}
-        >
-          Army · {totalPoints} Pt
-        </button>
-      )}
     </>
   )
 }
