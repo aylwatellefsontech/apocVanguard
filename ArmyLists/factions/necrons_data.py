@@ -141,7 +141,7 @@ NECRONS = {
     ),
     "Doom Scythe": u(
         "Doom Scythe",
-        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "15"},
+        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "9"},
         ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Aircraft", "Doom Scythe"],
         [
             {"name": "Death Ray", "type": "Heavy", "range": "24\"", "attacks": "1", "skill": "8+", "armorPen": "4+", "abilities": "Destroyer"},
@@ -282,7 +282,7 @@ NECRONS = {
     ),
     "Night Scythe": u(
         "Night Scythe",
-        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "12"},
+        {"M": "20\"-60\"", "WS": "6+", "BS": "3+", "A": "1", "W": "2", "Ld": "8", "Sv": "6+", "N": "1", "Pt": "7"},
         ["Necrons", "<Dynasty>", "Heavy", "Vehicle", "Fly", "Aircraft", "Night Scythe"],
         [
             {"name": "Tesla Destructor", "type": "Heavy", "range": "24\"", "attacks": "2", "skill": "6+", "armorPen": "8+"},

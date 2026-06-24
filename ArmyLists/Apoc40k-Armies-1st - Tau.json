@@ -366,12 +366,12 @@
       "type": "Troops",
       "name": "Kroot Carnivores",
       "stats": {
-        "M": "7\"",
+        "M": "6\"",
         "WS": "3+",
         "BS": "4+",
-        "A": "1",
+        "A": "2",
         "W": "2",
-        "Ld": "4",
+        "Ld": "5",
         "Sv": "10+",
         "N": "10",
         "Pt": "4"
@@ -386,12 +386,12 @@
       ],
       "profiles": [
         {
-          "M": "7\"",
+          "M": "6\"",
           "WS": "3+",
           "BS": "4+",
-          "A": "2",
+          "A": "4",
           "W": "4",
-          "Ld": "4",
+          "Ld": "5",
           "Sv": "10+",
           "N": "20",
           "Pt": "7"
@@ -410,15 +410,15 @@
           "type": "Small Arms",
           "range": "24\"",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+",
+          "skill": "8+",
+          "armorPen": "10+",
           "abilities": "Rapid Fire"
         },
         {
           "name": "Kroot Rifles (Melee)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         }
@@ -1521,8 +1521,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "8+",
+          "armorPen": "10+"
         }
       ]
     },
@@ -2334,7 +2334,7 @@
         "Ld": "4",
         "Sv": "8+",
         "N": "1",
-        "Pt": "9"
+        "Pt": "6"
       },
       "abilities": "Supersonic\nAn AX3 Razorshark Strike Fighter is a unit that contains 1 model. It is equipped with: Burst Cannon; Quad Ion Turret; Armoured Hull.\nInstead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod.",
       "keywords": [
@@ -2401,7 +2401,7 @@
         "Ld": "4",
         "Sv": "7+",
         "N": "1",
-        "Pt": "8"
+        "Pt": "5"
       },
       "abilities": "Supersonic\nBombing Run: When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.\nAn AX39 Sun Shark Bomber is a unit that contains 1 model. It is equipped with: Ion Rifles; Missile Pod; Armoured Hull.\nThis unit can also be equipped with 1 Missile Pod (Power Rating +1).",
       "keywords": [

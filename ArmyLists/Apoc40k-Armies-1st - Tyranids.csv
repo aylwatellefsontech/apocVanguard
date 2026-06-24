@@ -46,12 +46,12 @@ Light, Infantry, Synapse Creature, Tyranid Warriors","per 6 models (Power Rating
 5,,,,,,,,,,,,Venom Cannon,Heavy,"36""",1,9+,7+,,,
 5,,,,,,,,,,,,Ranged Bio-weapons,Small Arms,"24""",User,7+,9+,,,
 5,,,,,,,,,,,,Melee Bio-weapons,Melee,Melee,User,7+,7+,,,
-6,Troops,Hormagaunts,"9""",4+,4+,2,2,4,10+,10,2,,,,,,,"Hungering Swarm: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
+6,Troops,Hormagaunts,"9""",4+,4+,2,2,4,10+,10,2,,,,,,,"Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.","Tyranids, Tyranid Hive Fleets, <Hive Fleet>
 Light, Infantry, Hormagaunts",per 20 models (Power Rating 4): It can contain 20 models (Power Rating 4); per 30 models (Power Rating 7): 30 models (Power Rating 7)
-6,,,"9""",4+,4+,4,4,4,10+,20,4,,,,,,,,,
+6,,,"9""",4+,4+,4,4,4,10+,20,5,,,,,,,,,
 6,,,"9""",4+,4+,6,6,4,10+,30,7,,,,,,,,,
 6,,,,,,,,,,,,,,,,,,Hormagaunts are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Scything Talons.,,
-6,,,,,,,,,,,,Scything Talons,Melee,Melee,x2,7+,9+,,,
+6,,,,,,,,,,,,Scything Talons,Melee,Melee,User,6+,9+,,,
 7,Troops,Ripper Swarms,"6""",5+,5+,2,2,4,11+,3,2,,,,,,,Deep Strike,"Tyranids, Tyranid Hive Fleets, <Hive Fleet>
 Light, Swarm, Rippers",per 6 models (Power Rating 4): It can contain 6 models (Power Rating 4); per 9 models (Power Rating 6): 9 models (Power Rating 6)
 7,,,"6""",5+,5+,4,4,4,11+,6,4,,,,,,,,,

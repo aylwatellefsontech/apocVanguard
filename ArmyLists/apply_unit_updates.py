@@ -148,8 +148,8 @@ def apply_imperial_guard(rows):
     update_weapon(rows, 32, "Commissar Weapons", SAP="10+", SAT="11+")
     set_stats(header_row(rows, 27), A="1", W="2", N="5", Pt="3")
     rows[:] = set_profiles(rows, 27, [{"M": '10"', "WS": "4+", "BS": "4+", "A": "2", "W": "4", "Ld": "5", "Sv": "10+", "N": "10", "Pt": "6"}])
-    for no in (15, 16, 24):
-        set_stats(header_row(rows, no), Sv="7+", Pt=str(int(header_row(rows, no)["Pt"]) - 1))
+    for no, pt in ((15, "5"), (16, "5"), (24, "6")):
+        set_stats(header_row(rows, no), Sv="7+", Pt=pt)
     set_stats(header_row(rows, 21), W="3", Pt="11")
     update_weapon(rows, 12, "Ripper Guns", SAP="7+", SAT="9+")
     update_weapon(rows, 12, "Ripper Gun Stocks", SAP="7+", SAT="9+")
@@ -183,12 +183,11 @@ def apply_sisters(rows):
     set_stats(header_row(rows, 9), Sv="6+")
     for r in profile_rows(rows, 9):
         r["Sv"] = "6+"
-    rows[:] = remove_profiles(rows, 14, ["4", "8"])
-    rows[:] = set_profiles(rows, 14, [{"M": '6"', "WS": "3+", "BS": "4+", "A": "1", "W": "1", "Ld": "5", "Sv": "6+", "N": "4", "Pt": "1"},
-                                      {"M": '6"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "6+", "N": "8", "Pt": "2"}])
-    rows[:] = remove_profiles(rows, 15, ["2", "4"])
-    rows[:] = set_profiles(rows, 15, [{"M": '7"', "WS": "3+", "BS": "4+", "A": "1", "W": "1", "Ld": "5", "Sv": "9+", "N": "2", "Pt": "1"},
-                                      {"M": '7"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "9+", "N": "4", "Pt": "2"}])
+    rows[:] = remove_profiles(rows, 14, ["8"])
+    set_stats(header_row(rows, 14), M='6"', WS="3+", BS="4+", A="1", W="1", Ld="5", Sv="6+", N="4", Pt="1")
+    rows[:] = set_profiles(rows, 14, [{"M": '6"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "6+", "N": "8", "Pt": "2"}])
+    set_stats(header_row(rows, 15), M='7"', WS="3+", BS="4+", A="1", W="1", Ld="5", Sv="9+", N="2", Pt="1")
+    rows[:] = set_profiles(rows, 15, [{"M": '7"', "WS": "3+", "BS": "4+", "A": "2", "W": "2", "Ld": "5", "Sv": "9+", "N": "4", "Pt": "2"}])
     rows[:] = remove_profiles(rows, 16, ["5", "10"])
     rows[:] = set_profiles(rows, 16, [{"M": '6"', "WS": "4+", "BS": "-", "A": "1", "W": "1", "Ld": "5", "Sv": "11+", "N": "5", "Pt": "2"},
                                       {"M": '6"', "WS": "4+", "BS": "-", "A": "2", "W": "2", "Ld": "5", "Sv": "11+", "N": "10", "Pt": "3"}])
@@ -216,16 +215,22 @@ def sm_profile(n5_pt, n10_pt):
 
 
 def apply_space_marines(rows):
+    squad_sizes = {
+        6: (6, 12, (6, 12)),
+        7: (6, 12, (6, 12)),
+    }
     for no, pts in ((6, (6, 12)), (7, (6, 12)), (8, (6, 12)), (9, (10, 20)), (10, (5, 10)),
                     (11, (11, 21)), (12, (9, 18)), (15, (6, 12)), (20, (6, 12)), (21, (12, 24))):
         h = header_row(rows, no)
         if h:
             move = '5"' if no in (11, 12) else '6"'
-            set_stats(h, M=move, WS="3+", BS="3+", A="2", W="2", Ld="7", Sv="6+", N="5", Pt=str(pts[0]))
-            profiles = sm_profile(*pts)
-            for p in profiles:
-                p["M"] = move
-            rows[:] = set_profiles(rows, no, profiles)
+            n_small, n_large = squad_sizes.get(no, (5, 10))[0:2]
+            set_stats(h, M=move, WS="3+", BS="3+", A="2", W="2", Ld="7", Sv="6+", N=str(n_small), Pt=str(pts[0]))
+            profiles = [
+                {"M": move, "WS": "3+", "BS": "3+", "A": "2", "W": "2", "Ld": "7", "Sv": "6+", "N": str(n_small), "Pt": str(pts[0])},
+                {"M": move, "WS": "3+", "BS": "3+", "A": "4", "W": "4", "Ld": "7", "Sv": "6+", "N": str(n_large), "Pt": str(pts[1])},
+            ]
+            rows[:] = set_profiles(rows, no, profiles[1:])
     set_stats(header_row(rows, 14), A="2", W="2", N="5", Pt="5")
     update_weapon(rows, 8, "Close Combat Weapons", A="User")
     update_weapon(rows, 3, "Force Weapon", SAP="7+", SAT="8+")
@@ -387,9 +392,9 @@ def apply_chaos_marines(rows):
 
 
 def apply_drukhari(rows):
-    rows[:] = remove_profiles(rows, 6, ["15", "20"])
+    rows[:] = remove_profiles(rows, 6, ["5"])
+    rows[:] = remove_profiles(rows, 5, ["10", "20"])
     set_stats(header_row(rows, 5), N="10", Pt="4", A="2", W="2")
-    rows[:] = remove_profiles(rows, 5, ["10", "15", "20"])
     rows[:] = set_profiles(rows, 5, [{"M": '7"', "WS": "3+", "BS": "3+", "A": "4", "W": "4", "Ld": "6", "Sv": "10+", "N": "20", "Pt": "8"}])
     set_stats(header_row(rows, 17), N="4", Pt="1", A="1", W="1")
     rows[:] = remove_profiles(rows, 17, ["4", "8", "12"])
@@ -442,9 +447,19 @@ def apply_tau(rows):
     return rows
 
 
+def replace_unit_block(rows, no, block):
+    rows[:] = [r for r in rows if r["No"].strip() != str(no)]
+    insert_at = len(rows)
+    for i, r in enumerate(rows):
+        if r["No"].strip().isdigit() and int(r["No"].strip()) > int(no):
+            insert_at = i
+            break
+    rows[insert_at:insert_at] = block
+
+
 def apply_genestealer_cults(rows):
-    rows[:] = remove_unit(rows, 29)
-    rows[:] = remove_unit(rows, 30)
+    rows[:] = remove_unit(rows, 20)
+    rows[:] = remove_unit(rows, 22)
     kel = header_row(rows, 15)
     if kel:
         kel["Type"] = "HQ"
@@ -470,8 +485,8 @@ def apply_genestealer_cults(rows):
         {**{c: "" for c in FIELDNAMES}, "No": "30", "Weapon": "Flamers", "WeaponType": "Small Arms", "Rng": '12"', "WeaponA": "User", "SAP": "8+", "SAT": "10+", "Abilities": "Inferno"},
         {**{c: "" for c in FIELDNAMES}, "No": "30", "Abilities": 'Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.'},
     ]
-    rows.extend(hydra)
-    rows.extend(engineers)
+    replace_unit_block(rows, 29, hydra)
+    replace_unit_block(rows, 30, engineers)
     return rows
 
 

@@ -69,16 +69,14 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 Light, Infantry, Sisters Repentia",
 13,,,"6""",3+,3+,4,2,6,11+,9,6,,,,,,,,,
 13,,,,,,,,,,,,Penitent Eviscerators,Melee,Melee,User,5+,8+,,,
-14,Elites,Crusaders,"6""",3+,4+,1,1,5,6+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
+14,Elites,Crusaders,"6""",3+,4+,1,1,5,6+,4,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
 Light, Infantry, Ecclesiarchy Battle Conclave, Crusaders",
-14,,,"6""",3+,4+,1,1,5,6+,4,1,,,,,,,,,
 14,,,"6""",3+,4+,2,2,5,6+,8,2,,,,,,,,,
 14,,,,,,,,,,,,Crusader Power Swords,Melee,Melee,User,8+,8+,,,
 15,Elites,Death Cult Assassins,"7""",3+,4+,1,1,5,9+,2,1,,,,,,,"Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment that contains any Ministorum Priests.
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.","Imperium, Adeptus Ministorum
 Light, Infantry, Ecclesiarchy Battle Conclave, Death Cult Assassins",
-15,,,"7""",3+,4+,1,1,5,9+,2,1,,,,,,,,,
 15,,,"7""",3+,4+,2,2,5,9+,4,2,,,,,,,,,
 15,,,,,,,,,,,,Death Cult Power Blades,Melee,Melee,x2,8+,8+,,,
 16,Elites,Arco-flagellants,"6""",4+,-,1,1,5,11+,3,2,,,,,,,"Ignore Damage (6+)

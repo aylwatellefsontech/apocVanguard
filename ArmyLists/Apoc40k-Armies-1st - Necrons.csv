@@ -181,12 +181,12 @@ Heavy, Vehicle, Walker, Canoptek Doomstalker",
 27,,,,,,,,,,,,Doomsday Blaster,Heavy,"48""",1,6+,4+,Destroyer,,
 27,,,,,,,,,,,,Twin Gauss Flayer,Heavy,"24""",1,7+,9+,Rapid Fire,,
 27,,,,,,,,,,,,Doomstalker Limbs,Melee,Melee,User,7+,9+,,,
-28,Air,Doom Scythe,"20""-60""",6+,3+,1,2,8,6+,1,15,,,,,,,Supersonic,"Necrons, <Dynasty>
+28,Air,Doom Scythe,"20""-60""",6+,3+,1,2,8,6+,1,9,,,,,,,Supersonic,"Necrons, <Dynasty>
 Heavy, Vehicle, Fly, Aircraft, Doom Scythe",
 28,,,,,,,,,,,,Death Ray,Heavy,"24""",1,8+,4+,Destroyer,,
 28,,,,,,,,,,,,Tesla Destructor,Heavy,"24""",2,6+,8+,,,
 28,,,,,,,,,,,,Armoured Hull,Melee,Melee,User,10+,10+,,,
-29,Air,Night Scythe,"20""-60""",6+,3+,1,2,8,6+,1,12,,,,,,,"Supersonic
+29,Air,Night Scythe,"20""-60""",6+,3+,1,2,8,6+,1,7,,,,,,,"Supersonic
 Invasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6"" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.","Necrons, <Dynasty>
 Heavy, Vehicle, Fly, Aircraft, Night Scythe",
 29,,,,,,,,,,,,Tesla Destructor,Heavy,"24""",2,6+,8+,,,

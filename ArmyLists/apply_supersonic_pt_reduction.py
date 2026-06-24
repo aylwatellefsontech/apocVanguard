@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reduce Pt by 2 for Air units with Supersonic but not Harrier."""
+"""Set Pt to half of pre-reduction value (rounded up) for Supersonic-only Air units."""
 
 import shutil
 from pathlib import Path
@@ -16,14 +16,29 @@ from csv_to_json import write_json
 
 UNIT_TYPES = {"HQ", "Troops", "Elites", "Fast", "Heavy", "Lord", "Transport", "Air"}
 
+# Pre–Supersonic-adjustment power ratings.
+SUPERSONIC_ONLY_ORIGINAL_PT = {
+    "Raven Strike Fighter": 10,
+    "Razorwing Jetfighter": 10,
+    "Voidraven Bomber": 10,
+    "Crimson Hunter": 11,
+    "Hemlock Wraithfighter": 11,
+    "Doom Scythe": 17,
+    "Night Scythe": 14,
+    "Dakka Jet": 7,
+    "Bomba": 8,
+    "AX3 Razorshark Strike Fighter": 11,
+    "AX39 Sun Shark Bomber": 10,
+}
+
+
+def halve_pt_rounded_up(pt: int) -> int:
+    return (pt + 1) // 2
+
 
 def is_supersonic_only(row) -> bool:
     abilities = row.get("Abilities", "")
-    if "Supersonic" not in abilities:
-        return False
-    if "Harrier" in abilities:
-        return False
-    return True
+    return "Supersonic" in abilities and "Harrier" not in abilities
 
 
 def apply_rows(rows):
@@ -34,12 +49,14 @@ def apply_rows(rows):
             continue
         if not is_supersonic_only(row):
             continue
-        pt = row.get("Pt", "").strip()
-        if not pt.isdigit():
+        name = row.get("Name", "").strip()
+        original = SUPERSONIC_ONLY_ORIGINAL_PT.get(name)
+        if original is None:
             continue
-        new_pt = int(pt) - 2
+        new_pt = halve_pt_rounded_up(original)
+        old_pt = row.get("Pt", "").strip()
         set_stats(row, Pt=str(new_pt))
-        updated.append(f"{row.get('Name', '').strip()} ({pt} -> {new_pt})")
+        updated.append(f"{name} ({old_pt} -> {new_pt}, half of {original} rounded up)")
     return updated
 
 

@@ -92,7 +92,7 @@ Light, Infantry, Character, Sanctus","per Unit: Instead of 1 Silencer Sniper Rif
 14,,,,,,,,,,,,Silencer Sniper Rifle,Small Arms,"36""",User,8+,10+,Sniper,,
 14,,,,,,,,,,,,Sanctus Bio-dagger,Melee,Melee,x2,7+,9+,,,
 14,,,,,,,,,,,,Familiar Claws,Melee,Melee,User,11+,12+,,,
-15,Elites,Kelermorph,"6""",3+,2+,1,1,6,9+,1,4,,,,,,,"Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6"" of this unit.","Tyranids, Genestealer Cults, <Cult>
+15,HQ,Kelermorph,"6""",3+,2+,1,1,6,9+,1,4,,,,,,,"Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6"" of this unit.","Tyranids, Genestealer Cults, <Cult>
 Light, Infantry, Character, Kelermorph",
 15,,,,,,,,,,,,,,,,,,A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife.,,
 15,,,,,,,,,,,,Liberator Autostubs,Small Arms,"12""",x2,8+,10+,,,
@@ -122,17 +122,6 @@ Light, Biker, Atalan Jackals","per Unit (Power Rating 8): It can contain 8 model
 19,,,,,,,,,,,,Mining Laser,Heavy,"36""",1,10+,6+,,,
 19,,,,,,,,,,,,Autopistols,Small Arms,"12""",User,8+,10+,,,
 19,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,8+,10+,,,
-20,Fast,Achilles Ridgerunners,"14""",6+,4+,1,2,5,8+,1,6,,,,,,,Infiltrators,"Tyranids, Genestealer Cults, <Cult>
-Heavy, Vehicle, Achilles Ridgerunners","per 2 models (Power Rating 12): It can contain 2 models (Power Rating 12); per 3 models (Power Rating 18): 3 models (Power Rating 18); per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
-20,,,"14""",6+,4+,2,4,5,8+,2,12,,,,,,,,,
-20,,,"14""",6+,4+,3,6,5,8+,3,18,,,,,,,,,
-20,,,,,,,,,,,,,,,,,,Achilles Ridgerunners are a unit that contains 1 model. It can contain 2 models (Power Rating 12) or 3 models (Power Rating 18). It is equipped with: Heavy Stubbers; Close Combat Weapons.,,
-20,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher.",,
-20,,,,,,,,,,,,Heavy Mining Laser,Heavy,"36""",1,9+,5+,,,
-20,,,,,,,,,,,,Heavy Mortar,Heavy,"48""",1,7+,9+,Barrage,,
-20,,,,,,,,,,,,Heavy Stubbers,Heavy,"36""",x2,8+,10+,,,
-20,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
-20,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,,,
 21,Heavy,Cult Armoured Sentinels,"8""",4+,4+,1,1,5,6+,1,3,,,,,,,,"Tyranids, Genestealer Cults, Brood Brothers
 Heavy, Vehicle, Cult Armoured Sentinels","per 2 models (Power Rating 6): It can contain 2 models (Power Rating 6); per 3 models (Power Rating 9): 3 models (Power Rating 9); per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon."
 21,,,"8""",4+,4+,2,2,5,6+,2,6,,,,,,,,,
@@ -146,18 +135,6 @@ Heavy, Vehicle, Cult Armoured Sentinels","per 2 models (Power Rating 6): It can 
 21,,,,,,,,,,,,Multi-laser,Heavy,"36""",1,6+,10+,,,
 21,,,,,,,,,,,,Plasma Cannon,Heavy,"36""",1,7+,7+,Supercharge,,
 21,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,11+,12+,,,
-22,Heavy,Cult Scout Sentinels,"9""",4+,4+,1,1,5,8+,1,4,,,,,,,Infiltrators,"Tyranids, Genestealer Cults, Brood Brothers
-Heavy, Vehicle, Cult Scout Sentinels","per 2 models (Power Rating 7): It can contain 2 models (Power Rating 7); per 3 models (Power Rating 10): 3 models (Power Rating 10); per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
-22,,,"9""",4+,4+,2,2,5,8+,2,7,,,,,,,,,
-22,,,"9""",4+,4+,3,3,5,8+,3,10,,,,,,,,,
-22,,,,,,,,,,,,,,,,,,Cult Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10). It is equipped with: Armoured Feet.,,
-22,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.",,
-22,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,,,
-22,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
-22,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
-22,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
-22,,,,,,,,,,,,Multi-laser,Heavy,"36""",1,6+,10+,,,
-22,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,11+,12+,,,
 23,Heavy,Brood Brothers Heavy Weapons Squad,"6""",4+,4+,1,1,5,10+,3,3,,,,,,,"Weapon Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.","Tyranids, Genestealer Cults, Brood Brothers
 Light, Infantry, Brood Brothers Heavy Weapons Squad","per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar."
 23,,,,,,,,,,,,,,,,,,A Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equipped with: Close Combat Weapons.,,
@@ -224,29 +201,19 @@ Heavy, Vehicle, Transport, Goliath Truck",
 28,,,,,,,,,,,,Heavy Stubber,Heavy,"36""",1,8+,10+,,,
 28,,,,,,,,,,,,Twin Autocannon,Heavy,"48""",2,8+,8+,,,
 28,,,,,,,,,,,,Tough Chassis,Melee,Melee,User,10+,10+,,,
-29,Air,Achilles Ridgerunners,"14""",6+,4+,1,2,5,8+,1,6,,,,,,,Infiltrators,"Tyranids, Genestealer Cults, <Cult>
-Heavy, Vehicle, Achilles Ridgerunners","per 2 models (Power Rating 12): It can contain 2 models (Power Rating 12); per 3 models (Power Rating 18): 3 models (Power Rating 18); per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
-29,,,"14""",6+,4+,2,4,5,8+,2,12,,,,,,,,,
-29,,,"14""",6+,4+,3,6,5,8+,3,18,,,,,,,,,
-29,,,,,,,,,,,,,,,,,,Achilles Ridgerunners are a unit that contains 1 model. It can contain 2 models (Power Rating 12) or 3 models (Power Rating 18). It is equipped with: Heavy Stubbers; Close Combat Weapons.,,
-29,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher.",,
-29,,,,,,,,,,,,Heavy Mining Laser,Heavy,"36""",1,9+,5+,,,
-29,,,,,,,,,,,,Heavy Mortar,Heavy,"48""",1,7+,9+,Barrage,,
-29,,,,,,,,,,,,Heavy Stubbers,Heavy,"36""",x2,8+,10+,,,
-29,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
-29,,,,,,,,,,,,Close Combat Weapons,Melee,Melee,User,10+,10+,,,
-30,Air,Cult Scout Sentinels,"9""",4+,4+,1,1,5,8+,1,4,,,,,,,Infiltrators,"Tyranids, Genestealer Cults, Brood Brothers
-Heavy, Vehicle, Cult Scout Sentinels","per 2 models (Power Rating 7): It can contain 2 models (Power Rating 7); per 3 models (Power Rating 10): 3 models (Power Rating 10); per Unit: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
-30,,,"9""",4+,4+,2,2,5,8+,2,7,,,,,,,,,
-30,,,"9""",4+,4+,3,3,5,8+,3,10,,,,,,,,,
-30,,,,,,,,,,,,,,,,,,Cult Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10). It is equipped with: Armoured Feet.,,
-30,,,,,,,,,,,,,,,,,,"For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.",,
-30,,,,,,,,,,,,Autocannon,Heavy,"48""",1,8+,8+,,,
-30,,,,,,,,,,,,Heavy Flamer,Heavy,"8""",1,6+,9+,Inferno,,
-30,,,,,,,,,,,,Lascannon,Heavy,"48""",1,10+,5+,,,
-30,,,,,,,,,,,,Missile Launcher,Heavy,"48""",1,7+,7+,,,
-30,,,,,,,,,,,,Multi-laser,Heavy,"36""",1,6+,10+,,,
-30,,,,,,,,,,,,Armoured Feet,Melee,Melee,User,11+,12+,,,
+29,Heavy,Cult Hydra,"12""",6+,4+,1,2,5,6+,1,7,,,,,,,"Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.","Tyranids, Genestealer Cults, Brood Brothers
+Heavy, Vehicle, Hydra, Cult Hydra","per Unit: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.; per Unit (Power Rating +1): This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter."
+29,,,,,,,,,,,,,,,,,,A Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.,,
+29,,,,,,,,,,,,Hydra Quad Autocannon,Heavy,"72""",2,8+,6+,Anti-air,,
+29,,,,,,,,,,,,Heavy Bolter,Heavy,"36""",1,7+,9+,,,
+29,,,,,,,,,,,,Armoured Tracks,Melee,Melee,User,10+,10+,,,
+30,Troops,Cult Combat Engineers,"6""",4+,4+,1,1,6,10+,10,4,,,,,,,,"Tyranids, Genestealer Cults, <Cult>
+Light, Infantry, Cult Combat Engineers",per 20 models (Power Rating 8): It can contain 20 models (Power Rating 8).
+30,,,"6""",4+,4+,2,2,6,10+,20,8,,,,,,,,,
+30,,,,,,,,,,,,,,,,,,Cult Combat Engineers is a unit that contains 10 models. It can contain 20 models (Power Rating 8).,,
+30,,,,,,,,,,,,Trench Clubs,Melee,"12""",User,8+,10+,,,
+30,,,,,,,,,,,,Flamers,Small Arms,"12""",User,8+,10+,Inferno,,
+30,,,,,,,,,,,,,,,,,,"Remote Mines: Once per battle, select a unit within 9"" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",,
 31,Transport,Goliath Rockgrinder,"10""",4+,4+,1,2,5,8+,1,7,,,,,,,"Ignore Damage (6+)
 TRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.","Tyranids, Genestealer Cults, <Cult>
 Heavy, Vehicle, Transport, Goliath Rockgrinder","per Unit: Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon."

@@ -132,6 +132,56 @@
       ]
     },
     {
+      "no": 15,
+      "type": "HQ",
+      "name": "Kelermorph",
+      "stats": {
+        "M": "6\"",
+        "WS": "3+",
+        "BS": "2+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "9+",
+        "N": "1",
+        "Pt": "4"
+      },
+      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Character",
+        "Kelermorph"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Liberator Autostubs",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "x2",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Cultist Knife",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
+        }
+      ]
+    },
+    {
       "no": 5,
       "type": "Troops",
       "name": "Acolyte Hybrids",
@@ -460,6 +510,70 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "type": "Troops",
+      "name": "Cult Combat Engineers",
+      "stats": {
+        "M": "6\"",
+        "WS": "4+",
+        "BS": "4+",
+        "A": "1",
+        "W": "1",
+        "Ld": "6",
+        "Sv": "10+",
+        "N": "10",
+        "Pt": "4"
+      },
+      "abilities": "Cult Combat Engineers is a unit that contains 10 models. It can contain 20 models (Power Rating 8).\nRemote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Light",
+        "Infantry",
+        "Cult Combat Engineers"
+      ],
+      "profiles": [
+        {
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        }
+      ],
+      "options": [
+        {
+          "per": "Per 20 models",
+          "text": "It can contain 20 models (Power Rating 8).",
+          "Pt": "8"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Trench Clubs",
+          "type": "Melee",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+"
+        },
+        {
+          "name": "Flamers",
+          "type": "Small Arms",
+          "range": "12\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "10+",
+          "abilities": "Inferno"
         }
       ]
     },
@@ -855,56 +969,6 @@
       ]
     },
     {
-      "no": 15,
-      "type": "Elites",
-      "name": "Kelermorph",
-      "stats": {
-        "M": "6\"",
-        "WS": "3+",
-        "BS": "2+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "9+",
-        "N": "1",
-        "Pt": "4"
-      },
-      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Kelermorph"
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Liberator Autostubs",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Cultist Knife",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "11+",
-          "armorPen": "12+"
-        }
-      ]
-    },
-    {
       "no": 16,
       "type": "Elites",
       "name": "Nexos",
@@ -1148,114 +1212,6 @@
       ]
     },
     {
-      "no": 20,
-      "type": "Fast",
-      "name": "Achilles Ridgerunners",
-      "stats": {
-        "M": "14\"",
-        "WS": "6+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "abilities": "Infiltrators\nAchilles Ridgerunners are a unit that contains 1 model. It can contain 2 models (Power Rating 12) or 3 models (Power Rating 18). It is equipped with: Heavy Stubbers; Close Combat Weapons.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Heavy",
-        "Vehicle",
-        "Achilles Ridgerunners"
-      ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "6+",
-          "BS": "4+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "2",
-          "Pt": "12"
-        },
-        {
-          "M": "14\"",
-          "WS": "6+",
-          "BS": "4+",
-          "A": "3",
-          "W": "6",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "18"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 12)",
-          "Pt": "12"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models (Power Rating 18)",
-          "Pt": "18"
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Heavy Mining Laser",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Heavy Mortar",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Barrage"
-        },
-        {
-          "name": "Heavy Stubbers",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ]
-    },
-    {
       "no": 21,
       "type": "Heavy",
       "name": "Cult Armoured Sentinels",
@@ -1369,122 +1325,6 @@
           "skill": "7+",
           "armorPen": "7+",
           "abilities": "Supercharge"
-        },
-        {
-          "name": "Armoured Feet",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "11+",
-          "armorPen": "12+"
-        }
-      ]
-    },
-    {
-      "no": 22,
-      "type": "Heavy",
-      "name": "Cult Scout Sentinels",
-      "stats": {
-        "M": "9\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "4"
-      },
-      "abilities": "Infiltrators\nCult Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10). It is equipped with: Armoured Feet.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Heavy",
-        "Vehicle",
-        "Cult Scout Sentinels"
-      ],
-      "profiles": [
-        {
-          "M": "9\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "2",
-          "Pt": "7"
-        },
-        {
-          "M": "9\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 7)",
-          "Pt": "7"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models (Power Rating 10)",
-          "Pt": "10"
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Lascannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Multi-laser",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "10+"
         },
         {
           "name": "Armoured Feet",
@@ -1858,6 +1698,70 @@
       ]
     },
     {
+      "no": 29,
+      "type": "Heavy",
+      "name": "Cult Hydra",
+      "stats": {
+        "M": "12\"",
+        "WS": "6+",
+        "BS": "4+",
+        "A": "1",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.\nA Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.",
+      "keywords": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Heavy",
+        "Vehicle",
+        "Hydra",
+        "Cult Hydra"
+      ],
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer."
+        },
+        {
+          "per": "Per Unit",
+          "text": "This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.",
+          "Pt": "1"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Hydra Quad Autocannon",
+          "type": "Heavy",
+          "range": "72\"",
+          "attacks": "2",
+          "skill": "8+",
+          "armorPen": "6+",
+          "abilities": "Anti-air"
+        },
+        {
+          "name": "Heavy Bolter",
+          "type": "Heavy",
+          "range": "36\"",
+          "attacks": "1",
+          "skill": "7+",
+          "armorPen": "9+"
+        },
+        {
+          "name": "Armoured Tracks",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+"
+        }
+      ]
+    },
+    {
       "no": 27,
       "type": "Transport",
       "name": "Cult Chimera",
@@ -2089,230 +1993,6 @@
           "attacks": "x2",
           "skill": "7+",
           "armorPen": "7+"
-        }
-      ]
-    },
-    {
-      "no": 29,
-      "type": "Air",
-      "name": "Achilles Ridgerunners",
-      "stats": {
-        "M": "14\"",
-        "WS": "6+",
-        "BS": "4+",
-        "A": "1",
-        "W": "2",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "6"
-      },
-      "abilities": "Infiltrators\nAchilles Ridgerunners are a unit that contains 1 model. It can contain 2 models (Power Rating 12) or 3 models (Power Rating 18). It is equipped with: Heavy Stubbers; Close Combat Weapons.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Heavy",
-        "Vehicle",
-        "Achilles Ridgerunners"
-      ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "6+",
-          "BS": "4+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "2",
-          "Pt": "12"
-        },
-        {
-          "M": "14\"",
-          "WS": "6+",
-          "BS": "4+",
-          "A": "3",
-          "W": "6",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "18"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 12)",
-          "Pt": "12"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models (Power Rating 18)",
-          "Pt": "18"
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Heavy Mining Laser; 1 Heavy Mortar; 1 Missile Launcher."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Heavy Mining Laser",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Heavy Mortar",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Barrage"
-        },
-        {
-          "name": "Heavy Stubbers",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Close Combat Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
-        }
-      ]
-    },
-    {
-      "no": 30,
-      "type": "Air",
-      "name": "Cult Scout Sentinels",
-      "stats": {
-        "M": "9\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "5",
-        "Sv": "8+",
-        "N": "1",
-        "Pt": "4"
-      },
-      "abilities": "Infiltrators\nCult Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10). It is equipped with: Armoured Feet.\nFor each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.",
-      "keywords": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Heavy",
-        "Vehicle",
-        "Cult Scout Sentinels"
-      ],
-      "profiles": [
-        {
-          "M": "9\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "2",
-          "Pt": "7"
-        },
-        {
-          "M": "9\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "10"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models (Power Rating 7)",
-          "Pt": "7"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models (Power Rating 10)",
-          "Pt": "10"
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Lascannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "7+"
-        },
-        {
-          "name": "Multi-laser",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Armoured Feet",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "11+",
-          "armorPen": "12+"
         }
       ]
     },
