@@ -552,12 +552,6 @@ At the start of the round, can gain or lose Supersonic.
 
 Subtract 1 from the leadership characteristics of units within 6" of enemy units with this ability.
 
-#### Farseekers
-
-Subtract 1 from the leadership characteristics of units within 6" of enemy units with this ability.
-
-# 
-
 # Faction abilities {#faction-abilities}
 
 ## Primary Factions
