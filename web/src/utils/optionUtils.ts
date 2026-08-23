@@ -91,6 +91,17 @@ export function isChooseOneOption(option: UnitOption): boolean {
   return getChooseLimit(option) != null
 }
 
+export function getChooseInstanceCount(
+  option: UnitOption,
+  profileStats?: UnitStats | null,
+): number {
+  if (!isChooseOneOption(option)) return 0
+  const upToLimit = getUpToLimit(option)
+  if (upToLimit != null) return upToLimit
+  if (isPerModelsOption(option)) return getPerModelsSlotCount(option, profileStats)
+  return 1
+}
+
 export function optionUsesSlotIndex(option: UnitOption): boolean {
   return isUpToOption(option) || isPerModelsOption(option) || isChooseOneOption(option)
 }
@@ -128,11 +139,13 @@ export function optionSelectionKey(
   index: number,
   modelIndex?: number,
   slotIndex?: number,
+  choiceIndex?: number,
 ): string {
-  if (modelIndex != null && slotIndex != null) return `${index}:m${modelIndex}:s${slotIndex}`
-  if (modelIndex != null) return `${index}:m${modelIndex}`
-  if (slotIndex != null) return `${index}:s${slotIndex}`
-  return `${index}`
+  const parts = [`${index}`]
+  if (modelIndex != null) parts.push(`m${modelIndex}`)
+  if (slotIndex != null) parts.push(`s${slotIndex}`)
+  if (choiceIndex != null) parts.push(`c${choiceIndex}`)
+  return parts.join(':')
 }
 
 export function isOptionSelected(
@@ -141,14 +154,26 @@ export function isOptionSelected(
   selectedOptions?: SelectedOption[],
   modelIndex?: number,
   slotIndex?: number,
+  choiceIndex?: number,
 ): boolean {
   if (selectedOptions) {
-    return selectedOptions.some(
-      (opt) =>
-        opt.index === optionIndex &&
-        (modelIndex == null ? opt.modelIndex == null : opt.modelIndex === modelIndex) &&
-        (slotIndex == null ? opt.slotIndex == null : opt.slotIndex === slotIndex),
-    )
+    return selectedOptions.some((opt) => {
+      if (opt.index !== optionIndex) return false
+      if (modelIndex == null ? opt.modelIndex != null : opt.modelIndex !== modelIndex) {
+        return false
+      }
+      if (choiceIndex != null) {
+        if (slotIndex != null) {
+          return opt.slotIndex === slotIndex && opt.choiceIndex === choiceIndex
+        }
+        if (opt.choiceIndex != null) {
+          return opt.choiceIndex === choiceIndex && opt.slotIndex == null
+        }
+        return opt.slotIndex === choiceIndex
+      }
+      if (slotIndex == null) return opt.slotIndex == null
+      return opt.slotIndex === slotIndex
+    })
   }
   return selectedIndexes.includes(optionIndex)
 }

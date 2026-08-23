@@ -259,8 +259,8 @@ describe('toggleRosterOption', () => {
     ]
     const summary = { label: '+1 Pt', text: '1 Bright Lance', points: 1 }
 
-    const updated = toggleRosterOption(baseEntry, 0, summary, chooseOneOptions, { slotIndex: 1 })
-    expect(updated.selectedOptions).toEqual([{ index: 0, slotIndex: 1, ...summary }])
+    const updated = toggleRosterOption(baseEntry, 0, summary, chooseOneOptions, { choiceIndex: 1 })
+    expect(updated.selectedOptions).toEqual([{ index: 0, choiceIndex: 1, ...summary }])
     expect(updated.points).toBe(6)
   })
 
@@ -276,11 +276,11 @@ describe('toggleRosterOption', () => {
     const summary = { label: '+1 Pt', text: '1 Bright Lance', points: 1 }
     const selected: RosterEntry = {
       ...baseEntry,
-      selectedOptions: [{ index: 0, slotIndex: 0, ...summary }],
+      selectedOptions: [{ index: 0, choiceIndex: 0, ...summary }],
       points: 6,
     }
 
-    const updated = toggleRosterOption(selected, 0, summary, chooseOneOptions, { slotIndex: 0 })
+    const updated = toggleRosterOption(selected, 0, summary, chooseOneOptions, { choiceIndex: 0 })
     expect(updated.selectedOptions).toEqual([])
     expect(updated.points).toBe(5)
   })
@@ -298,12 +298,12 @@ describe('toggleRosterOption', () => {
     const star = { label: '+1 Pt', text: '1 Starcannon', points: 1 }
     const selected: RosterEntry = {
       ...baseEntry,
-      selectedOptions: [{ index: 0, slotIndex: 0, ...lance }],
+      selectedOptions: [{ index: 0, choiceIndex: 0, ...lance }],
       points: 6,
     }
 
-    const updated = toggleRosterOption(selected, 0, star, chooseOneOptions, { slotIndex: 1 })
-    expect(updated.selectedOptions).toEqual([{ index: 0, slotIndex: 1, ...star }])
+    const updated = toggleRosterOption(selected, 0, star, chooseOneOptions, { choiceIndex: 1 })
+    expect(updated.selectedOptions).toEqual([{ index: 0, choiceIndex: 1, ...star }])
     expect(updated.points).toBe(6)
   })
 
@@ -319,12 +319,12 @@ describe('toggleRosterOption', () => {
     const lance = { label: 'Option', text: 'Bright Lance', points: 0 }
     const scatter = { label: 'Option', text: 'Scatter Laser', points: 0 }
 
-    const first = toggleRosterOption(baseEntry, 0, lance, chooseTwoOptions, { slotIndex: 0 })
-    const second = toggleRosterOption(first, 0, scatter, chooseTwoOptions, { slotIndex: 1 })
+    const first = toggleRosterOption(baseEntry, 0, lance, chooseTwoOptions, { choiceIndex: 0 })
+    const second = toggleRosterOption(first, 0, scatter, chooseTwoOptions, { choiceIndex: 1 })
 
     expect(second.selectedOptions).toEqual([
-      { index: 0, slotIndex: 0, ...lance },
-      { index: 0, slotIndex: 1, ...scatter },
+      { index: 0, choiceIndex: 0, ...lance },
+      { index: 0, choiceIndex: 1, ...scatter },
     ])
   })
 
@@ -343,16 +343,103 @@ describe('toggleRosterOption', () => {
     const selected: RosterEntry = {
       ...baseEntry,
       selectedOptions: [
-        { index: 0, slotIndex: 0, ...lance },
-        { index: 0, slotIndex: 1, ...scatter },
+        { index: 0, choiceIndex: 0, ...lance },
+        { index: 0, choiceIndex: 1, ...scatter },
       ],
     }
 
-    const updated = toggleRosterOption(selected, 0, star, chooseTwoOptions, { slotIndex: 2 })
+    const updated = toggleRosterOption(selected, 0, star, chooseTwoOptions, { choiceIndex: 2 })
 
     expect(updated.selectedOptions).toEqual([
-      { index: 0, slotIndex: 1, ...scatter },
-      { index: 0, slotIndex: 2, ...star },
+      { index: 0, choiceIndex: 1, ...scatter },
+      { index: 0, choiceIndex: 2, ...star },
     ])
+  })
+
+  it('treats up-to slots as separate choose groups', () => {
+    const upToChoose: UnitOption[] = [
+      {
+        per: 'up to 4',
+        title: 'Weapon',
+        text: 'Exchange 1 Dread Klaw for',
+        chooseOne: ['Rokkit Launcha', 'Kustom Mega-Blasta', 'Skorcha', 'Big Shoota'],
+      },
+    ]
+    const rokkit = { label: 'Weapon', text: 'Rokkit Launcha', points: 0 }
+    const skorcha = { label: 'Weapon', text: 'Skorcha', points: 0 }
+
+    const first = toggleRosterOption(baseEntry, 0, rokkit, upToChoose, {
+      slotIndex: 0,
+      choiceIndex: 0,
+    })
+    const second = toggleRosterOption(first, 0, skorcha, upToChoose, {
+      slotIndex: 1,
+      choiceIndex: 2,
+    })
+
+    expect(second.selectedOptions).toEqual([
+      { index: 0, slotIndex: 0, choiceIndex: 0, ...rokkit },
+      { index: 0, slotIndex: 1, choiceIndex: 2, ...skorcha },
+    ])
+  })
+
+  it('replaces the choice in a single up-to slot without clearing other slots', () => {
+    const upToChoose: UnitOption[] = [
+      {
+        per: 'up to 4',
+        title: 'Weapon',
+        text: 'Exchange 1 Dread Klaw for',
+        chooseOne: ['Rokkit Launcha', 'Kustom Mega-Blasta', 'Skorcha'],
+      },
+    ]
+    const rokkit = { label: 'Weapon', text: 'Rokkit Launcha', points: 0 }
+    const blasta = { label: 'Weapon', text: 'Kustom Mega-Blasta', points: 0 }
+    const skorcha = { label: 'Weapon', text: 'Skorcha', points: 0 }
+    const selected: RosterEntry = {
+      ...baseEntry,
+      selectedOptions: [
+        { index: 0, slotIndex: 0, choiceIndex: 0, ...rokkit },
+        { index: 0, slotIndex: 1, choiceIndex: 2, ...skorcha },
+      ],
+    }
+
+    const updated = toggleRosterOption(selected, 0, blasta, upToChoose, {
+      slotIndex: 0,
+      choiceIndex: 1,
+    })
+
+    expect(updated.selectedOptions).toEqual([
+      { index: 0, slotIndex: 1, choiceIndex: 2, ...skorcha },
+      { index: 0, slotIndex: 0, choiceIndex: 1, ...blasta },
+    ])
+  })
+
+  it('treats per-10-models slots as separate choose groups', () => {
+    const perTenChoose: UnitOption[] = [
+      {
+        per: 'Per 10 models',
+        Pt: '1',
+        title: 'Heavy Weapon',
+        text: 'May gain a Heavy Weapon Platform Model with',
+        chooseOne: ['Bright Lance', 'Scatter Laser', 'Shuriken Cannon'],
+      },
+    ]
+    const lance = { label: '+1 Pt', text: 'Bright Lance', points: 1 }
+    const scatter = { label: '+1 Pt', text: 'Scatter Laser', points: 1 }
+
+    const first = toggleRosterOption(baseEntry, 0, lance, perTenChoose, {
+      slotIndex: 0,
+      choiceIndex: 0,
+    })
+    const second = toggleRosterOption(first, 0, scatter, perTenChoose, {
+      slotIndex: 1,
+      choiceIndex: 1,
+    })
+
+    expect(second.selectedOptions).toEqual([
+      { index: 0, slotIndex: 0, choiceIndex: 0, ...lance },
+      { index: 0, slotIndex: 1, choiceIndex: 1, ...scatter },
+    ])
+    expect(second.points).toBe(7)
   })
 })

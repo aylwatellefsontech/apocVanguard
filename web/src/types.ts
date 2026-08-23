@@ -109,6 +109,7 @@ export interface SelectedOption {
   index: number
   modelIndex?: number
   slotIndex?: number
+  choiceIndex?: number
   label?: string | null
   text?: string
   points: number
@@ -117,6 +118,7 @@ export interface SelectedOption {
 export interface OptionToggleContext {
   modelIndex?: number
   slotIndex?: number
+  choiceIndex?: number
 }
 
 export interface RosterEntry {

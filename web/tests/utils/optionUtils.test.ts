@@ -1,6 +1,7 @@
 import { describe, expect, it } from '@jest/globals'
 import {
   formatPerModelsSlotLegend,
+  getChooseInstanceCount,
   getChooseLimit,
   getChooseOneChoices,
   getPerModelsInterval,
@@ -90,5 +91,27 @@ describe('choose one options', () => {
     }
 
     expect(getChooseLimit(chooseThree)).toBe(3)
+  })
+
+  it('creates one choose group per up-to or per-models slot', () => {
+    expect(getChooseInstanceCount({ ...wraithlord, per: 'up to 4' })).toBe(4)
+    expect(
+      getChooseInstanceCount(
+        {
+          per: 'Per 10 models',
+          chooseOne: ['Bright Lance', 'Scatter Laser'],
+        },
+        { N: '20' },
+      ),
+    ).toBe(2)
+    expect(
+      getChooseInstanceCount(
+        {
+          per: 'Per 10 models',
+          chooseOne: ['Bright Lance'],
+        },
+        { N: '9' },
+      ),
+    ).toBe(0)
   })
 })

@@ -7,6 +7,7 @@ import {
 import {
   formatPerModelsSlotLegend,
   getModelCount,
+  getChooseInstanceCount,
   getChooseLimit,
   getOptionGroup,
   getPerModelsInterval,
@@ -14,6 +15,7 @@ import {
   getChooseOneChoices,
   getUpToLimit,
   isChooseOneOption,
+  isUpToOption,
   isExclusiveGroupOption,
   isOptionSelected,
   isPerModelOption,
@@ -64,6 +66,7 @@ function OptionLine({
   inputName,
   modelIndex,
   slotIndex,
+  choiceIndex,
   displayText,
   onToggleOption,
 }: {
@@ -77,6 +80,7 @@ function OptionLine({
   inputName?: string
   modelIndex?: number
   slotIndex?: number
+  choiceIndex?: number
   displayText?: string
   onToggleOption?: (optionIndex: number, option: UnitOption, context?: OptionToggleContext) => void
 }) {
@@ -99,6 +103,7 @@ function OptionLine({
       onToggleOption?.(index, option, {
         modelIndex,
         slotIndex,
+        choiceIndex,
       })
 
     return (
@@ -339,6 +344,79 @@ function renderOptionBlock(
         ? getPerModelsSlotCount(option, profileStats)
         : 0
 
+      if (isChooseOneOption(option)) {
+        const choices = getChooseOneChoices(option)
+        const chooseLimit = getChooseLimit(option) ?? 1
+        const instanceCount = getChooseInstanceCount(option, profileStats)
+        if (instanceCount <= 0) {
+          continue
+        }
+        const slotted = isUpToOption(option) || isPerModelsOption(option)
+        const interval = getPerModelsInterval(option)
+        const intro =
+          typeof option === 'string' ? option : option.text?.trim() || `Choose ${chooseLimit}`
+        const optionLabel = typeof option === 'string' ? 'Option' : formatOptionLabel(option)
+        const chooseOnePoints =
+          typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
+        const heading = optionLabel ? `${optionLabel}: ${intro}` : intro
+
+        for (let instanceIndex = 0; instanceIndex < instanceCount; instanceIndex += 1) {
+          const instanceSlot = slotted ? instanceIndex : undefined
+          const instanceLabel =
+            isPerModelsOption(option) && interval != null
+              ? formatPerModelsSlotLegend(instanceIndex, interval)
+              : slotted
+                ? `choice ${instanceIndex + 1}`
+                : null
+          blocks.push(
+            <fieldset
+              key={`choose-${index}-${modelIndex ?? 'unit'}-${instanceIndex}`}
+              className="option-group"
+            >
+              <legend>
+                {instanceLabel ? `${heading} (${instanceLabel})` : heading}
+                {chooseOnePoints > 0 ? ` +${chooseOnePoints} Pt` : ''}
+              </legend>
+              <ul className={`options-list${interactive ? ' options-list-interactive' : ''}`}>
+                {choices.map((choice, choiceIndex) => {
+                  const isSelected = isOptionSelected(
+                    index,
+                    selectedOptionIndexes,
+                    selectedOptions,
+                    modelIndex,
+                    instanceSlot,
+                    choiceIndex,
+                  )
+                  return (
+                    <OptionLine
+                      key={optionSelectionKey(index, modelIndex, instanceSlot, choiceIndex)}
+                      option={option}
+                      index={index}
+                      points={0}
+                      interactive={interactive}
+                      highlightSelection={highlightSelection}
+                      isSelected={isSelected}
+                      inputType={chooseLimit === 1 ? 'radio' : 'checkbox'}
+                      inputName={
+                        chooseLimit === 1
+                          ? `choose-${index}-${modelIndex ?? 'unit'}-${instanceIndex}`
+                          : undefined
+                      }
+                      modelIndex={modelIndex}
+                      slotIndex={instanceSlot}
+                      choiceIndex={choiceIndex}
+                      displayText={choice}
+                      onToggleOption={onToggleOption}
+                    />
+                  )
+                })}
+              </ul>
+            </fieldset>,
+          )
+        }
+        continue
+      }
+
       if (upToLimit != null && !isExclusiveGroupOption(option)) {
         blocks.push(
           renderUpToCheckboxSlots(
@@ -373,55 +451,6 @@ function renderOptionBlock(
             modelIndex,
             onToggleOption,
           ),
-        )
-        continue
-      }
-
-      if (isChooseOneOption(option)) {
-        const choices = getChooseOneChoices(option)
-        const chooseLimit = getChooseLimit(option) ?? 1
-        const intro =
-          typeof option === 'string' ? option : option.text?.trim() || `Choose ${chooseLimit}`
-        const optionLabel = typeof option === 'string' ? 'Option' : formatOptionLabel(option)
-        const chooseOnePoints =
-          typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
-        blocks.push(
-          <fieldset key={`choose-${index}-${modelIndex ?? 'unit'}`} className="option-group">
-            <legend>
-              {optionLabel ? `${optionLabel}: ${intro}` : intro}
-              {chooseOnePoints > 0 ? ` +${chooseOnePoints} Pt` : ''}
-            </legend>
-            <ul className={`options-list${interactive ? ' options-list-interactive' : ''}`}>
-              {choices.map((choice, choiceIndex) => {
-                const isSelected = isOptionSelected(
-                  index,
-                  selectedOptionIndexes,
-                  selectedOptions,
-                  modelIndex,
-                  choiceIndex,
-                )
-                return (
-                  <OptionLine
-                    key={optionSelectionKey(index, modelIndex, choiceIndex)}
-                    option={option}
-                    index={index}
-                    points={0}
-                    interactive={interactive}
-                    highlightSelection={highlightSelection}
-                    isSelected={isSelected}
-                    inputType={chooseLimit === 1 ? 'radio' : 'checkbox'}
-                    inputName={
-                      chooseLimit === 1 ? `choose-${index}-${modelIndex ?? 'unit'}` : undefined
-                    }
-                    modelIndex={modelIndex}
-                    slotIndex={choiceIndex}
-                    displayText={choice}
-                    onToggleOption={onToggleOption}
-                  />
-                )
-              })}
-            </ul>
-          </fieldset>,
         )
         continue
       }

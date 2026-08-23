@@ -239,8 +239,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     const profileStats = getProfileStatsForEntry(selectedUnit, selectedRosterEntry)
     const summary = summarizeOption(option, profileStats, true)
     const chooseOneChoices = getChooseOneChoices(option)
-    if (chooseOneChoices.length > 0 && context.slotIndex != null) {
-      summary.text = chooseOneChoices[context.slotIndex] ?? summary.text
+    const choiceIndex = context.choiceIndex ?? context.slotIndex
+    if (chooseOneChoices.length > 0 && choiceIndex != null) {
+      summary.text = chooseOneChoices[choiceIndex] ?? summary.text
     }
 
     setRoster((current) =>

@@ -125,11 +125,11 @@ export function createRosterEntry(unit: Unit, profile: UnitProfile): RosterEntry
 export function toggleRosterOption(
   entry: RosterEntry,
   optionIndex: number,
-  optionSummary: Omit<SelectedOption, 'index' | 'modelIndex' | 'slotIndex'>,
+  optionSummary: Omit<SelectedOption, 'index' | 'modelIndex' | 'slotIndex' | 'choiceIndex'>,
   unitOptions: UnitOption[],
   context: OptionToggleContext = {},
 ): RosterEntry {
-  const { modelIndex, slotIndex } = context
+  const { modelIndex, slotIndex, choiceIndex: contextChoiceIndex } = context
   const option = unitOptions[optionIndex]
   const perModel = isPerModelOption(option)
   const perModels = isPerModelsOption(option)
@@ -139,6 +139,9 @@ export function toggleRosterOption(
   const group = getOptionGroup(option)
   const exclusive = isExclusiveGroupOption(option)
   const chooseLimit = getChooseLimit(option)
+  const slottedChoose = chooseLimit != null && (upTo || perModels)
+  const choiceIndex =
+    contextChoiceIndex ?? (!slottedChoose && chooseLimit != null ? slotIndex : undefined)
 
   const matches = (selected: SelectedOption) =>
     selected.index === optionIndex &&
@@ -151,15 +154,26 @@ export function toggleRosterOption(
 
   let selectedOptions = [...entry.selectedOptions]
 
-  if (chooseLimit != null && slotIndex != null) {
-    const wasSelected = selectedOptions.some(matches)
+  if (chooseLimit != null && choiceIndex != null) {
+    const instanceSlot = slottedChoose ? slotIndex : undefined
+    const matchesChoice = (selected: SelectedOption) =>
+      selected.index === optionIndex &&
+      (perModel ? selected.modelIndex === modelIndex : selected.modelIndex == null) &&
+      (instanceSlot != null
+        ? selected.slotIndex === instanceSlot && selected.choiceIndex === choiceIndex
+        : selected.choiceIndex != null
+          ? selected.choiceIndex === choiceIndex && selected.slotIndex == null
+          : selected.slotIndex === choiceIndex)
+    const sameInstance = (selected: SelectedOption) =>
+      selected.index === optionIndex &&
+      (perModel ? selected.modelIndex === modelIndex : selected.modelIndex == null) &&
+      (instanceSlot != null ? selected.slotIndex === instanceSlot : true)
+
+    const wasSelected = selectedOptions.some(matchesChoice)
     if (wasSelected) {
-      selectedOptions = selectedOptions.filter((selected) => !matches(selected))
+      selectedOptions = selectedOptions.filter((selected) => !matchesChoice(selected))
     } else {
-      const sameChoiceGroup = (selected: SelectedOption) =>
-        selected.index === optionIndex &&
-        (perModel ? selected.modelIndex === modelIndex : selected.modelIndex == null)
-      const selectedInGroup = selectedOptions.filter(sameChoiceGroup)
+      const selectedInGroup = selectedOptions.filter(sameInstance)
       if (selectedInGroup.length >= chooseLimit) {
         const earliest = selectedInGroup[0]
         selectedOptions = selectedOptions.filter((selected) => selected !== earliest)
@@ -167,7 +181,8 @@ export function toggleRosterOption(
       selectedOptions.push({
         index: optionIndex,
         modelIndex: perModel ? modelIndex : undefined,
-        slotIndex,
+        slotIndex: instanceSlot,
+        choiceIndex,
         ...optionSummary,
       })
     }
