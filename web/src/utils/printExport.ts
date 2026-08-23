@@ -4,10 +4,22 @@ import {
   formatOptionBody,
   formatOptionLabel,
 } from './formatOption'
-import { getUnitProfiles, groupUnitsByType, getProfileStatsForEntry, sortRosterByType } from './units'
+import {
+  getProfileAbilitySections,
+  getProfileKeywordSections,
+  getProfileTraitSections,
+  getProfileWeaponSections,
+  getUnitProfiles,
+  groupUnitsByType,
+  getProfileStatsForEntry,
+  sortRosterByType,
+} from './units'
 import { formatRosterEntryMeta } from './roster'
 import type {
   ArmyList,
+  ProfileAbilitySection,
+  ProfileTagSection,
+  ProfileWeaponSection,
   RosterEntry,
   SavedArmy,
   Unit,
@@ -72,8 +84,6 @@ function renderWeaponsTable(weapons: Weapon[] | undefined): string {
     .join('')
 
   return `
-    <section>
-      <h4>Weapons</h4>
       <table class="data-table weapons-table">
         <thead>
           <tr>
@@ -87,6 +97,58 @@ function renderWeaponsTable(weapons: Weapon[] | undefined): string {
         </thead>
         <tbody>${rows}</tbody>
       </table>
+  `
+}
+
+function renderWeaponsBlock(
+  weapons: Weapon[] | undefined,
+  profileSections: ProfileWeaponSection[] | undefined,
+): string {
+  if (!weapons?.length && !profileSections?.length) {
+    return ''
+  }
+
+  const extras = (profileSections ?? [])
+    .map(
+      (section) => `
+        <h5>${escapeHtml(section.heading)}</h5>
+        ${renderWeaponsTable(section.weapons)}
+      `,
+    )
+    .join('')
+
+  return `
+    <section>
+      <h4>Weapons</h4>
+      ${renderWeaponsTable(weapons)}
+      ${extras}
+    </section>
+  `
+}
+
+function renderTagBlock(
+  title: string,
+  tags: string[] | undefined,
+  profileSections: ProfileTagSection[] | undefined,
+): string {
+  if (!tags?.length && !profileSections?.length) {
+    return ''
+  }
+
+  const extras = (profileSections ?? [])
+    .map(
+      (section) => `
+        <h5>${escapeHtml(section.heading)}</h5>
+        <p class="keywords">${section.items.map((item) => escapeHtml(item)).join(', ')}</p>
+      `,
+    )
+    .join('')
+
+  return `
+    <section>
+      <h4>${escapeHtml(title)}</h4>
+      ${tags?.length ? `<p class="keywords">${tags.map((tag) => escapeHtml(tag)).join(', ')}</p>` : ''}
+      ${extras}
     </section>
   `
 }
@@ -151,8 +213,13 @@ function renderUnitSheet(unit: Unit): string {
     unitNo: unit.no,
     profileBlocks,
     weapons: unit.weapons,
+    profileWeaponSections: getProfileWeaponSections(unit),
     abilities: unit.abilities,
+    profileAbilitySections: getProfileAbilitySections(unit),
     keywords: unit.keywords,
+    profileKeywordSections: getProfileKeywordSections(unit),
+    traits: unit.traits,
+    profileTraitSections: getProfileTraitSections(unit),
     options: unit.options,
     profileStats,
   })
@@ -165,8 +232,13 @@ interface UnitSheetContent {
   entryMeta?: string
   profileBlocks: string
   weapons?: Weapon[]
+  profileWeaponSections?: ProfileWeaponSection[]
   abilities?: string
+  profileAbilitySections?: ProfileAbilitySection[]
   keywords?: string[]
+  profileKeywordSections?: ProfileTagSection[]
+  traits?: string[]
+  profileTraitSections?: ProfileTagSection[]
   options?: UnitOption[]
   profileStats: UnitStats | null
   selectedOptionIndexes?: number[]
@@ -174,23 +246,28 @@ interface UnitSheetContent {
 }
 
 function renderUnitSheetContent(content: UnitSheetContent): string {
-  const keywords = content.keywords?.length
-    ? `
-      <section>
-        <h4>Keywords</h4>
-        <p class="keywords">${content.keywords.map((keyword) => escapeHtml(keyword)).join(', ')}</p>
-      </section>
-    `
-    : ''
+  const keywords = renderTagBlock('Keywords', content.keywords, content.profileKeywordSections)
+  const traits = renderTagBlock('Traits', content.traits, content.profileTraitSections)
 
-  const abilities = content.abilities
-    ? `
+  const profileAbilityHtml = (content.profileAbilitySections ?? [])
+    .map(
+      (section) => `
+        <h5>${escapeHtml(section.heading)}</h5>
+        <p class="prose">${escapeHtml(section.text)}</p>
+      `,
+    )
+    .join('')
+
+  const abilities =
+    content.abilities || profileAbilityHtml
+      ? `
       <section>
         <h4>Abilities</h4>
-        <p class="prose">${escapeHtml(content.abilities)}</p>
+        ${content.abilities ? `<p class="prose">${escapeHtml(content.abilities)}</p>` : ''}
+        ${profileAbilityHtml}
       </section>
     `
-    : ''
+      : ''
 
   const unitNo = content.unitNo != null
     ? `<span class="unit-no">#${escapeHtml(content.unitNo)}</span>`
@@ -204,9 +281,10 @@ function renderUnitSheetContent(content: UnitSheetContent): string {
     ? `<p class="missing-message">${escapeHtml(content.missingMessage)}</p>`
     : `
       ${content.profileBlocks}
-      ${renderWeaponsTable(content.weapons)}
+      ${renderWeaponsBlock(content.weapons, content.profileWeaponSections)}
       ${abilities}
       ${keywords}
+      ${traits}
       ${renderOptions(content.options, content.profileStats, content.selectedOptionIndexes)}
     `
 
@@ -249,8 +327,13 @@ function renderRosterEntrySheet(entry: RosterEntry, unit: Unit | null | undefine
     entryMeta,
     profileBlocks: renderStatsTable(profileStats, entry.profileLabel),
     weapons: unit.weapons,
+    profileWeaponSections: getProfileWeaponSections(unit, entry.profileLabel),
     abilities: unit.abilities,
+    profileAbilitySections: getProfileAbilitySections(unit, entry.profileLabel),
     keywords: unit.keywords,
+    profileKeywordSections: getProfileKeywordSections(unit, entry.profileLabel),
+    traits: unit.traits,
+    profileTraitSections: getProfileTraitSections(unit, entry.profileLabel),
     options: unit.options,
     profileStats,
     selectedOptionIndexes,
@@ -374,6 +457,13 @@ const PRINT_STYLES = `
   h4 {
     margin: 0 0 8px;
     font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  h5 {
+    margin: 12px 0 6px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }

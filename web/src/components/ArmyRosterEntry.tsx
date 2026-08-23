@@ -1,12 +1,17 @@
 import StatsTable from './StatsTable'
 import UnitAbilities from './UnitAbilities'
+import UnitTagList from './UnitTagList'
 import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
 import UnitWeapons from './UnitWeapons'
 import { formatRosterEntryMeta } from '../utils/roster'
 import {
   formatUnitTypeLabel,
+  getProfileAbilitySections,
+  getProfileKeywordSections,
   getProfileStatsForEntry,
+  getProfileTraitSections,
+  getProfileWeaponSections,
   getUnitProfiles,
   isProfileSelected,
 } from '../utils/units'
@@ -78,12 +83,29 @@ export default function ArmyRosterEntry({
                 </div>
               </section>
 
-              <UnitWeapons weapons={unit.weapons} />
-              <UnitAbilities abilities={unit.abilities} />
+              <UnitWeapons
+                weapons={unit.weapons}
+                profileSections={getProfileWeaponSections(unit, entry.profileLabel)}
+              />
+              <UnitAbilities
+                abilities={unit.abilities}
+                profileSections={getProfileAbilitySections(unit, entry.profileLabel)}
+              />
+              <UnitTagList
+                title="Keywords"
+                tags={unit.keywords}
+                profileSections={getProfileKeywordSections(unit, entry.profileLabel)}
+              />
+              <UnitTagList
+                title="Traits"
+                tags={unit.traits}
+                profileSections={getProfileTraitSections(unit, entry.profileLabel)}
+              />
 
               <UnitOptions
                 options={unit.options}
                 selectedOptionIndexes={selectedOptionIndexes}
+                selectedOptions={entry.selectedOptions}
                 profileStats={profileStats}
                 highlightSelection
               />

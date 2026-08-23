@@ -7,6 +7,7 @@ export type ViewMode = 'army' | 'cards' | 'all'
 export type HandPile = 'deck' | 'hand' | 'discard'
 
 export type UnitStats = {
+  name?: string
   M?: string
   WS?: string
   BS?: string
@@ -16,7 +17,6 @@ export type UnitStats = {
   Sv?: string
   N?: string
   Pt?: string
-  [key: string]: string | undefined
 }
 
 export interface Weapon {
@@ -33,22 +33,39 @@ export interface UnitOptionObject {
   per?: string
   text?: string
   name?: string
+  title?: string
   Pt?: string | number
   pt?: string | number
+  limit?: string
+  group?: string
+  chooseOne?: string[]
+  chooseLimit?: number
 }
 
 export type UnitOption = string | UnitOptionObject
+
+export interface UnitProfileRecord extends UnitStats {
+  abilities?: string
+  keywords?: string[]
+  traits?: string[]
+  weapons?: Weapon[]
+}
 
 export interface Unit {
   no: number
   type: string
   name: string
   stats?: UnitStats
-  profiles?: UnitStats[]
+  profiles?: UnitProfileRecord[]
   abilities?: string
+  profileAbilities?: string
   keywords?: string[]
+  profileKeywords?: string[]
+  traits?: string[]
+  profileTraits?: string[]
   options?: UnitOption[]
   weapons?: Weapon[]
+  profileWeapons?: Weapon[]
 }
 
 export interface FactionSummary {
@@ -90,9 +107,16 @@ export interface CardsResponse {
 
 export interface SelectedOption {
   index: number
+  modelIndex?: number
+  slotIndex?: number
   label?: string | null
   text?: string
   points: number
+}
+
+export interface OptionToggleContext {
+  modelIndex?: number
+  slotIndex?: number
 }
 
 export interface RosterEntry {
@@ -139,6 +163,25 @@ export interface UnitProfile {
   label: string
   stats: UnitStats
   points: number
+  abilities?: string
+  keywords?: string[]
+  traits?: string[]
+  weapons?: Weapon[]
+}
+
+export interface ProfileAbilitySection {
+  heading: string
+  text: string
+}
+
+export interface ProfileTagSection {
+  heading: string
+  items: string[]
+}
+
+export interface ProfileWeaponSection {
+  heading: string
+  weapons: Weapon[]
 }
 
 export interface HandState {
@@ -173,6 +216,7 @@ export interface OptionSummary {
 
 export type OptionScope =
   | { type: 'unit' }
+  | { type: 'model' }
   | { type: 'models'; count: number }
 
 export type CardDetailProps = {

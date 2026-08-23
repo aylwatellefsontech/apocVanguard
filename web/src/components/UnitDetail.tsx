@@ -1,10 +1,18 @@
 import StatsTable from './StatsTable'
 import UnitAbilities from './UnitAbilities'
+import UnitTagList from './UnitTagList'
 import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
 import UnitWeapons from './UnitWeapons'
-import { getUnitProfiles } from '../utils/units'
-import type { Unit, UnitOption, UnitProfile, UnitStats } from '../types'
+import {
+  getAltProfileLabel,
+  getProfileAbilitySections,
+  getProfileKeywordSections,
+  getProfileTraitSections,
+  getProfileWeaponSections,
+  getUnitProfiles,
+} from '../utils/units'
+import type { OptionToggleContext, SelectedOption, Unit, UnitOption, UnitProfile, UnitStats } from '../types'
 
 interface ProfilePickerProps {
   profile: UnitProfile
@@ -31,8 +39,9 @@ function ProfilePicker({ profile, onAdd }: ProfilePickerProps) {
 interface UnitDetailProps {
   unit?: Unit | null
   onAddProfile?: (unit: Unit, profile: UnitProfile) => void
-  onToggleOption?: (optionIndex: number, option: UnitOption) => void
+  onToggleOption?: (optionIndex: number, option: UnitOption, context?: OptionToggleContext) => void
   selectedOptionIndexes?: number[]
+  selectedOptions?: SelectedOption[]
   optionProfileStats?: UnitStats | null
   emptyMessage?: string
   showProfilePicker?: boolean
@@ -44,6 +53,7 @@ export default function UnitDetail({
   onAddProfile,
   onToggleOption,
   selectedOptionIndexes,
+  selectedOptions,
   optionProfileStats,
   emptyMessage = 'Select a unit to view its datasheet.',
   showProfilePicker = true,
@@ -59,6 +69,11 @@ export default function UnitDetail({
 
   const profiles = onAddProfile && showProfilePicker ? getUnitProfiles(unit) : null
   const editingStats = editingProfileLabel ? optionProfileStats : null
+  const selectedLabel = editingProfileLabel
+  const profileAbilitySections = getProfileAbilitySections(unit, selectedLabel)
+  const profileWeaponSections = getProfileWeaponSections(unit, selectedLabel)
+  const profileKeywordSections = getProfileKeywordSections(unit, selectedLabel)
+  const profileTraitSections = getProfileTraitSections(unit, selectedLabel)
 
   return (
     <div className="unit-detail">
@@ -87,33 +102,28 @@ export default function UnitDetail({
             <section>
               <h3>Alt Profiles</h3>
               {unit.profiles.map((profile, index) => (
-                <StatsTable key={index} stats={profile} label={`Alt Profile ${index + 1}`} />
+                <StatsTable
+                  key={index}
+                  stats={profile}
+                  label={getAltProfileLabel(profile, index)}
+                />
               ))}
             </section>
           )}
         </>
       )}
 
-      <UnitWeapons weapons={unit.weapons} />
-      <UnitAbilities abilities={unit.abilities} />
+      <UnitWeapons weapons={unit.weapons} profileSections={profileWeaponSections} />
+      <UnitAbilities abilities={unit.abilities} profileSections={profileAbilitySections} />
 
-      {unit.keywords && unit.keywords.length > 0 && (
-        <section>
-          <h3>Keywords</h3>
-          <div className="keyword-list">
-            {unit.keywords.map((keyword) => (
-              <span key={keyword} className="keyword">
-                {keyword}
-              </span>
-            ))}
-          </div>
-        </section>
-      )}
+      <UnitTagList title="Keywords" tags={unit.keywords} profileSections={profileKeywordSections} />
+      <UnitTagList title="Traits" tags={unit.traits} profileSections={profileTraitSections} />
 
       <UnitOptions
         options={unit.options}
         interactive={Boolean(onToggleOption)}
         selectedOptionIndexes={selectedOptionIndexes ?? []}
+        selectedOptions={selectedOptions}
         profileStats={optionProfileStats}
         onToggleOption={onToggleOption}
         showSelectHint={Boolean(onAddProfile && !onToggleOption && unit.options?.length)}

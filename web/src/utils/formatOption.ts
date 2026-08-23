@@ -1,17 +1,22 @@
 import type { OptionScope, OptionSummary, UnitOption, UnitStats } from '../types'
+import { getChooseOneChoices, isPerModelOption, normalizePerLabel } from './optionUtils'
 
 const PER_UNIT = /^per unit$/i
 const POWER_RATING_IN_TEXT = /\s*\(Power Rating[^)]*\)/gi
 const PER_MODELS = /^per\s+(\d+)\s+models?$/i
 
 function formatPerLabel(per: string | undefined): string | null {
-  if (!per || PER_UNIT.test(per.trim())) {
+  const normalized = normalizePerLabel(per)
+  if (PER_UNIT.test(normalized)) {
     return null
   }
+  if (isPerModelOption({ per: normalized, text: '' })) {
+    return 'Per Model'
+  }
 
-  const match = per.trim().match(/^Per\s+(.+)$/i)
+  const match = normalized.match(/^Per\s+(.+)$/i)
   if (!match) {
-    return per.trim()
+    return normalized
   }
 
   const rest = match[1].replace(/\b\w/g, (char) => char.toUpperCase())
@@ -37,6 +42,10 @@ export function getOptionScope(option: UnitOption): OptionScope {
     return { type: 'unit' }
   }
 
+  if (isPerModelOption(option)) {
+    return { type: 'model' }
+  }
+
   const modelsMatch = option.per.trim().match(PER_MODELS)
   if (modelsMatch) {
     return {
@@ -48,13 +57,25 @@ export function getOptionScope(option: UnitOption): OptionScope {
   return { type: 'unit' }
 }
 
-export function calculateOptionPoints(option: UnitOption, profileStats: UnitStats | null): number {
+export function calculateOptionPoints(
+  option: UnitOption,
+  profileStats: UnitStats | null,
+  mode: 'total' | 'perSelection' = 'total',
+): number {
   const basePt = getOptionBasePoints(option)
   if (basePt === 0) {
     return 0
   }
 
+  if (mode === 'perSelection') {
+    return basePt
+  }
+
   const scope = getOptionScope(option)
+  if (scope.type === 'model') {
+    return basePt
+  }
+
   if (scope.type !== 'models') {
     return basePt
   }
@@ -74,6 +95,11 @@ function stripEmbeddedPowerRating(text: string): string {
 export function formatOptionLabel(option: UnitOption): string | null {
   if (typeof option === 'string') {
     return null
+  }
+
+  const title = option.title?.trim()
+  if (title) {
+    return title
   }
 
   const perLabel = formatPerLabel(option.per)
@@ -96,7 +122,14 @@ export function formatOptionBody(option: UnitOption): string {
     return option
   }
 
-  return stripEmbeddedPowerRating(option.text || option.name || '')
+  const body = stripEmbeddedPowerRating(option.text || option.name || '')
+  const choices = getChooseOneChoices(option)
+  if (choices.length === 0) {
+    return body
+  }
+
+  const choiceList = choices.join('; ')
+  return body ? `${body} ${choiceList}` : `Choose one: ${choiceList}`
 }
 
 export function formatOptionText(option: UnitOption): string {
@@ -114,8 +147,16 @@ export function formatOptionText(option: UnitOption): string {
   return body
 }
 
-export function summarizeOption(option: UnitOption, profileStats: UnitStats | null): OptionSummary {
-  const points = calculateOptionPoints(option, profileStats)
+export function summarizeOption(
+  option: UnitOption,
+  profileStats: UnitStats | null,
+  perSelection = false,
+): OptionSummary {
+  const points = calculateOptionPoints(
+    option,
+    profileStats,
+    perSelection ? 'perSelection' : 'total',
+  )
 
   return {
     label: formatOptionLabel(option),

@@ -1,6 +1,6 @@
 # Apocalypse Vanguard
 
-V0.6.2 \- 2026 06 24
+V0.6.3 \- 2026 08 23
 
 Apocalypse Vanguard is a cleaned up fan version of Apocalypse, meant to play games of Apocalypse in a smaller footprint, and faster.  
 
@@ -11,7 +11,12 @@ To play vanguard, play with between 100 to 150 points of units, on a 48” x 48�
 # Rules Modifications {#rules-modifications}
 
 The following are a rough list of modifications of the original Apocalypse:  
-\- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up.
+\- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up. It gets -1 to hit for ALL attacks.
+\- Add the following abilities: Harrier (at start of turn gain or lose supersonic), Blast (add +1 
+Attack for every 5 models in the target)
+\- Characters not the closest to the attacker are Obscured.
+\-  Light Characters get an additional -1 to hit when Obscured (for a total of -2).
+
 
 ## Tactic Deck Construction
 
@@ -342,10 +347,14 @@ A game is played in the phases:
 
 Starting on the second turn, alternate who has initiative.
 
+## Draw Step
 Each player draws 3 cards, up to 7\. For every Warlord you have, you can draw an additional card, but after drawing those extra cards you must put an equal number back on the top of your deck in any order.
 
+
+## Reinforcements Step
 Any reinforcements from Tactical Reserves can be deployed, starting with the player with initiative. If they have no special rules dictating placement, they must be deployed within 6” of your deployment zone table edge within your deployment zone, and further than 9” from enemies.
 
+## Command Step
 Units out of command (further than 12” from a commander) count as out of command.
 
 Each player chooses a command for each of their divisions.
@@ -353,6 +362,7 @@ Each player chooses a command for each of their divisions.
 There are 3 commands: Assault, Advance, and Aim.
 
 # Action Phase {#action-phase}
+Alternate activating detachments.
 
 When a detachment activates, they perform actions based on the command.  
 The commander and up to 6 friendly units haven’t activated yet activate as the detachment. These units must be within 12” (or 24” with infiltrator) or units out of command, and be closer to this commander than any other friendly commander.
@@ -462,8 +472,6 @@ If a commander is destroyed, nominate a new unit within 12” to be the commande
 
 Super-Heavy destruction. When a Super heavy is destroyed, roll a D12. On a 10+ (it explodes), disembark any unit inside them, then put a blast marker next to each unit within 6” of it.
 
-# 
-
 # Common Abilities {#common-abilities}
 
 The following are common abilities
@@ -506,6 +514,9 @@ Before a unit attacks with this weapon, they can supercharge it. Until the end o
 
 Reroll wound rolls for attacks with this weapon against targets whose leadership is less then this unit. 
 
+#### Blast (new)
+For every 10 models in the target, add 1 Attack.
+
 ## Unit Abilities {#unit-abilities}
 
 #### Deep Strike
@@ -541,8 +552,8 @@ Super Heavy that carry out Aimed Fire or Advance can make one shoot action and o
 Subtract 1 from hit roll for attacks made with ranged weapons that target this unit. Fight attacks automatically miss unless the attacker has Fly. (Note \- the army list Power should increase by 2 if the unit cannot lose supersonic).
 
 #### Supersonic (New)
-
-During deployment, this unit can be set up in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the field more than 9” from enemy units. At the start of the Reinforcements Step or the End of the Game, if this unit is on the field, put it into Tactical Reserves.  While in Tactical Reserves, it may attack other Supersonic units in Tactical Reserves as if it were in Range. In addition, Subtract 1 from hit rolls for attacks with ranged weapons that target this unit. Melee weapon attacks against this unit miss unless the attacker has Fly.
+step
+During deployment, this unit can be set up in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the field more than 9” from enemy units. At the start of the Reinforcements Step or the End of the Game, if this unit is on the field, put it into Tactical Reserves. It can't be deployed that step.  While in Tactical Reserves, it may attack other Supersonic units in Tactical Reserves as if it were in Range. In addition, Subtract 1 from hit rolls for attacks with ranged weapons that target this unit. Melee weapon attacks against this unit miss unless the attacker has Fly.
 
 #### Harrier (New)
 

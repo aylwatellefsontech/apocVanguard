@@ -562,6 +562,24 @@
   color: var(--text);
 }
 
+.profile-abilities,
+.profile-extras {
+  margin-top: 12px;
+}
+
+.profile-abilities h4,
+.profile-extras h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.profile-abilities .prose,
+.profile-extras .prose {
+  margin: 0;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -651,6 +669,29 @@
 
 .option-toggle-text {
   line-height: 1.45;
+}
+
+.option-group {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.option-group legend {
+  padding: 0 6px;
+  font-weight: 600;
+}
+
+.option-model-block {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.option-model-heading {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
 }
 
 .option-pts {
@@ -1067,6 +1108,10 @@
 .roster-actions {
   display: flex;
   gap: 8px;
+}
+
+.roster-actions-top {
+  margin-bottom: 12px;
 }
 
 .form-error,

@@ -23,7 +23,9 @@ export default function RosterEntrySummary({
           {entry.selectedOptions?.length > 0 && (
             <ul className="roster-option-list">
               {entry.selectedOptions.map((option) => (
-                <li key={option.index}>
+                <li
+                  key={`${option.index}-${option.modelIndex ?? 'unit'}-${option.slotIndex ?? 'slot'}`}
+                >
                   {option.label}
                   {option.points > 0 ? ` (+${option.points} Pt)` : ''}
                 </li>
@@ -39,7 +41,9 @@ export default function RosterEntrySummary({
           {entry.selectedOptions?.length > 0 && (
             <ul className="roster-option-list">
               {entry.selectedOptions.map((option) => (
-                <li key={option.index}>
+                <li
+                  key={`${option.index}-${option.modelIndex ?? 'unit'}-${option.slotIndex ?? 'slot'}`}
+                >
                   {option.label}: {option.text}
                   {option.points > 0 ? ` (+${option.points} Pt)` : ''}
                 </li>

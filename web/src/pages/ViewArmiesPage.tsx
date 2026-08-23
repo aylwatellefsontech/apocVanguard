@@ -298,7 +298,7 @@ export default function ViewArmiesPage() {
                     disabled={!hasCards}
                     onClick={() => setHandModalOpen(true)}
                   >
-                    Hand Draw
+                    Card Hand
                   </button>
                   <button type="button" className="secondary-btn" onClick={handleCycleViewMode}>
                     {VIEW_LABELS[nextViewMode(viewMode)]}

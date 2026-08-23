@@ -150,7 +150,7 @@ def faction_from_csv_path(csv_path):
 
 
 UNIT_KEY_ORDER = [
-    "no", "type", "name", "stats", "abilities", "keywords", "profiles", "options", "weapons",
+    "no", "type", "name", "stats", "abilities", "profileAbilities", "keywords", "profileKeywords", "traits", "profileTraits", "profiles", "options", "weapons", "profileWeapons",
 ]
 
 

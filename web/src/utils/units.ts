@@ -1,9 +1,60 @@
 import { TYPE_ORDER } from '../constants'
-import type { RosterEntry, Unit, UnitProfile, UnitStats } from '../types'
+import type {
+  ProfileAbilitySection,
+  ProfileTagSection,
+  ProfileWeaponSection,
+  RosterEntry,
+  Unit,
+  UnitProfile,
+  UnitProfileRecord,
+  UnitStats,
+} from '../types'
+
+const STAT_FIELDS = ['name', 'M', 'WS', 'BS', 'A', 'W', 'Ld', 'Sv', 'N', 'Pt'] as const
 
 export function parsePoints(stats: UnitStats | undefined): number {
   const value = Number.parseInt(stats?.Pt ?? '', 10)
   return Number.isFinite(value) ? value : 0
+}
+
+export function getAltProfileLabel(profile: UnitStats, index: number): string {
+  const name = profile.name?.trim()
+  return name || `Alt Profile ${index + 1}`
+}
+
+function toUnitStats(record: UnitStats): UnitStats {
+  const stats: UnitStats = {}
+  for (const field of STAT_FIELDS) {
+    const value = record[field]
+    if (value) {
+      stats[field] = value
+    }
+  }
+  return stats
+}
+
+function withProfileExtras(
+  profile: UnitProfile,
+  extras: {
+    abilities?: string
+    keywords?: string[]
+    traits?: string[]
+    weapons?: UnitProfile['weapons']
+  },
+): UnitProfile {
+  if (extras.abilities?.trim()) {
+    profile.abilities = extras.abilities.trim()
+  }
+  if (extras.keywords?.length) {
+    profile.keywords = extras.keywords
+  }
+  if (extras.traits?.length) {
+    profile.traits = extras.traits
+  }
+  if (extras.weapons?.length) {
+    profile.weapons = extras.weapons
+  }
+  return profile
 }
 
 export function getUnitProfiles(unit: Unit | null | undefined): UnitProfile[] {
@@ -12,23 +63,43 @@ export function getUnitProfiles(unit: Unit | null | undefined): UnitProfile[] {
   const profiles: UnitProfile[] = []
 
   if (unit.stats) {
-    profiles.push({
-      kind: 'primary',
-      index: 0,
-      label: 'Primary Profile',
-      stats: unit.stats,
-      points: parsePoints(unit.stats),
-    })
+    profiles.push(
+      withProfileExtras(
+        {
+          kind: 'primary',
+          index: 0,
+          label: 'Primary Profile',
+          stats: unit.stats,
+          points: parsePoints(unit.stats),
+        },
+        {
+          abilities: unit.profileAbilities,
+          keywords: unit.profileKeywords,
+          traits: unit.profileTraits,
+          weapons: unit.profileWeapons,
+        },
+      ),
+    )
   }
 
-  unit.profiles?.forEach((stats, index) => {
-    profiles.push({
-      kind: 'alt',
-      index,
-      label: `Alt Profile ${index + 1}`,
-      stats,
-      points: parsePoints(stats),
-    })
+  unit.profiles?.forEach((record: UnitProfileRecord, index) => {
+    profiles.push(
+      withProfileExtras(
+        {
+          kind: 'alt',
+          index,
+          label: getAltProfileLabel(record, index),
+          stats: toUnitStats(record),
+          points: parsePoints(record),
+        },
+        {
+          abilities: record.abilities,
+          keywords: record.keywords,
+          traits: record.traits,
+          weapons: record.weapons,
+        },
+      ),
+    )
   })
 
   return profiles
@@ -63,6 +134,87 @@ export function sortRosterByType(roster: RosterEntry[]): RosterEntry[] {
   })
 }
 
+function matchingProfiles(unit: Unit, selectedLabel?: string | null): UnitProfile[] {
+  const profiles = getUnitProfiles(unit)
+  if (!selectedLabel) {
+    return profiles
+  }
+  return profiles.filter((profile) => profile.label === selectedLabel)
+}
+
+export function getProfileSectionHeading(profile: UnitProfile, suffix: string): string {
+  const prefix = profile.kind === 'primary' ? 'Base Profile' : profile.label
+  return `${prefix} ${suffix}`
+}
+
+export function getProfileAbilityHeading(profile: UnitProfile): string {
+  return getProfileSectionHeading(profile, 'Abilities')
+}
+
+export function getProfileAbilitySections(
+  unit: Unit | null | undefined,
+  selectedLabel?: string | null,
+): ProfileAbilitySection[] {
+  if (!unit) {
+    return []
+  }
+
+  return matchingProfiles(unit, selectedLabel)
+    .filter((profile) => Boolean(profile.abilities))
+    .map((profile) => ({
+      heading: getProfileAbilityHeading(profile),
+      text: profile.abilities as string,
+    }))
+}
+
+export function getProfileKeywordSections(
+  unit: Unit | null | undefined,
+  selectedLabel?: string | null,
+): ProfileTagSection[] {
+  if (!unit) {
+    return []
+  }
+
+  return matchingProfiles(unit, selectedLabel)
+    .filter((profile) => Boolean(profile.keywords?.length))
+    .map((profile) => ({
+      heading: getProfileSectionHeading(profile, 'Keywords'),
+      items: profile.keywords as string[],
+    }))
+}
+
+export function getProfileTraitSections(
+  unit: Unit | null | undefined,
+  selectedLabel?: string | null,
+): ProfileTagSection[] {
+  if (!unit) {
+    return []
+  }
+
+  return matchingProfiles(unit, selectedLabel)
+    .filter((profile) => Boolean(profile.traits?.length))
+    .map((profile) => ({
+      heading: getProfileSectionHeading(profile, 'Traits'),
+      items: profile.traits as string[],
+    }))
+}
+
+export function getProfileWeaponSections(
+  unit: Unit | null | undefined,
+  selectedLabel?: string | null,
+): ProfileWeaponSection[] {
+  if (!unit) {
+    return []
+  }
+
+  return matchingProfiles(unit, selectedLabel)
+    .filter((profile) => Boolean(profile.weapons?.length))
+    .map((profile) => ({
+      heading: getProfileSectionHeading(profile, 'Weapons'),
+      weapons: profile.weapons as NonNullable<UnitProfile['weapons']>,
+    }))
+}
+
 export function getProfileStatsForEntry(
   unit: Unit | null | undefined,
   entry: RosterEntry | null | undefined,
@@ -75,7 +227,8 @@ export function getProfileStatsForEntry(
     return unit.stats ?? null
   }
 
-  return unit.profiles?.[entry.profileIndex] ?? null
+  const record = unit.profiles?.[entry.profileIndex]
+  return record ? toUnitStats(record) : null
 }
 
 export function isProfileSelected(profile: UnitProfile, entry: RosterEntry | null | undefined): boolean {

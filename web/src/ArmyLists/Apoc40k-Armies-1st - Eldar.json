@@ -1,6 +1,6 @@
 {
   "faction": "Eldar",
-  "source": "Apoc40k-Armies-1st - Eldar.csv",
+  "source": "Apoc40k-Armies-1st - Eldar.md",
   "units": [
     {
       "no": 1,
@@ -17,22 +17,24 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
       "keywords": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
         "Light",
-        "Infantry",
         "Psyker",
         "Character",
         "Farseer"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "abilities": "Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "This unit can have a Skyrunner Jetbike (Power Rating +2)",
+          "text": "This unit can have a Skyrunner Jetbike (Skyrunner Profile)",
           "Pt": "2"
         }
       ],
@@ -45,6 +47,36 @@
           "skill": "8+",
           "armorPen": "8+",
           "abilities": "Witchfire"
+        },
+        {
+          "name": "Eldritch Storm",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+",
+          "abilities": "Witchfire, Blast"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Skyrunner",
+          "M": "17\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "1",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "6",
+          "keywords": [
+            "Biker",
+            "Fly"
+          ],
+          "traits": [
+            "Skyrunner"
+          ]
         }
       ]
     },
@@ -63,31 +95,21 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\nSkyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9\" away from any enemy units. A unit cannot skyleap if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nWarp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.\nThis unit can have one of the following:\n- Skyrunner Jetbike (Power Rating +1). If this unit has a Skyrunner Jetbike, it:\n  - Has a Move characteristic of 17\".\n  - Has the following additional keywords: Biker, Fly.\n  - Loses the following keywords: Infantry.\n- Warp Jump Generator (Power Rating +2). If this unit has a Warp Jump Generator, it:\n  - Has the following additional abilities: Deep Strike, Warp Jump Generator.\n  - Has the following additional keywords: Jump Pack.\n- Swooping Hawk Wings (Power Rating +2). If this unit has Swooping Hawk Wings, it:\n  - Has a Move characteristic of 14\".\n  - Has the following additional abilities: Deep Strike, Skyleap.\n  - Has the following additional keywords: Jump Pack, Fly.",
       "keywords": [
+        "Light",
+        "Character"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Light",
-        "Infantry",
-        "Character",
         "Autarch"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Skyleap: If this unit has Swooping Hawk Wings, then when it makes a Move action, it can skyleap instead of moving."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Warp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\n\nThis unit can have one of: Skyrunner jetbike (Skyrunner Jetbike profile), Jump Generator (Jump Generator profile), Swooping Hawk Wings (Hawk Wings profile).",
       "weapons": [
         {
           "name": "Autarch Weapons",
@@ -96,6 +118,59 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "8+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Skyrunner Jetbike",
+          "M": "17\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "1",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "6",
+          "keywords": [
+            "Bike",
+            "Fly"
+          ]
+        },
+        {
+          "name": "Hawk Wings",
+          "M": "14\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "1",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "7",
+          "keywords": [
+            "Infantry",
+            "Jump Pack",
+            "Fly"
+          ],
+          "abilities": "This unit is equipped with Swooping Hawk Wings.\nDeep Strike, Harrier, Skyleap\nSkyleap: When this unit is deployed from reserves, it can lose or gain supersonic."
+        },
+        {
+          "name": "Jump Generator",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "1",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "7",
+          "keywords": [
+            "Infantry",
+            "Jump Pack"
+          ],
+          "abilities": "This unit is equipped with a Warp Jump Generator.\nWarp Jump Generator: If this unit has a Warp Jump Generator, then instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit."
         }
       ]
     },
@@ -114,153 +189,266 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "You can only include one Phoenix Lord in your army.\nLord of <Aspect>: <Aspect> units within 6\" of this unit and this unit re-roll failed attacks.",
       "keywords": [
+        "Light",
+        "Infantry",
+        "Character"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
-        "Light",
-        "Infantry",
-        "Character",
         "Phoenix Lord"
       ],
-      "options": [
+      "abilities": "You can only include one of each Phoenix Lord in your army.\nLord of <Aspect>: <Aspect> units within 6\" of this unit and this unit re-roll failed attacks.",
+      "profiles": [
         {
-          "per": "Per Unit",
-          "text": "Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. Hand of Asuryan. Improve saving throws of Aspect Warriors within 6\" by 1. Lord of <Dire Avengers>."
+          "name": "Asurmen",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "9",
+          "traits": [
+            "Dire Avengers"
+          ],
+          "abilities": "Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. \nHand of Asuryan: Improve saving throws of Aspect Warriors within 6\" by 1. \nLord of <Dire Avengers>.",
+          "weapons": [
+            {
+              "name": "Sword of Asur",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "8+"
+            },
+            {
+              "name": "Avenger Shuriken Catapults",
+              "type": "Small Arms",
+              "range": "18\"",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "8+"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Baharoth - equipped with Hawks Talon and Shining Blade. Deep strike. Harrier. Brilliant sun. Add 1 to leadership to aspect warriors within 6\". Lord of <Swooping Hawks>."
+          "name": "Baharroth",
+          "M": "14\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "10",
+          "keywords": [
+            "Jump Pack",
+            "Fly"
+          ],
+          "traits": [
+            "Swooping Hawks"
+          ],
+          "abilities": "equipped with Hawks Talon and Shining Blade. \nDeep strike. Harrier. Skyleap.\nSkyleap: When this unit is deployed from reserves, it can lose or gain supersonic. \nBrilliant sun: Add 1 to leadership to Aspect Warriors within 6\". \nLord of <Swooping Hawks>.",
+          "weapons": [
+            {
+              "name": "Hawk's Talon",
+              "type": "Small Arms",
+              "range": "24\"",
+              "attacks": "User",
+              "skill": "9+",
+              "armorPen": "10+"
+            },
+            {
+              "name": "Shining Blade",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "8+"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Feugan - equipped with Fire Pike and Fire Axe. Ignore Damage (6+). Assured Destruction. Fire Dragons within 6\" of this unit and this unit re-roll wound rolls of 1 against Heavy or Super-heavy units. Lord of <Fire Dragons>."
+          "name": "Jain Zar",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "10",
+          "traits": [
+            "Howling Banshees"
+          ],
+          "abilities": "Equipped with Lord Ranged Weapon and Blade of Destruction. \nTerror Troops. \nCry of War: enemy units within 2\" of this unit subtract 1 from hit rolls with melee weapons. \nLord of <Howling Banshees>.",
+          "weapons": [
+            {
+              "name": "Lord Ranged Weapon",
+              "type": "Small Arms",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "7+",
+              "armorPen": "8+"
+            },
+            {
+              "name": "Blade of Destruction",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "x2",
+              "skill": "6+",
+              "armorPen": "8+"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Karandras - equipped with Lord Weapon and Scorpion's Bite. Deep strike. Infiltrators. A thousand stings: for each attack against a Light non-character unit, add 1 A. Lord of <Striking Scorpions>."
+          "name": "Karandras",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "9",
+          "traits": [
+            "Striking Scorpions"
+          ],
+          "abilities": "Equipped with Scorpion's Claw and Scorpion's Bite. \nDeep strike. Infiltrators. \nA thousand stings: for each attack against a Light non-character unit, add 1 A. \nLord of <Striking Scorpions>.",
+          "weapons": [
+            {
+              "name": "Scorpion's Claw",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "7+"
+            },
+            {
+              "name": "Scorpion's Bite",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "1",
+              "skill": "4+",
+              "armorPen": "10+",
+              "abilities": "Inferno"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Jain Zar - equipped with Lord Ranged Weapon and Blade of Destruction. Terror Troops. Cry of War: enemy units within 2\" of this unit subtract 1 from hit rolls with melee weapons. Lord of <Howling Banshees>."
+          "name": "Maugan Ra",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "9",
+          "traits": [
+            "Dark Reapers"
+          ],
+          "abilities": "Equipped with Maugetar. \nLegacy of Altansar: this unit and Dark Reapers within 6\" reroll wound rolls of 1 against Chaos units. \nLord of <Dark Reapers>.",
+          "weapons": [
+            {
+              "name": "Maugetar (Melee)",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "1",
+              "skill": "7+",
+              "armorPen": "9+"
+            },
+            {
+              "name": "Maugetar (Ranged)",
+              "type": "Small Arms",
+              "range": "36\"",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "8+",
+              "abilities": "Inferno"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Maugan Ra - equipped with Maugetar. Legacy of Altansar: this unit and Dark Reapers within 6\" reroll wound rolls of 1 against Chaos units. Lord of <Dark Reapers>."
+          "name": "Feugan",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "9",
+          "traits": [
+            "Fire Dragons"
+          ],
+          "abilities": "Equipped with Fire Pike and Fire Axe. \nIgnore Damage (6+). \nAssured Destruction: This unit rerolls wound rolls against Heavy or Super-heavy units. \nLord of <Fire Dragons>.",
+          "weapons": [
+            {
+              "name": "Fire Pike",
+              "type": "Heavy",
+              "range": "6\"",
+              "attacks": "1",
+              "skill": "11+",
+              "armorPen": "4+",
+              "abilities": "Destroyer"
+            },
+            {
+              "name": "Fire Axe",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "8+",
+              "armorPen": "4+"
+            }
+          ]
         },
         {
-          "per": "Per Unit",
-          "text": "Lhykhis - equipped with Lord Weapon and Weaveender. Deep strike. Infiltrators. Perfect Warp Jump: instead of a Move action, this unit can perform a warp jump and set up anywhere more than 9\" from enemy units. Whispering Web: Warp Spiders within 6\" of this unit gain Perfect Warp Jump and Infiltrators. Lord of <Warp Spiders>."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Lord Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Lord Ranged Weapon",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Avenger Shuriken Catapults",
-          "type": "Small Arms",
-          "range": "18\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Sword of Asur",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Hawk's Talon",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "9+",
-          "armorPen": "10+"
-        },
-        {
-          "name": "Shining Blade",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Fire Pike",
-          "type": "Heavy",
-          "range": "6\"",
-          "attacks": "1",
-          "skill": "11+",
-          "armorPen": "4+",
-          "abilities": "Destroyer"
-        },
-        {
-          "name": "Fire Axe",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "4+"
-        },
-        {
-          "name": "Blade of Destruction",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Scorpion's Bite",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "1",
-          "skill": "4+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Maugetar (Melee)",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Maugetar (Ranged)",
-          "type": "Small Arms",
-          "range": "36\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Weaveender",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+"
+          "name": "Lykhis",
+          "M": "7\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "9",
+          "keywords": [
+            "Jump Pack"
+          ],
+          "traits": [
+            "Warp Spiders"
+          ],
+          "abilities": "Lhykhis - equipped with Lord Weapon and Weaveender. \nDeep strike. Infiltrators. \nPerfect Warp Jump: instead of a Move action, this unit can perform a warp jump and set up anywhere more than 9\" from enemy units. Whispering Web: Warp Spiders within 6\" of this unit gain Perfect Warp Jump and Infiltrators.\nLord of <Warp Spiders>.",
+          "weapons": [
+            {
+              "name": "Lord Weapon",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "8+"
+            },
+            {
+              "name": "Weaveender",
+              "type": "Small Arms",
+              "range": "12\"",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "8+"
+            }
+          ]
         }
       ]
     },
@@ -279,49 +467,23 @@
         "N": "1",
         "Pt": "3"
       },
-      "abilities": "Conclave of Power: If this unit contains 5 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 10 models, add 4 to wound rolls for attacks made by this unit instead.",
       "keywords": [
+        "Light",
+        "Infantry",
+        "Psyker"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Light",
-        "Infantry",
-        "Psyker",
         "Warlock",
         "Warlock Conclave"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "6"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have Skyrunner Jetbikes (Power Rating +3)",
-          "Pt": "3"
-        }
-      ],
+      "abilities": "This unit can have 3 Warlocks (Profile) or 6 Warlocks (6 Warlocks Profile), a Jetbike (Skyrunner profile), or 3 Warlocks on jetbikes (3 Skyrunners Profile).\nConclave of Power: If this unit contains 3 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 6 models, add 4 to wound rolls for attacks made by this unit instead.",
       "weapons": [
         {
           "name": "Destructor",
@@ -333,14 +495,6 @@
           "abilities": "Witchfire"
         },
         {
-          "name": "Twin Shuriken Catapults",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x2",
-          "skill": "8+",
-          "armorPen": "11+"
-        },
-        {
           "name": "Witchblades & Singing Spears",
           "type": "Melee",
           "range": "Melee",
@@ -348,6 +502,66 @@
           "skill": "10+",
           "armorPen": "11+",
           "abilities": "Witchfire"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "3 Warlocks",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "5",
+          "Pt": "6",
+          "keywords": [
+            "Infantry"
+          ]
+        },
+        {
+          "name": "6 Warlocks",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "12",
+          "keywords": [
+            "Infantry"
+          ]
+        },
+        {
+          "name": "Skyrunner",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "1",
+          "W": "1",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "6",
+          "keywords": [
+            "Biker",
+            "Fly"
+          ]
+        },
+        {
+          "name": "3 Skyrunners",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "5",
+          "Pt": "9"
         }
       ]
     },
@@ -366,46 +580,40 @@
         "N": "10",
         "Pt": "4"
       },
-      "abilities": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model)\nFor each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Guardian",
         "Guardian Defenders"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "10+",
-          "N": "20",
-          "Pt": "8"
-        }
-      ],
+      "abilities": "This unit can take 20 guardians (20 Guardians Profile).\nThis unit is equipped with Shuriken Catapults.\nFor every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (option)\nFor each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
       "options": [
         {
-          "per": "Per model",
-          "text": "For every 10 models this unit contains, it can also contain 1 Heavy Weapon Platform model (Power Rating +1 per model)",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "For each Heavy Weapon Platform model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+          "per": "Per 10 models",
+          "text": "May gain a Heavy Weapon Platform Model with",
+          "Pt": "1",
+          "title": "Heavy Weapon",
+          "chooseOne": [
+            "Bright Lance",
+            "Scatter Laser",
+            "Shuriken Cannon",
+            "Starcannon",
+            "Aeldari Missile Launcher"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
         {
           "name": "Shuriken Catapults",
           "type": "Small Arms",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "User",
           "skill": "6+",
           "armorPen": "9+"
@@ -458,6 +666,20 @@
           "skill": "8+",
           "armorPen": "6+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "20 Guardians",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        }
       ]
     },
     {
@@ -475,29 +697,18 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Dire Avengers"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "7"
-        }
-      ],
+      "abilities": "This unit can contain 10 Dire Avengers (10 Warriors Profile)\nThis unit is equipped with Shuriken Catapults and Close Combat Weapons.\nDefence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
       "options": [
         {
           "per": "Per Unit",
@@ -506,7 +717,7 @@
       ],
       "weapons": [
         {
-          "name": "Avenger Shuriken Catapults",
+          "name": "Shuriken Catapults",
           "type": "Small Arms",
           "range": "18\"",
           "attacks": "User",
@@ -520,6 +731,20 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "7"
         }
       ]
     },
@@ -535,43 +760,22 @@
         "W": "2",
         "Ld": "5",
         "Sv": "10+",
-        "N": "8",
+        "N": "10",
         "Pt": "3"
       },
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Guardian",
         "Storm Guardians"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "10+",
-          "N": "8",
-          "Pt": "3"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "10+",
-          "N": "16",
-          "Pt": "6"
-        }
-      ],
+      "abilities": "Equipped with Shuriken Pistols and Aeldari Blades",
       "weapons": [
         {
           "name": "Shuriken Pistols",
@@ -606,29 +810,18 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Terror Troops\nBanshee Mask: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Howling Banshees"
       ],
-      "profiles": [
-        {
-          "M": "9\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
+      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nEquipped with Shuriken Pistols and Power Swords\nTerror Troops\nBanshee Mask: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.",
       "weapons": [
         {
           "name": "Shuriken Pistols",
@@ -645,6 +838,20 @@
           "attacks": "x3",
           "skill": "5+",
           "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "9\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
         }
       ]
     },
@@ -663,29 +870,18 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Deep Strike, Infiltrators\nShadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this unit that target units garrisoning a Defensible Terrain feature.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Striking Scorpions"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        }
-      ],
+      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nequipped with: Shuriken Pistols; Mandiblasters; Scorpion Chanswords;\nDeep Strike, Infiltrators\nShadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this unit that target units garrisoning a Defensible Terrain feature.",
       "weapons": [
         {
           "name": "Shuriken Pistols",
@@ -711,6 +907,20 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "14"
+        }
       ]
     },
     {
@@ -728,29 +938,18 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "Assured Destruction: Re-roll wound rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Fire Dragons"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "9"
-        }
-      ],
+      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nEquipped with Fusion Guns; Melta Bombs;\nAssured Destruction: Re-roll wound rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
       "weapons": [
         {
           "name": "Fusion Guns",
@@ -767,6 +966,20 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "2+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "9"
         }
       ]
     },
@@ -785,30 +998,19 @@
         "N": "6",
         "Pt": "8"
       },
-      "abilities": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Spirit Host",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Wraith Construct",
         "Wraithblades"
       ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "5+",
-          "N": "10",
-          "Pt": "16"
-        }
-      ],
+      "abilities": "Can take 10 Constructs (10 Constructs Profile).\nEquipped with Ghostswords.\nInstead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.\nInstead of Ghostswords, can take Ghostaxes (option)",
       "options": [
         {
           "per": "Per Unit",
@@ -832,6 +1034,20 @@
           "skill": "6+",
           "armorPen": "5+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Constructs",
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "10",
+          "Pt": "16"
+        }
       ]
     },
     {
@@ -849,18 +1065,20 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Spirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6\" of this unit.",
       "keywords": [
+        "Light",
+        "Infantry",
+        "Character",
+        "Psyker"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Spirit Host",
         "<Craftworld>",
-        "Light",
-        "Infantry",
-        "Character",
-        "Psyker",
         "Spiritseer"
       ],
+      "abilities": "Spirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6\" of this unit.",
       "weapons": [
         {
           "name": "Witch Staff",
@@ -887,30 +1105,19 @@
         "N": "5",
         "Pt": "9"
       },
-      "abilities": "Implacable: This unit can still make a Shoot action in a turn in which it Fell Back.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Spirit Host",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Wraith Construct",
         "Wraithguard"
       ],
-      "profiles": [
-        {
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "5+",
-          "N": "10",
-          "Pt": "18"
-        }
-      ],
+      "abilities": "Can take 10 Wraithguard (10 Constructs Profile)\nEquipped with Wraithcannons; Wraithguard Fists;\nImplacable: This unit can still make a Shoot action in a turn in which it Fell Back.\nCan swap Wraithcannons with D-scythes (option).",
       "options": [
         {
           "per": "Per Unit",
@@ -944,6 +1151,20 @@
           "skill": "8+",
           "armorPen": "8+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Constructs",
+          "M": "5\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "6",
+          "Ld": "7",
+          "Sv": "5+",
+          "N": "10",
+          "Pt": "18"
+        }
       ]
     },
     {
@@ -961,29 +1182,18 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "Deep Strike, Stealth",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Rangers"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "10+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
+      "abilities": "Can take 10 Rangers (10 Rangers Profile)\nEquipped with Ranger Long Rifles; Close Combat Weapons;\nDeep Strike, Stealth",
       "weapons": [
         {
           "name": "Ranger Long Rifles",
@@ -1002,6 +1212,20 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Rangers",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "10"
+        }
       ]
     },
     {
@@ -1019,7 +1243,6 @@
         "N": "3",
         "Pt": "5"
       },
-      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1030,34 +1253,17 @@
         "Fly",
         "Windriders"
       ],
-      "profiles": [
-        {
-          "M": "17\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "10"
-        },
-        {
-          "M": "17\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "15"
-        }
-      ],
+      "abilities": "Can Take 6 bikers (6 Skyrunners Profile) or 9 bikers (9 Skyrunners profile).\nEquipped with Close Combat weapons and Twin Shuriken Catapults.\nFor each model this unit contains, must exchange Twin shuriken catapults with: Scatter Laser; Shuriken Canon.",
       "options": [
         {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Scatter Laser; 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+          "per": "Per Model",
+          "text": "May exchange Twin Shuriken Catapult with",
+          "title": "Weapon",
+          "chooseOne": [
+            "Scatter Laser",
+            "Shuriken Canon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1093,6 +1299,32 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Skyrunners",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "10"
+        },
+        {
+          "name": "9 Skyrunners",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "15"
+        }
       ]
     },
     {
@@ -1110,50 +1342,37 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Harrier",
       "keywords": [
+        "Heavy",
+        "Biker",
+        "Fly",
+        "Vehicle"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Biker",
-        "Fly",
-        "Vehicle",
         "Vypers"
       ],
-      "profiles": [
-        {
-          "M": "16\"",
-          "WS": "6+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "2",
-          "Pt": "10"
-        },
-        {
-          "M": "20\"",
-          "WS": "6+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "3",
-          "Pt": "15"
-        }
-      ],
+      "abilities": "can Take 2 Vypers (2 Vypers Profile) or 3 Vypers (3 Vyper Profiles).\nHarrier\nEquipped with Close Combat Weapons Scatter Laser; Twin Shuriken Catapults.\nEach model may exchange Scatter laser (option)\nEach model must exchange Twin Shuriken Catapults (option).",
       "options": [
         {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+          "per": "Per Model",
+          "text": "may exchange Scatter Laser with",
+          "title": "Heavy Weapon",
+          "chooseOne": [
+            "Shuriken Cannon",
+            "Aeldari Missile Launcher",
+            "Bright Lance",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
         },
         {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Shuriken Cannon; 1 Twin Shuriken Catapult."
+          "per": "Per Model",
+          "text": "may exchange twin Shurken Catapult with Shuriken Cannon.",
+          "title": "Secondary Weapon"
         }
       ],
       "weapons": [
@@ -1213,6 +1432,32 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "2 Vypers",
+          "M": "16\"",
+          "WS": "6+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "2",
+          "Pt": "10"
+        },
+        {
+          "name": "3 Vypers",
+          "M": "20\"",
+          "WS": "6+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "3",
+          "Pt": "15"
+        }
       ]
     },
     {
@@ -1230,37 +1475,20 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Deep Strike\nHarrier",
       "keywords": [
+        "Light",
+        "Infantry",
+        "Fly",
+        "Jump Pack"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
-        "Fly",
-        "Jump Pack",
         "Swooping Hawks"
       ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Deep Strike"
-        }
-      ],
+      "abilities": "Can Take 10 Warriors (10 Warriors Profile).\nEquipped with Lasblasters and Close Combat Weapons.\nDeep Strike\nHarrier, Skyleap\nSkyleap: When this unit is deployed from reserves, it can lose or gain supersonic.",
       "weapons": [
         {
           "name": "Lasblasters",
@@ -1277,6 +1505,20 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
         }
       ]
     },
@@ -1295,30 +1537,10 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Deep Strike\nWarp Jump Generator: Instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",
       "keywords": [
-        "Aeldari",
-        "Asuryani",
-        "Aspect Warrior",
-        "<Craftworld>",
-        "Light",
-        "Infantry",
-        "Jump Pack",
         "Warp Spiders"
       ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "14"
-        }
-      ],
+      "abilities": "Can take 10 Warriprs (10 Warriors Profile).\nEquipped with Death Spinners and Close Combat Weapons\nDeep Strike\nWarp Jump Generator: Instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -1342,6 +1564,20 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "14"
+        }
       ]
     },
     {
@@ -1360,39 +1596,18 @@
         "Pt": "8"
       },
       "keywords": [
+        "Light",
+        "Biker",
+        "Fly"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Biker",
-        "Fly",
         "Shining Spears"
       ],
-      "profiles": [
-        {
-          "M": "17\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "16"
-        },
-        {
-          "M": "17\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "9",
-          "Pt": "24"
-        }
-      ],
+      "abilities": "Can take 6 Warriors (6 Warriors), 9 Warriors (9 Warriors).\nEquipped with: Laser lances (Ranged), Twin Shuriken Catapults; Laser Lances (Melee)",
       "weapons": [
         {
           "name": "Laser Lances (Ranged)",
@@ -1418,6 +1633,32 @@
           "skill": "7+",
           "armorPen": "5+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Warriors",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "16"
+        },
+        {
+          "name": "9 Warriors",
+          "M": "17\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "5+",
+          "N": "9",
+          "Pt": "24"
+        }
       ]
     },
     {
@@ -1435,7 +1676,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Infiltrators",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1445,34 +1685,31 @@
         "Vehicle",
         "War Walkers"
       ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "2",
-          "Pt": "11"
-        },
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "3",
-          "Pt": "17"
-        }
-      ],
+      "abilities": "Equipped with: 2 Scatter lasers; Armoured Feet;\nCan take 2 Walkers (2 Walkers Profile) or 3 Walkers (3 Walkers Profile)\nInfiltrators",
       "options": [
         {
-          "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with two of the following in any combination: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon."
+          "per": "Per Model",
+          "text": "Exchange 1 Scatter Laser with",
+          "title": "Left Weapon",
+          "chooseOne": [
+            "Aeldari Missile Launcher",
+            "Bright Lance",
+            "Shuriken Cannon",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
+        },
+        {
+          "per": "Per Model",
+          "text": "Exchange 1 Scatter Laser with",
+          "title": "Right Weapon",
+          "chooseOne": [
+            "Aeldari Missile Launcher",
+            "Bright Lance",
+            "Shuriken Cannon",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1524,6 +1761,32 @@
           "skill": "10+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "2 Walkers",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "2",
+          "Pt": "11"
+        },
+        {
+          "name": "3 Walkeres",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "3",
+          "Pt": "17"
+        }
       ]
     },
     {
@@ -1541,7 +1804,6 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nInstead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.",
       "keywords": [
         "Aeldari",
         "Asuryani",
@@ -1552,15 +1814,26 @@
         "Wraith Construct",
         "Wraithlord"
       ],
+      "abilities": "Equipped with Wraithbone Fists\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.\nInstead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.",
       "options": [
         {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Shuriken Cannon; 1 Starcannon.",
-          "Pt": "1"
+          "per": "Per Unit",
+          "text": "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.",
+          "title": "Combat Weapon"
         },
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive."
+          "text": "Can be equipped with one of:",
+          "Pt": "1",
+          "title": "Support Weapon",
+          "chooseOne": [
+            "1 Aeldari Missile Launcher",
+            "1 Bright Lance",
+            "1 Scatter Laser",
+            "1 Shuriken Cannon",
+            "1 Starcannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1637,22 +1910,30 @@
         "N": "2",
         "Pt": "4"
       },
-      "abilities": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 1 Shadow Weaver, this unit can be equipped with one of the following: 1 D-cannon; 1 Vibro Cannon.",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Artillery"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Artillery",
         "Guardian",
         "Support Weapon"
       ],
+      "abilities": "equipped with Close Combat Weapons.\nMust choose one to be equipped with: 1 Shadow Weaver, 1 D-cannon; 1 Vibro Cannon.\nArtillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one."
+          "text": "Can be equipped with",
+          "chooseOne": [
+            "Shadow Weaver",
+            "D-Cannon",
+            "Vibro Cannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1707,29 +1988,18 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Inescapable Death: Unmodified hit rolls of 3+ for attacks made with this unit's ranged weapons are always successful.",
       "keywords": [
+        "Light",
+        "Infantry"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Light",
-        "Infantry",
         "Dark Reapers"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
+      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nEquipped with Reaper Launchers; Close Combat Weapons;\nInescapable Death: Unmodified hit rolls of 3+ for attacks made with this unit's ranged weapons are always successful.",
       "weapons": [
         {
           "name": "Reaper Launchers",
@@ -1746,6 +2016,20 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "10 Warriors",
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "6+",
+          "N": "10",
+          "Pt": "12"
         }
       ]
     },
@@ -1764,22 +2048,31 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.\nHarrier",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
         "Falcon"
       ],
+      "abilities": "Equipped with Pulse Laser; Armoured Hull; Twin Shuriken Catapult;\nEquipped with one of: Shuriken Cannon; Aeldari Missile Launcher; Bright Lance; Starcannon (option).\nCan exchange Twin Shuriken Catapult with Shuriken Canon (option);\nHarrier\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Shuriken Cannon, this unit can be equipped with one of the following: 1 Aeldari Missile Launcher; 1 Bright Lance; 1 Scatter Laser; 1 Starcannon."
+          "text": "Instead of 1 Shuriken Cannon, can be equipped with",
+          "chooseOne": [
+            "Aeldari Missile Launcher",
+            "Bright Lance",
+            "Scatter Laser",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -1868,17 +2161,19 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
         "Fire Prism"
       ],
+      "abilities": "Equipped with Twin Shuriken Catapult; Prism Cannon; Armoured Hull;\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier\nCan swap Twin Shuriken Catapult with Shuriken Cannon (Option)",
       "options": [
         {
           "per": "Per Unit",
@@ -1936,17 +2231,19 @@
         "N": "1",
         "Pt": "9"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
         "Night Spinner"
       ],
+      "abilities": "Equipped with Twin Shuriken Catapult; Doomweaver; Armoured Hull;\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nHarrier\nCan swap Twin Shuriken Catapult with Shuriken Cannon (Option)",
       "options": [
         {
           "per": "Per Unit",
@@ -2004,22 +2301,31 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 12 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Transport"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Warhost",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Transport",
         "Wave Serpent"
       ],
+      "abilities": "equipped with: Twin Shuriken Cannon; Twin Shuriken Catapult; Armoured Hull\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 12 Phoenix Lord or <Craftworld> Infantry models. Each Wraithguard and Wraithblade model takes up the space of 2 other models. It cannot transport Jump Pack models.\ncan choose to exchange Twin Shuriken Cannon (option)\ncan choose to exchange Twin shuriken Catapult (option)",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following: 1 Twin Aeldari Missile Launcher; 1 Twin Bright Lance; 1 Twin Scatter Laser; 1 Twin Starcannon."
+          "text": "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following",
+          "chooseOne": [
+            "1 Twin Aeldari Missile Launcher",
+            "1 Twin Bright Lance",
+            "1 Twin Scatter Laser",
+            "1 Twin Starcannon"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -2108,18 +2414,20 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Supersonic\nSkyhunters: You can re-roll wound rolls for attacks made by this unit that target units that can Fly.\nMarksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.",
       "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Aircraft"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Heavy",
-        "Vehicle",
-        "Fly",
-        "Aircraft",
         "Crimson Hunter"
       ],
+      "abilities": "Equipped with: Bright lance; Pulse Laser; Armoured Hull.\nSupersonic\nSkyhunters: You can re-roll wound rolls for attacks made by this unit that target units that can Fly.\nMarksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -2169,20 +2477,22 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Ignore Damage (6+), Supersonic, Terror Troops",
       "keywords": [
-        "Aeldari",
-        "Asuryani",
-        "Spirit Host",
-        "<Craftworld>",
         "Heavy",
         "Psyker",
         "Fly",
         "Aircraft",
-        "Vehicle",
+        "Vehicle"
+      ],
+      "traits": [
+        "Aeldari",
+        "Asuryani",
+        "Spirit Host",
+        "<Craftworld>",
         "Wraith Construct",
         "Hemlock Wraithfighter"
       ],
+      "abilities": "Equipped with Heavy D-scythe; Armoured Hull\nIgnore Damage (6+), Supersonic, Terror Troops",
       "weapons": [
         {
           "name": "Heavy D-scythe",
@@ -2218,18 +2528,20 @@
         "N": "1",
         "Pt": "16"
       },
-      "abilities": "Ignore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
       "keywords": [
+        "Heavy",
+        "Monster",
+        "Character"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Aspect Warrior",
         "<Craftworld>",
-        "Heavy",
-        "Monster",
-        "Character",
         "Daemon",
         "Avatar of Khaine"
       ],
+      "abilities": "Equipped with Wailing Doom.\nIgnore Damage (5+)\nKhaine Awakened: Morale tests taken for friendly Asuryani units are automatically passed whilst they are within 12\" of this unit.",
       "weapons": [
         {
           "name": "The Wailing Doom (Ranged)",
@@ -2266,26 +2578,50 @@
         "N": "1",
         "Pt": "21"
       },
-      "abilities": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.\nInstead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive.",
       "keywords": [
+        "Super-heavy",
+        "Titanic"
+      ],
+      "traits": [
         "Aeldari",
         "Asuryani",
         "Spirit Host",
         "<Craftworld>",
-        "Super-heavy",
-        "Titanic",
         "Wraith Construct",
         "Wraithknight"
       ],
+      "abilities": "Equipped with Titanic Wraithbone Fist; 2 Heavy Wraithcannons;\nThis unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.\nInstead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive (option).",
       "options": [
         {
-          "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Scatter Laser; Shuriken Cannon; Starcannon.",
-          "Pt": "1"
+          "per": "Per unit",
+          "text": "This unit can also be equipped with up to one of the following:",
+          "Pt": "1",
+          "chooseOne": [
+            "Scatter Laser",
+            "Shuriken Cannon",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
+        },
+        {
+          "per": "Per unit",
+          "text": "This unit can also be equipped with up to one of the following:",
+          "Pt": "1",
+          "chooseOne": [
+            "Scatter Laser",
+            "Shuriken Cannon",
+            "Starcannon"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
-          "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following: 1 Suncannon; 1 Titanic Ghostglaive."
+          "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following:",
+          "chooseOne": [
+            "1 Suncannon",
+            "1 Titanic Ghostglaive"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -2364,7 +2700,6 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.\nA Webway Gate is a unit that contains 1 model formed from two separate pieces. When setting up these pieces, place them so that an arch is formed, with the bases 5\" apart.",
       "keywords": [
         "Aeldari",
         "Heavy",
@@ -2372,12 +2707,7 @@
         "Building",
         "Webway Gate"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Webway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield."
-        }
-      ]
+      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.\nA Webway Gate is a unit that contains 1 model formed from two separate pieces. When setting up these pieces, place them so that an arch is formed, with the bases 5\" apart."
     }
   ]
 }

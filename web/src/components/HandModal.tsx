@@ -133,7 +133,7 @@ export default function HandModal({ army, onClose }: HandModalProps) {
       >
         <header className="hand-modal-header">
           <div>
-            <h2 id="hand-modal-title">Hand Draw</h2>
+            <h2 id="hand-modal-title">Card Hand</h2>
             <p className="roster-item-meta">{army.name}</p>
           </div>
           <div className="hand-modal-actions">

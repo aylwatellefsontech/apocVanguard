@@ -2,6 +2,7 @@ import { MAX_SAVED_ARMIES, SAVED_ARMIES_KEY } from '../constants'
 import type {
   ArmyCardEntry,
   Card,
+  OptionToggleContext,
   RosterEntry,
   SaveArmyResult,
   SavedArmy,
@@ -10,6 +11,15 @@ import type {
   UnitOption,
   UnitProfile,
 } from '../types'
+import {
+  getChooseLimit,
+  getOptionGroup,
+  getUpToLimit,
+  isExclusiveGroupOption,
+  isPerModelOption,
+  isPerModelsOption,
+  optionUsesSlotIndex,
+} from './optionUtils'
 
 export function loadSavedArmies(): SavedArmy[] {
   try {
@@ -115,12 +125,107 @@ export function createRosterEntry(unit: Unit, profile: UnitProfile): RosterEntry
 export function toggleRosterOption(
   entry: RosterEntry,
   optionIndex: number,
-  optionSummary: Omit<SelectedOption, 'index'>,
+  optionSummary: Omit<SelectedOption, 'index' | 'modelIndex' | 'slotIndex'>,
+  unitOptions: UnitOption[],
+  context: OptionToggleContext = {},
 ): RosterEntry {
-  const exists = entry.selectedOptions.some((option) => option.index === optionIndex)
-  const selectedOptions = exists
-    ? entry.selectedOptions.filter((option) => option.index !== optionIndex)
-    : [...entry.selectedOptions, { index: optionIndex, ...optionSummary }]
+  const { modelIndex, slotIndex } = context
+  const option = unitOptions[optionIndex]
+  const perModel = isPerModelOption(option)
+  const perModels = isPerModelsOption(option)
+  const upToLimit = getUpToLimit(option)
+  const upTo = upToLimit != null
+  const slotScoped = optionUsesSlotIndex(option)
+  const group = getOptionGroup(option)
+  const exclusive = isExclusiveGroupOption(option)
+  const chooseLimit = getChooseLimit(option)
+
+  const matches = (selected: SelectedOption) =>
+    selected.index === optionIndex &&
+    (perModel ? selected.modelIndex === modelIndex : selected.modelIndex == null) &&
+    (slotScoped && slotIndex != null
+      ? selected.slotIndex === slotIndex
+      : slotIndex == null
+        ? selected.slotIndex == null
+        : selected.slotIndex === slotIndex)
+
+  let selectedOptions = [...entry.selectedOptions]
+
+  if (chooseLimit != null && slotIndex != null) {
+    const wasSelected = selectedOptions.some(matches)
+    if (wasSelected) {
+      selectedOptions = selectedOptions.filter((selected) => !matches(selected))
+    } else {
+      const sameChoiceGroup = (selected: SelectedOption) =>
+        selected.index === optionIndex &&
+        (perModel ? selected.modelIndex === modelIndex : selected.modelIndex == null)
+      const selectedInGroup = selectedOptions.filter(sameChoiceGroup)
+      if (selectedInGroup.length >= chooseLimit) {
+        const earliest = selectedInGroup[0]
+        selectedOptions = selectedOptions.filter((selected) => selected !== earliest)
+      }
+      selectedOptions.push({
+        index: optionIndex,
+        modelIndex: perModel ? modelIndex : undefined,
+        slotIndex,
+        ...optionSummary,
+      })
+    }
+  } else if (exclusive && group) {
+    const wasSelected = selectedOptions.some(matches)
+
+    selectedOptions = selectedOptions.filter((selected) => {
+      const selectedOption = unitOptions[selected.index]
+      const selectedGroup = getOptionGroup(selectedOption)
+      if (!selectedGroup || selectedGroup.toLowerCase() !== group.toLowerCase()) {
+        return true
+      }
+      if (perModel || isPerModelOption(selectedOption)) {
+        return selected.modelIndex !== modelIndex
+      }
+      if (upTo && slotIndex != null) {
+        return selected.slotIndex !== slotIndex
+      }
+      if (perModels && slotIndex != null) {
+        return selected.slotIndex !== slotIndex
+      }
+      return false
+    })
+
+    if (!wasSelected) {
+      selectedOptions.push({
+        index: optionIndex,
+        modelIndex: perModel ? modelIndex : undefined,
+        slotIndex: slotScoped ? slotIndex : undefined,
+        ...optionSummary,
+      })
+    }
+  } else if ((upTo || perModels) && slotIndex != null) {
+    const exists = selectedOptions.some(matches)
+    selectedOptions = exists
+      ? selectedOptions.filter((selected) => !matches(selected))
+      : [
+          ...selectedOptions,
+          {
+            index: optionIndex,
+            modelIndex: perModel ? modelIndex : undefined,
+            slotIndex,
+            ...optionSummary,
+          },
+        ]
+  } else {
+    const exists = selectedOptions.some(matches)
+    selectedOptions = exists
+      ? selectedOptions.filter((selected) => !matches(selected))
+      : [
+          ...selectedOptions,
+          {
+            index: optionIndex,
+            modelIndex: perModel ? modelIndex : undefined,
+            ...optionSummary,
+          },
+        ]
+  }
 
   const optionPoints = selectedOptions.reduce((sum, option) => sum + (option.points ?? 0), 0)
 

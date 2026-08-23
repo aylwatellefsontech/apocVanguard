@@ -19,12 +19,14 @@ import {
   toggleRosterOption,
 } from '../utils/armyStorage'
 import { summarizeOption } from '../utils/formatOption'
+import { getChooseOneChoices } from '../utils/optionUtils'
 import { getBaseApocCards } from '../utils/cardFactions'
 import { getProfileStatsForEntry, groupUnitsByType, sortRosterByType } from '../utils/units'
 import type {
   ArmyCardEntry,
   BrowseMode,
   Card,
+  OptionToggleContext,
   RosterEntry,
   SaveMessage,
   SavedArmy,
@@ -222,7 +224,11 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     }
   }
 
-  function handleToggleOption(optionIndex: number, option: UnitOption) {
+  function handleToggleOption(
+    optionIndex: number,
+    option: UnitOption,
+    context: OptionToggleContext = {},
+  ) {
     if (!selectedRosterEntry || !selectedUnit) {
       return
     }
@@ -231,12 +237,22 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     }
 
     const profileStats = getProfileStatsForEntry(selectedUnit, selectedRosterEntry)
-    const summary = summarizeOption(option, profileStats)
+    const summary = summarizeOption(option, profileStats, true)
+    const chooseOneChoices = getChooseOneChoices(option)
+    if (chooseOneChoices.length > 0 && context.slotIndex != null) {
+      summary.text = chooseOneChoices[context.slotIndex] ?? summary.text
+    }
 
     setRoster((current) =>
       current.map((entry) =>
         entry.id === selectedRosterEntry.id
-          ? toggleRosterOption(entry, optionIndex, summary)
+          ? toggleRosterOption(
+              entry,
+              optionIndex,
+              summary,
+              selectedUnit.options ?? [],
+              context,
+            )
           : entry,
       ),
     )
@@ -618,6 +634,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                       ? selectedRosterEntry!.selectedOptions.map((option) => option.index)
                       : []
                   }
+                  selectedOptions={
+                    editingRosterEntry ? selectedRosterEntry!.selectedOptions : []
+                  }
                   optionProfileStats={optionProfileStats}
                   emptyMessage={
                     editingFromRoster
@@ -641,6 +660,12 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
               <p className="roster-total">{totalPoints} Pt total</p>
               <p className="roster-section-count">{roster.length} units</p>
             </div>
+          </div>
+
+          <div className="roster-actions roster-actions-top">
+            <button type="button" className="primary-btn" onClick={handleSaveArmy}>
+              Save Army
+            </button>
           </div>
 
           <label className="field-label" htmlFor="army-name">
