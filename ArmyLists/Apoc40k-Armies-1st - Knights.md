@@ -13,23 +13,23 @@ source: Apoc40k-Armies-1st - Knights.md
 | 12" | 3+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 24 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Vehicle, Titanic, Questoris Class, Knight Paladin
+Super-heavy, Vehicle, Titanic, Questoris Class
 
-### Abilities
-```
-• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
-• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
-```
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Paladin
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
+  title: Melee Weapon
+  text: Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
+  title: Carapace Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -51,23 +51,23 @@ Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Vehi
 | 12" | 3+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 24 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Vehicle, Titanic, Questoris Class, Knight Errant
+Super-heavy, Vehicle, Titanic, Questoris Class
 
-### Abilities
-```
-• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
-• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
-```
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Errant
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
+  title: Melee Weapon
+  text: Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
+  title: Carapace Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -89,17 +89,19 @@ Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Vehi
 | 10" | 4+ | 3+ | 4 | 6 | 7 | 5+ | 1 | 30 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Vehicle, Titanic, Dominus Class, Knight Castellan
+Super-heavy, Vehicle, Titanic, Dominus Class
+
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Castellan
 
 ### Abilities
 ```
 Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12" of this unit instead of 6".
-• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
+  text: Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -119,20 +121,20 @@ Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of
 | 12" | 2+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 24 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Titanic, Vehicle, Questoris Class, Knight Gallant
+Super-heavy, Titanic, Vehicle, Questoris Class
 
-### Abilities
-```
-• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
-```
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Gallant
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
+  title: Carapace Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -153,28 +155,34 @@ Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Super-heavy, Tita
 | 12" | 3+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 24 |
 
 ### Keywords
-Chaos, Chaos Knights, <Questor Traitoris>, Super-heavy, Titanic, Vehicle, Knight Despoiler
+Super-heavy, Titanic, Vehicle
+
+### Traits
+Chaos, Chaos Knights, <Questor Traitoris>, Knight Despoiler
 
 ### Abilities
 ```
 Engine of Destruction: If this unit is equipped with 1 Reaper Chainsword and 1 Thunderstrike Gauntlet, change its Weapon Skill characteristic to 2+.
-• This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
-• Instead of 1 Thunderstrike Gauntlet, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.
-• Instead of 1 Reaper Chainsword, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 • If this unit is not equipped with any other melee weapons, it is also equipped with Titanic Feet.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon.
+  title: Carapace Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Ironstorm Missile Pod; 1 Stormspear Rocket Pod; 1 Twin Icarus Autocannon
 - per: Per Unit
-  text: • Instead of 1 Thunderstrike Gauntlet, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.
+  title: Heavy Weapon
+  text: Instead of 1 Thunderstrike Gauntlet, this unit can be
+  Choose 1: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon
 - per: Per Unit
-  text: • Instead of 1 Reaper Chainsword, this unit can be equipped with one of the following: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon.
+  title: Heavy Weapon
+  text: Instead of 1 Reaper Chainsword, this unit can be
+  Choose 1: 1 Avenger Gatling Cannon and 1 Heavy Flamer; 1 Rapid-fire Battle Cannon and 1 Heavy Stubber; 1 Thermal Cannon
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -200,21 +208,22 @@ Engine of Destruction: If this unit is equipped with 1 Reaper Chainsword and 1 T
 | 10" | 4+ | 3+ | 4 | 6 | 7 | 5+ | 1 | 30 |
 
 ### Keywords
-Chaos, Chaos Knights, <Questor Traitoris>, Super-heavy, Titanic, Vehicle, Knight Tyrant
+Super-heavy, Titanic, Vehicle
+
+### Traits
+Chaos, Chaos Knights, <Questor Traitoris>, Knight Tyrant
 
 ### Abilities
 ```
 Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one.
 Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12" of this unit instead of 6".
-• Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
-• Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
+  text: Instead of 1 Twin Siegebreaker Cannon, this unit can be equipped with 2 Shieldbreaker Missiles.
 - per: Per Unit
-  text: • Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon.
+  text: Instead of 1 Volcano Lance and 1 Plasma Decimator, this unit can be equipped with 1 Conflagration Cannon and 1 Thundercoil Harpoon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -236,17 +245,20 @@ Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of
 | 12" | 3+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 21 |
 
 ### Keywords
-Chaos, Chaos Knights, <Questor Traitoris>, Super-heavy, Titanic, Vehicle, Abhorrent Class, Knight Desecrator
+Super-heavy, Titanic, Vehicle
+
+### Traits
+Chaos, Chaos Knights, <Questor Traitoris>, Abhorrent Class, Knight Desecrator
 
 ### Abilities
 ```
 Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6" of this unit.
-• Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
+  title: Melee Weapon
+  text: Instead of 1 Reaper Chainsword, this unit can be equipped with 1 Thunderstrike Gauntlet.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -264,7 +276,10 @@ Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitor
 | 12" | 2+ | 3+ | 4 | 5 | 7 | 5+ | 1 | 19 |
 
 ### Keywords
-Chaos, Chaos Knights, <Questor Traitoris>, Super-heavy, Titanic, Vehicle, Abhorrent Class, Knight Rampager
+Super-heavy, Titanic, Vehicle
+
+### Traits
+Chaos, Chaos Knights, <Questor Traitoris>, Abhorrent Class, Knight Rampager
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -281,7 +296,10 @@ Chaos, Chaos Knights, <Questor Traitoris>, Super-heavy, Titanic, Vehicle, Abhorr
 | 12" | 2+ | 2+ | 4 | 5 | 7 | 5+ | 1 | 30 |
 
 ### Keywords
-Imperium, Imperial Knights, Questor Imperialis, Freeblade, Super-heavy, Character, Vehicle, Titanic, Questoris Class, Knight Preceptor, Canis Rex
+Super-heavy, Character, Vehicle, Titanic, Questoris Class
+
+### Traits
+Imperium, Imperial Knights, Questor Imperialis, Freeblade, Knight Preceptor, Canis Rex
 
 ### Abilities
 ```
@@ -304,17 +322,20 @@ You can only have one of this unit in your army.
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 1 | 9 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Heavy, Vehicle, Armiger Class, Armiger Helverin
+Heavy, Vehicle, Armiger Class
+
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Armiger Helverin
 
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -332,17 +353,20 @@ Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 1 | 9 |
 
 ### Keywords
-Imperium, Imperial Knights, <Questor Allegiance>, Heavy, Vehicle, Armiger Class, Armiger Warglaive
+Heavy, Vehicle, Armiger Class
+
+### Traits
+Imperium, Imperial Knights, <Questor Allegiance>, Armiger Warglaive
 
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -361,20 +385,22 @@ Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 1 | 9 |
 
 ### Keywords
-Chaos, Chaos Knights, <Questor Traitoris>, Heavy, Vehicle, War Dog
+Heavy, Vehicle
+
+### Traits
+Chaos, Chaos Knights, <Questor Traitoris>, War Dog
 
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-• Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
-• Instead of 2 War Dog Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver.
 ```
 
 ### Options
 - per: Per Unit
-  text: • Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Stubber, this unit can be equipped with 1 Meltagun.
 - per: Per Unit
-  text: • Instead of 2 War Dog Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver.
+  text: Instead of 2 War Dog Autocannons, this unit can be equipped with 1 Thermal Spear and 1 Reaper Chain-cleaver.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

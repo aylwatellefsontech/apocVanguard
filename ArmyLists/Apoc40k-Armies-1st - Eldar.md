@@ -3,6 +3,9 @@ faction: Eldar
 source: Apoc40k-Armies-1st - Eldar.md
 ---
 
+# concept
+Fast moving force that evades direct confrontation, that hits hard, then escapes to minimize retaliation. Glass cannon.
+
 # Eldar Army List
 
 ## Unit 1 — HQ — Farseer

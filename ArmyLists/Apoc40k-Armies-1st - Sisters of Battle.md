@@ -13,7 +13,10 @@ source: Apoc40k-Armies-1st - Sisters of Battle.md
 | 8" | 3+ | 3+ | 2 | 3 | 6 | 5+ | 1 | 8 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Order of Our Martyred Lady, Heavy, Vehicle, Walker, Character, Morvenn Vahl
+Heavy, Vehicle, Walker, Character
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Order of Our Martyred Lady, Morvenn Vahl
 
 ### Abilities
 ```
@@ -23,6 +26,7 @@ Leader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of 
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army.
 
 ### Weapons
@@ -40,7 +44,13 @@ Leader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of 
 | 6" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Character, Canoness
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Canoness
 
 ### Abilities
 ```
@@ -60,7 +70,13 @@ Lead the Righteous: Re-roll hit rolls of 1 for attacks made by friendly <Order> 
 | 6" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Light, Infantry, Character, Ministorum Priest, Missionary
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Ministorum Priest, Missionary
 
 ### Abilities
 ```
@@ -83,7 +99,13 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 2 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Light, Infantry, Character, Hospitaller
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Hospitaller
 
 ### Abilities
 ```
@@ -103,17 +125,20 @@ Medicus Ministorum: At the end of the Action phase, this unit can attempt to hea
 | 6" | 4+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Battle Sisters Squad
+Light, Infantry
 
-### Abilities
-```
-This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Battle Sisters Squad
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: Heavy Bolter; Heavy Flamer; Multi-melta
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -125,7 +150,7 @@ This unit can also be equipped with one of the following (Power Rating +1): Heav
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Battle Sisters Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 6 |
@@ -138,17 +163,18 @@ This unit can also be equipped with one of the following (Power Rating +1): Heav
 | 6" | 5+ | 5+ | 2 | 4 | 7 | 11+ | 20 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Zealots
+Light, Infantry
 
-### Abilities
-```
-Zealots is a unit that contains 20 models. It can contain 30 models (Power Rating 6). It is equipped with: Autopistols; Close Combat Weapons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Zealots
 
 ### Options
 - per: Per 30 models
   Pt: 6
-  text: It can contain 30 models (Power Rating 6)
+  text: It can contain 30 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -157,7 +183,7 @@ Zealots is a unit that contains 20 models. It can contain 30 models (Power Ratin
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 30 Zealots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 3 | 6 | 7 | 11+ | 30 | 6 |
@@ -170,7 +196,13 @@ Zealots is a unit that contains 20 models. It can contain 30 models (Power Ratin
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 2 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Character, Imagifier
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Imagifier
 
 ### Abilities
 ```
@@ -190,19 +222,26 @@ Simulacrum Imperialis: If any friendly units with this ability are on the battle
 | 6" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Celestian Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Celestian Squad
 
 ### Abilities
 ```
 Bodyguard: At the start of the Damage phase, you can select one friendly <Order> Light Character unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.
 Sworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst it is within 6" of any friendly <Order> Canoness units.
-This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Heavy Flamer; Multi-melta.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: Heavy Bolter; Heavy Flamer; Multi-melta
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -214,7 +253,7 @@ This unit can also be equipped with one of the following (Power Rating +1): Heav
 | Close Combat Weapons | Melee | Melee | x2 | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Celestian Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 8 |
@@ -227,19 +266,25 @@ This unit can also be equipped with one of the following (Power Rating +1): Heav
 | 6" | 3+ | 4+ | 1 | 1 | 7 | 6+ | 5 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Celestian Sacrosancts
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Celestian Sacrosancts
 
 ### Abilities
 ```
 Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models in this unit by 1 against attacks made with melee weapons.
 Sworn Protectors: You can re-roll hit rolls for attacks made with melee weapons by this unit whilst it is within 6" of any friendly <Order> Canoness units.
-Celestian Sacrosancts is a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Anointed Halberds.
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 8
-  text: It can contain 10 models (Power Rating 8)
+  title: 10 Models
+  text: It can contain 10 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -247,7 +292,7 @@ Celestian Sacrosancts is a unit that contains 5 models. It can contain 10 models
 | Anointed Halberds | Melee | Melee | x2 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Celestian Sacrosancts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 7 | 6+ | 10 | 8 |
@@ -260,7 +305,13 @@ Celestian Sacrosancts is a unit that contains 5 models. It can contain 10 models
 | 6" | 4+ | 3+ | 1 | 1 | 6 | 11+ | 1 | 1 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Light, Infantry, Character, Dialogus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Dialogus
 
 ### Abilities
 ```
@@ -280,7 +331,13 @@ Laud Hailer: You can re-roll Morale tests taken for friendly Adepta Sororitas un
 | 6" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Light, Infantry, Character, Ministorum Priest, Preacher
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Ministorum Priest, Preacher
 
 ### Abilities
 ```
@@ -301,7 +358,13 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 5+ | 1 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Character, Repentia Superior
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Repentia Superior
 
 ### Abilities
 ```
@@ -322,7 +385,13 @@ Mistress of the Penitent: This unit does not take up slots in a Detachment that 
 | 6" | 3+ | 3+ | 2 | 1 | 6 | 11+ | 4 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Sisters Repentia
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Sisters Repentia
 
 ### Abilities
 ```
@@ -336,7 +405,7 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | Penitent Eviscerators | Melee | Melee | User | 5+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 9 Sisters Repentia
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 2 | 6 | 11+ | 9 | 6 |
@@ -349,7 +418,13 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | 6" | 3+ | 4+ | 1 | 1 | 5 | 6+ | 4 | 1 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Light, Infantry, Ecclesiarchy Battle Conclave, Crusaders
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Ecclesiarchy Battle Conclave, Crusaders
 
 ### Abilities
 ```
@@ -363,7 +438,7 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | Crusader Power Swords | Melee | Melee | User | 8+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 8 Crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 5 | 6+ | 8 | 2 |
@@ -376,7 +451,13 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | 7" | 3+ | 4+ | 1 | 1 | 5 | 9+ | 2 | 1 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Light, Infantry, Ecclesiarchy Battle Conclave, Death Cult Assassins
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Ecclesiarchy Battle Conclave, Death Cult Assassins
 
 ### Abilities
 ```
@@ -390,7 +471,7 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | Death Cult Power Blades | Melee | Melee | x2 | 8+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 4 Death Cult Assassins
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 4 | 2 |
@@ -403,7 +484,13 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | 6" | 4+ | - | 1 | 1 | 5 | 11+ | 3 | 2 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Light, Infantry, Ecclesiarchy Battle Conclave, Arco-flagellants
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Ecclesiarchy Battle Conclave, Arco-flagellants
 
 ### Abilities
 ```
@@ -418,12 +505,12 @@ Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment t
 | Arco-flails | Melee | Melee | x3 | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Arco-flagellants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | - | 1 | 1 | 5 | 11+ | 5 | 2 |
 
-#### Profile 2
+#### 10 Arco-flagellants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | - | 2 | 2 | 5 | 11+ | 10 | 3 |
@@ -436,19 +523,25 @@ Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment t
 | 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Dominion Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Dominion Squad
 
 ### Abilities
 ```
 Infiltrators
-This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.
 If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/or if it contains 10 models, it is also equipped with Boltguns.
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Flamer; Meltagun; Storm Bolter.
+  title: Hull Weapon
+  text: This unit can also be equipped with up to four of the following in any combination: Flamer; Meltagun; Storm Bolter.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -460,7 +553,7 @@ If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/o
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Dominion Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 8 |
@@ -473,7 +566,13 @@ If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/o
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 10+ | 10 | 6 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Novitiate Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Novitiate Squad
 
 ### Abilities
 ```
@@ -482,6 +581,7 @@ Infiltrators
 
 ### Options
 - per: Per Unit
+  title: Melee Weapon
   text: Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons.
 
 ### Weapons
@@ -498,7 +598,13 @@ Infiltrators
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 11+ | 10 | 6 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Light, Infantry, Sanctifiers
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Sanctifiers
 
 ### Abilities
 ```
@@ -508,6 +614,7 @@ Purge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that t
 
 ### Options
 - per: Per Unit
+  title: 10 Models
   text: Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons.
 
 ### Weapons
@@ -524,7 +631,13 @@ Purge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that t
 | 12" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Fly, Jump Pack, Seraphim Squad
+Light, Infantry, Fly, Jump Pack
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Seraphim Squad
 
 ### Abilities
 ```
@@ -538,7 +651,7 @@ Deep Strike
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Seraphim Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 9 |
@@ -551,7 +664,13 @@ Deep Strike
 | 12" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Jump Pack, Fly, Zephyrim Squad
+Light, Infantry, Jump Pack, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Zephyrim Squad
 
 ### Abilities
 ```
@@ -565,7 +684,7 @@ Deep Strike
 | Zephyrim Power Swords | Melee | Melee | x2 | 5+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Zephyrim Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 10 |
@@ -578,18 +697,24 @@ Deep Strike
 | 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 3 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Light, Infantry, Retributor Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Retributor Squad
 
 ### Abilities
 ```
-This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.
 If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-meltas, and/or if it contains 10 models, it is also equipped with Boltguns.
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: This unit can also be equipped with up to four of the following in any combination (Power Rating +1 per weapon): Heavy Bolter; Heavy Flamer; Multi-melta.
+  title: Heavy Weapon
+  text: This unit can also be equipped with up to four of the following in any combination: Heavy Bolter; Heavy Flamer; Multi-melta.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -601,7 +726,7 @@ If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-melt
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Retributor Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 6 |
@@ -614,12 +739,10 @@ If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-melt
 | 12" | 6+ | 3+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Exorcist
+Heavy, Vehicle
 
-### Abilities
-```
-Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist Conflagration Rockets.
-```
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Exorcist
 
 ### Options
 - per: Per Unit
@@ -640,17 +763,20 @@ Instead of 1 Exorcist Missile Launcher, this unit can be equipped with Exorcist 
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Transport, Immolator
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Immolator
 
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.
-Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.
+  text: Instead of 1 Immolation Flamer, this unit can be
+  Choose 1: 1 Twin Heavy Bolter; 1 Twin Multi-melta
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -668,17 +794,21 @@ Instead of 1 Immolation Flamer, this unit can be equipped with one of the follow
 | 9" | 3+ | 3+ | 1 | 1 | 6 | 7+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Heavy, Vehicle, Mortifiers
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Mortifiers
 
 ### Abilities
 ```
 Ignore Damage (6+)
-For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.
 ```
 
 ### Options
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer.
+  title: Heavy Weapon
+  text: For each model this unit contains, it
+  Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -688,17 +818,17 @@ For each model this unit contains, it must also be equipped with one of the foll
 | Mortifier Weapons | Melee | Melee | x2 | 5+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 2 | 8 |
 
-#### Profile 2
+#### 3 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 3 | 3 | 6 | 7+ | 3 | 12 |
 
-#### Profile 3
+#### 4 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 4 | 4 | 6 | 7+ | 4 | 16 |
@@ -711,17 +841,20 @@ For each model this unit contains, it must also be equipped with one of the foll
 | 7" | 4+ | 5+ | 1 | 1 | 6 | 7+ | 1 | 4 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Heavy, Vehicle, Penitent Engines
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Ministorum, Penitent Engines
 
 ### Abilities
 ```
 Ignore Damage (6+)
 Zealot: You can re-roll hit rolls for attacks made with melee weapons by this unit.
-For each model this unit contains, it must also be equipped with 2 Heavy Flamers.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: For each model this unit contains, it must also be equipped with 2 Heavy Flamers.
 
 ### Weapons
@@ -731,17 +864,17 @@ For each model this unit contains, it must also be equipped with 2 Heavy Flamers
 | Penitent Engine Weapons | Melee | Melee | x2 | 5+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Penitent Engines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 2 | 2 | 6 | 7+ | 2 | 8 |
 
-#### Profile 2
+#### 3 Penitent Engines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 3 | 3 | 6 | 7+ | 3 | 12 |
 
-#### Profile 3
+#### 4 Penitent Engines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 4 | 4 | 6 | 7+ | 4 | 16 |
@@ -754,12 +887,14 @@ For each model this unit contains, it must also be equipped with 2 Heavy Flamers
 | 12" | 6+ | 3+ | 1 | 2 | 5 | 6+ | 1 | 6 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Castigator
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Castigator
 
 ### Abilities
 ```
 A Castigator is a unit that contains 1 model. It is equipped with: Castigator Autocannons; 3 Heavy Bolters; Armoured Tracks.
-Instead of 1 Castigator Autocannons, this unit can be equipped with 1 Castigator Battle Cannon.
 ```
 
 ### Options
@@ -782,19 +917,21 @@ Instead of 1 Castigator Autocannons, this unit can be equipped with 1 Castigator
 | 8" | 3+ | 3+ | 3 | 3 | 6 | 5+ | 3 | 9 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Heavy, Vehicle, Walker, Paragon Warsuits
+Heavy, Vehicle, Walker
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Paragon Warsuits
 
 ### Abilities
 ```
 Righteous Paragons: Re-roll hit rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.
 Paragon Warsuits is a unit that contains 3 models. Every model is equipped with: Heavy Bolter; Paragon Storm Bolters; Paragon War Blade.
-Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).
 ```
 
 ### Options
 - per: Per model
   Pt: 1
-  text: Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1 per model).
+  text: Any model can have its Heavy Bolter replaced with 1 Multi-melta.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -812,17 +949,20 @@ Any model can have its Heavy Bolter replaced with 1 Multi-melta (Power Rating +1
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Transport, Immolator
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Immolator
 
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 6 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.
-Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Immolation Flamer, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Multi-melta.
+  text: Instead of 1 Immolation Flamer, this unit can be
+  Choose 1: 1 Twin Heavy Bolter; 1 Twin Multi-melta
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -840,7 +980,10 @@ Instead of 1 Immolation Flamer, this unit can be equipped with one of the follow
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Transport, Rhino, Sororitas Rhino
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Rhino, Sororitas Rhino
 
 ### Abilities
 ```
@@ -861,7 +1004,10 @@ TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Heavy, Vehicle, Transport, Repressor
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Repressor
 
 ### Abilities
 ```
@@ -870,6 +1016,7 @@ TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Flamer; Storm Bolter; Dozer Ram.
 
 ### Weapons
@@ -887,7 +1034,13 @@ TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry
 | 12" | 2+ | 2+ | 3 | 4 | 7 | 4+ | 3 | 14 |
 
 ### Keywords
-Imperium, Adeptus Ministorum, Adepta Sororitas, Light, Infantry, Fly, Character, Jump Pack, Celestine, Geminae Superia
+Light, Infantry, Fly, Character, Jump Pack
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Adeptus Ministorum, Adepta Sororitas, Celestine, Geminae Superia
 
 ### Abilities
 ```
@@ -898,6 +1051,7 @@ Lifewards: At the start of the Damage phase, Remove up to D3 blast markers from 
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army.
 
 ### Weapons

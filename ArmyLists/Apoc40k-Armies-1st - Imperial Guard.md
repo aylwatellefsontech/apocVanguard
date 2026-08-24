@@ -13,7 +13,13 @@ source: Apoc40k-Armies-1st - Imperial Guard.md
 | 6" | 3+ | 3+ | 1 | 1 | 7 | 7+ | 1 | 5 |
 
 ### Keywords
-Imperium, Astra Militarum, Cadian, Light, Infantry, Character, Officer, Lord Castellan Creed
+Light, Infantry, Character, Officer
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Cadian, Lord Castellan Creed
 
 ### Abilities
 ```
@@ -23,6 +29,7 @@ Officer: At the start of the Generate Command Assets step, if this unit is a War
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.
 
 ### Weapons
@@ -38,7 +45,13 @@ Officer: At the start of the Generate Command Assets step, if this unit is a War
 | 6" | 2+ | 2+ | 1 | 1 | 7 | 7+ | 1 | 4 |
 
 ### Keywords
-Imperium, Astra Militarum, Officio Prefectus, Light, Infantry, Character, Commissar, Lord Commissar
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Officio Prefectus, Commissar, Lord Commissar
 
 ### Abilities
 ```
@@ -58,29 +71,36 @@ Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadershi
 | 6" | 4+ | 3+ | 1 | 1 | 4 | 10+ | 4 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Veterans, Command Squad
+Light, Infantry, Veterans
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Command Squad
 
 ### Abilities
 ```
 Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6" of any friendly <Regiment> units with a Regimental Standard.
-A Command Squad is a unit that contains 4 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
-This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).
-If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
-This unit can have a Regimental Standard (Power Rating +1). If this unit has a Regimental Standard, it has the following additional abilities: Regimental Standard.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
+  title: Weapons Team
+  text: It can contain 1 weapons team model instead of 2 other models.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).
+  title: Heavy Weapon
+  text: This unit can also be equipped with 1 Heavy Flamer.
 - per: Per Unit
-  text: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  title: Weapons Team
+  text: If this unit contains a weapons team model, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 - per: Per Unit
   Pt: 1
-  text: This unit can have a Regimental Standard (Power Rating +1)
+  title: Regimental Standard
+  text: This unit can have a Regimental Standard
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -102,16 +122,15 @@ This unit can have a Regimental Standard (Power Rating +1). If this unit has a R
 | 10" | 6+ | 3+ | 1 | 2 | 5 | 6+ | 1 | 12 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Character, Leman Russ, Officer, Tank Commander
+Heavy, Vehicle, Character, Officer
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Leman Russ, Tank Commander
 
 ### Abilities
 ```
 Tank Commander: If a friendly <Regiment> Leman Russ unit starts a Move action within 6" of this unit, that unit can be ordered to go full throttle; add 2" to that unit's Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.
-Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).
-Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
-This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 Choose either Tank Commander, Master of Ordnance, or Officer of the Fleet for this slot.
 Alternative: Master of Ordnance (Pt 5) with Master of Ballistics ability.
 Alternative: Officer of the Fleet (Pt 2) with Strafing Coordinates ability.
@@ -121,15 +140,22 @@ Alternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander abili
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).
+  title: Turret Weapon
+  text: Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list.
 - per: Per Unit
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Bolter, this unit can be
+  Choose 1: 1 Heavy Flamer; 1 Lascannon
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -158,20 +184,23 @@ Alternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander abili
 | 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Infantry Squad
+Light, Infantry
 
-### Abilities
-```
-An Infantry Squad is a unit that contains 10 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
-If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Infantry Squad
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
+  title: Weapons Team
+  text: It can contain 1 weapons team model instead of 2 other models.
 - per: Per Unit
-  text: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  title: Weapons Team
+  text: If this unit contains a weapons team model, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -192,12 +221,13 @@ If this unit contains a weapons team model, it must also be equipped with one of
 | 6" | 5+ | 5+ | 2 | 4 | 4 | 10+ | 20 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Conscripts
+Light, Infantry
 
-### Abilities
-```
-Conscripts is a unit that contains 20 models.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Conscripts
 
 ### Options
 - per: Per Unit
@@ -217,7 +247,13 @@ Conscripts is a unit that contains 20 models.
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 9+ | 1 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Character, Officer, Company Commander
+Light, Infantry, Character, Officer
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Company Commander
 
 ### Abilities
 ```
@@ -237,7 +273,13 @@ Officer: At the start of the Generate Command Assets step, if this unit is a War
 | 6" | 4+ | 4+ | 1 | 1 | 6 | 5+ | 1 | 5 |
 
 ### Keywords
-Imperium, Astra Militarum, Light, Infantry, Character, Tech-Priest, Enginseer
+Light, Infantry, Character, Tech-Priest
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Enginseer
 
 ### Abilities
 ```
@@ -257,13 +299,13 @@ Master of Machines: At the end of the Action phase, this unit can attempt to rep
 | 6" | 4+ | 4+ | 1 | 1 | 6 | 10+ | 1 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana, Light, Infantry, Psyker, Character, Primaris Psyker
+Light, Infantry, Psyker, Character
 
-### Abilities
-```
-A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.
-Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana, Primaris Psyker
 
 ### Options
 - per: Per Unit
@@ -284,24 +326,27 @@ Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) w
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 10+ | 10 | 4 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Veterans
+Light, Infantry, Veterans
 
-### Abilities
-```
-Veterans is a unit that contains 10 models. It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
-This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).
-If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: It can contain 1 weapons team model instead of 2 other models (Power Rating +1).
+  title: Weapons Team
+  text: It can contain 1 weapons team model instead of 2 other models.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with 1 Heavy Flamer (Power Rating +1).
+  title: Heavy Weapon
+  text: This unit can also be equipped with 1 Heavy Flamer.
 - per: Per Unit
-  text: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  title: Weapons Team
+  text: If this unit contains a weapons team model, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -323,18 +368,24 @@ If this unit contains a weapons team model, it must also be equipped with one of
 | 6" | 4+ | 3+ | 1 | 1 | 5 | 8+ | 5 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, Militarum Tempestus, Light, Infantry, Militarum Tempestus Scions
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions
 
 ### Abilities
 ```
 Deep Strike
-Militarum Tempestus Scions are a unit that contains 5 models. It can contain 10 models (Power Rating 5).
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 5
-  text: It can contain 10 models (Power Rating 5).
+  title: 10 Models
+  text: It can contain 10 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -343,7 +394,7 @@ Militarum Tempestus Scions are a unit that contains 5 models. It can contain 10 
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Stormtroopers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 5 |
@@ -356,18 +407,24 @@ Militarum Tempestus Scions are a unit that contains 5 models. It can contain 10 
 | 6" | 4+ | 4+ | 1 | 1 | 5 | 10+ | 5 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, Militarum Auxilia, Light, Infantry, Ratlings
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Militarum Auxilia, Ratlings
 
 ### Abilities
 ```
 Infiltrators, Stealth
-Ratlings is a unit that contains 5 models. It can contain 10 models (Power Rating 3).
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 3
-  text: It can contain 10 models (Power Rating 3).
+  title: 10 Models
+  text: It can contain 10 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -376,7 +433,7 @@ Ratlings is a unit that contains 5 models. It can contain 10 models (Power Ratin
 | Close Combat Weapons | Melee | Melee | User | 11+ | 12+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Snipers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 3 |
@@ -389,11 +446,16 @@ Ratlings is a unit that contains 5 models. It can contain 10 models (Power Ratin
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 3 | 5 |
 
 ### Keywords
-Imperium, Astra Militarum, Militarum Auxilia, Light, Infantry, Ogryns
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Militarum Auxilia, Ogryns
 
 ### Abilities
 ```
-Ogryns is a unit that contains 3 models. It can contain 6 models (Power Rating 10) or 9 models (Power Rating 15).
 Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.
 Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.
 Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
@@ -402,10 +464,10 @@ Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 15
-  text: 9 models (Power Rating 15).
+  text: 9 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -415,12 +477,12 @@ Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 | Crusader Power Swords | Melee | Melee | User | 8+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Ogryn / crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 6 | 10 |
 
-#### Profile 2
+#### 9 Ogryn / crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 6 | 6 | 6 | 10+ | 9 | 15 |
@@ -433,15 +495,17 @@ Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 | 6" | 4+ | 4+ | 1 | 1 | 4 | 10+ | 6 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Special Weapons Squad
+Light, Infantry
 
-### Abilities
-```
-Instead of Special Weapons, this unit can be equipped with Sniper Rifles.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Special Weapons Squad
 
 ### Options
 - per: Per Unit
+  title: Special Weapon
   text: Instead of Special Weapons, this unit can be equipped with Sniper Rifles.
 
 ### Weapons
@@ -460,20 +524,25 @@ Instead of Special Weapons, this unit can be equipped with Sniper Rifles.
 | 6" | 4+ | 3+ | 1 | 1 | 4 | 8+ | 4 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, Militarum Tempestus, Light, Infantry, Militarum Tempestus Command Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Command Squad
 
 ### Abilities
 ```
 Deep Strike
 Platoon Standard: Add 1 to the Leadership characteristic of Militarum Tempestus units whilst they are within 6" of any friendly Militarum Tempestus units with a Platoon Standard.
 A Militarum Tempestus Command Squad is a unit that contains 4 models.
-This unit can have a Platoon Standard (Power Rating +1). If this unit has a Platoon Standard, it has the following additional abilities: Platoon Standard.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can have a Platoon Standard (Power Rating +1)
+  text: This unit can have a Platoon Standard
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -489,7 +558,13 @@ This unit can have a Platoon Standard (Power Rating +1). If this unit has a Plat
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 2 |
 
 ### Keywords
-Imperium, Astra Militarum, Officio Prefectus, Light, Infantry, Character, Commissar
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Officio Prefectus, Commissar
 
 ### Abilities
 ```
@@ -509,25 +584,28 @@ Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadershi
 | 9" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 4 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Scout Sentinels
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Scout Sentinels
 
 ### Abilities
 ```
 Infiltrators
-Scout Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 7) or 3 models (Power Rating 10).
-For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.
 Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).
 ```
 
 ### Options
 - per: Per 2 models
   Pt: 7
-  text: It can contain 2 models (Power Rating 7)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 10
-  text: 3 models (Power Rating 10).
+  text: 3 models.
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser.
+  title: Heavy Weapon
+  text: For each model this unit contains, it
+  Choose 1: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -540,12 +618,12 @@ Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Pl
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
 
 ### Profiles
-#### Profile 1
+#### 2 Sentinel
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 2 | 7 |
 
-#### Profile 2
+#### 3 Sentinel
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 3 | 3 | 5 | 8+ | 3 | 10 |
@@ -558,23 +636,28 @@ Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Pl
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 7+ | 1 | 5 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Hellhound
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Hellhound
 
 ### Abilities
 ```
 Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 Variant: Bane Wolf (Chem Cannon, Pt 6).
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Bolter, this unit can be
+  Choose 1: 1 Heavy Flamer; 1 Multi-melta
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -595,22 +678,27 @@ Variant: Bane Wolf (Chem Cannon, Pt 6).
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 7+ | 1 | 5 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Hellhound, Devil Dog
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Hellhound, Devil Dog
 
 ### Abilities
 ```
 Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Multi-melta.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Bolter, this unit can be
+  Choose 1: 1 Heavy Flamer; 1 Multi-melta
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -631,17 +719,16 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 10" | 4+ | 4+ | 1 | 2 | 5 | 10+ | 5 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Cavalry, Rough Riders
+Light, Cavalry
 
-### Abilities
-```
-Rough Riders is a unit that contains 5 models. It can contain 10 models (Power Rating 6).
-```
+### Traits
+Imperium, Astra Militarum, <Regiment>, Rough Riders
 
 ### Options
 - per: Per 10 models
   Pt: 6
-  text: It can contain 10 models (Power Rating 6).
+  title: 10 Models
+  text: It can contain 10 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -651,7 +738,7 @@ Rough Riders is a unit that contains 5 models. It can contain 10 models (Power R
 | Hunting Lances | Melee | Melee | User | 7+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Rough Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 4+ | 2 | 4 | 5 | 10+ | 10 | 6 |
@@ -664,18 +751,24 @@ Rough Riders is a unit that contains 5 models. It can contain 10 models (Power R
 | 10" | 4+ | 3+ | 1 | 1 | 5 | 8+ | 5 | 4 |
 
 ### Keywords
-Imperium, Astra Militarum, Militarum Tempestus, Light, Infantry, Militarum Tempestus Scions, Aquilons
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions, Aquilons
 
 ### Abilities
 ```
 Infiltrators
-Aquilons are Tempestus Scions with Move 10" and Infiltrators. It can contain 10 models (Power Rating 6).
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 6
-  text: It can contain 10 models (Power Rating 6).
+  title: 10 Models
+  text: It can contain 10 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -684,7 +777,7 @@ Aquilons are Tempestus Scions with Move 10" and Infiltrators. It can contain 10 
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Aquilons
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 6 |
@@ -697,17 +790,23 @@ Aquilons are Tempestus Scions with Move 10" and Infiltrators. It can contain 10 
 | 6" | 4+ | 4+ | 1 | 1 | 4 | 10+ | 3 | 3 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Light, Infantry, Heavy Weapons Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Heavy Weapons Squad
 
 ### Abilities
 ```
 Weapons Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.
-For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
 ```
 
 ### Options
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  text: For each model this unit contains, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -727,22 +826,26 @@ For each model this unit contains, it must also be equipped with one of the foll
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Hydra
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Hydra
 
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -762,22 +865,26 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Basilisk
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Basilisk
 
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -797,22 +904,26 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 8 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Manticore
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Manticore
 
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Manticore is a unit that contains 1 model. It is equipped with: 4 Storm Eagle Rockets; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -832,30 +943,36 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 10" | 6+ | 4+ | 1 | 3 | 5 | 6+ | 1 | 11 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Leman Russ, Leman Russ Battle Tank
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Leman Russ, Leman Russ Battle Tank
 
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.
-Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).
-Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
-This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list (Power Rating +1 per Demolisher Cannon or Punisher Gatling Cannon).
+  title: Turret Weapon
+  text: Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list.
 - per: Per Unit
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Bolter, this unit can be
+  Choose 1: 1 Heavy Flamer; 1 Lascannon
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -884,23 +1001,27 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Wyvern
+Heavy, Vehicle
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Wyvern
 
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Field Ordnance Battery does not appear in this Apocalypse datasheet; Wyvern is the closest heavy artillery substitute.
 A Wyvern is a unit that contains 1 model. It is equipped with: Wyvern Quad Stormshard Mortar; Heavy Bolter; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -920,25 +1041,30 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 7+ | 1 | 6 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Transport, Chimera
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Chimera
 
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.
 A Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
-  text: Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.
+  title: Heavy Weapon
+  text: Instead of 1 Multi-laser, this unit can be
+  Choose 1: 1 Heavy Bolter; 1 Heavy Flamer
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -959,19 +1085,23 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 14" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 4 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Heavy, Vehicle, Transport, Taurox
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Taurox
 
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 10 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.
 A Taurox is a unit that contains 1 model. It is equipped with: 2 Autocannons; Armoured Hull.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -989,7 +1119,10 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 14" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 8 |
 
 ### Keywords
-Imperium, Astra Militarum, Aeronautica Imperialis, Heavy, Vehicle, Fly, Transport, Aircraft, Valkyrie
+Heavy, Vehicle, Fly, Transport, Aircraft
+
+### Traits
+Imperium, Astra Militarum, Aeronautica Imperialis, Valkyrie
 
 ### Abilities
 ```
@@ -999,9 +1132,6 @@ Grav-chute Insertion: Units may disembark from this unit during its Move action.
 Harrier
 TRANSPORT: This unit can transport up to 12 friendly Astra Militarum Infantry models. Each weapons team model takes the space of 2 other Infantry models and each Ogryn model takes the space of 3 other Infantry models.
 A Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Missiles; Multi-laser; Armoured Bulk.
-Instead of 1 Multi-laser, this unit can be equipped with 1 Lascannon.
-Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.
-This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).
 ```
 
 ### Options
@@ -1011,7 +1141,7 @@ This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).
   text: Instead of Hellstrike Missiles, this unit can be equipped with 2 Multiple Rocket Pods.
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).
+  text: This unit can also be equipped with 2 Heavy Bolters.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1030,25 +1160,27 @@ This unit can also be equipped with 2 Heavy Bolters (Power Rating +2).
 | 10" | 5+ | 4+ | 2 | 5 | 6 | 6+ | 1 | 28 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Super-heavy, Vehicle, Titanic, Baneblade
+Super-heavy, Vehicle, Titanic
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Baneblade
 
 ### Abilities
 ```
 A Baneblade is a unit that contains 1 model. It is equipped with: Autocannon; Baneblade Cannon; Demolisher Cannon; Twin Heavy Bolter; Adamantium Tracks.
-This unit can also be equipped with Baneblade Anti-personnel Weapons (Power Rating +1).
-This unit can also be equipped with two (Power Rating +2) or four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with Baneblade Anti-personnel Weapons (Power Rating +1).
+  text: This unit can also be equipped with Baneblade Anti-personnel Weapons.
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with two (Power Rating +2)
+  text: This unit can also be equipped with two
 - per: Per Unit
   Pt: 4
-  text: four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
+  title: Heavy Weapon
+  text: four of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1070,25 +1202,27 @@ This unit can also be equipped with two (Power Rating +2) or four (Power Rating 
 | 10" | 5+ | 4+ | 2 | 5 | 6 | 6+ | 1 | 25 |
 
 ### Keywords
-Imperium, Astra Militarum, <Regiment>, Super-heavy, Vehicle, Titanic, Shadowsword
+Super-heavy, Vehicle, Titanic
+
+### Traits
+Imperium, Astra Militarum, <Regiment>, Shadowsword
 
 ### Abilities
 ```
 A Shadowsword is a unit that contains 1 model. It is equipped with: Volcano Cannon; Twin Heavy Bolter; Adamantium Tracks.
-This unit can also be equipped with Shadowsword Anti-personnel Weapons (Power Rating +1).
-This unit can also be equipped with two (Power Rating +2) or four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with Shadowsword Anti-personnel Weapons (Power Rating +1).
+  text: This unit can also be equipped with Shadowsword Anti-personnel Weapons.
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with two (Power Rating +2)
+  text: This unit can also be equipped with two
 - per: Per Unit
   Pt: 4
-  text: four (Power Rating +4) of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
+  title: Heavy Weapon
+  text: four of the following: 1 Lascannon and 1 Twin Heavy Bolter; 1 Lascannon and 1 Twin Heavy Flamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

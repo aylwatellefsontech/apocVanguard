@@ -13,7 +13,13 @@ source: Apoc40k-Armies-1st - Chaos Marines.md
 | 6" | 2+ | 2+ | 2 | 2 | 8 | 3+ | 1 | 15 |
 
 ### Keywords
-Chaos, Khorne, Nurgle, Slaanesh, Tzeentch, Heretic Astartes, Black Legion, Light, Infantry, Character, Chaos Lord, Terminator, Abaddon the Despoiler
+Light, Infantry, Character, Terminator
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Khorne, Nurgle, Slaanesh, Tzeentch, Heretic Astartes, Black Legion, Chaos Lord, Abaddon the Despoiler
 
 ### Abilities
 ```
@@ -37,34 +43,58 @@ Dark Destiny: Roll D12s when making saving throws for this unit, irrespective of
 | 6" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 5 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Character, Chaos Lord
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Lord
 
 ### Abilities
 ```
 Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6" of this unit.
-This unit can have one of the following:
-Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12"; Deep Strike; keywords Jump Pack, Fly.
-Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5", Save 4+; Deep Strike; keyword Terminator.
-Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14"; keyword Biker; loses keyword Infantry.
 ```
-
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Helwrought Weapons | Melee | Melee | User | 6+ | 6+ |  |
+
+### Profiles
+#### Jump Pack
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Terminator Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 2+ | 2+ | 1 | 1 | 7 | 4+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Terminator
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Bike
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 6 |
+
+##### Profile Keywords
+Biker
 
 ## Unit 3 — HQ — Sorcerer
 
@@ -74,33 +104,53 @@ Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14"; keyword Biker
 | 6" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 3 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Psyker, Character, Infantry, Sorcerer
+Light, Psyker, Character, Infantry
 
-### Abilities
-```
-This unit can have one of the following:
-Jump Pack (Power Rating +2). If this unit has a Jump Pack, it: Has Move 12"; Deep Strike; keywords Jump Pack, Fly.
-Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it: Has Move 5", Save 4+; Deep Strike; keyword Terminator.
-Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14"; keyword Biker; loses keyword Infantry.
-```
+### Profile Keywords
+Infantry
 
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Sorcerer
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Force Weapon | Melee | Melee | User | 8+ | 8+ |  |
+
+### Profiles
+#### Jump Pack
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 5 |
+
+##### Profile Keywords
+Infantry, Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Terminator Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 3+ | 3+ | 1 | 1 | 7 | 4+ | 1 | 5 |
+
+##### Profile Keywords
+Infantry, Terminator
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Bike
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 4 |
+
+##### Profile Keywords
+Biker
 
 ## Unit 4 — HQ — Demon Prince
 
@@ -110,27 +160,38 @@ Bike (Power Rating +1). If this unit has a Bike, it: Has Move 14"; keyword Biker
 | 8" | 2+ | 2+ | 2 | 2 | 8 | 5+ | 1 | 9 |
 
 ### Keywords
-Chaos, Heretic Astartes, <Legion>, Daemon, Heavy, Monster, Character, Daemon Prince
+Daemon, Heavy, Monster, Character
+
+### Traits
+Chaos, Heretic Astartes, <Legion>, Daemon Prince
 
 ### Abilities
 ```
 Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6" of this unit.
 Might Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.
-This unit can have Wings (Power Rating +1). If this unit has Wings, it: Has Move 12"; keyword Fly.
 When you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.
 If you choose Khorne, this unit has the additional ability: Might Over Magic.
 If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.
 ```
 
-### Options
-- per: Per Unit
-  Pt: 1
-  text: This unit can have Wings (Power Rating +1)
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Daemonic Weapons | Melee | Melee | User | 6+ | 6+ |  |
+
+### Profiles
+#### Wings
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 16" | 2+ | 2+ | 2 | 2 | 8 | 5+ | 1 | 11 |
+
+##### Profile Keywords
+Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
 
 ## Unit 5 — HQ — Exalted Champion
 
@@ -140,7 +201,13 @@ If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword
 | 6" | 2+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 3 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Character, Exalted Champion
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Exalted Champion
 
 ### Abilities
 ```
@@ -160,24 +227,25 @@ Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Chaos Space Marines
+Light, Infantry
 
-### Abilities
-```
-This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
-Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.
-If this unit contains 10 or more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Space Marines
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon
 - per: Per Unit
   text: Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords.
 - per: Per Unit
   Pt: 1
-  text: more models, it can also be equipped with one of the following (Power Rating +1): 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -193,17 +261,17 @@ If this unit contains 10 or more models, it can also be equipped with one of the
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Traitor Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
-#### Profile 2
+#### 10 Traitor Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
-#### Profile 3
+#### 15 Traitor Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
@@ -216,18 +284,19 @@ If this unit contains 10 or more models, it can also be equipped with one of the
 | 6" | 5+ | 5+ | 1 | 1 | 5 | 10+ | 10 | 2 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Chaos Cultists
+Light, Infantry
 
-### Abilities
-```
-For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).
-Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Cultists
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber (Power Rating +1 per weapon).
+  title: Heavy Weapon
+  text: For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber.
 - per: Per Unit
   text: Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.
 
@@ -241,12 +310,12 @@ Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Aut
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Cultists
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 2 | 2 | 5 | 10+ | 20 | 4 |
 
-#### Profile 2
+#### 30 Cultists
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 3 | 3 | 5 | 10+ | 30 | 6 |
@@ -259,7 +328,13 @@ Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Aut
 | 6" | 4+ | 4+ | 1 | 1 | 5 | 10+ | 7 | 2 |
 
 ### Keywords
-Chaos, Servants of the Abyss, Light, Infantry, Traitor Guardsmen
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Servants of the Abyss, Traitor Guardsmen
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -276,12 +351,13 @@ Chaos, Servants of the Abyss, Light, Infantry, Traitor Guardsmen
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Chosen
+Light, Infantry
 
-### Abilities
-```
-Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chosen Combat Weapons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chosen
 
 ### Options
 - per: Per Unit
@@ -296,17 +372,17 @@ Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bol
 | Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
-#### Profile 2
+#### 10 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
-#### Profile 3
+#### 15 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
@@ -319,7 +395,13 @@ Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bol
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
 ### Keywords
-Chaos, Heretic Astartes, <Legion>, Light, Infantry, Cult Marines
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Heretic Astartes, <Legion>, Cult Marines
 
 ### Abilities
 ```
@@ -345,17 +427,17 @@ Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5", Sv 5+, Psyke
 | Close Combat Weapons | Melee | Melee | User | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Cult Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
-#### Profile 2
+#### 10 Cult Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
-#### Profile 3
+#### 15 Cult Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
@@ -368,18 +450,25 @@ Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5", Sv 5+, Psyke
 | 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 11 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Terminators
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Terminators
 
 ### Abilities
 ```
 Deep Strike
-For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Heavy Flamer; 1 Reaper Autocannon.
+  title: Heavy Weapon
+  text: For every 5 models this unit contains, it
+  Choose 1: 1 Heavy Flamer; 1 Reaper Autocannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -390,12 +479,12 @@ For every 5 models this unit contains, it can also be equipped with one of the f
 | Terminator Power Weapons | Melee | Melee | x2 | 6+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 11 |
 
-#### Profile 2
+#### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 21 |
@@ -408,7 +497,13 @@ For every 5 models this unit contains, it can also be equipped with one of the f
 | 7" | 2+ | 3+ | 2 | 1 | 6 | 5+ | 1 | 6 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Light, Infantry, Character, Greater Possessed
+Daemon, Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Greater Possessed
 
 ### Abilities
 ```
@@ -429,7 +524,13 @@ Locus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Leg
 | 7" | 3+ | 3+ | D3+1 | 2 | 6 | 5+ | 5 | 10 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Light, Infantry, Possessed
+Daemon, Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Possessed
 
 ### Abilities
 ```
@@ -442,12 +543,12 @@ Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 
 | Horrifying Mutations | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Possessed
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2D3+2 | 4 | 6 | 5+ | 10 | 20 |
 
-#### Profile 2
+#### 15 Possessed
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 3D3+3 | 6 | 6 | 5+ | 15 | 30 |
@@ -460,18 +561,23 @@ Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Chaos, Nurgle, Heretic Astartes, <Legion>, Light, Infantry, Plague Marines
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Nurgle, Heretic Astartes, <Legion>, Plague Marines
 
 ### Abilities
 ```
 Ignore Damage (6+)
-This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Blight Launcher; 1 Plague Spewer.
+  text: This unit can also be equipped with up to two of the following in any combination: 1 Blight Launcher; 1 Plague Spewer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -482,17 +588,17 @@ This unit can also be equipped with up to two of the following in any combinatio
 | Plague Weapons | Melee | Melee | x2 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
-#### Profile 2
+#### 10 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
-#### Profile 3
+#### 15 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
@@ -505,7 +611,13 @@ This unit can also be equipped with up to two of the following in any combinatio
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Chaos, Khorne, Heretic Astartes, <Legion>, Light, Infantry, Khorne Berzerkers
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Khorne, Heretic Astartes, <Legion>, Khorne Berzerkers
 
 ### Abilities
 ```
@@ -519,17 +631,17 @@ Berzerker Horde: If this unit is in a Detachment that contains only World Eaters
 | Chain Weapons | Melee | Melee | x4 | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
-#### Profile 2
+#### 10 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
-#### Profile 3
+#### 15 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
@@ -542,19 +654,21 @@ Berzerker Horde: If this unit is in a Detachment that contains only World Eaters
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Chaos, Tzeentch, Heretic Astartes, <Legion>, Light, Infantry, Psyker, Rubric Marines
+Light, Infantry, Psyker
 
-### Abilities
-```
-For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).
-Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Tzeentch, Heretic Astartes, <Legion>, Rubric Marines
 
 ### Options
 - per: Per cannon
   Pt: 1
-  text: For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon (Power Rating +1 per weapon).
+  title: Soulreaper Cannon
+  text: For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon.
 - per: Per Unit
+  title: Warpflamers
   text: Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.
 
 ### Weapons
@@ -566,17 +680,17 @@ Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.
 | Close Combat Weapons | Melee | Melee | User | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
-#### Profile 2
+#### 10 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
-#### Profile 3
+#### 15 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
@@ -589,7 +703,13 @@ Instead of Inferno Boltguns, this unit can be equipped with Warpflamers.
 | 6" | 3+ | 4+ | 1 | 1 | 4 | 10+ | 4 | 1 |
 
 ### Keywords
-Chaos, Servants of the Abyss, Light, Infantry, Chaos Beastmen
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Servants of the Abyss, Chaos Beastmen
 
 ### Abilities
 ```
@@ -610,7 +730,10 @@ Slaves to Mallex: This unit does not take up slots in a Detachment that contains
 | 7" | 4+ | - | 1 | 1 | 7 | 10+ | 1 | 3 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Beast, Chaos Spawn
+Light, Beast
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Spawn
 
 ### Abilities
 ```
@@ -627,22 +750,22 @@ Mutated Beyond Reason: When this unit makes a Fight action, before picking targe
 | Hideous Mutations | Melee | Melee | User | 6+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 2 | 2 | 7 | 10+ | 2 | 4 |
 
-#### Profile 2
+#### 3 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 3 | 3 | 8 | 10+ | 3 | 7 |
 
-#### Profile 3
+#### 4 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 4 | 4 | 8 | 10+ | 4 | 9 |
 
-#### Profile 4
+#### 5 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 5 | 5 | 8 | 10+ | 5 | 11 |
@@ -655,7 +778,10 @@ Mutated Beyond Reason: When this unit makes a Fight action, before picking targe
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 3 | 10 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Biker, Bikers
+Light, Biker
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Bikers
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -664,7 +790,7 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Biker, Bikers
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Bikers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 18 |
@@ -677,7 +803,13 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Biker, Bikers
 | 12" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 8 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Fly, Jump Pack, Raptors
+Light, Infantry, Fly, Jump Pack
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Raptors
 
 ### Abilities
 ```
@@ -691,12 +823,12 @@ Deep Strike, Terror Troops
 | Chainswords | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Raptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
-#### Profile 2
+#### 15 Raptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 25 |
@@ -709,16 +841,18 @@ Deep Strike, Terror Troops
 | 6" | 3+ | 3+ | 2 | 1 | 6 | 5+ | 5 | 7 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Light, Infantry, Havocs
+Light, Infantry
 
-### Abilities
-```
-This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Havocs
 
 ### Options
 - per: Per Unit
-  text: This unit must also be equipped with four of the following in any combination: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon.
+  text: This unit must also be
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -738,20 +872,23 @@ This unit must also be equipped with four of the following in any combination: 1
 | 8" | 4+ | 4+ | 3 | 3 | 6 | 5+ | 1 | 11 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Heavy, Vehicle, Daemon Engine, Defiler
+Daemon, Heavy, Vehicle, Daemon Engine
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Defiler
 
 ### Abilities
 ```
 Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.
-Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.
-Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Twin Heavy Flamer, this unit can be equipped with 1 Defiler Scourge.
 - per: Per Unit
-  text: Instead of 1 Reaper Autocannon, this unit can be equipped with one of the following: 1 Twin Heavy Bolter; 1 Twin Lascannon.
+  text: Instead of 1 Reaper Autocannon, this unit can be
+  Choose 1: 1 Twin Heavy Bolter; 1 Twin Lascannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -772,25 +909,27 @@ Instead of 1 Reaper Autocannon, this unit can be equipped with one of the follow
 | 8" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Heavy, Vehicle, Helbrute
+Heavy, Vehicle
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Helbrute
 
 ### Abilities
 ```
 Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.
-Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.
-Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.
-Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.
-For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Multi-melta, this unit can be equipped with one of the following: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist.
+  text: Instead of 1 Multi-melta, this unit can be
+  Choose 1: 1 Helbrute Plasma Cannon; 1 Reaper Autocannon; 1 Twin Heavy Bolter; 1 Twin Lascannon; 1 Helbrute Fist
 - per: Per Unit
-  text: Instead of 1 Helbrute Fist, this unit can be equipped with one of the following: 1 Helbrute Hammer; 1 Power Scourge.
+  text: Instead of 1 Helbrute Fist, this unit can be
+  Choose 1: 1 Helbrute Hammer; 1 Power Scourge
 - per: Per Unit
   text: Instead of 1 Helbrute Fist, this unit can be equipped with 1 Missile Launcher and Armoured Feet.
 - per: Per Unit
+  title: Heavy Weapon
   text: For each Helbrute Fist this unit is equipped with, it can also be equipped with 1 Heavy Flamer.
 
 ### Weapons
@@ -816,20 +955,18 @@ For each Helbrute Fist this unit is equipped with, it can also be equipped with 
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Heavy, Vehicle, Chaos Predator
+Heavy, Vehicle
 
-### Abilities
-```
-Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.
-This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.
-```
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Predator
 
 ### Options
 - per: Per Unit
   text: Instead of 1 Predator Autocannon, this unit can be equipped with 1 Twin Lascannon.
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Lascannons.
+  text: Can also be equipped with one of the following
+  Choose 1: 2 Heavy Bolters; 2 Lascannons
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -848,22 +985,23 @@ This unit can also be equipped with one of the following (Power Rating +2): 2 He
 | 8" | 4+ | 4+ | 1 | 2 | 6 | 5+ | 1 | 6 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Forgefiend, Heavy, Vehicle, Daemon Engine
+Daemon, Heavy, Vehicle, Daemon Engine
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Forgefiend
 
 ### Abilities
 ```
 Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.
-Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).
-Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon (Power Rating +1).
+  text: Instead of Daemon Jaws, this unit can be equipped with Armoured Feet and 1 Ectoplasma Cannon.
 - per: Per Unit
   Pt: 1
-  text: Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons (Power Rating +1).
+  text: Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocannons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -881,17 +1019,16 @@ Instead of 2 Ectoplasma Cannons, this unit can be equipped with 2 Hades Autocann
 | 10" | 6+ | 3+ | 1 | 2 | 6 | 5+ | 1 | 9 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Heavy, Vehicle, Chaos Vindicator
+Heavy, Vehicle
 
-### Abilities
-```
-This unit can have a Siege Shield (Power Rating +1). If this unit has a Siege Shield, it has a Save characteristic of 4+.
-```
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Vindicator
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can have a Siege Shield (Power Rating +1)
+  title: Siege Shield
+  text: This unit can have a Siege Shield
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -907,7 +1044,13 @@ This unit can have a Siege Shield (Power Rating +1). If this unit has a Siege Sh
 | 4" | 3+ | 3+ | 1 | 2 | 6 | 4+ | 1 | 9 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Light, Infantry, Cult of Destruction, Obliterators
+Daemon, Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Cult of Destruction, Obliterators
 
 ### Abilities
 ```
@@ -921,12 +1064,12 @@ Deep Strike
 | Crushing Fists | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Obliterators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4" | 3+ | 3+ | 2 | 4 | 6 | 4+ | 2 | 17 |
 
-#### Profile 2
+#### 3 Obliterators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4" | 3+ | 3+ | 3 | 6 | 6 | 4+ | 3 | 25 |
@@ -939,7 +1082,10 @@ Deep Strike
 | 10" | 5+ | 3+ | 2 | 3 | 7 | 4+ | 1 | 13 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Heavy, Vehicle, Transport, Chaos Land Raider
+Heavy, Vehicle, Transport
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Land Raider
 
 ### Abilities
 ```
@@ -961,22 +1107,28 @@ TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. E
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Chaos, Slaanesh, Heretic Astartes, <Legion>, Light, Infantry, Noise Marines
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Chaos, Slaanesh, Heretic Astartes, <Legion>, Noise Marines
 
 ### Abilities
 ```
 Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.
-This unit can also be equipped with 1 Blastmaster (Power Rating +1).
-If the unit contains 10 or more models, it can also be equipped with 1 Blastmaster (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with 1 Blastmaster (Power Rating +1).
+  title: Blastmaster
+  text: This unit can also be equipped with 1 Blastmaster.
 - per: Per Unit
   Pt: 1
-  text: more models, it can also be equipped with 1 Blastmaster (Power Rating +1).
+  title: Blastmaster
+  text: more models, it can also be equipped with 1 Blastmaster.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -986,17 +1138,17 @@ If the unit contains 10 or more models, it can also be equipped with 1 Blastmast
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 5 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
-#### Profile 2
+#### 10 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
-#### Profile 3
+#### 15 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
@@ -1009,7 +1161,10 @@ If the unit contains 10 or more models, it can also be equipped with 1 Blastmast
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Heavy, Vehicle, Transport, Chaos Rhino
+Heavy, Vehicle, Transport
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Rhino
 
 ### Abilities
 ```
@@ -1030,18 +1185,20 @@ TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. I
 | 6"-20" | 3+ | 4+ | 2 | 2 | 6 | 5+ | 1 | 10 |
 
 ### Keywords
-Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Daemon, Heavy, Vehicle, Fly, Daemon Engine, Helldrake
+Daemon, Heavy, Vehicle, Fly, Daemon Engine
+
+### Traits
+Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Helldrake
 
 ### Abilities
 ```
 Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.
-Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Power Rating +1).
+  text: Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1058,7 +1215,10 @@ Instead of 1 Hades Autocannon, this unit can be equipped with 1 Baleflamer (Powe
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 5+ | 1 | 14 |
 
 ### Keywords
-Chaos, Daemon, Legiones Daemonica, Heavy, Monster, Fly, Character, Greater Daemon
+Daemon, Heavy, Monster, Fly, Character
+
+### Traits
+Chaos, Legiones Daemonica, Greater Daemon
 
 ### Abilities
 ```
@@ -1068,26 +1228,23 @@ Lord of Change (Tzeentch, Pt 12, M 12", Sv 8+, Fly, Psyker) - Greater Daemon of 
 Great Unclean One (Nurgle, Pt 14, M 7", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.
 Keeper of Secrets (Slaanesh, Pt 14, M 15", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.
 Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.
-Lord of Change: Can equip 1 Baleful Sword (Power Rating +1) or have a Rod of Sorcery (Power Rating +1).
-Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1). Instead of 1 Plague Flail, can equip 1 Bileblade.
-Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2), or have Shining Aegis (Ignore Damage 6+) or Sinistrous Hand.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Lord of Change: Can equip 1 Baleful Sword (Power Rating +1)
+  text: Lord of Change: Can equip 1 Baleful Sword
 - per: Per Unit
   Pt: 1
-  text: have a Rod of Sorcery (Power Rating +1).
+  text: have a Rod of Sorcery.
 - per: Per Unit
   Pt: 1
-  text: Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell (Power Rating +1)
+  text: Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell
 - per: Per Unit
   text: Instead of 1 Plague Flail, can equip 1 Bileblade.
 - per: Per Unit
   Pt: 2
-  text: Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee) (Power Rating +2)
+  text: Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1109,22 +1266,22 @@ Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and
 | Living Whip (Melee) | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 5+ | 1 | 14 |
 
-#### Profile 2
+#### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 8+ | 1 | 12 |
 
-#### Profile 3
+#### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 2+ | 2+ | 2 | 4 | 8 | 9+ | 1 | 14 |
 
-#### Profile 4
+#### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 15" | 2+ | 2+ | 2 | 3 | 8 | 9+ | 1 | 14 |

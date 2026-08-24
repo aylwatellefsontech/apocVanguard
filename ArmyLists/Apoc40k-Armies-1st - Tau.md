@@ -13,21 +13,16 @@ source: Apoc40k-Armies-1st - Tau.md
 | 8" | 3+ | 2+ | 1 | 1 | 7 | 6+ | 1 | 5 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, Fly, Character, XV8 Crisis, Jet Pack, Commander
+Light, Battlesuit, Fly, Character, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV8 Crisis, Commander
 
 ### Abilities
 ```
 Deep Strike, Master of War
-Enforcer Battlesuit: At the start of the Damage phase, if this unit has an XV85 Enforcer Battlesuit, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.
 A Commander is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
-This unit must be equipped with two items from the Commander Weapons list.
-This unit can also be equipped with two items from the Commander Weapons list.
 Commander Weapons list: Add 1 to the Power Rating for each Airbursting Fragmentation Projector, Fusion Blaster and Missile Pod, and 2 for each Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle. Cyclic Ion Blaster cannot be taken by a Commander that has an XV86 Coldstar Battlesuit.
-This model can have one of the following (Power Rating +1):
-- XV8-02 Crisis Iridium Battlesuit. If this unit has an XV8-02 Crisis Iridium Battlesuit, improve its Save characteristic by 1.
-- XV85 Enforcer Battlesuit. If this unit has an XV85 Enforcer Battlesuit, it has the following additional abilities: Enforcer Battlesuit; has the XV85 Enforcer keyword instead of the XV8 Crisis keyword.
-- XV86 Coldstar Battlesuit. If this unit has an XV86 Coldstar Battlesuit, it has a Move characteristic of 20"; is equipped with 1 High-output Burst Cannon instead of one item from the Commander Weapons list; has the XV86 Coldstar keyword instead of the XV8 Crisis keyword.
-This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Shield Drone, improve its Save characteristic by 1.
@@ -40,14 +35,7 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
   text: This unit can also be equipped with two items from the Commander Weapons list.
 - per: Per Unit
   Pt: 1
-  text: This model can have one of the following (Power Rating +1):
-- per: Per Unit
-  text: If this unit has an XV85 Enforcer Battlesuit, it has the following additional abilities: Enforcer Battlesuit; has the XV85 Enforcer keyword instead of the XV8 Crisis keyword.
-- per: Per Unit
-  text: If this unit has an XV86 Coldstar Battlesuit, it has a Move characteristic of 20"; is equipped with 1 High-output Burst Cannon instead of one item from the Commander Weapons list; has the XV86 Coldstar keyword instead of the XV8 Crisis keyword.
-- per: Per Unit
-  Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -62,6 +50,50 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 | High-output Burst Cannon | Heavy | 18" | 4 | 8+ | 9+ |  |
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
+### Profiles
+#### XV8-02 Iridium
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8" | 3+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 6 |
+
+##### Profile Keywords
+Battlesuit, Fly, Jet Pack
+
+##### Profile Traits
+XV8-02 Iridium
+
+#### XV85 Enforcer
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8" | 3+ | 2+ | 1 | 1 | 7 | 6+ | 1 | 6 |
+
+##### Profile Keywords
+Battlesuit, Fly, Jet Pack
+
+##### Profile Traits
+XV85 Enforcer
+
+##### Profile Abilities
+```
+Enforcer Battlesuit: At the start of the Damage phase, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.
+```
+
+#### XV86 Coldstar
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 20" | 3+ | 2+ | 1 | 1 | 7 | 6+ | 1 | 6 |
+
+##### Profile Keywords
+Battlesuit, Fly, Jet Pack
+
+##### Profile Traits
+XV86 Coldstar
+
+##### Profile Abilities
+```
+Equipped with 1 High-output Burst Cannon instead of one item from the Commander Weapons list.
+```
+
 ## Unit 2 — HQ — Commander Farsight
 
 ### Stats
@@ -70,7 +102,10 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 | 8" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 13 |
 
 ### Keywords
-T'au Empire, Farsight Enclaves, Light, Battlesuit, Fly, Character, Commander, Jet Pack, Farsight
+Light, Battlesuit, Fly, Character, Jet Pack
+
+### Traits
+T'au Empire, Farsight Enclaves, Commander, Farsight
 
 ### Abilities
 ```
@@ -81,6 +116,7 @@ Way of the Short Blade: Re-roll hit rolls of 1 made for friendly Farsight Enclav
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: Commander Farsight is a unit that contains 1 model. It is equipped with: High-intensity Plasma Rifle; The Dawn Blade. You can only include one of this unit in your army.
 
 ### Weapons
@@ -97,13 +133,18 @@ Way of the Short Blade: Re-roll hit rolls of 1 made for friendly Farsight Enclav
 | 6" | 3+ | 2+ | 1 | 1 | 6 | 8+ | 1 | 11 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Character, Cadre Fireblade
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Cadre Fireblade
 
 ### Abilities
 ```
 Volley Fire: Add 1 to the Attacks characteristic of <Sept> units within 6" of any friendly <Sept> Cadre Fireblades whilst they are making attacks with Pulse Carbines and Pulse Rifles that target a unit within half range of the weapon being used for that attack.
 A Cadre Fireblade is a unit that contains 1 model. It is equipped with: Pulse Rifle; Close Combat Weapons.
-This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Shield Drone, improve its Save characteristic by 1.
@@ -112,7 +153,7 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -128,32 +169,42 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 | 6" | 3+ | 4+ | 1 | 1 | 7 | 10+ | 1 | 2 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Character, Ethereal
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Ethereal
 
 ### Abilities
 ```
 Failure Is Not an Option: Friendly T'au Empire units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
 An Ethereal is a unit that contains 1 model. It is equipped with: Honour Blade.
-This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Gun Drone, it is also equipped with 1 Pulse Carbine.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Shield Drone, improve its Save characteristic by 1.
-This unit can have a Hover Drone (Power Rating +1). If this unit has a Hover Drone, it has a Move characteristic of 8" and gains the following additional keywords: Jet Pack, Fly.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
-- per: Per Unit
-  Pt: 1
-  text: This unit can have a Hover Drone (Power Rating +1)
+  text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Honour Blade | Melee | Melee | User | 8+ | 8+ |  |
 | Pulse Carbine | Small Arms | 18" | User | 9+ | 9+ |  |
+
+### Profiles
+#### Hover Drone
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8" | 3+ | 4+ | 1 | 1 | 7 | 10+ | 1 | 2 |
+
+##### Profile Keywords
+Jet Pack, Fly
 
 ## Unit 5 — Troops — Breacher Team
 
@@ -163,12 +214,16 @@ This unit can have a Hover Drone (Power Rating +1). If this unit has a Hover Dro
 | 6" | 5+ | 4+ | 1 | 1 | 5 | 8+ | 5 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Breacher Team
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Breacher Team
 
 ### Abilities
 ```
-A Breacher Team is a unit that contains 5 models. It can contain 10 models (Power Rating 6). It is equipped with: Pulse Blasters; Close Combat Weapons.
-This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
@@ -178,10 +233,11 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 ### Options
 - per: Per 10 models
   Pt: 6
-  text: It can contain 10 models (Power Rating 6)
+  title: 10 Models
+  text: It can contain 10 models
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -190,7 +246,7 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Breacher Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 6 |
@@ -203,18 +259,23 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 | 6" | 3+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 4 |
 
 ### Keywords
-T'au Empire, Kroot, Light, Infantry, Kroot Carnivores
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, Kroot, Kroot Carnivores
 
 ### Abilities
 ```
 Infiltrators
-Kroot Carnivores are a unit that contains 10 models. It can contain 20 models (Power Rating 7). It is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee).
 ```
 
 ### Options
 - per: Per 20 models
   Pt: 7
-  text: It can contain 20 models (Power Rating 7)
+  text: It can contain 20 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -223,7 +284,7 @@ Kroot Carnivores are a unit that contains 10 models. It can contain 20 models (P
 | Kroot Rifles (Melee) | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Kroot Carnivores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 5 | 10+ | 20 | 7 |
@@ -236,12 +297,16 @@ Kroot Carnivores are a unit that contains 10 models. It can contain 20 models (P
 | 6" | 5+ | 4+ | 1 | 1 | 5 | 8+ | 5 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Strike Team
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Strike Team
 
 ### Abilities
 ```
-A Strike Team is a unit that contains 5 models. It can contain 10 models (Power Rating 6) or 12 models (Power Rating 7). It is equipped with: Pulse Rifles; Close Combat Weapons.
-This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
@@ -251,13 +316,14 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 ### Options
 - per: Per 10 models
   Pt: 6
-  text: It can contain 10 models (Power Rating 6)
+  title: 10 Models
+  text: It can contain 10 models
 - per: Per 2 models
   Pt: 7
-  text: 12 models (Power Rating 7)
+  text: 12 models
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -266,12 +332,12 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Strike Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 6 |
 
-#### Profile 2
+#### 12 Strike Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 3 | 2 | 5 | 8+ | 12 | 7 |
@@ -284,7 +350,13 @@ This unit can have up to two of the following (Power Rating +1): Guardian Drone,
 | 5" | 5+ | 3+ | 1 | 1 | 5 | 8+ | 1 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Character, Firesight Marksman
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Firesight Marksman
 
 ### Abilities
 ```
@@ -309,7 +381,13 @@ Drone Uplink: Add 1 to hit rolls for attacks made with ranged weapons by <Sept> 
 | 7" | 3+ | 4+ | 1 | 1 | 5 | 10+ | 1 | 3 |
 
 ### Keywords
-T'au Empire, Kroot, Light, Infantry, Character, Kroot Shaper
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, Kroot, Kroot Shaper
 
 ### Abilities
 ```
@@ -334,20 +412,18 @@ The Shaper Commands: Re-roll wound rolls of 1 for attacks made by friendly Kroot
 | 8" | 3+ | 4+ | 1 | 1 | 4 | 10+ | 1 | 1 |
 
 ### Keywords
-T'au Empire, Kroot, Light, Cavalry, Krootox Riders
+Light, Cavalry
 
-### Abilities
-```
-Krootox Riders are a unit that contains 1 model. It can contain 2 models (Power Rating 2) or 3 models (Power Rating 3). It is equipped with: Kroot Guns; Krootox Fists.
-```
+### Traits
+T'au Empire, Kroot, Krootox Riders
 
 ### Options
 - per: Per 2 models
   Pt: 2
-  text: It can contain 2 models (Power Rating 2)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 3
-  text: 3 models (Power Rating 3)
+  text: 3 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -356,12 +432,12 @@ Krootox Riders are a unit that contains 1 model. It can contain 2 models (Power 
 | Krootox Fists | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Krootox Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 2 | 2 | 4 | 10+ | 2 | 2 |
 
-#### Profile 2
+#### 3 Krootox Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 3 | 3 | 4 | 10+ | 3 | 3 |
@@ -374,31 +450,32 @@ Krootox Riders are a unit that contains 1 model. It can contain 2 models (Power 
 | 8" | 3+ | 4+ | 3 | 3 | 4 | 10+ | 2 | 4 |
 
 ### Keywords
-T'au Empire, Kroot, Light, Cavalry, Krootox Rampagers
+Light, Cavalry
+
+### Traits
+T'au Empire, Kroot, Krootox Rampagers
 
 ### Abilities
 ```
 Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.
-per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5); per 3 models (Power Rating 7): 3 models (Power Rating 7)
-Krootox Rampagers are a unit that contains 2 models. It can contain 3 models (Power Rating 7). It is equipped with: Kroot Pistols; Fists & Blades.
 ```
 
 ### Options
 - per: Per 3 models
   Pt: 5
-  text: per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5)
+  text: per 2 models: It can contain 2 models
 - per: Per 3 models
   Pt: 7
-  text: 3 models (Power Rating 7)
+  text: 3 models
 - per: Per 3 models
   Pt: 7
-  text: per 2 models (Power Rating 5): It can contain 2 models (Power Rating 5)
+  text: per 2 models: It can contain 2 models
 - per: Per 3 models
   Pt: 7
-  text: 3 models (Power Rating 7)
+  text: 3 models
 - per: Per 3 models
   Pt: 7
-  text: It can contain 3 models (Power Rating 7)
+  text: It can contain 3 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -407,7 +484,7 @@ Krootox Rampagers are a unit that contains 2 models. It can contain 3 models (Po
 | Fists & Blades | Melee | Melee | User | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 3 Krootox Rampagers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 3 | 3 | 4 | 10+ | 3 | 7 |
@@ -420,13 +497,17 @@ Krootox Rampagers are a unit that contains 2 models. It can contain 3 models (Po
 | 8" | 5+ | 4+ | 1 | 1 | 6 | 6+ | 3 | 6 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, Fly, Infantry, Jet Pack, XV25 Stealth Battlesuits
+Light, Battlesuit, Fly, Infantry, Jet Pack
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, XV25 Stealth Battlesuits
 
 ### Abilities
 ```
 Infiltrators, Stealth
-XV25 Stealth Battlesuits are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Burst Cannons; Close Combat Weapons.
-This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Shield Drone, improve its Save characteristic by 1.
@@ -435,10 +516,10 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -447,7 +528,7 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 XV25 Stealth Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 2 | 6 | 6+ | 6 | 10 |
@@ -460,14 +541,14 @@ This unit can have up to two of the following (Power Rating +1): Gun Drone, Mark
 | 8" | 5+ | 4+ | 1 | 2 | 6 | 6+ | 3 | 7 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, Fly, Jet Pack, XV8 Crisis Battlesuits
+Light, Battlesuit, Fly, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV8 Crisis Battlesuits
 
 ### Abilities
 ```
 Deep Strike
-XV8 Crisis Battlesuits are a unit that contains 3 models. It can contain 6 models (Power Rating 13) or 9 models (Power Rating 19). It is equipped with: Close Combat Weapons.
-For each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.
-This unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
 - If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Shield Drones, improve its Save characteristic by 1.
@@ -476,16 +557,17 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 ### Options
 - per: Per 6 models
   Pt: 13
-  text: It can contain 6 models (Power Rating 13)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 19
-  text: 9 models (Power Rating 19)
+  text: 9 models
 - per: Per 3 models
   Pt: 1
-  text: For each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.
+  text: For each 3 models this unit contains, it
+  Choose 1: 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles
 - per: Per 3 models
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
+  text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -500,12 +582,12 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 XV8 Crisis Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 4 | 6 | 6+ | 6 | 13 |
 
-#### Profile 2
+#### 9 XV8 Crisis Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 3 | 6 | 6 | 6+ | 9 | 19 |
@@ -518,15 +600,15 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 | 8" | 5+ | 4+ | 1 | 2 | 6 | 6+ | 3 | 8 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, Fly, Jet Pack, XV8 Crisis Bodyguards
+Light, Battlesuit, Fly, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV8 Crisis Bodyguards
 
 ### Abilities
 ```
 Deep Strike
 Sworn Protectors: At the start of the Damage phase, you can select one friendly <Sept> Character unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.
-XV8 Crisis Bodyguards are a unit that contains 3 models. It can contain 6 models (Power Rating 15) or 9 models (Power Rating 22). It is equipped with: Close Combat Weapons.
-For each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.
-This unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
 - If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Shield Drones, improve its Save characteristic by 1.
@@ -535,16 +617,17 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 ### Options
 - per: Per 6 models
   Pt: 15
-  text: It can contain 6 models (Power Rating 15)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 22
-  text: 9 models (Power Rating 22)
+  text: 9 models
 - per: Per 3 models
   Pt: 1
-  text: For each 3 models this unit contains, it must be equipped with one of the following (Power Rating +1 per Burst Cannon, Cyclic Ion Blaster, Flamer and Plasma Rifle): 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles.
+  text: For each 3 models this unit contains, it
+  Choose 1: 3 Airbursting Fragmentation Projectors; 3 Burst Cannons; 3 Cyclic Ion Blasters; 3 Flamers; 3 Fusion Blasters; 3 Missile Pods; 3 Plasma Rifles
 - per: Per 3 models
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1 for each 3 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
+  text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -559,12 +642,12 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 XV8 Crisis Bodyguards
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 4 | 6 | 6+ | 6 | 15 |
 
-#### Profile 2
+#### 9 XV8 Crisis Bodyguards
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 3 | 6 | 6 | 6+ | 9 | 22 |
@@ -577,21 +660,23 @@ This unit can have up to two of the following (Power Rating +1 for each 3 models
 | 12" | 5+ | 4+ | 1 | 2 | 6 | 6+ | 1 | 12 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Battlesuit, Fly, Monster, Jet Pack, XV95 Ghostkeel Battlesuit
+Heavy, Battlesuit, Fly, Monster, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV95 Ghostkeel Battlesuit
 
 ### Abilities
 ```
 Infiltrators, Stealth
 An XV95 Ghostkeel Battlesuit is a unit that contains 1 model. It is equipped with: Flamers; Fusion Collider; Close Combat Weapons.
-Instead of 1 Fusion Collider, this unit can be equipped with 1 Cyclic Ion Raker.
-Instead of Flamers, this unit can be equipped with one of the following: 2 Burst Cannons; Fusion Blasters.
 ```
 
 ### Options
 - per: Per Unit
   text: Instead of 1 Fusion Collider, this unit can be equipped with 1 Cyclic Ion Raker.
 - per: Per Unit
-  text: Instead of Flamers, this unit can be equipped with one of the following: 2 Burst Cannons; Fusion Blasters.
+  text: Instead of Flamers, this unit can be
+  Choose 1: 2 Burst Cannons; Fusion Blasters
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -611,24 +696,25 @@ Instead of Flamers, this unit can be equipped with one of the following: 2 Burst
 | 12" | 5+ | 4+ | 2 | 3 | 6 | 4+ | 1 | 13 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Battlesuit, Fly, Monster, Jet Pack, XV104 Riptide Battlesuit
+Heavy, Battlesuit, Fly, Monster, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV104 Riptide Battlesuit
 
 ### Abilities
 ```
 An XV104 Riptide Battlesuit is a unit that contains 1 model. It is equipped with: Heavy Burst Cannon; Smart Missile Systems; Close Combat Weapons.
-Instead of Smart Missile Systems, this unit can be equipped with one of the following: Fusion Blasters; Plasma Rifles.
-Instead of 1 Heavy Burst Cannon, this unit can be equipped with 1 Ion Accelerator.
-This unit can have up to two Shielded Missile Drones (Power Rating +1 per drone). For each Shielded Missile Drone this unit has, it is also equipped with 1 Missile Pod.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Smart Missile Systems, this unit can be equipped with one of the following: Fusion Blasters; Plasma Rifles.
+  text: Instead of Smart Missile Systems, this unit can be
+  Choose 1: Fusion Blasters; Plasma Rifles
 - per: Per Unit
   text: Instead of 1 Heavy Burst Cannon, this unit can be equipped with 1 Ion Accelerator.
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two Shielded Missile Drones (Power Rating +1 per drone)
+  text: This unit can have up to two Shielded Missile Drones
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -649,15 +735,16 @@ This unit can have up to two Shielded Missile Drones (Power Rating +1 per drone)
 | 8" | 5+ | 4+ | 1 | 2 | 6 | 5+ | 1 | 4 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, Fly, Jet Pack, XV9 Hazard Battlesuit
+Light, Battlesuit, Fly, Jet Pack
+
+### Traits
+T'au Empire, <Sept>, XV9 Hazard Battlesuit
 
 ### Abilities
 ```
 Deep Strike
 Reactive Impact Dampeners: Re-roll wound rolls of 1 for attacks made with melee weapons by this unit.
 An XV9 Hazard Battlesuit is a unit that contains 1 model. It is equipped with: Fusion Cascade; Twin Hazard Burst Cannon; Battlesuit Fists.
-Instead of 1 Fusion Cascade, this unit can be equipped with 1 Phased Ion Gun.
-Instead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion Cascade or 1 Phased Ion Gun.
 ```
 
 ### Options
@@ -681,19 +768,20 @@ Instead of 1 Twin Hazard Burst Cannon, this unit can be equipped with 1 Fusion C
 | 7" | 5+ | 4+ | 1 | 1 | 5 | 8+ | 5 | 5 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Infantry, Pathfinder Team
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, <Sept>, Pathfinder Team
 
 ### Abilities
 ```
 Infiltrators
-A Pathfinder Team is a unit that contains 5 models. It can contain 10 models (Power Rating 9). It is equipped with: Pulse Carbines; Close Combat Weapons.
-This unit can also be equipped with up to three of the following in any combination (Power Rating +1 per weapon): 1 Ion Rifle; 1 Rail Rifle.
-This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
 - If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has a Shield Drone, improve its Save characteristic by 1.
-This unit can have a Recon Drone (Power Rating +1). If this unit has a Recon Drone, it does not suffer the penalty for attacks made with ranged weapons that target obscured targets.
-This unit can take up to two of the following (Power Rating +1): Grav-inhibitor Drone, Pulse Accelerator Drone.
 - If an enemy unit starts a Move action within 3" of any units accompanied by a Grav-inhibitor Drone, reduce its Movement characteristic by 2" until that Move action is completed.
 - If this unit has a Pulse Accelerator Drone, add 6" to the range of its Pulse carbines.
 ```
@@ -701,19 +789,20 @@ This unit can take up to two of the following (Power Rating +1): Grav-inhibitor 
 ### Options
 - per: Per 10 models
   Pt: 9
-  text: It can contain 10 models (Power Rating 9)
+  title: 10 Models
+  text: It can contain 10 models
 - per: Per weapon
   Pt: 1
-  text: This unit can also be equipped with up to three of the following in any combination (Power Rating +1 per weapon): 1 Ion Rifle; 1 Rail Rifle.
+  text: This unit can also be equipped with up to three of the following in any combination: 1 Ion Rifle; 1 Rail Rifle.
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1): Gun Drone, Marker Drone, Shield Drone.
+  text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
 - per: Per Unit
   Pt: 1
-  text: This unit can have a Recon Drone (Power Rating +1)
+  text: This unit can have a Recon Drone
 - per: Per Unit
   Pt: 1
-  text: This unit can take up to two of the following (Power Rating +1): Grav-inhibitor Drone, Pulse Accelerator Drone.
+  text: This unit can take up to two of the following: Grav-inhibitor Drone, Pulse Accelerator Drone.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -724,7 +813,7 @@ This unit can take up to two of the following (Power Rating +1): Grav-inhibitor 
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Pathfinder Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 9 |
@@ -737,21 +826,23 @@ This unit can take up to two of the following (Power Rating +1): Grav-inhibitor 
 | 12" | 3+ | - | 1 | 1 | 4 | 10+ | 4 | 2 |
 
 ### Keywords
-T'au Empire, Kroot, Light, Beasts, Kroot Hounds
+Light
+
+### Traits
+T'au Empire, Kroot, Beasts, Kroot Hounds
 
 ### Abilities
 ```
 Voracious Predators: Add 1 to wound rolls for attacks made by this unit that target units that are not Vehicles and have any damage markers next to them.
-Kroot Hounds are a unit that contains 4 models. It can contain 8 models (Power Rating 4) or 12 models (Power Rating 6). It is equipped with: Ripping Fangs.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 4
-  text: It can contain 8 models (Power Rating 4)
+  text: It can contain 8 models
 - per: Per 2 models
   Pt: 6
-  text: 12 models (Power Rating 6)
+  text: 12 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -759,12 +850,12 @@ Kroot Hounds are a unit that contains 4 models. It can contain 8 models (Power R
 | Ripping Fangs | Melee | Melee | x2 | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 8 Kroot Hounds
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | - | 2 | 2 | 4 | 10+ | 8 | 4 |
 
-#### Profile 2
+#### 12 Kroot Hounds
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | - | 3 | 3 | 4 | 10+ | 12 | 6 |
@@ -777,14 +868,15 @@ Kroot Hounds are a unit that contains 4 models. It can contain 8 models (Power R
 | 8" | 5+ | 5+ | 1 | 1 | 4 | 8+ | 4 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Drone, Fly, Tactical Drones
+Light, Fly
+
+### Traits
+T'au Empire, <Sept>, Drone, Tactical Drones
 
 ### Abilities
 ```
 Deep Strike
 Threat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.
-Tactical Drones are a unit that contains 4 models. It can contain 8 models (Power Rating 5) or 12 models (Power Rating 7). It is equipped with: Pulse Carbines; Close Combat Weapons.
-This unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
 - If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Shield Drones, improve its Save characteristic by 1.
@@ -793,13 +885,13 @@ This unit can have up to two of the following (Power Rating +1 for each 4 models
 ### Options
 - per: Per Unit
   Pt: 5
-  text: It can contain 8 models (Power Rating 5)
+  text: It can contain 8 models
 - per: Per 2 models
   Pt: 7
-  text: 12 models (Power Rating 7)
+  text: 12 models
 - per: Per 4 models
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1 for each 4 models this unit contains): Gun Drones, Marker Drones, Shield Drones.
+  text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -808,12 +900,12 @@ This unit can have up to two of the following (Power Rating +1 for each 4 models
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 8 Tactical Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 2 | 2 | 4 | 8+ | 8 | 5 |
 
-#### Profile 2
+#### 12 Tactical Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 3 | 3 | 4 | 8+ | 12 | 7 |
@@ -826,23 +918,21 @@ This unit can have up to two of the following (Power Rating +1 for each 4 models
 | 16" | 6+ | 4+ | 1 | 1 | 4 | 8+ | 1 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Vehicle, Fly, TX4 Piranhas
+Heavy, Vehicle, Fly
 
-### Abilities
-```
-TX4 Piranhas are a unit that contains 1 model. It can contain 3 models (Power Rating 9) or 5 models (Power Rating 15). It is equipped with: Pulse Carbines; Close Combat Weapons.
-For each model this unit contains, it must be equipped with one of the following: 1 Fusion Blaster; 1 Burst Cannon.
-```
+### Traits
+T'au Empire, <Sept>, TX4 Piranhas
 
 ### Options
 - per: Per 3 models
   Pt: 9
-  text: It can contain 3 models (Power Rating 9)
+  text: It can contain 3 models
 - per: Per 5 models
   Pt: 15
-  text: 5 models (Power Rating 15)
+  text: 5 models
 - per: Per Unit
-  text: For each model this unit contains, it must be equipped with one of the following: 1 Fusion Blaster; 1 Burst Cannon.
+  text: For each model this unit contains, it
+  Choose 1: 1 Fusion Blaster; 1 Burst Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -853,12 +943,12 @@ For each model this unit contains, it must be equipped with one of the following
 | Close Combat Weapons | Melee | Melee | User | 10+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 3 TX4 Piranhas
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16" | 6+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 9 |
 
-#### Profile 2
+#### 5 TX4 Piranhas
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16" | 6+ | 4+ | 5 | 5 | 4 | 8+ | 5 | 15 |
@@ -871,21 +961,26 @@ For each model this unit contains, it must be equipped with one of the following
 | 14" | 4+ | 4+ | 1 | 1 | 6 | 8+ | 4 | 5 |
 
 ### Keywords
-T'au Empire, Vespid, Light, Infantry, Fly, Vespid Stingwings
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+T'au Empire, Vespid, Vespid Stingwings
 
 ### Abilities
 ```
 Deep Strike
-Vespid Stingwings are a unit that contains 4 models. It can contain 8 models (Power Rating 11) or 12 models (Power Rating 16). It is equipped with: Neutron Blasters; Close Combat Weapons.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 11
-  text: It can contain 8 models (Power Rating 11)
+  text: It can contain 8 models
 - per: Per 2 models
   Pt: 16
-  text: 12 models (Power Rating 16)
+  text: 12 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -894,12 +989,12 @@ Vespid Stingwings are a unit that contains 4 models. It can contain 8 models (Po
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 8 Vespid Stingwings
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 2 | 6 | 8+ | 8 | 11 |
 
-#### Profile 2
+#### 12 Vespid Stingwings
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 3 | 3 | 6 | 8+ | 12 | 16 |
@@ -912,7 +1007,10 @@ Vespid Stingwings are a unit that contains 4 models. It can contain 8 models (Po
 | 12" | 6+ | 2+ | 1 | 2 | 6 | 6+ | 1 | 12 |
 
 ### Keywords
-T'au Empire, T'au Sept, Heavy, Vehicle, Fly, Character, TX7 Hammerhead Gunship, Longstrike
+Heavy, Vehicle, Fly, Character
+
+### Traits
+T'au Empire, T'au Sept, TX7 Hammerhead Gunship, Longstrike
 
 ### Abilities
 ```
@@ -920,15 +1018,14 @@ Tank Ace: Add 1 to wound rolls for attacks made by this unit with ranged weapons
 Fire Caste Exemplar: Add 1 to hit rolls for attacks made with ranged weapons by friendly T'au Sept TX7 Hammerhead Gunship units whilst they are within 6" of this unit.
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 Longstrike is a unit that contains 1 model. It is equipped with: 2 Pulse Carbines; Railgun; Armoured Hull. You can only include one of this unit in your army.
-Instead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.
-Instead of 2 Pulse Carbines, this unit can be equipped with one of the following: 2 Burst Cannons; Smart Missile Systems.
 ```
 
 ### Options
 - per: Per Unit
   text: Instead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.
 - per: Per Unit
-  text: Instead of 2 Pulse Carbines, this unit can be equipped with one of the following: 2 Burst Cannons; Smart Missile Systems.
+  text: Instead of 2 Pulse Carbines, this unit can be
+  Choose 1: 2 Burst Cannons; Smart Missile Systems
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -948,21 +1045,23 @@ Instead of 2 Pulse Carbines, this unit can be equipped with one of the following
 | 8" | 5+ | 5+ | 1 | 1 | 4 | 8+ | 3 | 3 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Drone, Fly, MV71 Sniper Drones
+Light, Fly
+
+### Traits
+T'au Empire, <Sept>, Drone, MV71 Sniper Drones
 
 ### Abilities
 ```
 Stealth
-MV71 Sniper Drones are a unit that contains 3 models. It can contain 6 models (Power Rating 5) or 9 models (Power Rating 7). It is equipped with: Longshot Pulse Rifles; Close Combat Weapons.
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 5
-  text: It can contain 6 models (Power Rating 5)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 7
-  text: 9 models (Power Rating 7)
+  text: 9 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -971,12 +1070,12 @@ MV71 Sniper Drones are a unit that contains 3 models. It can contain 6 models (P
 | Close Combat Weapons | Melee | Melee | User | 10+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 MV71 Sniper Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 2 | 2 | 4 | 8+ | 6 | 5 |
 
-#### Profile 2
+#### 9 MV71 Sniper Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 3 | 3 | 4 | 8+ | 9 | 7 |
@@ -989,14 +1088,15 @@ MV71 Sniper Drones are a unit that contains 3 models. It can contain 6 models (P
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 10 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Vehicle, Fly, TX7 Hammerhead Gunship
+Heavy, Vehicle, Fly
+
+### Traits
+T'au Empire, <Sept>, TX7 Hammerhead Gunship
 
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 A TX7 Hammerhead Gunship is a unit that contains 1 model. It is equipped with: Railgun; 2 Pulse Carbines; Armoured Hull.
-Instead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.
-Instead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.
 ```
 
 ### Options
@@ -1004,7 +1104,8 @@ Instead of 2 Pulse Carbines, this unit can be equipped with one of the following
   text: Instead of 1 Railgun, this unit can be equipped with 1 Ion Cannon.
 - per: Per Unit
   Pt: 1
-  text: Instead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.
+  text: Instead of 2 Pulse Carbines, this unit can be
+  Choose 1: 2 Burst Cannons; Smart Missile Systems
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1024,20 +1125,23 @@ Instead of 2 Pulse Carbines, this unit can be equipped with one of the following
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 9 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Vehicle, Fly, TX78 Sky Ray Gunship
+Heavy, Vehicle, Fly
+
+### Traits
+T'au Empire, <Sept>, TX78 Sky Ray Gunship
 
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 Velocity Tracker: Add 2 to hit rolls for attacks made with ranged weapons by this unit that target Aircraft units.
 A TX78 Sky Ray Gunship is a unit that contains 1 model. It is equipped with: Seeker Missiles; 2 Pulse Carbines; Armoured Hull.
-Instead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of 2 Pulse Carbines, this unit can be equipped with one of the following (Power Rating +1): 2 Burst Cannons; Smart Missile Systems.
+  text: Instead of 2 Pulse Carbines, this unit can be
+  Choose 1: 2 Burst Cannons; Smart Missile Systems
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1056,38 +1160,38 @@ Instead of 2 Pulse Carbines, this unit can be equipped with one of the following
 | 5" | 5+ | 4+ | 1 | 1 | 6 | 5+ | 1 | 6 |
 
 ### Keywords
-T'au Empire, <Sept>, Light, Battlesuit, XV88 Broadside Battlesuits
+Light, Battlesuit
+
+### Traits
+T'au Empire, <Sept>, XV88 Broadside Battlesuits
 
 ### Abilities
 ```
-XV88 Broadside Battlesuits are a unit that contains 1 model. It can contain 2 models (Power Rating 11) or 3 models (Power Rating 16). It is equipped with: Close Combat Weapons.
-For each model this unit contains, it must be equipped with one of the following: 1 Heavy Rail Rifle; 2 High-yield Missile Pods (Power Rating +1).
-For each model this unit contains, it must be equipped with one of the following: Smart Missile Systems; Plasma Rifles.
-This unit can have up to two of the following (Power Rating +1 for each model this unit contains): Gun Drones, Marker Drones, Shield Drones.
 - If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.
 - If this unit has Shield Drones, improve its Save characteristic by 1.
-For each model this unit contains, it can have up to two Missile Drones (Power Rating +1 per drone). For each Missile Drone this unit has, it is also equipped with 1 Missile Pod.
 ```
 
 ### Options
 - per: Per 2 models
   Pt: 11
-  text: It can contain 2 models (Power Rating 11)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 16
-  text: 3 models (Power Rating 16)
+  text: 3 models
 - per: Per Unit
   Pt: 1
-  text: For each model this unit contains, it must be equipped with one of the following: 1 Heavy Rail Rifle; 2 High-yield Missile Pods (Power Rating +1).
+  text: For each model this unit contains, it
+  Choose 1: 1 Heavy Rail Rifle; 2 High-yield Missile Pods (Power Rating +1)
 - per: Per Unit
-  text: For each model this unit contains, it must be equipped with one of the following: Smart Missile Systems; Plasma Rifles.
+  text: For each model this unit contains, it
+  Choose 1: Smart Missile Systems; Plasma Rifles
 - per: Per Unit
   Pt: 1
-  text: This unit can have up to two of the following (Power Rating +1 for each model this unit contains): Gun Drones, Marker Drones, Shield Drones.
+  text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
 - per: Per Unit
   Pt: 1
-  text: For each model this unit contains, it can have up to two Missile Drones (Power Rating +1 per drone)
+  text: For each model this unit contains, it can have up to two Missile Drones
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1100,12 +1204,12 @@ For each model this unit contains, it can have up to two Missile Drones (Power R
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 XV88 Broadside Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 5+ | 4+ | 2 | 2 | 6 | 5+ | 2 | 11 |
 
-#### Profile 2
+#### 3 XV88 Broadside Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 5+ | 4+ | 3 | 3 | 6 | 5+ | 3 | 16 |
@@ -1118,14 +1222,16 @@ For each model this unit contains, it can have up to two Missile Drones (Power R
 | 12" | 6+ | 4+ | 1 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Vehicle, Fly, Transport, TY7 Devilfish
+Heavy, Vehicle, Fly, Transport
+
+### Traits
+T'au Empire, <Sept>, TY7 Devilfish
 
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 12 <Sept> Infantry or Drone models. It cannot transport Battlesuits.
 A TY7 Devilfish is a unit that contains 1 model. It is equipped with: Burst Cannon; 2 Pulse Carbines; Armoured Hull.
-Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile Systems.
 ```
 
 ### Options
@@ -1148,13 +1254,15 @@ Instead of 2 Pulse Carbines, this unit can be equipped with Smart Missile System
 | 20-50" | 6+ | 4+ | 1 | 2 | 4 | 8+ | 1 | 6 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Aircraft, Vehicle, Fly, AX3 Razorshark Strike Fighter
+Heavy, Aircraft, Vehicle, Fly
+
+### Traits
+T'au Empire, <Sept>, AX3 Razorshark Strike Fighter
 
 ### Abilities
 ```
 Supersonic
 An AX3 Razorshark Strike Fighter is a unit that contains 1 model. It is equipped with: Burst Cannon; Quad Ion Turret; Armoured Hull.
-Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod.
 ```
 
 ### Options
@@ -1177,20 +1285,22 @@ Instead of 1 Burst Cannon, this unit can be equipped with 1 Missile Pod.
 | 20-50" | 6+ | 4+ | 1 | 2 | 4 | 7+ | 1 | 5 |
 
 ### Keywords
-T'au Empire, <Sept>, Heavy, Aircraft, Vehicle, Fly, AX39 Sun Shark Bomber
+Heavy, Aircraft, Vehicle, Fly
+
+### Traits
+T'au Empire, <Sept>, AX39 Sun Shark Bomber
 
 ### Abilities
 ```
 Supersonic
 Bombing Run: When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.
 An AX39 Sun Shark Bomber is a unit that contains 1 model. It is equipped with: Ion Rifles; Missile Pod; Armoured Hull.
-This unit can also be equipped with 1 Missile Pod (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with 1 Missile Pod (Power Rating +1).
+  text: This unit can also be equipped with 1 Missile Pod.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1207,19 +1317,21 @@ This unit can also be equipped with 1 Missile Pod (Power Rating +1).
 | 6" | 5+ | 4+ | 1 | 5 | 6 | 5+ | 1 | 20 |
 
 ### Keywords
-T'au Empire, <Sept>, Super-heavy, Titanic, Vehicle, KV128 Stormsurge
+Super-heavy, Titanic, Vehicle
+
+### Traits
+T'au Empire, <Sept>, KV128 Stormsurge
 
 ### Abilities
 ```
 Stabilising Anchors: Re-roll hit rolls of 1 for attacks made with ranged weapons by this unit if it did not make a Move action this turn.
 A KV128 Stormsurge is a unit that contains 1 model. It is equipped with: Cluster Rocket System; 4 Destroyer Missiles; Flamers; Pulse Blastcannon; Smart Missile Systems; Crushing Feet.
-Instead of Flamers, this unit can be equipped with one of the following: Airbursting Fragmentation Projectors; 2 Burst Cannons.
-Instead of 1 Pulse Blastcannon, this unit can be equipped with 1 Pulse Driver Cannon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Flamers, this unit can be equipped with one of the following: Airbursting Fragmentation Projectors; 2 Burst Cannons.
+  text: Instead of Flamers, this unit can be
+  Choose 1: Airbursting Fragmentation Projectors; 2 Burst Cannons
 - per: Per Unit
   text: Instead of 1 Pulse Blastcannon, this unit can be equipped with 1 Pulse Driver Cannon.
 
@@ -1244,7 +1356,10 @@ Instead of 1 Pulse Blastcannon, this unit can be equipped with 1 Pulse Driver Ca
 | 6" | - | 5+ | - | 2 | 4 | 8+ | 1 | 6 |
 
 ### Keywords
-T'au Empire, <Sept>, Building, Vehicle, Transport, Tidewall
+Vehicle, Transport
+
+### Traits
+T'au Empire, <Sept>, Building, Tidewall
 
 ### Abilities
 ```

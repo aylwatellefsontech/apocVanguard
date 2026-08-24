@@ -13,7 +13,10 @@ source: Apoc40k-Armies-1st - Tyranids.md
 | 9" | 2+ | 3+ | 2 | 2 | 8 | 5+ | 1 | 12 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Psyker, Character, Synapse Creature, Hive Tyrant, The Swarmlord
+Heavy, Monster, Psyker, Character, Synapse Creature
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Tyrant, The Swarmlord
 
 ### Abilities
 ```
@@ -23,6 +26,7 @@ Hive Commander: Morale tests taken for friendly <Hive Fleet> units are automatic
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.
 
 ### Weapons
@@ -39,7 +43,10 @@ Hive Commander: Morale tests taken for friendly <Hive Fleet> units are automatic
 | 8" | 4+ | 4+ | 1 | 3 | 7 | 6+ | 1 | 6 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Psyker, Character, Synapse Creature, Tervigon
+Heavy, Monster, Psyker, Character, Synapse Creature
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tervigon
 
 ### Abilities
 ```
@@ -47,7 +54,6 @@ Brood Progenitor: Re-roll hit rolls of 1 for attacks made with ranged weapons by
 Synaptic Backlash: If this unit is destroyed, place one blast marker next to every friendly <Hive Fleet> Termagant unit within 6" of this unit before removing it from the battlefield.
 Spawn Termagants: Once per turn, at the start of the Set Up Reinforcements step of the Orders phase, this unit can spawn Termagants. If it does, add a new unit of 10 Termagant models equipped with Fleshborers to your army: it is part of this unit's Detachment and has the <Hive Fleet> keyword. Set the new unit up on the battlefield wholly within 6" of this unit and more than 1" from enemy units. If the unit cannot be placed in this way, it is destroyed. Then roll a D6; on a 1-3 this unit cannot use this ability again this battle.
 A Tervigon is a unit that contains 1 model. It is equipped with: Stinger Salvo; Massive Scything Talons.
-Instead of Massive Scything Talons, this unit can be equipped with Massive Crushing Claws.
 ```
 
 ### Options
@@ -69,28 +75,23 @@ Instead of Massive Scything Talons, this unit can be equipped with Massive Crush
 | 9" | 2+ | 3+ | 1 | 2 | 8 | 5+ | 1 | 9 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Psyker, Character, Synapse Creature, Hive Tyrant
+Heavy, Monster, Psyker, Character, Synapse Creature
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Tyrant
 
 ### Abilities
 ```
 The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
-A Hive Tyrant is a unit that contains 1 model. It is equipped with: Heavy Venom Cannon; Monstrous Scything Talons; Prehensile Pincer Tail.
-Instead of 1 Monstrous Scything Talons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons.
-Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons; Monstrous Scything Talons; Stranglethorn Cannon.
-This unit can have Wings (Power Rating +2). If this unit has Wings, it:
-- Has a Move characteristic of 16".
-- Has the following additional abilities: Deep Strike.
-- Has the following additional keywords: Fly.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Monstrous Scything Talons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons.
+  text: Instead of 1 Monstrous Scything Talons, this unit can be
+  Choose 1: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons
 - per: Per Unit
-  text: Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons; Monstrous Scything Talons; Stranglethorn Cannon.
-- per: Per Unit
-  Pt: 2
-  text: This unit can have Wings (Power Rating +2)
+  text: Instead of 1 Heavy Venom Cannon, this unit can be
+  Choose 1: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Monstrous Bio-weapons; Monstrous Scything Talons; Stranglethorn Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -103,6 +104,20 @@ This unit can have Wings (Power Rating +2). If this unit has Wings, it:
 | Prehensile Pincer Tail | Melee | Melee | User | 8+ | 8+ |  |
 | Monstrous Scything Talons | Melee | Melee | User | 5+ | 6+ |  |
 
+### Profiles
+#### Wings
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 16" | 2+ | 3+ | 1 | 2 | 8 | 5+ | 1 | 11 |
+
+##### Profile Keywords
+Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
 ## Unit 4 — HQ — Tyranid Prime
 
 ### Stats
@@ -111,7 +126,13 @@ This unit can have Wings (Power Rating +2). If this unit has Wings, it:
 | 6" | 2+ | 3+ | 1 | 1 | 8 | 6+ | 1 | 6 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Character, Synapse Creature, Tyranid Prime
+Light, Infantry, Character, Synapse Creature
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyranid Prime
 
 ### Abilities
 ```
@@ -136,24 +157,25 @@ Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warri
 | 6" | 3+ | 4+ | 2 | 2 | 7 | 8+ | 3 | 4 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Synapse Creature, Tyranid Warriors
+Light, Infantry, Synapse Creature
 
-### Abilities
-```
-Tyranid Warriors are a unit that contains 3 models. It can contain 6 models (Power Rating 8) or 9 models (Power Rating 12). It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.
-For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyranid Warriors
 
 ### Options
 - per: Per 6 models
   Pt: 8
-  text: It can contain 6 models (Power Rating 8)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 12
-  text: 9 models (Power Rating 12)
+  text: 9 models
 - per: Per weapon
   Pt: 1
-  text: For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Barbed Strangler; 1 Venom Cannon.
+  text: For every 3 models this unit contains, it
+  Choose 1: 1 Barbed Strangler; 1 Venom Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -164,12 +186,12 @@ For every 3 models this unit contains, it can also be equipped with one of the f
 | Melee Bio-weapons | Melee | Melee | User | 7+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Tyranid Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 7 | 8+ | 6 | 8 |
 
-#### Profile 2
+#### 9 Tyranid Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 6 | 6 | 7 | 8+ | 9 | 12 |
@@ -182,21 +204,26 @@ For every 3 models this unit contains, it can also be equipped with one of the f
 | 9" | 4+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 2 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Hormagaunts
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hormagaunts
 
 ### Abilities
 ```
 Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.
-Hormagaunts are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Scything Talons.
 ```
 
 ### Options
 - per: Per 20 models
   Pt: 4
-  text: It can contain 20 models (Power Rating 4)
+  text: It can contain 20 models
 - per: Per 30 models
   Pt: 7
-  text: 30 models (Power Rating 7)
+  text: 30 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -204,12 +231,12 @@ Hormagaunts are a unit that contains 10 models. It can contain 20 models (Power 
 | Scything Talons | Melee | Melee | User | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Hormagaunts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 5 |
 
-#### Profile 2
+#### 30 Hormagaunts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 7 |
@@ -222,21 +249,23 @@ Hormagaunts are a unit that contains 10 models. It can contain 20 models (Power 
 | 6" | 5+ | 5+ | 2 | 2 | 4 | 11+ | 3 | 2 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Swarm, Rippers
+Light
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Swarm, Rippers
 
 ### Abilities
 ```
 Deep Strike
-Ripper Swarms are a unit that contains 3 models. It can contain 6 models (Power Rating 4) or 9 models (Power Rating 6). It is equipped with: Claws & Teeth.
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 4
-  text: It can contain 6 models (Power Rating 4)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 6
-  text: 9 models (Power Rating 6)
+  text: 9 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -244,12 +273,12 @@ Ripper Swarms are a unit that contains 3 models. It can contain 6 models (Power 
 | Claws & Teeth | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Ripper Swarms
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 4 | 4 | 4 | 11+ | 6 | 4 |
 
-#### Profile 2
+#### 9 Ripper Swarms
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 6 | 6 | 4 | 11+ | 9 | 6 |
@@ -262,29 +291,34 @@ Ripper Swarms are a unit that contains 3 models. It can contain 6 models (Power 
 | 6" | 4+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 2 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Termagants
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Termagants
 
 ### Abilities
 ```
 Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
-Termagants are a unit that contains 10 models. It can contain 20 models (Power Rating 4) or 30 models (Power Rating 7). It is equipped with: Fleshborers; Termagant Melee Weapons.
-Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).
-Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains).
 ```
 
 ### Options
 - per: Per 20 models
   Pt: 4
-  text: It can contain 20 models (Power Rating 4)
+  text: It can contain 20 models
 - per: Per 30 models
   Pt: 7
-  text: 30 models (Power Rating 7)
+  text: 30 models
 - per: Per 10 models
   Pt: 1
-  text: Instead of Fleshborers, this unit can be equipped with Spinefists (Power Rating +1 for each 10 models this unit contains).
+  title: 10 Models
+  text: Instead of Fleshborers, this unit can be equipped with Spinefists.
 - per: Per 10 models
   Pt: 2
-  text: Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +2 for each 10 models this unit contains).
+  title: 10 Models
+  text: Instead of Fleshborers, this unit can be equipped with Devourers.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -295,12 +329,12 @@ Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +
 | Termagant Melee Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Termagants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 4 |
 
-#### Profile 2
+#### 30 Termagants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 7 |
@@ -313,24 +347,31 @@ Instead of Fleshborers, this unit can be equipped with Devourers (Power Rating +
 | 9" | 3+ | 4+ | 1 | 1 | 7 | 9+ | 5 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Genestealers
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Genestealers
 
 ### Abilities
 ```
 Infiltrators
-Genestealers are a unit that contains 5 models. It can contain 10 models (Power Rating 9), 15 models (Power Rating 13) or 20 models (Power Rating 17). It is equipped with: Genestealer Melee Weapons.
 ```
 
 ### Options
 - per: Per 15 models
   Pt: 9
-  text: It can contain 10 models (Power Rating 9), 15 models (Power Rating 13)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 15 models
   Pt: 13
-  text: It can contain 10 models (Power Rating 9), 15 models (Power Rating 13)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 20 models
   Pt: 17
-  text: 20 models (Power Rating 17)
+  text: 20 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -338,17 +379,17 @@ Genestealers are a unit that contains 5 models. It can contain 10 models (Power 
 | Genestealer Melee Weapons | Melee | Melee | x3 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 2 | 2 | 7 | 9+ | 10 | 9 |
 
-#### Profile 2
+#### 15 Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 4 | 3 | 7 | 9+ | 15 | 13 |
 
-#### Profile 3
+#### 20 Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 5 | 4 | 7 | 9+ | 20 | 17 |
@@ -361,18 +402,18 @@ Genestealers are a unit that contains 5 models. It can contain 10 models (Power 
 | 5" | 4+ | 3+ | 1 | 2 | 5 | 8+ | 3 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Hive Guard
+Light, Infantry
 
-### Abilities
-```
-Hive Guard are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Impaler Cannons; Forelimbs.
-Instead of Impaler Cannons, this unit can be equipped with Shockcannons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Guard
 
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 - per: Per Unit
   text: Instead of Impaler Cannons, this unit can be equipped with Shockcannons.
 
@@ -384,7 +425,7 @@ Instead of Impaler Cannons, this unit can be equipped with Shockcannons.
 | Forelimbs | Melee | Melee | User | 9+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Hive Guard
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 3+ | 2 | 4 | 5 | 8+ | 6 | 10 |
@@ -397,7 +438,13 @@ Instead of Impaler Cannons, this unit can be equipped with Shockcannons.
 | 9" | 2+ | 4+ | 1 | 1 | 7 | 10+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Lictor
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Lictor
 
 ### Abilities
 ```
@@ -422,7 +469,13 @@ Deep Strike, Stealth
 | 5" | 4+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Fly, Psyker, Character, Infantry, Zoanthrope, Synapse Creature, Neurothrope
+Light, Fly, Psyker, Character, Infantry, Synapse Creature
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Zoanthrope, Neurothrope
 
 ### Abilities
 ```
@@ -447,18 +500,23 @@ Warp Field: Roll D12s when making saving throws for this unit, irrespective of t
 | 7" | 3+ | 4+ | 2 | 2 | 4 | 6+ | 3 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Tyrant Guard
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyrant Guard
 
 ### Abilities
 ```
 Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.
-Tyrant Guard are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Tyrant Guard Melee Weapons.
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -466,7 +524,7 @@ Tyrant Guard are a unit that contains 3 models. It can contain 6 models (Power R
 | Tyrant Guard Melee Weapons | Melee | Melee | x2 | 4+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Tyrant Guard
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 4+ | 4 | 4 | 4 | 6+ | 6 | 10 |
@@ -479,19 +537,24 @@ Tyrant Guard are a unit that contains 3 models. It can contain 6 models (Power R
 | 5" | 4+ | 4+ | 1 | 2 | 4 | 10+ | 3 | 4 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Fly, Venomthropes
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Venomthropes
 
 ### Abilities
 ```
 Shrouding Spores: Friendly Light <Hive Fleet> and Heavy <Hive Fleet> units have the Stealth ability whilst they are within 6" of this unit. If this unit contains 6 models, the range of this ability is increased by 3".
 Toxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6" of any enemy units with this ability; on a 6 place one blast marker next to the unit being rolled for.
-Venomthropes are a unit that contains 3 models. It can contain 6 models (Power Rating 8). It is equipped with: Toxic Lashes (Ranged); Toxic Lashes (Melee).
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 8
-  text: It can contain 6 models (Power Rating 8)
+  text: It can contain 6 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -500,7 +563,7 @@ Venomthropes are a unit that contains 3 models. It can contain 6 models (Power R
 | Toxic Lashes (Melee) | Melee | Melee | x2 | 5+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Venomthropes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 4 | 4 | 10+ | 6 | 8 |
@@ -513,18 +576,23 @@ Venomthropes are a unit that contains 3 models. It can contain 6 models (Power R
 | 5" | 4+ | 3+ | 1 | 2 | 7 | 6+ | 3 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Fly, Psyker, Synapse Creature, Zoanthropes
+Light, Infantry, Fly, Psyker, Synapse Creature
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Zoanthropes
 
 ### Abilities
 ```
 Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.
-Zoanthropes are a unit that contains 3 models. It can contain 6 models (Power Rating 10). It is equipped with: Warp Blast; Zoanthrope Melee Weapons.
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -533,7 +601,7 @@ Zoanthropes are a unit that contains 3 models. It can contain 6 models (Power Ra
 | Zoanthrope Melee Weapons | Melee | Melee | User | 10+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Zoanthropes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 3+ | 2 | 4 | 7 | 6+ | 6 | 10 |
@@ -546,21 +614,26 @@ Zoanthropes are a unit that contains 3 models. It can contain 6 models (Power Ra
 | 5" | 4+ | 4+ | 1 | 1 | 4 | 8+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Pyrovores
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Pyrovores
 
 ### Abilities
 ```
 Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.
-Pyrovores are a unit that contains 1 model. It can contain 2 models (Power Rating 5) or 3 models (Power Rating 7). It is equipped with: Flamespurt; Acid Maw.
 ```
 
 ### Options
 - per: Per 2 models
   Pt: 5
-  text: It can contain 2 models (Power Rating 5)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 7
-  text: 3 models (Power Rating 7)
+  text: 3 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -569,12 +642,12 @@ Pyrovores are a unit that contains 1 model. It can contain 2 models (Power Ratin
 | Acid Maw | Melee | Melee | User | 5+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Pyrovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 2 | 4 | 8+ | 2 | 5 |
 
-#### Profile 2
+#### 3 Pyrovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 7 |
@@ -587,7 +660,10 @@ Pyrovores are a unit that contains 1 model. It can contain 2 models (Power Ratin
 | 7" | 4+ | 4+ | 2 | 3 | 4 | 6+ | 1 | 8 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Haruspex
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Haruspex
 
 ### Abilities
 ```
@@ -614,22 +690,27 @@ Rapacious Hunger: When an enemy Light unit is destroyed whilst in base contact w
 | 12" | 4+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 4 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Fly, Gargoyles
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Gargoyles
 
 ### Abilities
 ```
 Deep Strike
 Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
-Gargoyles are a unit that contains 10 models. It can contain 20 models (Power Rating 8) or 30 models (Power Rating 12). It is equipped with: Fleshborers; Blinding Venom.
 ```
 
 ### Options
 - per: Per 20 models
   Pt: 8
-  text: It can contain 20 models (Power Rating 8)
+  text: It can contain 20 models
 - per: Per 30 models
   Pt: 12
-  text: 30 models (Power Rating 12)
+  text: 30 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -638,12 +719,12 @@ Gargoyles are a unit that contains 10 models. It can contain 20 models (Power Ra
 | Blinding Venom | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Gargoyles
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 8 |
 
-#### Profile 2
+#### 30 Gargoyles
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 12 |
@@ -656,21 +737,26 @@ Gargoyles are a unit that contains 10 models. It can contain 20 models (Power Ra
 | 12" | 3+ | 4+ | 1 | 2 | 4 | 10+ | 3 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Raveners
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Raveners
 
 ### Abilities
 ```
 Deep Strike
-Raveners are a unit that contains 3 models. It can contain 6 models (Power Rating 10) or 9 models (Power Rating 15). It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons.
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 10
-  text: It can contain 6 models (Power Rating 10)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 15
-  text: 9 models (Power Rating 15)
+  text: 9 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -679,12 +765,12 @@ Raveners are a unit that contains 3 models. It can contain 6 models (Power Ratin
 | Ravener Melee Weapons | Melee | Melee | x2 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Raveners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 4+ | 2 | 4 | 4 | 10+ | 6 | 10 |
 
-#### Profile 2
+#### 9 Raveners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 4+ | 3 | 6 | 4 | 10+ | 9 | 15 |
@@ -697,31 +783,33 @@ Raveners are a unit that contains 3 models. It can contain 6 models (Power Ratin
 | 3" | - | - | - | 1 | 8 | 12+ | 3 | 2 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Fly, Spore Mines
+Light, Fly
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Spore Mines
 
 ### Abilities
 ```
 Deep Strike
 Living Bombs: Morale tests taken for this unit are automatically passed.
 Floating Death: After a Move action (made by any unit), if this unit is within 3" of an enemy unit, roll one D6 for each model in this unit. For each 3+ place one blast marker next to the closest enemy unit. Then, this unit is destroyed.
-Spore Mines are a unit that contains 3 models. It can contain 6 models (Power Rating 4) or 9 models (Power Rating 6).
 ```
 
 ### Options
 - per: Per 6 models
   Pt: 4
-  text: It can contain 6 models (Power Rating 4)
+  text: It can contain 6 models
 - per: Per 9 models
   Pt: 6
-  text: 9 models (Power Rating 6).
+  text: 9 models.
 
 ### Profiles
-#### Profile 1
+#### 6 Spore Mines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3" | - | - | - | 2 | 8 | 12+ | 6 | 4 |
 
-#### Profile 2
+#### 9 Spore Mines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3" | - | - | - | 3 | 8 | 12+ | 9 | 6 |
@@ -734,20 +822,21 @@ Spore Mines are a unit that contains 3 models. It can contain 6 models (Power Ra
 | 5" | 4+ | 4+ | 1 | 1 | 4 | 8+ | 1 | 2 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Light, Infantry, Biovores
+Light, Infantry
 
-### Abilities
-```
-Biovores are a unit that contains 1 model. It can contain 2 models (Power Rating 4) or 3 models (Power Rating 6). It is equipped with: Spore Mine Launcher; Close Combat Weapons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Biovores
 
 ### Options
 - per: Per 2 models
   Pt: 4
-  text: It can contain 2 models (Power Rating 4)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 6
-  text: 3 models (Power Rating 6)
+  text: 3 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -756,12 +845,12 @@ Biovores are a unit that contains 1 model. It can contain 2 models (Power Rating
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Biovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 2 | 4 | 8+ | 2 | 4 |
 
-#### Profile 2
+#### 3 Biovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 6 |
@@ -774,34 +863,35 @@ Biovores are a unit that contains 1 model. It can contain 2 models (Power Rating
 | 7" | 3+ | 4+ | 2 | 2 | 4 | 6+ | 1 | 5 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Carnifex
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Carnifex
 
 ### Abilities
 ```
 Chitin Thorns: At the end of the Action phase, roll a D6 for each unit within 6" of any enemy units with Chitin Thorns; on a 6 place one blast marker next to the unit being rolled for.
 Monstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-A Carnifex is a unit that contains 1 model. It is equipped with: Heavy Venom Cannon; Carnifex Jaws; Carnifex Melee Weapons.
-Instead of Carnifex Melee Weapons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms.
-Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Carnifex Melee Weapons; Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Stranglethorn Cannon.
-This unit can also be equipped with Spine Banks (Power Rating +1).
-This unit can have Enhanced Senses (Power Rating +1). If this unit has Enhanced Senses, it has a Ballistic Skill of 3+.
-This unit can have Chitin Thorns (Power Rating +1). If this unit has Chitin Thorns, it has the following additional abilities: Chitin Thorns.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Carnifex Melee Weapons, this unit can be equipped with one of the following: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms.
+  title: Melee Weapon
+  text: Instead of Carnifex Melee Weapons, this unit can be
+  Choose 1: Deathspitters with Slimer Maggots; Devourers with Brainleech Worms
 - per: Per Unit
-  text: Instead of 1 Heavy Venom Cannon, this unit can be equipped with one of the following: Carnifex Melee Weapons; Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Stranglethorn Cannon.
-- per: Per Unit
-  Pt: 1
-  text: This unit can also be equipped with Spine Banks (Power Rating +1).
-- per: Per Unit
-  Pt: 1
-  text: This unit can have Enhanced Senses (Power Rating +1)
+  title: Melee Weapon
+  text: Instead of 1 Heavy Venom Cannon, this unit can be
+  Choose 1: Carnifex Melee Weapons; Deathspitters with Slimer Maggots; Devourers with Brainleech Worms; Stranglethorn Cannon
 - per: Per Unit
   Pt: 1
-  text: This unit can have Chitin Thorns (Power Rating +1)
+  text: This unit can also be equipped with Spine Banks.
+- per: Per Unit
+  Pt: 1
+  text: This unit can have Enhanced Senses
+- per: Per Unit
+  Pt: 1
+  text: This unit can have Chitin Thorns
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -822,7 +912,10 @@ This unit can have Chitin Thorns (Power Rating +1). If this unit has Chitin Thor
 | 6" | 4+ | 4+ | 1 | 3 | 4 | 6+ | 1 | 10 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Exocrine
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Exocrine
 
 ### Abilities
 ```
@@ -847,7 +940,10 @@ Weapon Beast: When this unit makes a Shoot action, if it has remained stationary
 | 7" | 3+ | 4+ | 1 | 2 | 4 | 6+ | 1 | 6 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Carnifex, Screamer-Killer
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Carnifex, Screamer-Killer
 
 ### Abilities
 ```
@@ -873,7 +969,10 @@ Monstrous Brood: Each Heavy Support slot in a Detachment allows you to take up t
 | 8" | 3+ | 4+ | 1 | 3 | 5 | 6+ | 1 | 8 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Toxicrene
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Toxicrene
 
 ### Abilities
 ```
@@ -900,7 +999,10 @@ Acid Blood: When a blast marker is placed next to this unit, if it is in base co
 | 9" | 3+ | 4+ | 3 | 3 | 5 | 6+ | 1 | 10 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Trygon
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Trygon
 
 ### Abilities
 ```
@@ -925,18 +1027,21 @@ Deep Strike
 | 6" | 4+ | 4+ | 1 | 3 | 5 | 6+ | 1 | 11 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Tyrannofex
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyrannofex
 
 ### Abilities
 ```
 Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Acid Spray, Fleshborer Hive, Rupture Cannon and Stinger Salvo for that action.
 A Tyrannofex is a unit that contains 1 model. It is equipped with: Acid Spray; Stinger Salvo; Powerful Limbs.
-Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 Fleshborer Hive; 1 Rupture Cannon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 Fleshborer Hive; 1 Rupture Cannon.
+  text: Instead of 1 Acid Spray, this unit can be
+  Choose 1: 1 Fleshborer Hive; 1 Rupture Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -955,7 +1060,10 @@ Instead of 1 Acid Spray, this unit can be equipped with one of the following: 1 
 | 9" | 4+ | - | 1 | 3 | 5 | 6+ | 1 | 10 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Mawloc
+Heavy, Monster
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Mawloc
 
 ### Abilities
 ```
@@ -982,19 +1090,22 @@ Terror from the Deep: When this unit uses the Deep Strike ability, you can set i
 | 6" | 5+ | 5+ | 1 | 2 | 5 | 8+ | 1 | 8 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Fly, Tyrannocyte
+Heavy, Monster, Fly
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyrannocyte
 
 ### Abilities
 ```
 Deep Strike
 Transport Spore: When this unit is set up in Tactical Reserves, you can also set up a friendly <Hive Fleet> Infantry unit of up to 20 models or a <Hive Fleet> Monster unit with a Wounds characteristic of 4 or less inside it (this cannot be a Tyrannocyte or Sporocyst). When this unit uses its Deep Strike ability, set any unit inside it up on the battlefield wholly within 6" of this unit and more than 9" from enemy units. If that unit cannot be placed in this way, it is destroyed.
 A Tyrannocyte is a unit that contains 1 model. It is equipped with: Deathspitters; Barbed Tentacles.
-Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Deathspitters, this unit can be equipped with one of the following: Barbed Stranglers; Venom Cannons.
+  text: Instead of Deathspitters, this unit can be
+  Choose 1: Barbed Stranglers; Venom Cannons
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1012,13 +1123,15 @@ Instead of Deathspitters, this unit can be equipped with one of the following: B
 | 30" | 4+ | 4+ | 1 | 2 | 7 | 8+ | 1 | 9 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Fly, Harpy
+Heavy, Monster, Fly
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Harpy
 
 ### Abilities
 ```
 Spore Mine Cysts: After this unit makes a Move action, you can select one enemy unit it moved over whilst making that Move action. Roll one D6; on a 3+ place one blast marker next to that unit.
 A Harpy is a unit that contains 1 model. It is equipped with: Stinger Salvo; Stranglethorn Cannons; Scything Wings.
-Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Cannons.
 ```
 
 ### Options
@@ -1041,16 +1154,15 @@ Instead of Stranglethorn Cannons, this unit can be equipped with Heavy Venom Can
 | 30" | 4+ | 4+ | 1 | 2 | 7 | 8+ | 1 | 9 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Heavy, Monster, Fly, Hive Crone
+Heavy, Monster, Fly
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Crone
 
 ### Abilities
 ```
 A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur.
 ```
-
-### Options
-- per: Per Unit
-  text: A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1061,6 +1173,20 @@ A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon;
 | Scything Wings | Melee | Melee | User | 5+ | 9+ |  |
 | Wicked Spur | Melee | Melee | User | 9+ | 5+ |  |
 
+### Profiles
+#### Wings
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 16" | 4+ | 4+ | 1 | 2 | 7 | 8+ | 1 | 11 |
+
+##### Profile Keywords
+Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
 ## Unit 32 — Lord — Hierophant
 
 ### Stats
@@ -1069,7 +1195,10 @@ A Hive Crone is a unit that contains 1 model. It is equipped with: Drool Cannon;
 | 12" | 3+ | 3+ | 2 | 7 | 7 | 5+ | 1 | 45 |
 
 ### Keywords
-Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Super-heavy, Monster, Transport, Titanic, Hierophant Bio-titan
+Super-heavy, Monster, Transport, Titanic
+
+### Traits
+Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hierophant Bio-titan
 
 ### Abilities
 ```

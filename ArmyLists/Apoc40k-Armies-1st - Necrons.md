@@ -13,7 +13,13 @@ source: Apoc40k-Armies-1st - Necrons.md
 | 5" | 3+ | 3+ | 1 | 1 | 8 | 7+ | 1 | 5 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Character, Cryptek
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Cryptek
 
 ### Abilities
 ```
@@ -34,7 +40,13 @@ Technomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whils
 | 5" | 2+ | 2+ | 1 | 1 | 8 | 4+ | 1 | 9 |
 
 ### Keywords
-Necrons, Sautekh, Light, Infantry, Character, Overlord, Imotekh the Stormlord
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, Sautekh, Overlord, Imotekh the Stormlord
 
 ### Abilities
 ```
@@ -57,7 +69,13 @@ Lord of the Storm: Once per battle, at the start of the Action phase, you can se
 | 10" | 3+ | 3+ | 1 | 1 | 8 | 6+ | 1 | 6 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Fly, Character, Destroyer Lord
+Light, Infantry, Fly, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Destroyer Lord
 
 ### Abilities
 ```
@@ -78,7 +96,13 @@ United in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty
 | 5" | 2+ | 2+ | 1 | 1 | 8 | 5+ | 1 | 5 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Character, Overlord
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Overlord
 
 ### Abilities
 ```
@@ -98,15 +122,16 @@ My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dyna
 | 12" | 2+ | 2+ | 1 | 2 | 8 | 5+ | 1 | 10 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Character, Overlord, Catacomb Command Barge
+Heavy, Vehicle, Fly, Character
+
+### Traits
+Necrons, <Dynasty>, Overlord, Catacomb Command Barge
 
 ### Abilities
 ```
 Wave of Command: If a Light <Dynasty> unit starts a Move action within 6" of any friendly units with this ability, add 3" to that unit's Move characteristic for that action.
 My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12" of this unit.
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
-Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
-Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
 ```
 
 ### Options
@@ -128,13 +153,13 @@ Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
 | 5" | 3+ | 3+ | 1 | 1 | 8 | 6+ | 5 | 4 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Immortals
+Light, Infantry
 
-### Abilities
-```
-Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.
-Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Immortals
 
 ### Options
 - per: Per Unit
@@ -148,7 +173,7 @@ Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Immortals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 8 |
@@ -161,7 +186,13 @@ Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 8+ | 10 | 6 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Necron Warriors
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Necron Warriors
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -170,7 +201,7 @@ Necrons, <Dynasty>, Light, Infantry, Necron Warriors
 | Heavy Blades | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Necron Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 8+ | 20 | 12 |
@@ -183,7 +214,13 @@ Necrons, <Dynasty>, Light, Infantry, Necron Warriors
 | 5" | 3+ | 3+ | 1 | 1 | 8 | 6+ | 5 | 7 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Deathmarks
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Deathmarks
 
 ### Abilities
 ```
@@ -197,7 +234,7 @@ Deep Strike
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Deathmarks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 13 |
@@ -210,7 +247,13 @@ Deep Strike
 | 10" | 3+ | 3+ | 1 | 1 | 8 | 6+ | 1 | 6 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Fly, Character, Destroyer Lord
+Light, Infantry, Fly, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Destroyer Lord
 
 ### Abilities
 ```
@@ -231,7 +274,13 @@ United in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty
 | 5" | 3+ | 6+ | 1 | 1 | 8 | 8+ | 5 | 5 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Flayed Ones
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Flayed Ones
 
 ### Abilities
 ```
@@ -244,17 +293,17 @@ Deep Strike, Terror Troops
 | Flayer Claws | Melee | Melee | x2 | 7+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 2 | 2 | 8 | 8+ | 10 | 8 |
 
-#### Profile 2
+#### 15 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 3 | 3 | 8 | 8+ | 15 | 11 |
 
-#### Profile 3
+#### 20 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 4 | 4 | 8 | 8+ | 20 | 14 |
@@ -267,7 +316,13 @@ Deep Strike, Terror Troops
 | 6" | 3+ | 3+ | 1 | 1 | 8 | 6+ | 1 | 6 |
 
 ### Keywords
-Necrons, Light, Infantry, Character, Cryptek, Illuminor Szeras
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, Cryptek, Illuminor Szeras
 
 ### Abilities
 ```
@@ -293,13 +348,17 @@ D3 AUGMENTATION
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 5 | 7 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Lychguard
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Lychguard
 
 ### Abilities
 ```
 Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.
-Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields. If this unit has Dispersion Shields, it has a Save characteristic of 4+.
-Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have Dispersion Shields.
 ```
 
 ### Options
@@ -313,7 +372,7 @@ Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have
 | Warscythes | Melee | Melee | User | 4+ | 4+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Lychguard
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 6+ | 10 | 14 |
@@ -326,13 +385,17 @@ Instead of Warscythes, this unit can be equipped with Hyperphase Swords and have
 | 10" | 3+ | 3+ | 1 | 2 | 8 | 6+ | 5 | 8 |
 
 ### Keywords
-Necrons, Light, Infantry, Fly, Triarch Praetorians
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, Triarch Praetorians
 
 ### Abilities
 ```
 A Purpose Unshakable: Morale tests taken for this unit are automatically passed.
-Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades.
-Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can be equipped with Particle Casters and Voidblades.
 ```
 
 ### Options
@@ -348,7 +411,7 @@ Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can
 | Voidblades | Melee | Melee | User | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Triarch Praetorians
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 6+ | 10 | 15 |
@@ -361,20 +424,22 @@ Instead of Rods of Covenant (Ranged) and Rods of Covenant (Melee), this unit can
 | 10" | 3+ | 3+ | 2 | 2 | 8 | 5+ | 1 | 11 |
 
 ### Keywords
-Necrons, Heavy, Vehicle, Triarch Stalker
+Heavy, Vehicle
+
+### Traits
+Necrons, Triarch Stalker
 
 ### Abilities
 ```
 Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.
 Targeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.
-Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).
-Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1).
+  text: Instead of 1 Heat Ray, this unit can be
+  Choose 1: 1 Particle Shredder; 1 Twin Heavy Gauss Cannon (Power Rating +1)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -393,12 +458,13 @@ Instead of 1 Heat Ray, this unit can be equipped with one of the following: 1 Pa
 | 8" | 3+ | 3+ | 2 | 2 | 8 | 7+ | 3 | 7 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Destroyer Cult, Skorpekh Destroyers
+Light, Infantry
 
-### Abilities
-```
-Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Destroyer Cult, Skorpekh Destroyers
 
 ### Options
 - per: Per Unit
@@ -417,19 +483,21 @@ Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorp
 | 12" | 3+ | 3+ | 2 | 2 | 8 | 5+ | 3 | 8 |
 
 ### Keywords
-Necrons, Canoptek, <Dynasty>, Light, Beasts, Canoptek Wraiths
+Light
+
+### Traits
+Necrons, Canoptek, <Dynasty>, Beasts, Canoptek Wraiths
 
 ### Abilities
 ```
 Wraith Form: This unit can move across models and terrain as if they were not there.
-For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.
-For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For each model this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Particle Caster; 1 Transdimensional Beamer.
+  text: For each model this unit contains, it
+  Choose 1: 1 Particle Caster; 1 Transdimensional Beamer
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -439,7 +507,7 @@ For each model this unit contains, it can also be equipped with one of the follo
 | Wraith Weapons | Melee | Melee | User | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Canoptek Wraiths
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 4 | 4 | 8 | 5+ | 6 | 15 |
@@ -452,7 +520,10 @@ For each model this unit contains, it can also be equipped with one of the follo
 | 10" | 4+ | - | 2 | 2 | 8 | 10+ | 3 | 4 |
 
 ### Keywords
-Necrons, Canoptek, <Dynasty>, Light, Swarm, Fly, Canoptek Scarabs
+Light, Fly
+
+### Traits
+Necrons, Canoptek, <Dynasty>, Swarm, Canoptek Scarabs
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -460,12 +531,12 @@ Necrons, Canoptek, <Dynasty>, Light, Swarm, Fly, Canoptek Scarabs
 | Feeder Mandibles | Melee | Melee | User | 9+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Canoptek Scarabs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 4 | 4 | 8 | 10+ | 6 | 8 |
 
-#### Profile 2
+#### 9 Canoptek Scarabs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 6 | 6 | 8 | 10+ | 9 | 12 |
@@ -478,19 +549,23 @@ Necrons, Canoptek, <Dynasty>, Light, Swarm, Fly, Canoptek Scarabs
 | 10" | 3+ | 3+ | 1 | 2 | 8 | 5+ | 3 | 8 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Fly, Destroyers
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Destroyers
 
 ### Abilities
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
-For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
-For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
+  text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -500,12 +575,12 @@ For every 3 models this unit contains, it can also be equipped with 1 Heavy Gaus
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
-#### Profile 2
+#### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
@@ -518,18 +593,20 @@ For every 3 models this unit contains, it can also be equipped with 1 Heavy Gaus
 | 14" | 3+ | 3+ | 1 | 1 | 8 | 7+ | 3 | 8 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Biker, Fly, Tomb Blades
+Light, Biker, Fly
+
+### Traits
+Necrons, <Dynasty>, Tomb Blades
 
 ### Abilities
 ```
 Stealth
-Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.
-Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Gauss Blasters, this unit can be equipped with one of the following: Particle Beamers; Tesla Carbines.
+  text: Instead of Gauss Blasters, this unit can be
+  Choose 1: Particle Beamers; Tesla Carbines
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -540,12 +617,12 @@ Instead of Gauss Blasters, this unit can be equipped with one of the following: 
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Tomb Blades
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 8 | 7+ | 6 | 15 |
 
-#### Profile 2
+#### 9 Tomb Blades
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 3 | 3 | 8 | 7+ | 9 | 22 |
@@ -558,13 +635,14 @@ Instead of Gauss Blasters, this unit can be equipped with one of the following: 
 | 12" | 6+ | 3+ | 1 | 2 | 8 | 7+ | 1 | 11 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Annihilation Barge
+Heavy, Vehicle, Fly
+
+### Traits
+Necrons, <Dynasty>, Annihilation Barge
 
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
-Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
-Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
 ```
 
 ### Options
@@ -587,20 +665,21 @@ Instead of 1 Gauss Cannon, this unit can be equipped with 1 Tesla Cannon.
 | 6" | 4+ | 4+ | 1 | 1 | 8 | 5+ | 1 | 6 |
 
 ### Keywords
-Necrons, Canoptek, <Dynasty>, Light, Monster, Fly, Canoptek Spyders
+Light, Monster, Fly
+
+### Traits
+Necrons, Canoptek, <Dynasty>, Canoptek Spyders
 
 ### Abilities
 ```
 Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
 Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.
-For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).
-For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For each model this unit contains, it can also be equipped with 1 Particle Beamer (Power Rating +1 per weapon).
+  text: For each model this unit contains, it can also be equipped with 1 Particle Beamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -609,12 +688,12 @@ For each model this unit contains, it can also be equipped with 1 Particle Beame
 | Automaton Claws | Melee | Melee | User | 6+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Canoptek Spyders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
-#### Profile 2
+#### 3 Canoptek Spyders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 3 | 3 | 8 | 5+ | 3 | 16 |
@@ -627,19 +706,23 @@ For each model this unit contains, it can also be equipped with 1 Particle Beame
 | 10" | 3+ | 3+ | 1 | 2 | 8 | 5+ | 3 | 8 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Fly, Destroyers
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Destroyers
 
 ### Abilities
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
-For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
-For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
 ```
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon (Power Rating +1 per weapon).
+  text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -649,12 +732,12 @@ For every 3 models this unit contains, it can also be equipped with 1 Heavy Gaus
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
-#### Profile 2
+#### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
@@ -667,7 +750,10 @@ For every 3 models this unit contains, it can also be equipped with 1 Heavy Gaus
 | 12" | 6+ | 3+ | 1 | 3 | 8 | 7+ | 1 | 12 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Doomsday Ark
+Heavy, Vehicle, Fly
+
+### Traits
+Necrons, <Dynasty>, Doomsday Ark
 
 ### Abilities
 ```
@@ -689,7 +775,13 @@ Hover: Distances are measured to and from this unit's hull, even though it has a
 | 10" | 3+ | 3+ | 1 | 1 | 8 | 5+ | 1 | 6 |
 
 ### Keywords
-Necrons, <Dynasty>, Light, Infantry, Fly, Heavy Destroyers
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Necrons, <Dynasty>, Heavy Destroyers
 
 ### Abilities
 ```
@@ -703,12 +795,12 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Heavy Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
-#### Profile 2
+#### 3 Heavy Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 8 | 5+ | 3 | 16 |
@@ -721,7 +813,10 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | 6" | 6+ | 3+ | 1 | 4 | 8 | 5+ | 1 | 17 |
 
 ### Keywords
-Necrons, <Dynasty>, Super-heavy, Titanic, Fly, Monolith
+Super-heavy, Titanic, Fly
+
+### Traits
+Necrons, <Dynasty>, Monolith
 
 ### Abilities
 ```
@@ -746,7 +841,10 @@ Hover: Distances are measured to and from this unit's hull, even though it has a
 | 8" | 2+ | 2+ | 2 | 2 | 8 | 6+ | 1 | 10 |
 
 ### Keywords
-Necrons, C'tan Shards, Heavy, Monster, Fly, Character, Transcendent C'tan
+Heavy, Monster, Fly, Character
+
+### Traits
+Necrons, C'tan Shards, Transcendent C'tan
 
 ### Abilities
 ```
@@ -769,12 +867,10 @@ Cosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for
 | 8" | 4+ | 4+ | 1 | 2 | 8 | 6+ | 1 | 8 |
 
 ### Keywords
-Necrons, Canoptek, <Dynasty>, Heavy, Vehicle, Walker, Canoptek Doomstalker
+Heavy, Vehicle, Walker
 
-### Abilities
-```
-A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs.
-```
+### Traits
+Necrons, Canoptek, <Dynasty>, Canoptek Doomstalker
 
 ### Options
 - per: Per Unit
@@ -795,7 +891,10 @@ A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doo
 | 12" | 6+ | 3+ | 1 | 3 | 8 | 7+ | 1 | 12 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Transport, Ghost Ark
+Heavy, Vehicle, Fly, Transport
+
+### Traits
+Necrons, <Dynasty>, Ghost Ark
 
 ### Abilities
 ```
@@ -818,7 +917,10 @@ TRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dyn
 | 20"-60" | 6+ | 3+ | 1 | 2 | 8 | 6+ | 1 | 9 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Aircraft, Doom Scythe
+Heavy, Vehicle, Fly, Aircraft
+
+### Traits
+Necrons, <Dynasty>, Doom Scythe
 
 ### Abilities
 ```
@@ -840,7 +942,10 @@ Supersonic
 | 20"-60" | 6+ | 3+ | 1 | 2 | 8 | 6+ | 1 | 7 |
 
 ### Keywords
-Necrons, <Dynasty>, Heavy, Vehicle, Fly, Aircraft, Night Scythe
+Heavy, Vehicle, Fly, Aircraft
+
+### Traits
+Necrons, <Dynasty>, Night Scythe
 
 ### Abilities
 ```
@@ -862,7 +967,10 @@ Invasion Beams: During deployment, you can set up any number of <Dynasty> Infant
 | 8" | 6+ | 3+ | 1 | 5 | 8 | 6+ | 1 | 20 |
 
 ### Keywords
-Necrons, <Dynasty>, Super-heavy, Vehicle, Titanic, Fly, Obelisk
+Super-heavy, Vehicle, Titanic, Fly
+
+### Traits
+Necrons, <Dynasty>, Obelisk
 
 ### Abilities
 ```
@@ -888,7 +996,10 @@ Gravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircr
 | 8" | 6+ | 3+ | 1 | 6 | 8 | 5+ | 1 | 24 |
 
 ### Keywords
-Necrons, C'tan Shards, <Dynasty>, Super-heavy, Vehicle, Titanic, Fly, Tesseract Vault
+Super-heavy, Vehicle, Titanic, Fly
+
+### Traits
+Necrons, C'tan Shards, <Dynasty>, Tesseract Vault
 
 ### Abilities
 ```

@@ -13,7 +13,13 @@ source: Apoc40k-Armies-1st - Genestealer Cults.md
 | 9" | 2+ | 5+ | 1 | 1 | 8 | 7+ | 1 | 7 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Psyker, Character, Genestealer, Patriarch
+Light, Infantry, Psyker, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Genestealer, Patriarch
 
 ### Abilities
 ```
@@ -38,7 +44,13 @@ Living Idol: Morale tests taken for friendly <Cult> units are automatically pass
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Psyker, Character, Magus
+Light, Infantry, Psyker, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Magus
 
 ### Abilities
 ```
@@ -63,7 +75,13 @@ Master Psyker: Once per battle, at the end of the Orders phase, you can look thr
 | 6" | 2+ | 3+ | 1 | 1 | 7 | 10+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Primus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Primus
 
 ### Abilities
 ```
@@ -87,7 +105,13 @@ Cult Demagogue: Add 1 to hit rolls for attacks made with melee weapons by <Cult>
 | 6" | 3+ | 2+ | 1 | 1 | 6 | 9+ | 1 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Kelermorph
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Kelermorph
 
 ### Abilities
 ```
@@ -112,27 +136,29 @@ Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Aut
 | 6" | 3+ | 4+ | 1 | 1 | 6 | 10+ | 5 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Acolyte Hybrids
+Light, Infantry
 
-### Abilities
-```
-Acolyte Hybrids are a unit that contains 5 models. It can contain 10 models (Power Rating 6), 15 models (Power Rating 9) or 20 models (Power Rating 12). It is equipped with: Acolyte Weapons; Rending Claws.
-For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Acolyte Hybrids
 
 ### Options
 - per: Per 15 models
   Pt: 6
-  text: It can contain 10 models (Power Rating 6), 15 models (Power Rating 9)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 15 models
   Pt: 9
-  text: It can contain 10 models (Power Rating 6), 15 models (Power Rating 9)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 20 models
   Pt: 12
-  text: 20 models (Power Rating 12)
+  text: 20 models
 - per: Per weapon
   Pt: 1
-  text: For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.
+  text: For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination: 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -144,17 +170,17 @@ For every 5 models this unit contains, it can also be equipped with up to two of
 | Rending Claws | Melee | Melee | x2 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 6 |
 
-#### Profile 2
+#### 15 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 3 | 3 | 6 | 10+ | 15 | 9 |
 
-#### Profile 3
+#### 20 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 12 |
@@ -167,21 +193,22 @@ For every 5 models this unit contains, it can also be equipped with up to two of
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 8+ | 10 | 5 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Neophyte Hybrids
+Light, Infantry
 
-### Abilities
-```
-Neophyte Hybrids are a unit that contains 10 models. It can contain 20 models (Power Rating 10). It is equipped with: Scavenged Weapons; Close Combat Weapons.
-This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Neophyte Hybrids
 
 ### Options
 - per: Per 20 models
   Pt: 10
-  text: It can contain 20 models (Power Rating 10)
+  text: It can contain 20 models
 - per: Per weapon
   Pt: 1
-  text: This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.
+  title: Heavy Weapon
+  text: This unit can also be equipped with up to two of the following in any combination: 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -193,7 +220,7 @@ This unit can also be equipped with up to two of the following in any combinatio
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Neophyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 8+ | 20 | 10 |
@@ -206,23 +233,26 @@ This unit can also be equipped with up to two of the following in any combinatio
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Light, Infantry, Brood Brothers Infantry Squad
+Light, Infantry
 
-### Abilities
-```
-A Brood Brothers Infantry Squad is a unit that contains 10 models. It can contain 20 models (Power Rating 6). It can contain 1 weapons team model instead of 2 other models (Power Rating +1). It is equipped with: Lasguns; Close Combat Weapons.
-If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Infantry Squad
 
 ### Options
 - per: Per 20 models
   Pt: 6
-  text: It can contain 20 models (Power Rating 6)
+  text: It can contain 20 models
 - per: Per Unit
   Pt: 1
-  text: It can contain 1 weapons team model instead of 2 other models (Power Rating +1)
+  title: Weapons Team
+  text: It can contain 1 weapons team model instead of 2 other models
 - per: Per Unit
-  text: If this unit contains a weapons team model, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  title: Weapons Team
+  text: If this unit contains a weapons team model, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -236,7 +266,7 @@ If this unit contains a weapons team model, it must also be equipped with one of
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Brood Brothers Infantry Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 6 |
@@ -249,18 +279,23 @@ If this unit contains a weapons team model, it must also be equipped with one of
 | 6" | 4+ | 4+ | 1 | 1 | 6 | 10+ | 10 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Cult Combat Engineers
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Cult Combat Engineers
 
 ### Abilities
 ```
-Cult Combat Engineers is a unit that contains 10 models. It can contain 20 models (Power Rating 8).
 Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.
 ```
 
 ### Options
 - per: Per 20 models
   Pt: 8
-  text: It can contain 20 models (Power Rating 8).
+  text: It can contain 20 models.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -269,7 +304,7 @@ Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, t
 | Flamers | Small Arms | 12" | User | 8+ | 10+ | Inferno |
 
 ### Profiles
-#### Profile 1
+#### 20 Cult Combat Engineers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 10+ | 20 | 8 |
@@ -282,7 +317,13 @@ Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, t
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Acolyte Iconward
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Acolyte Iconward
 
 ### Abilities
 ```
@@ -307,23 +348,26 @@ Nexus of Devotion: Friendly <Cult> Light units have the Ignore Damage (6+) abili
 | 9" | 3+ | - | 1 | 1 | 7 | 9+ | 5 | 5 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Genestealer, Purestrain Genestealers
+Light, Infantry
 
-### Abilities
-```
-Purestrain Genestealers are a unit that contains 5 models. It can contain 10 models (Power Rating 10), 15 models (Power Rating 15) or 20 models (Power Rating 20). It is equipped with: Purestrain Claws.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Genestealer, Purestrain Genestealers
 
 ### Options
 - per: Per 15 models
   Pt: 10
-  text: It can contain 10 models (Power Rating 10), 15 models (Power Rating 15)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 15 models
   Pt: 15
-  text: It can contain 10 models (Power Rating 10), 15 models (Power Rating 15)
+  title: 10 Models
+  text: It can contain 10 models, 15 models
 - per: Per 20 models
   Pt: 20
-  text: 20 models (Power Rating 20)
+  text: 20 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -331,17 +375,17 @@ Purestrain Genestealers are a unit that contains 5 models. It can contain 10 mod
 | Purestrain Claws | Melee | Melee | x3 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 2 | 2 | 7 | 9+ | 10 | 10 |
 
-#### Profile 2
+#### 15 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 3 | 3 | 7 | 9+ | 15 | 15 |
 
-#### Profile 3
+#### 20 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 4 | 4 | 7 | 9+ | 20 | 20 |
@@ -354,18 +398,24 @@ Purestrain Genestealers are a unit that contains 5 models. It can contain 10 mod
 | 6" | 3+ | 6+ | 1 | 2 | 6 | 10+ | 5 | 5 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Aberrants
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Aberrants
 
 ### Abilities
 ```
 Ignore Damage (6+)
-Aberrants are a unit that contains 5 models. It can contain 10 models (Power Rating 9). It is equipped with: Aberrant Weapons.
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 9
-  text: It can contain 10 models (Power Rating 9)
+  title: 10 Models
+  text: It can contain 10 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -373,7 +423,7 @@ Aberrants are a unit that contains 5 models. It can contain 10 models (Power Rat
 | Aberrant Weapons | Melee | Melee | x2 | 5+ | 7+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Aberrants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 6+ | 2 | 4 | 6 | 10+ | 10 | 9 |
@@ -386,17 +436,19 @@ Aberrants are a unit that contains 5 models. It can contain 10 models (Power Rat
 | 6" | 3+ | 4+ | 1 | 1 | 6 | 10+ | 5 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Hybrid Metamorphs
+Light, Infantry
 
-### Abilities
-```
-Hybrid Metamorphs are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee).
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Hybrid Metamorphs
 
 ### Options
 - per: Per 10 models
   Pt: 8
-  text: It can contain 10 models (Power Rating 8)
+  title: 10 Models
+  text: It can contain 10 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -405,7 +457,7 @@ Hybrid Metamorphs are a unit that contains 5 models. It can contain 10 models (P
 | Metamorph Weapons (Melee) | Melee | Melee | x3 | 7+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Hybrid Metamorphs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 8 |
@@ -418,7 +470,13 @@ Hybrid Metamorphs are a unit that contains 5 models. It can contain 10 models (P
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Clamavus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Clamavus
 
 ### Abilities
 ```
@@ -442,7 +500,13 @@ Scrambler Array: Enemy units that arrive as reinforcements using the Deep Strike
 | 6" | 2+ | 3+ | 1 | 1 | 6 | 9+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Locus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Locus
 
 ### Abilities
 ```
@@ -466,14 +530,19 @@ Unquestioning Bodyguard: At the start of the Damage phase, you can select one fr
 | 6" | 2+ | 2+ | 1 | 1 | 6 | 10+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Sanctus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Sanctus
 
 ### Abilities
 ```
 Infiltrators
 Cult Assassin: This unit cannot be a Warlord.
 A Sanctus is a unit that contains 1 model. It is equipped with: Silencer Sniper Rifle; Familiar Claws.
-Instead of 1 Silencer Sniper Rifle, this unit can be equipped with 1 Sanctus Bio-dagger.
 ```
 
 ### Options
@@ -495,7 +564,13 @@ Instead of 1 Silencer Sniper Rifle, this unit can be equipped with 1 Sanctus Bio
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 2 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Nexos
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Nexos
 
 ### Abilities
 ```
@@ -519,7 +594,13 @@ Strategic Coordinator: If any friendly units with this ability are on the battle
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 10+ | 1 | 2 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Biophagus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Biophagus
 
 ### Abilities
 ```
@@ -543,7 +624,10 @@ Genomic Enhancement: At the start of the Action phase, you can enhance one frien
 | 14" | 3+ | 2+ | 1 | 1 | 6 | 10+ | 1 | 5 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Biker, Character, Jackal Alphus
+Light, Biker, Character
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Jackal Alphus
 
 ### Abilities
 ```
@@ -569,23 +653,22 @@ Priority Target Sighted: When this unit's Detachment is chosen to carry out an o
 | 14" | 4+ | 4+ | 1 | 2 | 6 | 10+ | 5 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Biker, Atalan Jackals
+Light, Biker
 
-### Abilities
-```
-Atalan Jackals are a unit that contains 4 models. It can contain 8 models (Power Rating 8) or 12 models (Power Rating 12). For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model (Power Rating +1 per model). It is equipped with: Autopistols; Close Combat Weapons.
-For each Atalan Wolfquad model this unit contains, it must also be equipped with one of the following: 1 Atalan Incinerator; 1 Heavy Stubber; 1 Mining Laser.
-```
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Atalan Jackals
 
 ### Options
 - per: Per Unit
   Pt: 8
-  text: It can contain 8 models (Power Rating 8)
+  text: It can contain 8 models
 - per: Per 2 models
   Pt: 12
-  text: 12 models (Power Rating 12); per model (Power Rating +1 per model): For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model (Power Rating +1 per model)
+  text: 12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model
 - per: Per Unit
-  text: For each Atalan Wolfquad model this unit contains, it must also be equipped with one of the following: 1 Atalan Incinerator; 1 Heavy Stubber; 1 Mining Laser.
+  title: Heavy Weapon
+  text: For each Atalan Wolfquad model this unit contains, it
+  Choose 1: 1 Atalan Incinerator; 1 Heavy Stubber; 1 Mining Laser
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -597,12 +680,12 @@ For each Atalan Wolfquad model this unit contains, it must also be equipped with
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Atalan Jackals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 4 | 6 | 10+ | 10 | 8 |
 
-#### Profile 2
+#### 15 Atalan Jackals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 3 | 6 | 6 | 10+ | 15 | 12 |
@@ -615,23 +698,22 @@ For each Atalan Wolfquad model this unit contains, it must also be equipped with
 | 8" | 4+ | 4+ | 1 | 1 | 5 | 6+ | 1 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Heavy, Vehicle, Cult Armoured Sentinels
+Heavy, Vehicle
 
-### Abilities
-```
-Cult Armoured Sentinels is a unit that contains 1 model. It can contain 2 models (Power Rating 6) or 3 models (Power Rating 9). It is equipped with: Armoured Feet.
-For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon.
-```
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Cult Armoured Sentinels
 
 ### Options
 - per: Per 2 models
   Pt: 6
-  text: It can contain 2 models (Power Rating 6)
+  text: It can contain 2 models
 - per: Per 3 models
   Pt: 9
-  text: 3 models (Power Rating 9)
+  text: 3 models
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon.
+  title: Heavy Weapon
+  text: For each model this unit contains, it
+  Choose 1: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -645,12 +727,12 @@ For each model this unit contains, it must also be equipped with one of the foll
 | Armoured Feet | Melee | Melee | User | 11+ | 12+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Cult Armoured Sentinels
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 2 | 2 | 5 | 6+ | 2 | 6 |
 
-#### Profile 2
+#### 3 Cult Armoured Sentinels
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 3 | 3 | 5 | 6+ | 3 | 9 |
@@ -663,18 +745,24 @@ For each model this unit contains, it must also be equipped with one of the foll
 | 6" | 4+ | 4+ | 1 | 1 | 5 | 10+ | 3 | 3 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Light, Infantry, Brood Brothers Heavy Weapons Squad
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Heavy Weapons Squad
 
 ### Abilities
 ```
 Weapon Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.
 A Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equipped with: Close Combat Weapons.
-For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
 ```
 
 ### Options
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar.
+  text: For each model this unit contains, it
+  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -694,19 +782,22 @@ For each model this unit contains, it must also be equipped with one of the foll
 | 10" | 4+ | 4+ | 1 | 2 | 5 | 8+ | 1 | 7 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Heavy, Vehicle, Transport, Goliath Rockgrinder
+Heavy, Vehicle, Transport
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Goliath Rockgrinder
 
 ### Abilities
 ```
 Ignore Damage (6+)
 TRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.
 A Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade.
-Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon.
+  text: Instead of 1 Heavy Mining Laser, this unit can be
+  Choose 1: 1 Clearance Incinerator; 1 Heavy Seismic Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -725,29 +816,35 @@ Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the follo
 | 10" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 8 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Heavy, Vehicle, Cult Leman Russ
+Heavy, Vehicle
+
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Cult Leman Russ
 
 ### Abilities
 ```
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Eradicator Nova Cannon, Exterminator Autocannon and Vanquisher Battle Cannon for that action.
 A Cult Leman Russ is a unit that contains 1 model. It is equipped with: Battle Cannon; Heavy Bolter; Grinding Tracks.
-Instead of 1 Battle Cannon, this unit can be equipped with one of the following: 1 Eradicator Nova Cannon; 1 Exterminator Autocannon; 1 Vanquisher Battle Cannon.
-Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
-This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Battle Cannon, this unit can be equipped with one of the following: 1 Eradicator Nova Cannon; 1 Exterminator Autocannon; 1 Vanquisher Battle Cannon.
+  text: Instead of 1 Battle Cannon, this unit can be
+  Choose 1: 1 Eradicator Nova Cannon; 1 Exterminator Autocannon; 1 Vanquisher Battle Cannon
 - per: Per Unit
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with one of the following: 1 Heavy Flamer; 1 Lascannon.
+  title: Heavy Weapon
+  text: Instead of 1 Heavy Bolter, this unit can be
+  Choose 1: 1 Heavy Flamer; 1 Lascannon
 - per: Per Unit
   Pt: 2
-  text: This unit can also be equipped with one of the following (Power Rating +2): 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -773,7 +870,10 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 8+ | 1 | 6 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Heavy, Vehicle, Transport, Goliath Truck
+Heavy, Vehicle, Transport
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Goliath Truck
 
 ### Abilities
 ```
@@ -783,6 +883,7 @@ TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Eac
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 
 ### Weapons
@@ -800,7 +901,10 @@ TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Eac
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Heavy, Vehicle, Hydra, Cult Hydra
+Heavy, Vehicle
+
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Hydra, Cult Hydra
 
 ### Abilities
 ```
@@ -810,10 +914,13 @@ A Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Au
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -830,25 +937,30 @@ A Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Au
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
-Tyranids, Genestealer Cults, Brood Brothers, Heavy, Vehicle, Transport, Cult Chimera
+Heavy, Vehicle, Transport
+
+### Traits
+Tyranids, Genestealer Cults, Brood Brothers, Cult Chimera
 
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 12 friendly Brood Brothers Infantry models. Each weapons team model takes the space of 2 other Infantry models.
 A Cult Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.
-Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.
-This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
 ```
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
 - per: Per Unit
-  text: Instead of 1 Multi-laser, this unit can be equipped with one of the following: 1 Heavy Bolter; 1 Heavy Flamer.
+  title: Heavy Weapon
+  text: Instead of 1 Multi-laser, this unit can be
+  Choose 1: 1 Heavy Bolter; 1 Heavy Flamer
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): 1 Heavy Stubber; 1 Storm Bolter.
+  title: Heavy Weapon
+  text: Can also be equipped with one of the following
+  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -869,7 +981,10 @@ This unit can also be equipped with one of the following (Power Rating +1): 1 He
 | 12" | 6+ | 4+ | 1 | 2 | 5 | 8+ | 1 | 6 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Heavy, Vehicle, Transport, Goliath Truck
+Heavy, Vehicle, Transport
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Goliath Truck
 
 ### Abilities
 ```
@@ -879,6 +994,7 @@ TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Eac
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 
 ### Weapons
@@ -896,19 +1012,22 @@ TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Eac
 | 10" | 4+ | 4+ | 1 | 2 | 5 | 8+ | 1 | 7 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Heavy, Vehicle, Transport, Goliath Rockgrinder
+Heavy, Vehicle, Transport
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Goliath Rockgrinder
 
 ### Abilities
 ```
 Ignore Damage (6+)
 TRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.
 A Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade.
-Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the following: 1 Clearance Incinerator; 1 Heavy Seismic Cannon.
+  text: Instead of 1 Heavy Mining Laser, this unit can be
+  Choose 1: 1 Clearance Incinerator; 1 Heavy Seismic Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -927,7 +1046,13 @@ Instead of 1 Heavy Mining Laser, this unit can be equipped with one of the follo
 | 6" | 3+ | 6+ | 1 | 1 | 6 | 10+ | 1 | 4 |
 
 ### Keywords
-Tyranids, Genestealer Cults, <Cult>, Light, Infantry, Character, Aberrant, Abominant
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Tyranids, Genestealer Cults, <Cult>, Aberrant, Abominant
 
 ### Abilities
 ```
@@ -954,9 +1079,11 @@ The Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made w
 ### Keywords
 Tyranids, Genestealer Cults, Sector Mechanicus, Tectonic Fragdrill
 
+### Traits
+Tyranids, Genestealer Cults, Sector Mechanicus, Tectonic Fragdrill
+
 ### Abilities
 ```
-A Tectonic Fragdrill is a unit that contains 1 model. It cannot be set up on an objective marker and must be set up more than 1" from any other terrain features. After this unit is set up, it is treated as Defensible Terrain, and is no longer considered to be a unit for any rules purposes.
 SEISMIC QUAKE: Once per battle, at the start of the second or subsequent Action phase, the player who set up this terrain feature can trigger a seismic quake if there are any Genestealer Cults units from their army within 1" of this terrain feature. If they do, draw a straight imaginary line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses this terrain feature. Roll one D6 for each unit without the Fly keyword and each unit garrisoning a Defensible Terrain feature that this line crosses; on a 5+ place one blast marker next to the unit being rolled for.
 ```
 

@@ -1,6 +1,6 @@
 {
   "faction": "Drukhari",
-  "source": "Apoc40k-Armies-1st - Drukhari.csv",
+  "source": "Apoc40k-Armies-1st - Drukhari.md",
   "units": [
     {
       "no": 1,
@@ -17,16 +17,12 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nOverlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6\" of this unit.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
         "Light",
         "Infantry",
-        "Character",
-        "Archon"
+        "Character"
       ],
+      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nOverlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6\" of this unit.",
       "weapons": [
         {
           "name": "Husk Blade",
@@ -36,6 +32,15 @@
           "skill": "7+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Archon"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -53,21 +58,17 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Kabal of the Poisoned Tongue",
         "Light",
         "Infantry",
-        "Character",
-        "Archon",
-        "Lady Malys"
+        "Character"
       ],
+      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army."
+          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army.",
+          "title": "Special Character"
         }
       ],
       "weapons": [
@@ -79,6 +80,16 @@
           "skill": "7+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Kabal of the Poisoned Tongue",
+        "Archon",
+        "Lady Malys"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -96,16 +107,12 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Ignore Damage (6+)\nMaster of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6\" of any <Haemonculus Coven> units from your army with this ability.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
         "Light",
         "Infantry",
-        "Character",
-        "Haemonculus"
+        "Character"
       ],
+      "abilities": "Ignore Damage (6+)\nMaster of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6\" of any <Haemonculus Coven> units from your army with this ability.",
       "weapons": [
         {
           "name": "Haemonculus Tools",
@@ -115,6 +122,15 @@
           "skill": "6+",
           "armorPen": "12+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Haemonculus Coven>",
+        "Haemonculus"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -132,16 +148,12 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6\" of this unit.\nNo Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Wych Cult>",
         "Light",
         "Infantry",
-        "Character",
-        "Succubus"
+        "Character"
       ],
+      "abilities": "Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6\" of this unit.\nNo Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "weapons": [
         {
           "name": "Wych Cult Weapons",
@@ -151,6 +163,15 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Succubus"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -168,33 +189,21 @@
         "N": "10",
         "Pt": "4"
       },
-      "abilities": "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
-        "Kabalite Warriors",
         "Light",
         "Infantry"
-      ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "20",
-          "Pt": "8"
-        }
       ],
       "options": [
         {
           "per": "Per weapon",
-          "text": "For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.",
-          "Pt": "1"
+          "text": "For every 10 models this unit contains, it",
+          "Pt": "1",
+          "chooseOne": [
+            "1 Dark Lance",
+            "1 Splinter Cannon"
+          ],
+          "chooseLimit": 1,
+          "title": "10 Models"
         }
       ],
       "weapons": [
@@ -232,6 +241,29 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "20 Kabalite Warriors",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "8"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Kabalite Warriors"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -249,15 +281,11 @@
         "N": "5",
         "Pt": "2"
       },
-      "abilities": "No Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Wych Cult>",
         "Light",
-        "Infantry",
-        "Wyches"
+        "Infantry"
       ],
+      "abilities": "No Escape: If an Infantry unit within 1\" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.",
       "weapons": [
         {
           "name": "Splinter Pistols",
@@ -275,6 +303,15 @@
           "skill": "6+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Wyches"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -292,17 +329,24 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "Ignore Damage (6+)",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
         "Light",
-        "Infantry",
-        "Wracks"
+        "Infantry"
+      ],
+      "abilities": "Ignore Damage (6+)",
+      "weapons": [
+        {
+          "name": "Haemonculus Tools",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "12+"
+        }
       ],
       "profiles": [
         {
+          "name": "10 Wracks",
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
@@ -314,15 +358,14 @@
           "Pt": "5"
         }
       ],
-      "weapons": [
-        {
-          "name": "Haemonculus Tools",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "12+"
-        }
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Haemonculus Coven>",
+        "Wracks"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -340,54 +383,19 @@
         "N": "3",
         "Pt": "5"
       },
-      "abilities": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
         "Light",
-        "Infantry",
-        "Grotesques"
-      ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "6+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "12"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "6+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "18"
-        },
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "6+",
-          "A": "7",
-          "W": "7",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "20"
-        }
+        "Infantry"
       ],
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Monstrous Cleaver",
+            "1 Liquifier Gun"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -416,6 +424,53 @@
           "skill": "5+",
           "armorPen": "8+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Grotesques",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "6+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "12"
+        },
+        {
+          "name": "9 Grotesques",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "6+",
+          "A": "6",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "18"
+        },
+        {
+          "name": "10 Grotesques",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "6+",
+          "A": "7",
+          "W": "7",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "20"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Haemonculus Coven>",
+        "Grotesques"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -433,17 +488,24 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Tormentors: If the result of a Morale test taken for an enemy unit within 6\" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Incubi",
-        "Incubi",
         "Light",
         "Infantry"
       ],
+      "abilities": "Tormentors: If the result of a Morale test taken for an enemy unit within 6\" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.",
+      "weapons": [
+        {
+          "name": "Klaives",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x3",
+          "skill": "5+",
+          "armorPen": "9+"
+        }
+      ],
       "profiles": [
         {
+          "name": "10 Incubi",
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
@@ -455,15 +517,14 @@
           "Pt": "8"
         }
       ],
-      "weapons": [
-        {
-          "name": "Klaives",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x3",
-          "skill": "5+",
-          "armorPen": "9+"
-        }
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Incubi",
+        "Incubi"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -481,27 +542,11 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike, Stealth",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Light",
-        "Infantry",
-        "Mandrakes"
+        "Infantry"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "10",
-          "Pt": "7"
-        }
-      ],
+      "abilities": "Deep Strike, Stealth",
       "weapons": [
         {
           "name": "Baleblasts",
@@ -519,6 +564,28 @@
           "skill": "6+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Mandrakes",
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "7"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Mandrakes"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -536,42 +603,25 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "Hand of the Archon are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Splinter Rifles; Close Combat Weapons.\nFor every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).\nFor every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).\nUp to 1 model in this unit can be equipped with 1 Power Weapon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
         "Light",
-        "Infantry",
-        "Hand of the Archon"
-      ],
-      "profiles": [
-        {
-          "M": "7\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
+        "Infantry"
       ],
       "options": [
         {
           "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 8)",
-          "Pt": "8"
+          "text": "It can contain 10 models",
+          "Pt": "8",
+          "title": "10 Models"
         },
         {
           "per": "Per weapon",
-          "text": "For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).",
+          "text": "For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster.",
           "Pt": "1"
         },
         {
           "per": "Per weapon",
-          "text": "For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).",
+          "text": "For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance.",
           "Pt": "1"
         },
         {
@@ -621,6 +671,29 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Hand of Archon",
+          "M": "7\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Hand of the Archon"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -638,15 +711,11 @@
         "N": "4",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
         "Light",
-        "Infantry",
-        "Court of the Archon"
+        "Infantry"
       ],
+      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -662,6 +731,15 @@
           "skill": "6+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Court of the Archon"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -679,17 +757,12 @@
         "N": "1",
         "Pt": "2"
       },
-      "abilities": "Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6\" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Wych Cult>",
         "Light",
         "Infantry",
-        "Fly",
-        "Skyboard",
-        "Beastmaster"
+        "Fly"
       ],
+      "abilities": "Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6\" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.",
       "weapons": [
         {
           "name": "Agoniser",
@@ -699,6 +772,16 @@
           "skill": "6+",
           "armorPen": "12+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Skyboard",
+        "Beastmaster"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -716,33 +799,18 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Deep Strike\nScourges with Shard Carbines are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Shardcarbines; Close Combat Weapons.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Light",
         "Infantry",
-        "Fly",
-        "Scourges"
+        "Fly"
       ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "10",
-          "Pt": "10"
-        }
-      ],
+      "abilities": "Deep Strike",
       "options": [
         {
           "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 10)",
-          "Pt": "10"
+          "text": "It can contain 10 models",
+          "Pt": "10",
+          "title": "10 Models"
         }
       ],
       "weapons": [
@@ -771,6 +839,28 @@
           "armorPen": "12+",
           "abilities": "Rapid Fire"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Scourges with Shard Carbines",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Scourges"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -788,16 +878,24 @@
         "N": "1",
         "Pt": "2"
       },
-      "abilities": "Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Light",
-        "Beast",
-        "Clawed Fiends"
+        "Beast"
+      ],
+      "abilities": "Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.",
+      "weapons": [
+        {
+          "name": "Clawed Fists",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
+          "name": "3 Clawed Fiends",
           "M": "10\"",
           "WS": "4+",
           "BS": "-",
@@ -809,6 +907,7 @@
           "Pt": "5"
         },
         {
+          "name": "6 Clawed Fiends",
           "M": "10\"",
           "WS": "4+",
           "BS": "-",
@@ -820,15 +919,10 @@
           "Pt": "10"
         }
       ],
-      "weapons": [
-        {
-          "name": "Clawed Fists",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Clawed Fiends"
       ]
     },
     {
@@ -846,52 +940,12 @@
         "N": "5",
         "Pt": "5"
       },
-      "abilities": "Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Wych Cult>",
         "Light",
         "Infantry",
-        "Fly",
-        "Skyboard",
-        "Hellions"
+        "Fly"
       ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "10",
-          "Pt": "9"
-        },
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "15",
-          "Pt": "13"
-        },
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "9+",
-          "N": "20",
-          "Pt": "17"
-        }
-      ],
+      "abilities": "Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.",
       "weapons": [
         {
           "name": "Splinter Pods",
@@ -909,6 +963,54 @@
           "skill": "6+",
           "armorPen": "8+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Hellions",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "9"
+        },
+        {
+          "name": "15 Hellions",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "15",
+          "Pt": "13"
+        },
+        {
+          "name": "20 Hellions",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "20",
+          "Pt": "17"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Skyboard",
+        "Hellions"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -927,15 +1029,23 @@
         "Pt": "1"
       },
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Daemon",
         "Light",
-        "Beast",
-        "Khymerae"
+        "Beast"
+      ],
+      "weapons": [
+        {
+          "name": "Claws & Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
+          "name": "8 Khymerae",
           "M": "10\"",
           "WS": "3+",
           "BS": "-",
@@ -947,6 +1057,7 @@
           "Pt": "2"
         },
         {
+          "name": "12 Khymerae",
           "M": "10\"",
           "WS": "3+",
           "BS": "-",
@@ -958,15 +1069,10 @@
           "Pt": "3"
         }
       ],
-      "weapons": [
-        {
-          "name": "Claws & Talons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Khymerae"
       ]
     },
     {
@@ -985,16 +1091,23 @@
         "Pt": "2"
       },
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Light",
         "Beast",
-        "Fly",
-        "Swarm",
-        "Razorwing Flocks"
+        "Fly"
+      ],
+      "weapons": [
+        {
+          "name": "Razor Feathers",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
       ],
       "profiles": [
         {
+          "name": "6 Razorwing Flocks",
           "M": "12\"",
           "WS": "4+",
           "BS": "-",
@@ -1006,6 +1119,7 @@
           "Pt": "4"
         },
         {
+          "name": "9 Razorwing Flocks",
           "M": "12\"",
           "WS": "4+",
           "BS": "-",
@@ -1017,6 +1131,7 @@
           "Pt": "6"
         },
         {
+          "name": "12 Razorwing Flocks",
           "M": "12\"",
           "WS": "4+",
           "BS": "-",
@@ -1028,15 +1143,11 @@
           "Pt": "8"
         }
       ],
-      "weapons": [
-        {
-          "name": "Razor Feathers",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
-        }
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Swarm",
+        "Razorwing Flocks"
       ]
     },
     {
@@ -1054,56 +1165,21 @@
         "N": "3",
         "Pt": "4"
       },
-      "abilities": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Wych Cult>",
         "Light",
         "Biker",
-        "Fly",
-        "Reavers"
-      ],
-      "profiles": [
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "8"
-        },
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "12"
-        },
-        {
-          "M": "20\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "12",
-          "Pt": "16"
-        }
+        "Fly"
       ],
       "options": [
         {
           "per": "Per weapon",
-          "text": "For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.",
-          "Pt": "1"
+          "text": "For every 3 models this unit contains, it",
+          "Pt": "1",
+          "chooseOne": [
+            "1 Blaster",
+            "1 Heat Lance"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1140,6 +1216,50 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Reavers",
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "8"
+        },
+        {
+          "name": "9 Reavers",
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "12"
+        },
+        {
+          "name": "12 Reavers",
+          "M": "20\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "12",
+          "Pt": "16"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Wych Cult>",
+        "Reavers"
       ]
     },
     {
@@ -1157,20 +1277,16 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.\nThis unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
         "Heavy",
         "Monster",
-        "Fly",
-        "Cronos"
+        "Fly"
       ],
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nSpirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6\" of this unit.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).",
+          "text": "This unit can also be equipped with 1 Spirit Vortex.",
           "Pt": "1"
         }
       ],
@@ -1200,6 +1316,12 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Haemonculus Coven>",
+        "Cronos"
       ]
     },
     {
@@ -1217,16 +1339,12 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nInstead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.\nInstead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.\nInstead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Ravager"
+        "Fly"
       ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
       "options": [
         {
           "per": "Per Unit",
@@ -1266,6 +1384,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Ravager"
       ]
     },
     {
@@ -1283,16 +1407,12 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal>",
         "Heavy",
         "Vehicle",
-        "Fly",
-        "Reaper"
+        "Fly"
       ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
       "options": [
         {
           "per": "Per Unit",
@@ -1316,6 +1436,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal>",
+        "Reaper"
       ]
     },
     {
@@ -1333,37 +1459,22 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Deep Strike\nScourges with Heavy Weapons are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Close Combat Weapons.\nThis unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
         "Light",
         "Infantry",
-        "Fly",
-        "Scourges"
+        "Fly"
       ],
-      "profiles": [
-        {
-          "M": "14\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
+      "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
       "options": [
         {
           "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 10)",
-          "Pt": "10"
+          "text": "It can contain 10 models",
+          "Pt": "10",
+          "title": "10 Models"
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
+          "text": "This unit can also be equipped with up to four of the following in any combination: 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
         }
       ],
       "weapons": [
@@ -1424,6 +1535,28 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Scourges with Heavy Weapons",
+          "M": "14\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Scourges"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1441,20 +1574,22 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nInstead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.\nInstead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Haemonculus Coven>",
         "Heavy",
         "Monster",
-        "Fly",
-        "Talos"
+        "Fly"
       ],
+      "abilities": "Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod."
+          "text": "Instead of 2 Splinter Cannons, this unit can be",
+          "chooseOne": [
+            "2 Haywire Blasters",
+            "2 Heat Lances",
+            "1 Stinger Pod"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -1512,6 +1647,12 @@
           "skill": "7+",
           "armorPen": "7+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Haemonculus Coven>",
+        "Talos"
       ]
     },
     {
@@ -1529,17 +1670,13 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nInstead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Transport",
-        "Raider"
+        "Transport"
       ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
       "options": [
         {
           "per": "Per Unit",
@@ -1571,6 +1708,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Raider"
       ]
     },
     {
@@ -1588,17 +1731,13 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Transport",
-        "Venom"
+        "Transport"
       ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.",
       "options": [
         {
           "per": "Per Unit",
@@ -1632,6 +1771,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Venom"
       ]
     },
     {
@@ -1649,17 +1794,13 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Supersonic",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Aircraft",
-        "Raven Strike Fighter"
+        "Aircraft"
       ],
+      "abilities": "Supersonic",
       "options": [
         {
           "per": "Per Unit",
@@ -1692,6 +1833,12 @@
           "skill": "9+",
           "armorPen": "10+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult>",
+        "Raven Strike Fighter"
       ]
     },
     {
@@ -1709,17 +1856,13 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Supersonic\nInstead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.\nInstead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Aircraft",
-        "Razorwing Jetfighter"
+        "Aircraft"
       ],
+      "abilities": "Supersonic",
       "options": [
         {
           "per": "Per Unit",
@@ -1781,6 +1924,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult>",
+        "Razorwing Jetfighter"
       ]
     },
     {
@@ -1798,21 +1947,17 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Supersonic\nA Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings.\nThis unit can also be equipped with Voidraven Missiles (Power Rating +1).",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Aircraft",
-        "Voidraven Bomber"
+        "Aircraft"
       ],
+      "abilities": "Supersonic\nA Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with Voidraven Missiles (Power Rating +1).",
+          "text": "This unit can also be equipped with Voidraven Missiles.",
           "Pt": "1"
         }
       ],
@@ -1849,6 +1994,12 @@
           "skill": "10+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult>",
+        "Voidraven Bomber"
       ]
     },
     {
@@ -1866,17 +2017,13 @@
         "N": "1",
         "Pt": "16"
       },
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Transport",
-        "Tantalus"
+        "Transport"
       ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
       "options": [
         {
           "per": "Per Unit",
@@ -1900,6 +2047,12 @@
           "skill": "6+",
           "armorPen": "10+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "<Kabal> or <Wych Cult> or <Haemonculus Coven>",
+        "Tantalus"
       ]
     },
     {
@@ -1917,18 +2070,13 @@
         "N": "1",
         "Pt": "20"
       },
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nLord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\nMaster of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
       "keywords": [
-        "Aeldari",
-        "Drukhari",
-        "Kabal of the Black Heart",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Character",
-        "Ravager",
-        "Asdrubael Vect"
+        "Character"
       ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nLord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\nMaster of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
       "options": [
         {
           "per": "Per Unit",
@@ -1936,7 +2084,8 @@
         },
         {
           "per": "Per Unit",
-          "text": "You can only include one of this unit in your army."
+          "text": "You can only include one of this unit in your army.",
+          "title": "Special Character"
         }
       ],
       "weapons": [
@@ -1983,6 +2132,13 @@
           "skill": "6+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Aeldari",
+        "Drukhari",
+        "Kabal of the Black Heart",
+        "Ravager",
+        "Asdrubael Vect"
       ]
     },
     {
@@ -2000,11 +2156,13 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
       "keywords": [
-        "Aeldari",
         "Heavy",
-        "Vehicle",
+        "Vehicle"
+      ],
+      "abilities": "Shimmering Arrival: When this unit is set up on the battlefield, it can be set up anywhere that is more than 12\" away from your opponent's deployment zone and any enemy units, and more than 3\" away from any other terrain features or the centre of any objective markers.\nWebway Gate: This unit is never Out of Command: an Out of Command marker is never placed next to it. When measuring distances to and from this unit, measure to and from the closest point of this unit. This unit cannot be affected by Command Assets or other units' abilities. If a Webway Gate is destroyed, remove both pieces from the battlefield.\nWebway Strike: After this unit is set up on the battlefield, any friendly Aeldari units, other than Fortifications, that have not already been set up can be set up in a webway spar as Tactical Reserves instead of being set up on the battlefield. In the Set Up Reinforcements step, one unit in a webway spar can emerge from each friendly Webway Gate as reinforcements; a unit emerging from a Webway Gate must be set up wholly within 3\" of that Webway Gate and more than 9\" away from any enemy units. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+      "traits": [
+        "Aeldari",
         "Building",
         "Webway Gate"
       ]

@@ -13,7 +13,13 @@ source: Apoc40k-Armies-1st - Drukhari.md
 | 8" | 2+ | 2+ | 1 | 1 | 7 | 3+ | 1 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Light, Infantry, Character, Archon
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Archon
 
 ### Abilities
 ```
@@ -34,7 +40,13 @@ Overlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whil
 | 8" | 2+ | 2+ | 1 | 1 | 7 | 3+ | 1 | 6 |
 
 ### Keywords
-Aeldari, Drukhari, Kabal of the Poisoned Tongue, Light, Infantry, Character, Archon, Lady Malys
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, Kabal of the Poisoned Tongue, Archon, Lady Malys
 
 ### Abilities
 ```
@@ -44,6 +56,7 @@ Precognisant: After both players have deployed their armies, select up to three 
 
 ### Options
 - per: Per Unit
+  title: Special Character
   text: Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army.
 
 ### Weapons
@@ -59,7 +72,13 @@ Precognisant: After both players have deployed their armies, select up to three 
 | 7" | 2+ | 2+ | 1 | 1 | 6 | 8+ | 1 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Haemonculus Coven>, Light, Infantry, Character, Haemonculus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Haemonculus Coven>, Haemonculus
 
 ### Abilities
 ```
@@ -80,7 +99,13 @@ Master of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> un
 | 9" | 2+ | 2+ | 1 | 1 | 6 | 6+ | 1 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, <Wych Cult>, Light, Infantry, Character, Succubus
+Light, Infantry, Character
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Wych Cult>, Succubus
 
 ### Abilities
 ```
@@ -101,17 +126,20 @@ No Escape: If an Infantry unit within 1" of any enemy units with this ability wi
 | 7" | 3+ | 3+ | 2 | 2 | 6 | 10+ | 10 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Kabalite Warriors, Light, Infantry
+Light, Infantry
 
-### Abilities
-```
-For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Kabalite Warriors
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 10 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Dark Lance; 1 Splinter Cannon.
+  title: 10 Models
+  text: For every 10 models this unit contains, it
+  Choose 1: 1 Dark Lance; 1 Splinter Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -122,7 +150,7 @@ For every 10 models this unit contains, it can also be equipped with one of the 
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 20 Kabalite Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 4 | 4 | 6 | 10+ | 20 | 8 |
@@ -135,7 +163,13 @@ For every 10 models this unit contains, it can also be equipped with one of the 
 | 9" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 5 | 2 |
 
 ### Keywords
-Aeldari, Drukhari, <Wych Cult>, Light, Infantry, Wyches
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Wych Cult>, Wyches
 
 ### Abilities
 ```
@@ -156,7 +190,13 @@ No Escape: If an Infantry unit within 1" of any enemy units with this ability wi
 | 7" | 3+ | 3+ | 2 | 1 | 6 | 9+ | 5 | 3 |
 
 ### Keywords
-Aeldari, Drukhari, <Haemonculus Coven>, Light, Infantry, Wracks
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Haemonculus Coven>, Wracks
 
 ### Abilities
 ```
@@ -169,7 +209,7 @@ Ignore Damage (6+)
 | Haemonculus Tools | Melee | Melee | User | 6+ | 12+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Wracks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 4 | 2 | 6 | 9+ | 10 | 5 |
@@ -182,16 +222,18 @@ Ignore Damage (6+)
 | 7" | 3+ | 6+ | 2 | 2 | 6 | 8+ | 3 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Haemonculus Coven>, Light, Infantry, Grotesques
+Light, Infantry
 
-### Abilities
-```
-For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Haemonculus Coven>, Grotesques
 
 ### Options
 - per: Per Unit
-  text: For each model this unit contains, it must also be equipped with one of the following: 1 Monstrous Cleaver; 1 Liquifier Gun.
+  text: For each model this unit contains, it
+  Choose 1: 1 Monstrous Cleaver; 1 Liquifier Gun
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -201,17 +243,17 @@ For each model this unit contains, it must also be equipped with one of the foll
 | Monstrous Cleaver | Melee | Melee | 2 | 5+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Grotesques
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 4 | 4 | 6 | 8+ | 6 | 12 |
 
-#### Profile 2
+#### 9 Grotesques
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 6 | 6 | 6 | 8+ | 9 | 18 |
 
-#### Profile 3
+#### 10 Grotesques
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 7 | 7 | 6 | 8+ | 10 | 20 |
@@ -224,7 +266,13 @@ For each model this unit contains, it must also be equipped with one of the foll
 | 7" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, Incubi, Incubi, Light, Infantry
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, Incubi, Incubi
 
 ### Abilities
 ```
@@ -237,7 +285,7 @@ Tormentors: If the result of a Morale test taken for an enemy unit within 6" of 
 | Klaives | Melee | Melee | x3 | 5+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Incubi
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 8 |
@@ -250,7 +298,13 @@ Tormentors: If the result of a Morale test taken for an enemy unit within 6" of 
 | 8" | 3+ | 3+ | 1 | 1 | 6 | 9+ | 5 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, Light, Infantry, Mandrakes
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, Mandrakes
 
 ### Abilities
 ```
@@ -264,7 +318,7 @@ Deep Strike, Stealth
 | Glimmersteel Blades | Melee | Melee | User | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Mandrakes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 3+ | 2 | 2 | 6 | 9+ | 10 | 7 |
@@ -277,26 +331,25 @@ Deep Strike, Stealth
 | 7" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 5 | 3 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Light, Infantry, Hand of the Archon
+Light, Infantry
 
-### Abilities
-```
-Hand of the Archon are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Splinter Rifles; Close Combat Weapons.
-For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).
-For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).
-Up to 1 model in this unit can be equipped with 1 Power Weapon.
-```
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Hand of the Archon
 
 ### Options
 - per: Per 10 models
   Pt: 8
-  text: It can contain 10 models (Power Rating 8)
+  title: 10 Models
+  text: It can contain 10 models
 - per: Per weapon
   Pt: 1
-  text: For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster (Power Rating +1 per weapon).
+  text: For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster.
 - per: Per weapon
   Pt: 1
-  text: For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance (Power Rating +1 per weapon).
+  text: For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance.
 - per: Per Unit
   text: Up to 1 model in this unit can be equipped with 1 Power Weapon.
 
@@ -310,7 +363,7 @@ Up to 1 model in this unit can be equipped with 1 Power Weapon.
 | Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Hand of Archon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 6 |
@@ -323,7 +376,13 @@ Up to 1 model in this unit can be equipped with 1 Power Weapon.
 | 8" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 4 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Light, Infantry, Court of the Archon
+Light, Infantry
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Court of the Archon
 
 ### Abilities
 ```
@@ -349,7 +408,13 @@ Cold-blooded Bodyguard: At the start of the Damage phase, you can select one fri
 | 12" | 3+ | 3+ | 1 | 1 | 5 | 10+ | 1 | 2 |
 
 ### Keywords
-Aeldari, Drukhari, <Wych Cult>, Light, Infantry, Fly, Skyboard, Beastmaster
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Wych Cult>, Skyboard, Beastmaster
 
 ### Abilities
 ```
@@ -369,18 +434,24 @@ Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast 
 | 14" | 3+ | 3+ | 1 | 1 | 6 | 7+ | 5 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, Light, Infantry, Fly, Scourges
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, Scourges
 
 ### Abilities
 ```
 Deep Strike
-Scourges with Shard Carbines are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Shardcarbines; Close Combat Weapons.
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 10
-  text: It can contain 10 models (Power Rating 10)
+  title: 10 Models
+  text: It can contain 10 models
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -390,7 +461,7 @@ Scourges with Shard Carbines are a unit that contains 5 models. It can contain 1
 | Splinter Rifles | Small Arms | 24" | 1 | 5+ | 12+ | Rapid Fire |
 
 ### Profiles
-#### Profile 1
+#### 10 Scourges with Shard Carbines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 10 | 10 |
@@ -403,7 +474,10 @@ Scourges with Shard Carbines are a unit that contains 5 models. It can contain 1
 | 10" | 4+ | - | 1 | 1 | 4 | 9+ | 1 | 2 |
 
 ### Keywords
-Aeldari, Drukhari, Light, Beast, Clawed Fiends
+Light, Beast
+
+### Traits
+Aeldari, Drukhari, Clawed Fiends
 
 ### Abilities
 ```
@@ -416,12 +490,12 @@ Berserk Rage: This unit does not suffer the penalty for being critically damaged
 | Clawed Fists | Melee | Melee | x2 | 6+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 3 Clawed Fiends
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 3 | 3 | 4 | 9+ | 3 | 5 |
 
-#### Profile 2
+#### 6 Clawed Fiends
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 6 | 6 | 4 | 9+ | 6 | 10 |
@@ -434,7 +508,13 @@ Berserk Rage: This unit does not suffer the penalty for being critically damaged
 | 14" | 3+ | 3+ | 1 | 1 | 6 | 9+ | 5 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Wych Cult>, Light, Infantry, Fly, Skyboard, Hellions
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, <Wych Cult>, Skyboard, Hellions
 
 ### Abilities
 ```
@@ -448,17 +528,17 @@ Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When t
 | Hellglaives | Melee | Melee | x2 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Hellions
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 9+ | 10 | 9 |
 
-#### Profile 2
+#### 15 Hellions
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 3 | 3 | 6 | 9+ | 15 | 13 |
 
-#### Profile 3
+#### 20 Hellions
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 4 | 4 | 6 | 9+ | 20 | 17 |
@@ -471,7 +551,10 @@ Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When t
 | 10" | 3+ | - | 1 | 1 | 4 | 9+ | 4 | 1 |
 
 ### Keywords
-Aeldari, Drukhari, Daemon, Light, Beast, Khymerae
+Daemon, Light, Beast
+
+### Traits
+Aeldari, Drukhari, Khymerae
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -479,12 +562,12 @@ Aeldari, Drukhari, Daemon, Light, Beast, Khymerae
 | Claws & Talons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 8 Khymerae
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | - | 2 | 2 | 4 | 9+ | 8 | 2 |
 
-#### Profile 2
+#### 12 Khymerae
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | - | 3 | 3 | 4 | 9+ | 12 | 3 |
@@ -497,7 +580,10 @@ Aeldari, Drukhari, Daemon, Light, Beast, Khymerae
 | 12" | 4+ | - | 2 | 1 | 4 | 10+ | 3 | 2 |
 
 ### Keywords
-Aeldari, Drukhari, Light, Beast, Fly, Swarm, Razorwing Flocks
+Light, Beast, Fly
+
+### Traits
+Aeldari, Drukhari, Swarm, Razorwing Flocks
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -505,17 +591,17 @@ Aeldari, Drukhari, Light, Beast, Fly, Swarm, Razorwing Flocks
 | Razor Feathers | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Razorwing Flocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 4 | 2 | 4 | 10+ | 6 | 4 |
 
-#### Profile 2
+#### 9 Razorwing Flocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 6 | 3 | 4 | 10+ | 9 | 6 |
 
-#### Profile 3
+#### 12 Razorwing Flocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 8 | 4 | 4 | 10+ | 12 | 8 |
@@ -528,17 +614,16 @@ Aeldari, Drukhari, Light, Beast, Fly, Swarm, Razorwing Flocks
 | 20" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 3 | 4 |
 
 ### Keywords
-Aeldari, Drukhari, <Wych Cult>, Light, Biker, Fly, Reavers
+Light, Biker, Fly
 
-### Abilities
-```
-For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.
-```
+### Traits
+Aeldari, Drukhari, <Wych Cult>, Reavers
 
 ### Options
 - per: Per weapon
   Pt: 1
-  text: For every 3 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): 1 Blaster; 1 Heat Lance.
+  text: For every 3 models this unit contains, it
+  Choose 1: 1 Blaster; 1 Heat Lance
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -549,17 +634,17 @@ For every 3 models this unit contains, it can also be equipped with one of the f
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Reavers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 6 | 8 |
 
-#### Profile 2
+#### 9 Reavers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 3 | 3 | 6 | 8+ | 9 | 12 |
 
-#### Profile 3
+#### 12 Reavers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 4 | 4 | 6 | 8+ | 12 | 16 |
@@ -572,19 +657,21 @@ For every 3 models this unit contains, it can also be equipped with one of the f
 | 8" | 4+ | 3+ | 2 | 2 | 7 | 5+ | 1 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Haemonculus Coven>, Heavy, Monster, Fly, Cronos
+Heavy, Monster, Fly
+
+### Traits
+Aeldari, Drukhari, <Haemonculus Coven>, Cronos
 
 ### Abilities
 ```
 Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Spirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6" of this unit.
-This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).
+  text: This unit can also be equipped with 1 Spirit Vortex.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -601,14 +688,14 @@ This unit can also be equipped with 1 Spirit Vortex (Power Rating +1).
 | 14" | 4+ | 3+ | 1 | 2 | 5 | 7+ | 1 | 7 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Heavy, Vehicle, Fly, Ravager
+Heavy, Vehicle, Fly
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Ravager
 
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
-Instead of 1 Dark Lance this unit can be equipped with 1 Disintegrator Cannon.
-Instead of 2 Dark Lances this unit can be equipped with 2 Disintegrator Cannons.
-Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.
 ```
 
 ### Options
@@ -634,7 +721,10 @@ Instead of 3 Dark Lances this unit can be equipped with 3 Disintegrator Cannons.
 | 14" | 4+ | 3+ | 1 | 3 | 5 | 7+ | 1 | 7 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal>, Heavy, Vehicle, Fly, Reaper
+Heavy, Vehicle, Fly
+
+### Traits
+Aeldari, Drukhari, <Kabal>, Reaper
 
 ### Abilities
 ```
@@ -659,21 +749,27 @@ Hover: Distances are measured to and from this unit's hull, even though it has a
 | 14" | 3+ | 3+ | 1 | 1 | 6 | 7+ | 5 | 6 |
 
 ### Keywords
-Aeldari, Drukhari, Light, Infantry, Fly, Scourges
+Light, Infantry, Fly
+
+### Profile Keywords
+Infantry
+
+### Traits
+Aeldari, Drukhari, Scourges
 
 ### Abilities
 ```
 Deep Strike
-Scourges with Heavy Weapons are a unit that contains 5 models. It can contain 10 models (Power Rating 10). It is equipped with: Close Combat Weapons.
 This unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
 ```
 
 ### Options
 - per: Per 10 models
   Pt: 10
-  text: It can contain 10 models (Power Rating 10)
+  title: 10 Models
+  text: It can contain 10 models
 - per: Per Unit
-  text: This unit can also be equipped with up to four of the following in any combination (Power Rating +2 per Shredder or Splinter Cannon; Power Rating +1 per other weapon): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
+  text: This unit can also be equipped with up to four of the following in any combination: 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -687,7 +783,7 @@ This unit can also be equipped with up to four of the following in any combinati
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Scourges with Heavy Weapons
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 10 | 12 |
@@ -700,18 +796,20 @@ This unit can also be equipped with up to four of the following in any combinati
 | 8" | 3+ | 4+ | 2 | 2 | 6 | 5+ | 1 | 7 |
 
 ### Keywords
-Aeldari, Drukhari, <Haemonculus Coven>, Heavy, Monster, Fly, Talos
+Heavy, Monster, Fly
+
+### Traits
+Aeldari, Drukhari, <Haemonculus Coven>, Talos
 
 ### Abilities
 ```
 Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.
-Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of 2 Splinter Cannons, this unit can be equipped with one of the following: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod.
+  text: Instead of 2 Splinter Cannons, this unit can be
+  Choose 1: 2 Haywire Blasters; 2 Heat Lances; 1 Stinger Pod
 - per: Per Unit
   text: Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liquifier Gun.
 
@@ -733,14 +831,16 @@ Instead of 1 Gruesome Combat Weapon, this unit can be equipped with 1 Twin Liqui
 | 14" | 4+ | 3+ | 1 | 2 | 5 | 7+ | 1 | 6 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Heavy, Vehicle, Fly, Transport, Raider
+Heavy, Vehicle, Fly, Transport
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Raider
 
 ### Abilities
 ```
 Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.
-Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.
 ```
 
 ### Options
@@ -762,14 +862,16 @@ Instead of 1 Dark Lance, this unit can be equipped with 1 Disintegrator Cannon.
 | 16" | 4+ | 3+ | 1 | 1 | 5 | 6+ | 1 | 6 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Heavy, Vehicle, Fly, Transport, Venom
+Heavy, Vehicle, Fly, Transport
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Venom
 
 ### Abilities
 ```
 Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.
-Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.
 ```
 
 ### Options
@@ -791,7 +893,10 @@ Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cann
 | 20-72" | 6+ | 3+ | 1 | 2 | 5 | 7+ | 1 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult>, Heavy, Vehicle, Fly, Aircraft, Raven Strike Fighter
+Heavy, Vehicle, Fly, Aircraft
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult>, Raven Strike Fighter
 
 ### Abilities
 ```
@@ -817,13 +922,14 @@ Supersonic
 | 20-72" | 6+ | 3+ | 1 | 2 | 5 | 7+ | 1 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult>, Heavy, Vehicle, Fly, Aircraft, Razorwing Jetfighter
+Heavy, Vehicle, Fly, Aircraft
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult>, Razorwing Jetfighter
 
 ### Abilities
 ```
 Supersonic
-Instead of 2 Disintegrator Cannons, this unit can be equipped with 2 Dark Lances.
-Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cannon.
 ```
 
 ### Options
@@ -850,19 +956,21 @@ Instead of 1 Twin Splinter Rifle, this unit can be equipped with 1 Splinter Cann
 | 20-72" | 6+ | 3+ | 1 | 2 | 5 | 7+ | 1 | 5 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult>, Heavy, Vehicle, Fly, Aircraft, Voidraven Bomber
+Heavy, Vehicle, Fly, Aircraft
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult>, Voidraven Bomber
 
 ### Abilities
 ```
 Supersonic
 A Voidraven Bomber is a unit that contains 1 model. It is equipped with: 2 Void Lances; Dark Scythe; Bladed Wings.
-This unit can also be equipped with Voidraven Missiles (Power Rating +1).
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with Voidraven Missiles (Power Rating +1).
+  text: This unit can also be equipped with Voidraven Missiles.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -880,7 +988,10 @@ This unit can also be equipped with Voidraven Missiles (Power Rating +1).
 | 16" | 4+ | 3+ | 2 | 4 | 5 | 6+ | 1 | 16 |
 
 ### Keywords
-Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Heavy, Vehicle, Fly, Transport, Tantalus
+Heavy, Vehicle, Fly, Transport
+
+### Traits
+Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Tantalus
 
 ### Abilities
 ```
@@ -907,7 +1018,10 @@ TRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. E
 | 14" | 2+ | 3+ | 2 | 4 | 8 | 5+ | 1 | 20 |
 
 ### Keywords
-Aeldari, Drukhari, Kabal of the Black Heart, Heavy, Vehicle, Fly, Character, Ravager, Asdrubael Vect
+Heavy, Vehicle, Fly, Character
+
+### Traits
+Aeldari, Drukhari, Kabal of the Black Heart, Ravager, Asdrubael Vect
 
 ### Abilities
 ```
@@ -920,6 +1034,7 @@ Master of the Gates: Once per battle, at the end of any phase, this unit can be 
 - per: Per Unit
   text: Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.
 - per: Per Unit
+  title: Special Character
   text: You can only include one of this unit in your army.
 
 ### Weapons
@@ -939,7 +1054,10 @@ Master of the Gates: Once per battle, at the end of any phase, this unit can be 
 | - | - | - | - | 3 | - | 5+ | 1 | 6 |
 
 ### Keywords
-Aeldari, Heavy, Vehicle, Building, Webway Gate
+Heavy, Vehicle
+
+### Traits
+Aeldari, Building, Webway Gate
 
 ### Abilities
 ```

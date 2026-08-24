@@ -1,6 +1,6 @@
 {
   "faction": "Adeptus Mechanicus",
-  "source": "Apoc40k-Armies-1st - Adeptus Mechanicus.csv",
+  "source": "Apoc40k-Armies-1st - Adeptus Mechanicus.md",
   "units": [
     {
       "no": 1,
@@ -17,18 +17,13 @@
         "N": "1",
         "Pt": "10"
       },
-      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\r\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\r\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\r\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "Mars",
         "Light",
         "Infantry",
         "Character",
-        "Tech-Priest",
-        "Belisarius Cawl"
+        "Tech-Priest"
       ],
+      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.",
       "weapons": [
         {
           "name": "Solar Atomiser",
@@ -46,6 +41,16 @@
           "skill": "8+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "Mars",
+        "Belisarius Cawl"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -63,18 +68,13 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\r\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
         "Infantry",
         "Character",
-        "Tech-Priest",
-        "Dominus"
+        "Tech-Priest"
       ],
+      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "weapons": [
         {
           "name": "Tech-Priest Weapons",
@@ -92,6 +92,16 @@
           "skill": "8+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Dominus"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -109,22 +119,18 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\r\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nInstead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
         "Infantry",
         "Character",
-        "Tech-Priest",
-        "Manipulus"
+        "Tech-Priest"
       ],
+      "abilities": "Galvanic Field: Add 3\" to the Range characteristic of ranged weapons <Forge World> units are equipped with whilst they are within 6\" of any friendly units with this ability.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon."
+          "text": "Instead of 1 Magnarail Lance, this unit can be equipped with 1 Transonic Cannon.",
+          "title": "Transonic Cannon"
         }
       ],
       "weapons": [
@@ -153,6 +159,16 @@
           "skill": "10+",
           "armorPen": "10+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Manipulus"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -170,17 +186,12 @@
         "N": "1",
         "Pt": "4"
       },
-      "abilities": "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
         "Infantry",
-        "Character",
-        "Skatarii Marshal"
+        "Character"
       ],
+      "abilities": "Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6\" of this unit.",
       "options": [
         {
           "per": "Per Unit",
@@ -204,6 +215,16 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Skatarii Marshal"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -222,26 +243,8 @@
         "Pt": "3"
       },
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Skitarii Rangers"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
+        "Infantry"
       ],
       "weapons": [
         {
@@ -261,6 +264,30 @@
           "skill": "8+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Skitarii Rangers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Skitarii Rangers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -279,26 +306,8 @@
         "Pt": "3"
       },
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Skitarii Vanguard"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "6"
-        }
+        "Infantry"
       ],
       "weapons": [
         {
@@ -317,6 +326,30 @@
           "skill": "8+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Skitarii Vanguard",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "6"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Skitarii Vanguard"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -334,18 +367,13 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
         "Infantry",
         "Character",
-        "Tech-Priest",
-        "Enginseer"
+        "Tech-Priest"
       ],
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
       "weapons": [
         {
           "name": "Omnissian Axe & Servo-arm",
@@ -355,6 +383,16 @@
           "skill": "8+",
           "armorPen": "7+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Enginseer"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -372,52 +410,11 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Ignore Damage (5+)",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Electro-Priests",
-        "Corpuscarii"
+        "Infantry"
       ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "10",
-          "Pt": "8"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "15",
-          "Pt": "12"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "20",
-          "Pt": "16"
-        }
-      ],
+      "abilities": "Ignore Damage (5+)",
       "weapons": [
         {
           "name": "Electrostatic Gauntlets (Ranged)",
@@ -435,6 +432,55 @@
           "skill": "6+",
           "armorPen": "8+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Corpuscarii Electro-Priests",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "2",
+          "W": "2",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "8"
+        },
+        {
+          "name": "15 Corpuscarii Electro-Priests",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "15",
+          "Pt": "12"
+        },
+        {
+          "name": "20 Corpuscarii Electro-Priests",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "3+",
+          "A": "4",
+          "W": "4",
+          "Ld": "6",
+          "Sv": "10+",
+          "N": "20",
+          "Pt": "16"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Electro-Priests",
+        "Corpuscarii"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -452,18 +498,13 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
         "Infantry",
         "Character",
-        "Tech-Priest",
-        "Cybernetica Datasmith"
+        "Tech-Priest"
       ],
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.",
       "weapons": [
         {
           "name": "Close Combat Weapons",
@@ -473,6 +514,16 @@
           "skill": "9+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Cybernetica Datasmith"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -490,19 +541,24 @@
         "N": "5",
         "Pt": "3"
       },
-      "abilities": "Ignore Damage (5+)\r\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Electro-Priests",
-        "Fulgurite"
+        "Infantry"
+      ],
+      "abilities": "Ignore Damage (5+)\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.",
+      "weapons": [
+        {
+          "name": "Electroleech Staves",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "5+",
+          "armorPen": "7+"
+        }
       ],
       "profiles": [
         {
+          "name": "10 Fulgurite Electro-Priests",
           "M": "6\"",
           "WS": "3+",
           "BS": "4+",
@@ -514,6 +570,7 @@
           "Pt": "6"
         },
         {
+          "name": "15 Fulgurite Electro-Priests",
           "M": "6\"",
           "WS": "3+",
           "BS": "4+",
@@ -525,6 +582,7 @@
           "Pt": "9"
         },
         {
+          "name": "20 Fulgurite Electro-Priests",
           "M": "6\"",
           "WS": "3+",
           "BS": "4+",
@@ -536,15 +594,16 @@
           "Pt": "12"
         }
       ],
-      "weapons": [
-        {
-          "name": "Electroleech Staves",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "5+",
-          "armorPen": "7+"
-        }
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Electro-Priests",
+        "Fulgurite"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -562,55 +621,19 @@
         "N": "3",
         "Pt": "6"
       },
-      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Kataphron Breachers"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "6",
-          "Pt": "12"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "3",
-          "W": "6",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "9",
-          "Pt": "18"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "8",
-          "Ld": "5",
-          "Sv": "6+",
-          "N": "12",
-          "Pt": "24"
-        }
+        "Infantry"
       ],
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Arc Rifle; 1 Torsion Cannon."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Heavy Arc Rifle",
+            "1 Torsion Cannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -638,6 +661,54 @@
           "skill": "6+",
           "armorPen": "6+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Kataphron Breachers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "6",
+          "Pt": "12"
+        },
+        {
+          "name": "9 Kataphron Breachers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "6",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "9",
+          "Pt": "18"
+        },
+        {
+          "name": "12 Kataphron Breachers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "8",
+          "Ld": "5",
+          "Sv": "6+",
+          "N": "12",
+          "Pt": "24"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Kataphron Breachers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -655,19 +726,15 @@
         "N": "4",
         "Pt": "2"
       },
-      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.\nThis unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Servitors"
+        "Infantry"
       ],
+      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.",
       "options": [
         {
           "per": "Per weapon",
-          "text": "This unit can also be equipped with up to two of the following (Power Rating +1 per weapon): 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
+          "text": "This unit can also be equipped with up to two of the following: 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.",
           "Pt": "1"
         }
       ],
@@ -705,6 +772,15 @@
           "skill": "8+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "<Forge World>",
+        "Servitors"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -723,26 +799,8 @@
         "Pt": "4"
       },
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Sicarian Ruststalkers"
-      ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "10"
-        }
+        "Infantry"
       ],
       "weapons": [
         {
@@ -761,6 +819,30 @@
           "skill": "6+",
           "armorPen": "8+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Sicarian Ruststalkers",
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "10"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Sicarian Ruststalkers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -778,29 +860,11 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Sicarian Infiltrators"
+        "Infantry"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
+      "abilities": "Infiltrators, Terror Troops",
       "options": [
         {
           "per": "Per Unit",
@@ -832,6 +896,30 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Sicarian Infiltrators",
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Sicarian Infiltrators"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -849,48 +937,24 @@
         "N": "1",
         "Pt": "5"
       },
-      "abilities": "Incense Cloud: This unit is always an obscured target.\r\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance.\nFor each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Sydonian Dragoons"
+        "Vehicle"
       ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "3",
-          "Pt": "15"
-        },
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "7+",
-          "N": "6",
-          "Pt": "30"
-        }
-      ],
+      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Radium Jezzail; 1 Taser Lance."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Radium Jezzail",
+            "1 Taser Lance"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per weapon",
-          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta (Power Rating +1 per weapon).",
+          "text": "For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta.",
           "Pt": "1"
         }
       ],
@@ -928,6 +992,39 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "3 Sydonian Dragoons",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "3",
+          "Pt": "15"
+        },
+        {
+          "name": "6 Sydonian Dragoons",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "6",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "7+",
+          "N": "6",
+          "Pt": "30"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Sydonian Dragoons"
       ]
     },
     {
@@ -945,15 +1042,9 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Hastarii Exterminators"
+        "Infantry"
       ],
       "options": [
         {
@@ -986,6 +1077,16 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Hastarii Exterminators"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1003,15 +1104,9 @@
         "N": "5",
         "Pt": "7"
       },
-      "abilities": "Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Hastarii Fusiliers"
+        "Infantry"
       ],
       "options": [
         {
@@ -1044,6 +1139,16 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Hastarii Fusiliers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1061,44 +1166,20 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Ironstrider Ballistarii"
+        "Vehicle"
       ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "18"
-        },
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "36"
-        }
-      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Twin Cognis Autocannon",
+            "1 Twin Cognis Lascannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1126,6 +1207,39 @@
           "skill": "9+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "3 Ironstrider Ballistarii",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "18"
+        },
+        {
+          "name": "6 Ironstrider Ballistarii",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "6",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "36"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Ironstrider Ballistarii"
       ]
     },
     {
@@ -1143,48 +1257,29 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\r\nAdvance: Add 1 to saving throws made for this unit.\r\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\r\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Kastelan Robots"
+        "Vehicle"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "4",
-          "Pt": "14"
-        },
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "6",
-          "W": "6",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "21"
-        }
-      ],
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Heavy Phosphor Blaster",
+            "1 Incendine Combustor"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "2 Heavy Phosphor Blasters",
+            "1 Kastelan Fists"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1221,6 +1316,39 @@
           "skill": "6+",
           "armorPen": "5+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "4 Kastelan Robots",
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "4",
+          "Pt": "14"
+        },
+        {
+          "name": "6 Kastelan Robots",
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "6",
+          "W": "6",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "21"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Kastelan Robots"
       ]
     },
     {
@@ -1238,29 +1366,11 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Infiltrators, Terror Troops\nInstead of Stubcarbines, this unit can be equipped with Flechette Blasters.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Sicarian Infiltrators"
+        "Infantry"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "12"
-        }
-      ],
+      "abilities": "Infiltrators, Terror Troops",
       "options": [
         {
           "per": "Per Unit",
@@ -1292,6 +1402,30 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Sicarian Infiltrators",
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "12"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Sicarian Infiltrators"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1309,15 +1443,9 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: Pistols; Sulphur Breath; Clawed Limbs.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Light",
-        "Cavalry",
-        "Serberys Sulphurhounds"
+        "Cavalry"
       ],
       "options": [
         {
@@ -1351,6 +1479,13 @@
           "skill": "8+",
           "armorPen": "9+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Serberys Sulphurhounds"
       ]
     },
     {
@@ -1368,16 +1503,9 @@
         "N": "5",
         "Pt": "6"
       },
-      "abilities": "Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
-        "Infiltrators",
         "Light",
-        "Cavalry",
-        "Serberys Raiders"
+        "Cavalry"
       ],
       "options": [
         {
@@ -1403,6 +1531,14 @@
           "skill": "7+",
           "armorPen": "8+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Infiltrators",
+        "Serberys Raiders"
       ]
     },
     {
@@ -1420,36 +1556,17 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Pteraxii Sterylizors are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Phosphor Torch; Pteraxii Talons.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
-        "Infiltrators",
         "Light",
         "Infantry",
-        "Fly",
-        "Pteraxii Sterylizors"
-      ],
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "8"
-        }
+        "Fly"
       ],
       "options": [
         {
           "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 8)",
-          "Pt": "8"
+          "text": "It can contain 10 models",
+          "Pt": "8",
+          "title": "10 Models"
         }
       ],
       "weapons": [
@@ -1470,6 +1587,31 @@
           "skill": "8+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Pteraxii Sterylizors",
+          "M": "12\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Infiltrators",
+        "Pteraxii Sterylizors"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1487,36 +1629,17 @@
         "N": "5",
         "Pt": "4"
       },
-      "abilities": "Pteraxii Skywalkers are a unit that contains 5 models. It can contain 10 models (Power Rating 8). It is equipped with: Flechette Carbine; Close Combat Weapon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
-        "Infiltrators",
         "Light",
         "Infantry",
-        "Fly",
-        "Pteraxii Skywalkers"
-      ],
-      "profiles": [
-        {
-          "M": "12\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "8+",
-          "N": "10",
-          "Pt": "8"
-        }
+        "Fly"
       ],
       "options": [
         {
           "per": "Per 10 models",
-          "text": "It can contain 10 models (Power Rating 8)",
-          "Pt": "8"
+          "text": "It can contain 10 models",
+          "Pt": "8",
+          "title": "10 Models"
         }
       ],
       "weapons": [
@@ -1536,6 +1659,31 @@
           "skill": "8+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "10 Pteraxii Skywalkers",
+          "M": "12\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "7",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "8"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Infiltrators",
+        "Pteraxii Skywalkers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1553,44 +1701,20 @@
         "N": "1",
         "Pt": "6"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nFor each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Ironstrider Ballistarii"
+        "Vehicle"
       ],
-      "profiles": [
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "3",
-          "Pt": "18"
-        },
-        {
-          "M": "10\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "36"
-        }
-      ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Twin Cognis Autocannon",
+            "1 Twin Cognis Lascannon"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1618,6 +1742,39 @@
           "skill": "9+",
           "armorPen": "10+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "3 Ironstrider Ballistarii",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "3",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "3",
+          "Pt": "18"
+        },
+        {
+          "name": "6 Ironstrider Ballistarii",
+          "M": "10\"",
+          "WS": "3+",
+          "BS": "3+",
+          "A": "6",
+          "W": "6",
+          "Ld": "6",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "36"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Ironstrider Ballistarii"
       ]
     },
     {
@@ -1635,48 +1792,29 @@
         "N": "2",
         "Pt": "7"
       },
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\r\nAdvance: Add 1 to saving throws made for this unit.\r\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\r\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nFor each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor.\nFor each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Kastelan Robots"
+        "Vehicle"
       ],
-      "profiles": [
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "4",
-          "Pt": "14"
-        },
-        {
-          "M": "8\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "6",
-          "W": "6",
-          "Ld": "8",
-          "Sv": "5+",
-          "N": "6",
-          "Pt": "21"
-        }
-      ],
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Phosphor Blaster; 1 Incendine Combustor."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Heavy Phosphor Blaster",
+            "1 Incendine Combustor"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 2 Heavy Phosphor Blasters; 1 Kastelan Fists."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "2 Heavy Phosphor Blasters",
+            "1 Kastelan Fists"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1713,6 +1851,39 @@
           "skill": "6+",
           "armorPen": "5+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "4 Kastelan Robots",
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "4",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "4",
+          "Pt": "14"
+        },
+        {
+          "name": "6 Kastelan Robots",
+          "M": "8\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "6",
+          "W": "6",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "6",
+          "Pt": "21"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Kastelan Robots"
       ]
     },
     {
@@ -1730,59 +1901,28 @@
         "N": "3",
         "Pt": "7"
       },
-      "abilities": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin.\nFor each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Cult Mechanicus",
-        "<Forge World>",
         "Light",
-        "Infantry",
-        "Kataphron Destroyers"
-      ],
-      "profiles": [
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "2",
-          "W": "4",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "6",
-          "Pt": "14"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "3",
-          "W": "6",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "9",
-          "Pt": "21"
-        },
-        {
-          "M": "6\"",
-          "WS": "4+",
-          "BS": "4+",
-          "A": "4",
-          "W": "8",
-          "Ld": "5",
-          "Sv": "8+",
-          "N": "12",
-          "Pt": "28"
-        }
+        "Infantry"
       ],
       "options": [
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Heavy Grav-cannon; 1 Plasma Culverin."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Heavy Grav-cannon",
+            "1 Plasma Culverin"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
-          "text": "For each model this unit contains, it must be equipped with one of the following: 1 Cognis Flamer; 1 Phosphor Blaster."
+          "text": "For each model this unit contains, it",
+          "chooseOne": [
+            "1 Cognis Flamer",
+            "1 Phosphor Blaster"
+          ],
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1829,6 +1969,54 @@
           "skill": "7+",
           "armorPen": "9+"
         }
+      ],
+      "profiles": [
+        {
+          "name": "6 Kataphron Destroyers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "4",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "6",
+          "Pt": "14"
+        },
+        {
+          "name": "9 Kataphron Destroyers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "3",
+          "W": "6",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "9",
+          "Pt": "21"
+        },
+        {
+          "name": "12 Kataphron Destroyers",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "4",
+          "W": "8",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "12",
+          "Pt": "28"
+        }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus",
+        "<Forge World>",
+        "Kataphron Destroyers"
+      ],
+      "profileKeywords": [
+        "Infantry"
       ]
     },
     {
@@ -1846,24 +2034,27 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\r\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster.\nThis unit can also be equipped with 1 Cognis Heavy Stubber.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Onager Dunecrawler"
+        "Vehicle"
       ],
+      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Eradication Beamer, this unit can be equipped with one of the following: 1 Icarus Array; 1 Neutron Laser and 1 Cognis Heavy Stubber; 1 Twin Heavy Phosphor Blaster."
+          "text": "Instead of 1 Eradication Beamer, this unit can be",
+          "chooseOne": [
+            "1 Icarus Array",
+            "1 Neutron Laser and 1 Cognis Heavy Stubber",
+            "1 Twin Heavy Phosphor Blaster"
+          ],
+          "chooseLimit": 1,
+          "title": "Heavy Weapon"
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber."
+          "text": "This unit can also be equipped with 1 Cognis Heavy Stubber.",
+          "title": "Heavy Weapon"
         }
       ],
       "weapons": [
@@ -1917,6 +2108,13 @@
           "skill": "9+",
           "armorPen": "10+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Onager Dunecrawler"
       ]
     },
     {
@@ -1934,20 +2132,15 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nInstead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
-        "Vehicle",
-        "Skorpius Disintegrator"
+        "Vehicle"
       ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon (Power Rating +1).",
+          "text": "Instead of 1 Ferrumite Cannon, this unit can be equipped with 1 Belleros Energy Cannon.",
           "Pt": "1"
         }
       ],
@@ -1993,6 +2186,13 @@
           "skill": "11+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Skorpius Disintegrator"
       ]
     },
     {
@@ -2010,17 +2210,12 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\r\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
         "Vehicle",
-        "Transport",
-        "Skorpius Dunerider"
+        "Transport"
       ],
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
       "weapons": [
         {
           "name": "Cognis Heavy Stubber",
@@ -2046,6 +2241,13 @@
           "skill": "11+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Skorpius Dunerider"
       ]
     },
     {
@@ -2063,22 +2265,18 @@
         "N": "1",
         "Pt": "8"
       },
-      "abilities": "Harrier",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Aircraft",
-        "Archaeopter Stratoraptor"
+        "Aircraft"
       ],
+      "abilities": "Harrier",
       "options": [
         {
           "per": "Per Unit",
-          "text": "An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull."
+          "text": "An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.",
+          "title": "Heavy Weapon"
         }
       ],
       "weapons": [
@@ -2114,6 +2312,13 @@
           "skill": "11+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Archaeopter Stratoraptor"
       ]
     },
     {
@@ -2131,22 +2336,18 @@
         "N": "1",
         "Pt": "7"
       },
-      "abilities": "Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.\nHarrier",
       "keywords": [
-        "Imperium",
-        "Adeptus Mechanicus",
-        "Skitarii",
-        "<Forge World>",
         "Heavy",
         "Vehicle",
         "Fly",
-        "Aircraft",
-        "Archaeopter Fusilave"
+        "Aircraft"
       ],
+      "abilities": "Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.\nHarrier",
       "options": [
         {
           "per": "Per Unit",
-          "text": "An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull."
+          "text": "An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.",
+          "title": "Heavy Weapon"
         }
       ],
       "weapons": [
@@ -2167,6 +2368,13 @@
           "skill": "11+",
           "armorPen": "11+"
         }
+      ],
+      "traits": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii",
+        "<Forge World>",
+        "Archaeopter Fusilave"
       ]
     }
   ]

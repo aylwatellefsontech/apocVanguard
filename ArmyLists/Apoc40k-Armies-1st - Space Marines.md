@@ -2,6 +2,11 @@
 faction: Space Marines
 source: Apoc40k-Armies-1st - Space Marines.md
 ---
+# description
+Space Marines are the elite fighting force of the 41st millenium. Each marine is a veteran of countless battles, gene-enhanced to be greater than any normal living being, and given the best equipment the Imperium can offer.  Just a small cadre of these warriors of mankind are enough to crush the enemies of mankind.
+
+# concept
+Super Elite Infantry, balanced force, equally good at melee as ranged combat.  Does not break.
 
 # Space Marines Army List
 
