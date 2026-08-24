@@ -25,12 +25,8 @@ Imperium, Astra Militarum, Cadian, Lord Castellan Creed
 ```
 Tactical Genius: If this unit is a Warmaster, and is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.
 Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
+Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.
 ```
-
-### Options
-- per: Per Unit
-  title: Special Character
-  text: Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -229,9 +225,10 @@ Infantry
 ### Traits
 Imperium, Astra Militarum, <Regiment>, Conscripts
 
-### Options
-- per: Per Unit
-  text: Conscripts is a unit that contains 20 models.
+### Abilities
+```
+Conscripts is a unit that contains 20 models.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -307,9 +304,12 @@ Infantry
 ### Traits
 Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana, Primaris Psyker
 
+### Abilities
+```
+A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.
+```
+
 ### Options
-- per: Per Unit
-  text: A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.
 - per: Per Unit
   text: Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability.
 
@@ -381,12 +381,6 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions
 Deep Strike
 ```
 
-### Options
-- per: Per 10 models
-  Pt: 5
-  title: 10 Models
-  text: It can contain 10 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -398,6 +392,11 @@ Deep Strike
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 5 |
+
+##### Profile Abilities
+```
+It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
+```
 
 ## Unit 11 — Elites — Snipers
 
@@ -420,12 +419,6 @@ Imperium, Astra Militarum, Militarum Auxilia, Ratlings
 Infiltrators, Stealth
 ```
 
-### Options
-- per: Per 10 models
-  Pt: 3
-  title: 10 Models
-  text: It can contain 10 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -437,6 +430,11 @@ Infiltrators, Stealth
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 3 |
+
+##### Profile Abilities
+```
+It is equipped with: Sniper Rifles; Close Combat Weapons.
+```
 
 ## Unit 12 — Elites — Ogryn / crusaders
 
@@ -461,14 +459,6 @@ Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.
 Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 15
-  text: 9 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -482,10 +472,20 @@ Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 6 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
+```
+
 #### 9 Ogryn / crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 6 | 6 | 6 | 10+ | 9 | 15 |
+
+##### Profile Abilities
+```
+It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
+```
 
 ## Unit 13 — Elites — Special Weapons Squad
 
@@ -596,13 +596,7 @@ Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Pl
 ```
 
 ### Options
-- per: Per 2 models
-  Pt: 7
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 10
-  text: 3 models.
-- per: Per Unit
+- per: Per Model
   title: Heavy Weapon
   text: For each model this unit contains, it
   Choose 1: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser
@@ -623,10 +617,20 @@ Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Pl
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 2 | 7 |
 
+##### Profile Abilities
+```
+It is equipped with: Plasma Cannon.
+```
+
 #### 3 Sentinel
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 3 | 3 | 5 | 8+ | 3 | 10 |
+
+##### Profile Abilities
+```
+It is equipped with: Plasma Cannon.
+```
 
 ## Unit 15 — Fast — Hellhound
 
@@ -724,12 +728,6 @@ Light, Cavalry
 ### Traits
 Imperium, Astra Militarum, <Regiment>, Rough Riders
 
-### Options
-- per: Per 10 models
-  Pt: 6
-  title: 10 Models
-  text: It can contain 10 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -742,6 +740,11 @@ Imperium, Astra Militarum, <Regiment>, Rough Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 4+ | 2 | 4 | 5 | 10+ | 10 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Laspistols; Close Combat Weapons; Hunting Lances.
+```
 
 ## Unit 31 — Fast — Aquilons
 
@@ -764,12 +767,6 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions, Aqui
 Infiltrators
 ```
 
-### Options
-- per: Per 10 models
-  Pt: 6
-  title: 10 Models
-  text: It can contain 10 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -781,6 +778,11 @@ Infiltrators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
+```
 
 ## Unit 17 — Heavy — Heavy Weapons Squad
 
@@ -804,7 +806,7 @@ Weapons Teams: For the purposes of determining what models a unit can transport,
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 

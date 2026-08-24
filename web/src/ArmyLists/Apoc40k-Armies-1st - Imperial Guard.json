@@ -23,14 +23,7 @@
         "Character",
         "Officer"
       ],
-      "abilities": "Tactical Genius: If this unit is a Warmaster, and is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.\nOfficer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.",
-          "title": "Special Character"
-        }
-      ],
+      "abilities": "Tactical Genius: If this unit is a Warmaster, and is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.\nOfficer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nLord Castellan Creed is a unit that contains 1 model. It is equipped with: Signature Weapons. You can only include one of this unit in your army.",
       "weapons": [
         {
           "name": "Signature Weapons",
@@ -554,12 +547,6 @@
         "Light",
         "Infantry"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Conscripts is a unit that contains 20 models."
-        }
-      ],
       "weapons": [
         {
           "name": "Lasguns",
@@ -587,7 +574,8 @@
       ],
       "profileKeywords": [
         "Infantry"
-      ]
+      ],
+      "abilities": "Conscripts is a unit that contains 20 models."
     },
     {
       "no": 2,
@@ -696,10 +684,6 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon."
-        },
-        {
-          "per": "Per Unit",
           "text": "Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability."
         }
       ],
@@ -722,7 +706,8 @@
       ],
       "profileKeywords": [
         "Infantry"
-      ]
+      ],
+      "abilities": "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon."
     },
     {
       "no": 9,
@@ -869,14 +854,6 @@
         "Infantry"
       ],
       "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models.",
-          "Pt": "5",
-          "title": "10 Models"
-        }
-      ],
       "weapons": [
         {
           "name": "Hot-shot Lasguns",
@@ -907,7 +884,8 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "5"
+          "Pt": "5",
+          "abilities": "It is equipped with: Hot-shot Lasguns; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -940,14 +918,6 @@
         "Infantry"
       ],
       "abilities": "Infiltrators, Stealth",
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models.",
-          "Pt": "3",
-          "title": "10 Models"
-        }
-      ],
       "weapons": [
         {
           "name": "Sniper Rifles",
@@ -978,7 +948,8 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "10",
-          "Pt": "3"
+          "Pt": "3",
+          "abilities": "It is equipped with: Sniper Rifles; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1011,18 +982,6 @@
         "Infantry"
       ],
       "abilities": "Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.\nAlternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.\nAlternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "10"
-        },
-        {
-          "per": "Per 9 models",
-          "text": "9 models.",
-          "Pt": "15"
-        }
-      ],
       "weapons": [
         {
           "name": "Ripper Guns",
@@ -1060,7 +1019,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords."
         },
         {
           "name": "9 Ogryn / crusaders",
@@ -1072,7 +1032,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "9",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords."
         }
       ],
       "traits": [
@@ -1276,17 +1237,7 @@
       "abilities": "Infiltrators\nAlternative: Armoured Sentinels (M 8\", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).",
       "options": [
         {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models",
-          "Pt": "7"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models.",
-          "Pt": "10"
-        },
-        {
-          "per": "Per Unit",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
           "chooseOne": [
             "1 Autocannon",
@@ -1362,7 +1313,8 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "2",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Plasma Cannon."
         },
         {
           "name": "3 Sentinel",
@@ -1374,7 +1326,8 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "3",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Plasma Cannon."
         }
       ],
       "traits": [
@@ -1625,14 +1578,6 @@
         "Light",
         "Cavalry"
       ],
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models.",
-          "Pt": "6",
-          "title": "10 Models"
-        }
-      ],
       "weapons": [
         {
           "name": "Laspistols",
@@ -1670,7 +1615,8 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Laspistols; Close Combat Weapons; Hunting Lances."
         }
       ],
       "traits": [
@@ -1700,14 +1646,6 @@
         "Infantry"
       ],
       "abilities": "Infiltrators",
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models.",
-          "Pt": "6",
-          "title": "10 Models"
-        }
-      ],
       "weapons": [
         {
           "name": "Hot-shot Lasguns",
@@ -1738,7 +1676,8 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Hot-shot Lasguns; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1774,7 +1713,7 @@
       "abilities": "Weapons Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.",
       "options": [
         {
-          "per": "Per Unit",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
           "chooseOne": [
             "1 Autocannon",

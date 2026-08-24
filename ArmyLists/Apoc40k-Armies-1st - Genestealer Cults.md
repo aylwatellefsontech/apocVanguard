@@ -25,11 +25,8 @@ Tyranids, Genestealer Cults, <Cult>, Genestealer, Patriarch
 ```
 Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Cult> Genestealer units whilst they are within 6" of any friendly <Cult> units with this ability.
 Living Idol: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6" of this unit.
+A Patriarch is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws.
 ```
-
-### Options
-- per: Per Unit
-  text: A Patriarch is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -56,11 +53,8 @@ Tyranids, Genestealer Cults, <Cult>, Magus
 ```
 Spiritual Leader: Friendly <Cult> units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
 Master Psyker: Once per battle, at the end of the Orders phase, you can look through your Command Asset deck and draw either one Genestealer Cults Command Asset of your choice that is a psychic power, or the Deny the Witch or Adamantium Will card. Add the drawn card to your hand, then shuffle the Command Asset deck and place it face down.
+A Magus is a unit that contains 1 model. It is equipped with: Magus Force Weapon.
 ```
-
-### Options
-- per: Per Unit
-  text: A Magus is a unit that contains 1 model. It is equipped with: Magus Force Weapon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -86,11 +80,8 @@ Tyranids, Genestealer Cults, <Cult>, Primus
 ### Abilities
 ```
 Cult Demagogue: Add 1 to hit rolls for attacks made with melee weapons by <Cult> units whilst they are within 6" of any friendly <Cult> units with this ability.
+A Primus is a unit that contains 1 model. It is equipped with: Elite Cult Weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Primus is a unit that contains 1 model. It is equipped with: Elite Cult Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -116,11 +107,8 @@ Tyranids, Genestealer Cults, <Cult>, Kelermorph
 ### Abilities
 ```
 Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6" of this unit.
+A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife.
 ```
-
-### Options
-- per: Per Unit
-  text: A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -145,18 +133,7 @@ Infantry
 Tyranids, Genestealer Cults, <Cult>, Acolyte Hybrids
 
 ### Options
-- per: Per 15 models
-  Pt: 6
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 15 models
-  Pt: 9
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 20 models
-  Pt: 12
-  text: 20 models
-- per: Per weapon
+- per: Per 5 models
   Pt: 1
   text: For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination: 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.
 
@@ -175,15 +152,30 @@ Tyranids, Genestealer Cults, <Cult>, Acolyte Hybrids
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
+```
+
 #### 15 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 3 | 3 | 6 | 10+ | 15 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
+```
+
 #### 20 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
+```
 
 ## Unit 6 — Troops — Neophyte Hybrids
 
@@ -202,10 +194,7 @@ Infantry
 Tyranids, Genestealer Cults, <Cult>, Neophyte Hybrids
 
 ### Options
-- per: Per 20 models
-  Pt: 10
-  text: It can contain 20 models
-- per: Per weapon
+- per: up to 2
   Pt: 1
   title: Heavy Weapon
   text: This unit can also be equipped with up to two of the following in any combination: 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.
@@ -225,6 +214,11 @@ Tyranids, Genestealer Cults, <Cult>, Neophyte Hybrids
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 8+ | 20 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons.
+```
+
 ## Unit 7 — Troops — Brood Brothers Infantry Squad
 
 ### Stats
@@ -242,9 +236,6 @@ Infantry
 Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Infantry Squad
 
 ### Options
-- per: Per 20 models
-  Pt: 6
-  text: It can contain 20 models
 - per: Per Unit
   Pt: 1
   title: Weapons Team
@@ -271,6 +262,11 @@ Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Infantry Squad
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Lasguns; Close Combat Weapons.
+```
+
 ## Unit 30 — Troops — Cult Combat Engineers
 
 ### Stats
@@ -292,11 +288,6 @@ Tyranids, Genestealer Cults, <Cult>, Cult Combat Engineers
 Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.
 ```
 
-### Options
-- per: Per 20 models
-  Pt: 8
-  text: It can contain 20 models.
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -308,6 +299,11 @@ Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, t
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 10+ | 20 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Trench Clubs; Flamers.
+```
 
 ## Unit 8 — Elites — Acolyte Iconward
 
@@ -329,11 +325,8 @@ Tyranids, Genestealer Cults, <Cult>, Acolyte Iconward
 ```
 Sacred Cult Banner: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6" of this unit.
 Nexus of Devotion: Friendly <Cult> Light units have the Ignore Damage (6+) ability whilst they are within 6" of this unit.
+An Acolyte Iconward is a unit that contains 1 model. It is equipped with: Rending Claw.
 ```
-
-### Options
-- per: Per Unit
-  text: An Acolyte Iconward is a unit that contains 1 model. It is equipped with: Rending Claw.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -356,19 +349,6 @@ Infantry
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Genestealer, Purestrain Genestealers
 
-### Options
-- per: Per 15 models
-  Pt: 10
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 15 models
-  Pt: 15
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 20 models
-  Pt: 20
-  text: 20 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -380,15 +360,30 @@ Tyranids, Genestealer Cults, <Cult>, Genestealer, Purestrain Genestealers
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 2 | 2 | 7 | 9+ | 10 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Purestrain Claws.
+```
+
 #### 15 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 3 | 3 | 7 | 9+ | 15 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Purestrain Claws.
+```
+
 #### 20 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 4 | 4 | 7 | 9+ | 20 | 20 |
+
+##### Profile Abilities
+```
+It is equipped with: Purestrain Claws.
+```
 
 ## Unit 10 — Elites — Aberrants
 
@@ -411,12 +406,6 @@ Tyranids, Genestealer Cults, <Cult>, Aberrants
 Ignore Damage (6+)
 ```
 
-### Options
-- per: Per 10 models
-  Pt: 9
-  title: 10 Models
-  text: It can contain 10 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -427,6 +416,11 @@ Ignore Damage (6+)
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 6+ | 2 | 4 | 6 | 10+ | 10 | 9 |
+
+##### Profile Abilities
+```
+It is equipped with: Aberrant Weapons.
+```
 
 ## Unit 11 — Elites — Hybrid Metamorphs
 
@@ -444,12 +438,6 @@ Infantry
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Hybrid Metamorphs
 
-### Options
-- per: Per 10 models
-  Pt: 8
-  title: 10 Models
-  text: It can contain 10 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -461,6 +449,11 @@ Tyranids, Genestealer Cults, <Cult>, Hybrid Metamorphs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee).
+```
 
 ## Unit 12 — Elites — Clamavus
 
@@ -481,11 +474,8 @@ Tyranids, Genestealer Cults, <Cult>, Clamavus
 ### Abilities
 ```
 Scrambler Array: Enemy units that arrive as reinforcements using the Deep Strike ability cannot be set up within 12" of this unit.
+A Clamavus is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Clamavus is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -511,11 +501,8 @@ Tyranids, Genestealer Cults, <Cult>, Locus
 ### Abilities
 ```
 Unquestioning Bodyguard: At the start of the Damage phase, you can select one friendly <Cult> Light Character unit within 6" of this unit; remove up to D3 blast markers from that Character unit and place them next to this unit.
+A Locus is a unit that contains 1 model. It is equipped with: Locus Blades.
 ```
-
-### Options
-- per: Per Unit
-  text: A Locus is a unit that contains 1 model. It is equipped with: Locus Blades.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -575,11 +562,8 @@ Tyranids, Genestealer Cults, <Cult>, Nexos
 ### Abilities
 ```
 Strategic Coordinator: If any friendly units with this ability are on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.
+A Nexos is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Nexos is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -605,11 +589,8 @@ Tyranids, Genestealer Cults, <Cult>, Biophagus
 ### Abilities
 ```
 Genomic Enhancement: At the start of the Action phase, you can enhance one friendly <Cult> Aberrant unit within 1" of this unit. Add 1 to that unit's Attacks characteristic until the end of the battle. A unit can only be enhanced once per battle.
+A Biophagus is a unit that contains 1 model. It is equipped with: Injector Goad.
 ```
-
-### Options
-- per: Per Unit
-  text: A Biophagus is a unit that contains 1 model. It is equipped with: Injector Goad.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -633,11 +614,8 @@ Tyranids, Genestealer Cults, <Cult>, Jackal Alphus
 ```
 Stealth
 Priority Target Sighted: When this unit's Detachment is chosen to carry out an order, before any actions are made, select one enemy unit visible to and within 36" of this unit. Until the end of the turn, add 1 to hit rolls for attacks made with ranged weapons by friendly <Cult> units whilst they are within 6" of this unit if those attacks target the selected unit. An enemy unit can only be affected by this ability once per turn.
+A Jackal Alphus is a unit that contains 1 model. It is equipped with: Jackal Sniper Rifle; Close Combat Weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Jackal Alphus is a unit that contains 1 model. It is equipped with: Jackal Sniper Rifle; Close Combat Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -658,13 +636,12 @@ Light, Biker
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Atalan Jackals
 
+### Abilities
+```
+12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model
+```
+
 ### Options
-- per: Per Unit
-  Pt: 8
-  text: It can contain 8 models
-- per: Per 2 models
-  Pt: 12
-  text: 12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model
 - per: Per Unit
   title: Heavy Weapon
   text: For each Atalan Wolfquad model this unit contains, it
@@ -685,10 +662,30 @@ Tyranids, Genestealer Cults, <Cult>, Atalan Jackals
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 4 | 6 | 10+ | 10 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Autopistols; Close Combat Weapons.
+```
+
 #### 15 Atalan Jackals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 3 | 6 | 6 | 10+ | 15 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Autopistols; Close Combat Weapons.
+```
+
+#### 8 Atalan Jackals
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 4+ | 4+ | 2 | 3 | 6 | 10+ | 8 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Autopistols; Close Combat Weapons.
+```
 
 ## Unit 21 — Heavy — Cult Armoured Sentinels
 
@@ -704,13 +701,7 @@ Heavy, Vehicle
 Tyranids, Genestealer Cults, Brood Brothers, Cult Armoured Sentinels
 
 ### Options
-- per: Per 2 models
-  Pt: 6
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 9
-  text: 3 models
-- per: Per Unit
+- per: Per Model
   title: Heavy Weapon
   text: For each model this unit contains, it
   Choose 1: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; 1 Plasma Cannon
@@ -732,10 +723,20 @@ Tyranids, Genestealer Cults, Brood Brothers, Cult Armoured Sentinels
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 2 | 2 | 5 | 6+ | 2 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
+
 #### 3 Cult Armoured Sentinels
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 3 | 3 | 5 | 6+ | 3 | 9 |
+
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
 
 ## Unit 23 — Heavy — Brood Brothers Heavy Weapons Squad
 
@@ -760,7 +761,7 @@ A Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equ
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
 
@@ -879,12 +880,8 @@ Tyranids, Genestealer Cults, <Cult>, Goliath Truck
 ```
 Open-topped, Ignore Damage (6+)
 TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.
+A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 ```
-
-### Options
-- per: Per Unit
-  title: Heavy Weapon
-  text: A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -990,12 +987,8 @@ Tyranids, Genestealer Cults, <Cult>, Goliath Truck
 ```
 Open-topped, Ignore Damage (6+)
 TRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.
+A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 ```
-
-### Options
-- per: Per Unit
-  title: Heavy Weapon
-  text: A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1058,11 +1051,8 @@ Tyranids, Genestealer Cults, <Cult>, Aberrant, Abominant
 ```
 Ignore Damage (6+)
 The Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.
+An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer.
 ```
-
-### Options
-- per: Per Unit
-  text: An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1085,8 +1075,5 @@ Tyranids, Genestealer Cults, Sector Mechanicus, Tectonic Fragdrill
 ### Abilities
 ```
 SEISMIC QUAKE: Once per battle, at the start of the second or subsequent Action phase, the player who set up this terrain feature can trigger a seismic quake if there are any Genestealer Cults units from their army within 1" of this terrain feature. If they do, draw a straight imaginary line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses this terrain feature. Roll one D6 for each unit without the Fly keyword and each unit garrisoning a Defensible Terrain feature that this line crosses; on a 5+ place one blast marker next to the unit being rolled for.
+A Tectonic Fragdrill is a unit that contains 1 model.
 ```
-
-### Options
-- per: Per Unit
-  text: A Tectonic Fragdrill is a unit that contains 1 model.

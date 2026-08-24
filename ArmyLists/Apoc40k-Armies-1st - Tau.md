@@ -62,6 +62,11 @@ Battlesuit, Fly, Jet Pack
 ##### Profile Traits
 XV8-02 Iridium
 
+##### Profile Abilities
+```
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; High-output Burst Cannon; Close Combat Weapons.
+```
+
 #### XV85 Enforcer
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -76,6 +81,7 @@ XV85 Enforcer
 ##### Profile Abilities
 ```
 Enforcer Battlesuit: At the start of the Damage phase, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; High-output Burst Cannon; Close Combat Weapons.
 ```
 
 #### XV86 Coldstar
@@ -112,12 +118,8 @@ T'au Empire, Farsight Enclaves, Commander, Farsight
 Deep Strike, Master of War
 Genius of Mont'ka: Once per battle, at the start of the Action phase, this unit can declare Mont'ka even if Kauyon or Mont'ka has already been declared. Mont'ka and Kauyon cannot be both declared in the same turn.
 Way of the Short Blade: Re-roll hit rolls of 1 made for friendly Farsight Enclave units when using melee weapons whilst they are within 6" of this unit (and ranged weapons, if the target is an Orks unit).
+Commander Farsight is a unit that contains 1 model. It is equipped with: High-intensity Plasma Rifle; The Dawn Blade. You can only include one of this unit in your army.
 ```
-
-### Options
-- per: Per Unit
-  title: Special Character
-  text: Commander Farsight is a unit that contains 1 model. It is equipped with: High-intensity Plasma Rifle; The Dawn Blade. You can only include one of this unit in your army.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -206,6 +208,11 @@ An Ethereal is a unit that contains 1 model. It is equipped with: Honour Blade.
 ##### Profile Keywords
 Jet Pack, Fly
 
+##### Profile Abilities
+```
+It is equipped with: Honour Blade; Pulse Carbine.
+```
+
 ## Unit 5 — Troops — Breacher Team
 
 ### Stats
@@ -231,10 +238,6 @@ T'au Empire, <Sept>, Breacher Team
 ```
 
 ### Options
-- per: Per 10 models
-  Pt: 6
-  title: 10 Models
-  text: It can contain 10 models
 - per: Per Unit
   Pt: 1
   text: This unit can have up to two of the following: Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
@@ -250,6 +253,11 @@ T'au Empire, <Sept>, Breacher Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Pulse Blasters; Close Combat Weapons.
+```
 
 ## Unit 6 — Troops — Kroot Carnivores
 
@@ -272,11 +280,6 @@ T'au Empire, Kroot, Kroot Carnivores
 Infiltrators
 ```
 
-### Options
-- per: Per 20 models
-  Pt: 7
-  text: It can contain 20 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -288,6 +291,11 @@ Infiltrators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 5 | 10+ | 20 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee).
+```
 
 ## Unit 7 — Troops — Strike Team
 
@@ -314,13 +322,6 @@ T'au Empire, <Sept>, Strike Team
 ```
 
 ### Options
-- per: Per 10 models
-  Pt: 6
-  title: 10 Models
-  text: It can contain 10 models
-- per: Per 2 models
-  Pt: 7
-  text: 12 models
 - per: Per Unit
   Pt: 1
   text: This unit can have up to two of the following: Guardian Drone, Gun Drone, Marker Drone, Shield Drone.
@@ -337,10 +338,20 @@ T'au Empire, <Sept>, Strike Team
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Pulse Rifles; Close Combat Weapons.
+```
+
 #### 12 Strike Team
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 4+ | 3 | 2 | 5 | 8+ | 12 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Pulse Rifles; Close Combat Weapons.
+```
 
 ## Unit 8 — Elites — Firesight Marksman
 
@@ -362,11 +373,8 @@ T'au Empire, <Sept>, Firesight Marksman
 ```
 Stealth
 Drone Uplink: Add 1 to hit rolls for attacks made with ranged weapons by <Sept> MV71 Sniper Drones whilst they are within 6" of any friendly units with this ability.
+A Firesight Marksman is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Firesight Marksman is a unit that contains 1 model. It is equipped with: Close Combat Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -393,11 +401,8 @@ T'au Empire, Kroot, Kroot Shaper
 ```
 Wisest of their Kind: Friendly Kroot units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
 The Shaper Commands: Re-roll wound rolls of 1 for attacks made by friendly Kroot units whilst they are within 6" of this unit.
+A Kroot Shaper is a unit that contains 1 model. It is equipped with: Ritual Blade.
 ```
-
-### Options
-- per: Per Unit
-  text: A Kroot Shaper is a unit that contains 1 model. It is equipped with: Ritual Blade.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -417,14 +422,6 @@ Light, Cavalry
 ### Traits
 T'au Empire, Kroot, Krootox Riders
 
-### Options
-- per: Per 2 models
-  Pt: 2
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 3
-  text: 3 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -437,10 +434,20 @@ T'au Empire, Kroot, Krootox Riders
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 2 | 2 | 4 | 10+ | 2 | 2 |
 
+##### Profile Abilities
+```
+It is equipped with: Kroot Guns; Krootox Fists.
+```
+
 #### 3 Krootox Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 3 | 3 | 4 | 10+ | 3 | 3 |
+
+##### Profile Abilities
+```
+It is equipped with: Kroot Guns; Krootox Fists.
+```
 
 ## Unit 11 — Elites — Krootox Rampagers
 
@@ -460,23 +467,6 @@ T'au Empire, Kroot, Krootox Rampagers
 Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.
 ```
 
-### Options
-- per: Per 3 models
-  Pt: 5
-  text: per 2 models: It can contain 2 models
-- per: Per 3 models
-  Pt: 7
-  text: 3 models
-- per: Per 3 models
-  Pt: 7
-  text: per 2 models: It can contain 2 models
-- per: Per 3 models
-  Pt: 7
-  text: 3 models
-- per: Per 3 models
-  Pt: 7
-  text: It can contain 3 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -488,6 +478,11 @@ Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this uni
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 4+ | 3 | 3 | 4 | 10+ | 3 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Kroot Pistols; Fists & Blades.
+```
 
 ## Unit 12 — Elites — XV25 Stealth Battlesuits
 
@@ -514,9 +509,6 @@ Infiltrators, Stealth
 ```
 
 ### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
 - per: Per Unit
   Pt: 1
   text: This unit can have up to two of the following: Gun Drone, Marker Drone, Shield Drone.
@@ -532,6 +524,11 @@ Infiltrators, Stealth
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 2 | 6 | 6+ | 6 | 10 |
+
+##### Profile Abilities
+```
+It is equipped with: Burst Cannons; Close Combat Weapons.
+```
 
 ## Unit 13 — Elites — XV8 Crisis Battlesuits
 
@@ -555,12 +552,6 @@ Deep Strike
 ```
 
 ### Options
-- per: Per 6 models
-  Pt: 13
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 19
-  text: 9 models
 - per: Per 3 models
   Pt: 1
   text: For each 3 models this unit contains, it
@@ -587,10 +578,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 4 | 6 | 6+ | 6 | 13 |
 
+##### Profile Abilities
+```
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.
+```
+
 #### 9 XV8 Crisis Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 3 | 6 | 6 | 6+ | 9 | 19 |
+
+##### Profile Abilities
+```
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.
+```
 
 ## Unit 14 — Elites — XV8 Crisis Bodyguards
 
@@ -615,12 +616,6 @@ Sworn Protectors: At the start of the Damage phase, you can select one friendly 
 ```
 
 ### Options
-- per: Per 6 models
-  Pt: 15
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 22
-  text: 9 models
 - per: Per 3 models
   Pt: 1
   text: For each 3 models this unit contains, it
@@ -647,10 +642,20 @@ Sworn Protectors: At the start of the Damage phase, you can select one friendly 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 2 | 4 | 6 | 6+ | 6 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.
+```
+
 #### 9 XV8 Crisis Bodyguards
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 4+ | 3 | 6 | 6 | 6+ | 9 | 22 |
+
+##### Profile Abilities
+```
+It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.
+```
 
 ## Unit 15 — Elites — XV95 Ghostkeel Battlesuit
 
@@ -787,11 +792,7 @@ Infiltrators
 ```
 
 ### Options
-- per: Per 10 models
-  Pt: 9
-  title: 10 Models
-  text: It can contain 10 models
-- per: Per weapon
+- per: up to 3
   Pt: 1
   text: This unit can also be equipped with up to three of the following in any combination: 1 Ion Rifle; 1 Rail Rifle.
 - per: Per Unit
@@ -818,6 +819,11 @@ Infiltrators
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 5+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Ion Rifle; Pulse Carbines; Rail Rifle; Close Combat Weapons.
+```
+
 ## Unit 19 — Fast — Kroot Hounds
 
 ### Stats
@@ -836,14 +842,6 @@ T'au Empire, Kroot, Beasts, Kroot Hounds
 Voracious Predators: Add 1 to wound rolls for attacks made by this unit that target units that are not Vehicles and have any damage markers next to them.
 ```
 
-### Options
-- per: Per Unit
-  Pt: 4
-  text: It can contain 8 models
-- per: Per 2 models
-  Pt: 6
-  text: 12 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -855,10 +853,20 @@ Voracious Predators: Add 1 to wound rolls for attacks made by this unit that tar
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | - | 2 | 2 | 4 | 10+ | 8 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Ripping Fangs.
+```
+
 #### 12 Kroot Hounds
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | - | 3 | 3 | 4 | 10+ | 12 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Ripping Fangs.
+```
 
 ## Unit 20 — Fast — Tactical Drones
 
@@ -883,12 +891,6 @@ Threat Identification Protocols: This unit must target the closest enemy unit wh
 ```
 
 ### Options
-- per: Per Unit
-  Pt: 5
-  text: It can contain 8 models
-- per: Per 2 models
-  Pt: 7
-  text: 12 models
 - per: Per 4 models
   Pt: 1
   text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
@@ -905,10 +907,20 @@ Threat Identification Protocols: This unit must target the closest enemy unit wh
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 2 | 2 | 4 | 8+ | 8 | 5 |
 
+##### Profile Abilities
+```
+It is equipped with: Pulse Carbines; Close Combat Weapons.
+```
+
 #### 12 Tactical Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 3 | 3 | 4 | 8+ | 12 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Pulse Carbines; Close Combat Weapons.
+```
 
 ## Unit 21 — Fast — TX4 Piranhas
 
@@ -924,13 +936,7 @@ Heavy, Vehicle, Fly
 T'au Empire, <Sept>, TX4 Piranhas
 
 ### Options
-- per: Per 3 models
-  Pt: 9
-  text: It can contain 3 models
-- per: Per 5 models
-  Pt: 15
-  text: 5 models
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Fusion Blaster; 1 Burst Cannon
 
@@ -948,10 +954,20 @@ T'au Empire, <Sept>, TX4 Piranhas
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16" | 6+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Pulse Carbines; Close Combat Weapons.
+```
+
 #### 5 TX4 Piranhas
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16" | 6+ | 4+ | 5 | 5 | 4 | 8+ | 5 | 15 |
+
+##### Profile Abilities
+```
+It is equipped with: Pulse Carbines; Close Combat Weapons.
+```
 
 ## Unit 22 — Fast — Vespid Stingwings
 
@@ -974,14 +990,6 @@ T'au Empire, Vespid, Vespid Stingwings
 Deep Strike
 ```
 
-### Options
-- per: Per Unit
-  Pt: 11
-  text: It can contain 8 models
-- per: Per 2 models
-  Pt: 16
-  text: 12 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -994,10 +1002,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 2 | 6 | 8+ | 8 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: Neutron Blasters; Close Combat Weapons.
+```
+
 #### 12 Vespid Stingwings
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 3 | 3 | 6 | 8+ | 12 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Neutron Blasters; Close Combat Weapons.
+```
 
 ## Unit 23 — Heavy — Longstrike
 
@@ -1055,14 +1073,6 @@ T'au Empire, <Sept>, Drone, MV71 Sniper Drones
 Stealth
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 5
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 7
-  text: 9 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1075,10 +1085,20 @@ Stealth
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 2 | 2 | 4 | 8+ | 6 | 5 |
 
+##### Profile Abilities
+```
+It is equipped with: Longshot Pulse Rifles; Close Combat Weapons.
+```
+
 #### 9 MV71 Sniper Drones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 5+ | 5+ | 3 | 3 | 4 | 8+ | 9 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Longshot Pulse Rifles; Close Combat Weapons.
+```
 
 ## Unit 25 — Heavy — TX7 Hammerhead Gunship
 
@@ -1173,23 +1193,17 @@ T'au Empire, <Sept>, XV88 Broadside Battlesuits
 ```
 
 ### Options
-- per: Per 2 models
-  Pt: 11
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 16
-  text: 3 models
-- per: Per Unit
+- per: Per Model
   Pt: 1
   text: For each model this unit contains, it
   Choose 1: 1 Heavy Rail Rifle; 2 High-yield Missile Pods (Power Rating +1)
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: Smart Missile Systems; Plasma Rifles
 - per: Per Unit
   Pt: 1
   text: This unit can have up to two of the following: Gun Drones, Marker Drones, Shield Drones.
-- per: Per Unit
+- per: Per Model
   Pt: 1
   text: For each model this unit contains, it can have up to two Missile Drones
 
@@ -1209,10 +1223,20 @@ T'au Empire, <Sept>, XV88 Broadside Battlesuits
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 5+ | 4+ | 2 | 2 | 6 | 5+ | 2 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: High-yield Missile Pod; Missile Pod; Close Combat Weapons.
+```
+
 #### 3 XV88 Broadside Battlesuits
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 5+ | 4+ | 3 | 3 | 6 | 5+ | 3 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: High-yield Missile Pod; Missile Pod; Close Combat Weapons.
+```
 
 ## Unit 30 — Transport — TY7 Devilfish
 
@@ -1368,15 +1392,13 @@ Mobile Defence Platform: This unit can only make a Move action if any models are
 TRANSPORT: This unit can transport up to 10 T'au Empire Infantry models.
 Tidewall Gunrig — Automated Fire Control Systems: This unit will always target the closest enemy unit with its Supremacy Railgun unless a friendly <Sept> unit is embarked aboard it. If two enemy units are equally close, you can choose which one this unit targets.
 Tidewall Droneport — Automated Drone Control Systems: This unit will always target the closest enemy unit with its Pulse Carbines. If two enemy units are equally close, you can choose which one this unit targets.
+Tidewall Gunrig is equipped with: Supremacy Railgun.
+Tidewall Droneport is equipped with: 2 Pulse Carbines.
 ```
 
 ### Options
 - per: Per Unit
   text: Select one Tidewall configuration when including this unit: Tidewall Gunrig, Tidewall Droneport, or Tidewall Shieldline.
-- per: Per Unit
-  text: Tidewall Gunrig is equipped with: Supremacy Railgun.
-- per: Per Unit
-  text: Tidewall Droneport is equipped with: 2 Pulse Carbines.
 - per: Per Unit
   text: Tidewall Shieldline has no ranged weapons.
 

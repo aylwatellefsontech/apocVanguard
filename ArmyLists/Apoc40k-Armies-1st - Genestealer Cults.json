@@ -23,13 +23,17 @@
         "Psyker",
         "Character"
       ],
-      "abilities": "Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Cult> Genestealer units whilst they are within 6\" of any friendly <Cult> units with this ability.\nLiving Idol: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Patriarch is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Genestealer",
+        "Patriarch"
+      ],
+      "abilities": "Brood Telepathy: Add 1 to hit rolls for attacks made with melee weapons by <Cult> Genestealer units whilst they are within 6\" of any friendly <Cult> units with this ability.\nLiving Idol: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.\nA Patriarch is a unit that contains 1 model. It is equipped with: Monstrous Rending Claws.",
       "weapons": [
         {
           "name": "Monstrous Rending Claws",
@@ -39,16 +43,6 @@
           "skill": "4+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Genestealer",
-        "Patriarch"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -72,13 +66,16 @@
         "Psyker",
         "Character"
       ],
-      "abilities": "Spiritual Leader: Friendly <Cult> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nMaster Psyker: Once per battle, at the end of the Orders phase, you can look through your Command Asset deck and draw either one Genestealer Cults Command Asset of your choice that is a psychic power, or the Deny the Witch or Adamantium Will card. Add the drawn card to your hand, then shuffle the Command Asset deck and place it face down.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Magus is a unit that contains 1 model. It is equipped with: Magus Force Weapon."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Magus"
+      ],
+      "abilities": "Spiritual Leader: Friendly <Cult> units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nMaster Psyker: Once per battle, at the end of the Orders phase, you can look through your Command Asset deck and draw either one Genestealer Cults Command Asset of your choice that is a psychic power, or the Deny the Witch or Adamantium Will card. Add the drawn card to your hand, then shuffle the Command Asset deck and place it face down.\nA Magus is a unit that contains 1 model. It is equipped with: Magus Force Weapon.",
       "weapons": [
         {
           "name": "Magus Force Weapon",
@@ -88,15 +85,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Magus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -119,13 +107,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Cult Demagogue: Add 1 to hit rolls for attacks made with melee weapons by <Cult> units whilst they are within 6\" of any friendly <Cult> units with this ability.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Primus is a unit that contains 1 model. It is equipped with: Elite Cult Weapons."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Primus"
+      ],
+      "abilities": "Cult Demagogue: Add 1 to hit rolls for attacks made with melee weapons by <Cult> units whilst they are within 6\" of any friendly <Cult> units with this ability.\nA Primus is a unit that contains 1 model. It is equipped with: Elite Cult Weapons.",
       "weapons": [
         {
           "name": "Elite Cult Weapons",
@@ -135,15 +126,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Primus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -166,13 +148,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Kelermorph"
+      ],
+      "abilities": "Folk Hero: If this unit successfully wounds an enemy unit with its Liberator Autostubs then, until the end of the turn, re-roll hit rolls of 1 for attacks made with ranged weapons by friendly <Cult> Infantry units whilst they are within 6\" of this unit.\nA Kelermorph is a unit that contains 1 model. It is equipped with: Liberator Autostubs; Cultist Knife.",
       "weapons": [
         {
           "name": "Liberator Autostubs",
@@ -190,15 +175,6 @@
           "skill": "11+",
           "armorPen": "12+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Kelermorph"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -220,26 +196,18 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Acolyte Hybrids"
+      ],
       "options": [
         {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "6",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "9",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 20 models",
-          "text": "20 models",
-          "Pt": "12"
-        },
-        {
-          "per": "Per weapon",
+          "per": "Per 5 models",
           "text": "For every 5 models this unit contains, it can also be equipped with up to two of the following in any combination: 1 Demolition Charge; 1 Heavy Rock Drill; 1 Heavy Rock Saw.",
           "Pt": "1"
         }
@@ -298,7 +266,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
         },
         {
           "name": "15 Acolyte Hybrids",
@@ -310,7 +279,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
         },
         {
           "name": "20 Acolyte Hybrids",
@@ -322,17 +292,9 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Acolyte Hybrids"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -354,14 +316,18 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Neophyte Hybrids"
+      ],
       "options": [
         {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models",
-          "Pt": "10"
-        },
-        {
-          "per": "Per weapon",
+          "per": "up to 2",
           "text": "This unit can also be equipped with up to two of the following in any combination: 1 Heavy Stubber; 1 Mining Laser; 1 Seismic Cannon.",
           "Pt": "1",
           "title": "Heavy Weapon"
@@ -421,17 +387,9 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "20",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Neophyte Hybrids"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -453,12 +411,16 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Brood Brothers Infantry Squad"
+      ],
       "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models",
-          "Pt": "6"
-        },
         {
           "per": "Per Unit",
           "text": "It can contain 1 weapons team model instead of 2 other models",
@@ -468,6 +430,7 @@
         {
           "per": "Per Unit",
           "text": "If this unit contains a weapons team model, it",
+          "title": "Weapons Team",
           "chooseOne": [
             "1 Autocannon",
             "1 Heavy Bolter",
@@ -475,8 +438,7 @@
             "1 Missile Launcher",
             "1 Mortar"
           ],
-          "chooseLimit": 1,
-          "title": "Weapons Team"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -550,17 +512,9 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Lasguns; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Brood Brothers Infantry Squad"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -582,14 +536,16 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Remote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
-      "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models.",
-          "Pt": "8"
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Cult Combat Engineers"
+      ],
+      "abilities": "Remote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
       "weapons": [
         {
           "name": "Trench Clubs",
@@ -620,17 +576,9 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Trench Clubs; Flamers."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Cult Combat Engineers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -653,13 +601,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Sacred Cult Banner: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.\nNexus of Devotion: Friendly <Cult> Light units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Acolyte Iconward is a unit that contains 1 model. It is equipped with: Rending Claw."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Acolyte Iconward"
+      ],
+      "abilities": "Sacred Cult Banner: Morale tests taken for friendly <Cult> units are automatically passed whilst they are within 6\" of this unit.\nNexus of Devotion: Friendly <Cult> Light units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.\nAn Acolyte Iconward is a unit that contains 1 model. It is equipped with: Rending Claw.",
       "weapons": [
         {
           "name": "Rending Claw",
@@ -669,15 +620,6 @@
           "skill": "8+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Acolyte Iconward"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -699,24 +641,15 @@
         "Light",
         "Infantry"
       ],
-      "options": [
-        {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "10",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "15",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 20 models",
-          "text": "20 models",
-          "Pt": "20"
-        }
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Genestealer",
+        "Purestrain Genestealers"
       ],
       "weapons": [
         {
@@ -739,7 +672,8 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "10",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Purestrain Claws."
         },
         {
           "name": "15 Purestrain Genestealers",
@@ -751,7 +685,8 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "15",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Purestrain Claws."
         },
         {
           "name": "20 Purestrain Genestealers",
@@ -763,18 +698,9 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "20",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Purestrain Claws."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Genestealer",
-        "Purestrain Genestealers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -796,15 +722,16 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Ignore Damage (6+)",
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models",
-          "Pt": "9",
-          "title": "10 Models"
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Aberrants"
+      ],
+      "abilities": "Ignore Damage (6+)",
       "weapons": [
         {
           "name": "Aberrant Weapons",
@@ -826,17 +753,9 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Aberrant Weapons."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Aberrants"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -858,13 +777,14 @@
         "Light",
         "Infantry"
       ],
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models",
-          "Pt": "8",
-          "title": "10 Models"
-        }
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Hybrid Metamorphs"
       ],
       "weapons": [
         {
@@ -895,17 +815,9 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee)."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Hybrid Metamorphs"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -928,13 +840,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Scrambler Array: Enemy units that arrive as reinforcements using the Deep Strike ability cannot be set up within 12\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Clamavus is a unit that contains 1 model. It is equipped with: Close Combat Weapons."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Clamavus"
+      ],
+      "abilities": "Scrambler Array: Enemy units that arrive as reinforcements using the Deep Strike ability cannot be set up within 12\" of this unit.\nA Clamavus is a unit that contains 1 model. It is equipped with: Close Combat Weapons.",
       "weapons": [
         {
           "name": "Close Combat Weapons",
@@ -944,15 +859,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Clamavus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -975,13 +881,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Unquestioning Bodyguard: At the start of the Damage phase, you can select one friendly <Cult> Light Character unit within 6\" of this unit; remove up to D3 blast markers from that Character unit and place them next to this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Locus is a unit that contains 1 model. It is equipped with: Locus Blades."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Locus"
+      ],
+      "abilities": "Unquestioning Bodyguard: At the start of the Damage phase, you can select one friendly <Cult> Light Character unit within 6\" of this unit; remove up to D3 blast markers from that Character unit and place them next to this unit.\nA Locus is a unit that contains 1 model. It is equipped with: Locus Blades.",
       "weapons": [
         {
           "name": "Locus Blades",
@@ -991,15 +900,6 @@
           "skill": "7+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Locus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1021,6 +921,15 @@
         "Light",
         "Infantry",
         "Character"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Sanctus"
       ],
       "abilities": "Infiltrators\nCult Assassin: This unit cannot be a Warlord.\nA Sanctus is a unit that contains 1 model. It is equipped with: Silencer Sniper Rifle; Familiar Claws.",
       "options": [
@@ -1055,15 +964,6 @@
           "skill": "11+",
           "armorPen": "12+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Sanctus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1086,13 +986,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Strategic Coordinator: If any friendly units with this ability are on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Nexos is a unit that contains 1 model. It is equipped with: Close Combat Weapons."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Nexos"
+      ],
+      "abilities": "Strategic Coordinator: If any friendly units with this ability are on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.\nA Nexos is a unit that contains 1 model. It is equipped with: Close Combat Weapons.",
       "weapons": [
         {
           "name": "Close Combat Weapons",
@@ -1102,15 +1005,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Nexos"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1133,13 +1027,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Genomic Enhancement: At the start of the Action phase, you can enhance one friendly <Cult> Aberrant unit within 1\" of this unit. Add 1 to that unit's Attacks characteristic until the end of the battle. A unit can only be enhanced once per battle.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Biophagus is a unit that contains 1 model. It is equipped with: Injector Goad."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Biophagus"
+      ],
+      "abilities": "Genomic Enhancement: At the start of the Action phase, you can enhance one friendly <Cult> Aberrant unit within 1\" of this unit. Add 1 to that unit's Attacks characteristic until the end of the battle. A unit can only be enhanced once per battle.\nA Biophagus is a unit that contains 1 model. It is equipped with: Injector Goad.",
       "weapons": [
         {
           "name": "Injector Goad",
@@ -1149,15 +1046,6 @@
           "skill": "5+",
           "armorPen": "12+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Biophagus"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1180,13 +1068,13 @@
         "Biker",
         "Character"
       ],
-      "abilities": "Stealth\nPriority Target Sighted: When this unit's Detachment is chosen to carry out an order, before any actions are made, select one enemy unit visible to and within 36\" of this unit. Until the end of the turn, add 1 to hit rolls for attacks made with ranged weapons by friendly <Cult> units whilst they are within 6\" of this unit if those attacks target the selected unit. An enemy unit can only be affected by this ability once per turn.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Jackal Alphus is a unit that contains 1 model. It is equipped with: Jackal Sniper Rifle; Close Combat Weapons."
-        }
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Jackal Alphus"
       ],
+      "abilities": "Stealth\nPriority Target Sighted: When this unit's Detachment is chosen to carry out an order, before any actions are made, select one enemy unit visible to and within 36\" of this unit. Until the end of the turn, add 1 to hit rolls for attacks made with ranged weapons by friendly <Cult> units whilst they are within 6\" of this unit if those attacks target the selected unit. An enemy unit can only be affected by this ability once per turn.\nA Jackal Alphus is a unit that contains 1 model. It is equipped with: Jackal Sniper Rifle; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Jackal Sniper Rifle",
@@ -1205,12 +1093,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Jackal Alphus"
       ]
     },
     {
@@ -1232,27 +1114,24 @@
         "Light",
         "Biker"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Atalan Jackals"
+      ],
+      "abilities": "12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model",
       "options": [
         {
           "per": "Per Unit",
-          "text": "It can contain 8 models",
-          "Pt": "8"
-        },
-        {
-          "per": "Per 2 models",
-          "text": "12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model",
-          "Pt": "12"
-        },
-        {
-          "per": "Per Unit",
           "text": "For each Atalan Wolfquad model this unit contains, it",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Atalan Incinerator",
             "1 Heavy Stubber",
             "1 Mining Laser"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1309,7 +1188,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
         },
         {
           "name": "15 Atalan Jackals",
@@ -1321,14 +1201,22 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
+        },
+        {
+          "name": "8 Atalan Jackals",
+          "M": "14\"",
+          "WS": "4+",
+          "BS": "4+",
+          "Ld": "6",
+          "Sv": "10+",
+          "A": "2",
+          "W": "3",
+          "N": "8",
+          "Pt": "8",
+          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Atalan Jackals"
       ]
     },
     {
@@ -1350,20 +1238,17 @@
         "Heavy",
         "Vehicle"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Cult Armoured Sentinels"
+      ],
       "options": [
         {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models",
-          "Pt": "6"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models",
-          "Pt": "9"
-        },
-        {
-          "per": "Per Unit",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Autocannon",
             "1 Heavy Flamer",
@@ -1372,8 +1257,7 @@
             "1 Multi-laser",
             "1 Plasma Cannon"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1447,7 +1331,8 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "2",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Armoured Feet."
         },
         {
           "name": "3 Cult Armoured Sentinels",
@@ -1459,14 +1344,9 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "3",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Armoured Feet."
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Cult Armoured Sentinels"
       ]
     },
     {
@@ -1488,10 +1368,19 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Brood Brothers Heavy Weapons Squad"
+      ],
       "abilities": "Weapon Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.\nA Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equipped with: Close Combat Weapons.",
       "options": [
         {
-          "per": "Per Unit",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
           "chooseOne": [
             "1 Autocannon",
@@ -1553,15 +1442,6 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Brood Brothers Heavy Weapons Squad"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1583,6 +1463,12 @@
         "Heavy",
         "Vehicle",
         "Transport"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Goliath Rockgrinder"
       ],
       "abilities": "Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.\nA Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade.",
       "options": [
@@ -1638,12 +1524,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Goliath Rockgrinder"
       ]
     },
     {
@@ -1665,6 +1545,12 @@
         "Heavy",
         "Vehicle"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Cult Leman Russ"
+      ],
       "abilities": "Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Eradicator Nova Cannon, Exterminator Autocannon and Vanquisher Battle Cannon for that action.\nA Cult Leman Russ is a unit that contains 1 model. It is equipped with: Battle Cannon; Heavy Bolter; Grinding Tracks.",
       "options": [
         {
@@ -1680,36 +1566,36 @@
         {
           "per": "Per Unit",
           "text": "Instead of 1 Heavy Bolter, this unit can be",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Flamer",
             "1 Lascannon"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "2",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "2 Heavy Bolters",
             "2 Heavy Flamers",
             "2 Multi-meltas",
             "2 Plasma Cannons"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Stubber",
             "1 Storm Bolter"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1812,12 +1698,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Cult Leman Russ"
       ]
     },
     {
@@ -1840,14 +1720,13 @@
         "Vehicle",
         "Transport"
       ],
-      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.",
-          "title": "Heavy Weapon"
-        }
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Goliath Truck"
       ],
+      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.\nA Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.",
       "weapons": [
         {
           "name": "Heavy Stubber",
@@ -1873,12 +1752,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Goliath Truck"
       ]
     },
     {
@@ -1900,6 +1773,13 @@
         "Heavy",
         "Vehicle"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Hydra",
+        "Cult Hydra"
+      ],
       "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one.\nA Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocannon; Heavy Bolter; Armoured Tracks.",
       "options": [
         {
@@ -1911,12 +1791,12 @@
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Stubber",
             "1 Storm Bolter"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1945,13 +1825,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Hydra",
-        "Cult Hydra"
       ]
     },
     {
@@ -1974,6 +1847,12 @@
         "Vehicle",
         "Transport"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "Brood Brothers",
+        "Cult Chimera"
+      ],
       "abilities": "TRANSPORT: This unit can transport up to 12 friendly Brood Brothers Infantry models. Each weapons team model takes the space of 2 other Infantry models.\nA Cult Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 Lasgun Arrays; Multi-laser; Armoured Tracks.",
       "options": [
         {
@@ -1984,23 +1863,23 @@
         {
           "per": "Per Unit",
           "text": "Instead of 1 Multi-laser, this unit can be",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Bolter",
             "1 Heavy Flamer"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Stubber",
             "1 Storm Bolter"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -2063,12 +1942,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "Brood Brothers",
-        "Cult Chimera"
       ]
     },
     {
@@ -2091,14 +1964,13 @@
         "Vehicle",
         "Transport"
       ],
-      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.",
-          "title": "Heavy Weapon"
-        }
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Goliath Truck"
       ],
+      "abilities": "Open-topped, Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 10 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.\nA Goliath Truck is a unit that contains 1 model. It is equipped with: Heavy Stubber; Twin Autocannon; Tough Chassis.",
       "weapons": [
         {
           "name": "Heavy Stubber",
@@ -2124,12 +1996,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Goliath Truck"
       ]
     },
     {
@@ -2151,6 +2017,12 @@
         "Heavy",
         "Vehicle",
         "Transport"
+      ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Goliath Rockgrinder"
       ],
       "abilities": "Ignore Damage (6+)\nTRANSPORT: This unit can transport up to 6 friendly <Cult> Infantry models. Each Patriarch model takes the space of 5 other Infantry models.\nA Goliath Rockgrinder is a unit that contains 1 model. It is equipped with: Heavy Mining Laser; Heavy Stubber; Drilldozer Blade.",
       "options": [
@@ -2206,12 +2078,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Goliath Rockgrinder"
       ]
     },
     {
@@ -2234,13 +2100,17 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Ignore Damage (6+)\nThe Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6\" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer."
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
+      "traits": [
+        "Tyranids",
+        "Genestealer Cults",
+        "<Cult>",
+        "Aberrant",
+        "Abominant"
+      ],
+      "abilities": "Ignore Damage (6+)\nThe Chosen One: When an unmodified hit roll of 6+ is rolled for an attack made with a melee weapon by a <Cult> Aberrant unit whilst it is within 6\" of any friendly <Cult> units with this ability, that attack scores 2 hits instead of 1 – make a separate wound roll for each hit.\nAn Abominant is a unit that contains 1 model. It is equipped with: Power Sledgehammer.",
       "weapons": [
         {
           "name": "Power Sledgehammer",
@@ -2250,16 +2120,6 @@
           "skill": "6+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Tyranids",
-        "Genestealer Cults",
-        "<Cult>",
-        "Aberrant",
-        "Abominant"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -2283,19 +2143,13 @@
         "Sector Mechanicus",
         "Tectonic Fragdrill"
       ],
-      "abilities": "SEISMIC QUAKE: Once per battle, at the start of the second or subsequent Action phase, the player who set up this terrain feature can trigger a seismic quake if there are any Genestealer Cults units from their army within 1\" of this terrain feature. If they do, draw a straight imaginary line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses this terrain feature. Roll one D6 for each unit without the Fly keyword and each unit garrisoning a Defensible Terrain feature that this line crosses; on a 5+ place one blast marker next to the unit being rolled for.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Tectonic Fragdrill is a unit that contains 1 model."
-        }
-      ],
       "traits": [
         "Tyranids",
         "Genestealer Cults",
         "Sector Mechanicus",
         "Tectonic Fragdrill"
-      ]
+      ],
+      "abilities": "SEISMIC QUAKE: Once per battle, at the start of the second or subsequent Action phase, the player who set up this terrain feature can trigger a seismic quake if there are any Genestealer Cults units from their army within 1\" of this terrain feature. If they do, draw a straight imaginary line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses this terrain feature. Roll one D6 for each unit without the Fly keyword and each unit garrisoning a Defensible Terrain feature that this line crosses; on a 5+ place one blast marker next to the unit being rolled for.\nA Tectonic Fragdrill is a unit that contains 1 model."
     }
   ]
 }

@@ -73,6 +73,7 @@ Infantry, Jump Pack, Fly
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Helwrought Weapons.
 ```
 
 #### Terminator Armour
@@ -86,6 +87,7 @@ Infantry, Terminator
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Helwrought Weapons.
 ```
 
 #### Bike
@@ -95,6 +97,11 @@ Deep Strike
 
 ##### Profile Keywords
 Biker
+
+##### Profile Abilities
+```
+It is equipped with: Helwrought Weapons.
+```
 
 ## Unit 3 — HQ — Sorcerer
 
@@ -129,6 +136,7 @@ Infantry, Jump Pack, Fly
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Force Weapon.
 ```
 
 #### Terminator Armour
@@ -142,6 +150,7 @@ Infantry, Terminator
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Force Weapon.
 ```
 
 #### Bike
@@ -151,6 +160,11 @@ Deep Strike
 
 ##### Profile Keywords
 Biker
+
+##### Profile Abilities
+```
+It is equipped with: Force Weapon.
+```
 
 ## Unit 4 — HQ — Demon Prince
 
@@ -191,6 +205,7 @@ Fly
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Daemonic Weapons.
 ```
 
 ## Unit 5 — HQ — Exalted Champion
@@ -266,15 +281,30 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Space Marines
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.
+```
+
 #### 10 Traitor Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.
+```
+
 #### 15 Traitor Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.
+```
 
 ## Unit 7 — Troops — Cultists
 
@@ -293,7 +323,7 @@ Infantry
 Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Cultists
 
 ### Options
-- per: Per weapon
+- per: Per 10 models
   Pt: 1
   title: Heavy Weapon
   text: For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber.
@@ -315,10 +345,20 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Cultists
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 2 | 2 | 5 | 10+ | 20 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons.
+```
+
 #### 30 Cultists
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 3 | 3 | 5 | 10+ | 30 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons.
+```
 
 ## Unit 30 — Troops — Traitor Guard
 
@@ -377,15 +417,30 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chosen
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons.
+```
+
 #### 10 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons.
+```
+
 #### 15 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons.
+```
 
 ## Unit 9 — Elites — Cult Marines
 
@@ -432,15 +487,30 @@ Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5", Sv 5+, Psyke
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.
+```
+
 #### 10 Cult Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.
+```
+
 #### 15 Cult Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.
+```
 
 ## Unit 10 — Elites — Terminators
 
@@ -464,7 +534,7 @@ Deep Strike
 ```
 
 ### Options
-- per: Per weapon
+- per: Per 5 models
   Pt: 1
   title: Heavy Weapon
   text: For every 5 models this unit contains, it
@@ -484,10 +554,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: Combi-bolters; Terminator Power Weapons.
+```
+
 #### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 21 |
+
+##### Profile Abilities
+```
+It is equipped with: Combi-bolters; Terminator Power Weapons.
+```
 
 ## Unit 11 — Elites — Greater Possessed
 
@@ -548,10 +628,20 @@ Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2D3+2 | 4 | 6 | 5+ | 10 | 20 |
 
+##### Profile Abilities
+```
+It is equipped with: Horrifying Mutations.
+```
+
 #### 15 Possessed
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 3D3+3 | 6 | 6 | 5+ | 15 | 30 |
+
+##### Profile Abilities
+```
+It is equipped with: Horrifying Mutations.
+```
 
 ## Unit 26 — Elites — Plague Marines
 
@@ -575,7 +665,7 @@ Ignore Damage (6+)
 ```
 
 ### Options
-- per: Per weapon
+- per: up to 2
   Pt: 1
   text: This unit can also be equipped with up to two of the following in any combination: 1 Blight Launcher; 1 Plague Spewer.
 
@@ -593,15 +683,30 @@ Ignore Damage (6+)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
+```
+
 #### 10 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
+```
+
 #### 15 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
+```
 
 ## Unit 27 — Elites — Khorne Berzerkers
 
@@ -636,15 +741,30 @@ Berzerker Horde: If this unit is in a Detachment that contains only World Eaters
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Chain Weapons.
+```
+
 #### 10 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Chain Weapons.
+```
+
 #### 15 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Chain Weapons.
+```
 
 ## Unit 29 — Elites — Rubric Marines
 
@@ -663,7 +783,7 @@ Infantry
 Chaos, Tzeentch, Heretic Astartes, <Legion>, Rubric Marines
 
 ### Options
-- per: Per cannon
+- per: Per 10 models
   Pt: 1
   title: Soulreaper Cannon
   text: For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon.
@@ -685,15 +805,30 @@ Chaos, Tzeentch, Heretic Astartes, <Legion>, Rubric Marines
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
+##### Profile Abilities
+```
+It is equipped with: Inferno Boltguns; Close Combat Weapons.
+```
+
 #### 10 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Inferno Boltguns; Close Combat Weapons.
+```
+
 #### 15 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+
+##### Profile Abilities
+```
+It is equipped with: Inferno Boltguns; Close Combat Weapons.
+```
 
 ## Unit 31 — Elites — Chaos Beastmen
 
@@ -755,20 +890,40 @@ Mutated Beyond Reason: When this unit makes a Fight action, before picking targe
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 2 | 2 | 7 | 10+ | 2 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Hideous Mutations.
+```
+
 #### 3 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 3 | 3 | 8 | 10+ | 3 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Hideous Mutations.
+```
 
 #### 4 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 4 | 4 | 8 | 10+ | 4 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Hideous Mutations.
+```
+
 #### 5 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 5 | 5 | 8 | 10+ | 5 | 11 |
+
+##### Profile Abilities
+```
+It is equipped with: Hideous Mutations.
+```
 
 ## Unit 14 — Fast — Bikers
 
@@ -794,6 +949,11 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Bikers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 18 |
+
+##### Profile Abilities
+```
+It is equipped with: Twin Boltguns; Close Combat Weapons.
+```
 
 ## Unit 15 — Fast — Raptors
 
@@ -828,10 +988,20 @@ Deep Strike, Terror Troops
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Chainswords.
+```
+
 #### 15 Raptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 25 |
+
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Chainswords.
+```
 
 ## Unit 16 — Heavy — Havocs
 
@@ -1069,10 +1239,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4" | 3+ | 3+ | 2 | 4 | 6 | 4+ | 2 | 17 |
 
+##### Profile Abilities
+```
+It is equipped with: Fleshmetal Guns; Crushing Fists.
+```
+
 #### 3 Obliterators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4" | 3+ | 3+ | 3 | 6 | 6 | 4+ | 3 | 25 |
+
+##### Profile Abilities
+```
+It is equipped with: Fleshmetal Guns; Crushing Fists.
+```
 
 ## Unit 23 — Heavy — Land Raider
 
@@ -1143,15 +1323,30 @@ Masters of the Kakophoni: If this unit is in a Detachment that contains only Emp
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
+##### Profile Abilities
+```
+It is equipped with: Noise Marine Weapons; Close Combat Weapons.
+```
+
 #### 10 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Noise Marine Weapons; Close Combat Weapons.
+```
+
 #### 15 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+
+##### Profile Abilities
+```
+It is equipped with: Noise Marine Weapons; Close Combat Weapons.
+```
 
 ## Unit 24 — Transport — Rhino
 
@@ -1271,17 +1466,37 @@ Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Grea
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 5+ | 1 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).
+```
+
 #### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 8+ | 1 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).
+```
 
 #### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 2+ | 2+ | 2 | 4 | 8 | 9+ | 1 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).
+```
+
 #### 1 Greater Daemon
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 15" | 2+ | 2+ | 2 | 3 | 8 | 9+ | 1 | 14 |
+
+##### Profile Abilities
+```
+It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).
+```

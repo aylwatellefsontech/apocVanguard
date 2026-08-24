@@ -30,7 +30,7 @@
       "profileKeywords": [
         "Infantry"
       ],
-      "abilities": "Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
+      "abilities": "Equipped with: Witchblade; Eldritch Storm;\nRunes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
       "options": [
         {
           "per": "Per Unit",
@@ -110,7 +110,7 @@
       "profileKeywords": [
         "Infantry"
       ],
-      "abilities": "Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\n\nThis unit can have one of: Skyrunner jetbike (Skyrunner Jetbike profile), Jump Generator (Jump Generator profile), Swooping Hawk Wings (Hawk Wings profile).",
+      "abilities": "Equipped with: Autarch Weapons;\nPath of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.\n\nThis unit can have one of: Skyrunner jetbike (Skyrunner Jetbike profile), Jump Generator (Jump Generator profile), Swooping Hawk Wings (Hawk Wings profile).",
       "weapons": [
         {
           "name": "Autarch Weapons",
@@ -484,7 +484,7 @@
         "Warlock",
         "Warlock Conclave"
       ],
-      "abilities": "This unit can have 3 Warlocks (Profile) or 6 Warlocks (6 Warlocks Profile), a Jetbike (Skyrunner profile), or 3 Warlocks on jetbikes (3 Skyrunners Profile).\nConclave of Power: If this unit contains 3 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 6 models, add 4 to wound rolls for attacks made by this unit instead.",
+      "abilities": "This unit can have 3 Warlocks (Profile) or 6 Warlocks (6 Warlocks Profile), a Jetbike (Skyrunner profile), or 3 Warlocks on jetbikes (3 Skyrunners Profile).\nEquipped with: Destructor; Witchblades & Singing Spears;\nConclave of Power: If this unit contains 3 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 6 models, add 4 to wound rolls for attacks made by this unit instead.",
       "weapons": [
         {
           "name": "Destructor",
@@ -1081,7 +1081,7 @@
         "<Craftworld>",
         "Spiritseer"
       ],
-      "abilities": "Spirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6\" of this unit.",
+      "abilities": "Equipped with: Witch Staff;\nSpirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6\" of this unit.",
       "weapons": [
         {
           "name": "Witch Staff",
@@ -1928,15 +1928,14 @@
         "Guardian",
         "Support Weapon"
       ],
-      "abilities": "equipped with Close Combat Weapons.\nMust choose one to be equipped with: 1 Shadow Weaver, 1 D-cannon; 1 Vibro Cannon.\nArtillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "abilities": "equipped with Close Combat Weapons and D-Cannon;\nMust choose one to be equipped with: 1 Shadow Weaver, 1 D-cannon; 1 Vibro Cannon.\nArtillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Can be equipped with",
+          "text": "Can exchange D-Cannon for:",
           "title": "Weapon",
           "chooseOne": [
             "Shadow Weaver",
-            "D-Cannon",
             "Vibro Cannon"
           ],
           "chooseLimit": 1

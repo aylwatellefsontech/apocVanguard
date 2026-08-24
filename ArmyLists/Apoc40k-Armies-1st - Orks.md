@@ -5,6 +5,9 @@ version: 0.4.1
 date:2026-08-22
 ---
 
+# concept
+Strong horde-like melee army, with volume of attacks. Infantry based, with fast moving forces. Heroes are tough.
+
 # Orks Army List
 
 ## Unit 1 — HQ — Gazzghkull Thraka

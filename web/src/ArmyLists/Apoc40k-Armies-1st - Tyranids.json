@@ -24,14 +24,7 @@
         "Character",
         "Synapse Creature"
       ],
-      "abilities": "The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nHive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18\" of this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.",
-          "title": "Special Character"
-        }
-      ],
+      "abilities": "The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nHive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18\" of this unit.\nThe Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.",
       "weapons": [
         {
           "name": "Bone Sabres",
@@ -247,7 +240,7 @@
           "keywords": [
             "Fly"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Heavy Venom Cannon; Prehensile Pincer Tail."
         }
       ]
     },
@@ -272,13 +265,7 @@
         "Character",
         "Synapse Creature"
       ],
-      "abilities": "Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warrior units whilst they are within 6\" of any friendly units with this ability.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons."
-        }
-      ],
+      "abilities": "Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warrior units whilst they are within 6\" of any friendly units with this ability.\nA Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.",
       "weapons": [
         {
           "name": "Ranged Bio-weapons",
@@ -329,17 +316,7 @@
       ],
       "options": [
         {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "8"
-        },
-        {
-          "per": "Per 9 models",
-          "text": "9 models",
-          "Pt": "12"
-        },
-        {
-          "per": "Per weapon",
+          "per": "Per 3 models",
           "text": "For every 3 models this unit contains, it",
           "Pt": "1",
           "chooseOne": [
@@ -394,7 +371,8 @@
           "Ld": "7",
           "Sv": "8+",
           "N": "6",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Ranged Bio-weapons; Melee Bio-weapons."
         },
         {
           "name": "9 Tyranid Warriors",
@@ -406,7 +384,8 @@
           "Ld": "7",
           "Sv": "8+",
           "N": "9",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Ranged Bio-weapons; Melee Bio-weapons."
         }
       ],
       "traits": [
@@ -439,18 +418,6 @@
         "Infantry"
       ],
       "abilities": "Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.",
-      "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 30 models",
-          "text": "30 models",
-          "Pt": "7"
-        }
-      ],
       "weapons": [
         {
           "name": "Scything Talons",
@@ -472,7 +439,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "20",
-          "Pt": "5"
+          "Pt": "5",
+          "abilities": "It is equipped with: Scything Talons."
         },
         {
           "name": "30 Hormagaunts",
@@ -484,7 +452,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "30",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Scything Talons."
         }
       ],
       "traits": [
@@ -516,18 +485,6 @@
         "Light"
       ],
       "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 9 models",
-          "text": "9 models",
-          "Pt": "6"
-        }
-      ],
       "weapons": [
         {
           "name": "Claws & Teeth",
@@ -549,7 +506,8 @@
           "Ld": "4",
           "Sv": "11+",
           "N": "6",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Claws & Teeth."
         },
         {
           "name": "9 Ripper Swarms",
@@ -561,7 +519,8 @@
           "Ld": "4",
           "Sv": "11+",
           "N": "9",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Claws & Teeth."
         }
       ],
       "traits": [
@@ -593,16 +552,6 @@
       ],
       "abilities": "Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.",
       "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 30 models",
-          "text": "30 models",
-          "Pt": "7"
-        },
         {
           "per": "Per 10 models",
           "text": "Instead of Fleshborers, this unit can be equipped with Spinefists.",
@@ -661,7 +610,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "20",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Fleshborers; Termagant Melee Weapons."
         },
         {
           "name": "30 Termagants",
@@ -673,7 +623,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "30",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Fleshborers; Termagant Melee Weapons."
         }
       ],
       "traits": [
@@ -706,25 +657,6 @@
         "Infantry"
       ],
       "abilities": "Infiltrators",
-      "options": [
-        {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "9",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 15 models",
-          "text": "It can contain 10 models, 15 models",
-          "Pt": "13",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per 20 models",
-          "text": "20 models",
-          "Pt": "17"
-        }
-      ],
       "weapons": [
         {
           "name": "Genestealer Melee Weapons",
@@ -746,7 +678,8 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "10",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Genestealer Melee Weapons."
         },
         {
           "name": "15 Genestealers",
@@ -758,7 +691,8 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "15",
-          "Pt": "13"
+          "Pt": "13",
+          "abilities": "It is equipped with: Genestealer Melee Weapons."
         },
         {
           "name": "20 Genestealers",
@@ -770,7 +704,8 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "20",
-          "Pt": "17"
+          "Pt": "17",
+          "abilities": "It is equipped with: Genestealer Melee Weapons."
         }
       ],
       "traits": [
@@ -803,11 +738,6 @@
         "Infantry"
       ],
       "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "10"
-        },
         {
           "per": "Per Unit",
           "text": "Instead of Impaler Cannons, this unit can be equipped with Shockcannons."
@@ -851,7 +781,8 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Impaler Cannons; Forelimbs."
         }
       ],
       "traits": [
@@ -883,13 +814,7 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Deep Strike, Stealth",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons."
-        }
-      ],
+      "abilities": "Deep Strike, Stealth\nA Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons.",
       "weapons": [
         {
           "name": "Flesh Hooks",
@@ -941,13 +866,7 @@
         "Infantry",
         "Synapse Creature"
       ],
-      "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth."
-        }
-      ],
+      "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.\nA Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth.",
       "weapons": [
         {
           "name": "Spirit Leech",
@@ -998,13 +917,6 @@
         "Infantry"
       ],
       "abilities": "Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "10"
-        }
-      ],
       "weapons": [
         {
           "name": "Tyrant Guard Melee Weapons",
@@ -1026,7 +938,8 @@
           "Ld": "4",
           "Sv": "6+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Tyrant Guard Melee Weapons."
         }
       ],
       "traits": [
@@ -1060,13 +973,6 @@
         "Fly"
       ],
       "abilities": "Shrouding Spores: Friendly Light <Hive Fleet> and Heavy <Hive Fleet> units have the Stealth ability whilst they are within 6\" of this unit. If this unit contains 6 models, the range of this ability is increased by 3\".\nToxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6\" of any enemy units with this ability; on a 6 place one blast marker next to the unit being rolled for.",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "8"
-        }
-      ],
       "weapons": [
         {
           "name": "Toxic Lashes (Ranged)",
@@ -1096,7 +1002,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "6",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Toxic Lashes (Ranged); Toxic Lashes (Melee)."
         }
       ],
       "traits": [
@@ -1132,13 +1039,6 @@
         "Synapse Creature"
       ],
       "abilities": "Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "10"
-        }
-      ],
       "weapons": [
         {
           "name": "Warp Blast",
@@ -1169,7 +1069,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Warp Blast; Zoanthrope Melee Weapons."
         }
       ],
       "traits": [
@@ -1202,18 +1103,6 @@
         "Infantry"
       ],
       "abilities": "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models",
-          "Pt": "5"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models",
-          "Pt": "7"
-        }
-      ],
       "weapons": [
         {
           "name": "Flamespurt",
@@ -1244,7 +1133,8 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "2",
-          "Pt": "5"
+          "Pt": "5",
+          "abilities": "It is equipped with: Flamespurt; Acid Maw."
         },
         {
           "name": "3 Pyrovores",
@@ -1256,7 +1146,8 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "3",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Flamespurt; Acid Maw."
         }
       ],
       "traits": [
@@ -1288,13 +1179,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.\nRapacious Hunger: When an enemy Light unit is destroyed whilst in base contact with this unit, if this unit has at least one damage marker next to it, remove one damage marker from this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws."
-        }
-      ],
+      "abilities": "Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.\nRapacious Hunger: When an enemy Light unit is destroyed whilst in base contact with this unit, if this unit has at least one damage marker next to it, remove one damage marker from this unit.\nA Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws.",
       "weapons": [
         {
           "name": "Grasping Tongue",
@@ -1349,18 +1234,6 @@
         "Fly"
       ],
       "abilities": "Deep Strike\nHail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.",
-      "options": [
-        {
-          "per": "Per 20 models",
-          "text": "It can contain 20 models",
-          "Pt": "8"
-        },
-        {
-          "per": "Per 30 models",
-          "text": "30 models",
-          "Pt": "12"
-        }
-      ],
       "weapons": [
         {
           "name": "Fleshborers",
@@ -1390,7 +1263,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "20",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Fleshborers; Blinding Venom."
         },
         {
           "name": "30 Gargoyles",
@@ -1402,7 +1276,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "30",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Fleshborers; Blinding Venom."
         }
       ],
       "traits": [
@@ -1435,18 +1310,6 @@
         "Infantry"
       ],
       "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "10"
-        },
-        {
-          "per": "Per 9 models",
-          "text": "9 models",
-          "Pt": "15"
-        }
-      ],
       "weapons": [
         {
           "name": "Ravener Ranged Weapons",
@@ -1476,7 +1339,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons."
         },
         {
           "name": "9 Raveners",
@@ -1488,7 +1352,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "9",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons."
         }
       ],
       "traits": [
@@ -1521,18 +1386,6 @@
         "Fly"
       ],
       "abilities": "Deep Strike\nLiving Bombs: Morale tests taken for this unit are automatically passed.\nFloating Death: After a Move action (made by any unit), if this unit is within 3\" of an enemy unit, roll one D6 for each model in this unit. For each 3+ place one blast marker next to the closest enemy unit. Then, this unit is destroyed.",
-      "options": [
-        {
-          "per": "Per 6 models",
-          "text": "It can contain 6 models",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 9 models",
-          "text": "9 models.",
-          "Pt": "6"
-        }
-      ],
       "profiles": [
         {
           "name": "6 Spore Mines",
@@ -1585,18 +1438,6 @@
         "Light",
         "Infantry"
       ],
-      "options": [
-        {
-          "per": "Per 2 models",
-          "text": "It can contain 2 models",
-          "Pt": "4"
-        },
-        {
-          "per": "Per 3 models",
-          "text": "3 models",
-          "Pt": "6"
-        }
-      ],
       "weapons": [
         {
           "name": "Spore Mine Launcher",
@@ -1627,7 +1468,8 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "2",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Spore Mine Launcher; Close Combat Weapons."
         },
         {
           "name": "3 Biovores",
@@ -1639,7 +1481,8 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "3",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Spore Mine Launcher; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1795,13 +1638,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Bio-plasmic Cannon for that action.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs."
-        }
-      ],
+      "abilities": "Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Bio-plasmic Cannon for that action.\nAn Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs.",
       "weapons": [
         {
           "name": "Bio-plasmic Cannon",
@@ -1846,13 +1683,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Terror Troops\nMonstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons."
-        }
-      ],
+      "abilities": "Terror Troops\nMonstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons.",
       "weapons": [
         {
           "name": "Bio-plasmic Scream",
@@ -1898,13 +1729,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6\" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.\nAcid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee)."
-        }
-      ],
+      "abilities": "Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6\" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.\nAcid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.\nA Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee).",
       "weapons": [
         {
           "name": "Choking Spores",
@@ -1957,13 +1782,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons."
-        }
-      ],
+      "abilities": "Deep Strike\nA Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons.",
       "weapons": [
         {
           "name": "Bio-electric Pulse",
@@ -2089,13 +1908,7 @@
         "Heavy",
         "Monster"
       ],
-      "abilities": "Deep Strike\nBurrow: When this unit makes a Move action, it can burrow instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up as described in the Terror from the Deep ability. A unit cannot burrow if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nTerror from the Deep: When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1\" away from any enemy units, instead of 9\". After setting this unit up using the Deep Strike ability, if there are any enemy units within 3\" of it, select one of those units and roll one D12. On a 3-5 place one blast marker next to that unit, on a 6-9 place two blast markers next to that unit and on a 10+ place three blast markers next to that unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons."
-        }
-      ],
+      "abilities": "Deep Strike\nBurrow: When this unit makes a Move action, it can burrow instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up as described in the Terror from the Deep ability. A unit cannot burrow if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.\nTerror from the Deep: When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1\" away from any enemy units, instead of 9\". After setting this unit up using the Deep Strike ability, if there are any enemy units within 3\" of it, select one of those units and roll one D12. On a 3-5 place one blast marker next to that unit, on a 6-9 place two blast markers next to that unit and on a 10+ place three blast markers next to that unit.\nA Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons.",
       "weapons": [
         {
           "name": "Distensible Jaws",
@@ -2348,7 +2161,7 @@
           "keywords": [
             "Fly"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur."
         }
       ]
     },
@@ -2373,13 +2186,7 @@
         "Transport",
         "Titanic"
       ],
-      "abilities": "Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons."
-        }
-      ],
+      "abilities": "Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.\nA Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.",
       "weapons": [
         {
           "name": "Bio-plasma Torrent",

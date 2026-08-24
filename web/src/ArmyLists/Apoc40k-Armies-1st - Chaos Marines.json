@@ -23,16 +23,8 @@
         "Character",
         "Terminator"
       ],
-      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
-      "weapons": [
-        {
-          "name": "Talon of Horus & Drach'nyen",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "6+"
-        }
+      "profileKeywords": [
+        "Infantry"
       ],
       "traits": [
         "Chaos",
@@ -45,8 +37,16 @@
         "Chaos Lord",
         "Abaddon the Despoiler"
       ],
-      "profileKeywords": [
-        "Infantry"
+      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "weapons": [
+        {
+          "name": "Talon of Horus & Drach'nyen",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "6+"
+        }
       ]
     },
     {
@@ -69,6 +69,16 @@
         "Infantry",
         "Character"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Lord"
+      ],
       "abilities": "Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.",
       "weapons": [
         {
@@ -80,66 +90,57 @@
           "armorPen": "6+"
         }
       ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Lord"
-      ],
-      "profileKeywords": [
-        "Infantry"
-      ],
       "profiles": [
         {
           "name": "Jump Pack",
+          "M": "12\"",
           "WS": "2+",
           "BS": "2+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "12\"",
           "Sv": "5+",
+          "N": "1",
           "Pt": "7",
           "keywords": [
             "Infantry",
             "Jump Pack",
             "Fly"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Helwrought Weapons."
         },
         {
           "name": "Terminator Armour",
+          "M": "5\"",
           "WS": "2+",
           "BS": "2+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "5\"",
           "Sv": "4+",
+          "N": "1",
           "Pt": "7",
           "keywords": [
             "Infantry",
             "Terminator"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Helwrought Weapons."
         },
         {
           "name": "Bike",
+          "M": "14\"",
           "WS": "2+",
           "BS": "2+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "14\"",
           "Sv": "5+",
+          "N": "1",
           "Pt": "6",
           "keywords": [
             "Biker"
-          ]
+          ],
+          "abilities": "It is equipped with: Helwrought Weapons."
         }
       ]
     },
@@ -164,6 +165,16 @@
         "Character",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Sorcerer"
+      ],
       "weapons": [
         {
           "name": "Force Weapon",
@@ -174,66 +185,57 @@
           "armorPen": "8+"
         }
       ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Sorcerer"
-      ],
-      "profileKeywords": [
-        "Infantry"
-      ],
       "profiles": [
         {
           "name": "Jump Pack",
+          "M": "12\"",
           "WS": "3+",
           "BS": "3+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "12\"",
           "Sv": "6+",
+          "N": "1",
           "Pt": "5",
           "keywords": [
             "Infantry",
             "Jump Pack",
             "Fly"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Force Weapon."
         },
         {
           "name": "Terminator Armour",
+          "M": "5\"",
           "WS": "3+",
           "BS": "3+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "5\"",
           "Sv": "4+",
+          "N": "1",
           "Pt": "5",
           "keywords": [
             "Infantry",
             "Terminator"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Force Weapon."
         },
         {
           "name": "Bike",
+          "M": "14\"",
           "WS": "3+",
           "BS": "3+",
           "A": "1",
           "W": "1",
           "Ld": "7",
-          "N": "1",
-          "M": "14\"",
           "Sv": "6+",
+          "N": "1",
           "Pt": "4",
           "keywords": [
             "Biker"
-          ]
+          ],
+          "abilities": "It is equipped with: Force Weapon."
         }
       ]
     },
@@ -258,6 +260,12 @@
         "Monster",
         "Character"
       ],
+      "traits": [
+        "Chaos",
+        "Heretic Astartes",
+        "<Legion>",
+        "Daemon Prince"
+      ],
       "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
       "weapons": [
         {
@@ -269,28 +277,22 @@
           "armorPen": "6+"
         }
       ],
-      "traits": [
-        "Chaos",
-        "Heretic Astartes",
-        "<Legion>",
-        "Daemon Prince"
-      ],
       "profiles": [
         {
           "name": "Wings",
+          "M": "16\"",
           "WS": "2+",
           "BS": "2+",
           "A": "2",
           "W": "2",
           "Ld": "8",
-          "N": "1",
-          "M": "16\"",
           "Sv": "5+",
+          "N": "1",
           "Pt": "11",
           "keywords": [
             "Fly"
           ],
-          "abilities": "Deep Strike"
+          "abilities": "Deep Strike\nIt is equipped with: Daemonic Weapons."
         }
       ]
     },
@@ -314,6 +316,16 @@
         "Infantry",
         "Character"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Exalted Champion"
+      ],
       "abilities": "Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6\" of this unit.",
       "weapons": [
         {
@@ -324,16 +336,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Exalted Champion"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -354,6 +356,16 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Space Marines"
       ],
       "options": [
         {
@@ -473,7 +485,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
         },
         {
           "name": "10 Traitor Marines",
@@ -485,7 +498,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
         },
         {
           "name": "15 Traitor Marines",
@@ -497,18 +511,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24"
+          "Pt": "24",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Space Marines"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -530,9 +535,19 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Cultists"
+      ],
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 10 models",
           "text": "For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber.",
           "Pt": "1",
           "title": "Heavy Weapon"
@@ -596,7 +611,8 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "20",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons."
         },
         {
           "name": "30 Cultists",
@@ -608,18 +624,9 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "30",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Cultists"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -640,6 +647,14 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Servants of the Abyss",
+        "Traitor Guardsmen"
       ],
       "weapons": [
         {
@@ -667,14 +682,6 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Servants of the Abyss",
-        "Traitor Guardsmen"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -695,6 +702,16 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chosen"
       ],
       "options": [
         {
@@ -748,7 +765,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
         },
         {
           "name": "10 Chaos Chosen",
@@ -760,7 +778,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
         },
         {
           "name": "15 Chaos Chosen",
@@ -772,18 +791,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24"
+          "Pt": "24",
+          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chosen"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -804,6 +814,15 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Heretic Astartes",
+        "<Legion>",
+        "Cult Marines"
       ],
       "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.",
       "options": [
@@ -893,7 +912,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
         },
         {
           "name": "10 Cult Marines",
@@ -905,7 +925,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
         },
         {
           "name": "15 Cult Marines",
@@ -917,17 +938,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24"
+          "Pt": "24",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Heretic Astartes",
-        "<Legion>",
-        "Cult Marines"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -949,18 +962,28 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Terminators"
+      ],
       "abilities": "Deep Strike",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 5 models",
           "text": "For every 5 models this unit contains, it",
           "Pt": "1",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Heavy Flamer",
             "1 Reaper Autocannon"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         }
       ],
       "weapons": [
@@ -1010,7 +1033,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "11"
+          "Pt": "11",
+          "abilities": "It is equipped with: Combi-bolters; Terminator Power Weapons."
         },
         {
           "name": "10 Terminators",
@@ -1022,18 +1046,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "21"
+          "Pt": "21",
+          "abilities": "It is equipped with: Combi-bolters; Terminator Power Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Terminators"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1057,6 +1072,16 @@
         "Infantry",
         "Character"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Greater Possessed"
+      ],
       "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
       "weapons": [
         {
@@ -1067,16 +1092,6 @@
           "skill": "6+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Greater Possessed"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1098,6 +1113,16 @@
         "Daemon",
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Possessed"
       ],
       "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.",
       "weapons": [
@@ -1121,7 +1146,8 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "10",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Horrifying Mutations."
         },
         {
           "name": "15 Possessed",
@@ -1133,18 +1159,9 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "15",
-          "Pt": "30"
+          "Pt": "30",
+          "abilities": "It is equipped with: Horrifying Mutations."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Possessed"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1166,10 +1183,20 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Nurgle",
+        "Heretic Astartes",
+        "<Legion>",
+        "Plague Marines"
+      ],
       "abilities": "Ignore Damage (6+)",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "up to 2",
           "text": "This unit can also be equipped with up to two of the following in any combination: 1 Blight Launcher; 1 Plague Spewer.",
           "Pt": "1"
         }
@@ -1221,7 +1248,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
         },
         {
           "name": "10 Plague Marines",
@@ -1233,7 +1261,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
         },
         {
           "name": "15 Plague Marines",
@@ -1245,18 +1274,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Nurgle",
-        "Heretic Astartes",
-        "<Legion>",
-        "Plague Marines"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1277,6 +1297,16 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Khorne",
+        "Heretic Astartes",
+        "<Legion>",
+        "Khorne Berzerkers"
       ],
       "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.",
       "weapons": [
@@ -1308,7 +1338,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
         },
         {
           "name": "10 Khorne Berzerkers",
@@ -1320,7 +1351,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
         },
         {
           "name": "15 Khorne Berzerkers",
@@ -1332,18 +1364,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Khorne",
-        "Heretic Astartes",
-        "<Legion>",
-        "Khorne Berzerkers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1366,9 +1389,19 @@
         "Infantry",
         "Psyker"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Tzeentch",
+        "Heretic Astartes",
+        "<Legion>",
+        "Rubric Marines"
+      ],
       "options": [
         {
-          "per": "Per cannon",
+          "per": "Per 10 models",
           "text": "For every 10 models this unit contains, it can also be equipped with 1 Soulreaper Cannon.",
           "Pt": "1",
           "title": "Soulreaper Cannon"
@@ -1426,7 +1459,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
         },
         {
           "name": "10 Rubric Marines",
@@ -1438,7 +1472,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
         },
         {
           "name": "15 Rubric Marines",
@@ -1450,18 +1485,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Tzeentch",
-        "Heretic Astartes",
-        "<Legion>",
-        "Rubric Marines"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1483,6 +1509,14 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Servants of the Abyss",
+        "Chaos Beastmen"
+      ],
       "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.",
       "weapons": [
         {
@@ -1501,14 +1535,6 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Servants of the Abyss",
-        "Chaos Beastmen"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1529,6 +1555,13 @@
       "keywords": [
         "Light",
         "Beast"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Spawn"
       ],
       "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
       "weapons": [
@@ -1552,7 +1585,8 @@
           "Ld": "7",
           "Sv": "10+",
           "N": "2",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Hideous Mutations."
         },
         {
           "name": "3 Chaos Spawn",
@@ -1564,7 +1598,8 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "3",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Hideous Mutations."
         },
         {
           "name": "4 Chaos Spawn",
@@ -1576,7 +1611,8 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "4",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Hideous Mutations."
         },
         {
           "name": "5 Chaos Spawn",
@@ -1588,15 +1624,9 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "5",
-          "Pt": "11"
+          "Pt": "11",
+          "abilities": "It is equipped with: Hideous Mutations."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Spawn"
       ]
     },
     {
@@ -1617,6 +1647,13 @@
       "keywords": [
         "Light",
         "Biker"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Bikers"
       ],
       "weapons": [
         {
@@ -1648,15 +1685,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "6",
-          "Pt": "18"
+          "Pt": "18",
+          "abilities": "It is equipped with: Twin Boltguns; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Bikers"
       ]
     },
     {
@@ -1679,6 +1710,16 @@
         "Infantry",
         "Fly",
         "Jump Pack"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Raptors"
       ],
       "abilities": "Deep Strike, Terror Troops",
       "weapons": [
@@ -1710,7 +1751,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Bolt Pistols; Chainswords."
         },
         {
           "name": "15 Raptors",
@@ -1722,18 +1764,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "25"
+          "Pt": "25",
+          "abilities": "It is equipped with: Bolt Pistols; Chainswords."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Raptors"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1754,6 +1787,16 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Havocs"
       ],
       "options": [
         {
@@ -1818,16 +1861,6 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Havocs"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1850,6 +1883,13 @@
         "Heavy",
         "Vehicle",
         "Daemon Engine"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Defiler"
       ],
       "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
       "options": [
@@ -1926,13 +1966,6 @@
           "skill": "5+",
           "armorPen": "5+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Defiler"
       ]
     },
     {
@@ -1953,6 +1986,13 @@
       "keywords": [
         "Heavy",
         "Vehicle"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Helbrute"
       ],
       "abilities": "Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.",
       "options": [
@@ -2077,13 +2117,6 @@
           "skill": "5+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Helbrute"
       ]
     },
     {
@@ -2104,6 +2137,13 @@
       "keywords": [
         "Heavy",
         "Vehicle"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Predator"
       ],
       "options": [
         {
@@ -2162,13 +2202,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Predator"
       ]
     },
     {
@@ -2191,6 +2224,13 @@
         "Heavy",
         "Vehicle",
         "Daemon Engine"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Forgefiend"
       ],
       "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
       "options": [
@@ -2238,13 +2278,6 @@
           "skill": "6+",
           "armorPen": "6+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Forgefiend"
       ]
     },
     {
@@ -2265,6 +2298,13 @@
       "keywords": [
         "Heavy",
         "Vehicle"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Vindicator"
       ],
       "options": [
         {
@@ -2292,13 +2332,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Vindicator"
       ]
     },
     {
@@ -2320,6 +2353,17 @@
         "Daemon",
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Cult of Destruction",
+        "Obliterators"
       ],
       "abilities": "Deep Strike",
       "weapons": [
@@ -2351,7 +2395,8 @@
           "Ld": "6",
           "Sv": "4+",
           "N": "2",
-          "Pt": "17"
+          "Pt": "17",
+          "abilities": "It is equipped with: Fleshmetal Guns; Crushing Fists."
         },
         {
           "name": "3 Obliterators",
@@ -2363,19 +2408,9 @@
           "Ld": "6",
           "Sv": "4+",
           "N": "3",
-          "Pt": "25"
+          "Pt": "25",
+          "abilities": "It is equipped with: Fleshmetal Guns; Crushing Fists."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Cult of Destruction",
-        "Obliterators"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -2397,6 +2432,13 @@
         "Heavy",
         "Vehicle",
         "Transport"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Land Raider"
       ],
       "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.",
       "weapons": [
@@ -2424,13 +2466,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Land Raider"
       ]
     },
     {
@@ -2451,6 +2486,16 @@
       "keywords": [
         "Light",
         "Infantry"
+      ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Chaos",
+        "Slaanesh",
+        "Heretic Astartes",
+        "<Legion>",
+        "Noise Marines"
       ],
       "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.",
       "options": [
@@ -2504,7 +2549,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
         },
         {
           "name": "10 Noise Marines",
@@ -2516,7 +2562,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
         },
         {
           "name": "15 Noise Marines",
@@ -2528,18 +2575,9 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Slaanesh",
-        "Heretic Astartes",
-        "<Legion>",
-        "Noise Marines"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -2562,6 +2600,13 @@
         "Vehicle",
         "Transport"
       ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Chaos Rhino"
+      ],
       "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.",
       "weapons": [
         {
@@ -2581,13 +2626,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Chaos Rhino"
       ]
     },
     {
@@ -2611,6 +2649,13 @@
         "Vehicle",
         "Fly",
         "Daemon Engine"
+      ],
+      "traits": [
+        "Chaos",
+        "<Mark of Chaos>",
+        "Heretic Astartes",
+        "<Legion>",
+        "Helldrake"
       ],
       "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
       "options": [
@@ -2647,13 +2692,6 @@
           "armorPen": "10+",
           "abilities": "Anti-air"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "<Mark of Chaos>",
-        "Heretic Astartes",
-        "<Legion>",
-        "Helldrake"
       ]
     },
     {
@@ -2677,6 +2715,11 @@
         "Monster",
         "Fly",
         "Character"
+      ],
+      "traits": [
+        "Chaos",
+        "Legiones Daemonica",
+        "Greater Daemon"
       ],
       "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.",
       "options": [
@@ -2840,7 +2883,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "1",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
         },
         {
           "name": "1 Greater Daemon",
@@ -2852,7 +2896,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "1",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
         },
         {
           "name": "1 Greater Daemon",
@@ -2864,7 +2909,8 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
         },
         {
           "name": "1 Greater Daemon",
@@ -2876,13 +2922,9 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Legiones Daemonica",
-        "Greater Daemon"
       ]
     }
   ]

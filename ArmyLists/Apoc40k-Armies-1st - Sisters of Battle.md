@@ -22,12 +22,8 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, Order of Our Martyred Lady, Morv
 ```
 Righteous Reprimand: Re-roll hit rolls of 1 for attacks made by friendly Adepta Sororitas units whilst they are within 6" of this unit.
 Leader of the Faithful: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas Infantry units by 1 whilst they are wholly within 6" of this unit.
+Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army.
 ```
-
-### Options
-- per: Per Unit
-  title: Special Character
-  text: Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Paragon Missile Launcher; Lance of Illumination. You can only include one of this unit in your army.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -155,6 +151,11 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Battle Sisters Squad
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Close Combat Weapons.
+```
+
 ## Unit 6 — Troops — Zealots
 
 ### Stats
@@ -171,11 +172,6 @@ Infantry
 ### Traits
 Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Zealots
 
-### Options
-- per: Per 30 models
-  Pt: 6
-  text: It can contain 30 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -187,6 +183,11 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Zealots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 3 | 6 | 7 | 11+ | 30 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Autopistols; Close Combat Weapons.
+```
 
 ## Unit 7 — Elites — Imagifier
 
@@ -258,6 +259,11 @@ Sworn Protectors: You can re-roll hit rolls for attacks made by this unit whilst
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Boltguns; Close Combat Weapons.
+```
+
 ## Unit 9 — Elites — Celestian Sacrosancts
 
 ### Stats
@@ -280,12 +286,6 @@ Sacresant Shield: Improve the Save characteristic (to a maximum of 3+) of models
 Sworn Protectors: You can re-roll hit rolls for attacks made with melee weapons by this unit whilst it is within 6" of any friendly <Order> Canoness units.
 ```
 
-### Options
-- per: Per 10 models
-  Pt: 8
-  title: 10 Models
-  text: It can contain 10 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -296,6 +296,11 @@ Sworn Protectors: You can re-roll hit rolls for attacks made with melee weapons 
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 7 | 6+ | 10 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Anointed Halberds.
+```
 
 ## Unit 10 — Elites — Dialogus
 
@@ -410,6 +415,11 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 2 | 6 | 11+ | 9 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Penitent Eviscerators.
+```
+
 ## Unit 14 — Elites — Crusaders
 
 ### Stats
@@ -443,6 +453,11 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 5 | 6+ | 8 | 2 |
 
+##### Profile Abilities
+```
+It is equipped with: Crusader Power Swords.
+```
+
 ## Unit 15 — Elites — Death Cult Assassins
 
 ### Stats
@@ -475,6 +490,11 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 4 | 2 |
+
+##### Profile Abilities
+```
+It is equipped with: Death Cult Power Blades.
+```
 
 ## Unit 16 — Elites — Arco-flagellants
 
@@ -510,10 +530,20 @@ Ecclesiarchy Battle Conclave: This unit does not take up slots in a Detachment t
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | - | 1 | 1 | 5 | 11+ | 5 | 2 |
 
+##### Profile Abilities
+```
+It is equipped with: Arco-flails.
+```
+
 #### 10 Arco-flagellants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | - | 2 | 2 | 5 | 11+ | 10 | 3 |
+
+##### Profile Abilities
+```
+It is equipped with: Arco-flails.
+```
 
 ## Unit 17 — Fast — Dominion Squad
 
@@ -538,7 +568,7 @@ If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/o
 ```
 
 ### Options
-- per: Per weapon
+- per: up to 4
   Pt: 1
   title: Hull Weapon
   text: This unit can also be equipped with up to four of the following in any combination: Flamer; Meltagun; Storm Bolter.
@@ -557,6 +587,11 @@ If this unit is not equipped with any Flamers, Meltaguns or Storm Bolters, and/o
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Flamer; Meltagun; Boltguns; Storm Bolter; Close Combat Weapons.
+```
 
 ## Unit 18 — Fast — Novitiate Squad
 
@@ -577,12 +612,8 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Novitiate Squad
 ### Abilities
 ```
 Infiltrators
+Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons.
 ```
-
-### Options
-- per: Per Unit
-  title: Melee Weapon
-  text: Novitiate Squad is a unit that contains 10 models. It is equipped with: Novitiate Melee Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -610,12 +641,8 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, Sanctifiers
 ```
 Infiltrators
 Purge the Unclean: Re-roll wound rolls of 1 for attacks made by this unit that target Infantry units.
+Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons.
 ```
-
-### Options
-- per: Per Unit
-  title: 10 Models
-  text: Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of Holy Fire; Close Combat Weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -656,6 +683,11 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Twin Bolt Pistols; Close Combat Weapons.
+```
+
 ## Unit 21 — Fast — Zephyrim Squad
 
 ### Stats
@@ -689,6 +721,11 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Bolt Pistols; Zephyrim Power Swords.
+```
+
 ## Unit 22 — Heavy — Retributor Squad
 
 ### Stats
@@ -711,7 +748,7 @@ If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-melt
 ```
 
 ### Options
-- per: Per weapon
+- per: up to 4
   Pt: 1
   title: Heavy Weapon
   text: This unit can also be equipped with up to four of the following in any combination: Heavy Bolter; Heavy Flamer; Multi-melta.
@@ -730,6 +767,11 @@ If this unit is not equipped with any Heavy Bolters, Heavy Flamers or Multi-melt
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Heavy Bolter; Heavy Flamer; Multi-melta; Boltguns; Close Combat Weapons.
+```
 
 ## Unit 23 — Heavy — Exorcist
 
@@ -805,7 +847,7 @@ Ignore Damage (6+)
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   title: Heavy Weapon
   text: For each model this unit contains, it
   Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 1 Heavy Bolter and 1 Heavy Flamer
@@ -823,15 +865,30 @@ Ignore Damage (6+)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 2 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Bolter; Heavy Flamer; Mortifier Weapons.
+```
+
 #### 3 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 3 | 3 | 6 | 7+ | 3 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Bolter; Heavy Flamer; Mortifier Weapons.
+```
+
 #### 4 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 3+ | 4 | 4 | 6 | 7+ | 4 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Heavy Bolter; Heavy Flamer; Mortifier Weapons.
+```
 
 ## Unit 26 — Heavy — Penitent Engines
 
@@ -853,7 +910,7 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   title: Heavy Weapon
   text: For each model this unit contains, it must also be equipped with 2 Heavy Flamers.
 
@@ -869,15 +926,30 @@ Zealot: You can re-roll hit rolls for attacks made with melee weapons by this un
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 2 | 2 | 6 | 7+ | 2 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Flamer; Penitent Engine Weapons.
+```
+
 #### 3 Penitent Engines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 3 | 3 | 6 | 7+ | 3 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Flamer; Penitent Engine Weapons.
+```
+
 #### 4 Penitent Engines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | 5+ | 4 | 4 | 6 | 7+ | 4 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Heavy Flamer; Penitent Engine Weapons.
+```
 
 ## Unit 27 — Heavy — Castigator
 
@@ -1012,12 +1084,8 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, <Order>, Repressor
 ### Abilities
 ```
 TRANSPORT: This unit can transport up to 10 friendly Adeptus Ministorum Infantry models. It cannot transport Jump Pack models and can only transport Adepta Sororitas models if they have the <Order>, Dialogus or Hospitaller keyword.
+A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Flamer; Storm Bolter; Dozer Ram.
 ```
-
-### Options
-- per: Per Unit
-  title: Heavy Weapon
-  text: A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Flamer; Storm Bolter; Dozer Ram.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1047,12 +1115,8 @@ Imperium, Adeptus Ministorum, Adepta Sororitas, Celestine, Geminae Superia
 Beacon of Faith: Improve the Save characteristic (to a maximum of 3+) of friendly Adepta Sororitas units by 1 whilst they are wholly within 6" of this unit.
 Miraculous Intervention: The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 2+ this unit is not destroyed, and one damage marker is removed from it.
 Lifewards: At the start of the Damage phase, Remove up to D3 blast markers from this Character.
+Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army.
 ```
-
-### Options
-- per: Per Unit
-  title: Special Character
-  text: Celestine & Geminae is a unit that contains 3 models: 1 Celestine and 2 Geminae Superia. You can only include one of this unit in your army.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

@@ -178,6 +178,11 @@ Necrons, <Dynasty>, Immortals
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Gauss Blasters; Close Combat Weapons.
+```
+
 ## Unit 7 — Troops — Necron Warriors
 
 ### Stats
@@ -205,6 +210,11 @@ Necrons, <Dynasty>, Necron Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 8+ | 20 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Gauss Flayers; Heavy Blades.
+```
 
 ## Unit 8 — Elites — Deathmarks
 
@@ -238,6 +248,11 @@ Deep Strike
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 13 |
+
+##### Profile Abilities
+```
+It is equipped with: Synaptic Disintegrators; Close Combat Weapons.
+```
 
 ## Unit 9 — Elites — Destroyer Lord
 
@@ -298,15 +313,30 @@ Deep Strike, Terror Troops
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 2 | 2 | 8 | 8+ | 10 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Flayer Claws.
+```
+
 #### 15 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 3 | 3 | 8 | 8+ | 15 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: Flayer Claws.
+```
+
 #### 20 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 4 | 4 | 8 | 8+ | 20 | 14 |
+
+##### Profile Abilities
+```
+It is equipped with: Flayer Claws.
+```
 
 ## Unit 11 — Elites — Illuminor Szeras
 
@@ -377,6 +407,11 @@ Guardian Protocols: At the start of the Damage phase, you can select one friendl
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 6+ | 10 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Hyperphase Swords; Warscythes.
+```
+
 ## Unit 13 — Elites — Triarch Praetorians
 
 ### Stats
@@ -415,6 +450,11 @@ A Purpose Unshakable: Morale tests taken for this unit are automatically passed.
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 6+ | 10 | 15 |
+
+##### Profile Abilities
+```
+It is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades.
+```
 
 ## Unit 14 — Elites — Triarch Stalker
 
@@ -466,9 +506,10 @@ Infantry
 ### Traits
 Necrons, <Dynasty>, Destroyer Cult, Skorpekh Destroyers
 
-### Options
-- per: Per Unit
-  text: Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons.
+### Abilities
+```
+Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -494,7 +535,7 @@ Wraith Form: This unit can move across models and terrain as if they were not th
 ```
 
 ### Options
-- per: Per weapon
+- per: Per Model
   Pt: 1
   text: For each model this unit contains, it
   Choose 1: 1 Particle Caster; 1 Transdimensional Beamer
@@ -511,6 +552,11 @@ Wraith Form: This unit can move across models and terrain as if they were not th
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 4 | 4 | 8 | 5+ | 6 | 15 |
+
+##### Profile Abilities
+```
+It is equipped with: Wraith Weapons.
+```
 
 ## Unit 17 — Fast — Canoptek Scarabs
 
@@ -536,10 +582,20 @@ Necrons, Canoptek, <Dynasty>, Swarm, Canoptek Scarabs
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 4 | 4 | 8 | 10+ | 6 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Feeder Mandibles.
+```
+
 #### 9 Canoptek Scarabs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 6 | 6 | 8 | 10+ | 9 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Feeder Mandibles.
+```
 
 ## Unit 18 — Fast — Destroyers
 
@@ -563,7 +619,7 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 ```
 
 ### Options
-- per: Per weapon
+- per: Per 3 models
   Pt: 1
   text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.
 
@@ -580,10 +636,20 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Gauss Cannons; Close Combat Weapons.
+```
+
 #### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
+
+##### Profile Abilities
+```
+It is equipped with: Gauss Cannons; Close Combat Weapons.
+```
 
 ## Unit 19 — Fast — Tomb Blades
 
@@ -622,10 +688,20 @@ Stealth
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 8 | 7+ | 6 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Gauss Blasters; Close Combat Weapons.
+```
+
 #### 9 Tomb Blades
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 3 | 3 | 8 | 7+ | 9 | 22 |
+
+##### Profile Abilities
+```
+It is equipped with: Gauss Blasters; Close Combat Weapons.
+```
 
 ## Unit 20 — Heavy — Annihilation Barge
 
@@ -677,7 +753,7 @@ Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dyn
 ```
 
 ### Options
-- per: Per weapon
+- per: Per Model
   Pt: 1
   text: For each model this unit contains, it can also be equipped with 1 Particle Beamer.
 
@@ -693,10 +769,20 @@ Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dyn
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: Automaton Claws.
+```
+
 #### 3 Canoptek Spyders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 3 | 3 | 8 | 5+ | 3 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Automaton Claws.
+```
 
 ## Unit 22 — Heavy — Destroyers
 
@@ -720,7 +806,7 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 ```
 
 ### Options
-- per: Per weapon
+- per: Per 3 models
   Pt: 1
   text: For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.
 
@@ -737,10 +823,20 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Gauss Cannons; Close Combat Weapons.
+```
+
 #### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
+
+##### Profile Abilities
+```
+It is equipped with: Gauss Cannons; Close Combat Weapons.
+```
 
 ## Unit 23 — Heavy — Doomsday Ark
 
@@ -800,10 +896,20 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
+##### Profile Abilities
+```
+It is equipped with: Heavy Gauss Cannons; Close Combat Weapons.
+```
+
 #### 3 Heavy Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 8 | 5+ | 3 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Heavy Gauss Cannons; Close Combat Weapons.
+```
 
 ## Unit 25 — Heavy — Monolith
 
@@ -872,9 +978,10 @@ Heavy, Vehicle, Walker
 ### Traits
 Necrons, Canoptek, <Dynasty>, Canoptek Doomstalker
 
-### Options
-- per: Per Unit
-  text: A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs.
+### Abilities
+```
+A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -976,11 +1083,8 @@ Necrons, <Dynasty>, Obelisk
 ```
 Deep Strike
 Gravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12" of this unit; on a 9+ place one blast marker next to that unit.
+An Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk.
 ```
-
-### Options
-- per: Per Unit
-  text: An Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1004,11 +1108,8 @@ Necrons, C'tan Shards, <Dynasty>, Tesseract Vault
 ### Abilities
 ```
 Deep Strike
+A Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk.
 ```
-
-### Options
-- per: Per Unit
-  text: A Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

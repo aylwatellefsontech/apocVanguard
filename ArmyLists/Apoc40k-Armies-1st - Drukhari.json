@@ -63,14 +63,7 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Lady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army.",
-          "title": "Special Character"
-        }
-      ],
+      "abilities": "Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.\nPrecognisant: After both players have deployed their armies, select up to three friendly Drukhari units and redeploy them. When doing so, you can set those units up in Tactical Reserves if you wish.\nLady Malys is a unit that contains 1 model. It is equipped with: The Lady's Blade. You can only include one of this unit in your army.",
       "weapons": [
         {
           "name": "The Lady's Blade",
@@ -195,7 +188,7 @@
       ],
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 10 models",
           "text": "For every 10 models this unit contains, it",
           "Pt": "1",
           "chooseOne": [
@@ -253,7 +246,8 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Splinter Rifles; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -355,7 +349,8 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "10",
-          "Pt": "5"
+          "Pt": "5",
+          "abilities": "It is equipped with: Haemonculus Tools."
         }
       ],
       "traits": [
@@ -389,7 +384,7 @@
       ],
       "options": [
         {
-          "per": "Per Unit",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
           "chooseOne": [
             "1 Monstrous Cleaver",
@@ -436,7 +431,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "6",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Flesh Gauntlets."
         },
         {
           "name": "9 Grotesques",
@@ -448,7 +444,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "9",
-          "Pt": "18"
+          "Pt": "18",
+          "abilities": "It is equipped with: Flesh Gauntlets."
         },
         {
           "name": "10 Grotesques",
@@ -460,7 +457,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
-          "Pt": "20"
+          "Pt": "20",
+          "abilities": "It is equipped with: Flesh Gauntlets."
         }
       ],
       "traits": [
@@ -514,7 +512,8 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Klaives."
         }
       ],
       "traits": [
@@ -576,7 +575,8 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "10",
-          "Pt": "7"
+          "Pt": "7",
+          "abilities": "It is equipped with: Baleblasts; Glimmersteel Blades."
         }
       ],
       "traits": [
@@ -609,18 +609,12 @@
       ],
       "options": [
         {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models",
-          "Pt": "8",
-          "title": "10 Models"
-        },
-        {
-          "per": "Per weapon",
+          "per": "Per 5 models",
           "text": "For every 5 models this unit contains, up to 2 models can be equipped with 1 Blaster.",
           "Pt": "1"
         },
         {
-          "per": "Per weapon",
+          "per": "Per 5 models",
           "text": "For every 5 models this unit contains, up to 1 model can be equipped with 1 Dark Lance.",
           "Pt": "1"
         },
@@ -683,7 +677,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Splinter Rifles; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -715,13 +710,7 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Court of the Archon is a unit that contains 4 models representing a combined Court of the Archon retinue."
-        }
-      ],
+      "abilities": "Ignore Damage (6+)\nCourt of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3\" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.\nCold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3\" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.\nCourt of the Archon is a unit that contains 4 models representing a combined Court of the Archon retinue.",
       "weapons": [
         {
           "name": "Combat Weapons",
@@ -805,14 +794,6 @@
         "Fly"
       ],
       "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models",
-          "Pt": "10",
-          "title": "10 Models"
-        }
-      ],
       "weapons": [
         {
           "name": "Shardcarbines",
@@ -851,7 +832,8 @@
           "Ld": "6",
           "Sv": "7+",
           "N": "10",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Shardcarbines; Close Combat Weapons; Splinter Rifles."
         }
       ],
       "traits": [
@@ -904,7 +886,8 @@
           "Ld": "4",
           "Sv": "9+",
           "N": "3",
-          "Pt": "5"
+          "Pt": "5",
+          "abilities": "It is equipped with: Clawed Fists."
         },
         {
           "name": "6 Clawed Fiends",
@@ -916,7 +899,8 @@
           "Ld": "4",
           "Sv": "9+",
           "N": "6",
-          "Pt": "10"
+          "Pt": "10",
+          "abilities": "It is equipped with: Clawed Fists."
         }
       ],
       "traits": [
@@ -975,7 +959,8 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "10",
-          "Pt": "9"
+          "Pt": "9",
+          "abilities": "It is equipped with: Splinter Pods; Hellglaives."
         },
         {
           "name": "15 Hellions",
@@ -987,7 +972,8 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "15",
-          "Pt": "13"
+          "Pt": "13",
+          "abilities": "It is equipped with: Splinter Pods; Hellglaives."
         },
         {
           "name": "20 Hellions",
@@ -999,7 +985,8 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "20",
-          "Pt": "17"
+          "Pt": "17",
+          "abilities": "It is equipped with: Splinter Pods; Hellglaives."
         }
       ],
       "traits": [
@@ -1054,7 +1041,8 @@
           "Ld": "4",
           "Sv": "9+",
           "N": "8",
-          "Pt": "2"
+          "Pt": "2",
+          "abilities": "It is equipped with: Claws & Talons."
         },
         {
           "name": "12 Khymerae",
@@ -1066,7 +1054,8 @@
           "Ld": "4",
           "Sv": "9+",
           "N": "12",
-          "Pt": "3"
+          "Pt": "3",
+          "abilities": "It is equipped with: Claws & Talons."
         }
       ],
       "traits": [
@@ -1116,7 +1105,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "6",
-          "Pt": "4"
+          "Pt": "4",
+          "abilities": "It is equipped with: Razor Feathers."
         },
         {
           "name": "9 Razorwing Flocks",
@@ -1128,7 +1118,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "9",
-          "Pt": "6"
+          "Pt": "6",
+          "abilities": "It is equipped with: Razor Feathers."
         },
         {
           "name": "12 Razorwing Flocks",
@@ -1140,7 +1131,8 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "12",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Razor Feathers."
         }
       ],
       "traits": [
@@ -1172,7 +1164,7 @@
       ],
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 3 models",
           "text": "For every 3 models this unit contains, it",
           "Pt": "1",
           "chooseOne": [
@@ -1228,7 +1220,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "6",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Splinter Rifles; Close Combat Weapons."
         },
         {
           "name": "9 Reavers",
@@ -1240,7 +1233,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "9",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Splinter Rifles; Close Combat Weapons."
         },
         {
           "name": "12 Reavers",
@@ -1252,7 +1246,8 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "12",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Splinter Rifles; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1412,13 +1407,7 @@
         "Vehicle",
         "Fly"
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes."
-        }
-      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nA Reaper is a unit that contains 1 model. It is equipped with: Storm Vortex Projector; Scythevanes.",
       "weapons": [
         {
           "name": "Storm Vortex Projector",
@@ -1466,12 +1455,6 @@
       ],
       "abilities": "Deep Strike\nThis unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.",
       "options": [
-        {
-          "per": "Per 10 models",
-          "text": "It can contain 10 models",
-          "Pt": "10",
-          "title": "10 Models"
-        },
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with up to four of the following in any combination: 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon."
@@ -1547,7 +1530,8 @@
           "Ld": "6",
           "Sv": "7+",
           "N": "10",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Blaster; Dark Lance; Haywire Blaster; Heat Lance; Shredder; Splinter Cannon; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1800,13 +1784,7 @@
         "Fly",
         "Aircraft"
       ],
-      "abilities": "Supersonic",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull."
-        }
-      ],
+      "abilities": "Supersonic\nA Raven Strike Fighter is a unit that contains 1 model. It is equipped with: 2 Dark Lances; Splinterstorm Cannon; Bladed Hull.",
       "weapons": [
         {
           "name": "Dark Lance",
@@ -2023,13 +2001,7 @@
         "Fly",
         "Transport"
       ],
-      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Tantalus is a unit that contains 1 model. It is equipped with: 2 Pulse-disintegrators; Dire Scythe Blade."
-        }
-      ],
+      "abilities": "Open-topped\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 21 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.\nA Tantalus is a unit that contains 1 model. It is equipped with: 2 Pulse-disintegrators; Dire Scythe Blade.",
       "weapons": [
         {
           "name": "Pulse-disintegrator",
@@ -2076,18 +2048,7 @@
         "Fly",
         "Character"
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nLord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\nMaster of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Asdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes."
-        },
-        {
-          "per": "Per Unit",
-          "text": "You can only include one of this unit in your army.",
-          "title": "Special Character"
-        }
-      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nLord of Commoragh: When taken, this unit is always the Warlord, and if the majority of your army in points is Drukhari, he is your Warmaster.\nMaster of the Gates: Once per battle, at the end of any phase, this unit can be removed from the battlefield and placed into Tactical Reserves.\nAsdrubael Vect is a unit that contains 1 model aboard a modified Ravager. It is equipped with: 3 Dark Lances; Disintegrator Cannon; Splinterstorm Cannon; Scepter of the Dark City; Bladevanes.\nYou can only include one of this unit in your army.",
       "weapons": [
         {
           "name": "Dark Lance",

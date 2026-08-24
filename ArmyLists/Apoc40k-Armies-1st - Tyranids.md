@@ -22,12 +22,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Tyrant, The Swarmlord
 ```
 The Will of the Hive Mind: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
 Hive Commander: Morale tests taken for friendly <Hive Fleet> units are automatically passed whilst they are within 18" of this unit.
+The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.
 ```
-
-### Options
-- per: Per Unit
-  title: Special Character
-  text: The Swarmlord is a unit that contains 1 model. It is equipped with: Bone Sabres; Prehensile Pincer Tail. You can only include one of this unit in your army.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -116,6 +112,7 @@ Fly
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Heavy Venom Cannon; Prehensile Pincer Tail.
 ```
 
 ## Unit 4 — HQ — Tyranid Prime
@@ -137,11 +134,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyranid Prime
 ### Abilities
 ```
 Alpha Warrior: Add 1 to hit rolls for attacks made by <Hive Fleet> Tyranid Warrior units whilst they are within 6" of any friendly units with this ability.
+A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Tyranid Prime is a unit that contains 1 model. It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -166,13 +160,7 @@ Infantry
 Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyranid Warriors
 
 ### Options
-- per: Per 6 models
-  Pt: 8
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 12
-  text: 9 models
-- per: Per weapon
+- per: Per 3 models
   Pt: 1
   text: For every 3 models this unit contains, it
   Choose 1: 1 Barbed Strangler; 1 Venom Cannon
@@ -191,10 +179,20 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyranid Warriors
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 7 | 8+ | 6 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.
+```
+
 #### 9 Tyranid Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 6 | 6 | 7 | 8+ | 9 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Ranged Bio-weapons; Melee Bio-weapons.
+```
 
 ## Unit 6 — Troops — Hormagaunts
 
@@ -217,14 +215,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hormagaunts
 Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit.
 ```
 
-### Options
-- per: Per 20 models
-  Pt: 4
-  text: It can contain 20 models
-- per: Per 30 models
-  Pt: 7
-  text: 30 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -236,10 +226,20 @@ Hungering Swarm: If this unit contains 20 or 30 models, re-roll wound rolls of 1
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 5 |
 
+##### Profile Abilities
+```
+It is equipped with: Scything Talons.
+```
+
 #### 30 Hormagaunts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Scything Talons.
+```
 
 ## Unit 7 — Troops — Ripper Swarms
 
@@ -259,14 +259,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Swarm, Rippers
 Deep Strike
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 4
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 6
-  text: 9 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -278,10 +270,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 4 | 4 | 4 | 11+ | 6 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Claws & Teeth.
+```
+
 #### 9 Ripper Swarms
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 5+ | 5+ | 6 | 6 | 4 | 11+ | 9 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Claws & Teeth.
+```
 
 ## Unit 8 — Troops — Termagants
 
@@ -305,12 +307,6 @@ Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls 
 ```
 
 ### Options
-- per: Per 20 models
-  Pt: 4
-  text: It can contain 20 models
-- per: Per 30 models
-  Pt: 7
-  text: 30 models
 - per: Per 10 models
   Pt: 1
   title: 10 Models
@@ -334,10 +330,20 @@ Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Fleshborers; Termagant Melee Weapons.
+```
+
 #### 30 Termagants
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Fleshborers; Termagant Melee Weapons.
+```
 
 ## Unit 9 — Elites — Genestealers
 
@@ -360,19 +366,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Genestealers
 Infiltrators
 ```
 
-### Options
-- per: Per 15 models
-  Pt: 9
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 15 models
-  Pt: 13
-  title: 10 Models
-  text: It can contain 10 models, 15 models
-- per: Per 20 models
-  Pt: 17
-  text: 20 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -384,15 +377,30 @@ Infiltrators
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 2 | 2 | 7 | 9+ | 10 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Genestealer Melee Weapons.
+```
+
 #### 15 Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 4 | 3 | 7 | 9+ | 15 | 13 |
 
+##### Profile Abilities
+```
+It is equipped with: Genestealer Melee Weapons.
+```
+
 #### 20 Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | 4+ | 5 | 4 | 7 | 9+ | 20 | 17 |
+
+##### Profile Abilities
+```
+It is equipped with: Genestealer Melee Weapons.
+```
 
 ## Unit 10 — Elites — Hive Guard
 
@@ -411,9 +419,6 @@ Infantry
 Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Guard
 
 ### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
 - per: Per Unit
   text: Instead of Impaler Cannons, this unit can be equipped with Shockcannons.
 
@@ -429,6 +434,11 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hive Guard
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 3+ | 2 | 4 | 5 | 8+ | 6 | 10 |
+
+##### Profile Abilities
+```
+It is equipped with: Impaler Cannons; Forelimbs.
+```
 
 ## Unit 11 — Elites — Lictor
 
@@ -449,11 +459,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Lictor
 ### Abilities
 ```
 Deep Strike, Stealth
+A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Lictor is a unit that contains 1 model. It is equipped with: Flesh Hooks; Grasping Talons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -480,11 +487,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Zoanthrope, Neurothrope
 ### Abilities
 ```
 Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.
+A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth.
 ```
-
-### Options
-- per: Per Unit
-  text: A Neurothrope is a unit that contains 1 model. It is equipped with: Spirit Leech; Claws & Teeth.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -513,11 +517,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Tyrant Guard
 Shieldwall: At the start of the Damage phase, you can select one friendly <Hive Fleet> Hive Tyrant unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Hive Tyrant unit and place them next to this unit.
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -528,6 +527,11 @@ Shieldwall: At the start of the Damage phase, you can select one friendly <Hive 
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 4+ | 4 | 4 | 4 | 6+ | 6 | 10 |
+
+##### Profile Abilities
+```
+It is equipped with: Tyrant Guard Melee Weapons.
+```
 
 ## Unit 14 — Elites — Venomthropes
 
@@ -551,11 +555,6 @@ Shrouding Spores: Friendly Light <Hive Fleet> and Heavy <Hive Fleet> units have 
 Toxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6" of any enemy units with this ability; on a 6 place one blast marker next to the unit being rolled for.
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 8
-  text: It can contain 6 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -567,6 +566,11 @@ Toxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 4 | 4 | 10+ | 6 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Toxic Lashes (Ranged); Toxic Lashes (Melee).
+```
 
 ## Unit 15 — Elites — Zoanthropes
 
@@ -589,11 +593,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Zoanthropes
 Warp Field: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -605,6 +604,11 @@ Warp Field: Roll D12s when making saving throws for this unit, irrespective of t
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 3+ | 2 | 4 | 7 | 6+ | 6 | 10 |
+
+##### Profile Abilities
+```
+It is equipped with: Warp Blast; Zoanthrope Melee Weapons.
+```
 
 ## Unit 16 — Elites — Pyrovores
 
@@ -627,14 +631,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Pyrovores
 Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.
 ```
 
-### Options
-- per: Per 2 models
-  Pt: 5
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 7
-  text: 3 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -647,10 +643,20 @@ Acid Blood: When a blast marker is placed next to this unit, if it is in base co
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 2 | 4 | 8+ | 2 | 5 |
 
+##### Profile Abilities
+```
+It is equipped with: Flamespurt; Acid Maw.
+```
+
 #### 3 Pyrovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 7 |
+
+##### Profile Abilities
+```
+It is equipped with: Flamespurt; Acid Maw.
+```
 
 ## Unit 17 — Elites — Haruspex
 
@@ -669,11 +675,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Haruspex
 ```
 Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.
 Rapacious Hunger: When an enemy Light unit is destroyed whilst in base contact with this unit, if this unit has at least one damage marker next to it, remove one damage marker from this unit.
+A Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws.
 ```
-
-### Options
-- per: Per Unit
-  text: A Haruspex is a unit that contains 1 model. It is equipped with: Grasping Tongue; Ravenous Maw; Shovelling Claws.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -704,14 +707,6 @@ Deep Strike
 Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.
 ```
 
-### Options
-- per: Per 20 models
-  Pt: 8
-  text: It can contain 20 models
-- per: Per 30 models
-  Pt: 12
-  text: 30 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -724,10 +719,20 @@ Hail of Living Ammunition: If this unit contains 30 models, re-roll wound rolls 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 4 | 4 | 4 | 10+ | 20 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Fleshborers; Blinding Venom.
+```
+
 #### 30 Gargoyles
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 6 | 6 | 4 | 10+ | 30 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Fleshborers; Blinding Venom.
+```
 
 ## Unit 19 — Fast — Raveners
 
@@ -750,14 +755,6 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Raveners
 Deep Strike
 ```
 
-### Options
-- per: Per 6 models
-  Pt: 10
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 15
-  text: 9 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -770,10 +767,20 @@ Deep Strike
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 4+ | 2 | 4 | 4 | 10+ | 6 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons.
+```
+
 #### 9 Raveners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 4+ | 3 | 6 | 4 | 10+ | 9 | 15 |
+
+##### Profile Abilities
+```
+It is equipped with: Ravener Ranged Weapons; Ravener Melee Weapons.
+```
 
 ## Unit 20 — Fast — Spore Mines
 
@@ -794,14 +801,6 @@ Deep Strike
 Living Bombs: Morale tests taken for this unit are automatically passed.
 Floating Death: After a Move action (made by any unit), if this unit is within 3" of an enemy unit, roll one D6 for each model in this unit. For each 3+ place one blast marker next to the closest enemy unit. Then, this unit is destroyed.
 ```
-
-### Options
-- per: Per 6 models
-  Pt: 4
-  text: It can contain 6 models
-- per: Per 9 models
-  Pt: 6
-  text: 9 models.
 
 ### Profiles
 #### 6 Spore Mines
@@ -830,14 +829,6 @@ Infantry
 ### Traits
 Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Biovores
 
-### Options
-- per: Per 2 models
-  Pt: 4
-  text: It can contain 2 models
-- per: Per 3 models
-  Pt: 6
-  text: 3 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -850,10 +841,20 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Biovores
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 2 | 2 | 4 | 8+ | 2 | 4 |
 
+##### Profile Abilities
+```
+It is equipped with: Spore Mine Launcher; Close Combat Weapons.
+```
+
 #### 3 Biovores
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 4+ | 4+ | 3 | 3 | 4 | 8+ | 3 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Spore Mine Launcher; Close Combat Weapons.
+```
 
 ## Unit 22 — Heavy — Carnifex
 
@@ -920,11 +921,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Exocrine
 ### Abilities
 ```
 Weapon Beast: When this unit makes a Shoot action, if it has remained stationary this turn, double the Attacks characteristic of its Bio-plasmic Cannon for that action.
+An Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs.
 ```
-
-### Options
-- per: Per Unit
-  text: An Exocrine is a unit that contains 1 model. It is equipped with: Bio-plasmic Cannon; Powerful Limbs.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -949,11 +947,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Carnifex, Screamer-Killer
 ```
 Terror Troops
 Monstrous Brood: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Screamer-Killer is a unit that contains 1 model. It is equipped with: Bio-plasmic Scream; Screamer-Killer Talons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -978,11 +973,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Toxicrene
 ```
 Hypertoxic Miasma: At the end of the Action phase, roll one D6 for each unit within 6" of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.
 Acid Blood: When a blast marker is placed next to this unit, if it is in base contact with any enemy units, select one of those units and roll one D6. On a 4+ place one blast marker next to that unit.
+A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee).
 ```
-
-### Options
-- per: Per Unit
-  text: A Toxicrene is a unit that contains 1 model. It is equipped with: Choking Spores; Massive Toxic Lashes (Ranged); Massive Toxic Lashes (Melee).
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1007,11 +999,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Trygon
 ### Abilities
 ```
 Deep Strike
+A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Trygon is a unit that contains 1 model. It is equipped with: Bio-electric Pulse; Massive Scything Talons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1070,11 +1059,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Mawloc
 Deep Strike
 Burrow: When this unit makes a Move action, it can burrow instead of moving. If it does, it is removed from the battlefield and placed into Tactical Reserves. When this unit arrives as reinforcements, set it up as described in the Terror from the Deep ability. A unit cannot burrow if it was set up on the battlefield this turn, if there are any enemy units in base contact with it, or if there are any blast markers next to it.
 Terror from the Deep: When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1" away from any enemy units, instead of 9". After setting this unit up using the Deep Strike ability, if there are any enemy units within 3" of it, select one of those units and roll one D12. On a 3-5 place one blast marker next to that unit, on a 6-9 place two blast markers next to that unit and on a 10+ place three blast markers next to that unit.
+A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Mawloc is a unit that contains 1 model. It is equipped with: Distensible Jaws; Scything Talons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1185,6 +1171,7 @@ Fly
 ##### Profile Abilities
 ```
 Deep Strike
+It is equipped with: Drool Cannon; Stinger Salvo; Tentaclids; Scything Wings; Wicked Spur.
 ```
 
 ## Unit 32 — Lord — Hierophant
@@ -1203,11 +1190,8 @@ Tyranids, Tyranid Hive Fleets, <Hive Fleet>, Hierophant Bio-titan
 ### Abilities
 ```
 Transport: This unit can transport up to 20 friendly Genestealers, Termagants, Hormagaunts, Hive Guard, Tyrant Guard or Tyranid Warriors models. Each Hive Guard, Tyrant Guard or Tyranid Warrior model takes up the space of 3 other models. It can also transport 1 friendly Tyranid Prime or Broodlord.
+A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.
 ```
-
-### Options
-- per: Per Unit
-  text: A Hierophant Bio-titan is a unit that contains 1 model. It is equipped with: 2 Dire Bio-cannons; Lashwhip Pods; Bio-plasma Torrent; Gargantuan Scything Talons.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

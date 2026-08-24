@@ -116,11 +116,8 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Skatarii Marshal
 ### Abilities
 ```
 Leadership Edict: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> Skitarii units whilst they are within 6" of this unit.
+A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave.
 ```
-
-### Options
-- per: Per Unit
-  text: A Skatarii Marshal is a unit that contains 1 model. It is equipped with: Radium Serpenta; Control Stave.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -156,6 +153,11 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Skitarii Rangers
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Galvanic Rifles; Close Combat Weapons.
+```
+
 ## Unit 6 — Troops — Skitarii Vanguard
 
 ### Stats
@@ -183,6 +185,11 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Skitarii Vanguard
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 6 |
+
+##### Profile Abilities
+```
+It is equipped with: Radium Carbines; Close Combat Weapons.
+```
 
 ## Unit 7 — Elites — Tech-Priest Enginseer
 
@@ -243,15 +250,30 @@ Ignore Damage (5+)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 6 | 10+ | 10 | 8 |
 
+##### Profile Abilities
+```
+It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee).
+```
+
 #### 15 Corpuscarii Electro-Priests
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 3 | 3 | 6 | 10+ | 15 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee).
+```
+
 #### 20 Corpuscarii Electro-Priests
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 4 | 4 | 6 | 10+ | 20 | 16 |
+
+##### Profile Abilities
+```
+It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee).
+```
 
 ## Unit 9 — Elites — Cybernetica Datasmith
 
@@ -312,15 +334,30 @@ Siphoned Vigour: If an enemy unit is destroyed within 1" of this unit, change th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 6 |
 
+##### Profile Abilities
+```
+It is equipped with: Electroleech Staves.
+```
+
 #### 15 Fulgurite Electro-Priests
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 3 | 3 | 6 | 10+ | 15 | 9 |
 
+##### Profile Abilities
+```
+It is equipped with: Electroleech Staves.
+```
+
 #### 20 Fulgurite Electro-Priests
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 12 |
+
+##### Profile Abilities
+```
+It is equipped with: Electroleech Staves.
+```
 
 ## Unit 11 — Elites — Kataphron Breachers
 
@@ -339,7 +376,7 @@ Infantry
 Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>, Kataphron Breachers
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Heavy Arc Rifle; 1 Torsion Cannon
 
@@ -356,15 +393,30 @@ Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>, Kataphron Breacher
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 4 | 5 | 6+ | 6 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Kataphron Claws.
+```
+
 #### 9 Kataphron Breachers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 3 | 6 | 5 | 6+ | 9 | 18 |
 
+##### Profile Abilities
+```
+It is equipped with: Kataphron Claws.
+```
+
 #### 12 Kataphron Breachers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 8 | 5 | 6+ | 12 | 24 |
+
+##### Profile Abilities
+```
+It is equipped with: Kataphron Claws.
+```
 
 ## Unit 12 — Elites — Servitors
 
@@ -388,7 +440,7 @@ Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to
 ```
 
 ### Options
-- per: Per weapon
+- per: up to 2
   Pt: 1
   text: This unit can also be equipped with up to two of the following: 1 Heavy Bolter; 1 Multi-melta; 1 Plasma Cannon.
 
@@ -428,6 +480,11 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Sicarian Ruststalkers
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 3+ | 2 | 4 | 5 | 8+ | 10 | 10 |
 
+##### Profile Abilities
+```
+It is equipped with: Chordclaws; Transonic Weapons.
+```
+
 ## Unit 14 — Elites — Sicarian Infiltrators
 
 ### Stats
@@ -466,6 +523,11 @@ Infiltrators, Terror Troops
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 3+ | 2 | 4 | 5 | 8+ | 10 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Stubcarbines; Infiltrator Weapons.
+```
+
 ## Unit 15 — Elites — Sydonian Dragoons
 
 ### Stats
@@ -486,10 +548,10 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Radium Jezzail; 1 Taser Lance
-- per: Per weapon
+- per: Per Model
   Pt: 1
   text: For each model this unit contains, it can also be equipped with 1 Phosphor Serpenta.
 
@@ -507,10 +569,20 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 6 | 7+ | 3 | 15 |
 
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
+
 #### 6 Sydonian Dragoons
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 6 | 6 | 6 | 7+ | 6 | 30 |
+
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
 
 ## Unit 16 — Elites — Hastarii Exterminators
 
@@ -528,9 +600,10 @@ Infantry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Hastarii Exterminators
 
-### Options
-- per: Per Unit
-  text: Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons.
+### Abilities
+```
+Hastarii Exterminators are a unit that contains 5 models. It is equipped with: Eradication Caster; Hastarii Arc Blaster; Close Combat Weapons.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -555,9 +628,10 @@ Infantry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Hastarii Fusiliers
 
-### Options
-- per: Per Unit
-  text: Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons.
+### Abilities
+```
+Hastarii Fusiliers are a unit that contains 5 models. It is equipped with: Neutron Fusil; Hastarii Phosphor Blaster; Close Combat Weapons.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -585,7 +659,7 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon
 
@@ -602,10 +676,20 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 6 | 8+ | 3 | 18 |
 
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
+
 #### 6 Ironstrider Ballistarii
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 6 | 6 | 6 | 8+ | 6 | 36 |
+
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
 
 ## Unit 19 — Fast — Kastelan Robots
 
@@ -629,10 +713,10 @@ Assault: You can re-roll hit rolls for attacks made by this unit with melee weap
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Heavy Phosphor Blaster; 1 Incendine Combustor
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 2 Heavy Phosphor Blasters; 1 Kastelan Fists
 
@@ -650,10 +734,20 @@ Assault: You can re-roll hit rolls for attacks made by this unit with melee weap
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 4 | 4 | 8 | 5+ | 4 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
+
 #### 6 Kastelan Robots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 6 | 6 | 8 | 5+ | 6 | 21 |
+
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
 
 ## Unit 20 — Fast — Sicarian Infiltrators
 
@@ -693,6 +787,11 @@ Infiltrators, Terror Troops
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 3+ | 2 | 4 | 5 | 8+ | 10 | 12 |
 
+##### Profile Abilities
+```
+It is equipped with: Stubcarbines; Infiltrator Weapons.
+```
+
 ## Unit 21 — Fast — Serberys Sulphurhounds
 
 ### Stats
@@ -706,9 +805,10 @@ Light, Cavalry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Serberys Sulphurhounds
 
-### Options
-- per: Per Unit
-  text: Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: Pistols; Sulphur Breath; Clawed Limbs.
+### Abilities
+```
+Serberys Sulphurhounds are a unit that contains 5 models. It is equipped with: Pistols; Sulphur Breath; Clawed Limbs.
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -730,9 +830,10 @@ Light, Cavalry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Infiltrators, Serberys Raiders
 
-### Options
-- per: Per Unit
-  text: Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres
+### Abilities
+```
+Serberys Raiders are a unit that contains 5 models. It is equipped with: Galvanic Carbine; Claws & Sabres
+```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -756,12 +857,6 @@ Infantry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Infiltrators, Pteraxii Sterylizors
 
-### Options
-- per: Per 10 models
-  Pt: 8
-  title: 10 Models
-  text: It can contain 10 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -773,6 +868,11 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Infiltrators, Pteraxii St
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 2 | 2 | 7 | 8+ | 10 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Phosphor Torch; Pteraxii Talons.
+```
 
 ## Unit 24 — Fast — Pteraxii Skywalkers
 
@@ -790,12 +890,6 @@ Infantry
 ### Traits
 Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Infiltrators, Pteraxii Skywalkers
 
-### Options
-- per: Per 10 models
-  Pt: 8
-  title: 10 Models
-  text: It can contain 10 models
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -807,6 +901,11 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Infiltrators, Pteraxii Sk
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | 4+ | 2 | 2 | 7 | 8+ | 10 | 8 |
+
+##### Profile Abilities
+```
+It is equipped with: Flechette Carbine; Close Combat Weapon.
+```
 
 ## Unit 25 — Heavy — Ironstrider Ballistarii
 
@@ -827,7 +926,7 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Twin Cognis Autocannon; 1 Twin Cognis Lascannon
 
@@ -844,10 +943,20 @@ Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge Wor
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 6 | 8+ | 3 | 18 |
 
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
+
 #### 6 Ironstrider Ballistarii
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 6 | 6 | 6 | 8+ | 6 | 36 |
+
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
 
 ## Unit 26 — Heavy — Kastelan Robots
 
@@ -871,10 +980,10 @@ Assault: You can re-roll hit rolls for attacks made by this unit with melee weap
 ```
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Heavy Phosphor Blaster; 1 Incendine Combustor
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 2 Heavy Phosphor Blasters; 1 Kastelan Fists
 
@@ -892,10 +1001,20 @@ Assault: You can re-roll hit rolls for attacks made by this unit with melee weap
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 4 | 4 | 8 | 5+ | 4 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
+
 #### 6 Kastelan Robots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 6 | 6 | 8 | 5+ | 6 | 21 |
+
+##### Profile Abilities
+```
+It is equipped with: Armoured Feet.
+```
 
 ## Unit 27 — Heavy — Kataphron Destroyers
 
@@ -914,10 +1033,10 @@ Infantry
 Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>, Kataphron Destroyers
 
 ### Options
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Heavy Grav-cannon; 1 Plasma Culverin
-- per: Per Unit
+- per: Per Model
   text: For each model this unit contains, it
   Choose 1: 1 Cognis Flamer; 1 Phosphor Blaster
 
@@ -936,15 +1055,30 @@ Imperium, Adeptus Mechanicus, Cult Mechanicus, <Forge World>, Kataphron Destroye
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 4 | 5 | 8+ | 6 | 14 |
 
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
+
 #### 9 Kataphron Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 3 | 6 | 5 | 8+ | 9 | 21 |
 
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
+
 #### 12 Kataphron Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 8 | 5 | 8+ | 12 | 28 |
+
+##### Profile Abilities
+```
+It is equipped with: Close Combat Weapons.
+```
 
 ## Unit 28 — Heavy — Onager Dunecrawler
 
@@ -1058,12 +1192,8 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Archaeopter Stratoraptor
 ### Abilities
 ```
 Harrier
+An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.
 ```
-
-### Options
-- per: Per Unit
-  title: Heavy Weapon
-  text: An Archaeopter Stratoraptor is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber; Hellstrike Missiles; Heavy Phosphor Blaster; Armoured Hull.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1090,12 +1220,8 @@ Imperium, Adeptus Mechanicus, Skitarii, <Forge World>, Archaeopter Fusilave
 ```
 Bomb Rack: Each time this unit ends a Move action, you can select one enemy unit it moved over during that Move action and roll six D6: for each 4+, that unit suffers 1 mortal wound.
 Harrier
+An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.
 ```
-
-### Options
-- per: Per Unit
-  title: Heavy Weapon
-  text: An Archaeopter Fusilave is a unit that contains 1 model. It is equipped with: Cognis Heavy Stubber Array; Armoured Hull.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

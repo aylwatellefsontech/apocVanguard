@@ -296,7 +296,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -357,7 +358,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "20",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Gauss Flayers; Heavy Blades."
         }
       ],
       "traits": [
@@ -419,7 +421,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "13"
+          "Pt": "13",
+          "abilities": "It is equipped with: Synaptic Disintegrators; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -513,7 +516,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "10",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Flayer Claws."
         },
         {
           "name": "15 Flayed Ones",
@@ -525,7 +529,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "15",
-          "Pt": "11"
+          "Pt": "11",
+          "abilities": "It is equipped with: Flayer Claws."
         },
         {
           "name": "20 Flayed Ones",
@@ -537,7 +542,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "20",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Flayer Claws."
         }
       ],
       "traits": [
@@ -652,7 +658,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "14",
+          "abilities": "It is equipped with: Hyperphase Swords; Warscythes."
         }
       ],
       "traits": [
@@ -736,7 +743,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades."
         }
       ],
       "traits": [
@@ -846,12 +854,6 @@
         "Light",
         "Infantry"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons."
-        }
-      ],
       "weapons": [
         {
           "name": "Skorpekh Hyperphase Weapons",
@@ -870,7 +872,8 @@
       ],
       "profileKeywords": [
         "Infantry"
-      ]
+      ],
+      "abilities": "Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons."
     },
     {
       "no": 16,
@@ -893,7 +896,7 @@
       "abilities": "Wraith Form: This unit can move across models and terrain as if they were not there.",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per Model",
           "text": "For each model this unit contains, it",
           "Pt": "1",
           "chooseOne": [
@@ -940,7 +943,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Wraith Weapons."
         }
       ],
       "traits": [
@@ -991,7 +995,8 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "6",
-          "Pt": "8"
+          "Pt": "8",
+          "abilities": "It is equipped with: Feeder Mandibles."
         },
         {
           "name": "9 Canoptek Scarabs",
@@ -1003,7 +1008,8 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "9",
-          "Pt": "12"
+          "Pt": "12",
+          "abilities": "It is equipped with: Feeder Mandibles."
         }
       ],
       "traits": [
@@ -1037,7 +1043,7 @@
       "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 3 models",
           "text": "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.",
           "Pt": "1"
         }
@@ -1079,7 +1085,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
         },
         {
           "name": "9 Destroyers",
@@ -1091,7 +1098,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "9",
-          "Pt": "22"
+          "Pt": "22",
+          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1181,7 +1189,8 @@
           "Ld": "8",
           "Sv": "7+",
           "N": "6",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
         },
         {
           "name": "9 Tomb Blades",
@@ -1193,7 +1202,8 @@
           "Ld": "8",
           "Sv": "7+",
           "N": "9",
-          "Pt": "22"
+          "Pt": "22",
+          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1292,7 +1302,7 @@
       "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per Model",
           "text": "For each model this unit contains, it can also be equipped with 1 Particle Beamer.",
           "Pt": "1"
         }
@@ -1326,7 +1336,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "2",
-          "Pt": "11"
+          "Pt": "11",
+          "abilities": "It is equipped with: Automaton Claws."
         },
         {
           "name": "3 Canoptek Spyders",
@@ -1338,7 +1349,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "3",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Automaton Claws."
         }
       ],
       "traits": [
@@ -1371,7 +1383,7 @@
       "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
       "options": [
         {
-          "per": "Per weapon",
+          "per": "Per 3 models",
           "text": "For every 3 models this unit contains, it can also be equipped with 1 Heavy Gauss Cannon.",
           "Pt": "1"
         }
@@ -1413,7 +1425,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15"
+          "Pt": "15",
+          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
         },
         {
           "name": "9 Destroyers",
@@ -1425,7 +1438,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "9",
-          "Pt": "22"
+          "Pt": "22",
+          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1542,7 +1556,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "2",
-          "Pt": "11"
+          "Pt": "11",
+          "abilities": "It is equipped with: Heavy Gauss Cannons; Close Combat Weapons."
         },
         {
           "name": "3 Heavy Destroyers",
@@ -1554,7 +1569,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "3",
-          "Pt": "16"
+          "Pt": "16",
+          "abilities": "It is equipped with: Heavy Gauss Cannons; Close Combat Weapons."
         }
       ],
       "traits": [
@@ -1685,12 +1701,6 @@
         "Vehicle",
         "Walker"
       ],
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs."
-        }
-      ],
       "weapons": [
         {
           "name": "Doomsday Blaster",
@@ -1724,7 +1734,8 @@
         "Canoptek",
         "<Dynasty>",
         "Canoptek Doomstalker"
-      ]
+      ],
+      "abilities": "A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs."
     },
     {
       "no": 30,
@@ -1895,13 +1906,7 @@
         "Titanic",
         "Fly"
       ],
-      "abilities": "Deep Strike\nGravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12\" of this unit; on a 9+ place one blast marker next to that unit.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "An Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk."
-        }
-      ],
+      "abilities": "Deep Strike\nGravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12\" of this unit; on a 9+ place one blast marker next to that unit.\nAn Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk.",
       "weapons": [
         {
           "name": "Tesla Sphere",
@@ -1947,13 +1952,7 @@
         "Titanic",
         "Fly"
       ],
-      "abilities": "Deep Strike",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "A Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk."
-        }
-      ],
+      "abilities": "Deep Strike\nA Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk.",
       "weapons": [
         {
           "name": "Tesla Sphere",

@@ -3,9 +3,6 @@ faction: Eldar
 source: Apoc40k-Armies-1st - Eldar.md
 ---
 
-# concept
-Fast moving force that evades direct confrontation, that hits hard, then escapes to minimize retaliation. Glass cannon.
-
 # Eldar Army List
 
 ## Unit 1 — HQ — Farseer
@@ -23,6 +20,7 @@ Infantry
 
 ### Abilities
 ```
+Equipped with: Witchblade; Eldritch Storm;
 Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.
 ```
 
@@ -69,6 +67,7 @@ Infantry
 
 ### Abilities
 ```
+Equipped with: Autarch Weapons;
 Path of Command: If this unit is a Warlord, you can secretly choose two orders to issue to this unit's Detachment instead of one, placing an order marker for each. After all orders are revealed, discard one of those order markers; the Detachment is considered not to have been issued that order.
 
 This unit can have one of: Skyrunner jetbike (Skyrunner Jetbike profile), Jump Generator (Jump Generator profile), Swooping Hawk Wings (Hawk Wings profile).
@@ -315,6 +314,7 @@ Aeldari, Asuryani, Warhost, <Craftworld>, Warlock, Warlock Conclave
 ### Abilities
 ```
 This unit can have 3 Warlocks (Profile) or 6 Warlocks (6 Warlocks Profile), a Jetbike (Skyrunner profile), or 3 Warlocks on jetbikes (3 Skyrunners Profile).
+Equipped with: Destructor; Witchblades & Singing Spears;
 Conclave of Power: If this unit contains 3 or more models, add 2 to wound rolls for attacks made by this unit. If this unit contains 6 models, add 4 to wound rolls for attacks made by this unit instead.
 ```
 
@@ -626,6 +626,7 @@ Aeldari, Asuryani, Spirit Host, <Craftworld>, Spiritseer
 
 ### Abilities
 ```
+Equipped with: Witch Staff;
 Spirit Mark: Re-roll hit rolls of 1 for attacks made by friendly <Craftworld> Spirit Host units whilst they are within 6" of this unit.
 ```
 
@@ -1011,7 +1012,7 @@ Aeldari, Asuryani, Warhost, <Craftworld>, Guardian, Support Weapon
 
 ### Abilities
 ```
-equipped with Close Combat Weapons.
+equipped with Close Combat Weapons and D-Cannon;
 Must choose one to be equipped with: 1 Shadow Weaver, 1 D-cannon; 1 Vibro Cannon.
 Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 ```
@@ -1019,8 +1020,8 @@ Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up
 ### Options
 - per: Per Unit
   title: Weapon
-  text: Can be equipped with
-  Choose one: Shadow Weaver; D-Cannon; Vibro Cannon
+  text: Can exchange D-Cannon for:
+  Choose one: Shadow Weaver; Vibro Cannon;
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

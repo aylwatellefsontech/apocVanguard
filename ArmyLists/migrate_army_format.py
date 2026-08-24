@@ -72,6 +72,76 @@ LOADOUT_ONLY = re.compile(
     re.IGNORECASE,
 )
 
+LOADOUT_SKIP_PHRASES = (
+    "one of the following",
+    "instead of 1 ",
+    "instead of 2 ",
+    "exchange ",
+    "can be equipped with 1 ",
+    "can be equipped with 2 ",
+    "must be equipped with",
+    "can also be equipped with",
+    "can have up to",
+    "for each ",
+    "must also be equipped with",
+    "can contain 1 weapons team",
+)
+
+
+def is_loadout_text(text: str, option: dict) -> bool:
+    if option.get("chooseOne"):
+        return False
+    cleaned = text.strip().lstrip("•").strip()
+    if not cleaned:
+        return False
+    if parse_choose_one(cleaned):
+        return False
+    lower = cleaned.lower()
+    if any(phrase in lower for phrase in LOADOUT_SKIP_PHRASES):
+        return False
+    if "contains" in lower and "model" in lower:
+        return True
+    if "every model is equipped with" in lower:
+        return True
+    if "you can only include one" in lower:
+        return True
+    if "is equipped with:" in lower or "it is equipped with:" in lower:
+        return True
+    return LOADOUT_ONLY.match(cleaned) is not None
+
+
+def move_loadout_to_abilities(unit: dict) -> None:
+    options = unit.get("options") or []
+    kept: list[dict] = []
+    loadout_lines: list[str] = []
+
+    for opt in options:
+        if isinstance(opt, str):
+            if opt.strip():
+                loadout_lines.append(opt.strip())
+            continue
+        text = (opt.get("text") or "").strip().lstrip("•").strip()
+        if is_loadout_text(text, opt):
+            if text:
+                loadout_lines.append(text)
+        else:
+            kept.append(opt)
+
+    if loadout_lines:
+        existing = (unit.get("abilities") or "").strip()
+        for line in loadout_lines:
+            if not line:
+                continue
+            if line in existing:
+                continue
+            existing = f"{existing}\n{line}".strip() if existing else line
+        unit["abilities"] = existing
+
+    if kept:
+        unit["options"] = kept
+    elif "options" in unit:
+        unit.pop("options", None)
+
 MOBILITY_PROFILES = {
     "Jump Pack": {
         "M": '12"',
@@ -287,6 +357,9 @@ def migrate_option(option: dict) -> dict | None:
         option["title"] = title
 
     if LOADOUT_ONLY.match(text) and not option.get("chooseOne"):
+        return None
+
+    if is_loadout_text(text, option):
         return None
 
     boilerplate = {
@@ -633,8 +706,267 @@ def remove_commander_battlesuit_options(unit: dict) -> None:
         unit.pop("options", None)
 
 
-def migrate_unit(unit: dict) -> None:
+def normalize_weapon_name(raw: str) -> str:
+    name = raw.strip().rstrip(".,").strip()
+    return re.sub(r"^\d+\s+", "", name).strip()
+
+
+def extract_option_weapon_names(unit: dict) -> set[str]:
+    optional: set[str] = set()
+    for opt in unit.get("options") or []:
+        if not isinstance(opt, dict):
+            continue
+        for choice in opt.get("chooseOne") or []:
+            optional.add(normalize_weapon_name(choice))
+        text = opt.get("text") or ""
+        lower = text.lower()
+        exchange = re.search(r"exchange (.+?) for (.+?)(?:\.|$)", text, re.I)
+        if exchange:
+            optional.add(normalize_weapon_name(exchange.group(2)))
+        instead = re.search(
+            r"instead of (.+?), .*(?:equipped with|equip(?:ped)? with) (.+?)(?:\.|$)",
+            text,
+            re.I,
+        )
+        if instead:
+            optional.add(normalize_weapon_name(instead.group(2)))
+        choose = re.search(r"choose \d+:\s*(.+)", text, re.I)
+        if choose:
+            for part in choose.group(1).split(";"):
+                optional.add(normalize_weapon_name(part))
+        if "instead of" not in lower:
+            for match in re.finditer(
+                r"(?:also )?be equipped with (?:up to \d+ )?"
+                r"(?:two of the following in any combination: )?"
+                r"(?:\d+ )?([^.;]+)",
+                text,
+                re.I,
+            ):
+                chunk = match.group(1)
+                if "following" in chunk.lower():
+                    continue
+                for part in chunk.split(";"):
+                    optional.add(normalize_weapon_name(part))
+    return {name for name in optional if name}
+
+
+UP_TO_WORDS = {
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+}
+
+
+def is_composition_size_option(option: dict) -> bool:
+    text = (option.get("text") or "").strip()
+    lower = text.lower()
+    if "weapons team" in lower:
+        return False
+    if "instead of" in lower and "model" in lower:
+        return False
+    if re.search(r"it can contain \d+ models?", lower):
+        return True
+    if re.match(r"^(?:per\s+\d+\s+models:\s*)?\d+ models?\.?$", lower):
+        return True
+    return False
+
+
+def parse_per_model_count(per: str | None) -> int | None:
+    if not per:
+        return None
+    match = re.match(r"per\s+(\d+)\s+models?", per.strip(), re.I)
+    return int(match.group(1)) if match else None
+
+
+def extract_model_counts_from_option(option: dict) -> list[int]:
+    text = (option.get("text") or "").strip()
+    lower = text.lower()
+    counts: list[int] = []
+    if re.search(r"it can contain", lower):
+        counts.extend(int(match.group(1)) for match in re.finditer(r"(\d+) models?", lower))
+    elif re.match(r"^(?:per\s+\d+\s+models:\s*)?(\d+) models?\.?$", lower):
+        match = re.search(r"(\d+) models?", lower)
+        if match:
+            counts.append(int(match.group(1)))
+    per_count = parse_per_model_count(option.get("per"))
+    if not counts and per_count:
+        counts.append(per_count)
+    return counts
+
+
+def resolve_composition_specs(options: list[dict]) -> dict[int, int]:
+    specs: dict[int, int] = {}
+    for option in options:
+        if not is_composition_size_option(option):
+            continue
+        pt = parse_pt(option.get("Pt"))
+        per_count = parse_per_model_count(option.get("per"))
+        counts = extract_model_counts_from_option(option)
+        if len(counts) == 1:
+            specs[counts[0]] = pt or specs.get(counts[0], 0)
+        elif per_count and per_count in counts:
+            specs[per_count] = pt or specs.get(per_count, 0)
+        else:
+            for count in counts:
+                if count not in specs and pt:
+                    specs[count] = pt
+    return specs
+
+
+def size_is_covered(unit: dict, profiles: list[dict], count: int) -> bool:
+    base_n = parse_pt((unit.get("stats") or {}).get("N"))
+    if base_n == count:
+        return True
+    return any(parse_pt(profile.get("N")) == count for profile in profiles)
+
+
+def scale_numeric_stat(value, ratio: float):
+    if value is None:
+        return None
+    raw = str(value).strip()
+    match = re.match(r"^(\d+)\+?$", raw)
+    if not match:
+        return value
+    suffix = "+" if raw.endswith("+") else ""
+    scaled = max(1, int(round(int(match.group(1)) * ratio)))
+    return f"{scaled}{suffix}"
+
+
+def build_composition_profile(unit: dict, model_count: int, pt: int) -> dict:
+    base = unit.get("stats") or {}
+    base_n = parse_pt(base.get("N")) or 1
+    ratio = model_count / base_n
+    unit_name = unit.get("name", "Models")
+
+    profile: dict = {"name": f"{model_count} {unit_name}"}
+    for field in ("M", "WS", "BS", "Ld", "Sv"):
+        if field in base:
+            profile[field] = base[field]
+    profile["A"] = scale_numeric_stat(base.get("A"), ratio)
+    profile["W"] = scale_numeric_stat(base.get("W"), ratio)
+    profile["N"] = str(model_count)
+    profile["Pt"] = str(pt if pt else max(1, int(round(parse_pt(base.get("Pt")) * ratio))))
+
+    if unit.get("profileKeywords"):
+        profile["keywords"] = list(unit["profileKeywords"])
+    return profile
+
+
+def extract_composition_profiles(unit: dict) -> None:
+    options = unit.get("options") or []
+    composition_opts = [
+        option for option in options if isinstance(option, dict) and is_composition_size_option(option)
+    ]
+    if not composition_opts:
+        return
+
+    specs = resolve_composition_specs(composition_opts)
+    profiles = list(unit.get("profiles") or [])
+    existing_names = {profile.get("name") for profile in profiles}
+
+    for count, pt in sorted(specs.items()):
+        if size_is_covered(unit, profiles, count):
+            continue
+        profile = build_composition_profile(unit, count, pt)
+        if profile["name"] not in existing_names:
+            profiles.append(profile)
+            existing_names.add(profile["name"])
+
+    kept = [
+        option
+        for option in options
+        if not (isinstance(option, dict) and is_composition_size_option(option))
+    ]
+    if kept:
+        unit["options"] = kept
+    else:
+        unit.pop("options", None)
+    if profiles:
+        unit["profiles"] = profiles
+
+
+def normalize_option_per(option: dict) -> None:
+    text = (option.get("text") or "").lower()
+    if "for each model" in text:
+        option["per"] = "Per Model"
+        return
+    every = re.search(r"for every (\d+) models?", text)
+    if every:
+        option["per"] = f"Per {every.group(1)} models"
+        return
+    up_to = re.search(r"up to (\d+|one|two|three|four|five|six|seven|eight|nine|ten)", text)
+    if up_to and re.match(r"per\s+weapon", (option.get("per") or "").strip(), re.I):
+        raw = up_to.group(1)
+        count = UP_TO_WORDS.get(raw, raw)
+        option["per"] = f"up to {count}"
+        return
+    per = (option.get("per") or "").strip()
+    count_match = re.match(r"per\s+(\d+)\s+models?", per, re.I)
+    if count_match:
+        option["per"] = f"Per {count_match.group(1)} models"
+
+
+def normalize_unit_option_pers(unit: dict) -> None:
+    for opt in unit.get("options") or []:
+        if isinstance(opt, dict):
+            normalize_option_per(opt)
+
+
+def weapons_exclusive_to_other_profiles(
+    profile: dict, profiles: list[dict], unit: dict
+) -> set[str]:
+    exclusive: set[str] = set()
+    unit_names = {w["name"] for w in unit.get("weapons") or []}
+    profile_name = profile.get("name")
+    for other in profiles:
+        if other.get("name") == profile_name:
+            continue
+        for weapon in other.get("weapons") or []:
+            if weapon["name"] not in unit_names:
+                exclusive.add(weapon["name"])
+    return exclusive
+
+
+def default_profile_weapon_names(unit: dict, profile: dict, profiles: list[dict]) -> list[str]:
+    optional = extract_option_weapon_names(unit)
+    exclusive = weapons_exclusive_to_other_profiles(profile, profiles, unit)
+    source = profile.get("weapons") or unit.get("weapons") or []
+    names: list[str] = []
+    for weapon in source:
+        name = weapon["name"]
+        if name in optional or name in exclusive:
+            continue
+        names.append(name)
+    return names
+
+
+def add_profile_equipped_lines(unit: dict) -> None:
+    profiles = unit.get("profiles") or []
+    if not profiles:
+        return
+    for profile in profiles:
+        abilities = (profile.get("abilities") or "").strip()
+        if "equipped with" in abilities.lower():
+            continue
+        weapon_names = default_profile_weapon_names(unit, profile, profiles)
+        if not weapon_names:
+            continue
+        equipped_line = f"It is equipped with: {'; '.join(weapon_names)}."
+        profile["abilities"] = f"{abilities}\n{equipped_line}".strip() if abilities else equipped_line
+
+
+def migrate_unit(unit: dict, *, move_loadout: bool = False) -> None:
     split_keywords_traits(unit)
+
+    if move_loadout:
+        move_loadout_to_abilities(unit)
 
     had_jump_packs = squad_had_jump_packs(unit)
     mobility_profiles = extract_mobility_profiles(unit)
@@ -652,6 +984,7 @@ def migrate_unit(unit: dict) -> None:
     elif "options" in unit:
         unit.pop("options")
 
+    extract_composition_profiles(unit)
     rename_profiles(unit)
 
     if mobility_profiles:
@@ -693,13 +1026,15 @@ def migrate_unit(unit: dict) -> None:
             if not unit["abilities"]:
                 unit.pop("abilities", None)
 
+    normalize_unit_option_pers(unit)
+    add_profile_equipped_lines(unit)
     strip_duplicate_abilities(unit)
 
 
-def migrate_data(data: dict) -> dict:
+def migrate_data(data: dict, *, move_loadout: bool = False) -> dict:
     data = copy.deepcopy(data)
     for unit in data.get("units", []):
-        migrate_unit(unit)
+        migrate_unit(unit, move_loadout=move_loadout)
     normalize_text_fields(data)
     return data
 
@@ -739,7 +1074,7 @@ def migrate_file(md_path: Path, sync_web: bool = True) -> None:
         data = json.loads(json_path.read_text(encoding="utf-8"))
     else:
         data = markdown_to_json(text, md_path)
-    migrated = migrate_data(data)
+    migrated = migrate_data(data, move_loadout=True)
     write_markdown(migrated, md_path, preamble)
     write_json_outputs(migrated, json_path, sync_web)
     print(f"Migrated {md_path.name}")
