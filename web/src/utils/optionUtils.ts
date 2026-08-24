@@ -53,11 +53,36 @@ export function getPerModelsSlotCount(
   return Math.floor(modelCount / interval)
 }
 
+export function getPerModelsDisplaySlotCount(
+  option: UnitOption,
+  profileStats: UnitStats | null | undefined,
+  viewOnly = false,
+): number {
+  const slotCount = getPerModelsSlotCount(option, profileStats)
+  if (viewOnly && isPerModelsOption(option) && slotCount === 0) {
+    return 1
+  }
+  return slotCount
+}
+
+export function formatChooseLimitHeading(chooseLimit: number): string {
+  return `Choose ${chooseLimit}:`
+}
+
+export function formatExclusiveGroupLegend(groupName: string, viewOnly = false): string {
+  return viewOnly ? `${groupName} - you may choose one` : groupName
+}
+
 export function formatPerModelsSlotLegend(
   slotIndex: number,
   interval: number,
   groupName?: string,
+  viewOnly = false,
 ): string {
+  if (viewOnly) {
+    const every = `(For Every ${interval} Models)`
+    return groupName ? `${groupName} ${every}` : `For Every ${interval} Models`
+  }
   const start = slotIndex * interval + 1
   const end = (slotIndex + 1) * interval
   const range = `Models ${start}–${end}`
@@ -100,6 +125,18 @@ export function getChooseInstanceCount(
   if (upToLimit != null) return upToLimit
   if (isPerModelsOption(option)) return getPerModelsSlotCount(option, profileStats)
   return 1
+}
+
+export function getChooseDisplayInstanceCount(
+  option: UnitOption,
+  profileStats?: UnitStats | null,
+  viewOnly = false,
+): number {
+  const instanceCount = getChooseInstanceCount(option, profileStats)
+  if (viewOnly && isPerModelsOption(option) && instanceCount === 0) {
+    return 1
+  }
+  return instanceCount
 }
 
 export function optionUsesSlotIndex(option: UnitOption): boolean {

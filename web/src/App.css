@@ -708,6 +708,13 @@
   font-weight: 600;
 }
 
+.option-choose-heading {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
 .option-model-block {
   margin-top: 12px;
   padding-top: 8px;

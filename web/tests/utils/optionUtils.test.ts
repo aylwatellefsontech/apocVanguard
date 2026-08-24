@@ -1,9 +1,13 @@
 import { describe, expect, it } from '@jest/globals'
 import {
+  formatChooseLimitHeading,
+  formatExclusiveGroupLegend,
   formatPerModelsSlotLegend,
+  getChooseDisplayInstanceCount,
   getChooseInstanceCount,
   getChooseLimit,
   getChooseOneChoices,
+  getPerModelsDisplaySlotCount,
   getPerModelsInterval,
   getPerModelsSlotCount,
   isChooseOneOption,
@@ -38,6 +42,12 @@ describe('per models options', () => {
     expect(getPerModelsSlotCount(perTenOption, { N: '9' })).toBe(0)
   })
 
+  it('shows one view-only slot when the current profile is too small', () => {
+    expect(getPerModelsDisplaySlotCount(perTenOption, { N: '9' })).toBe(0)
+    expect(getPerModelsDisplaySlotCount(perTenOption, { N: '9' }, true)).toBe(1)
+    expect(getPerModelsDisplaySlotCount(perTenOption, null, true)).toBe(1)
+  })
+
   it('supports arbitrary per-model intervals', () => {
     const perThree = { per: 'per 3 models', text: 'Upgrade', Pt: '+1' }
     expect(getPerModelsInterval(perThree)).toBe(3)
@@ -52,6 +62,23 @@ describe('per models options', () => {
     expect(formatPerModelsSlotLegend(1, 10, 'heavy weapons')).toBe(
       'heavy weapons (Models 11–20)',
     )
+    expect(formatPerModelsSlotLegend(0, 10, 'heavy weapons', true)).toBe(
+      'heavy weapons (For Every 10 Models)',
+    )
+    expect(formatPerModelsSlotLegend(1, 10, undefined, true)).toBe('For Every 10 Models')
+    expect(formatPerModelsSlotLegend(0, 10, 'Mobility - you may choose one', true)).toBe(
+      'Mobility - you may choose one (For Every 10 Models)',
+    )
+  })
+
+  it('formats exclusive group legends for view mode', () => {
+    expect(formatExclusiveGroupLegend('Mobility')).toBe('Mobility')
+    expect(formatExclusiveGroupLegend('Mobility', true)).toBe('Mobility - you may choose one')
+  })
+
+  it('formats choose limit headings', () => {
+    expect(formatChooseLimitHeading(1)).toBe('Choose 1:')
+    expect(formatChooseLimitHeading(3)).toBe('Choose 3:')
   })
 })
 
@@ -113,5 +140,15 @@ describe('choose one options', () => {
         { N: '9' },
       ),
     ).toBe(0)
+    expect(
+      getChooseDisplayInstanceCount(
+        {
+          per: 'Per 10 models',
+          chooseOne: ['Bright Lance'],
+        },
+        { N: '9' },
+        true,
+      ),
+    ).toBe(1)
   })
 })

@@ -236,7 +236,7 @@ It can exchange its Sluggas and Choppas for Shootas and Close Combat Weapons (op
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 1 | 1 | 4 | 11+ | 10 | 1 |
+| 5" | 5+ | 4+ | 1 | 1 | 4 | 11+ | 10 | 2 |
 
 ### Keywords
 Light, Infantry
@@ -255,7 +255,7 @@ This unit can include a Runtherd (option). If this unit includes a Runtherd, it 
 - per: Per Unit
   Pt: 1
   title: Runtherd
-  text: This unit can include a Runtherd (Power Rating +1)
+  text: This unit can include a Runtherd
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -268,12 +268,12 @@ This unit can include a Runtherd (option). If this unit includes a Runtherd, it 
 #### 20 Grots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 2 | 2 | 4 | 11+ | 20 | 2 |
+| 5" | 5+ | 4+ | 2 | 2 | 4 | 11+ | 20 | 3 |
 
 #### 30 Grots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 3 | 3 | 4 | 11+ | 30 | 3 |
+| 5" | 5+ | 4+ | 3 | 3 | 4 | 11+ | 30 | 4 |
 
 ## Unit 8 — Elites — Painboy
 

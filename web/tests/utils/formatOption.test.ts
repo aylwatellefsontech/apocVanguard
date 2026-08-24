@@ -21,7 +21,7 @@ describe('summarizeOption', () => {
         { N: '20' },
       ),
     ).toEqual({
-      label: '+1 Power Rating / Per 10 Models',
+      label: 'Per 10 Models',
       text: 'Take big shootas',
       points: 2,
     })
@@ -57,7 +57,7 @@ describe('summarizeOption', () => {
         true,
       ),
     ).toEqual({
-      label: '+1 Power Rating / Per 10 Models',
+      label: 'Per 10 Models',
       text: 'Take big shootas',
       points: 1,
     })

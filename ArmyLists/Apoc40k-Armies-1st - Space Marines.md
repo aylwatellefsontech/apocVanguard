@@ -10,32 +10,18 @@ source: Apoc40k-Armies-1st - Space Marines.md
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 5 |
+| 6" | 2+ | 2+ | 3 | 1 | 7 | 4+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Character, Captain
+Light, Infantry, Character
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Captain, Titus
 
 ### Abilities
 ```
-Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6" of this unit.
-This unit can have one of the following:
-- Jump Pack (Power Rating +2). If this unit has a Jump Pack, it has Move 12", Deep Strike, and keywords Jump Pack, Fly.
-- Terminator Armour (Power Rating +2). If this unit has Terminator Armour, it has Move 5", Save 4+, Deep Strike, and keyword Terminator.
-- Bike (Power Rating +1). If this unit has a Bike, it has Move 14" and keyword Biker; loses keyword Infantry.
+Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units while they are within 6 inches of this unit.
 ```
-
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -50,34 +36,58 @@ This unit can have one of the following:
 | 6" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Character, Captain
+Light, Infantry, Character
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Captain
+
+### Profile Keywords
+Infantry
 
 ### Abilities
 ```
-Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6" of this unit.
-This unit can have one of the following:
-- Jump Pack (Power Rating +2). Move 12", Deep Strike, keywords Jump Pack, Fly.
-- Terminator Armour (Power Rating +2). Move 5", Save 4+, Deep Strike, keyword Terminator.
-- Bike (Power Rating +1). Move 14", keyword Biker; loses keyword Infantry.
+Rites of Battle: Re-roll hit rolls of 1 for attacks made by friendly <Chapter> units while they are within 6 inches of this unit.
 ```
-
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Master-crafted Weapons | Melee | Melee | User | 6+ | 6+ |  |
+
+### Profiles
+#### Jump Pack
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Terminator Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 2+ | 2+ | 1 | 1 | 7 | 4+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Terminator
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Bike
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 6 |
+
+##### Profile Keywords
+Biker
 
 ## Unit 3 — HQ — Librarian
 
@@ -87,33 +97,53 @@ This unit can have one of the following:
 | 6" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 3 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Psyker, Character, Librarian
+Light, Infantry, Psyker, Character
 
-### Abilities
-```
-This unit can have one of the following:
-- Jump Pack (Power Rating +2). Move 12", Deep Strike, keywords Jump Pack, Fly.
-- Terminator Armour (Power Rating +2). Move 5", Save 4+, Deep Strike, keyword Terminator.
-- Bike (Power Rating +1). Move 14", keyword Biker; loses keyword Infantry.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Librarian
 
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
+### Profile Keywords
+Infantry
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Force Weapon | Melee | Melee | User | 7+ | 8+ |  |
+
+### Profiles
+#### Jump Pack
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 5 |
+
+##### Profile Keywords
+Infantry, Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Terminator Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 3+ | 3+ | 1 | 1 | 7 | 4+ | 1 | 5 |
+
+##### Profile Keywords
+Infantry, Terminator
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### Bike
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 4 |
+
+##### Profile Keywords
+Biker
 
 ## Unit 4 — HQ — Chaplain
 
@@ -123,55 +153,64 @@ This unit can have one of the following:
 | 6" | 2+ | 3+ | 1 | 1 | 7 | 5+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Character, Priest, Chaplain
+Light, Infantry, Character
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Priest, Chaplain
+
+### Profile Keywords
+Infantry
 
 ### Abilities
 ```
-Litanies of Hate: You can re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units whilst they are within 6" of this unit.
-Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
-This unit can have one of the following:
-- Jump Pack (Power Rating +2). Move 12", Deep Strike, keywords Jump Pack, Fly.
-- Terminator Armour (Power Rating +2). Move 5", Save 4+, Deep Strike, keyword Terminator.
-- Bike (Power Rating +1). Move 14", keyword Biker; loses keyword Infantry.
+Litanies of Hate: Re-roll hit rolls for attacks made with melee weapons by friendly <Chapter> units while they are within 6 inches of this unit.
+Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership characteristic instead of their own while they are within 6 inches of this unit.
 ```
-
-### Options
-- per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
-- per: Per Unit
-  Pt: 2
-  text: Terminator Armour (Power Rating +2)
-- per: Per Unit
-  Pt: 1
-  text: Bike (Power Rating +1)
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Crozius Arcanum | Melee | Melee | User | 7+ | 8+ |  |
 
+### Profiles
+
+#### Terminator Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 2+ | 3+ | 1 | 1 | 7 | 4+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Terminator
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
 ## Unit 6 — Troops — Tactical Marines
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 6 | 6 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 9 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Tactical Squad
+Light, Infantry
 
-### Abilities
-```
-If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Tactical Squad
 
 ### Options
+- per: Per Unit
+  Pt: 1
+  title: Special Weapon
+  text: Can also be equipped with
+  Choose 1: Flamer; Plasmagun; Meltagun;
 - per: Per 10 models
   Pt: 1
-  text: If this unit contains 10 models, it can also be equipped with one of the following (Power Rating +1): Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.
+  title: Heavy Weapon
+  text: Can also be equipped with
+  Choose 1: Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -182,39 +221,47 @@ If this unit contains 10 models, it can also be equipped with one of the followi
 | Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
+| Plasma Gun | Small Arms | 36" | 1 | 7+ | 7+ |  |
+| Flamer | Small Arms | 12" | 1 | 7+ | 9+ | Inferno |
+| Meltagun | Small Arms | 12" | 1 | 10+ | 4+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 12 | 12 |
+| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 18 |
+
 
 ## Unit 7 — Troops — Scouts
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 6 | 6 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 5 | 7 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Scout, Scout Squad
+Light, Infantry
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Scout, Scout Squad
 
 ### Abilities
 ```
 Infiltrators
-This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.
-Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1). If it is, it has Stealth.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can also be equipped with one of the following (Power Rating +1): Heavy Bolter; Missile Launcher.
+  title: Heavy Weapon
+  text: Can also be equipped with one
+  Choose 1: Heavy Bolter; Missile Launcher
 - per: Per Unit
   Pt: 1
-  text: Instead of Scout Weapons and Combat Knives, this unit can be equipped with Sniper Rifles and Close Combat Weapons (Power Rating +1)
+  title: Sniper Rifles
+  text: Exchange Scout Weapons and Combat Knives for Sniper Rifles and Close Combat Weapons; gain Stealth.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -227,32 +274,35 @@ Instead of Scout Weapons and Combat Knives, this unit can be equipped with Snipe
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Scouts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 12 | 12 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
-## Unit 8 — Troops — Intercessors
+## Unit 8 — Elites — Infernus Marines
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 6 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Primaris, Intercessor Squad
+Light, Infantry
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Primaris, Infernus Squad
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bolt Rifles | Small Arms | 30" | User | 5+ | 8+ | Rapid Fire |
+| PyreBlaster | Small Arms | 12" | 2x | 5+ | 8+ | Inferno |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 12 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
 
 ## Unit 5 — Elites — Techmarine
 
@@ -262,29 +312,27 @@ Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Primaris, Intercessor Sq
 | 6" | 3+ | 2+ | 1 | 1 | 6 | 4+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Character, Techmarine
+Light, Infantry, Character
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Techmarine
 
 ### Abilities
 ```
-Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
-This unit can have one of the following:
-- Jump Pack (Power Rating +2). Move 12", Deep Strike, keywords Jump Pack, Fly.
-- Bike (Power Rating +1). Move 14", keyword Biker; loses keyword Infantry.
-This unit can have a Servo-harness (Power Rating +1). If it has a Servo-harness, Attacks 2 and it is also equipped with 1 Flamer & Plasma Cutter.
+Blessing of the Omnissiah: At the end of the Action phase, this unit can attempt to repair one friendly <Chapter> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
 ```
 
 ### Options
 - per: Per Unit
-  text: This unit can have one of the following:.
-- per: Per Unit
-  Pt: 2
-  text: Jump Pack (Power Rating +2)
+  Pt: 1
+  title: Bike
+  limit: group Exclusive
+  group: Mobility
+  text: Equip with a Bike. Move becomes 14 inches; gain Biker and lose Infantry.
 - per: Per Unit
   Pt: 1
-  text: Bike (Power Rating +1)
-- per: Per Unit
-  Pt: 1
-  text: This unit can have a Servo-harness (Power Rating +1)
+  title: Servo-harness
+  text: Equip with a Servo-harness. Attacks becomes 2; also equip 1 Flamer & Plasma Cutter.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -300,17 +348,10 @@ This unit can have a Servo-harness (Power Rating +1). If it has a Servo-harness,
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 10 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Vanguard Veteran Squad
+Light, Infantry
 
-### Abilities
-```
-This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models). If this unit has Jump Packs, Move 12", Deep Strike, keywords Jump Pack, Fly.
-```
-
-### Options
-- per: Per 10 models
-  Pt: 2
-  text: This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 for 10 models)
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Vanguard Veteran Squad
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -319,30 +360,56 @@ This unit can have Jump Packs (Power Rating +2 for 5 models, or Power Rating +4 
 | Vanguard Weapons | Melee | Melee | x3 | 6+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Veterans
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
+
+#### 5 Jump Veterans
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 12 |
+
+##### Profile Keywords
+Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### 10 Jump Veterans
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 24 |
+
+##### Profile Keywords
+Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
 
 ## Unit 10 — Elites — Veteran Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 5 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 10 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Sternguard Veteran Squad
+Light, Infantry
 
-### Abilities
-```
-This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Sternguard Veteran Squad
 
 ### Options
-- per: Per weapon
+- per: up to 2
   Pt: 1
-  text: This unit can also be equipped with up to two of the following in any combination (Power Rating +1 per weapon): Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon.
+  title: Heavy Weapon
+  text: Can also be equipped with
+  Choose 1: Grav-cannon; Heavy Bolter; Heavy Flamer; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -358,31 +425,35 @@ This unit can also be equipped with up to two of the following in any combinatio
 | Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Veterans
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 10 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
 ## Unit 11 — Elites — Terminator Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 11 |
+| 5" | 3+ | 3+ | 2 | 3 | 7 | 4+ | 5 | 15 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Terminator, Terminator Squad
+Light, Infantry, Terminator
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Terminator Squad
 
 ### Abilities
 ```
 Deep Strike
-For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.
 ```
 
 ### Options
-- per: Per weapon
+- per: Per 5 models
   Pt: 1
-  text: For every 5 models this unit contains, it can also be equipped with one of the following (Power Rating +1 per weapon): Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon.
+  title: Heavy Weapon
+  text: Can also be equipped with
+  Choose 1: Assault Cannon; Cyclone Missile Launcher; Heavy Flamer; Reaper Autocannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -391,49 +462,53 @@ For every 5 models this unit contains, it can also be equipped with one of the f
 | Cyclone Missile Launcher | Heavy | 36" | 2 | 7+ | 7+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Reaper Autocannon | Heavy | 36" | 2 | 8+ | 8+ |  |
-| Storm Bolters | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
+| Storm Bolters | Small Arms | 24" | User | 6+ | 9+ | Rapid Fire |
 | Terminator Power Weapons | Melee | Melee | User | 6+ | 6+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 21 |
+| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 32 |
 
 ## Unit 12 — Elites — Terminator Assault Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 9 |
+| 5" | 3+ | 3+ | 2 | 3 | 7 | 6+ | 5 | 14 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Terminator, Terminator Assault Squad
+Light, Infantry, Terminator
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Terminator Assault Squad
 
 ### Abilities
 ```
 Deep Strike
-Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1). If this unit has Storm Shields, Save 3+.
+If this unit has Storm Shields, they have Save Characteristic of 3+ vs Melee weapons.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and have Storm Shields (Power Rating +1)
+  title: Thunder Hammers and Storm Shields
+  text: Exchange Lightning Claws for Thunder Hammers and Storm Shields.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lightning Claws | Melee | Melee | x2 | 7+ | 8+ |  |
-| Thunder Hammers | Melee | Melee | User | 6+ | 6+ |  |
+| Lightning Claws | Melee | Melee | x2 | 6+ | 8+ |  |
+| Thunder Hammers | Melee | Melee | User | 6+ | 5+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 18 |
+| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 28 |
 
-## Unit 13 — Elites — Apothecary
+## Unit 13 — Elites — Ancient 
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -441,18 +516,36 @@ Instead of Lightning Claws, this unit can be equipped with Thunder Hammers and h
 | 6" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 4 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Character, Apothecary
+Light, Infantry, Character
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Apothecary
+
+### Profile Keywords
+Infantry
 
 ### Abilities
 ```
-Narthecium: At the end of the Action phase, this unit can attempt to heal one friendly <Chapter> Light unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.
-This unit can have a Bike (Power Rating +1). If it has a Bike, Move 14", keyword Biker; loses keyword Infantry.
+Equipped with Banner: Morale tests taken for friendly <Chapter> units are automatically passed whilst they are within 6" of this unit.
+Can trade Banner to become Apothecary (option) with Narhecium or Lieutenant (option) with Tactical Precision.
+If has Narhecium:
+At the end of the Action phase, this unit can attempt to heal one friendly <Chapter> Light unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that Light unit. Only one attempt to heal each unit can be made each turn.
+If has Tactical Precision: Re-roll wound rolls of 1 for attacks made by friendly <Chapter> units whilst they are within 6" of this unit.
 ```
 
 ### Options
 - per: Per Unit
+  Pt: 0
+  limit: group Exclusive
+  group: Role
+  title: Apothecary
+  text: Trade Banner for Narhecium.
+- per: Per Unit
   Pt: 1
-  text: This unit can have a Bike (Power Rating +1)
+  limit: group Exclusive
+  group: Role
+  title: Lieutenant
+  text: Trade Banner for Tactical Precision.  
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -464,10 +557,13 @@ This unit can have a Bike (Power Rating +1). If it has a Bike, Move 14", keyword
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 4+ | 5 | 5 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 4+ | 2 | 10 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Honour Guard
+Light, Infantry
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Honour Guard
 
 ### Abilities
 ```
@@ -484,23 +580,18 @@ Honour Guard: At the start of the Damage phase, you can select one friendly <Cha
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 6 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 7 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Assault Squad
+Light, Infantry
 
-### Abilities
-```
-This unit can have Jump Packs (Power Rating +2). If it has Jump Packs, Move 12", Deep Strike, keywords Jump Pack, Fly.
-For every 5 models this unit contains, it can also be equipped with 1 Eviscerator.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Assault Squad
 
 ### Options
-- per: Per Unit
-  Pt: 2
-  text: This unit can have Jump Packs (Power Rating +2)
 - per: Per 5 models
-  text: For every 5 models this unit contains, it can also be equipped with 1 Eviscerator.
+  title: Eviscerator
+  text: Can also be equipped with 1 Eviscerator.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -510,30 +601,56 @@ For every 5 models this unit contains, it can also be equipped with 1 Eviscerato
 | Eviscerator | Melee | Melee | 1 | 8+ | 8+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 12 |
+| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 14 |
+
+#### 5 Jump Marines
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 9 |
+
+##### Profile Keywords
+Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
+
+#### 10 Jump Marines
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 18 |
+
+##### Profile Keywords
+Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
 
 ## Unit 16 — Fast — Bike Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 3 | 11 |
+| 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 3 | 16 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Biker, Bike Squad
+Light, Biker
 
-### Abilities
-```
-This unit can contain 1 Attack Bike model (Power Rating +1). If it has an Attack Bike, add 1 to Wounds and equip Heavy Bolter or Multi-melta.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Bike Squad
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can contain 1 Attack Bike model (Power Rating +1)
+  title: Attack Bike
+  text: Add 1 Attack Bike model and add 1 to Wounds. Equip the Attack Bike with
+  Choose 1: Heavy Bolter; Multi-melta
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -544,15 +661,11 @@ This unit can contain 1 Attack Bike model (Power Rating +1). If it has an Attack
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Bikers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 22 |
+| 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 32 |
 
-#### Profile 2
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 9 | 33 |
 
 ## Unit 17 — Fast — Landspeeders
 
@@ -562,19 +675,20 @@ This unit can contain 1 Attack Bike model (Power Rating +1). If it has an Attack
 | 16" | 3+ | 3+ | 1 | 1 | 5 | 6+ | 1 | 4 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Fly, Land Speeders
+Heavy, Vehicle, Fly
 
-### Abilities
-```
-For each model, must also be equipped with one of: Heavy Bolter; Multi-melta.
-For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Land Speeders
 
 ### Options
-- per: Per Unit
-  text: For each model, must also be equipped with one of: Heavy Bolter; Multi-melta.
-- per: Per Unit
-  text: For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher.
+- per: Per Model
+  title: Main Weapon
+  text: Must be equipped with
+  Choose 1: Heavy Bolter; Multi-melta
+- per: Per Model
+  title: Secondary Weapon
+  text: Can also be equipped with
+  Choose 1: Assault Cannon; Heavy Flamer; Typhoon Missile Launcher
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -587,12 +701,12 @@ For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; 
 | Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
-#### Profile 1
+#### 2 Land Speeders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16" | 3+ | 3+ | 2 | 2 | 5 | 6+ | 2 | 8 |
 
-#### Profile 2
+#### 3 Land Speeders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 3 | 3 | 5 | 6+ | 3 | 12 |
@@ -602,10 +716,13 @@ For each model, can also be equipped with one of: Assault Cannon; Heavy Flamer; 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 16" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 3 | 10 |
+| 16" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 3 | 14 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Biker, Scout Bike Squad
+Light, Biker
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Scout Bike Squad
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -614,15 +731,11 @@ Imperium, Adeptus Astartes, <Chapter>, Light, Biker, Scout Bike Squad
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Bikes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 16" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 20 |
+| 16" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 28 |
 
-#### Profile 2
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 16" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 9 | 30 |
 
 ## Unit 19 — Fast — Inceptor Squad
 
@@ -632,27 +745,30 @@ Imperium, Adeptus Astartes, <Chapter>, Light, Biker, Scout Bike Squad
 | 10" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 3 | 12 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Fly, Jump Pack, Primaris, Mk X Gravis, Inceptor Squad
+Light, Infantry, Fly, Jump Pack
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Primaris, Mk X Gravis, Inceptor Squad
 
 ### Abilities
 ```
 Deep Strike
-Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators.
+  title: Plasma Exterminators
+  text: Exchange Assault Bolters for Plasma Exterminators.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Assault Bolters | Small Arms | 18" | x2 | 7+ | 9+ |  |
+| Assault Bolters | Small Arms | 18" | x2 | 8+ | 10+ |  |
 | Plasma Exterminators | Small Arms | 18" | User | 5+ | 6+ | Supercharge |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 6 Inceptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 24 |
@@ -662,21 +778,31 @@ Instead of Assault Bolters, this unit can be equipped with Plasma Exterminators.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 6 |
+| 6" | 3+ | 3+ | 1 | 2 | 7 | 6+ | 5 | 9 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Devastator Squad
+Light, Infantry
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Devastator Squad
 
 ### Abilities
 ```
-This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).
-If this unit contains 10 models or is not equipped with any Heavy weapons, it is also equipped with Boltguns.
+Equipped with 2 Heavy Bolters.
+If this unit contains 10 models, it is also equipped with Boltguns.
 ```
 
 ### Options
-- per: Per weapon
+- per: up to 2
   Pt: 1
-  text: This unit can also be equipped with up to four Heavy weapons in any combination (Power Rating +1 per weapon).
+  title: Heavy Weapons
+  text: Can exchange a Heavy Bolter for
+  Choose 1: Grav-cannon; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon
+- per: up to 2
+  Pt: 1
+  title: More Heavy Weapons
+  text: Can also be equipped with
+  Choose 1: Grav-cannon; Heavy Bolter; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -691,10 +817,10 @@ If this unit contains 10 models or is not equipped with any Heavy weapons, it is
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 12 |
+| 6" | 3+ | 3+ | 2 | 4 | 7 | 6+ | 10 | 14 |
 
 ## Unit 21 — Heavy — Hellblaster Squad
 
@@ -704,7 +830,10 @@ If this unit contains 10 models or is not equipped with any Heavy weapons, it is
 | 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 12 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Primaris, Hellblaster Squad
+Light, Infantry
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Primaris, Hellblaster Squad
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -713,7 +842,7 @@ Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Primaris, Hellblaster Sq
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### Profile 1
+#### 10 Hellblasters
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 24 |
@@ -726,23 +855,28 @@ Imperium, Adeptus Astartes, <Chapter>, Light, Infantry, Primaris, Hellblaster Sq
 | 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Dreadnought
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Dreadnought
 
 ### Abilities
 ```
-Default: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
-Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon.
-Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.
-Instead of Storm Bolter: Heavy Flamer.
+It is equipped with: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon.
+  title: Primary Weapon
+  text: Exchange the Assault Cannon for
+  Choose 1: Heavy Plasma Cannon; Multi-melta; Twin Autocannon; Twin Heavy Bolter; Twin Heavy Flamer; Twin Lascannon
 - per: Per Unit
-  text: Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.
+  title: Arm Weapon
+  text: Exchange the Dreadnought Combat Weapon and Storm Bolter for Armoured Feet and
+  Choose 1: Missile Launcher; Twin Autocannon
 - per: Per Unit
-  text: Instead of Storm Bolter: Heavy Flamer.
+  title: Secondary Weapon
+  text: Exchange the Storm Bolter for a Heavy Flamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -768,23 +902,29 @@ Instead of Storm Bolter: Heavy Flamer.
 | 6" | 2+ | 2+ | 2 | 2 | 6 | 6+ | 1 | 8 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Dreadnought, Venerable Dreadnought
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Dreadnought, Venerable Dreadnought
 
 ### Abilities
 ```
 Ignore Damage (6+)
-Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon.
-Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.
-Instead of Storm Bolter: Heavy Flamer.
+It is equipped with: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Assault Cannon: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon.
+  title: Primary Weapon
+  text: Exchange the Assault Cannon for
+  Choose 1: Heavy Plasma Cannon; Multi-melta; Twin Heavy Flamer; Twin Lascannon
 - per: Per Unit
-  text: Instead of Dreadnought Combat Weapon and Storm Bolter: Armoured Feet and Missile Launcher or Twin Autocannon.
+  title: Arm Weapon
+  text: Exchange the Dreadnought Combat Weapon and Storm Bolter for Armoured Feet and
+  Choose 1: Missile Launcher; Twin Autocannon
 - per: Per Unit
-  text: Instead of Storm Bolter: Heavy Flamer.
+  title: Secondary Weapon
+  text: Exchange the Storm Bolter for a Heavy Flamer.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -810,21 +950,25 @@ Instead of Storm Bolter: Heavy Flamer.
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 7 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Predator
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Predator
 
 ### Abilities
 ```
-Default: Predator Autocannon; Armoured Tracks.
-Instead of Predator Autocannon: Twin Lascannon.
-Can also be equipped with 2 Heavy Bolters or 2 Lascannons (Power Rating +2).
+It is equipped with: Predator Autocannon; Armoured Tracks.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Predator Autocannon: Twin Lascannon.
+  title: Turret Weapon
+  text: Exchange the Predator Autocannon for a Twin Lascannon.
 - per: Per Unit
   Pt: 2
-  text: 2 Lascannons (Power Rating +2).
+  title: Sponson Weapons
+  text: Can also be equipped with
+  Choose 1: 2 Heavy Bolters; 2 Lascannons
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -843,7 +987,10 @@ Can also be equipped with 2 Heavy Bolters or 2 Lascannons (Power Rating +2).
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 6 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Whirlwind
+Heavy, Vehicle
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Whirlwind
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -859,17 +1006,16 @@ Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Whirlwind
 | 10" | 6+ | 3+ | 1 | 2 | 6 | 5+ | 1 | 9 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Vindicator
+Heavy, Vehicle
 
-### Abilities
-```
-This unit can have a Siege Shield (Power Rating +1). If it has a Siege Shield, Save 4+.
-```
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Vindicator
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: This unit can have a Siege Shield (Power Rating +1)
+  title: Siege Shield
+  text: Equip with a Siege Shield. Save becomes 4+.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -885,18 +1031,21 @@ This unit can have a Siege Shield (Power Rating +1). If it has a Siege Shield, S
 | 10" | 5+ | 3+ | 2 | 3 | 7 | 4+ | 1 | 13 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Transport, Land Raider
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Land Raider
 
 ### Abilities
 ```
-Can also be equipped with 1 Multi-melta (Power Rating +1).
-Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Can also be equipped with 1 Multi-melta (Power Rating +1).
+  title: Multi-melta
+  text: Can also be equipped with 1 Multi-melta.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -914,16 +1063,15 @@ Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spa
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Transport, Rhino
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Rhino
 
 ### Abilities
 ```
-Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
 ```
-
-### Options
-- per: Per Unit
-  text: Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -939,19 +1087,29 @@ Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Term
 | 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 6 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Transport, Razorback
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Razorback
 
 ### Abilities
 ```
-Default: Twin Heavy Bolter; Armoured Tracks.
-Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1) or Twin Lascannon.
-Transport: up to 6 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.
+It is equipped with: Twin Heavy Bolter; Armoured Tracks.
+Transport: This unit can transport up to 6 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Instead of Twin Heavy Bolter: Twin Assault Cannon (Power Rating +1)
+  title: Twin Assault Cannon
+  limit: group Exclusive
+  group: Turret Weapon
+  text: Exchange the Twin Heavy Bolter for a Twin Assault Cannon.
+- per: Per Unit
+  title: Twin Lascannon
+  limit: group Exclusive
+  group: Turret Weapon
+  text: Exchange the Twin Heavy Bolter for a Twin Lascannon.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -969,21 +1127,24 @@ Transport: up to 6 friendly <Chapter> Infantry. Cannot transport Primaris, Termi
 | - | - | 3+ | - | 2 | 6 | 6+ | 1 | 5 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Transport, Drop Pod
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Drop Pod
 
 ### Abilities
 ```
 Deep Strike
-Drop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9" of enemy units. If a unit cannot disembark, it is destroyed.
+Drop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9 inches of enemy units. If a unit cannot disembark, it is destroyed.
 Immobile: This unit is never Out of Command.
-Default: Storm Bolter.
-Instead of Storm Bolter: Deathwind Launcher.
-Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Terminator, Centurion or Jump Pack units.
+It is equipped with: Storm Bolter.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Storm Bolter: Deathwind Launcher.
+  title: Deathwind Launcher
+  text: Exchange the Storm Bolter for a Deathwind Launcher.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -999,27 +1160,32 @@ Transport: up to 10 friendly <Chapter> Infantry. Cannot transport Primaris, Term
 | 14" | 6+ | 3+ | 1 | 3 | 7 | 6+ | 1 | 20 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Fly, Transport, Aircraft, Stormraven Gunship
+Heavy, Vehicle, Fly, Transport, Aircraft
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Stormraven Gunship
 
 ### Abilities
 ```
 Supersonic
 Harrier
-Default: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.
-Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.
-Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.
-Can also be equipped with 2 Hurricane Bolters (Power Rating +4).
-Transport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.
+It is equipped with: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.
+Transport: This unit can transport up to 12 Infantry models and 1 Dreadnought. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Twin Assault Cannon: Twin Heavy Plasma Cannon or Twin Lascannon.
+  title: Primary Weapon
+  text: Exchange the Twin Assault Cannon for
+  Choose 1: Twin Heavy Plasma Cannon; Twin Lascannon
 - per: Per Unit
-  text: Instead of Twin Heavy Bolter: Twin Multi-melta or Typhoon Missile Launcher.
+  title: Secondary Weapon
+  text: Exchange the Twin Heavy Bolter for
+  Choose 1: Twin Multi-Melta; Typhoon Missile Launcher
 - per: Per Unit
   Pt: 4
-  text: Can also be equipped with 2 Hurricane Bolters (Power Rating +4).
+  title: Hurricane Bolters
+  text: Can also be equipped with 2 Hurricane Bolters.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1042,19 +1208,21 @@ Transport: up to 12 Infantry and 1 Dreadnought. Jump Pack/Terminator take 2 spac
 | 10" | 4+ | 2+ | 2 | 5 | 7 | 4+ | 1 | 20 |
 
 ### Keywords
-Imperium, Adeptus Astartes, <Chapter>, Heavy, Vehicle, Transport, Land Raider
+Heavy, Vehicle, Transport
+
+### Traits
+Imperium, Adeptus Astartes, <Chapter>, Land Raider
 
 ### Abilities
 ```
-Not in PDF — using Land Raider datasheet.
-Can also be equipped with 1 Multi-melta (Power Rating +1).
-Transport: up to 10 friendly <Chapter> Infantry. Jump Pack/Terminator take 2 spaces; Centurion takes 3. Cannot transport Primaris.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Can also be equipped with 1 Multi-melta (Power Rating +1).
+  title: Multi-melta
+  text: Can also be equipped with 1 Multi-melta.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |

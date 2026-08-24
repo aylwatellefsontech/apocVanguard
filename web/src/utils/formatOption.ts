@@ -103,13 +103,6 @@ export function formatOptionLabel(option: UnitOption): string | null {
   }
 
   const perLabel = formatPerLabel(option.per)
-  const points = getOptionBasePoints(option)
-
-  if (points) {
-    const rating = `+${points} Power Rating`
-    return perLabel ? `${rating} / ${perLabel}` : rating
-  }
-
   if (perLabel) {
     return perLabel
   }

@@ -5,13 +5,15 @@ import {
   formatOptionLabel,
 } from '../utils/formatOption'
 import {
+  formatChooseLimitHeading,
+  formatExclusiveGroupLegend,
   formatPerModelsSlotLegend,
   getModelCount,
-  getChooseInstanceCount,
+  getChooseDisplayInstanceCount,
   getChooseLimit,
   getOptionGroup,
+  getPerModelsDisplaySlotCount,
   getPerModelsInterval,
-  getPerModelsSlotCount,
   getChooseOneChoices,
   getUpToLimit,
   isChooseOneOption,
@@ -97,6 +99,7 @@ function OptionLine({
       )}
     </>
   )
+  const pointsBadge = points > 0 ? <span className="option-pts"> +{points} Pt</span> : null
 
   if (interactive) {
     const toggle = () =>
@@ -120,7 +123,7 @@ function OptionLine({
           />
           <span className="option-toggle-text">
             {caption}
-            {points > 0 && <span className="option-pts"> +{points} Pt</span>}
+            {pointsBadge}
           </span>
         </label>
       </li>
@@ -131,12 +134,17 @@ function OptionLine({
     return (
       <li className={`option-item${isSelected ? ' selected' : ' dimmed'}`}>
         {caption}
-        {isSelected && points > 0 && <span className="option-pts"> +{points} Pt</span>}
+        {pointsBadge}
       </li>
     )
   }
 
-  return <li>{caption}</li>
+  return (
+    <li>
+      {caption}
+      {pointsBadge}
+    </li>
+  )
 }
 
 function renderUpToCheckboxSlots(
@@ -204,13 +212,15 @@ function renderOptionBlock(
 ) {
   const { groups, standalone } = groupExclusiveOptions(optionIndices, options)
   const blocks: ReactNode[] = []
+  const viewOnly = !interactive
 
   for (const [groupName, indices] of groups.entries()) {
     const sample = options[indices[0]]
     const displayName = getOptionGroup(sample) ?? groupName
+    const groupLegend = formatExclusiveGroupLegend(displayName, viewOnly)
     const upToLimit = getUpToLimit(sample)
     const perModelsSlotCount = isPerModelsOption(sample)
-      ? getPerModelsSlotCount(sample, profileStats)
+      ? getPerModelsDisplaySlotCount(sample, profileStats, viewOnly)
       : 0
 
     if (upToLimit != null) {
@@ -221,7 +231,7 @@ function renderOptionBlock(
             className="option-group"
           >
             <legend>
-              {displayName} — choice {slotIndex + 1}
+              {groupLegend} — choice {slotIndex + 1}
             </legend>
             <ul className="options-list options-list-interactive">
               {indices.map((index) => {
@@ -263,7 +273,7 @@ function renderOptionBlock(
             key={`${groupName}-per-models-${slotIndex}-${modelIndex ?? 'unit'}`}
             className="option-group"
           >
-            <legend>{formatPerModelsSlotLegend(slotIndex, interval, displayName)}</legend>
+            <legend>{formatPerModelsSlotLegend(slotIndex, interval, groupLegend, viewOnly)}</legend>
             <ul className="options-list options-list-interactive">
               {indices.map((index) => {
                 const option = options[index]
@@ -301,7 +311,7 @@ function renderOptionBlock(
     } else if (!isPerModelsOption(sample)) {
       blocks.push(
         <fieldset key={`${groupName}-${modelIndex ?? 'unit'}`} className="option-group">
-          <legend>{displayName}</legend>
+          <legend>{groupLegend}</legend>
           <ul className="options-list options-list-interactive">
             {indices.map((index) => {
               const option = options[index]
@@ -341,13 +351,13 @@ function renderOptionBlock(
       const option = options[index]
       const upToLimit = getUpToLimit(option)
       const perModelsSlotCount = isPerModelsOption(option)
-        ? getPerModelsSlotCount(option, profileStats)
+        ? getPerModelsDisplaySlotCount(option, profileStats, viewOnly)
         : 0
 
       if (isChooseOneOption(option)) {
         const choices = getChooseOneChoices(option)
         const chooseLimit = getChooseLimit(option) ?? 1
-        const instanceCount = getChooseInstanceCount(option, profileStats)
+        const instanceCount = getChooseDisplayInstanceCount(option, profileStats, viewOnly)
         if (instanceCount <= 0) {
           continue
         }
@@ -364,7 +374,7 @@ function renderOptionBlock(
           const instanceSlot = slotted ? instanceIndex : undefined
           const instanceLabel =
             isPerModelsOption(option) && interval != null
-              ? formatPerModelsSlotLegend(instanceIndex, interval)
+              ? formatPerModelsSlotLegend(instanceIndex, interval, undefined, viewOnly)
               : slotted
                 ? `choice ${instanceIndex + 1}`
                 : null
@@ -377,6 +387,7 @@ function renderOptionBlock(
                 {instanceLabel ? `${heading} (${instanceLabel})` : heading}
                 {chooseOnePoints > 0 ? ` +${chooseOnePoints} Pt` : ''}
               </legend>
+              <p className="option-choose-heading">{formatChooseLimitHeading(chooseLimit)}</p>
               <ul className={`options-list${interactive ? ' options-list-interactive' : ''}`}>
                 {choices.map((choice, choiceIndex) => {
                   const isSelected = isOptionSelected(

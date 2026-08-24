@@ -406,7 +406,7 @@
         "Ld": "4",
         "Sv": "11+",
         "N": "10",
-        "Pt": "1"
+        "Pt": "2"
       },
       "keywords": [
         "Light",
@@ -421,7 +421,7 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "This unit can include a Runtherd (Power Rating +1)",
+          "text": "This unit can include a Runtherd",
           "Pt": "1",
           "title": "Runtherd"
         }
@@ -463,7 +463,7 @@
           "Ld": "4",
           "Sv": "11+",
           "N": "20",
-          "Pt": "2"
+          "Pt": "3"
         },
         {
           "name": "30 Grots",
@@ -475,7 +475,7 @@
           "Ld": "4",
           "Sv": "11+",
           "N": "30",
-          "Pt": "3"
+          "Pt": "4"
         }
       ]
     },
