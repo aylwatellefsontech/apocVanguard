@@ -117,12 +117,14 @@
         {
           "per": "Per Unit",
           "text": "Can be equipped with a Tellyport Blasta (Power Rating +1)",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Tellyport Blasta"
         },
         {
           "per": "Per Unit",
           "text": "can also have a Kustom Force Field (Power Rating +1)",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Kustom Force Field"
         }
       ],
       "weapons": [
@@ -299,13 +301,14 @@
         {
           "per": "Per Unit",
           "text": "Exchange Sluggas and Choppas for Shootas and Close Combat Weapons.",
-          "Pt": "0"
+          "Pt": "0",
+          "title": "Shootas"
         },
         {
           "per": "per 10 models",
           "text": "Can Be equipped with",
           "Pt": "0",
-          "title": "heavy Weapon",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "Big Shoota",
             "Rokkit Launcha"
@@ -419,7 +422,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can include a Runtherd (Power Rating +1)",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Runtherd"
         }
       ],
       "weapons": [
@@ -1127,6 +1131,7 @@
           "per": "per Unit",
           "text": "Exchange Heavy Kannon for Shokk Rifles Rammin for Shokk Tunnel: When moving roll a d12. On a 9+, move it anywhere on the battlefield 9\" away from enemy units. On a 1, do the same, but this unit gets a blast marker next to it.",
           "Pt": "1",
+          "title": "Shokk Rifles",
           "limit": "group Exclusive",
           "group": "Weapons"
         },
@@ -1134,6 +1139,7 @@
           "per": "per Unit",
           "text": "Exchange Heavy Kannon for Squig Launchers and Rammin for Squig Mine: At the start of the round, when a model ends their move action within 6\" of this unit, roll a d6. On a 5+ place one blast marker next to that unit.",
           "Pt": "1",
+          "title": "Squig Launchers",
           "limit": "group Exclusive",
           "group": "Weapons"
         }
@@ -1501,12 +1507,14 @@
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with 1 Lobba (Power Rating +1).",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Lobba"
         },
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped Kannon (Power Rating +1):",
           "Pt": "1",
+          "title": "Kannon",
           "limit": "group Exclusive",
           "group": "Big Gun"
         },
@@ -1514,6 +1522,7 @@
           "per": "Per Unit",
           "text": "This unit can also be equipped with KillKannon, but can only transport 12 models.",
           "Pt": "1",
+          "title": "Killkannon",
           "limit": "group Exclusive",
           "group": "Big Gun"
         },
@@ -1521,17 +1530,20 @@
           "per": "Per Unit",
           "text": "This unit can also be equipped with Zap gun, but can only transport 12 models.",
           "Pt": "1",
+          "title": "Zzap Gun",
           "limit": "group Exclusive",
           "group": "Big Gun"
         },
         {
           "per": "Per Unit",
           "text": "Instead of Wagon Melee Weapons, this unit can be equipped with 1 Deff Rolla.",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Deff Rolla"
         },
         {
           "per": "Per Unit",
-          "text": "This unit can have an 'Ard Case and lose Open-Topped."
+          "text": "This unit can have an 'Ard Case and lose Open-Topped.",
+          "title": "'Ard Case"
         }
       ],
       "weapons": [
@@ -1743,7 +1755,8 @@
         },
         {
           "per": "per Unit",
-          "text": "Exchange 4 Dread Klaws for Dakkagun and Kustom Forfield"
+          "text": "Exchange 4 Dread Klaws for Dakkagun and Kustom Forfield",
+          "title": "Dakkagun"
         }
       ],
       "weapons": [
@@ -2011,7 +2024,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with 2 Supa-shootas (Power Rating +1).",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Extra Supa-shootas"
         }
       ],
       "weapons": [
@@ -2064,7 +2078,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with Skorcha Missiles (Power Rating +1).",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Skorcha Missiles"
         }
       ],
       "weapons": [
@@ -2272,7 +2287,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can also be equipped with 2 Supa-rokkits (Power Rating +2).",
-          "Pt": "2"
+          "Pt": "2",
+          "title": "Extra Supa-rokkits"
         }
       ],
       "weapons": [

@@ -1,8 +1,13 @@
+import { Fragment } from 'react'
 import type { ProfileWeaponSection, Weapon } from '../types'
 
 interface UnitWeaponsProps {
   weapons?: Weapon[]
   profileSections?: ProfileWeaponSection[]
+}
+
+function formatSkill(weapon: Weapon): string {
+  return `${weapon.skill ?? ''}${weapon.armorPen ? ` / ${weapon.armorPen}` : ''}`
 }
 
 function WeaponsTable({ weapons }: { weapons: Weapon[] }) {
@@ -15,23 +20,34 @@ function WeaponsTable({ weapons }: { weapons: Weapon[] }) {
             <th>Type</th>
             <th>Rng</th>
             <th>A</th>
-            <th>S/AP</th>
-            <th>Abilities</th>
+            <th className="weapon-col-sap">S/AP</th>
+            <th className="weapon-col-abilities">Abilities</th>
           </tr>
         </thead>
         <tbody>
           {weapons.map((weapon, index) => (
-            <tr key={index}>
-              <td>{weapon.name}</td>
-              <td>{weapon.type}</td>
-              <td>{weapon.range}</td>
-              <td>{weapon.attacks}</td>
-              <td>
-                {weapon.skill}
-                {weapon.armorPen ? ` / ${weapon.armorPen}` : ''}
-              </td>
-              <td>{weapon.abilities || '—'}</td>
-            </tr>
+            <Fragment key={index}>
+              <tr className="weapon-main-row">
+                <td>{weapon.name}</td>
+                <td>{weapon.type}</td>
+                <td>{weapon.range}</td>
+                <td>{weapon.attacks}</td>
+                <td className="weapon-col-sap">{formatSkill(weapon)}</td>
+                <td className="weapon-col-abilities">{weapon.abilities || '—'}</td>
+              </tr>
+              <tr className="weapon-detail-row">
+                <td colSpan={4}>
+                  <span className="weapon-detail-item">
+                    <span className="weapon-detail-label">S/AP</span>
+                    {formatSkill(weapon) || '—'}
+                  </span>
+                  <span className="weapon-detail-item">
+                    <span className="weapon-detail-label">Abilities</span>
+                    {weapon.abilities || '—'}
+                  </span>
+                </td>
+              </tr>
+            </Fragment>
           ))}
         </tbody>
       </table>

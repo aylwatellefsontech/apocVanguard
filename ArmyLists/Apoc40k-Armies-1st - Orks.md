@@ -92,9 +92,11 @@ It is equipped with: Shokk Attack Gun; Mek Weapons.
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Tellyport Blasta
   text: Can be equipped with a Tellyport Blasta (Power Rating +1)
 - per: Per Unit
   Pt: 1
+  title: Kustom Force Field
   text: can also have a Kustom Force Field (Power Rating +1)
 
 ### Weapons
@@ -200,10 +202,11 @@ It can exchange its Sluggas and Choppas for Shootas and Close Combat Weapons (op
 ### Options
 - per: Per Unit
   Pt: 0
+  title: Shootas
   text: Exchange Sluggas and Choppas for Shootas and Close Combat Weapons.
 - per: per 10 models
   Pt: 0
-  title: heavy Weapon
+  title: Heavy Weapon
   text: Can Be equipped with
   choose 1: Big Shoota; Rokkit Launcha;
 
@@ -251,6 +254,7 @@ This unit can include a Runtherd (option). If this unit includes a Runtherd, it 
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Runtherd
   text: This unit can include a Runtherd (Power Rating +1)
 
 ### Weapons
@@ -621,11 +625,13 @@ Rammin: After this unit makes a Move action, if it is in base contact with any e
 ### Options
 - per: per Unit
   Pt: 1
+  title: Shokk Rifles
   group: Weapons
   limit: group Exclusive
   text: Exchange Heavy Kannon for Shokk Rifles Rammin for Shokk Tunnel: When moving roll a d12. On a 9+, move it anywhere on the battlefield 9" away from enemy units. On a 1, do the same, but this unit gets a blast marker next to it.
 - per: per Unit
   Pt: 1
+  title: Squig Launchers
   group: Weapons
   limit: group Exclusive
   text: Exchange Heavy Kannon for Squig Launchers and Rammin for Squig Mine: At the start of the round, when a model ends their move action within 6" of this unit, roll a d6. On a 5+ place one blast marker next to that unit.
@@ -801,26 +807,32 @@ Transport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infant
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Lobba
   text: This unit can also be equipped with 1 Lobba (Power Rating +1).
 - per: Per Unit
   Pt: 1
+  title: Kannon
   limit: group Exclusive
   group: Big Gun
   text: This unit can also be equipped Kannon (Power Rating +1): 
 - per: Per Unit
   Pt: 1
+  title: Killkannon
   limit: group Exclusive
   group: Big Gun
   text: This unit can also be equipped with KillKannon, but can only transport 12 models.
 - per: Per Unit
   Pt: 1
+  title: Zzap Gun
   limit: group Exclusive
   group: Big Gun
   text: This unit can also be equipped with Zap gun, but can only transport 12 models.
 - per: Per Unit
   Pt: 1
+  title: Deff Rolla
   text: Instead of Wagon Melee Weapons, this unit can be equipped with 1 Deff Rolla.
 - per: Per Unit
+  title: 'Ard Case
   text: This unit can have an 'Ard Case and lose Open-Topped.
 
 ### Weapons
@@ -910,6 +922,7 @@ If this model has a Kustom Forcefield, subtract 1 from to wound rolls against th
   text: Exchange 1 Dread Klaw for
   choose 1: Rokkit Launcha; Kustom Mega-Blasta; Skorcha; Big Shoota;
 - per: per Unit
+  title: Dakkagun
   text: Exchange 4 Dread Klaws for Dakkagun and Kustom Forfield
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1038,6 +1051,7 @@ This unit can also be equipped with 2 additional Supa-shootas (option).
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Extra Supa-shootas
   text: This unit can also be equipped with 2 Supa-shootas (Power Rating +1).
 
 ### Weapons
@@ -1070,6 +1084,7 @@ This unit can also be equipped with Skorcha Missiles (option).
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Skorcha Missiles
   text: This unit can also be equipped with Skorcha Missiles (Power Rating +1).
 
 ### Weapons
@@ -1160,6 +1175,7 @@ Transport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infant
 ### Options
 - per: Per Unit
   Pt: 2
+  title: Extra Supa-rokkits
   text: This unit can also be equipped with 2 Supa-rokkits (Power Rating +2).
 
 ### Weapons

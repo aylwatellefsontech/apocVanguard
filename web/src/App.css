@@ -562,6 +562,27 @@
   color: var(--text);
 }
 
+.stats-block-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.stats-block-header h4 {
+  margin: 0;
+}
+
+.stats-block-points {
+  display: none;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .profile-abilities,
 .profile-extras {
   margin-top: 12px;
@@ -607,6 +628,10 @@
 .weapons-table td:first-child,
 .weapons-table th:first-child {
   min-width: 140px;
+}
+
+.weapon-detail-row {
+  display: none;
 }
 
 .prose {
@@ -1879,5 +1904,57 @@
 
   .rules-body.mobile-layout.mobile-panel-content .rules-nav-panel {
     display: none;
+  }
+
+  .data-table {
+    font-size: 13px;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6px 4px;
+  }
+
+  .stats-block-points {
+    display: inline;
+  }
+
+  .stats-table .stat-col-pt {
+    display: none;
+  }
+
+  .weapons-table td:first-child,
+  .weapons-table th:first-child {
+    min-width: 0;
+  }
+
+  .weapons-table .weapon-col-sap,
+  .weapons-table .weapon-col-abilities {
+    display: none;
+  }
+
+  .weapon-detail-row {
+    display: table-row;
+  }
+
+  .weapon-main-row td {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .weapon-detail-row td {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    line-height: 1.4;
+  }
+
+  .weapon-detail-item {
+    display: block;
+  }
+
+  .weapon-detail-label {
+    margin-right: 6px;
+    font-weight: 600;
+    color: var(--text-h);
   }
 }

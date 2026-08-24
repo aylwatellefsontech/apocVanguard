@@ -35,7 +35,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can have a Skyrunner Jetbike (Skyrunner Profile)",
-          "Pt": "2"
+          "Pt": "2",
+          "title": "Skyrunner Jetbike"
         }
       ],
       "weapons": [
@@ -712,7 +713,8 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker."
+          "text": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
+          "title": "Defence Tactics"
         }
       ],
       "weapons": [
@@ -1010,11 +1012,12 @@
         "Wraith Construct",
         "Wraithblades"
       ],
-      "abilities": "Can take 10 Constructs (10 Constructs Profile).\nEquipped with Ghostswords.\nInstead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.\nInstead of Ghostswords, can take Ghostaxes (option)",
+      "abilities": "Can take 10 Constructs (10 Constructs Profile).\nEquipped with Ghostswords.\nInstead of Ghostswords, can take Ghostaxes and Forceshields (option).\nIf it has Forceshields, it has a Save characteristic of 4+ against Melee attacks.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields."
+          "text": "Instead of Ghostswords, this unit can be equipped with Ghostaxes and Forceshields.",
+          "title": "Ghostaxes"
         }
       ],
       "weapons": [
@@ -1121,7 +1124,8 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of Wraithcannons, this unit can be equipped with D-scythes."
+          "text": "Instead of Wraithcannons, this unit can be equipped with D-scythes.",
+          "title": "D-scythes"
         }
       ],
       "weapons": [
@@ -1258,7 +1262,7 @@
         {
           "per": "Per Model",
           "text": "May exchange Twin Shuriken Catapult with",
-          "title": "Weapon",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "Scatter Laser",
             "Shuriken Canon"
@@ -1544,7 +1548,8 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump."
+          "text": "Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump.",
+          "title": "Warp Jump Generator"
         }
       ],
       "weapons": [
@@ -1928,6 +1933,7 @@
         {
           "per": "Per Unit",
           "text": "Can be equipped with",
+          "title": "Weapon",
           "chooseOne": [
             "Shadow Weaver",
             "D-Cannon",
@@ -2066,6 +2072,7 @@
         {
           "per": "Per Unit",
           "text": "Instead of 1 Shuriken Cannon, can be equipped with",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "Aeldari Missile Launcher",
             "Bright Lance",
@@ -2076,7 +2083,8 @@
         },
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.",
+          "title": "Secondary Weapon"
         }
       ],
       "weapons": [
@@ -2177,7 +2185,8 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.",
+          "title": "Secondary Weapon"
         }
       ],
       "weapons": [
@@ -2247,7 +2256,8 @@
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.",
+          "title": "Secondary Weapon"
         }
       ],
       "weapons": [
@@ -2319,6 +2329,7 @@
         {
           "per": "Per Unit",
           "text": "Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following",
+          "title": "Twin Weapon",
           "chooseOne": [
             "1 Twin Aeldari Missile Launcher",
             "1 Twin Bright Lance",
@@ -2329,7 +2340,8 @@
         },
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon."
+          "text": "Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.",
+          "title": "Secondary Weapon"
         }
       ],
       "weapons": [
@@ -2432,7 +2444,8 @@
         {
           "per": "Per Unit",
           "text": "This unit can have an Exarch Pilot (Power Rating +1)",
-          "Pt": "1"
+          "Pt": "1",
+          "title": "Exarch Pilot"
         }
       ],
       "weapons": [
@@ -2596,6 +2609,7 @@
           "per": "Per unit",
           "text": "This unit can also be equipped with up to one of the following:",
           "Pt": "1",
+          "title": "Left Weapon",
           "chooseOne": [
             "Scatter Laser",
             "Shuriken Cannon",
@@ -2607,6 +2621,7 @@
           "per": "Per unit",
           "text": "This unit can also be equipped with up to one of the following:",
           "Pt": "1",
+          "title": "Right Weapon",
           "chooseOne": [
             "Scatter Laser",
             "Shuriken Cannon",
@@ -2617,6 +2632,7 @@
         {
           "per": "Per Unit",
           "text": "Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following:",
+          "title": "Combat Weapon",
           "chooseOne": [
             "1 Suncannon",
             "1 Titanic Ghostglaive"

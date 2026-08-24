@@ -26,6 +26,7 @@ Runes of the Farseer: If this unit is a Warlord, then once per battle, at the en
 ### Options
 - per: Per Unit
   Pt: 2
+  title: Skyrunner Jetbike
   text: This unit can have a Skyrunner Jetbike (Skyrunner Profile)
 
 ### Weapons
@@ -430,6 +431,7 @@ Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when maki
 
 ### Options
 - per: Per Unit
+  title: Defence Tactics
   text: Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.
 
 ### Weapons
@@ -585,13 +587,14 @@ Aeldari, Asuryani, Spirit Host, <Craftworld>, Wraith Construct, Wraithblades
 ```
 Can take 10 Constructs (10 Constructs Profile).
 Equipped with Ghostswords.
-Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.
-Instead of Ghostswords, can take Ghostaxes (option)
+Instead of Ghostswords, can take Ghostaxes and Forceshields (option).
+If it has Forceshields, it has a Save characteristic of 4+ against Melee attacks.
 ```
 
 ### Options
 - per: Per Unit
-  text: Instead of Ghostswords, this unit can be equipped with Ghostaxes and have Forceshields.
+  title: Ghostaxes
+  text: Instead of Ghostswords, this unit can be equipped with Ghostaxes and Forceshields.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -651,6 +654,7 @@ Can swap Wraithcannons with D-scythes (option).
 
 ### Options
 - per: Per Unit
+  title: D-scythes
   text: Instead of Wraithcannons, this unit can be equipped with D-scythes.
 
 ### Weapons
@@ -717,7 +721,7 @@ For each model this unit contains, must exchange Twin shuriken catapults with: S
 
 ### Options
 - per: Per Model
-  title: Weapon
+  title: Heavy Weapon
   text: May exchange Twin Shuriken Catapult with
   Choose 1: Scatter Laser; Shuriken Canon;
 
@@ -851,6 +855,7 @@ Warp Jump Generator: Instead of making a Move action, this unit can perform a wa
 
 ### Options
 - per: Per Unit
+  title: Warp Jump Generator
   text: Deep Strike Warp Jump Generator: Instead of making a Move action, this unit can perform a warp jump.
 
 ### Weapons
@@ -1010,6 +1015,7 @@ Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up
 
 ### Options
 - per: Per Unit
+  title: Weapon
   text: Can be equipped with
   Choose one: Shadow Weaver; D-Cannon; Vibro Cannon
 
@@ -1078,9 +1084,11 @@ TRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry
 
 ### Options
 - per: Per Unit
+  title: Heavy Weapon
   text: Instead of 1 Shuriken Cannon, can be equipped with
   Choose 1: Aeldari Missile Launcher; Bright Lance; Scatter Laser; Starcannon.
 - per: Per Unit
+  title: Secondary Weapon
   text: Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.
 
 ### Weapons
@@ -1118,6 +1126,7 @@ Can swap Twin Shuriken Catapult with Shuriken Cannon (Option)
 
 ### Options
 - per: Per Unit
+  title: Secondary Weapon
   text: Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.
 
 ### Weapons
@@ -1151,6 +1160,7 @@ Can swap Twin Shuriken Catapult with Shuriken Cannon (Option)
 
 ### Options
 - per: Per Unit
+  title: Secondary Weapon
   text: Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.
 
 ### Weapons
@@ -1185,9 +1195,11 @@ can choose to exchange Twin shuriken Catapult (option)
 
 ### Options
 - per: Per Unit
+  title: Twin Weapon
   text: Instead of 1 Twin Shuriken Cannon, this unit can be equipped with one of the following 
   Choose 1: 1 Twin Aeldari Missile Launcher; 1 Twin Bright Lance; 1 Twin Scatter Laser; 1 Twin Starcannon.
 - per: Per Unit
+  title: Secondary Weapon
   text: Instead of 1 Twin Shuriken Catapult, this unit can be equipped with 1 Shuriken Cannon.
 
 ### Weapons
@@ -1226,6 +1238,7 @@ Marksman's Eye: If this unit has an Exarch Pilot, re-roll hit rolls of 1 for att
 ### Options
 - per: Per Unit
   Pt: 1
+  title: Exarch Pilot
   text: This unit can have an Exarch Pilot (Power Rating +1)
 
 ### Weapons
@@ -1309,13 +1322,16 @@ Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can ha
 ### Options
 - per: Per unit
   Pt: 1
+  title: Left Weapon
   text: This unit can also be equipped with up to one of the following:
   choose 1: Scatter Laser; Shuriken Cannon; Starcannon.
 - per: Per unit
   Pt: 1
+  title: Right Weapon
   text: This unit can also be equipped with up to one of the following:
   choose 1: Scatter Laser; Shuriken Cannon; Starcannon.
 - per: Per Unit
+  title: Combat Weapon
   text: Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can have a Scattershield and be equipped with one of the following:
   choose 1: 1 Suncannon; 1 Titanic Ghostglaive.
 
