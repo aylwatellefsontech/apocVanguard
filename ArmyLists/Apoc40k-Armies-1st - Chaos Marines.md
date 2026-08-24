@@ -205,7 +205,7 @@ Fly
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 2+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 3 |
+| 6" | 2+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 4 |
 
 ### Keywords
 Light, Infantry, Character
@@ -225,7 +225,7 @@ It is equipped with: Exalted Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Exalted Weapons | Melee | Melee | User | 8+ | 8+ |  |
+| Exalted Weapons | Melee | Melee | User | 7+ | 7+ |  |
 
 ## Unit 6 — Troops — Traitor Marines
 
@@ -360,6 +360,21 @@ It is equipped with: Flamer; Las Weapons; Close Combat Weapons.
 | Flamer | Heavy | 8" | 1 | 7+ | 10+ | Inferno |
 | Las Weapons | Small Arms | 24" | User | 8+ | 10+ |  |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
+| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+
+### Profiles
+#### Chaos Beastmen
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 6" | 3+ | 4+ | 1 | 1 | 4 | 10+ | 10 | 3 |
+
+##### Profile Traits
+Chaos Beastmen
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ## Unit 8 — Elites — Chaos Chosen
 
@@ -405,12 +420,12 @@ It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
 
-## Unit 9 — Elites — Cult Marines
+## Unit 9 — Elites — Aspiring Champion
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
+| 6" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 3 |
 
 ### Keywords
 Light, Infantry
@@ -419,42 +434,44 @@ Light, Infantry
 Infantry
 
 ### Traits
-Chaos, Heretic Astartes, <Legion>, Cult Marines
+Chaos, Heretic Astartes, <Legion>, Aspiring Champion
 
 ### Abilities
 ```
-Select one cult marine variant. Use the datasheet for the chosen variant.
-Plague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).
-Rubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.
-It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.
+Can select one Mark: Khorne, Tzeentch, Nurgle, or Slaanesh.
+Aspire: If this unit's attacks causes a blast marker on an enemy, this unit can aspire to the dark gods (max once per battle). Roll a d6. On a 3+, they gain +1A, +1W, and +1Ld. On a 1, their WS and BS becomes 4+, and their Sv becomes 10+.
+It is equipped with: Close Combat Weapons.
 ```
 
 ### Options
 - per: Per Unit
-  text: Select one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column.
+  title: Khorne
+  text: Gain Khorne Mark. Exchange Close Combat Weapons for Khorne Weapons.
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Tzeentch
+  text: Gain Tzeentch Mark and Psyker keyword. It is also equipped with Psychic Bolt.
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Nurgle
+  text: Gain Nurgle Mark. This unit has Ignore Damage (6+).
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Slaanesh
+  text: Gain Slaanesh Mark. Exchange Close Combat Weapons for Slaanesh Weapons.
+  limit: group Exclusive
+  group: Mark
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
-| Blight Launcher | Heavy | 24" | 1 | 7+ | 8+ |  |
-| Plague Spewer | Heavy | 9" | 1 | 6+ | 10+ | Inferno |
-| Plague Weapons | Melee | Melee | x2 | 6+ | 8+ |  |
-| Soulreaper Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
-| Inferno Boltguns | Small Arms | 24" | User | 6+ | 8+ | Rapid Fire |
-| Warpflamers | Small Arms | 8" | User | 5+ | 8+ | Inferno |
-| Close Combat Weapons | Melee | Melee | User | 6+ | 9+ |  |
-
-### Profiles
-#### 10 Cult Marines
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
-
-#### 15 Cult Marines
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+| Close Combat Weapons | Melee | Melee | User | 8+ | 8+ |  |
+| Khorne Weapons | Melee | Melee | User | 8+ | 6+ |  |
+| Psychic Bolt | Small Arms | 24" | User | 10+ | 10+ | Witchfire |
+| Slaanesh Weapons | Melee | Melee | User | 6+ | 8+ |  |
 
 ## Unit 10 — Elites — Terminators
 
@@ -704,33 +721,114 @@ It is equipped with: Inferno Boltguns; Close Combat Weapons.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
 
-## Unit 31 — Elites — Chaos Beastmen
+## Unit 31 — Elites — Chaos Demons
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 1 | 1 | 4 | 10+ | 4 | 1 |
+| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 3 |
 
 ### Keywords
-Light, Infantry
+Light, Infantry, Daemon
 
 ### Profile Keywords
 Infantry
 
 ### Traits
-Chaos, Servants of the Abyss, Chaos Beastmen
+Chaos, Servants of the Abyss, Chaos Demons
 
 ### Abilities
 ```
-Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.
-It is equipped with: Pistols; Brutal Assault Weapons.
+Can choose Plaguebearers, Bloodletters, Daemonettes, or Horrors profile.
+It is equipped with: Talons.
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pistols | Small Arms | 12" | User | 8+ | 10+ |  |
-| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+| Talons | Melee | Melee | User | 8+ | 8+ |  |
+| Plaguesword | Melee | Melee | User | 7+ | 8+ |  |
+| Hellblade | Melee | Melee | User | 6+ | 7+ |  |
+| Claws and Tormentors | Melee | Melee | x2 | 6+ | 8+ |  |
+| Coruscating Flames | Small Arms | 18" | User | 8+ | 8+ | Witchfire |
+
+### Profiles
+#### Plaguebearers
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5" | 4+ | 4+ | 2 | 3 | 6 | 9+ | 10 | 4 |
+
+##### Profile Traits
+Nurgle, Plaguebearers
+
+##### Profile Abilities
+```
+Ignore Damage (6+).
+It is equipped with: Plaguesword.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Plaguesword | Melee | Melee | User | 7+ | 9+ |  |
+
+#### Bloodletters
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 6" | 3+ | 4+ | 2 | 1 | 5 | 8+ | 10 | 4 |
+
+##### Profile Traits
+Khorne, Bloodletters
+
+##### Profile Abilities
+```
+It is equipped with: Hellblade.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Hellblade | Melee | Melee | x2 | 5+ | 9+ |  |
+
+#### Daemonettes
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 10 | 4 |
+
+##### Profile Traits
+Slaanesh, Daemonettes
+
+##### Profile Abilities
+```
+It is equipped with: Claws.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Claws | Melee | Melee | x3 | 7+ | 9+ |  |
+
+#### Horrors
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 4 |
+
+##### Profile Keywords
+Psyker
+
+##### Profile Traits
+Tzeentch, Horrors
+
+##### Profile Abilities
+```
+It is equipped with: Coruscating Flames and Capering Limbs.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Coruscating Flames | Small Arms | 18" | User | 7+ | 9+ |  |
+| Capering Limbs | Melee | Melee | User | 9+ | 10+ | |
 
 ## Unit 13 — Fast — Chaos Spawn
 
@@ -1247,45 +1345,38 @@ It is equipped with: Hades Autocannon; Heldrake Claws.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 2+ | 2+ | 2 | 3 | 8 | 5+ | 1 | 14 |
+| 12" | 2+ | 2+ | 2 | 3| 7 | 5+ | 1 | 11 |
 
 ### Keywords
-Daemon, Heavy, Monster, Fly, Character
+Daemon, Heavy, Monster, Character
 
 ### Traits
 Chaos, Legiones Daemonica, Greater Daemon
 
 ### Abilities
 ```
-Select one Greater Daemon. Use the datasheet for the chosen god.
-Bloodthirster of Insensate Rage (Khorne, Pt 14, M 12", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
-Lord of Change (Tzeentch, Pt 12, M 12", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Rod of Sorcery (Power Rating +1): Add 6" to the Range of Orange Fires of Tzeentch.
-Great Unclean One (Nurgle, Pt 14, M 7", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.
-Keeper of Secrets (Slaanesh, Pt 14, M 15", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.
-Select one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.
-It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).
+Can choose a mark, and be Greater Daemon of Khorne (Bloodthirster Profile), Tzeentch (Lord of Change Profile), Nurgle (Great Unclean One Profile), or Slaanesh (Keeper of Secrets Profile).
+It is equipped with: Daemonic Weapon;
+If it does not choose a mark, it can choose up to 2 gifts (option)
 ```
 
 ### Options
 - per: Per Unit
   Pt: 1
-  text: Lord of Change: Can equip 1 Baleful Sword
+  title: Psychic 
+  text: If not Bloodthirster, can choose to gain the Psychic Keyword and Doom Bolt.
 - per: Per Unit
   Pt: 1
-  text: have a Rod of Sorcery.
-- per: Per Unit
-  Pt: 1
-  text: Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell
-- per: Per Unit
-  text: Instead of 1 Plague Flail, can equip 1 Bileblade.
-- per: Per Unit
-  Pt: 2
-  text: Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee)
+  text: If it has no mark, it can choose gifts, 2 of:
+  Choose 2: Gain Psychic keyword and Doombolt; Gain Fly; Gain Terror Troops; Gain Talons
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
+| Daemonic Weapon | Melee | Melee | User | 5+ | 5+ | |
+| Talons | Melee | Melee | User | 8+ | 9+ | |
 | Great Axe of Khorne | Melee | Melee | User | 4+ | 4+ | Destroyer |
+| Doom Bolt | Small Arms | 24" | User | 10+ | 10+ | Witchfire |
 | Orange Fires of Tzeentch | Small Arms | 24" | User | 8+ | 8+ | Witchfire |
 | Staff of Tzeentch | Melee | Melee | User | 8+ | 7+ |  |
 | Baleful Sword | Melee | Melee | User | 7+ | 8+ |  |
@@ -1302,17 +1393,106 @@ It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tze
 | Living Whip (Melee) | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
-#### 1 Greater Daemon
+#### Bloodthirster
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 2+ | 2+ | 2 | 3 | 8 | 5+ | 1 | 14 |
+
+##### Profile Keywords
+Fly
+
+##### Profile Traits
+Khorne, Bloodthirster of Insensate Rage
+
+##### Profile Abilities
+```
+Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+It exchanges Daemonic Weapon with: Great Axe of Khorne.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Great Axe of Khorne | Melee | Melee | User | 4+ | 4+ | Destroyer |
+
+#### Lord of Change
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 2+ | 2+ | 2 | 3 | 8 | 8+ | 1 | 12 |
 
-#### 1 Greater Daemon
+##### Profile Keywords
+Fly, Psyker
+
+##### Profile Traits
+Tzeentch, Lord of Change
+
+##### Profile Abilities
+```
+Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+It exchanges Daemonic Weapon with: Orange Fires of Tzeentch; Staff of Tzeentch.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Orange Fires of Tzeentch | Small Arms | 24" | User | 8+ | 8+ | Witchfire |
+| Staff of Tzeentch | Melee | Melee | User | 8+ | 7+ |  |
+| Baleful Sword | Melee | Melee | User | 7+ | 8+ |  |
+
+#### Great Unclean One
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 2+ | 2+ | 2 | 4 | 8 | 9+ | 1 | 14 |
 
-#### 1 Greater Daemon
+##### Profile Keywords
+Psyker
+
+##### Profile Traits
+Nurgle, Great Unclean One
+
+##### Profile Abilities
+```
+Ignore Damage (6+).
+Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset.
+Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.
+It exchanges Daemonic Weapon with: Plague Flail (Ranged); Bilesword; Nurgling Claws & Teeth; Plague Flail (Melee).
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Plague Flail (Ranged) | Small Arms | 7" | x2 | 7+ | 7+ |  |
+| Bilesword | Melee | Melee | User | 5+ | 6+ |  |
+| Bileblade | Melee | Melee | User | 8+ | 9+ |  |
+| Doomsday Bell | Melee | Melee | User | 8+ | 9+ |  |
+| Nurgling Claws & Teeth | Melee | Melee | 1 | 10+ | 10+ |  |
+| Plague Flail (Melee) | Melee | Melee | x2 | 7+ | 7+ |  |
+
+#### Keeper of Secrets
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 15" | 2+ | 2+ | 2 | 3 | 8 | 9+ | 1 | 14 |
+
+##### Profile Keywords
+Psyker
+
+##### Profile Traits
+Slaanesh, Keeper of Secrets
+
+##### Profile Abilities
+```
+Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.
+Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.
+It exchanges Daemonic Weapon with: Ritual Knife; Snapping Claws; Witstealer Sword.
+```
+
+##### Profile Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ritual Knife | Melee | Melee | User | 9+ | 10+ |  |
+| Snapping Claws | Melee | Melee | User | 6+ | 6+ |  |
+| Witstealer Sword | Melee | Melee | User | 7+ | 7+ |  |
+| Living Whip (Ranged) | Small Arms | 6" | 2 | 7+ | 8+ |  |
+| Living Whip (Melee) | Melee | Melee | User | 7+ | 8+ |  |

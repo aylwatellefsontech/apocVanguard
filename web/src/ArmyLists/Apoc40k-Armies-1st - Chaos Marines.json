@@ -307,7 +307,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "3"
+        "Pt": "4"
       },
       "keywords": [
         "Light",
@@ -331,8 +331,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
+          "skill": "7+",
+          "armorPen": "7+"
         }
       ]
     },
@@ -665,6 +665,41 @@
           "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
+        },
+        {
+          "name": "Brutal Assault Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "x2",
+          "skill": "7+",
+          "armorPen": "9+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Chaos Beastmen",
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "1",
+          "W": "1",
+          "Ld": "4",
+          "Sv": "10+",
+          "N": "10",
+          "Pt": "3",
+          "traits": [
+            "Chaos Beastmen"
+          ],
+          "weapons": [
+            {
+              "name": "Brutal Assault Weapons",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "x2",
+              "skill": "7+",
+              "armorPen": "9+"
+            }
+          ]
         }
       ]
     },
@@ -769,17 +804,17 @@
     {
       "no": 9,
       "type": "Elites",
-      "name": "Cult Marines",
+      "name": "Aspiring Champion",
       "stats": {
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "2",
-        "W": "2",
+        "A": "1",
+        "W": "1",
         "Ld": "7",
         "Sv": "6+",
-        "N": "5",
-        "Pt": "8"
+        "N": "1",
+        "Pt": "3"
       },
       "keywords": [
         "Light",
@@ -792,109 +827,72 @@
         "Chaos",
         "Heretic Astartes",
         "<Legion>",
-        "Cult Marines"
+        "Aspiring Champion"
       ],
-      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.\nIt is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.",
+      "abilities": "Can select one Mark: Khorne, Tzeentch, Nurgle, or Slaanesh.\nAspire: If this unit's attacks causes a blast marker on an enemy, this unit can aspire to the dark gods (max once per battle). Roll a d6. On a 3+, they gain +1A, +1W, and +1Ld. On a 1, their WS and BS becomes 4+, and their Sv becomes 10+.\nIt is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Select one Cult Marine variant (Plague Marines or Rubric Marines). Each has unique stats, keywords and wargear as listed in the Abilities column."
+          "text": "Gain Khorne Mark. Exchange Close Combat Weapons for Khorne Weapons.",
+          "title": "Khorne",
+          "limit": "group Exclusive",
+          "group": "Mark"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Gain Tzeentch Mark and Psyker keyword. It is also equipped with Psychic Bolt.",
+          "title": "Tzeentch",
+          "limit": "group Exclusive",
+          "group": "Mark"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Gain Nurgle Mark. This unit has Ignore Damage (6+).",
+          "title": "Nurgle",
+          "limit": "group Exclusive",
+          "group": "Mark"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Gain Slaanesh Mark. Exchange Close Combat Weapons for Slaanesh Weapons.",
+          "title": "Slaanesh",
+          "limit": "group Exclusive",
+          "group": "Mark"
         }
       ],
       "weapons": [
-        {
-          "name": "Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Blight Launcher",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Plague Spewer",
-          "type": "Heavy",
-          "range": "9\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "10+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Plague Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Soulreaper Cannon",
-          "type": "Heavy",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Inferno Boltguns",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Warpflamers",
-          "type": "Small Arms",
-          "range": "8\"",
-          "attacks": "User",
-          "skill": "5+",
-          "armorPen": "8+",
-          "abilities": "Inferno"
-        },
         {
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
-        }
-      ],
-      "profiles": [
-        {
-          "name": "10 Cult Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "4",
-          "W": "4",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "10",
-          "Pt": "16"
+          "skill": "8+",
+          "armorPen": "8+"
         },
         {
-          "name": "15 Cult Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "6",
-          "W": "6",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "15",
-          "Pt": "24"
+          "name": "Khorne Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Psychic Bolt",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+",
+          "abilities": "Witchfire"
+        },
+        {
+          "name": "Slaanesh Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
         }
       ]
     },
@@ -1400,21 +1398,22 @@
     {
       "no": 31,
       "type": "Elites",
-      "name": "Chaos Beastmen",
+      "name": "Chaos Demons",
       "stats": {
         "M": "6\"",
-        "WS": "3+",
+        "WS": "4+",
         "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "4",
-        "Sv": "10+",
-        "N": "4",
-        "Pt": "1"
+        "A": "2",
+        "W": "2",
+        "Ld": "5",
+        "Sv": "8+",
+        "N": "10",
+        "Pt": "3"
       },
       "keywords": [
         "Light",
-        "Infantry"
+        "Infantry",
+        "Daemon"
       ],
       "profileKeywords": [
         "Infantry"
@@ -1422,25 +1421,171 @@
       "traits": [
         "Chaos",
         "Servants of the Abyss",
-        "Chaos Beastmen"
+        "Chaos Demons"
       ],
-      "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.\nIt is equipped with: Pistols; Brutal Assault Weapons.",
+      "abilities": "Can choose Plaguebearers, Bloodletters, Daemonettes, or Horrors profile.\nIt is equipped with: Talons.",
       "weapons": [
         {
-          "name": "Pistols",
-          "type": "Small Arms",
-          "range": "12\"",
+          "name": "Talons",
+          "type": "Melee",
+          "range": "Melee",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "10+"
+          "armorPen": "8+"
         },
         {
-          "name": "Brutal Assault Weapons",
+          "name": "Plaguesword",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Hellblade",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "7+"
+        },
+        {
+          "name": "Claws and Tormentors",
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "6+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Coruscating Flames",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "8+",
+          "abilities": "Witchfire"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Plaguebearers",
+          "M": "5\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "3",
+          "Ld": "6",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "4",
+          "traits": [
+            "Nurgle",
+            "Plaguebearers"
+          ],
+          "abilities": "Ignore Damage (6+).\nIt is equipped with: Plaguesword.",
+          "weapons": [
+            {
+              "name": "Plaguesword",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "9+"
+            }
+          ]
+        },
+        {
+          "name": "Bloodletters",
+          "M": "6\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "2",
+          "W": "1",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "4",
+          "traits": [
+            "Khorne",
+            "Bloodletters"
+          ],
+          "abilities": "It is equipped with: Hellblade.",
+          "weapons": [
+            {
+              "name": "Hellblade",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "x2",
+              "skill": "5+",
+              "armorPen": "9+"
+            }
+          ]
+        },
+        {
+          "name": "Daemonettes",
+          "M": "8\"",
+          "WS": "3+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "9+",
+          "N": "10",
+          "Pt": "4",
+          "traits": [
+            "Slaanesh",
+            "Daemonettes"
+          ],
+          "abilities": "It is equipped with: Claws.",
+          "weapons": [
+            {
+              "name": "Claws",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "x3",
+              "skill": "7+",
+              "armorPen": "9+"
+            }
+          ]
+        },
+        {
+          "name": "Horrors",
+          "M": "6\"",
+          "WS": "4+",
+          "BS": "4+",
+          "A": "2",
+          "W": "2",
+          "Ld": "5",
+          "Sv": "8+",
+          "N": "10",
+          "Pt": "4",
+          "keywords": [
+            "Psyker"
+          ],
+          "traits": [
+            "Tzeentch",
+            "Horrors"
+          ],
+          "abilities": "It is equipped with: Coruscating Flames and Capering Limbs.",
+          "weapons": [
+            {
+              "name": "Coruscating Flames",
+              "type": "Small Arms",
+              "range": "18\"",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "9+"
+            },
+            {
+              "name": "Capering Limbs",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "9+",
+              "armorPen": "10+"
+            }
+          ]
         }
       ]
     },
@@ -2591,16 +2736,15 @@
         "BS": "2+",
         "A": "2",
         "W": "3",
-        "Ld": "8",
+        "Ld": "7",
         "Sv": "5+",
         "N": "1",
-        "Pt": "14"
+        "Pt": "11"
       },
       "keywords": [
         "Daemon",
         "Heavy",
         "Monster",
-        "Fly",
         "Character"
       ],
       "traits": [
@@ -2608,34 +2752,44 @@
         "Legiones Daemonica",
         "Greater Daemon"
       ],
-      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.\nIt is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).",
+      "abilities": "Can choose a mark, and be Greater Daemon of Khorne (Bloodthirster Profile), Tzeentch (Lord of Change Profile), Nurgle (Great Unclean One Profile), or Slaanesh (Keeper of Secrets Profile).\nIt is equipped with: Daemonic Weapon;\nIf it does not choose a mark, it can choose up to 2 gifts (option)",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Lord of Change: Can equip 1 Baleful Sword",
-          "Pt": "1"
+          "text": "If not Bloodthirster, can choose to gain the Psychic Keyword and Doom Bolt.",
+          "Pt": "1",
+          "title": "Psychic"
         },
         {
           "per": "Per Unit",
-          "text": "have a Rod of Sorcery.",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Great Unclean One: Instead of 1 Bilesword, can equip 1 Doomsday Bell",
-          "Pt": "1"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Instead of 1 Plague Flail, can equip 1 Bileblade."
-        },
-        {
-          "per": "Per Unit",
-          "text": "Keeper of Secrets: Instead of 1 Ritual Knife, can equip Living Whip (Ranged) and Living Whip (Melee)",
-          "Pt": "2"
+          "text": "If it has no mark, it can choose gifts, 2 of:",
+          "Pt": "1",
+          "chooseOne": [
+            "Gain Psychic keyword and Doombolt",
+            "Gain Fly",
+            "Gain Terror Troops",
+            "Gain Talons"
+          ],
+          "chooseLimit": 2
         }
       ],
       "weapons": [
+        {
+          "name": "Daemonic Weapon",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "5+",
+          "armorPen": "5+"
+        },
+        {
+          "name": "Talons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "8+",
+          "armorPen": "9+"
+        },
         {
           "name": "Great Axe of Khorne",
           "type": "Melee",
@@ -2644,6 +2798,15 @@
           "skill": "4+",
           "armorPen": "4+",
           "abilities": "Destroyer"
+        },
+        {
+          "name": "Doom Bolt",
+          "type": "Small Arms",
+          "range": "24\"",
+          "attacks": "User",
+          "skill": "10+",
+          "armorPen": "10+",
+          "abilities": "Witchfire"
         },
         {
           "name": "Orange Fires of Tzeentch",
@@ -2761,7 +2924,38 @@
       ],
       "profiles": [
         {
-          "name": "1 Greater Daemon",
+          "name": "Bloodthirster",
+          "M": "12\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "2",
+          "W": "3",
+          "Ld": "8",
+          "Sv": "5+",
+          "N": "1",
+          "Pt": "14",
+          "keywords": [
+            "Fly"
+          ],
+          "traits": [
+            "Khorne",
+            "Bloodthirster of Insensate Rage"
+          ],
+          "abilities": "Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nIt exchanges Daemonic Weapon with: Great Axe of Khorne.",
+          "weapons": [
+            {
+              "name": "Great Axe of Khorne",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "4+",
+              "armorPen": "4+",
+              "abilities": "Destroyer"
+            }
+          ]
+        },
+        {
+          "name": "Lord of Change",
           "M": "12\"",
           "WS": "2+",
           "BS": "2+",
@@ -2770,10 +2964,46 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "1",
-          "Pt": "12"
+          "Pt": "12",
+          "keywords": [
+            "Fly",
+            "Psyker"
+          ],
+          "traits": [
+            "Tzeentch",
+            "Lord of Change"
+          ],
+          "abilities": "Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nIt exchanges Daemonic Weapon with: Orange Fires of Tzeentch; Staff of Tzeentch.",
+          "weapons": [
+            {
+              "name": "Orange Fires of Tzeentch",
+              "type": "Small Arms",
+              "range": "24\"",
+              "attacks": "User",
+              "skill": "8+",
+              "armorPen": "8+",
+              "abilities": "Witchfire"
+            },
+            {
+              "name": "Staff of Tzeentch",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "8+",
+              "armorPen": "7+"
+            },
+            {
+              "name": "Baleful Sword",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "8+"
+            }
+          ]
         },
         {
-          "name": "1 Greater Daemon",
+          "name": "Great Unclean One",
           "M": "7\"",
           "WS": "2+",
           "BS": "2+",
@@ -2782,10 +3012,68 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14"
+          "Pt": "14",
+          "keywords": [
+            "Psyker"
+          ],
+          "traits": [
+            "Nurgle",
+            "Great Unclean One"
+          ],
+          "abilities": "Ignore Damage (6+).\nGreater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nPutrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset.\nReverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nIt exchanges Daemonic Weapon with: Plague Flail (Ranged); Bilesword; Nurgling Claws & Teeth; Plague Flail (Melee).",
+          "weapons": [
+            {
+              "name": "Plague Flail (Ranged)",
+              "type": "Small Arms",
+              "range": "7\"",
+              "attacks": "x2",
+              "skill": "7+",
+              "armorPen": "7+"
+            },
+            {
+              "name": "Bilesword",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "5+",
+              "armorPen": "6+"
+            },
+            {
+              "name": "Bileblade",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "8+",
+              "armorPen": "9+"
+            },
+            {
+              "name": "Doomsday Bell",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "8+",
+              "armorPen": "9+"
+            },
+            {
+              "name": "Nurgling Claws & Teeth",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "1",
+              "skill": "10+",
+              "armorPen": "10+"
+            },
+            {
+              "name": "Plague Flail (Melee)",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "x2",
+              "skill": "7+",
+              "armorPen": "7+"
+            }
+          ]
         },
         {
-          "name": "1 Greater Daemon",
+          "name": "Keeper of Secrets",
           "M": "15\"",
           "WS": "2+",
           "BS": "2+",
@@ -2794,7 +3082,57 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14"
+          "Pt": "14",
+          "keywords": [
+            "Psyker"
+          ],
+          "traits": [
+            "Slaanesh",
+            "Keeper of Secrets"
+          ],
+          "abilities": "Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nMesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.\nSinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nIt exchanges Daemonic Weapon with: Ritual Knife; Snapping Claws; Witstealer Sword.",
+          "weapons": [
+            {
+              "name": "Ritual Knife",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "9+",
+              "armorPen": "10+"
+            },
+            {
+              "name": "Snapping Claws",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "6+",
+              "armorPen": "6+"
+            },
+            {
+              "name": "Witstealer Sword",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "7+"
+            },
+            {
+              "name": "Living Whip (Ranged)",
+              "type": "Small Arms",
+              "range": "6\"",
+              "attacks": "2",
+              "skill": "7+",
+              "armorPen": "8+"
+            },
+            {
+              "name": "Living Whip (Melee)",
+              "type": "Melee",
+              "range": "Melee",
+              "attacks": "User",
+              "skill": "7+",
+              "armorPen": "8+"
+            }
+          ]
         }
       ]
     }
