@@ -22,7 +22,15 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Chronometron: Re-roll saving throws of 1 for friendly <Dynasty> Infantry units whilst they are within 6\" of this unit.\nTechnomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Cryptek"
+      ],
+      "abilities": "Chronometron: Re-roll saving throws of 1 for friendly <Dynasty> Infantry units whilst they are within 6\" of this unit.\nTechnomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.\nIt is equipped with: Staff of Light.",
       "weapons": [
         {
           "name": "Staff of Light",
@@ -32,14 +40,6 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Cryptek"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -62,7 +62,16 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "Hyper-logical Strategist: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light Sautekh units whilst they are within 6\" of this unit.\nLord of the Storm: Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24\" of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6\" of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "Sautekh",
+        "Overlord",
+        "Imotekh the Stormlord"
+      ],
+      "abilities": "Hyper-logical Strategist: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light Sautekh units whilst they are within 6\" of this unit.\nLord of the Storm: Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24\" of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6\" of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.\nIt is equipped with: The Staff of the Destroyer (Ranged); The Staff of the Destroyer (Melee).",
       "weapons": [
         {
           "name": "The Staff of the Destroyer (Ranged)",
@@ -80,15 +89,6 @@
           "skill": "7+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Sautekh",
-        "Overlord",
-        "Imotekh the Stormlord"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -112,7 +112,15 @@
         "Fly",
         "Character"
       ],
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nUnited in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6\" of this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Destroyer Lord"
+      ],
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nUnited in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6\" of this unit.\nIt is equipped with: Lord's Weapons.",
       "weapons": [
         {
           "name": "Lord's Weapons",
@@ -122,14 +130,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Destroyer Lord"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -152,7 +152,15 @@
         "Infantry",
         "Character"
       ],
-      "abilities": "My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 6\" of this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Overlord"
+      ],
+      "abilities": "My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 6\" of this unit.\nIt is equipped with: Overlord's Weapons.",
       "weapons": [
         {
           "name": "Overlord's Weapons",
@@ -162,14 +170,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Overlord"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -193,7 +193,13 @@
         "Fly",
         "Character"
       ],
-      "abilities": "Wave of Command: If a Light <Dynasty> unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic for that action.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Overlord",
+        "Catacomb Command Barge"
+      ],
+      "abilities": "Wave of Command: If a Light <Dynasty> unit starts a Move action within 6\" of any friendly units with this ability, add 3\" to that unit's Move characteristic for that action.\nMy Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12\" of this unit.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nIt is equipped with: Gauss Cannon; Overlord's Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -225,12 +231,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Overlord",
-        "Catacomb Command Barge"
       ]
     },
     {
@@ -252,6 +252,15 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Immortals"
+      ],
+      "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -296,17 +305,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
+          "Pt": "8"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Immortals"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -328,6 +328,15 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Necron Warriors"
+      ],
+      "abilities": "It is equipped with: Gauss Flayers; Heavy Blades.",
       "weapons": [
         {
           "name": "Gauss Flayers",
@@ -358,17 +367,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "20",
-          "Pt": "12",
-          "abilities": "It is equipped with: Gauss Flayers; Heavy Blades."
+          "Pt": "12"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Necron Warriors"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -390,7 +390,15 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Deep Strike",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Deathmarks"
+      ],
+      "abilities": "Deep Strike\nIt is equipped with: Synaptic Disintegrators; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Synaptic Disintegrators",
@@ -421,17 +429,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "13",
-          "abilities": "It is equipped with: Synaptic Disintegrators; Close Combat Weapons."
+          "Pt": "13"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Deathmarks"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -455,7 +454,15 @@
         "Fly",
         "Character"
       ],
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nUnited in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6\" of this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Destroyer Lord"
+      ],
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nUnited in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6\" of this unit.\nIt is equipped with: Lord's Weapons.",
       "weapons": [
         {
           "name": "Lord's Weapons",
@@ -465,14 +472,6 @@
           "skill": "8+",
           "armorPen": "8+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Destroyer Lord"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -494,7 +493,15 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Deep Strike, Terror Troops",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Flayed Ones"
+      ],
+      "abilities": "Deep Strike, Terror Troops\nIt is equipped with: Flayer Claws.",
       "weapons": [
         {
           "name": "Flayer Claws",
@@ -516,8 +523,7 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Flayer Claws."
+          "Pt": "8"
         },
         {
           "name": "15 Flayed Ones",
@@ -529,8 +535,7 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "15",
-          "Pt": "11",
-          "abilities": "It is equipped with: Flayer Claws."
+          "Pt": "11"
         },
         {
           "name": "20 Flayed Ones",
@@ -542,17 +547,8 @@
           "Ld": "8",
           "Sv": "8+",
           "N": "20",
-          "Pt": "14",
-          "abilities": "It is equipped with: Flayer Claws."
+          "Pt": "14"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Flayed Ones"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -575,6 +571,14 @@
         "Infantry",
         "Character"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "Cryptek",
+        "Illuminor Szeras"
+      ],
       "abilities": "Mechanical Augmentations: After this unit makes a Move action, you can select one friendly Necrons Warriors or Immortals unit within 1\" of this unit to mechanically augment. Roll a D3 and apply the result from the table below to the chosen unit for the rest of the battle. A unit can only be mechanically augmented once per battle.\nTechnomancer: Friendly Necrons units have the Ignore Damage (6+) ability whilst they are within 6\" of this unit.\nD3 AUGMENTATION\n1 Improve the SAP characteristic of weapons the unit is equipped with by 1 (e.g. 8+ becomes 7+).\n2 Improve the unit's Save characteristic by 1 (e.g. 5+ becomes 4+).\n3 Improve the unit's Ballistic Skill characteristic by 1 (e.g. 4+ becomes 3+).",
       "weapons": [
         {
@@ -593,14 +597,6 @@
           "skill": "8+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Cryptek",
-        "Illuminor Szeras"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -622,7 +618,15 @@
         "Light",
         "Infantry"
       ],
-      "abilities": "Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Lychguard"
+      ],
+      "abilities": "Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\nIt is equipped with: Hyperphase Swords; Warscythes.",
       "options": [
         {
           "per": "Per Unit",
@@ -658,17 +662,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14",
-          "abilities": "It is equipped with: Hyperphase Swords; Warscythes."
+          "Pt": "14"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Lychguard"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -691,7 +686,14 @@
         "Infantry",
         "Fly"
       ],
-      "abilities": "A Purpose Unshakable: Morale tests taken for this unit are automatically passed.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "Triarch Praetorians"
+      ],
+      "abilities": "A Purpose Unshakable: Morale tests taken for this unit are automatically passed.\nIt is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades.",
       "options": [
         {
           "per": "Per Unit",
@@ -743,16 +745,8 @@
           "Ld": "8",
           "Sv": "6+",
           "N": "10",
-          "Pt": "15",
-          "abilities": "It is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades."
+          "Pt": "15"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Triarch Praetorians"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -774,7 +768,11 @@
         "Heavy",
         "Vehicle"
       ],
-      "abilities": "Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.\nTargeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.",
+      "traits": [
+        "Necrons",
+        "Triarch Stalker"
+      ],
+      "abilities": "Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.\nTargeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.\nIt is equipped with: Heat Ray (Dispersed); Heat Ray (Focused); Twin Heavy Gauss Cannon; Massive Forelimbs.",
       "options": [
         {
           "per": "Per Unit",
@@ -829,10 +827,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Triarch Stalker"
       ]
     },
     {
@@ -854,6 +848,16 @@
         "Light",
         "Infantry"
       ],
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Destroyer Cult",
+        "Skorpekh Destroyers"
+      ],
+      "abilities": "Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons.",
       "weapons": [
         {
           "name": "Skorpekh Hyperphase Weapons",
@@ -863,17 +867,7 @@
           "skill": "5+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Destroyer Cult",
-        "Skorpekh Destroyers"
-      ],
-      "profileKeywords": [
-        "Infantry"
-      ],
-      "abilities": "Skorpekh Destroyers is a unit that contains 3 models. It is equipped with: Skorpekh Hyperphase Weapons."
+      ]
     },
     {
       "no": 16,
@@ -893,7 +887,14 @@
       "keywords": [
         "Light"
       ],
-      "abilities": "Wraith Form: This unit can move across models and terrain as if they were not there.",
+      "traits": [
+        "Necrons",
+        "Canoptek",
+        "<Dynasty>",
+        "Beasts",
+        "Canoptek Wraiths"
+      ],
+      "abilities": "Wraith Form: This unit can move across models and terrain as if they were not there.\nIt is equipped with: Wraith Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -943,16 +944,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15",
-          "abilities": "It is equipped with: Wraith Weapons."
+          "Pt": "15"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Canoptek",
-        "<Dynasty>",
-        "Beasts",
-        "Canoptek Wraiths"
       ]
     },
     {
@@ -974,6 +967,14 @@
         "Light",
         "Fly"
       ],
+      "traits": [
+        "Necrons",
+        "Canoptek",
+        "<Dynasty>",
+        "Swarm",
+        "Canoptek Scarabs"
+      ],
+      "abilities": "It is equipped with: Feeder Mandibles.",
       "weapons": [
         {
           "name": "Feeder Mandibles",
@@ -995,8 +996,7 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "6",
-          "Pt": "8",
-          "abilities": "It is equipped with: Feeder Mandibles."
+          "Pt": "8"
         },
         {
           "name": "9 Canoptek Scarabs",
@@ -1008,16 +1008,8 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "9",
-          "Pt": "12",
-          "abilities": "It is equipped with: Feeder Mandibles."
+          "Pt": "12"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Canoptek",
-        "<Dynasty>",
-        "Swarm",
-        "Canoptek Scarabs"
       ]
     },
     {
@@ -1040,7 +1032,15 @@
         "Infantry",
         "Fly"
       ],
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Destroyers"
+      ],
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nIt is equipped with: Gauss Cannons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 3 models",
@@ -1085,8 +1085,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15",
-          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
+          "Pt": "15"
         },
         {
           "name": "9 Destroyers",
@@ -1098,17 +1097,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "9",
-          "Pt": "22",
-          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
+          "Pt": "22"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Destroyers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1131,7 +1121,12 @@
         "Biker",
         "Fly"
       ],
-      "abilities": "Stealth",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Tomb Blades"
+      ],
+      "abilities": "Stealth\nIt is equipped with: Gauss Blasters; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -1189,8 +1184,7 @@
           "Ld": "8",
           "Sv": "7+",
           "N": "6",
-          "Pt": "15",
-          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
+          "Pt": "15"
         },
         {
           "name": "9 Tomb Blades",
@@ -1202,14 +1196,8 @@
           "Ld": "8",
           "Sv": "7+",
           "N": "9",
-          "Pt": "22",
-          "abilities": "It is equipped with: Gauss Blasters; Close Combat Weapons."
+          "Pt": "22"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Tomb Blades"
       ]
     },
     {
@@ -1232,7 +1220,12 @@
         "Vehicle",
         "Fly"
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Annihilation Barge"
+      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nIt is equipped with: Gauss Cannon; Twin Tesla Destructor; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -1272,11 +1265,6 @@
           "skill": "10+",
           "armorPen": "11+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Annihilation Barge"
       ]
     },
     {
@@ -1299,7 +1287,13 @@
         "Monster",
         "Fly"
       ],
-      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.",
+      "traits": [
+        "Necrons",
+        "Canoptek",
+        "<Dynasty>",
+        "Canoptek Spyders"
+      ],
+      "abilities": "Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nScarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6\" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.\nIt is equipped with: Automaton Claws.",
       "options": [
         {
           "per": "Per Model",
@@ -1336,8 +1330,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "2",
-          "Pt": "11",
-          "abilities": "It is equipped with: Automaton Claws."
+          "Pt": "11"
         },
         {
           "name": "3 Canoptek Spyders",
@@ -1349,15 +1342,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "3",
-          "Pt": "16",
-          "abilities": "It is equipped with: Automaton Claws."
+          "Pt": "16"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Canoptek",
-        "<Dynasty>",
-        "Canoptek Spyders"
       ]
     },
     {
@@ -1380,7 +1366,15 @@
         "Infantry",
         "Fly"
       ],
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Destroyers"
+      ],
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nIt is equipped with: Gauss Cannons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 3 models",
@@ -1425,8 +1419,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "15",
-          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
+          "Pt": "15"
         },
         {
           "name": "9 Destroyers",
@@ -1438,17 +1431,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "9",
-          "Pt": "22",
-          "abilities": "It is equipped with: Gauss Cannons; Close Combat Weapons."
+          "Pt": "22"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Destroyers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1471,7 +1455,12 @@
         "Vehicle",
         "Fly"
       ],
-      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Doomsday Ark"
+      ],
+      "abilities": "Hover: Distances are measured to and from this unit's hull, even though it has a base.\nIt is equipped with: Doomsday Cannon; Gauss Flayer Array; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Doomsday Cannon",
@@ -1499,11 +1488,6 @@
           "skill": "11+",
           "armorPen": "12+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Doomsday Ark"
       ]
     },
     {
@@ -1526,7 +1510,15 @@
         "Infantry",
         "Fly"
       ],
-      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.",
+      "profileKeywords": [
+        "Infantry"
+      ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Heavy Destroyers"
+      ],
+      "abilities": "Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.\nIt is equipped with: Heavy Gauss Cannons; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Heavy Gauss Cannons",
@@ -1556,8 +1548,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "2",
-          "Pt": "11",
-          "abilities": "It is equipped with: Heavy Gauss Cannons; Close Combat Weapons."
+          "Pt": "11"
         },
         {
           "name": "3 Heavy Destroyers",
@@ -1569,17 +1560,8 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "3",
-          "Pt": "16",
-          "abilities": "It is equipped with: Heavy Gauss Cannons; Close Combat Weapons."
+          "Pt": "16"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Heavy Destroyers"
-      ],
-      "profileKeywords": [
-        "Infantry"
       ]
     },
     {
@@ -1602,7 +1584,12 @@
         "Titanic",
         "Fly"
       ],
-      "abilities": "Deep Strike\nPortal of Exile: After this unit ends a Move action choose one enemy unit within 1\" of this unit and roll one D6; on a 5+, place a blast marker next to that unit.\nEternity Gate: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.\nHover: Distances are measured to and from this unit's hull, even though it has a base.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Monolith"
+      ],
+      "abilities": "Deep Strike\nPortal of Exile: After this unit ends a Move action choose one enemy unit within 1\" of this unit and roll one D6; on a 5+, place a blast marker next to that unit.\nEternity Gate: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nIt is equipped with: Gauss Flux Arc; Particle Whip; Crushing Bulk.",
       "weapons": [
         {
           "name": "Gauss Flux Arc",
@@ -1628,11 +1615,6 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Monolith"
       ]
     },
     {
@@ -1656,7 +1638,12 @@
         "Fly",
         "Character"
       ],
-      "abilities": "Enslaved Star God: This unit cannot be a Warlord.\nImmune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.\nCosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for an attack made by this unit, or you can re-roll one saving throw made for this unit.",
+      "traits": [
+        "Necrons",
+        "C'tan Shards",
+        "Transcendent C'tan"
+      ],
+      "abilities": "Enslaved Star God: This unit cannot be a Warlord.\nImmune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.\nCosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for an attack made by this unit, or you can re-roll one saving throw made for this unit.\nIt is equipped with: Powers of the C'tan; Crackling Tendrils.",
       "weapons": [
         {
           "name": "Powers of the C'tan",
@@ -1674,11 +1661,6 @@
           "skill": "6+",
           "armorPen": "5+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "C'tan Shards",
-        "Transcendent C'tan"
       ]
     },
     {
@@ -1701,6 +1683,13 @@
         "Vehicle",
         "Walker"
       ],
+      "traits": [
+        "Necrons",
+        "Canoptek",
+        "<Dynasty>",
+        "Canoptek Doomstalker"
+      ],
+      "abilities": "A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs.",
       "weapons": [
         {
           "name": "Doomsday Blaster",
@@ -1728,14 +1717,7 @@
           "skill": "7+",
           "armorPen": "9+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "Canoptek",
-        "<Dynasty>",
-        "Canoptek Doomstalker"
-      ],
-      "abilities": "A Canoptek Doomstalker is a unit that contains 1 model. It is equipped with: Doomsday Blaster; Twin Gauss Flayer; Doomstalker Limbs."
+      ]
     },
     {
       "no": 30,
@@ -1758,7 +1740,12 @@
         "Fly",
         "Transport"
       ],
-      "abilities": "Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Ghost Ark"
+      ],
+      "abilities": "Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.\nHover: Distances are measured to and from this unit's hull, even though it has a base.\nTRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.\nIt is equipped with: Gauss Flayer Array; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Gauss Flayer Array",
@@ -1777,11 +1764,6 @@
           "skill": "10+",
           "armorPen": "11+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Ghost Ark"
       ]
     },
     {
@@ -1805,7 +1787,12 @@
         "Fly",
         "Aircraft"
       ],
-      "abilities": "Supersonic",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Doom Scythe"
+      ],
+      "abilities": "Supersonic\nIt is equipped with: Death Ray; Tesla Destructor; Armoured Hull.",
       "weapons": [
         {
           "name": "Death Ray",
@@ -1832,11 +1819,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Doom Scythe"
       ]
     },
     {
@@ -1860,7 +1842,12 @@
         "Fly",
         "Aircraft"
       ],
-      "abilities": "Supersonic\nInvasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.",
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Night Scythe"
+      ],
+      "abilities": "Supersonic\nInvasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6\" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.\nIt is equipped with: Tesla Destructor; Armoured Hull.",
       "weapons": [
         {
           "name": "Tesla Destructor",
@@ -1878,11 +1865,6 @@
           "skill": "10+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Night Scythe"
       ]
     },
     {
@@ -1906,6 +1888,11 @@
         "Titanic",
         "Fly"
       ],
+      "traits": [
+        "Necrons",
+        "<Dynasty>",
+        "Obelisk"
+      ],
       "abilities": "Deep Strike\nGravity Pulse: At the end of the Action phase, roll one D12 for each enemy Aircraft unit within 12\" of this unit; on a 9+ place one blast marker next to that unit.\nAn Obelisk is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Crushing Bulk.",
       "weapons": [
         {
@@ -1924,11 +1911,6 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "<Dynasty>",
-        "Obelisk"
       ]
     },
     {
@@ -1951,6 +1933,12 @@
         "Vehicle",
         "Titanic",
         "Fly"
+      ],
+      "traits": [
+        "Necrons",
+        "C'tan Shards",
+        "<Dynasty>",
+        "Tesseract Vault"
       ],
       "abilities": "Deep Strike\nA Tesseract Vault is a unit that contains 1 model. It is equipped with: 4 Tesla Spheres; Unbridled Powers of the C'tan; Crushing Bulk.",
       "weapons": [
@@ -1979,12 +1967,6 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Necrons",
-        "C'tan Shards",
-        "<Dynasty>",
-        "Tesseract Vault"
       ]
     }
   ]

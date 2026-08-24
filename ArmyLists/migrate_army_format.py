@@ -962,6 +962,128 @@ def add_profile_equipped_lines(unit: dict) -> None:
         profile["abilities"] = f"{abilities}\n{equipped_line}".strip() if abilities else equipped_line
 
 
+def split_ability_lines(abilities: str) -> list[str]:
+    return [line.strip() for line in abilities.splitlines() if line.strip()]
+
+
+def join_ability_lines(lines: list[str]) -> str:
+    return "\n".join(lines)
+
+
+def shared_profile_ability_lines(profiles: list[dict]) -> list[str]:
+    if not profiles:
+        return []
+    line_sets = [set(split_ability_lines(profile.get("abilities") or "")) for profile in profiles]
+    common = line_sets[0].copy()
+    for line_set in line_sets[1:]:
+        common &= line_set
+    if not common:
+        return []
+    ordered = split_ability_lines(profiles[0].get("abilities") or "")
+    return [line for line in ordered if line in common]
+
+
+def consolidate_shared_profile_abilities(unit: dict) -> None:
+    profiles = unit.get("profiles") or []
+    shared = shared_profile_ability_lines(profiles)
+    if not shared:
+        return
+
+    unit_lines = split_ability_lines(unit.get("abilities") or "")
+    unit_line_set = set(unit_lines)
+    for line in shared:
+        if line not in unit_line_set:
+            unit_lines.append(line)
+            unit_line_set.add(line)
+    if unit_lines:
+        unit["abilities"] = join_ability_lines(unit_lines)
+    else:
+        unit.pop("abilities", None)
+
+    shared_set = set(shared)
+    for profile in profiles:
+        remaining = [
+            line
+            for line in split_ability_lines(profile.get("abilities") or "")
+            if line not in shared_set
+        ]
+        if remaining:
+            profile["abilities"] = join_ability_lines(remaining)
+        else:
+            profile.pop("abilities", None)
+
+
+def profile_equipped_lines(profiles: list[dict]) -> set[str]:
+    lines: set[str] = set()
+    for profile in profiles:
+        for line in split_ability_lines(profile.get("abilities") or ""):
+            if "equipped with" in line.lower():
+                lines.add(line)
+    return lines
+
+
+def default_unit_weapon_names(unit: dict) -> list[str]:
+    profiles = unit.get("profiles") or []
+    return default_profile_weapon_names(unit, {}, profiles)
+
+
+def ensure_unit_equipped_line(unit: dict) -> None:
+    abilities = (unit.get("abilities") or "").strip()
+    if "equipped with" in abilities.lower():
+        return
+
+    profiles = unit.get("profiles") or []
+    equipped_lines = profile_equipped_lines(profiles)
+    if len(equipped_lines) == 1:
+        line = next(iter(equipped_lines))
+        unit["abilities"] = f"{abilities}\n{line}".strip() if abilities else line
+        shared_set = {line}
+        for profile in profiles:
+            remaining = [
+                ability_line
+                for ability_line in split_ability_lines(profile.get("abilities") or "")
+                if ability_line not in shared_set
+            ]
+            if remaining:
+                profile["abilities"] = join_ability_lines(remaining)
+            else:
+                profile.pop("abilities", None)
+        return
+
+    if len(equipped_lines) > 1:
+        return
+
+    weapon_names = default_unit_weapon_names(unit)
+    if not weapon_names:
+        return
+    line = f"It is equipped with: {'; '.join(weapon_names)}."
+    unit["abilities"] = f"{abilities}\n{line}".strip() if abilities else line
+
+
+def normalize_unit_abilities(unit: dict) -> None:
+    consolidate_shared_profile_abilities(unit)
+    ensure_unit_equipped_line(unit)
+
+
+def profile_matches_base_stats(profile: dict, base: dict) -> bool:
+    return all(
+        str(profile.get(field) or "").strip() == str(base.get(field) or "").strip()
+        for field in STAT_FIELDS
+    )
+
+
+def remove_duplicate_base_profiles(unit: dict) -> None:
+    base = unit.get("stats") or {}
+    profiles = unit.get("profiles") or []
+    if not base or not profiles:
+        return
+    kept = [profile for profile in profiles if not profile_matches_base_stats(profile, base)]
+    if kept:
+        unit["profiles"] = kept
+    else:
+        unit.pop("profiles", None)
+
+
 def migrate_unit(unit: dict, *, move_loadout: bool = False) -> None:
     split_keywords_traits(unit)
 
@@ -1028,6 +1150,8 @@ def migrate_unit(unit: dict, *, move_loadout: bool = False) -> None:
 
     normalize_unit_option_pers(unit)
     add_profile_equipped_lines(unit)
+    normalize_unit_abilities(unit)
+    remove_duplicate_base_profiles(unit)
     strip_duplicate_abilities(unit)
 
 
@@ -1070,10 +1194,7 @@ def migrate_file(md_path: Path, sync_web: bool = True) -> None:
     text = md_path.read_text(encoding="utf-8")
     preamble = extract_preamble(text)
     json_path = md_path.with_suffix(".json")
-    if json_path.exists():
-        data = json.loads(json_path.read_text(encoding="utf-8"))
-    else:
-        data = markdown_to_json(text, md_path)
+    data = markdown_to_json(text, md_path)
     migrated = migrate_data(data, move_loadout=True)
     write_markdown(migrated, md_path, preamble)
     write_json_outputs(migrated, json_path, sync_web)

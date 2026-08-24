@@ -18,6 +18,11 @@ Super-heavy, Vehicle, Titanic, Questoris Class
 ### Traits
 Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Paladin
 
+### Abilities
+```
+It is equipped with: Rapid-fire Battle Cannon; Heavy Stubber; Reaper Chainsword.
+```
+
 ### Options
 - per: Per Unit
   title: Melee Weapon
@@ -55,6 +60,11 @@ Super-heavy, Vehicle, Titanic, Questoris Class
 
 ### Traits
 Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Errant
+
+### Abilities
+```
+It is equipped with: Thermal Cannon; Heavy Stubber; Reaper Chainsword.
+```
 
 ### Options
 - per: Per Unit
@@ -97,6 +107,7 @@ Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Castellan
 ### Abilities
 ```
 Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12" of this unit instead of 6".
+It is equipped with: Plasma Decimator; Shieldbreaker Missile; Twin Meltagun; Twin Siegebreaker Cannon; Volcano Lance; Titanic Feet.
 ```
 
 ### Options
@@ -125,6 +136,11 @@ Super-heavy, Titanic, Vehicle, Questoris Class
 
 ### Traits
 Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Knight Gallant
+
+### Abilities
+```
+It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.
+```
 
 ### Options
 - per: Per Unit
@@ -217,6 +233,7 @@ Chaos, Chaos Knights, <Questor Traitoris>, Knight Tyrant
 ```
 Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one.
 Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12" of this unit instead of 6".
+It is equipped with: Plasma Decimator; Conflagration Cannon; Shieldbreaker Missile; Thundercoil Harpoon; Twin Meltagun; Twin Siegebreaker Cannon; Volcano Lance; Titanic Feet.
 ```
 
 ### Options
@@ -253,6 +270,7 @@ Chaos, Chaos Knights, <Questor Traitoris>, Abhorrent Class, Knight Desecrator
 ### Abilities
 ```
 Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6" of this unit.
+It is equipped with: Heavy Stubber; Laser Destructor; Reaper Chainsword.
 ```
 
 ### Options
@@ -281,6 +299,11 @@ Super-heavy, Titanic, Vehicle
 ### Traits
 Chaos, Chaos Knights, <Questor Traitoris>, Abhorrent Class, Knight Rampager
 
+### Abilities
+```
+It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -305,6 +328,7 @@ Imperium, Imperial Knights, Questor Imperialis, Freeblade, Knight Preceptor, Can
 ```
 Chainbreaker: Add 1 to the Leadership characteristic of friendly Imperium units whilst they are within 6" of this unit.
 You can only have one of this unit in your army.
+It is equipped with: Las-impulsor; Multi-laser; Freedom's Hand.
 ```
 
 ### Weapons
@@ -330,6 +354,7 @@ Imperium, Imperial Knights, <Questor Allegiance>, <Household>, Armiger Helverin
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+It is equipped with: Armiger Autocannon; Heavy Stubber; Armoured Feet.
 ```
 
 ### Options
@@ -361,6 +386,7 @@ Imperium, Imperial Knights, <Questor Allegiance>, Armiger Warglaive
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+It is equipped with: Heavy Stubber; Thermal Spear; Armoured Feet; Reaper Chain-cleaver.
 ```
 
 ### Options
@@ -393,6 +419,7 @@ Chaos, Chaos Knights, <Questor Traitoris>, War Dog
 ### Abilities
 ```
 Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+It is equipped with: Heavy Stubber; Thermal Spear; War Dog Autocannon; Armoured Feet; Reaper Chain-cleaver.
 ```
 
 ### Options

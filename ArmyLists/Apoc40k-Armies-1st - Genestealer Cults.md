@@ -132,6 +132,11 @@ Infantry
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Acolyte Hybrids
 
+### Abilities
+```
+It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
+```
+
 ### Options
 - per: Per 5 models
   Pt: 1
@@ -152,30 +157,15 @@ Tyranids, Genestealer Cults, <Cult>, Acolyte Hybrids
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 6 |
 
-##### Profile Abilities
-```
-It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
-```
-
 #### 15 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 3 | 3 | 6 | 10+ | 15 | 9 |
 
-##### Profile Abilities
-```
-It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
-```
-
 #### 20 Acolyte Hybrids
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 12 |
-
-##### Profile Abilities
-```
-It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.
-```
 
 ## Unit 6 — Troops — Neophyte Hybrids
 
@@ -192,6 +182,11 @@ Infantry
 
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Neophyte Hybrids
+
+### Abilities
+```
+It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons.
+```
 
 ### Options
 - per: up to 2
@@ -214,11 +209,6 @@ Tyranids, Genestealer Cults, <Cult>, Neophyte Hybrids
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 8+ | 20 | 10 |
 
-##### Profile Abilities
-```
-It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons.
-```
-
 ## Unit 7 — Troops — Brood Brothers Infantry Squad
 
 ### Stats
@@ -234,6 +224,11 @@ Infantry
 
 ### Traits
 Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Infantry Squad
+
+### Abilities
+```
+It is equipped with: Lasguns; Close Combat Weapons.
+```
 
 ### Options
 - per: Per Unit
@@ -262,11 +257,6 @@ Tyranids, Genestealer Cults, Brood Brothers, Brood Brothers Infantry Squad
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 4 | 4 | 6 | 10+ | 20 | 6 |
 
-##### Profile Abilities
-```
-It is equipped with: Lasguns; Close Combat Weapons.
-```
-
 ## Unit 30 — Troops — Cult Combat Engineers
 
 ### Stats
@@ -286,6 +276,7 @@ Tyranids, Genestealer Cults, <Cult>, Cult Combat Engineers
 ### Abilities
 ```
 Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.
+It is equipped with: Trench Clubs; Flamers.
 ```
 
 ### Weapons
@@ -299,11 +290,6 @@ Remote Mines: Once per battle, select a unit within 9" and roll a d6. On a 3+, t
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 6 | 10+ | 20 | 8 |
-
-##### Profile Abilities
-```
-It is equipped with: Trench Clubs; Flamers.
-```
 
 ## Unit 8 — Elites — Acolyte Iconward
 
@@ -349,6 +335,11 @@ Infantry
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Genestealer, Purestrain Genestealers
 
+### Abilities
+```
+It is equipped with: Purestrain Claws.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -360,30 +351,15 @@ Tyranids, Genestealer Cults, <Cult>, Genestealer, Purestrain Genestealers
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 2 | 2 | 7 | 9+ | 10 | 10 |
 
-##### Profile Abilities
-```
-It is equipped with: Purestrain Claws.
-```
-
 #### 15 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 3 | 3 | 7 | 9+ | 15 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Purestrain Claws.
-```
-
 #### 20 Purestrain Genestealers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 3+ | - | 4 | 4 | 7 | 9+ | 20 | 20 |
-
-##### Profile Abilities
-```
-It is equipped with: Purestrain Claws.
-```
 
 ## Unit 10 — Elites — Aberrants
 
@@ -404,6 +380,7 @@ Tyranids, Genestealer Cults, <Cult>, Aberrants
 ### Abilities
 ```
 Ignore Damage (6+)
+It is equipped with: Aberrant Weapons.
 ```
 
 ### Weapons
@@ -416,11 +393,6 @@ Ignore Damage (6+)
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 6+ | 2 | 4 | 6 | 10+ | 10 | 9 |
-
-##### Profile Abilities
-```
-It is equipped with: Aberrant Weapons.
-```
 
 ## Unit 11 — Elites — Hybrid Metamorphs
 
@@ -438,6 +410,11 @@ Infantry
 ### Traits
 Tyranids, Genestealer Cults, <Cult>, Hybrid Metamorphs
 
+### Abilities
+```
+It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee).
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -449,11 +426,6 @@ Tyranids, Genestealer Cults, <Cult>, Hybrid Metamorphs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 10 | 8 |
-
-##### Profile Abilities
-```
-It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee).
-```
 
 ## Unit 12 — Elites — Clamavus
 
@@ -639,6 +611,7 @@ Tyranids, Genestealer Cults, <Cult>, Atalan Jackals
 ### Abilities
 ```
 12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model
+It is equipped with: Autopistols; Close Combat Weapons.
 ```
 
 ### Options
@@ -662,30 +635,15 @@ Tyranids, Genestealer Cults, <Cult>, Atalan Jackals
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 4 | 6 | 10+ | 10 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Autopistols; Close Combat Weapons.
-```
-
 #### 15 Atalan Jackals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 3 | 6 | 6 | 10+ | 15 | 12 |
 
-##### Profile Abilities
-```
-It is equipped with: Autopistols; Close Combat Weapons.
-```
-
 #### 8 Atalan Jackals
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 4+ | 4+ | 2 | 3 | 6 | 10+ | 8 | 8 |
-
-##### Profile Abilities
-```
-It is equipped with: Autopistols; Close Combat Weapons.
-```
 
 ## Unit 21 — Heavy — Cult Armoured Sentinels
 
@@ -699,6 +657,11 @@ Heavy, Vehicle
 
 ### Traits
 Tyranids, Genestealer Cults, Brood Brothers, Cult Armoured Sentinels
+
+### Abilities
+```
+It is equipped with: Armoured Feet.
+```
 
 ### Options
 - per: Per Model
@@ -723,20 +686,10 @@ Tyranids, Genestealer Cults, Brood Brothers, Cult Armoured Sentinels
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 2 | 2 | 5 | 6+ | 2 | 6 |
 
-##### Profile Abilities
-```
-It is equipped with: Armoured Feet.
-```
-
 #### 3 Cult Armoured Sentinels
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 4+ | 4+ | 3 | 3 | 5 | 6+ | 3 | 9 |
-
-##### Profile Abilities
-```
-It is equipped with: Armoured Feet.
-```
 
 ## Unit 23 — Heavy — Brood Brothers Heavy Weapons Squad
 

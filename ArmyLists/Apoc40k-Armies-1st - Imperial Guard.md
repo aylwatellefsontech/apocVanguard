@@ -52,6 +52,7 @@ Imperium, Astra Militarum, Officio Prefectus, Commissar, Lord Commissar
 ### Abilities
 ```
 Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+It is equipped with: Commissar Weapons.
 ```
 
 ### Weapons
@@ -78,6 +79,7 @@ Imperium, Astra Militarum, <Regiment>, Command Squad
 ### Abilities
 ```
 Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6" of any friendly <Regiment> units with a Regimental Standard.
+It is equipped with: Lasguns; Close Combat Weapons.
 ```
 
 ### Options
@@ -131,6 +133,7 @@ Choose either Tank Commander, Master of Ordnance, or Officer of the Fleet for th
 Alternative: Master of Ordnance (Pt 5) with Master of Ballistics ability.
 Alternative: Officer of the Fleet (Pt 2) with Strafing Coordinates ability.
 Alternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander ability).
+It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.
 ```
 
 ### Options
@@ -188,6 +191,11 @@ Infantry
 ### Traits
 Imperium, Astra Militarum, <Regiment>, Infantry Squad
 
+### Abilities
+```
+It is equipped with: Lasguns; Close Combat Weapons.
+```
+
 ### Options
 - per: Per Unit
   Pt: 1
@@ -228,6 +236,7 @@ Imperium, Astra Militarum, <Regiment>, Conscripts
 ### Abilities
 ```
 Conscripts is a unit that contains 20 models.
+It is equipped with: Lasguns; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -255,6 +264,7 @@ Imperium, Astra Militarum, <Regiment>, Company Commander
 ### Abilities
 ```
 Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
+It is equipped with: Officer Weapons.
 ```
 
 ### Weapons
@@ -281,6 +291,7 @@ Imperium, Astra Militarum, Enginseer
 ### Abilities
 ```
 Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Astra Militarum Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
+It is equipped with: Omnissian Axe & Servo-arm.
 ```
 
 ### Weapons
@@ -334,6 +345,11 @@ Infantry
 ### Traits
 Imperium, Astra Militarum, <Regiment>
 
+### Abilities
+```
+It is equipped with: Veteran Wargear; Chainswords.
+```
+
 ### Options
 - per: Per Unit
   Pt: 1
@@ -379,6 +395,7 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions
 ### Abilities
 ```
 Deep Strike
+It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -392,11 +409,6 @@ Deep Strike
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 5 |
-
-##### Profile Abilities
-```
-It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
-```
 
 ## Unit 11 — Elites — Snipers
 
@@ -417,6 +429,7 @@ Imperium, Astra Militarum, Militarum Auxilia, Ratlings
 ### Abilities
 ```
 Infiltrators, Stealth
+It is equipped with: Sniper Rifles; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -430,11 +443,6 @@ Infiltrators, Stealth
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 3 |
-
-##### Profile Abilities
-```
-It is equipped with: Sniper Rifles; Close Combat Weapons.
-```
 
 ## Unit 12 — Elites — Ogryn / crusaders
 
@@ -457,6 +465,7 @@ Imperium, Astra Militarum, Militarum Auxilia, Ogryns
 Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.
 Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.
 Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
+It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
 ```
 
 ### Weapons
@@ -472,20 +481,10 @@ Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 6 | 10 |
 
-##### Profile Abilities
-```
-It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
-```
-
 #### 9 Ogryn / crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 3+ | 4+ | 6 | 6 | 6 | 10+ | 9 | 15 |
-
-##### Profile Abilities
-```
-It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
-```
 
 ## Unit 13 — Elites — Special Weapons Squad
 
@@ -502,6 +501,11 @@ Infantry
 
 ### Traits
 Imperium, Astra Militarum, <Regiment>, Special Weapons Squad
+
+### Abilities
+```
+It is equipped with: Lasguns; Special Weapons; Close Combat Weapons.
+```
 
 ### Options
 - per: Per Unit
@@ -537,6 +541,7 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Command Squa
 Deep Strike
 Platoon Standard: Add 1 to the Leadership characteristic of Militarum Tempestus units whilst they are within 6" of any friendly Militarum Tempestus units with a Platoon Standard.
 A Militarum Tempestus Command Squad is a unit that contains 4 models.
+It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
 ```
 
 ### Options
@@ -569,6 +574,7 @@ Imperium, Astra Militarum, Officio Prefectus, Commissar
 ### Abilities
 ```
 Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+It is equipped with: Commissar Weapons.
 ```
 
 ### Weapons
@@ -593,6 +599,7 @@ Imperium, Astra Militarum, <Regiment>, Scout Sentinels
 ```
 Infiltrators
 Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).
+It is equipped with: Plasma Cannon.
 ```
 
 ### Options
@@ -617,20 +624,10 @@ Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Pl
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 2 | 7 |
 
-##### Profile Abilities
-```
-It is equipped with: Plasma Cannon.
-```
-
 #### 3 Sentinel
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9" | 4+ | 4+ | 3 | 3 | 5 | 8+ | 3 | 10 |
-
-##### Profile Abilities
-```
-It is equipped with: Plasma Cannon.
-```
 
 ## Unit 15 — Fast — Hellhound
 
@@ -728,6 +725,11 @@ Light, Cavalry
 ### Traits
 Imperium, Astra Militarum, <Regiment>, Rough Riders
 
+### Abilities
+```
+It is equipped with: Laspistols; Close Combat Weapons; Hunting Lances.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -740,11 +742,6 @@ Imperium, Astra Militarum, <Regiment>, Rough Riders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 4+ | 2 | 4 | 5 | 10+ | 10 | 6 |
-
-##### Profile Abilities
-```
-It is equipped with: Laspistols; Close Combat Weapons; Hunting Lances.
-```
 
 ## Unit 31 — Fast — Aquilons
 
@@ -765,6 +762,7 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions, Aqui
 ### Abilities
 ```
 Infiltrators
+It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -778,11 +776,6 @@ Infiltrators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | 3+ | 2 | 2 | 5 | 8+ | 10 | 6 |
-
-##### Profile Abilities
-```
-It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
-```
 
 ## Unit 17 — Heavy — Heavy Weapons Squad
 
@@ -803,6 +796,7 @@ Imperium, Astra Militarum, <Regiment>, Heavy Weapons Squad
 ### Abilities
 ```
 Weapons Teams: For the purposes of determining what models a unit can transport, models in this unit are weapons team models.
+It is equipped with: Close Combat Weapons.
 ```
 
 ### Options
@@ -954,6 +948,7 @@ Imperium, Astra Militarum, <Regiment>, Leman Russ, Leman Russ Battle Tank
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.
+It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.
 ```
 
 ### Options

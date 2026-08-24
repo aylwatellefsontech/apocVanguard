@@ -37,7 +37,7 @@
         "Chaos Lord",
         "Abaddon the Despoiler"
       ],
-      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.",
+      "abilities": "You can only include one of this unit in your army.\nDeep Strike\nLord of the Black Legion: You can re-roll hit rolls for attacks made by friendly Black Legion units whilst they are within 6\" of this unit.\nMark of Chaos Ascendant: Morale tests taken for friendly Heretic Astartes units are automatically passed whilst they are within 6\" of this unit.\nDark Destiny: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.\nIt is equipped with: Talon of Horus & Drach'nyen.",
       "weapons": [
         {
           "name": "Talon of Horus & Drach'nyen",
@@ -79,7 +79,7 @@
         "<Legion>",
         "Chaos Lord"
       ],
-      "abilities": "Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.",
+      "abilities": "Lord of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nIt is equipped with: Helwrought Weapons.",
       "weapons": [
         {
           "name": "Helwrought Weapons",
@@ -107,7 +107,7 @@
             "Jump Pack",
             "Fly"
           ],
-          "abilities": "Deep Strike\nIt is equipped with: Helwrought Weapons."
+          "abilities": "Deep Strike"
         },
         {
           "name": "Terminator Armour",
@@ -124,7 +124,7 @@
             "Infantry",
             "Terminator"
           ],
-          "abilities": "Deep Strike\nIt is equipped with: Helwrought Weapons."
+          "abilities": "Deep Strike"
         },
         {
           "name": "Bike",
@@ -139,8 +139,7 @@
           "Pt": "6",
           "keywords": [
             "Biker"
-          ],
-          "abilities": "It is equipped with: Helwrought Weapons."
+          ]
         }
       ]
     },
@@ -175,6 +174,7 @@
         "<Legion>",
         "Sorcerer"
       ],
+      "abilities": "It is equipped with: Force Weapon.",
       "weapons": [
         {
           "name": "Force Weapon",
@@ -202,7 +202,7 @@
             "Jump Pack",
             "Fly"
           ],
-          "abilities": "Deep Strike\nIt is equipped with: Force Weapon."
+          "abilities": "Deep Strike"
         },
         {
           "name": "Terminator Armour",
@@ -219,7 +219,7 @@
             "Infantry",
             "Terminator"
           ],
-          "abilities": "Deep Strike\nIt is equipped with: Force Weapon."
+          "abilities": "Deep Strike"
         },
         {
           "name": "Bike",
@@ -234,8 +234,7 @@
           "Pt": "4",
           "keywords": [
             "Biker"
-          ],
-          "abilities": "It is equipped with: Force Weapon."
+          ]
         }
       ]
     },
@@ -266,7 +265,7 @@
         "<Legion>",
         "Daemon Prince"
       ],
-      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.",
+      "abilities": "Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6\" of this unit.\nMight Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.\nWhen you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.\nIf you choose Khorne, this unit has the additional ability: Might Over Magic.\nIf you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.\nDeep Strike\nIt is equipped with: Daemonic Weapons.",
       "weapons": [
         {
           "name": "Daemonic Weapons",
@@ -291,8 +290,7 @@
           "Pt": "11",
           "keywords": [
             "Fly"
-          ],
-          "abilities": "Deep Strike\nIt is equipped with: Daemonic Weapons."
+          ]
         }
       ]
     },
@@ -326,7 +324,7 @@
         "<Legion>",
         "Exalted Champion"
       ],
-      "abilities": "Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6\" of this unit.",
+      "abilities": "Aspire to Glory: You can re-roll wound rolls for attacks made with melee weapons by friendly <Legion> units whilst they are within 6\" of this unit.\nIt is equipped with: Exalted Weapons.",
       "weapons": [
         {
           "name": "Exalted Weapons",
@@ -367,6 +365,7 @@
         "<Legion>",
         "Chaos Space Marines"
       ],
+      "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -386,8 +385,8 @@
           "text": "Instead of Boltguns and Close Combat Weapons, this unit can be equipped with Bolt Pistols and Chainswords."
         },
         {
-          "per": "Per Unit",
-          "text": "Can also be equipped with one of the following",
+          "per": "Per 10 models",
+          "text": "if this unit contains 10 or more models, it can also be equipped with one of the following",
           "Pt": "1",
           "chooseOne": [
             "1 Autocannon",
@@ -476,19 +475,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Traitor Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "8",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
-        },
-        {
           "name": "10 Traitor Marines",
           "M": "6\"",
           "WS": "3+",
@@ -498,8 +484,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
+          "Pt": "16"
         },
         {
           "name": "15 Traitor Marines",
@@ -511,8 +496,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons."
+          "Pt": "24"
         }
       ]
     },
@@ -545,6 +529,7 @@
         "<Legion>",
         "Chaos Cultists"
       ],
+      "abilities": "It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 10 models",
@@ -611,8 +596,7 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "20",
-          "Pt": "4",
-          "abilities": "It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons."
+          "Pt": "4"
         },
         {
           "name": "30 Cultists",
@@ -624,8 +608,7 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "30",
-          "Pt": "6",
-          "abilities": "It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons."
+          "Pt": "6"
         }
       ]
     },
@@ -642,7 +625,7 @@
         "Ld": "5",
         "Sv": "10+",
         "N": "7",
-        "Pt": "2"
+        "Pt": "3"
       },
       "keywords": [
         "Light",
@@ -656,6 +639,7 @@
         "Servants of the Abyss",
         "Traitor Guardsmen"
       ],
+      "abilities": "It is equipped with: Flamer; Las Weapons; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Flamer",
@@ -713,6 +697,7 @@
         "<Legion>",
         "Chosen"
       ],
+      "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -756,19 +741,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Chaos Chosen",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "8",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
-        },
-        {
           "name": "10 Chaos Chosen",
           "M": "6\"",
           "WS": "3+",
@@ -778,8 +750,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
+          "Pt": "16"
         },
         {
           "name": "15 Chaos Chosen",
@@ -791,8 +762,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24",
-          "abilities": "It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat Weapons."
+          "Pt": "24"
         }
       ]
     },
@@ -824,7 +794,7 @@
         "<Legion>",
         "Cult Marines"
       ],
-      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.",
+      "abilities": "Select one cult marine variant. Use the datasheet for the chosen variant.\nPlague Marines (Nurgle, Pt 4/7/10/13 for 5/10/15/20 models, M 5\", Sv 6+) - Ignore Damage (6+). Can equip up to two of: Blight Launcher, Plague Spewer (Power Rating +1 each).\nRubric Marines (Tzeentch, Pt 5/9/13/17 for 5/10/15/20 models, M 5\", Sv 5+, Psyker). For every 10 models, can equip 1 Soulreaper Cannon (Power Rating +1). Can swap Inferno Boltguns for Warpflamers.\nIt is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -903,19 +873,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Cult Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "8",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
-        },
-        {
           "name": "10 Cult Marines",
           "M": "6\"",
           "WS": "3+",
@@ -925,8 +882,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
+          "Pt": "16"
         },
         {
           "name": "15 Cult Marines",
@@ -938,8 +894,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons; Soulreaper Cannon; Inferno Boltguns; Warpflamers; Close Combat Weapons."
+          "Pt": "24"
         }
       ]
     },
@@ -952,11 +907,11 @@
         "WS": "3+",
         "BS": "3+",
         "A": "2",
-        "W": "2",
+        "W": "3",
         "Ld": "7",
-        "Sv": "6+",
+        "Sv": "4+",
         "N": "5",
-        "Pt": "11"
+        "Pt": "16"
       },
       "keywords": [
         "Light",
@@ -972,7 +927,7 @@
         "<Legion>",
         "Terminators"
       ],
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nIt is equipped with: Combi-bolters; Terminator Power Weapons.",
       "options": [
         {
           "per": "Per 5 models",
@@ -1008,7 +963,7 @@
           "name": "Combi-bolters",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
@@ -1017,7 +972,7 @@
           "name": "Terminator Power Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "6+",
           "armorPen": "7+"
         }
@@ -1033,8 +988,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "5",
-          "Pt": "11",
-          "abilities": "It is equipped with: Combi-bolters; Terminator Power Weapons."
+          "Pt": "11"
         },
         {
           "name": "10 Terminators",
@@ -1042,12 +996,11 @@
           "WS": "3+",
           "BS": "3+",
           "A": "4",
-          "W": "4",
+          "W": "6",
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "21",
-          "abilities": "It is equipped with: Combi-bolters; Terminator Power Weapons."
+          "Pt": "32"
         }
       ]
     },
@@ -1082,7 +1035,7 @@
         "<Legion>",
         "Greater Possessed"
       ],
-      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.",
+      "abilities": "Champions of the Host: Each Elites slot in a Detachment allows you to take up to two of this unit in your army, instead of one. Each unit taken for a single Elites slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nLocus of Power: Add 1 to wound rolls for attacks made with melee weapons by <Legion> Daemon units whilst they are within 6\" of any units with this ability.\nIt is equipped with: Daemonic Mutations.",
       "weapons": [
         {
           "name": "Daemonic Mutations",
@@ -1124,7 +1077,7 @@
         "<Legion>",
         "Possessed"
       ],
-      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.",
+      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.\nIt is equipped with: Horrifying Mutations.",
       "weapons": [
         {
           "name": "Horrifying Mutations",
@@ -1146,8 +1099,7 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "10",
-          "Pt": "20",
-          "abilities": "It is equipped with: Horrifying Mutations."
+          "Pt": "20"
         },
         {
           "name": "15 Possessed",
@@ -1159,8 +1111,7 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "15",
-          "Pt": "30",
-          "abilities": "It is equipped with: Horrifying Mutations."
+          "Pt": "30"
         }
       ]
     },
@@ -1193,7 +1144,7 @@
         "<Legion>",
         "Plague Marines"
       ],
-      "abilities": "Ignore Damage (6+)",
+      "abilities": "Ignore Damage (6+)\nIt is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.",
       "options": [
         {
           "per": "up to 2",
@@ -1239,19 +1190,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Plague Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "7",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
-        },
-        {
           "name": "10 Plague Marines",
           "M": "6\"",
           "WS": "3+",
@@ -1261,8 +1199,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
+          "Pt": "14"
         },
         {
           "name": "15 Plague Marines",
@@ -1274,8 +1211,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20",
-          "abilities": "It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons."
+          "Pt": "20"
         }
       ]
     },
@@ -1308,7 +1244,7 @@
         "<Legion>",
         "Khorne Berzerkers"
       ],
-      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.",
+      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.\nIt is equipped with: Bolt Pistols; Chain Weapons.",
       "weapons": [
         {
           "name": "Bolt Pistols",
@@ -1329,19 +1265,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Khorne Berzerkers",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "7",
-          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
-        },
-        {
           "name": "10 Khorne Berzerkers",
           "M": "6\"",
           "WS": "3+",
@@ -1351,8 +1274,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14",
-          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
+          "Pt": "14"
         },
         {
           "name": "15 Khorne Berzerkers",
@@ -1364,8 +1286,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20",
-          "abilities": "It is equipped with: Bolt Pistols; Chain Weapons."
+          "Pt": "20"
         }
       ]
     },
@@ -1399,6 +1320,7 @@
         "<Legion>",
         "Rubric Marines"
       ],
+      "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 10 models",
@@ -1450,19 +1372,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Rubric Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "7",
-          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
-        },
-        {
           "name": "10 Rubric Marines",
           "M": "6\"",
           "WS": "3+",
@@ -1472,8 +1381,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14",
-          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
+          "Pt": "14"
         },
         {
           "name": "15 Rubric Marines",
@@ -1485,8 +1393,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20",
-          "abilities": "It is equipped with: Inferno Boltguns; Close Combat Weapons."
+          "Pt": "20"
         }
       ]
     },
@@ -1517,7 +1424,7 @@
         "Servants of the Abyss",
         "Chaos Beastmen"
       ],
-      "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.",
+      "abilities": "Slaves to Mallex: This unit does not take up slots in a Detachment that contains Obsidius Mallex.\nIt is equipped with: Pistols; Brutal Assault Weapons.",
       "weapons": [
         {
           "name": "Pistols",
@@ -1563,7 +1470,7 @@
         "<Legion>",
         "Chaos Spawn"
       ],
-      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.",
+      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.\nIt is equipped with: Hideous Mutations.",
       "weapons": [
         {
           "name": "Hideous Mutations",
@@ -1585,8 +1492,7 @@
           "Ld": "7",
           "Sv": "10+",
           "N": "2",
-          "Pt": "4",
-          "abilities": "It is equipped with: Hideous Mutations."
+          "Pt": "4"
         },
         {
           "name": "3 Chaos Spawn",
@@ -1598,8 +1504,7 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "3",
-          "Pt": "7",
-          "abilities": "It is equipped with: Hideous Mutations."
+          "Pt": "7"
         },
         {
           "name": "4 Chaos Spawn",
@@ -1611,8 +1516,7 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "4",
-          "Pt": "9",
-          "abilities": "It is equipped with: Hideous Mutations."
+          "Pt": "9"
         },
         {
           "name": "5 Chaos Spawn",
@@ -1624,8 +1528,7 @@
           "Ld": "8",
           "Sv": "10+",
           "N": "5",
-          "Pt": "11",
-          "abilities": "It is equipped with: Hideous Mutations."
+          "Pt": "11"
         }
       ]
     },
@@ -1655,6 +1558,7 @@
         "<Legion>",
         "Bikers"
       ],
+      "abilities": "It is equipped with: Twin Boltguns; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Twin Boltguns",
@@ -1685,8 +1589,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "6",
-          "Pt": "18",
-          "abilities": "It is equipped with: Twin Boltguns; Close Combat Weapons."
+          "Pt": "18"
         }
       ]
     },
@@ -1721,7 +1624,7 @@
         "<Legion>",
         "Raptors"
       ],
-      "abilities": "Deep Strike, Terror Troops",
+      "abilities": "Deep Strike, Terror Troops\nIt is equipped with: Bolt Pistols; Chainswords.",
       "weapons": [
         {
           "name": "Bolt Pistols",
@@ -1751,8 +1654,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "20",
-          "abilities": "It is equipped with: Bolt Pistols; Chainswords."
+          "Pt": "20"
         },
         {
           "name": "15 Raptors",
@@ -1764,8 +1666,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "25",
-          "abilities": "It is equipped with: Bolt Pistols; Chainswords."
+          "Pt": "25"
         }
       ]
     },
@@ -1798,6 +1699,7 @@
         "<Legion>",
         "Havocs"
       ],
+      "abilities": "It is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -1891,7 +1793,7 @@
         "<Legion>",
         "Defiler"
       ],
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nIt is equipped with: Battle Cannon; Reaper Autocannon; Twin Heavy Flamer; Defiler Claws.",
       "options": [
         {
           "per": "Per Unit",
@@ -1994,7 +1896,7 @@
         "<Legion>",
         "Helbrute"
       ],
-      "abilities": "Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.",
+      "abilities": "Crazed: At the end of the Action phase, roll one D6 for each blast marker placed next to this unit that phase; if any of those dice results are a 6, you can make one Shoot action or one Fight action with this unit.\nIt is equipped with: Missile Launcher; Multi-melta; Armoured Feet.",
       "options": [
         {
           "per": "Per Unit",
@@ -2145,6 +2047,7 @@
         "<Legion>",
         "Chaos Predator"
       ],
+      "abilities": "It is equipped with: Heavy Bolter; Lascannon; Predator Autocannon; Armoured Tracks.",
       "options": [
         {
           "per": "Per Unit",
@@ -2232,7 +2135,7 @@
         "<Legion>",
         "Forgefiend"
       ],
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nIt is equipped with: Ectoplasma Cannon; Hades Autocannon; Armoured Feet; Daemon Jaws.",
       "options": [
         {
           "per": "Per Unit",
@@ -2306,6 +2209,7 @@
         "<Legion>",
         "Chaos Vindicator"
       ],
+      "abilities": "It is equipped with: Demolisher Cannon; Armoured Tracks.",
       "options": [
         {
           "per": "Per Unit",
@@ -2365,7 +2269,7 @@
         "Cult of Destruction",
         "Obliterators"
       ],
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nIt is equipped with: Fleshmetal Guns; Crushing Fists.",
       "weapons": [
         {
           "name": "Fleshmetal Guns",
@@ -2395,8 +2299,7 @@
           "Ld": "6",
           "Sv": "4+",
           "N": "2",
-          "Pt": "17",
-          "abilities": "It is equipped with: Fleshmetal Guns; Crushing Fists."
+          "Pt": "17"
         },
         {
           "name": "3 Obliterators",
@@ -2408,8 +2311,7 @@
           "Ld": "6",
           "Sv": "4+",
           "N": "3",
-          "Pt": "25",
-          "abilities": "It is equipped with: Fleshmetal Guns; Crushing Fists."
+          "Pt": "25"
         }
       ]
     },
@@ -2440,7 +2342,7 @@
         "<Legion>",
         "Chaos Land Raider"
       ],
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.",
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. Each Terminator and Jump Pack model takes up the space of two other models, and each Cult of Destruction model takes up the space of three other models.\nIt is equipped with: Twin Heavy Bolter; Twin Lascannon; Armoured Tracks.",
       "weapons": [
         {
           "name": "Twin Heavy Bolter",
@@ -2497,7 +2399,7 @@
         "<Legion>",
         "Noise Marines"
       ],
-      "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.",
+      "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.\nIt is equipped with: Noise Marine Weapons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -2540,19 +2442,6 @@
       ],
       "profiles": [
         {
-          "name": "5 Noise Marines",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "7",
-          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
-        },
-        {
           "name": "10 Noise Marines",
           "M": "6\"",
           "WS": "3+",
@@ -2562,8 +2451,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14",
-          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
+          "Pt": "14"
         },
         {
           "name": "15 Noise Marines",
@@ -2575,8 +2463,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20",
-          "abilities": "It is equipped with: Noise Marine Weapons; Close Combat Weapons."
+          "Pt": "20"
         }
       ]
     },
@@ -2607,7 +2494,7 @@
         "<Legion>",
         "Chaos Rhino"
       ],
-      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.",
+      "abilities": "TRANSPORT: This unit can transport up to 10 friendly <Legion> Infantry models. It cannot transport Terminators, Cult of Destruction or Jump Pack units.\nIt is equipped with: Combi-bolter; Armoured Tracks.",
       "weapons": [
         {
           "name": "Combi-bolter",
@@ -2657,7 +2544,7 @@
         "<Legion>",
         "Helldrake"
       ],
-      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "abilities": "Infernal Regeneration: At the start of the Action phase, you can remove one damage marker from this unit.\nIt is equipped with: Hades Autocannon; Heldrake Claws.",
       "options": [
         {
           "per": "Per Unit",
@@ -2721,7 +2608,7 @@
         "Legiones Daemonica",
         "Greater Daemon"
       ],
-      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.",
+      "abilities": "Select one Greater Daemon. Use the datasheet for the chosen god.\nBloodthirster of Insensate Rage (Khorne, Pt 14, M 12\", Fly) - Greater Daemon of Khorne: Friendly Khorne Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nLord of Change (Tzeentch, Pt 12, M 12\", Sv 8+, Fly, Psyker) - Greater Daemon of Tzeentch: Friendly Tzeentch Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Rod of Sorcery (Power Rating +1): Add 6\" to the Range of Orange Fires of Tzeentch.\nGreat Unclean One (Nurgle, Pt 14, M 7\", W 4, Sv 9+, Psyker) - Ignore Damage (6+). Greater Daemon of Nurgle: Friendly Nurgle Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Putrid Offering (Bileblade): At the start of the Generate Command Assets step, if equipped with a Bileblade, is a Warlord and is on the battlefield, generate one extra Command Asset. Reverberating Summons (Doomsday Bell): At the start of the Action phase, roll one D6 for each friendly Light Nurgle Daemon unit within 7\" of any units equipped with a Doomsday Bell; on a 6+ remove one damage marker from that unit.\nKeeper of Secrets (Slaanesh, Pt 14, M 15\", Sv 9+, Psyker) - Greater Daemon of Slaanesh: Friendly Slaanesh Daemon units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit. Mesmerising Aura: Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit. Sinistrous Hand: Each time a blast marker is placed next to an enemy unit as a result of an attack made by this unit with a melee weapon, you can remove one blast marker from this unit.\nSelect one Greater Daemon (Bloodthirster of Insensate Rage, Lord of Change, Great Unclean One, or Keeper of Secrets). Each has unique Move, Save, abilities and wargear as listed in the Abilities column.\nIt is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee).",
       "options": [
         {
           "per": "Per Unit",
@@ -2881,23 +2768,9 @@
           "A": "2",
           "W": "3",
           "Ld": "8",
-          "Sv": "5+",
-          "N": "1",
-          "Pt": "14",
-          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
-        },
-        {
-          "name": "1 Greater Daemon",
-          "M": "12\"",
-          "WS": "2+",
-          "BS": "2+",
-          "A": "2",
-          "W": "3",
-          "Ld": "8",
           "Sv": "8+",
           "N": "1",
-          "Pt": "12",
-          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
+          "Pt": "12"
         },
         {
           "name": "1 Greater Daemon",
@@ -2909,8 +2782,7 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14",
-          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
+          "Pt": "14"
         },
         {
           "name": "1 Greater Daemon",
@@ -2922,8 +2794,7 @@
           "Ld": "8",
           "Sv": "9+",
           "N": "1",
-          "Pt": "14",
-          "abilities": "It is equipped with: Great Axe of Khorne; Orange Fires of Tzeentch; Staff of Tzeentch; Baleful Sword; Plague Flail (Ranged); Bilesword; Bileblade; Doomsday Bell; Nurgling Claws & Teeth; Plague Flail (Melee); Ritual Knife; Snapping Claws; Witstealer Sword; Living Whip (Ranged); Living Whip (Melee)."
+          "Pt": "14"
         }
       ]
     }

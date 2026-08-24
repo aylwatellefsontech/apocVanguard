@@ -23,6 +23,14 @@
         "Titanic",
         "Questoris Class"
       ],
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "<Household>",
+        "Knight Paladin"
+      ],
+      "abilities": "It is equipped with: Rapid-fire Battle Cannon; Heavy Stubber; Reaper Chainsword.",
       "options": [
         {
           "per": "Per Unit",
@@ -33,13 +41,13 @@
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Carapace Weapon",
           "chooseOne": [
             "1 Ironstorm Missile Pod",
             "1 Stormspear Rocket Pod",
             "1 Twin Icarus Autocannon"
           ],
-          "chooseLimit": 1,
-          "title": "Carapace Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -116,13 +124,6 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "<Household>",
-        "Knight Paladin"
       ]
     },
     {
@@ -146,6 +147,14 @@
         "Titanic",
         "Questoris Class"
       ],
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "<Household>",
+        "Knight Errant"
+      ],
+      "abilities": "It is equipped with: Thermal Cannon; Heavy Stubber; Reaper Chainsword.",
       "options": [
         {
           "per": "Per Unit",
@@ -156,13 +165,13 @@
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Carapace Weapon",
           "chooseOne": [
             "1 Ironstorm Missile Pod",
             "1 Stormspear Rocket Pod",
             "1 Twin Icarus Autocannon"
           ],
-          "chooseLimit": 1,
-          "title": "Carapace Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -240,13 +249,6 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "<Household>",
-        "Knight Errant"
       ]
     },
     {
@@ -270,7 +272,14 @@
         "Titanic",
         "Dominus Class"
       ],
-      "abilities": "Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".",
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "<Household>",
+        "Knight Castellan"
+      ],
+      "abilities": "Dual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nIt is equipped with: Plasma Decimator; Shieldbreaker Missile; Twin Meltagun; Twin Siegebreaker Cannon; Volcano Lance; Titanic Feet.",
       "options": [
         {
           "per": "Per Unit",
@@ -329,13 +338,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "<Household>",
-        "Knight Castellan"
       ]
     },
     {
@@ -359,18 +361,26 @@
         "Vehicle",
         "Questoris Class"
       ],
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "<Household>",
+        "Knight Gallant"
+      ],
+      "abilities": "It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.",
       "options": [
         {
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Carapace Weapon",
           "chooseOne": [
             "1 Ironstorm Missile Pod",
             "1 Stormspear Rocket Pod",
             "1 Twin Icarus Autocannon"
           ],
-          "chooseLimit": 1,
-          "title": "Carapace Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -439,13 +449,6 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "<Household>",
-        "Knight Gallant"
       ]
     },
     {
@@ -468,41 +471,47 @@
         "Titanic",
         "Vehicle"
       ],
+      "traits": [
+        "Chaos",
+        "Chaos Knights",
+        "<Questor Traitoris>",
+        "Knight Despoiler"
+      ],
       "abilities": "Engine of Destruction: If this unit is equipped with 1 Reaper Chainsword and 1 Thunderstrike Gauntlet, change its Weapon Skill characteristic to 2+.\n• If this unit is not equipped with any other melee weapons, it is also equipped with Titanic Feet.",
       "options": [
         {
           "per": "Per Unit",
           "text": "Can also be equipped with one of the following",
           "Pt": "1",
+          "title": "Carapace Weapon",
           "chooseOne": [
             "1 Ironstorm Missile Pod",
             "1 Stormspear Rocket Pod",
             "1 Twin Icarus Autocannon"
           ],
-          "chooseLimit": 1,
-          "title": "Carapace Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
           "text": "Instead of 1 Thunderstrike Gauntlet, this unit can be",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Avenger Gatling Cannon and 1 Heavy Flamer",
             "1 Rapid-fire Battle Cannon and 1 Heavy Stubber",
             "1 Thermal Cannon"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
           "text": "Instead of 1 Reaper Chainsword, this unit can be",
+          "title": "Heavy Weapon",
           "chooseOne": [
             "1 Avenger Gatling Cannon and 1 Heavy Flamer",
             "1 Rapid-fire Battle Cannon and 1 Heavy Stubber",
             "1 Thermal Cannon"
           ],
-          "chooseLimit": 1,
-          "title": "Heavy Weapon"
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -613,12 +622,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Chaos Knights",
-        "<Questor Traitoris>",
-        "Knight Despoiler"
       ]
     },
     {
@@ -641,7 +644,13 @@
         "Titanic",
         "Vehicle"
       ],
-      "abilities": "Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one.\nDual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".",
+      "traits": [
+        "Chaos",
+        "Chaos Knights",
+        "<Questor Traitoris>",
+        "Knight Tyrant"
+      ],
+      "abilities": "Apocalyptic Destroyer: If a wound roll for an attack made with a weapon with this ability is successful, place four blast markers next to the target unit instead of one.\nDual Plasma Core Explosion: When this unit is destroyed, roll two D12 instead of one D12 to determine if it explodes, and it does so on any result of a 10+. When this unit explodes, place one blast marker next to every unit (excluding Super-heavy units) that is within 12\" of this unit instead of 6\".\nIt is equipped with: Plasma Decimator; Conflagration Cannon; Shieldbreaker Missile; Thundercoil Harpoon; Twin Meltagun; Twin Siegebreaker Cannon; Volcano Lance; Titanic Feet.",
       "options": [
         {
           "per": "Per Unit",
@@ -722,12 +731,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Chaos Knights",
-        "<Questor Traitoris>",
-        "Knight Tyrant"
       ]
     },
     {
@@ -750,7 +753,14 @@
         "Titanic",
         "Vehicle"
       ],
-      "abilities": "Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6\" of this unit.",
+      "traits": [
+        "Chaos",
+        "Chaos Knights",
+        "<Questor Traitoris>",
+        "Abhorrent Class",
+        "Knight Desecrator"
+      ],
+      "abilities": "Taskmaster: Re-roll hit rolls of 1 for attacks made by friendly <Questor Traitoris> War Dog units whilst they are within 6\" of this unit.\nIt is equipped with: Heavy Stubber; Laser Destructor; Reaper Chainsword.",
       "options": [
         {
           "per": "Per Unit",
@@ -794,13 +804,6 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Chaos Knights",
-        "<Questor Traitoris>",
-        "Abhorrent Class",
-        "Knight Desecrator"
       ]
     },
     {
@@ -823,6 +826,14 @@
         "Titanic",
         "Vehicle"
       ],
+      "traits": [
+        "Chaos",
+        "Chaos Knights",
+        "<Questor Traitoris>",
+        "Abhorrent Class",
+        "Knight Rampager"
+      ],
+      "abilities": "It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.",
       "weapons": [
         {
           "name": "Heavy Stubber",
@@ -850,13 +861,6 @@
           "armorPen": "5+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Chaos Knights",
-        "<Questor Traitoris>",
-        "Abhorrent Class",
-        "Knight Rampager"
       ]
     },
     {
@@ -881,7 +885,15 @@
         "Titanic",
         "Questoris Class"
       ],
-      "abilities": "Chainbreaker: Add 1 to the Leadership characteristic of friendly Imperium units whilst they are within 6\" of this unit.\nYou can only have one of this unit in your army.",
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "Questor Imperialis",
+        "Freeblade",
+        "Knight Preceptor",
+        "Canis Rex"
+      ],
+      "abilities": "Chainbreaker: Add 1 to the Leadership characteristic of friendly Imperium units whilst they are within 6\" of this unit.\nYou can only have one of this unit in your army.\nIt is equipped with: Las-impulsor; Multi-laser; Freedom's Hand.",
       "weapons": [
         {
           "name": "Las-impulsor",
@@ -908,14 +920,6 @@
           "armorPen": "4+",
           "abilities": "Destroyer"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "Questor Imperialis",
-        "Freeblade",
-        "Knight Preceptor",
-        "Canis Rex"
       ]
     },
     {
@@ -938,7 +942,14 @@
         "Vehicle",
         "Armiger Class"
       ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "<Household>",
+        "Armiger Helverin"
+      ],
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nIt is equipped with: Armiger Autocannon; Heavy Stubber; Armoured Feet.",
       "options": [
         {
           "per": "Per Unit",
@@ -979,13 +990,6 @@
           "skill": "9+",
           "armorPen": "10+"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "<Household>",
-        "Armiger Helverin"
       ]
     },
     {
@@ -1008,7 +1012,13 @@
         "Vehicle",
         "Armiger Class"
       ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "traits": [
+        "Imperium",
+        "Imperial Knights",
+        "<Questor Allegiance>",
+        "Armiger Warglaive"
+      ],
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nIt is equipped with: Heavy Stubber; Thermal Spear; Armoured Feet; Reaper Chain-cleaver.",
       "options": [
         {
           "per": "Per Unit",
@@ -1057,12 +1067,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Imperium",
-        "Imperial Knights",
-        "<Questor Allegiance>",
-        "Armiger Warglaive"
       ]
     },
     {
@@ -1084,7 +1088,13 @@
         "Heavy",
         "Vehicle"
       ],
-      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "traits": [
+        "Chaos",
+        "Chaos Knights",
+        "<Questor Traitoris>",
+        "War Dog"
+      ],
+      "abilities": "Vehicle Squadron: Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nIt is equipped with: Heavy Stubber; Thermal Spear; War Dog Autocannon; Armoured Feet; Reaper Chain-cleaver.",
       "options": [
         {
           "per": "Per Unit",
@@ -1145,12 +1155,6 @@
           "skill": "7+",
           "armorPen": "7+"
         }
-      ],
-      "traits": [
-        "Chaos",
-        "Chaos Knights",
-        "<Questor Traitoris>",
-        "War Dog"
       ]
     }
   ]

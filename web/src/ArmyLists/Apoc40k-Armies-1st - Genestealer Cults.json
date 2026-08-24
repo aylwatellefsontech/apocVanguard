@@ -205,6 +205,7 @@
         "<Cult>",
         "Acolyte Hybrids"
       ],
+      "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws.",
       "options": [
         {
           "per": "Per 5 models",
@@ -266,8 +267,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
+          "Pt": "6"
         },
         {
           "name": "15 Acolyte Hybrids",
@@ -279,8 +279,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "9",
-          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
+          "Pt": "9"
         },
         {
           "name": "20 Acolyte Hybrids",
@@ -292,8 +291,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "12",
-          "abilities": "It is equipped with: Demolition Charge; Acolyte Weapons; Heavy Rock Drill; Heavy Rock Saw; Rending Claws."
+          "Pt": "12"
         }
       ]
     },
@@ -325,6 +323,7 @@
         "<Cult>",
         "Neophyte Hybrids"
       ],
+      "abilities": "It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons.",
       "options": [
         {
           "per": "up to 2",
@@ -387,8 +386,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "20",
-          "Pt": "10",
-          "abilities": "It is equipped with: Heavy Stubber; Mining Laser; Seismic Cannon; Scavenged Weapons; Close Combat Weapons."
+          "Pt": "10"
         }
       ]
     },
@@ -420,6 +418,7 @@
         "Brood Brothers",
         "Brood Brothers Infantry Squad"
       ],
+      "abilities": "It is equipped with: Lasguns; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -512,8 +511,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "6",
-          "abilities": "It is equipped with: Lasguns; Close Combat Weapons."
+          "Pt": "6"
         }
       ]
     },
@@ -545,7 +543,7 @@
         "<Cult>",
         "Cult Combat Engineers"
       ],
-      "abilities": "Remote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.",
+      "abilities": "Remote Mines: Once per battle, select a unit within 9\" and roll a d6. On a 3+, the unit suffers a blast marker, or 2 blast markers for vehicle or fortification unit.\nIt is equipped with: Trench Clubs; Flamers.",
       "weapons": [
         {
           "name": "Trench Clubs",
@@ -576,8 +574,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "8",
-          "abilities": "It is equipped with: Trench Clubs; Flamers."
+          "Pt": "8"
         }
       ]
     },
@@ -651,6 +648,7 @@
         "Genestealer",
         "Purestrain Genestealers"
       ],
+      "abilities": "It is equipped with: Purestrain Claws.",
       "weapons": [
         {
           "name": "Purestrain Claws",
@@ -672,8 +670,7 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "10",
-          "Pt": "10",
-          "abilities": "It is equipped with: Purestrain Claws."
+          "Pt": "10"
         },
         {
           "name": "15 Purestrain Genestealers",
@@ -685,8 +682,7 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "15",
-          "Pt": "15",
-          "abilities": "It is equipped with: Purestrain Claws."
+          "Pt": "15"
         },
         {
           "name": "20 Purestrain Genestealers",
@@ -698,8 +694,7 @@
           "Ld": "7",
           "Sv": "9+",
           "N": "20",
-          "Pt": "20",
-          "abilities": "It is equipped with: Purestrain Claws."
+          "Pt": "20"
         }
       ]
     },
@@ -731,7 +726,7 @@
         "<Cult>",
         "Aberrants"
       ],
-      "abilities": "Ignore Damage (6+)",
+      "abilities": "Ignore Damage (6+)\nIt is equipped with: Aberrant Weapons.",
       "weapons": [
         {
           "name": "Aberrant Weapons",
@@ -753,8 +748,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "9",
-          "abilities": "It is equipped with: Aberrant Weapons."
+          "Pt": "9"
         }
       ]
     },
@@ -786,6 +780,7 @@
         "<Cult>",
         "Hybrid Metamorphs"
       ],
+      "abilities": "It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee).",
       "weapons": [
         {
           "name": "Metamorph Weapons (Ranged)",
@@ -815,8 +810,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Metamorph Weapons (Ranged); Metamorph Weapons (Melee)."
+          "Pt": "8"
         }
       ]
     },
@@ -1120,7 +1114,7 @@
         "<Cult>",
         "Atalan Jackals"
       ],
-      "abilities": "12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model",
+      "abilities": "12 models; per model: For every 4 models this unit contains, it can contain 1 Atalan Wolfquad model\nIt is equipped with: Autopistols; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -1188,8 +1182,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
+          "Pt": "8"
         },
         {
           "name": "15 Atalan Jackals",
@@ -1201,21 +1194,19 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "12",
-          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
+          "Pt": "12"
         },
         {
           "name": "8 Atalan Jackals",
           "M": "14\"",
           "WS": "4+",
           "BS": "4+",
-          "Ld": "6",
-          "Sv": "10+",
           "A": "2",
           "W": "3",
+          "Ld": "6",
+          "Sv": "10+",
           "N": "8",
-          "Pt": "8",
-          "abilities": "It is equipped with: Autopistols; Close Combat Weapons."
+          "Pt": "8"
         }
       ]
     },
@@ -1244,6 +1235,7 @@
         "Brood Brothers",
         "Cult Armoured Sentinels"
       ],
+      "abilities": "It is equipped with: Armoured Feet.",
       "options": [
         {
           "per": "Per Model",
@@ -1331,8 +1323,7 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "2",
-          "Pt": "6",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "6"
         },
         {
           "name": "3 Cult Armoured Sentinels",
@@ -1344,8 +1335,7 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "3",
-          "Pt": "9",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "9"
         }
       ]
     },

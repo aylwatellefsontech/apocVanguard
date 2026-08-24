@@ -25,6 +25,7 @@ Necrons, <Dynasty>, Cryptek
 ```
 Chronometron: Re-roll saving throws of 1 for friendly <Dynasty> Infantry units whilst they are within 6" of this unit.
 Technomancer: Friendly <Dynasty> units have the Ignore Damage (6+) ability whilst they are within 6" of this unit.
+It is equipped with: Staff of Light.
 ```
 
 ### Weapons
@@ -53,6 +54,7 @@ Necrons, Sautekh, Overlord, Imotekh the Stormlord
 Hyper-logical Strategist: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
 My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light Sautekh units whilst they are within 6" of this unit.
 Lord of the Storm: Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24" of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6" of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.
+It is equipped with: The Staff of the Destroyer (Ranged); The Staff of the Destroyer (Melee).
 ```
 
 ### Weapons
@@ -81,6 +83,7 @@ Necrons, <Dynasty>, Destroyer Lord
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 United in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6" of this unit.
+It is equipped with: Lord's Weapons.
 ```
 
 ### Weapons
@@ -107,6 +110,7 @@ Necrons, <Dynasty>, Overlord
 ### Abilities
 ```
 My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 6" of this unit.
+It is equipped with: Overlord's Weapons.
 ```
 
 ### Weapons
@@ -132,6 +136,7 @@ Necrons, <Dynasty>, Overlord, Catacomb Command Barge
 Wave of Command: If a Light <Dynasty> unit starts a Move action within 6" of any friendly units with this ability, add 3" to that unit's Move characteristic for that action.
 My Will be Done: Re-roll hit rolls of 1 for attacks made by friendly Light <Dynasty> units whilst they are within 12" of this unit.
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
+It is equipped with: Gauss Cannon; Overlord's Weapons.
 ```
 
 ### Options
@@ -161,6 +166,11 @@ Infantry
 ### Traits
 Necrons, <Dynasty>, Immortals
 
+### Abilities
+```
+It is equipped with: Gauss Blasters; Close Combat Weapons.
+```
+
 ### Options
 - per: Per Unit
   text: Instead of Gauss Blasters, this unit can be equipped with Tesla Carbines.
@@ -178,11 +188,6 @@ Necrons, <Dynasty>, Immortals
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Gauss Blasters; Close Combat Weapons.
-```
-
 ## Unit 7 — Troops — Necron Warriors
 
 ### Stats
@@ -199,6 +204,11 @@ Infantry
 ### Traits
 Necrons, <Dynasty>, Necron Warriors
 
+### Abilities
+```
+It is equipped with: Gauss Flayers; Heavy Blades.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -210,11 +220,6 @@ Necrons, <Dynasty>, Necron Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 8+ | 20 | 12 |
-
-##### Profile Abilities
-```
-It is equipped with: Gauss Flayers; Heavy Blades.
-```
 
 ## Unit 8 — Elites — Deathmarks
 
@@ -235,6 +240,7 @@ Necrons, <Dynasty>, Deathmarks
 ### Abilities
 ```
 Deep Strike
+It is equipped with: Synaptic Disintegrators; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -248,11 +254,6 @@ Deep Strike
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 2 | 2 | 8 | 6+ | 10 | 13 |
-
-##### Profile Abilities
-```
-It is equipped with: Synaptic Disintegrators; Close Combat Weapons.
-```
 
 ## Unit 9 — Elites — Destroyer Lord
 
@@ -274,6 +275,7 @@ Necrons, <Dynasty>, Destroyer Lord
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 United in Hatred: Re-roll wound rolls of 1 for attacks made by friendly <Dynasty> Destroyer and <Dynasty> Heavy Destroyer units whilst they are within 6" of this unit.
+It is equipped with: Lord's Weapons.
 ```
 
 ### Weapons
@@ -300,6 +302,7 @@ Necrons, <Dynasty>, Flayed Ones
 ### Abilities
 ```
 Deep Strike, Terror Troops
+It is equipped with: Flayer Claws.
 ```
 
 ### Weapons
@@ -313,30 +316,15 @@ Deep Strike, Terror Troops
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 2 | 2 | 8 | 8+ | 10 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Flayer Claws.
-```
-
 #### 15 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 3 | 3 | 8 | 8+ | 15 | 11 |
 
-##### Profile Abilities
-```
-It is equipped with: Flayer Claws.
-```
-
 #### 20 Flayed Ones
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 6+ | 4 | 4 | 8 | 8+ | 20 | 14 |
-
-##### Profile Abilities
-```
-It is equipped with: Flayer Claws.
-```
 
 ## Unit 11 — Elites — Illuminor Szeras
 
@@ -389,6 +377,7 @@ Necrons, <Dynasty>, Lychguard
 ### Abilities
 ```
 Guardian Protocols: At the start of the Damage phase, you can select one friendly <Dynasty> Light Character unit that has at least one blast marker next to it and is within 6" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.
+It is equipped with: Hyperphase Swords; Warscythes.
 ```
 
 ### Options
@@ -406,11 +395,6 @@ Guardian Protocols: At the start of the Damage phase, you can select one friendl
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5" | 3+ | 3+ | 4 | 4 | 8 | 6+ | 10 | 14 |
-
-##### Profile Abilities
-```
-It is equipped with: Hyperphase Swords; Warscythes.
-```
 
 ## Unit 13 — Elites — Triarch Praetorians
 
@@ -431,6 +415,7 @@ Necrons, Triarch Praetorians
 ### Abilities
 ```
 A Purpose Unshakable: Morale tests taken for this unit are automatically passed.
+It is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades.
 ```
 
 ### Options
@@ -451,11 +436,6 @@ A Purpose Unshakable: Morale tests taken for this unit are automatically passed.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 6+ | 10 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Particle Casters; Rods of Covenant (Ranged); Rods of Covenant (Melee); Voidblades.
-```
-
 ## Unit 14 — Elites — Triarch Stalker
 
 ### Stats
@@ -473,6 +453,7 @@ Necrons, Triarch Stalker
 ```
 Heat Ray: When this unit makes a Shoot action, it can shoot with either the Heat Ray (Dispersed) weapon or Heat Ray (Focused) weapon; it cannot shoot with both.
 Targeting Relay: Re-roll hit rolls of 1 for attacks made with ranged weapons by other friendly Necrons units if the target of that attack was also the target of an attack made with a ranged weapon by this unit this turn.
+It is equipped with: Heat Ray (Dispersed); Heat Ray (Focused); Twin Heavy Gauss Cannon; Massive Forelimbs.
 ```
 
 ### Options
@@ -532,6 +513,7 @@ Necrons, Canoptek, <Dynasty>, Beasts, Canoptek Wraiths
 ### Abilities
 ```
 Wraith Form: This unit can move across models and terrain as if they were not there.
+It is equipped with: Wraith Weapons.
 ```
 
 ### Options
@@ -553,11 +535,6 @@ Wraith Form: This unit can move across models and terrain as if they were not th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 3+ | 3+ | 4 | 4 | 8 | 5+ | 6 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Wraith Weapons.
-```
-
 ## Unit 17 — Fast — Canoptek Scarabs
 
 ### Stats
@@ -571,6 +548,11 @@ Light, Fly
 ### Traits
 Necrons, Canoptek, <Dynasty>, Swarm, Canoptek Scarabs
 
+### Abilities
+```
+It is equipped with: Feeder Mandibles.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -582,20 +564,10 @@ Necrons, Canoptek, <Dynasty>, Swarm, Canoptek Scarabs
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 4 | 4 | 8 | 10+ | 6 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Feeder Mandibles.
-```
-
 #### 9 Canoptek Scarabs
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 6 | 6 | 8 | 10+ | 9 | 12 |
-
-##### Profile Abilities
-```
-It is equipped with: Feeder Mandibles.
-```
 
 ## Unit 18 — Fast — Destroyers
 
@@ -616,6 +588,7 @@ Necrons, <Dynasty>, Destroyers
 ### Abilities
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
+It is equipped with: Gauss Cannons; Close Combat Weapons.
 ```
 
 ### Options
@@ -636,20 +609,10 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Gauss Cannons; Close Combat Weapons.
-```
-
 #### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
-
-##### Profile Abilities
-```
-It is equipped with: Gauss Cannons; Close Combat Weapons.
-```
 
 ## Unit 19 — Fast — Tomb Blades
 
@@ -667,6 +630,7 @@ Necrons, <Dynasty>, Tomb Blades
 ### Abilities
 ```
 Stealth
+It is equipped with: Gauss Blasters; Close Combat Weapons.
 ```
 
 ### Options
@@ -688,20 +652,10 @@ Stealth
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 8 | 7+ | 6 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Gauss Blasters; Close Combat Weapons.
-```
-
 #### 9 Tomb Blades
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 3 | 3 | 8 | 7+ | 9 | 22 |
-
-##### Profile Abilities
-```
-It is equipped with: Gauss Blasters; Close Combat Weapons.
-```
 
 ## Unit 20 — Heavy — Annihilation Barge
 
@@ -719,6 +673,7 @@ Necrons, <Dynasty>, Annihilation Barge
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
+It is equipped with: Gauss Cannon; Twin Tesla Destructor; Close Combat Weapons.
 ```
 
 ### Options
@@ -750,6 +705,7 @@ Necrons, Canoptek, <Dynasty>, Canoptek Spyders
 ```
 Fabricator Array: At the end of the Action phase, this unit can attempt to repair one friendly <Dynasty> Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.
 Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dynasty> Scarabs unit within 6" of this unit. If you do, remove one damage marker from that unit. Each Scarabs unit can only be replenished once per turn.
+It is equipped with: Automaton Claws.
 ```
 
 ### Options
@@ -769,20 +725,10 @@ Scarab Hive: At the end of the Action phase, you can replenish one friendly <Dyn
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
-##### Profile Abilities
-```
-It is equipped with: Automaton Claws.
-```
-
 #### 3 Canoptek Spyders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 3 | 3 | 8 | 5+ | 3 | 16 |
-
-##### Profile Abilities
-```
-It is equipped with: Automaton Claws.
-```
 
 ## Unit 22 — Heavy — Destroyers
 
@@ -803,6 +749,7 @@ Necrons, <Dynasty>, Destroyers
 ### Abilities
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
+It is equipped with: Gauss Cannons; Close Combat Weapons.
 ```
 
 ### Options
@@ -823,20 +770,10 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 4 | 8 | 5+ | 6 | 15 |
 
-##### Profile Abilities
-```
-It is equipped with: Gauss Cannons; Close Combat Weapons.
-```
-
 #### 9 Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 6 | 8 | 5+ | 9 | 22 |
-
-##### Profile Abilities
-```
-It is equipped with: Gauss Cannons; Close Combat Weapons.
-```
 
 ## Unit 23 — Heavy — Doomsday Ark
 
@@ -854,6 +791,7 @@ Necrons, <Dynasty>, Doomsday Ark
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
+It is equipped with: Doomsday Cannon; Gauss Flayer Array; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -882,6 +820,7 @@ Necrons, <Dynasty>, Heavy Destroyers
 ### Abilities
 ```
 Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
+It is equipped with: Heavy Gauss Cannons; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -896,20 +835,10 @@ Hardwired hatred: Re-roll hit rolls of 1 for attacks made by this unit.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 2 | 2 | 8 | 5+ | 2 | 11 |
 
-##### Profile Abilities
-```
-It is equipped with: Heavy Gauss Cannons; Close Combat Weapons.
-```
-
 #### 3 Heavy Destroyers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | 3+ | 3 | 3 | 8 | 5+ | 3 | 16 |
-
-##### Profile Abilities
-```
-It is equipped with: Heavy Gauss Cannons; Close Combat Weapons.
-```
 
 ## Unit 25 — Heavy — Monolith
 
@@ -930,6 +859,7 @@ Deep Strike
 Portal of Exile: After this unit ends a Move action choose one enemy unit within 1" of this unit and roll one D6; on a 5+, place a blast marker next to that unit.
 Eternity Gate: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
+It is equipped with: Gauss Flux Arc; Particle Whip; Crushing Bulk.
 ```
 
 ### Weapons
@@ -957,6 +887,7 @@ Necrons, C'tan Shards, Transcendent C'tan
 Enslaved Star God: This unit cannot be a Warlord.
 Immune to Natural Law: Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.
 Cosmic Tyrant: Once per turn, you can re-roll one hit roll or one wound roll for an attack made by this unit, or you can re-roll one saving throw made for this unit.
+It is equipped with: Powers of the C'tan; Crackling Tendrils.
 ```
 
 ### Weapons
@@ -1008,6 +939,7 @@ Necrons, <Dynasty>, Ghost Ark
 Repair Barge: After this unit makes a Move action, you can remove one damage marker from a friendly <Dynasty> Necron Warriors unit embarked aboard it.
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 10 <Dynasty> Infantry Character or <Dynasty> Necron Warriors models. It cannot transport Destroyer Lord models.
+It is equipped with: Gauss Flayer Array; Close Combat Weapons.
 ```
 
 ### Weapons
@@ -1032,6 +964,7 @@ Necrons, <Dynasty>, Doom Scythe
 ### Abilities
 ```
 Supersonic
+It is equipped with: Death Ray; Tesla Destructor; Armoured Hull.
 ```
 
 ### Weapons
@@ -1058,6 +991,7 @@ Necrons, <Dynasty>, Night Scythe
 ```
 Supersonic
 Invasion Beams: During deployment, you can set up any number of <Dynasty> Infantry units on their tomb world. Such a unit is considered to be set up in Tactical Reserves. When a unit that was set up on its tomb world arrives as reinforcements, you must select one friendly <Dynasty> Monolith or <Dynasty> Night Scythe unit for it to deploy from; set up the arriving unit within 6" of the selected unit. If it is impossible to do so, you cannot set up that unit this turn. Each Monolith and Night Scythe unit can only be deployed from once per turn. No more than half the total number of units in your army can be set up in Tactical Reserves.
+It is equipped with: Tesla Destructor; Armoured Hull.
 ```
 
 ### Weapons

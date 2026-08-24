@@ -25,6 +25,7 @@ Aeldari, Drukhari, <Kabal>, Archon
 ```
 Shadowfield: Saving throws taken for this unit cannot be re-rolled for any reason. The first time the result of a saving throw taken for this unit is a 1 or 2, for the rest of the battle this unit's Save characteristic is 8+.
 Overlord: Re-roll hit rolls of 1 for attacks made by friendly <Kabal> units whilst they are within 6" of this unit.
+It is equipped with: Husk Blade.
 ```
 
 ### Weapons
@@ -80,6 +81,7 @@ Aeldari, Drukhari, <Haemonculus Coven>, Haemonculus
 ```
 Ignore Damage (6+)
 Master of Pain: Add 1 to saving throws taken for friendly <Haemonculus Coven> units whilst they are within 6" of any <Haemonculus Coven> units from your army with this ability.
+It is equipped with: Haemonculus Tools.
 ```
 
 ### Weapons
@@ -107,6 +109,7 @@ Aeldari, Drukhari, <Wych Cult>, Succubus
 ```
 Brides of Death: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Wych Cult> units whilst they are within 6" of this unit.
 No Escape: If an Infantry unit within 1" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.
+It is equipped with: Wych Cult Weapons.
 ```
 
 ### Weapons
@@ -130,6 +133,11 @@ Infantry
 ### Traits
 Aeldari, Drukhari, <Kabal>, Kabalite Warriors
 
+### Abilities
+```
+It is equipped with: Splinter Rifles; Close Combat Weapons.
+```
+
 ### Options
 - per: Per 10 models
   Pt: 1
@@ -151,11 +159,6 @@ Aeldari, Drukhari, <Kabal>, Kabalite Warriors
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 4 | 4 | 6 | 10+ | 20 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Rifles; Close Combat Weapons.
-```
-
 ## Unit 6 — Troops — Wyches
 
 ### Stats
@@ -175,6 +178,7 @@ Aeldari, Drukhari, <Wych Cult>, Wyches
 ### Abilities
 ```
 No Escape: If an Infantry unit within 1" of any enemy units with this ability wishes to Fall Back, the players must roll off. The unit can only Fall Back if the player controlling it wins the roll-off.
+It is equipped with: Splinter Pistols; Wych Weapons.
 ```
 
 ### Weapons
@@ -202,6 +206,7 @@ Aeldari, Drukhari, <Haemonculus Coven>, Wracks
 ### Abilities
 ```
 Ignore Damage (6+)
+It is equipped with: Haemonculus Tools.
 ```
 
 ### Weapons
@@ -214,11 +219,6 @@ Ignore Damage (6+)
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 4 | 2 | 6 | 9+ | 10 | 5 |
-
-##### Profile Abilities
-```
-It is equipped with: Haemonculus Tools.
-```
 
 ## Unit 8 — Elites — Grotesques
 
@@ -235,6 +235,11 @@ Infantry
 
 ### Traits
 Aeldari, Drukhari, <Haemonculus Coven>, Grotesques
+
+### Abilities
+```
+It is equipped with: Flesh Gauntlets.
+```
 
 ### Options
 - per: Per Model
@@ -254,30 +259,15 @@ Aeldari, Drukhari, <Haemonculus Coven>, Grotesques
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 4 | 4 | 6 | 8+ | 6 | 12 |
 
-##### Profile Abilities
-```
-It is equipped with: Flesh Gauntlets.
-```
-
 #### 9 Grotesques
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 6 | 6 | 6 | 8+ | 9 | 18 |
 
-##### Profile Abilities
-```
-It is equipped with: Flesh Gauntlets.
-```
-
 #### 10 Grotesques
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 6+ | 7 | 7 | 6 | 8+ | 10 | 20 |
-
-##### Profile Abilities
-```
-It is equipped with: Flesh Gauntlets.
-```
 
 ## Unit 9 — Elites — Incubi
 
@@ -298,6 +288,7 @@ Aeldari, Drukhari, Incubi, Incubi
 ### Abilities
 ```
 Tormentors: If the result of a Morale test taken for an enemy unit within 6" of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.
+It is equipped with: Klaives.
 ```
 
 ### Weapons
@@ -310,11 +301,6 @@ Tormentors: If the result of a Morale test taken for an enemy unit within 6" of 
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 8 |
-
-##### Profile Abilities
-```
-It is equipped with: Klaives.
-```
 
 ## Unit 10 — Elites — Mandrakes
 
@@ -335,6 +321,7 @@ Aeldari, Drukhari, Mandrakes
 ### Abilities
 ```
 Deep Strike, Stealth
+It is equipped with: Baleblasts; Glimmersteel Blades.
 ```
 
 ### Weapons
@@ -348,11 +335,6 @@ Deep Strike, Stealth
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8" | 3+ | 3+ | 2 | 2 | 6 | 9+ | 10 | 7 |
-
-##### Profile Abilities
-```
-It is equipped with: Baleblasts; Glimmersteel Blades.
-```
 
 ## Unit 11 — Elites — Hand of Archon
 
@@ -369,6 +351,11 @@ Infantry
 
 ### Traits
 Aeldari, Drukhari, <Kabal>, Hand of the Archon
+
+### Abilities
+```
+It is equipped with: Splinter Rifles; Close Combat Weapons.
+```
 
 ### Options
 - per: Per 5 models
@@ -395,11 +382,6 @@ Aeldari, Drukhari, <Kabal>, Hand of the Archon
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 6 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Rifles; Close Combat Weapons.
-```
-
 ## Unit 12 — Elites — Court of the Archon
 
 ### Stats
@@ -422,6 +404,7 @@ Ignore Damage (6+)
 Court of the Archon: You can re-roll hit rolls for attacks made by this unit whilst it is within 3" of any friendly <Kabal> Archon units. This unit does not take up a slot in a Detachment that includes any <Kabal> Archon units.
 Cold-blooded Bodyguard: At the start of the Damage phase, you can select one friendly <Kabal> Archon unit that has at least one blast marker next to it and is within 3" of this unit. Remove up to D3 blast markers from that Archon unit and place them next to this unit.
 Court of the Archon is a unit that contains 4 models representing a combined Court of the Archon retinue.
+It is equipped with: Combat Weapons.
 ```
 
 ### Weapons
@@ -448,6 +431,7 @@ Aeldari, Drukhari, <Wych Cult>, Skyboard, Beastmaster
 ### Abilities
 ```
 Beastmaster: Re-roll hit rolls of 1 for attacks made by friendly Drukhari Beast units whilst they are within 6" of this unit. Friendly Drukhari Beast units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit. Drukhari Beast units do not take up slots in a Detachment that contains any units with this ability.
+It is equipped with: Agoniser.
 ```
 
 ### Weapons
@@ -474,6 +458,7 @@ Aeldari, Drukhari, Scourges
 ### Abilities
 ```
 Deep Strike
+It is equipped with: Shardcarbines; Close Combat Weapons; Splinter Rifles.
 ```
 
 ### Weapons
@@ -488,11 +473,6 @@ Deep Strike
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 10 | 10 |
-
-##### Profile Abilities
-```
-It is equipped with: Shardcarbines; Close Combat Weapons; Splinter Rifles.
-```
 
 ## Unit 15 — Fast — Clawed Fiends
 
@@ -510,6 +490,7 @@ Aeldari, Drukhari, Clawed Fiends
 ### Abilities
 ```
 Berserk Rage: This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.
+It is equipped with: Clawed Fists.
 ```
 
 ### Weapons
@@ -523,20 +504,10 @@ Berserk Rage: This unit does not suffer the penalty for being critically damaged
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 3 | 3 | 4 | 9+ | 3 | 5 |
 
-##### Profile Abilities
-```
-It is equipped with: Clawed Fists.
-```
-
 #### 6 Clawed Fiends
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 4+ | - | 6 | 6 | 4 | 9+ | 6 | 10 |
-
-##### Profile Abilities
-```
-It is equipped with: Clawed Fists.
-```
 
 ## Unit 16 — Fast — Hellions
 
@@ -557,6 +528,7 @@ Aeldari, Drukhari, <Wych Cult>, Skyboard, Hellions
 ### Abilities
 ```
 Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.
+It is equipped with: Splinter Pods; Hellglaives.
 ```
 
 ### Weapons
@@ -571,30 +543,15 @@ Hit and Run: Whilst this unit Falls Back, double its Move characteristic. When t
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 9+ | 10 | 9 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Pods; Hellglaives.
-```
-
 #### 15 Hellions
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 3 | 3 | 6 | 9+ | 15 | 13 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Pods; Hellglaives.
-```
-
 #### 20 Hellions
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 4 | 4 | 6 | 9+ | 20 | 17 |
-
-##### Profile Abilities
-```
-It is equipped with: Splinter Pods; Hellglaives.
-```
 
 ## Unit 17 — Fast — Khymerae
 
@@ -609,6 +566,11 @@ Daemon, Light, Beast
 ### Traits
 Aeldari, Drukhari, Khymerae
 
+### Abilities
+```
+It is equipped with: Claws & Talons.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -620,20 +582,10 @@ Aeldari, Drukhari, Khymerae
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | - | 2 | 2 | 4 | 9+ | 8 | 2 |
 
-##### Profile Abilities
-```
-It is equipped with: Claws & Talons.
-```
-
 #### 12 Khymerae
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10" | 3+ | - | 3 | 3 | 4 | 9+ | 12 | 3 |
-
-##### Profile Abilities
-```
-It is equipped with: Claws & Talons.
-```
 
 ## Unit 18 — Fast — Razorwing Flocks
 
@@ -648,6 +600,11 @@ Light, Beast, Fly
 ### Traits
 Aeldari, Drukhari, Swarm, Razorwing Flocks
 
+### Abilities
+```
+It is equipped with: Razor Feathers.
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -659,30 +616,15 @@ Aeldari, Drukhari, Swarm, Razorwing Flocks
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 4 | 2 | 4 | 10+ | 6 | 4 |
 
-##### Profile Abilities
-```
-It is equipped with: Razor Feathers.
-```
-
 #### 9 Razorwing Flocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 6 | 3 | 4 | 10+ | 9 | 6 |
 
-##### Profile Abilities
-```
-It is equipped with: Razor Feathers.
-```
-
 #### 12 Razorwing Flocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12" | 4+ | - | 8 | 4 | 4 | 10+ | 12 | 8 |
-
-##### Profile Abilities
-```
-It is equipped with: Razor Feathers.
-```
 
 ## Unit 19 — Fast — Reavers
 
@@ -696,6 +638,11 @@ Light, Biker, Fly
 
 ### Traits
 Aeldari, Drukhari, <Wych Cult>, Reavers
+
+### Abilities
+```
+It is equipped with: Splinter Rifles; Close Combat Weapons.
+```
 
 ### Options
 - per: Per 3 models
@@ -717,30 +664,15 @@ Aeldari, Drukhari, <Wych Cult>, Reavers
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 6 | 8 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Rifles; Close Combat Weapons.
-```
-
 #### 9 Reavers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 3 | 3 | 6 | 8+ | 9 | 12 |
 
-##### Profile Abilities
-```
-It is equipped with: Splinter Rifles; Close Combat Weapons.
-```
-
 #### 12 Reavers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20" | 3+ | 3+ | 4 | 4 | 6 | 8+ | 12 | 16 |
-
-##### Profile Abilities
-```
-It is equipped with: Splinter Rifles; Close Combat Weapons.
-```
 
 ## Unit 20 — Heavy — Cronos
 
@@ -759,6 +691,7 @@ Aeldari, Drukhari, <Haemonculus Coven>, Cronos
 ```
 Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Spirit Probe: Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6" of this unit.
+It is equipped with: Spirit Syphon; Spirit Leech Tentacles.
 ```
 
 ### Options
@@ -789,6 +722,7 @@ Aeldari, Drukhari, <Kabal>, Ravager
 ### Abilities
 ```
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
+It is equipped with: Dark Lance; Disintegrator Cannon; Bladevanes.
 ```
 
 ### Options
@@ -851,6 +785,7 @@ Aeldari, Drukhari, Scourges
 ```
 Deep Strike
 This unit can also be equipped with up to four of the following in any combination (no additional points): 1 Blaster; 1 Dark Lance; 1 Haywire Blaster; 1 Heat Lance; 1 Shredder; 1 Splinter Cannon.
+It is equipped with: Blaster; Dark Lance; Haywire Blaster; Heat Lance; Shredder; Splinter Cannon; Close Combat Weapons.
 ```
 
 ### Options
@@ -874,11 +809,6 @@ This unit can also be equipped with up to four of the following in any combinati
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 10 | 12 |
 
-##### Profile Abilities
-```
-It is equipped with: Blaster; Dark Lance; Haywire Blaster; Heat Lance; Shredder; Splinter Cannon; Close Combat Weapons.
-```
-
 ## Unit 24 — Heavy — Talos
 
 ### Stats
@@ -895,6 +825,7 @@ Aeldari, Drukhari, <Haemonculus Coven>, Talos
 ### Abilities
 ```
 Pain Engines: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+It is equipped with: Haywire Blaster; Heat Lance; Splinter Cannon; Gruesome Combat Weapon.
 ```
 
 ### Options
@@ -932,6 +863,7 @@ Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Raider
 Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.
+It is equipped with: Dark Lance; Bladevanes.
 ```
 
 ### Options
@@ -963,6 +895,7 @@ Aeldari, Drukhari, <Kabal> or <Wych Cult> or <Haemonculus Coven>, Venom
 Open-topped
 Hover: Distances are measured to and from this unit's hull, even though it has a base.
 TRANSPORT: This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.
+It is equipped with: Twin Splinter Rifle; Bladevanes.
 ```
 
 ### Options
@@ -1018,6 +951,7 @@ Aeldari, Drukhari, <Kabal> or <Wych Cult>, Razorwing Jetfighter
 ### Abilities
 ```
 Supersonic
+It is equipped with: Dark Lance; Disintegrator Cannon; Razorwing Missiles; Twin Splinter Rifle; Bladed Wings.
 ```
 
 ### Options

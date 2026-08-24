@@ -322,7 +322,7 @@
         "<Sept>",
         "Ethereal"
       ],
-      "abilities": "Failure Is Not an Option: Friendly T'au Empire units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nAn Ethereal is a unit that contains 1 model. It is equipped with: Honour Blade.\n- If this unit has a Gun Drone, it is also equipped with 1 Pulse Carbine.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
+      "abilities": "Failure Is Not an Option: Friendly T'au Empire units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nAn Ethereal is a unit that contains 1 model. It is equipped with: Honour Blade.\n- If this unit has a Gun Drone, it is also equipped with 1 Pulse Carbine.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\nIt is equipped with: Honour Blade; Pulse Carbine.",
       "options": [
         {
           "per": "Per Unit",
@@ -363,8 +363,7 @@
           "keywords": [
             "Jet Pack",
             "Fly"
-          ],
-          "abilities": "It is equipped with: Honour Blade; Pulse Carbine."
+          ]
         }
       ]
     },
@@ -395,7 +394,7 @@
         "<Sept>",
         "Breacher Team"
       ],
-      "abilities": "- If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
+      "abilities": "- If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\nIt is equipped with: Pulse Blasters; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -432,8 +431,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Pulse Blasters; Close Combat Weapons."
+          "Pt": "6"
         }
       ]
     },
@@ -464,7 +462,7 @@
         "Kroot",
         "Kroot Carnivores"
       ],
-      "abilities": "Infiltrators",
+      "abilities": "Infiltrators\nIt is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee).",
       "weapons": [
         {
           "name": "Kroot Rifles (Ranged)",
@@ -495,8 +493,7 @@
           "Ld": "5",
           "Sv": "10+",
           "N": "20",
-          "Pt": "7",
-          "abilities": "It is equipped with: Kroot Rifles (Ranged); Kroot Rifles (Melee)."
+          "Pt": "7"
         }
       ]
     },
@@ -527,7 +524,7 @@
         "<Sept>",
         "Strike Team"
       ],
-      "abilities": "- If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
+      "abilities": "- If this unit has a Guardian Drone, this unit has the following abilities: Ignore Damage (6+).\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\nIt is equipped with: Pulse Rifles; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -565,8 +562,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Pulse Rifles; Close Combat Weapons."
+          "Pt": "6"
         },
         {
           "name": "12 Strike Team",
@@ -578,8 +574,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "12",
-          "Pt": "7",
-          "abilities": "It is equipped with: Pulse Rifles; Close Combat Weapons."
+          "Pt": "7"
         }
       ]
     },
@@ -687,6 +682,7 @@
         "Kroot",
         "Krootox Riders"
       ],
+      "abilities": "It is equipped with: Kroot Guns; Krootox Fists.",
       "weapons": [
         {
           "name": "Kroot Guns",
@@ -717,8 +713,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "2",
-          "Pt": "2",
-          "abilities": "It is equipped with: Kroot Guns; Krootox Fists."
+          "Pt": "2"
         },
         {
           "name": "3 Krootox Riders",
@@ -730,8 +725,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "3",
-          "Pt": "3",
-          "abilities": "It is equipped with: Kroot Guns; Krootox Fists."
+          "Pt": "3"
         }
       ]
     },
@@ -759,7 +753,7 @@
         "Kroot",
         "Krootox Rampagers"
       ],
-      "abilities": "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.",
+      "abilities": "Voracious Predators: Re-roll wound rolls of 1 for melee attacks made by this unit that target Infantry units.\nIt is equipped with: Kroot Pistols; Fists & Blades.",
       "weapons": [
         {
           "name": "Kroot Pistols",
@@ -789,8 +783,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "3",
-          "Pt": "7",
-          "abilities": "It is equipped with: Kroot Pistols; Fists & Blades."
+          "Pt": "7"
         }
       ]
     },
@@ -824,7 +817,7 @@
         "<Sept>",
         "XV25 Stealth Battlesuits"
       ],
-      "abilities": "Infiltrators, Stealth\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.",
+      "abilities": "Infiltrators, Stealth\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\nIt is equipped with: Burst Cannons; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -861,8 +854,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "6",
-          "Pt": "10",
-          "abilities": "It is equipped with: Burst Cannons; Close Combat Weapons."
+          "Pt": "10"
         }
       ]
     },
@@ -892,7 +884,7 @@
         "<Sept>",
         "XV8 Crisis Battlesuits"
       ],
-      "abilities": "Deep Strike\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.\nIt is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 3 models",
@@ -995,8 +987,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "6",
-          "Pt": "13",
-          "abilities": "It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons."
+          "Pt": "13"
         },
         {
           "name": "9 XV8 Crisis Battlesuits",
@@ -1008,8 +999,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "9",
-          "Pt": "19",
-          "abilities": "It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons."
+          "Pt": "19"
         }
       ]
     },
@@ -1039,7 +1029,7 @@
         "<Sept>",
         "XV8 Crisis Bodyguards"
       ],
-      "abilities": "Deep Strike\nSworn Protectors: At the start of the Damage phase, you can select one friendly <Sept> Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike\nSworn Protectors: At the start of the Damage phase, you can select one friendly <Sept> Character unit that has at least one blast marker next to it and is within 6\" of this unit. Remove up to D3 blast markers from that Character unit and place them next to this unit.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.\nIt is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 3 models",
@@ -1142,8 +1132,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "6",
-          "Pt": "15",
-          "abilities": "It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons."
+          "Pt": "15"
         },
         {
           "name": "9 XV8 Crisis Bodyguards",
@@ -1155,8 +1144,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "9",
-          "Pt": "22",
-          "abilities": "It is equipped with: Airbursting Fragmentation Projector; Burst Cannon; Cyclic Ion Blaster; Flamer; Fusion Blaster; Missile Pod; Plasma Rifle; Close Combat Weapons."
+          "Pt": "22"
         }
       ]
     },
@@ -1457,7 +1445,7 @@
         "<Sept>",
         "Pathfinder Team"
       ],
-      "abilities": "Infiltrators\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\n- If an enemy unit starts a Move action within 3\" of any units accompanied by a Grav-inhibitor Drone, reduce its Movement characteristic by 2\" until that Move action is completed.\n- If this unit has a Pulse Accelerator Drone, add 6\" to the range of its Pulse carbines.",
+      "abilities": "Infiltrators\n- If this unit has a Gun Drone, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Marker Drone, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has a Shield Drone, improve its Save characteristic by 1.\n- If an enemy unit starts a Move action within 3\" of any units accompanied by a Grav-inhibitor Drone, reduce its Movement characteristic by 2\" until that Move action is completed.\n- If this unit has a Pulse Accelerator Drone, add 6\" to the range of its Pulse carbines.\nIt is equipped with: Ion Rifle; Pulse Carbines; Rail Rifle; Close Combat Weapons.",
       "options": [
         {
           "per": "up to 3",
@@ -1526,8 +1514,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "9",
-          "abilities": "It is equipped with: Ion Rifle; Pulse Carbines; Rail Rifle; Close Combat Weapons."
+          "Pt": "9"
         }
       ]
     },
@@ -1555,7 +1542,7 @@
         "Beasts",
         "Kroot Hounds"
       ],
-      "abilities": "Voracious Predators: Add 1 to wound rolls for attacks made by this unit that target units that are not Vehicles and have any damage markers next to them.",
+      "abilities": "Voracious Predators: Add 1 to wound rolls for attacks made by this unit that target units that are not Vehicles and have any damage markers next to them.\nIt is equipped with: Ripping Fangs.",
       "weapons": [
         {
           "name": "Ripping Fangs",
@@ -1577,8 +1564,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "8",
-          "Pt": "4",
-          "abilities": "It is equipped with: Ripping Fangs."
+          "Pt": "4"
         },
         {
           "name": "12 Kroot Hounds",
@@ -1590,8 +1576,7 @@
           "Ld": "4",
           "Sv": "10+",
           "N": "12",
-          "Pt": "6",
-          "abilities": "It is equipped with: Ripping Fangs."
+          "Pt": "6"
         }
       ]
     },
@@ -1620,7 +1605,7 @@
         "Drone",
         "Tactical Drones"
       ],
-      "abilities": "Deep Strike\nThreat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "Deep Strike\nThreat Identification Protocols: This unit must target the closest enemy unit when it makes a Shoot action. If more than one unit is equally close, select one of those units to target.\n- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.\nIt is equipped with: Pulse Carbines; Close Combat Weapons.",
       "options": [
         {
           "per": "Per 4 models",
@@ -1657,8 +1642,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "8",
-          "Pt": "5",
-          "abilities": "It is equipped with: Pulse Carbines; Close Combat Weapons."
+          "Pt": "5"
         },
         {
           "name": "12 Tactical Drones",
@@ -1670,8 +1654,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "12",
-          "Pt": "7",
-          "abilities": "It is equipped with: Pulse Carbines; Close Combat Weapons."
+          "Pt": "7"
         }
       ]
     },
@@ -1700,6 +1683,7 @@
         "<Sept>",
         "TX4 Piranhas"
       ],
+      "abilities": "It is equipped with: Pulse Carbines; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -1756,8 +1740,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "3",
-          "Pt": "9",
-          "abilities": "It is equipped with: Pulse Carbines; Close Combat Weapons."
+          "Pt": "9"
         },
         {
           "name": "5 TX4 Piranhas",
@@ -1769,8 +1752,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "5",
-          "Pt": "15",
-          "abilities": "It is equipped with: Pulse Carbines; Close Combat Weapons."
+          "Pt": "15"
         }
       ]
     },
@@ -1802,7 +1784,7 @@
         "Vespid",
         "Vespid Stingwings"
       ],
-      "abilities": "Deep Strike",
+      "abilities": "Deep Strike\nIt is equipped with: Neutron Blasters; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Neutron Blasters",
@@ -1832,8 +1814,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "8",
-          "Pt": "11",
-          "abilities": "It is equipped with: Neutron Blasters; Close Combat Weapons."
+          "Pt": "11"
         },
         {
           "name": "12 Vespid Stingwings",
@@ -1845,8 +1826,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "12",
-          "Pt": "16",
-          "abilities": "It is equipped with: Neutron Blasters; Close Combat Weapons."
+          "Pt": "16"
         }
       ]
     },
@@ -1972,7 +1952,7 @@
         "Drone",
         "MV71 Sniper Drones"
       ],
-      "abilities": "Stealth",
+      "abilities": "Stealth\nIt is equipped with: Longshot Pulse Rifles; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Longshot Pulse Rifles",
@@ -2003,8 +1983,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "6",
-          "Pt": "5",
-          "abilities": "It is equipped with: Longshot Pulse Rifles; Close Combat Weapons."
+          "Pt": "5"
         },
         {
           "name": "9 MV71 Sniper Drones",
@@ -2016,8 +1995,7 @@
           "Ld": "4",
           "Sv": "8+",
           "N": "9",
-          "Pt": "7",
-          "abilities": "It is equipped with: Longshot Pulse Rifles; Close Combat Weapons."
+          "Pt": "7"
         }
       ]
     },
@@ -2224,7 +2202,7 @@
         "<Sept>",
         "XV88 Broadside Battlesuits"
       ],
-      "abilities": "- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.",
+      "abilities": "- If this unit has Gun Drones, re-roll wound rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Marker Drones, re-roll hit rolls of 1 for attacks made with ranged weapons by this unit.\n- If this unit has Shield Drones, improve its Save characteristic by 1.\nIt is equipped with: High-yield Missile Pod; Missile Pod; Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -2319,8 +2297,7 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "2",
-          "Pt": "11",
-          "abilities": "It is equipped with: High-yield Missile Pod; Missile Pod; Close Combat Weapons."
+          "Pt": "11"
         },
         {
           "name": "3 XV88 Broadside Battlesuits",
@@ -2332,8 +2309,7 @@
           "Ld": "6",
           "Sv": "5+",
           "N": "3",
-          "Pt": "16",
-          "abilities": "It is equipped with: High-yield Missile Pod; Missile Pod; Close Combat Weapons."
+          "Pt": "16"
         }
       ]
     },

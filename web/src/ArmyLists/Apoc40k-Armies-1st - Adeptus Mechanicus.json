@@ -33,7 +33,7 @@
         "Mars",
         "Belisarius Cawl"
       ],
-      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.",
+      "abilities": "Lord of Mars: You can re-roll hit rolls for attacks made by friendly Mars units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly Imperium Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nArchmagos: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nSelf-repair Mechanisms: At the start of the Action phase, you can remove one damage marker from this unit.\nIt is equipped with: Solar Atomiser; Omnissian Axe.",
       "weapons": [
         {
           "name": "Solar Atomiser",
@@ -84,7 +84,7 @@
         "<Forge World>",
         "Dominus"
       ],
-      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "abilities": "Lord of the Machine Cult: Re-roll hit rolls of 1 for attacks made by friendly <Forge World> units whilst they are within 6\" of this unit.\nMaster of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nIt is equipped with: Tech-Priest Weapons; Omnissian Axe.",
       "weapons": [
         {
           "name": "Tech-Priest Weapons",
@@ -250,6 +250,7 @@
         "<Forge World>",
         "Skitarii Rangers"
       ],
+      "abilities": "It is equipped with: Galvanic Rifles; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Galvanic Rifles",
@@ -280,8 +281,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Galvanic Rifles; Close Combat Weapons."
+          "Pt": "6"
         }
       ]
     },
@@ -314,6 +314,7 @@
         "<Forge World>",
         "Skitarii Vanguard"
       ],
+      "abilities": "It is equipped with: Radium Carbines; Close Combat Weapons.",
       "weapons": [
         {
           "name": "Radium Carbines",
@@ -343,8 +344,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Radium Carbines; Close Combat Weapons."
+          "Pt": "6"
         }
       ]
     },
@@ -379,7 +379,7 @@
         "<Forge World>",
         "Enginseer"
       ],
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.",
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> or Questor Mechanicus Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.\nIt is equipped with: Omnissian Axe & Servo-arm.",
       "weapons": [
         {
           "name": "Omnissian Axe & Servo-arm",
@@ -421,7 +421,7 @@
         "Electro-Priests",
         "Corpuscarii"
       ],
-      "abilities": "Ignore Damage (5+)",
+      "abilities": "Ignore Damage (5+)\nIt is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee).",
       "weapons": [
         {
           "name": "Electrostatic Gauntlets (Ranged)",
@@ -451,8 +451,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee)."
+          "Pt": "8"
         },
         {
           "name": "15 Corpuscarii Electro-Priests",
@@ -464,8 +463,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "12",
-          "abilities": "It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee)."
+          "Pt": "12"
         },
         {
           "name": "20 Corpuscarii Electro-Priests",
@@ -477,8 +475,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "16",
-          "abilities": "It is equipped with: Electrostatic Gauntlets (Ranged); Electrostatic Gauntlets (Melee)."
+          "Pt": "16"
         }
       ]
     },
@@ -513,7 +510,7 @@
         "<Forge World>",
         "Cybernetica Datasmith"
       ],
-      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.",
+      "abilities": "Master of Machines: At the end of the Action phase, this unit can attempt to repair one friendly <Forge World> Kastelan Robots unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Kastelan Robots unit. Only one attempt to repair each unit can be made each turn.\nIt is equipped with: Close Combat Weapons.",
       "weapons": [
         {
           "name": "Close Combat Weapons",
@@ -555,7 +552,7 @@
         "Electro-Priests",
         "Fulgurite"
       ],
-      "abilities": "Ignore Damage (5+)\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.",
+      "abilities": "Ignore Damage (5+)\nSiphoned Vigour: If an enemy unit is destroyed within 1\" of this unit, change this unit's Save characteristic to 6+ for the rest of the battle.\nIt is equipped with: Electroleech Staves.",
       "weapons": [
         {
           "name": "Electroleech Staves",
@@ -577,8 +574,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "10",
-          "Pt": "6",
-          "abilities": "It is equipped with: Electroleech Staves."
+          "Pt": "6"
         },
         {
           "name": "15 Fulgurite Electro-Priests",
@@ -590,8 +586,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "15",
-          "Pt": "9",
-          "abilities": "It is equipped with: Electroleech Staves."
+          "Pt": "9"
         },
         {
           "name": "20 Fulgurite Electro-Priests",
@@ -603,8 +598,7 @@
           "Ld": "6",
           "Sv": "10+",
           "N": "20",
-          "Pt": "12",
-          "abilities": "It is equipped with: Electroleech Staves."
+          "Pt": "12"
         }
       ]
     },
@@ -637,6 +631,7 @@
         "<Forge World>",
         "Kataphron Breachers"
       ],
+      "abilities": "It is equipped with: Kataphron Claws.",
       "options": [
         {
           "per": "Per Model",
@@ -685,8 +680,7 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "6",
-          "Pt": "12",
-          "abilities": "It is equipped with: Kataphron Claws."
+          "Pt": "12"
         },
         {
           "name": "9 Kataphron Breachers",
@@ -698,8 +692,7 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "9",
-          "Pt": "18",
-          "abilities": "It is equipped with: Kataphron Claws."
+          "Pt": "18"
         },
         {
           "name": "12 Kataphron Breachers",
@@ -711,8 +704,7 @@
           "Ld": "5",
           "Sv": "6+",
           "N": "12",
-          "Pt": "24",
-          "abilities": "It is equipped with: Kataphron Claws."
+          "Pt": "24"
         }
       ]
     },
@@ -744,7 +736,7 @@
         "<Forge World>",
         "Servitors"
       ],
-      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.",
+      "abilities": "Mindlock: Change this unit's Weapon Skill and Ballistic Skill characteristics to 4+ whilst it is within 6\" of at least one friendly <Forge World> Tech-Priest unit.\nIt is equipped with: Heavy Bolter; Multi-melta; Plasma Cannon; Servo-arms.",
       "options": [
         {
           "per": "up to 2",
@@ -817,6 +809,7 @@
         "<Forge World>",
         "Sicarian Ruststalkers"
       ],
+      "abilities": "It is equipped with: Chordclaws; Transonic Weapons.",
       "weapons": [
         {
           "name": "Chordclaws",
@@ -846,8 +839,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "10",
-          "abilities": "It is equipped with: Chordclaws; Transonic Weapons."
+          "Pt": "10"
         }
       ]
     },
@@ -880,7 +872,7 @@
         "<Forge World>",
         "Sicarian Infiltrators"
       ],
-      "abilities": "Infiltrators, Terror Troops",
+      "abilities": "Infiltrators, Terror Troops\nIt is equipped with: Stubcarbines; Infiltrator Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -924,8 +916,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "12",
-          "abilities": "It is equipped with: Stubcarbines; Infiltrator Weapons."
+          "Pt": "12"
         }
       ]
     },
@@ -955,7 +946,7 @@
         "<Forge World>",
         "Sydonian Dragoons"
       ],
-      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Incense Cloud: This unit is always an obscured target.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nIt is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -1018,8 +1009,7 @@
           "Ld": "6",
           "Sv": "7+",
           "N": "3",
-          "Pt": "15",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "15"
         },
         {
           "name": "6 Sydonian Dragoons",
@@ -1031,8 +1021,7 @@
           "Ld": "6",
           "Sv": "7+",
           "N": "6",
-          "Pt": "30",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "30"
         }
       ]
     },
@@ -1176,7 +1165,7 @@
         "<Forge World>",
         "Ironstrider Ballistarii"
       ],
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nIt is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -1225,8 +1214,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "3",
-          "Pt": "18",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "18"
         },
         {
           "name": "6 Ironstrider Ballistarii",
@@ -1238,8 +1226,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "6",
-          "Pt": "36",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "36"
         }
       ]
     },
@@ -1269,7 +1256,7 @@
         "<Forge World>",
         "Kastelan Robots"
       ],
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nIt is equipped with: Armoured Feet.",
       "options": [
         {
           "per": "Per Model",
@@ -1336,8 +1323,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "4",
-          "Pt": "14",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "14"
         },
         {
           "name": "6 Kastelan Robots",
@@ -1349,8 +1335,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "21",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "21"
         }
       ]
     },
@@ -1383,7 +1368,7 @@
         "<Forge World>",
         "Sicarian Infiltrators"
       ],
-      "abilities": "Infiltrators, Terror Troops",
+      "abilities": "Infiltrators, Terror Troops\nIt is equipped with: Stubcarbines; Infiltrator Weapons.",
       "options": [
         {
           "per": "Per Unit",
@@ -1427,8 +1412,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "12",
-          "abilities": "It is equipped with: Stubcarbines; Infiltrator Weapons."
+          "Pt": "12"
         }
       ]
     },
@@ -1566,6 +1550,7 @@
         "Infiltrators",
         "Pteraxii Sterylizors"
       ],
+      "abilities": "It is equipped with: Phosphor Torch; Pteraxii Talons.",
       "weapons": [
         {
           "name": "Phosphor Torch",
@@ -1596,8 +1581,7 @@
           "Ld": "7",
           "Sv": "8+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Phosphor Torch; Pteraxii Talons."
+          "Pt": "8"
         }
       ]
     },
@@ -1632,6 +1616,7 @@
         "Infiltrators",
         "Pteraxii Skywalkers"
       ],
+      "abilities": "It is equipped with: Flechette Carbine; Close Combat Weapon.",
       "weapons": [
         {
           "name": "Flechette Carbine",
@@ -1661,8 +1646,7 @@
           "Ld": "7",
           "Sv": "8+",
           "N": "10",
-          "Pt": "8",
-          "abilities": "It is equipped with: Flechette Carbine; Close Combat Weapon."
+          "Pt": "8"
         }
       ]
     },
@@ -1692,7 +1676,7 @@
         "<Forge World>",
         "Ironstrider Ballistarii"
       ],
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nIt is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -1741,8 +1725,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "3",
-          "Pt": "18",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "18"
         },
         {
           "name": "6 Ironstrider Ballistarii",
@@ -1754,8 +1737,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "6",
-          "Pt": "36",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "36"
         }
       ]
     },
@@ -1785,7 +1767,7 @@
         "<Forge World>",
         "Kastelan Robots"
       ],
-      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.",
+      "abilities": "Battle Protocols: This unit has one of the abilities listed below, based on the order issued to its Detachment in the Orders phase. The ability lasts until the end of the turn. Note that even if that Detachment's order subsequently changes, the ability this unit has for that turn does not.\nAdvance: Add 1 to saving throws made for this unit.\nAimed Fire: You can re-roll hit rolls for attacks made by this unit with ranged weapons.\nAssault: You can re-roll hit rolls for attacks made by this unit with melee weapons.\nIt is equipped with: Armoured Feet.",
       "options": [
         {
           "per": "Per Model",
@@ -1852,8 +1834,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "4",
-          "Pt": "14",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "14"
         },
         {
           "name": "6 Kastelan Robots",
@@ -1865,8 +1846,7 @@
           "Ld": "8",
           "Sv": "5+",
           "N": "6",
-          "Pt": "21",
-          "abilities": "It is equipped with: Armoured Feet."
+          "Pt": "21"
         }
       ]
     },
@@ -1899,6 +1879,7 @@
         "<Forge World>",
         "Kataphron Destroyers"
       ],
+      "abilities": "It is equipped with: Close Combat Weapons.",
       "options": [
         {
           "per": "Per Model",
@@ -1975,8 +1956,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "6",
-          "Pt": "14",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "14"
         },
         {
           "name": "9 Kataphron Destroyers",
@@ -1988,8 +1968,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "9",
-          "Pt": "21",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "21"
         },
         {
           "name": "12 Kataphron Destroyers",
@@ -2001,8 +1980,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "12",
-          "Pt": "28",
-          "abilities": "It is equipped with: Close Combat Weapons."
+          "Pt": "28"
         }
       ]
     },
@@ -2032,7 +2010,7 @@
         "<Forge World>",
         "Onager Dunecrawler"
       ],
-      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Emanatus Force Field: Add 1 to saving throws made for this unit whilst it is within 6\" of any other friendly <Forge World> Onager Dunecrawler units.\nBroad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nIt is equipped with: Eradication Beamer; Neutron Laser; Armoured Feet.",
       "options": [
         {
           "per": "Per Unit",
@@ -2130,7 +2108,7 @@
         "<Forge World>",
         "Skorpius Disintegrator"
       ],
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nIt is equipped with: Cognis Heavy Stubber; Disruptor Missile Launcher; Ferrumite Cannon; Armoured Bulk.",
       "options": [
         {
           "per": "Per Unit",
@@ -2209,7 +2187,7 @@
         "<Forge World>",
         "Skorpius Dunerider"
       ],
-      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.",
+      "abilities": "Broad Spectrum Data-tether: Add 1 to the Leadership characteristic of <Forge World> units whilst they are within 3\" of any friendly units with this ability.\nTRANSPORT: This unit can transport 10 Secutarii Infantry or <Forge World> Infantry models. It cannot transport Belisarius Cawl, Kataphron Breacher or Kataphron Destroyer units.\nIt is equipped with: Cognis Heavy Stubber; Twin Cognis Heavy Stubber; Armoured Bulk.",
       "weapons": [
         {
           "name": "Cognis Heavy Stubber",
