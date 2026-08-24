@@ -111,19 +111,6 @@ Infantry
 | Force Weapon | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
-#### Jump Pack
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 5 |
-
-##### Profile Keywords
-Infantry, Jump Pack, Fly
-
-##### Profile Abilities
-```
-Deep Strike
-```
-
 #### Terminator Armour
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -136,14 +123,6 @@ Infantry, Terminator
 ```
 Deep Strike
 ```
-
-#### Bike
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 4 |
-
-##### Profile Keywords
-Biker
 
 ## Unit 4 — HQ — Chaplain
 
@@ -173,6 +152,18 @@ Spiritual Leader: Friendly <Chapter> units can use this unit's Leadership charac
 | Crozius Arcanum | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
+#### Jump Pack
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12" | 2+ | 3+ | 1 | 1 | 7 | 5+ | 1 | 7 |
+
+##### Profile Keywords
+Infantry, Jump Pack, Fly
+
+##### Profile Abilities
+```
+Deep Strike
+```
 
 #### Terminator Armour
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -187,12 +178,22 @@ Infantry, Terminator
 Deep Strike
 ```
 
+
+#### Bike
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14" | 2+ | 3+ | 1 | 1 | 7 | 5+ | 1 | 6 |
+
+##### Profile Keywords
+Biker
+
+
 ## Unit 6 — Troops — Tactical Marines
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 9 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 8 |
 
 ### Keywords
 Light, Infantry
@@ -231,7 +232,7 @@ Imperium, Adeptus Astartes, <Chapter>, Tactical Squad
 #### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 18 |
+| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 16 |
 
 
 ## Unit 7 — Troops — Scouts
@@ -284,7 +285,7 @@ Infiltrators
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 9 |
 
 ### Keywords
 Light, Infantry
@@ -302,7 +303,7 @@ Imperium, Adeptus Astartes, <Chapter>, Primaris, Infernus Squad
 #### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 18 |
 
 ## Unit 5 — Elites — Techmarine
 
