@@ -178,18 +178,48 @@ Chaos, Heretic Astartes, <Legion>, Daemon Prince
 ### Abilities
 ```
 Prince of Chaos: Re-roll hit rolls of 1 for attacks made by friendly <Legion> units whilst they are within 6" of this unit.
-Might Over Magic: If this unit has the Khorne keyword, add 1 to wound rolls for attacks made with melee weapons by this unit.
-When you include this unit in your army, you must choose one of the following additional keywords: Khorne, Tzeentch, Nurgle or Slaanesh.
+When you include this unit in your army, you may choose one of the following additional keywords (option): Undivided, Khorne, Tzeentch, Nurgle or Slaanesh.
 If you choose Khorne, this unit has the additional ability: Might Over Magic.
 If you choose Tzeentch, Nurgle or Slaanesh, this unit has the additional keyword: Psyker.
 Deep Strike
 It is equipped with: Daemonic Weapons.
 ```
 
+### Options
+- per: Per Unit
+  title: Khorne
+  pt: 1
+  text: Gain Khorne Mark. Khorne weapons.
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Tzeentch
+  pt: 1
+  text: Gain Tzeentch Mark and Psyker keyword. It is also equipped with Psychic Bolt.
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Nurgle
+  pt: 1
+  text: Gain Nurgle Mark and Psyker keyword. This unit has Ignore Damage (6+).
+  limit: group Exclusive
+  group: Mark
+- per: Per Unit
+  title: Slaanesh
+  pt: 1
+  text: Gain Slaanesh Mark and Psyker keyword. Gain Razor Claws.
+  limit: group Exclusive
+  group: Mark
+
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Daemonic Weapons | Melee | Melee | User | 6+ | 6+ |  |
+| Khorne Weapons | Melee | Melee | User | 5+ | 4+ |  |
+| Razor Claws | Melee | Melee | 1 | 10+ | 12+ |  |
+| Psychic Bolt | Melee | Melee | 1 | 7+ | 7+ |  |
+
 
 ### Profiles
 #### Wings
@@ -227,12 +257,12 @@ It is equipped with: Exalted Weapons.
 | --- | --- | --- | --- | --- | --- | --- |
 | Exalted Weapons | Melee | Melee | User | 7+ | 7+ |  |
 
-## Unit 6 — Troops — Traitor Marines
+## Unit 6 — Troops — Chaos Marines
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 8 |
 
 ### Keywords
 Light, Infantry
@@ -263,10 +293,10 @@ It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Reaper Chaincannon | Heavy | 24" | 2 | 6+ | 10+ |  |
 | Bolt Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -274,22 +304,22 @@ It is equipped with: Bolt Pistols; Boltguns; Chainswords; Close Combat Weapons.
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
-#### 10 Traitor Marines
+#### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
+| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 16 |
 
-#### 15 Traitor Marines
+#### 15 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+| 6" | 3+ | 3+ | 6 | 6 | 6 | 6+ | 15 | 24 |
 
 ## Unit 7 — Troops — Cultists
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 5+ | 1 | 1 | 5 | 10+ | 10 | 2 |
+| 6" | 5+ | 5+ | 2 | 2 | 5 | 11+ | 10 | 2 |
 
 ### Keywords
 Light, Infantry
@@ -302,7 +332,7 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Cultists
 
 ### Abilities
 ```
-It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Combat Weapons.
+It is equipped with: Auto Pistols; Close Combat Weapons.
 ```
 
 ### Options
@@ -311,34 +341,29 @@ It is equipped with: Auto Pistols; Autoguns; Brutal Assault Weapons; Close Comba
   title: Heavy Weapon
   text: For every 10 models this unit contains, it can also be equipped with 1 Heavy Stubber.
 - per: Per Unit
-  text: Instead of Autoguns and Close Combat Weapons, this unit can be equipped with Auto Pistols and Brutal Assault Weapons.
+  text: Instead of  Close Combat Weapons and Auto Pistols, can have Autoguns and gun butts.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Auto Pistols | Small Arms | 12" | User | 8+ | 10+ |  |
-| Autoguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
-| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
-| Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
+| Close Combat Weapons | Melee | Melee | User | 7+ | 10+ |  |
+| Auto Pistols | Small Arms | 24" | User | 8+ | 10+ |  |
+| Gun Butts | Melee | Melee | User | 9+ | 11+ |  |
 
 ### Profiles
 #### 20 Cultists
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 5+ | 2 | 2 | 5 | 10+ | 20 | 4 |
-
-#### 30 Cultists
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 5+ | 3 | 3 | 5 | 10+ | 30 | 6 |
+| 6" | 5+ | 5+ | 4 | 4 | 5 | 11+ | 20 | 4 |
 
 ## Unit 30 — Troops — Traitor Guard
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 4+ | 1 | 1 | 5 | 10+ | 7 | 3 |
+| 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -366,7 +391,7 @@ It is equipped with: Flamer; Las Weapons; Close Combat Weapons.
 #### Chaos Beastmen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 1 | 1 | 4 | 10+ | 10 | 3 |
+| 6" | 3+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 4 |
 
 ##### Profile Traits
 Chaos Beastmen
@@ -375,13 +400,14 @@ Chaos Beastmen
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+| Pistols | Melee | Melee | User | 9+ | 11+ |  |
 
 ## Unit 8 — Elites — Chaos Chosen
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 8 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 9 |
 
 ### Keywords
 Light, Infantry
@@ -406,19 +432,19 @@ It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat
 | --- | --- | --- | --- | --- | --- | --- |
 | Bolt Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
-| Chosen Combat Weapons | Melee | Melee | x3 | 7+ | 7+ |  |
+| Chosen Combat Weapons | Melee | Melee | x3 | 8+ | 9+ |  |
 | Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
 #### 10 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 18 |
 
 #### 15 Chaos Chosen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 27 |
 
 ## Unit 9 — Elites — Aspiring Champion
 
@@ -554,7 +580,7 @@ It is equipped with: Daemonic Mutations.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | D3+1 | 2 | 6 | 5+ | 5 | 10 |
+| 7" | 3+ | 3+ | D3+1 | 3 | 6 | 5+ | 5 | 10 |
 
 ### Keywords
 Daemon, Light, Infantry
@@ -567,7 +593,7 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Possessed
 
 ### Abilities
 ```
-Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.
+Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3+1 for every 5 models this unit contains to determine the number of attacks it makes.
 It is equipped with: Horrifying Mutations.
 ```
 
@@ -775,7 +801,7 @@ It is equipped with: Plaguesword.
 #### Bloodletters
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 2 | 1 | 5 | 8+ | 10 | 4 |
+| 6" | 3+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 4 |
 
 ##### Profile Traits
 Khorne, Bloodletters
@@ -788,7 +814,7 @@ It is equipped with: Hellblade.
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hellblade | Melee | Melee | x2 | 5+ | 9+ |  |
+| Hellblade | Melee | Melee | x2 | 5+ | 8+ |  |
 
 #### Daemonettes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -806,7 +832,7 @@ It is equipped with: Claws.
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Claws | Melee | Melee | x3 | 7+ | 9+ |  |
+| Claws | Melee | Melee | x3 | 8+ | 10+ |  |
 
 #### Horrors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -914,7 +940,7 @@ It is equipped with: Twin Boltguns; Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 8 |
+| 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 9 |
 
 ### Keywords
 Light, Infantry, Fly, Jump Pack
@@ -941,19 +967,15 @@ It is equipped with: Bolt Pistols; Chainswords.
 #### 10 Raptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
+| 12" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 18 |
 
-#### 15 Raptors
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 25 |
 
 ## Unit 16 — Heavy — Havocs
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 1 | 6 | 5+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 10 |
 
 ### Keywords
 Light, Infantry
@@ -966,21 +988,21 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Havocs
 
 ### Abilities
 ```
-It is equipped with: Close Combat Weapons.
+It is equipped with: Close Combat Weapons, 4 Autocannons
 ```
 
 ### Options
-- per: Per Unit
-  text: This unit must also be
-  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon
+- per: Up to 4
+  text: This unit can exchange an Autocannon with
+  Choose 1:  1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Reaper Chaincannon
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Reaper Chaincannon | Heavy | 24" | 2 | 6+ | 10+ |  |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
@@ -1016,7 +1038,7 @@ It is equipped with: Battle Cannon; Reaper Autocannon; Twin Heavy Flamer; Defile
 | --- | --- | --- | --- | --- | --- | --- |
 | Battle Cannon | Heavy | 72" | 1 | 6+ | 6+ |  |
 | Reaper Autocannon | Heavy | 36" | 2 | 8+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Twin Heavy Flamer | Heavy | 8" | 2 | 6+ | 9+ | Inferno |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Defiler Claws | Melee | Melee | User | 6+ | 5+ |  |
@@ -1059,10 +1081,10 @@ It is equipped with: Missile Launcher; Multi-melta; Armoured Feet.
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Helbrute Plasma Cannon | Heavy | 36" | 1 | 6+ | 6+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Reaper Autocannon | Heavy | 36" | 2 | 8+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Armoured Feet | Melee | Melee | User | 9+ | 10+ |  |
 | Helbrute Fist | Melee | Melee | 2 | 6+ | 6+ |  |
@@ -1098,7 +1120,7 @@ It is equipped with: Heavy Bolter; Lascannon; Predator Autocannon; Armoured Trac
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Predator Autocannon | Heavy | 48" | 2 | 7+ | 7+ |  |
@@ -1230,7 +1252,7 @@ It is equipped with: Twin Heavy Bolter; Twin Lascannon; Armoured Tracks.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
@@ -1239,7 +1261,7 @@ It is equipped with: Twin Heavy Bolter; Twin Lascannon; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 8 |
 
 ### Keywords
 Light, Infantry
@@ -1277,12 +1299,12 @@ It is equipped with: Noise Marine Weapons; Close Combat Weapons.
 #### 10 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
 
 #### 15 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
 
 ## Unit 24 — Transport — Rhino
 

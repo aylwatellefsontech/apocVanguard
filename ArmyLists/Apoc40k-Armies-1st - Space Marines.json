@@ -356,7 +356,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -372,7 +372,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -395,7 +395,7 @@
         {
           "name": "Plasma Gun",
           "type": "Small Arms",
-          "range": "36\"",
+          "range": "24\"",
           "attacks": "1",
           "skill": "7+",
           "armorPen": "7+"
@@ -502,7 +502,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -510,7 +510,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -556,7 +556,7 @@
           "A": "4",
           "W": "4",
           "Ld": "7",
-          "Sv": "6+",
+          "Sv": "8+",
           "N": "10",
           "Pt": "14"
         }
@@ -724,8 +724,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x3",
-          "skill": "6+",
-          "armorPen": "8+"
+          "skill": "7+",
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -834,7 +834,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -859,7 +859,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -925,7 +925,7 @@
         "Ld": "7",
         "Sv": "4+",
         "N": "5",
-        "Pt": "15"
+        "Pt": "14"
       },
       "keywords": [
         "Light",
@@ -1017,7 +1017,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "32"
+          "Pt": "28"
         }
       ]
     },
@@ -1034,7 +1034,7 @@
         "Ld": "7",
         "Sv": "6+",
         "N": "5",
-        "Pt": "14"
+        "Pt": "13"
       },
       "keywords": [
         "Light",
@@ -1085,7 +1085,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "28"
+          "Pt": "26"
         }
       ]
     },
@@ -1143,7 +1143,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "9+",
+          "skill": "8+",
           "armorPen": "9+"
         }
       ]
@@ -1336,7 +1336,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1443,7 +1443,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1716,7 +1716,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1732,7 +1732,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -1934,7 +1934,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -1950,15 +1950,15 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "2",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2093,7 +2093,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -2109,15 +2109,15 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "2",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2214,7 +2214,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2395,10 +2395,10 @@
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2521,10 +2521,10 @@
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2684,10 +2684,10 @@
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2779,10 +2779,10 @@
         },
         {
           "name": "Twin Heavy Bolter",
-          "type": "Heavy",
+          "type": "Arms",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {

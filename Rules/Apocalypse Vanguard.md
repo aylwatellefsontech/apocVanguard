@@ -11,10 +11,9 @@ To play vanguard, play with between 100 to 150 points of units, on a 48” x 48�
 # Rules Modifications {#rules-modifications}
 
 The following are a rough list of modifications of the original Apocalypse:  
-\- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up. It gets -1 to hit for ALL attacks.
+\- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up.
 \- Add the following abilities: Harrier (at start of turn gain or lose supersonic), Blast (add +1 
 Attack for every 5 models in the target)
-\- Characters not the closest to the attacker are Obscured.
 \-  Light Characters get an additional -1 to hit when Obscured (for a total of -2).
 
 
@@ -464,7 +463,7 @@ Units in defensible terrain gain Cover \- They get a 6+ save instead of their no
 
 ### Failed Saves
 
-Those blasts that are not saved, result in 1 damage on the unit.  Units that have damage up to half their wounds remove ½ the models of the unit (rounded down), and become critically damaged.  They suffer \-1 to hit, and if they are over 1 model. Units that have damage equal or more to their health instead die, and are removed from the table.
+Those blasts that are not saved, result in 1 damage on the unit.  Units that have damage up to half their wounds remove ½ the models of the unit (rounded down), and become critically damaged.  1/2 their attack characteristic, they suffer \-1 to hit for Heavy weapons. Units that have damage equal or more to their health instead die, and are removed from the table.
 
 In addition, a unit that took 1+ blast markers must make a leadership roll, which is a d12, to reach their leadership. If they fail, they take 1 more damage.  
 

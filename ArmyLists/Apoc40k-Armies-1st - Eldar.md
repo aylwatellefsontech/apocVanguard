@@ -251,7 +251,7 @@ Lord of <Dark Reapers>.
 #### Feugan
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 2+ | 2+ | 2 | 1 | 7 | 4+ | 1 | 9 |
+| 7" | 2+ | 2+ | 2 | 1 | 7 | 4+ | 1 | 10 |
 
 ##### Profile Traits
 Fire Dragons
@@ -260,15 +260,15 @@ Fire Dragons
 ```
 Equipped with Fire Pike and Fire Axe. 
 Ignore Damage (6+). 
-Assured Destruction: This unit rerolls wound rolls against Heavy or Super-heavy units. 
+Assured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. 
 Lord of <Fire Dragons>.
 ```
 
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fire Pike | Heavy | 6" | 1 | 11+ | 4+ | Destroyer |
-| Fire Axe | Melee | Melee | User | 8+ | 4+ |  |
+| Fire Pike | Heavy | 6" | 2 | 11+ | 3+ | |
+| Fire Axe | Melee | Melee | User | 8+ | 3+ |  |
 
 #### Lykhis
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -352,7 +352,7 @@ Biker, Fly
 ##### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Shuriken Catapults | Small Arms | 12" | x2 | 8+ | 11+ |  |
+| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ | Rapid Fire |
 
 #### 3 Skyrunners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -362,7 +362,7 @@ Biker, Fly
 ##### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Shuriken Catapults | Small Arms | 12" | x2 | 8+ | 11+ |  |
+| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ | Rapid Fire |
 
 ##### Profile Keywords
 Biker, Fly
@@ -398,11 +398,11 @@ For each Heavy Weapon Platform model this unit contains, it must also be equippe
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ |  |
+| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 | Aeldari Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Bright Lance | Heavy | 36" | 1 | 10+ | 5+ |  |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
 
@@ -417,7 +417,7 @@ For each Heavy Weapon Platform model this unit contains, it must also be equippe
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 5 | 4 |
+| 7" | 3+ | 3+ | 2 | 1 | 6 | 7+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -428,33 +428,28 @@ Aeldari, Asuryani, Aspect Warrior, <Craftworld>, Dire Avengers
 ### Abilities
 ```
 This unit can contain 10 Dire Avengers (10 Warriors Profile)
-This unit is equipped with Shuriken Catapults and Close Combat Weapons.
-Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.
+This unit is equipped with Avenger Shuriken Catapults and Close Combat Weapons.
+Defence Tactics: Ignore the first blast marker this unit gets each turn.
 ```
-
-### Options
-- per: Per Unit
-  title: Defence Tactics
-  text: Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ |  |
+| Avenger Shuriken Catapults | Small Arms | 18" | User | 5+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 7 |
+| 7" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 14 |
 
 ## Unit 8 — Troops — Storm Guardians
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 5 | 10+ | 10 | 3 |
+| 7" | 3+ | 3+ | 2 | 2 | 5 | 9+ | 10 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -479,7 +474,7 @@ Equipped with Shuriken Pistols and Aeldari Blades
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 5 | 6 |
+| 9" | 3+ | 3+ | 2 | 1 | 6 | 8+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -499,20 +494,20 @@ Banshee Mask: Subtract 1 from hit rolls for attacks made with melee weapons by e
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shuriken Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
-| Power Swords | Melee | Melee | x3 | 5+ | 9+ |  |
+| Power Swords | Melee | Melee | x2 | 5+ | 9+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 12 |
+| 9" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 14 |
 
 ## Unit 10 — Elites — Striking Scorpions
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 7 |
+| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -533,7 +528,7 @@ Shadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this un
 | --- | --- | --- | --- | --- | --- | --- |
 | Shuriken Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
 | Mandiblasters | Melee | Melee | User | 7+ | 12+ |  |
-| Scorpion Chainswords | Melee | Melee | x3 | 7+ | 9+ |  |
+| Scorpion Chainswords | Melee | Melee | User | 7+ | 8+ |  |
 
 ### Profiles
 #### 10 Warriors
@@ -546,7 +541,7 @@ Shadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this un
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 5 |
+| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 6 |
 
 ### Keywords
 Light, Infantry
@@ -558,20 +553,20 @@ Aeldari, Asuryani, Aspect Warrior, <Craftworld>, Fire Dragons
 ```
 Can take 10 Warriors (10 Warriors Profile)
 Equipped with Fusion Guns; Melta Bombs;
-Assured Destruction: Re-roll wound rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.
+Assured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. 
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fusion Guns | Small Arms | 12" | x2 | 9+ | 2+ |  |
+| Fusion Guns | Small Arms | 12" | User | 9+ | 2+ |  |
 | Melta Bombs | Melee | Melee | User | 10+ | 2+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 9 |
+| 7" | 3+ | 3+ | 4 | 2 | 6 | 6+ | 10 | 12 |
 
 ## Unit 12 — Elites — Wraithblades
 
@@ -719,22 +714,22 @@ Aeldari, Asuryani, Warhost, <Craftworld>, Light, Biker, Fly, Windriders
 ### Abilities
 ```
 Can Take 6 bikers (6 Skyrunners Profile) or 9 bikers (9 Skyrunners profile).
-Equipped with Close Combat weapons and Twin Shuriken Catapults.
+Equipped with Close Combat weapons and each model has Shuriken Catapults.
 For each model this unit contains, must exchange Twin shuriken catapults with: Scatter Laser; Shuriken Canon.
 ```
 
 ### Options
-- per: Per Model
+- per: Per Unit
   title: Heavy Weapon
-  text: May exchange Twin Shuriken Catapult with
-  Choose 1: Scatter Laser; Shuriken Canon;
+  text: May exchange Twin Shuriken Catapults with
+  Choose 1: Scatter Lasers; Shuriken Canons;
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
-| Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Scatter Laser | Heavy | 36" | x2 | 10+ | 10+ |  |
+| Shuriken Cannon | Heavy | 24" | User | 6+ | 8+ |  |
+| Shuriken Catapults | Small Arms | 18" | User | 6+ | 9+ | Rapid Fire  |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
@@ -784,10 +779,10 @@ Each model must exchange Twin Shuriken Catapults (option).
 | --- | --- | --- | --- | --- | --- | --- |
 | Aeldari Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Bright Lance | Heavy | 36" | 1 | 10+ | 5+ |  |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Twin Shuriken Catapult | Heavy | 18" | 2 | 8+ | 11+ |  |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
@@ -806,7 +801,7 @@ Each model must exchange Twin Shuriken Catapults (option).
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 1 | 1 | 6 | 8+ | 5 | 6 |
+| 14" | 3+ | 3+ | 2 | 1 | 6 | 8+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry, Fly, Jump Pack, 
@@ -826,7 +821,7 @@ Skyleap: When this unit is deployed from reserves, it can lose or gain supersoni
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lasblasters | Small Arms | 24" | x3 | 8+ | 10+ |  |
+| Lasblasters | Small Arms | 24" | x2 | 8+ | 10+ |  |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
@@ -840,7 +835,7 @@ Skyleap: When this unit is deployed from reserves, it can lose or gain supersoni
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 7 |
+| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 7 |
 
 ### Keywords
 Warp Spiders
@@ -865,14 +860,14 @@ Warp Jump Generator: Instead of making a Move action, this unit can perform a wa
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Death Spinners | Small Arms | 12" | x2 | 6+ | 8+ |  |
+| Death Spinners | Small Arms | 12" | User | 6+ | 8+ |  |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 14 |
+| 7" | 3+ | 3+ | 4 | 2 | 6 | 6+ | 10 | 14 |
 
 ## Unit 20 — Fast — Shining Spears
 
@@ -890,26 +885,20 @@ Aeldari, Asuryani, Aspect Warrior, <Craftworld>, Shining Spears
 ### Abilities
 ```
 Can take 6 Warriors (6 Warriors), 9 Warriors (9 Warriors).
-Equipped with: Laser lances (Ranged), Twin Shuriken Catapults; Laser Lances (Melee)
+Equipped with: Twin Shuriken Catapults & Lance; Laser Lances
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Laser Lances (Ranged) | Small Arms | 6" | User | 10+ | 5+ |  |
-| Twin Shuriken Catapults | Small Arms | 12" | x2 | 7+ | 9+ |  |
-| Laser Lances (Melee) | Melee | Melee | User | 7+ | 5+ |  |
+| Shuriken Catapults & Lance | Heavy | 18" | User | 6+ | 8+ | Rapid Fire |
+| Laser Lances | Melee | Melee | x2 | 6+ | 4+ |  |
 
 ### Profiles
 #### 6 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 6 | 16 |
-
-#### 9 Warriors
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 3 | 3 | 6 | 5+ | 9 | 24 |
+| 17" | 3+ | 3+ | 1 | 2 | 6 | 5+ | 6 | 16 |
 
 ## Unit 21 — Heavy — War Walkers
 
@@ -943,7 +932,7 @@ Infiltrators
 | --- | --- | --- | --- | --- | --- | --- |
 | Aeldari Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Bright Lance | Heavy | 36" | 1 | 10+ | 5+ |  |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
 | Armoured Feet | Melee | Melee | User | 10+ | 10+ |  |
@@ -991,7 +980,7 @@ Instead of 1 Wraithbone Fist, this unit can be equipped with 1 Ghostglaive.
 | --- | --- | --- | --- | --- | --- | --- |
 | Aeldari Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Bright Lance | Heavy | 36" | 1 | 10+ | 5+ |  |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
 | Ghostglaive | Melee | Melee | User | 6+ | 5+ |  |
@@ -1036,7 +1025,7 @@ Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 6 |
+| 6" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 6 |
 
 ### Keywords
 Light, Infantry
@@ -1054,7 +1043,7 @@ Inescapable Death: Unmodified hit rolls of 3+ for attacks made with this unit's 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Reaper Launchers | Small Arms | 48" | x2 | 6+ | 6+ |  |
+| Reaper Launchers | Small Arms | 48" | User | 6+ | 6+ |  |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ### Profiles
@@ -1100,11 +1089,11 @@ TRANSPORT: This unit can transport up to 6 Phoenix Lord or <Craftworld> Infantry
 | --- | --- | --- | --- | --- | --- | --- |
 | Aeldari Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
 | Bright Lance | Heavy | 36" | 1 | 10+ | 5+ |  |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
 | Pulse Laser | Heavy | 48" | 2 | 10+ | 5+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Twin Shuriken Catapult | Heavy | 18" | 2 | 8+ | 11+ |  |
 | Armoured Hull | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 26 — Heavy — Fire Prism
@@ -1138,7 +1127,7 @@ Can swap Twin Shuriken Catapult with Shuriken Cannon (Option)
 | --- | --- | --- | --- | --- | --- | --- |
 | Prism Cannon | Heavy | 60" | 2 | 6+ | 6+ | Destroyer |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Twin Shuriken Catapult | Heavy | 18" | 2 | 8+ | 11+ |  |
 | Armoured Hull | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 27 — Heavy — Night Spinner
@@ -1172,7 +1161,7 @@ Can swap Twin Shuriken Catapult with Shuriken Cannon (Option)
 | --- | --- | --- | --- | --- | --- | --- |
 | Doomweaver | Heavy | 48" | 4 | 6+ | 8+ | Barrage |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Twin Shuriken Catapult | Heavy | 18" | 2 | 8+ | 11+ |  |
 | Armoured Hull | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 29 — Transport — Wave Serpent
@@ -1214,7 +1203,7 @@ can choose to exchange Twin shuriken Catapult (option)
 | Twin Bright Lance | Heavy | 36" | 2 | 10+ | 5+ |  |
 | Twin Scatter Laser | Heavy | 36" | 2 | 7+ | 9+ |  |
 | Twin Shuriken Cannon | Heavy | 24" | 2 | 6+ | 8+ |  |
-| Twin Shuriken Catapult | Heavy | 12" | 2 | 8+ | 11+ |  |
+| Twin Shuriken Catapult | Heavy | 18" | 2 | 8+ | 11+ |  |
 | Twin Starcannon | Heavy | 36" | 2 | 8+ | 6+ |  |
 | Armoured Hull | Melee | Melee | User | 10+ | 10+ |  |
 
@@ -1343,7 +1332,7 @@ Instead of 2 Heavy Wraithcannons and 1 Titanic Wraithbone Fist, this unit can ha
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Wraithcannon | Heavy | 36" | 1 | 7+ | 3+ | Destroyer |
-| Scatter Laser | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Scatter Laser | Heavy | 36" | 2 | 10+ | 10+ |  |
 | Shuriken Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Starcannon | Heavy | 36" | 1 | 8+ | 6+ |  |
 | Suncannon | Heavy | 48" | 4 | 6+ | 6+ |  |

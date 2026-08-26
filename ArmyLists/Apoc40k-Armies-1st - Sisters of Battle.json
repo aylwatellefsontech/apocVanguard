@@ -233,7 +233,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -441,7 +441,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -641,7 +641,7 @@
         "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "6",
+        "Ld": "8",
         "Sv": "5+",
         "N": "1",
         "Pt": "3"
@@ -683,7 +683,7 @@
         "BS": "3+",
         "A": "2",
         "W": "1",
-        "Ld": "6",
+        "Ld": "7",
         "Sv": "11+",
         "N": "4",
         "Pt": "3"
@@ -1273,7 +1273,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1440,7 +1440,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1506,7 +1506,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1712,7 +1712,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1765,7 +1765,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1849,7 +1849,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {

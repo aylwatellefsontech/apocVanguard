@@ -244,9 +244,9 @@ It is equipped with: Lasguns; Close Combat Weapons.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
 | Lasguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
@@ -675,7 +675,7 @@ It is equipped with: Armoured Feet.
 | Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-laser | Heavy | 36" | 1 | 6+ | 10+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
 | Armoured Feet | Melee | Melee | User | 11+ | 12+ |  |
@@ -722,9 +722,9 @@ A Brood Brothers Heavy Weapons Squad is a unit that contains 3 models. It is equ
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
@@ -806,7 +806,7 @@ A Cult Leman Russ is a unit that contains 1 model. It is equipped with: Battle C
 | Battle Cannon | Heavy | 72" | 1 | 6+ | 6+ |  |
 | Eradicator Nova Cannon | Heavy | 36" | 2 | 5+ | 9+ |  |
 | Exterminator Autocannon | Heavy | 48" | 2 | 6+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
@@ -876,7 +876,7 @@ A Cult Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Au
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Hydra Quad Autocannon | Heavy | 72" | 2 | 8+ | 6+ | Anti-air |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 27 — Transport — Cult Chimera
@@ -915,7 +915,7 @@ A Cult Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolte
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Multi-laser | Heavy | 36" | 1 | 6+ | 10+ |  |

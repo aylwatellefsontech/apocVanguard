@@ -33,12 +33,12 @@ Lord Castellan Creed is a unit that contains 1 model. It is equipped with: Signa
 | --- | --- | --- | --- | --- | --- | --- |
 | Signature Weapons | Melee | Melee | User | 10+ | 10+ |  |
 
-## Unit 3 — HQ — Lord Commissar
+## Unit 3 — HQ — Commander
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 2+ | 2+ | 1 | 1 | 7 | 7+ | 1 | 4 |
+| 6" | 3+ | 3+ | 1 | 1 | 6 | 9+ | 1 | 4 |
 
 ### Keywords
 Light, Infantry, Character
@@ -47,25 +47,47 @@ Light, Infantry, Character
 Infantry
 
 ### Traits
-Imperium, Astra Militarum, Officio Prefectus, Commissar, Lord Commissar
+Imperium, Astra Militarum, Officio Prefectus
+
+### Profile Traits
+Commander
 
 ### Abilities
 ```
-Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
-It is equipped with: Commissar Weapons.
+It is equipped with: Combat Weapons.
+```
+
+### Profile Abilities
+```
+Officer: At the start of the Generate Command Assets step, if this unit is a WARLORD and is on the battlefield, you generate one extra Command Asset.
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Commissar Weapons | Melee | Melee | User | 10+ | 11+ |  |
+| Combat Weapons | Melee | Melee | User | 10+ | 11+ |  |
+
+### Profiles
+#### Lord Commissar
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 6" | 2+ | 2+ | 1 | 1 | 7 | 7+ | 1 | 4 |
+
+##### Profile Traits
+Commissar, Lord Commissar
+
+##### Profile Abilities
+```
+Exchange Company Officer with Aura of Discipline.
+Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6" of this unit.
+```
 
 ## Unit 4 — HQ — Company Command
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 1 | 1 | 4 | 10+ | 4 | 2 |
+| 6" | 4+ | 3+ | 1 | 1 | 4 | 9+ | 4 | 3 |
 
 ### Keywords
 Light, Infantry, Veterans
@@ -74,45 +96,42 @@ Light, Infantry, Veterans
 Infantry
 
 ### Traits
-Imperium, Astra Militarum, <Regiment>, Command Squad
+Imperium, Astra Militarum, <Regiment>, Command Squad, Company Command
 
 ### Abilities
 ```
-Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6" of any friendly <Regiment> units with a Regimental Standard.
-It is equipped with: Lasguns; Close Combat Weapons.
+This unit must take has a Regimental Standard and Heavy Flamer.
+It is equipped with Lasguns; Close Combat Weapons; Heavy Flamer;
+It can exchange its Regimental Standard and Heavy Flamer for Master of Ordinance.
+(option), Master of the Fleet (option)
+It can exchange its Heavy Flamer for AT Weapons.
+Regimental Standard (option): Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6" of any friendly <Regiment> units with a Regimental Standard.
+Master of Ordinance (option): Reroll hit rolls of 1 with ranged attacks with the Barrage ability and Imperial Guard and Vehicle within 6" of this unit.
+Naster of the Fleet
 ```
 
 ### Options
 - per: Per Unit
-  Pt: 1
-  title: Weapons Team
-  text: It can contain 1 weapons team model instead of 2 other models.
+  Pt: 2
+  limit: group Exclusive
+  group: title
+  title: Master of Ordinance
+  text: Gain Master of Ordinance, and Artillery Barrage. Gain the traits Officer, Master of Ordinance.
 - per: Per Unit
-  Pt: 1
-  title: Heavy Weapon
-  text: This unit can also be equipped with 1 Heavy Flamer.
-- per: Per Unit
-  title: Weapons Team
-  text: If this unit contains a weapons team model, it
-  Choose 1: 1 Autocannon; 1 Heavy Bolter; 1 Lascannon; 1 Missile Launcher; 1 Mortar
-- per: Per Unit
-  Pt: 1
-  title: Regimental Standard
-  text: This unit can have a Regimental Standard
+  Pt: 0
+  text: If this unit has a Heavy Flamer, it can exchange it for AT weapons
+
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lasguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
+| Lasguns | Small Arms | 24" | User | 8+ | 10+ | |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
-| Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
-| Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
+| Artillery Barrage | Heavy | 100" | 1 | 7+ | 7+ | Barrage |
+| AT Weapons | Small Arms | 24" | 1 | 9+ | 6+ | |
 
-## Unit 29 — HQ — Master Officer
+## Unit 5 — HQ — Tank Commander
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -129,11 +148,8 @@ Imperium, Astra Militarum, <Regiment>, Leman Russ, Tank Commander
 ```
 Tank Commander: If a friendly <Regiment> Leman Russ unit starts a Move action within 6" of this unit, that unit can be ordered to go full throttle; add 2" to that unit's Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.
 Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.
-Choose either Tank Commander, Master of Ordnance, or Officer of the Fleet for this slot.
-Alternative: Master of Ordnance (Pt 5) with Master of Ballistics ability.
-Alternative: Officer of the Fleet (Pt 2) with Strafing Coordinates ability.
-Alternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander ability).
-It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.
+Choose either Tank Commander, 
+Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.
 ```
 
 ### Options
@@ -160,7 +176,7 @@ It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Gr
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Battle Cannon | Heavy | 72" | 1 | 6+ | 6+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
@@ -209,12 +225,12 @@ It is equipped with: Lasguns; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lasguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
+| Lasguns | Small Arms | 24" | User | 8+ | 10+ | |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
 
 ## Unit 8 — Troops — Conscripts
@@ -222,7 +238,7 @@ It is equipped with: Lasguns; Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 5+ | 2 | 4 | 4 | 10+ | 20 | 3 |
+| 6" | 5+ | 5+ | 2 | 4 | 4 | 11+ | 20 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -242,15 +258,15 @@ It is equipped with: Lasguns; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lasguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
+| Lasguns | Small Arms | 24" | User | 8+ | 10+ | |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
-## Unit 2 — Elites — Company Commander
+## Unit 2 — Elites — Command Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 1 | 1 | 6 | 9+ | 1 | 2 |
+| 6" | 3+ | 3+ | 1 | 1 | 4 | 9+ | 2 | 2 |
 
 ### Keywords
 Light, Infantry, Character, Officer
@@ -259,11 +275,11 @@ Light, Infantry, Character, Officer
 Infantry
 
 ### Traits
-Imperium, Astra Militarum, <Regiment>, Company Commander
+Imperium, Astra Militarum, <Regiment>, Command Squad
 
 ### Abilities
 ```
-Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.
+Vox Caster: When checking for being within command range, You can instead check for out of command to one unit in the detachment with a Vox Caster instead of the commander during the Command Step. If you do so, units within 3" of your commander are also within command.
 It is equipped with: Officer Weapons.
 ```
 
@@ -298,36 +314,6 @@ It is equipped with: Omnissian Axe & Servo-arm.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Omnissian Axe & Servo-arm | Melee | Melee | User | 8+ | 7+ |  |
-
-## Unit 6 — Elites — Sanctioned Psyker
-
-### Stats
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 4+ | 1 | 1 | 6 | 10+ | 1 | 2 |
-
-### Keywords
-Light, Infantry, Psyker, Character
-
-### Profile Keywords
-Infantry
-
-### Traits
-Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana, Primaris Psyker
-
-### Abilities
-```
-A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.
-```
-
-### Options
-- per: Per Unit
-  text: Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability.
-
-### Weapons
-| Name | Type | Range | A | SAP | SAT | Abilities |
-| --- | --- | --- | --- | --- | --- | --- |
-| Force Weapon | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 9 — Elites — Veterans
 
@@ -369,11 +355,11 @@ It is equipped with: Veteran Wargear; Chainswords.
 | --- | --- | --- | --- | --- | --- | --- |
 | Veteran Wargear | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
 | Chainswords | Melee | Melee | x2 | 8+ | 10+ |  |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
 
 ## Unit 10 — Elites — Stormtroopers
@@ -396,12 +382,18 @@ Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Scions
 ```
 Deep Strike
 It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
+Platoon Standard (option): This unit can reroll failed leadership rolls if it is not in melee with an enemy unit.
 ```
+
+### Options
+- per: Per Unit
+  Pt: 1
+  text: This unit can have a Platoon Standard
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hot-shot Lasguns | Small Arms | 18" | User | 6+ | 8+ | Rapid Fire |
+| Hot-shot Lasguns | Small Arms | 18" | User | 7+ | 10+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
@@ -424,7 +416,7 @@ Light, Infantry
 Infantry
 
 ### Traits
-Imperium, Astra Militarum, Militarum Auxilia, Ratlings
+Imperium, Astra Militarum, Militarum Auxilia, Ratlings (optional)
 
 ### Abilities
 ```
@@ -444,12 +436,12 @@ It is equipped with: Sniper Rifles; Close Combat Weapons.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6" | 4+ | 4+ | 2 | 2 | 5 | 10+ | 10 | 3 |
 
-## Unit 12 — Elites — Ogryn / crusaders
+## Unit 12 — Elites — Ogryn
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 2 | 2 | 6 | 10+ | 3 | 5 |
+| 6" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 5 | 5 |
 
 ### Keywords
 Light, Infantry
@@ -462,29 +454,15 @@ Imperium, Astra Militarum, Militarum Auxilia, Ogryns
 
 ### Abilities
 ```
-Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.
-Alternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.
-Alternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.
-It is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.
+It is equipped with: Ripper Guns; Ripper Gun Stocks; 
 ```
 
-### Weapons
+### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Ripper Guns | Small Arms | 12" | User | 7+ | 9+ |  |
 | Ripper Gun Stocks | Melee | Melee | User | 7+ | 9+ |  |
-| Crusader Power Swords | Melee | Melee | User | 8+ | 8+ |  |
 
-### Profiles
-#### 6 Ogryn / crusaders
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 4 | 4 | 6 | 10+ | 6 | 10 |
-
-#### 9 Ogryn / crusaders
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 6 | 6 | 6 | 10+ | 9 | 15 |
 
 ## Unit 13 — Elites — Special Weapons Squad
 
@@ -515,45 +493,35 @@ It is equipped with: Lasguns; Special Weapons; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lasguns | Small Arms | 24" | User | 8+ | 10+ | Rapid Fire |
+| Lasguns | Small Arms | 24" | User | 8+ | 10+ | |
 | Sniper Rifles | Small Arms | 36" | User | 7+ | 9+ | Sniper |
 | Special Weapons | Small Arms | 24" | User | 6+ | 8+ |  |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
-## Unit 30 — Elites — Command Squad
+## Unit 30 — Elites — Sanctioned Psyker 
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 1 | 1 | 4 | 8+ | 4 | 3 |
+| 6" | 5+ | 4+ | 1 | 1 | 4 | 9+ | 1 | 2 |
 
 ### Keywords
-Light, Infantry
-
-### Profile Keywords
-Infantry
+Light, Infantry, Character, Psyker
 
 ### Traits
-Imperium, Astra Militarum, Militarum Tempestus, Militarum Tempestus Command Squad
+Imperium, Astra Militarum, Astra Telepathica, Scholastica Psykana, Sanctioned Psyker 
 
 ### Abilities
 ```
-Deep Strike
-Platoon Standard: Add 1 to the Leadership characteristic of Militarum Tempestus units whilst they are within 6" of any friendly Militarum Tempestus units with a Platoon Standard.
-A Militarum Tempestus Command Squad is a unit that contains 4 models.
-It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
+Astral divination: After this unit makes a Move action, select one friendly LIGHT ASTRA MILITARUM unit within 3" of it. Until the end of the turn, that unit does not suffer the penalty for attacks made with ragned weapons that target obscured targets.
+It is equipped with: Force Weapon; Psychic Blast;
 ```
-
-### Options
-- per: Per Unit
-  Pt: 1
-  text: This unit can have a Platoon Standard
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hot-shot Lasguns | Small Arms | 18" | User | 6+ | 8+ | Rapid Fire |
-| Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
+| Psychic Blast | Heavy | 18" | User | 8+ | 10+ |  |
+| Force Weapon | Melee | Melee | User | 8+ | 10+ |  |
 
 ## Unit 32 — Elites — Commissar
 
@@ -598,25 +566,26 @@ Imperium, Astra Militarum, <Regiment>, Scout Sentinels
 ### Abilities
 ```
 Infiltrators
-Alternative: Armoured Sentinels (M 8", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).
-It is equipped with: Plasma Cannon.
+It is equipped with: Auto Cannon; Armoured Feet.
+It can choose a different Heavy weapon (option).
 ```
 
 ### Options
 - per: Per Model
   title: Heavy Weapon
-  text: For each model this unit contains, it
-  Choose 1: 1 Autocannon; 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser
+  text: For each model this unit contains, it exchange its Autocannon for
+  Choose 1: 1 Heavy Flamer; 1 Lascannon; 1 Missile Launcher; 1 Multi-laser; Plasma cannon;
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-laser | Heavy | 36" | 1 | 6+ | 10+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
+| Armoured Feet | Melee | Melee | User | 11+ | 12+ | |
 
 ### Profiles
 #### 2 Sentinel
@@ -664,7 +633,7 @@ Variant: Bane Wolf (Chem Cannon, Pt 6).
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Inferno Cannon | Heavy | 16" | 1 | 5+ | 8+ | Inferno |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
@@ -705,7 +674,7 @@ A Devil Dog is a unit that contains 1 model. It is equipped with: Melta Cannon; 
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Melta Cannon | Heavy | 24" | 2 | 10+ | 4+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
@@ -768,7 +737,7 @@ It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hot-shot Lasguns | Small Arms | 18" | User | 6+ | 8+ | Rapid Fire |
+| Hot-shot Lasguns | Small Arms | 18" | User | 7+ | 10+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
@@ -808,10 +777,10 @@ It is equipped with: Close Combat Weapons.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Mortar | Heavy | 48" | 1 | 8+ | 10+ | Barrage |
 
 ## Unit 18 — Heavy — Hydra
@@ -847,7 +816,7 @@ A Hydra is a unit that contains 1 model. It is equipped with: Hydra Quad Autocan
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Hydra Quad Autocannon | Heavy | 72" | 2 | 8+ | 6+ | Anti-air |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
@@ -870,12 +839,16 @@ Imperium, Astra Militarum, <Regiment>, Basilisk
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.
+Ordinance Heavy: When in reserves, this unit can fire its Earthshaker Cannon on the 2nd and 4th turns.
 ```
 
 ### Options
 - per: Per Unit
   title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
+- per: Per Unit
+  title: Wyvern
+  text: Instead of 1 Earthshaker Cannon, this unit can be equipped with 1 Wyvern Quad Stormshard Mortar. It loses the trait Basilisk and gains Wyvern.
 - per: Per Unit
   Pt: 1
   title: Heavy Weapon
@@ -885,8 +858,9 @@ A Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Can
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Earthshaker Cannon | Heavy | 240" | 1 | 6+ | 5+ | Barrage |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Earthshaker Cannon | Heavy | 12-240" | 2 | 6+ | 5+ | Barrage |
+| Wyvern Quad Stormshard Mortar | Heavy | 48" | 4 | 7+ | 9+ | Barrage |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
@@ -925,7 +899,7 @@ A Manticore is a unit that contains 1 model. It is equipped with: 4 Storm Eagle 
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Storm Eagle Rocket | Heavy | 120" | 2 | 4+ | 6+ | Barrage, One Use Only |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
@@ -975,7 +949,7 @@ It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Gr
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Battle Cannon | Heavy | 72" | 1 | 6+ | 6+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
@@ -995,7 +969,7 @@ It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Gr
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 4+ | 1 | 2 | 5 | 6+ | 1 | 7 |
+| 1" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 4 |
 
 ### Keywords
 Heavy, Vehicle
@@ -1005,30 +979,25 @@ Imperium, Astra Militarum, <Regiment>, Wyvern
 
 ### Abilities
 ```
-Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-Field Ordnance Battery does not appear in this Apocalypse datasheet; Wyvern is the closest heavy artillery substitute.
-A Wyvern is a unit that contains 1 model. It is equipped with: Wyvern Quad Stormshard Mortar; Heavy Bolter; Armoured Tracks.
+(Mostly) Immobile: This unit is never Out of Command.
+Artillery battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
+This unit is equipped with one Heavy Mortar
+It is equipped with: Heavy Mortar; Crew Lasguns; Combat Weapons.
 ```
 
 ### Options
 - per: Per Unit
   title: Heavy Weapon
-  text: Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.
-- per: Per Unit
-  Pt: 1
-  title: Heavy Weapon
-  text: Can also be equipped with one of the following
-  Choose 1: 1 Heavy Stubber; 1 Storm Bolter
+  text: Instead of 1 Heavy Mortar, this unit can be equipped with 1 Malleus Rocket Launcher or one heavy lascannon.
+
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wyvern Quad Stormshard Mortar | Heavy | 48" | 4 | 7+ | 9+ | Barrage |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
-| Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
-| Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
-| Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
-| Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
+| Heavy Mortar | Heavy | 60" | 1 | 6+ | 9+ | Barrage |
+| Crew Lasguns | Small Arms | 24| 1 | 8+ | 10+ | |
+| Heavy Lascannon | Heavy | 60" | 2 | 10+ | 5+ | 
+| Combat weapons | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 24 — Transport — Chimera
 
@@ -1066,7 +1035,7 @@ A Chimera is a unit that contains 1 model. It is equipped with: Heavy Bolter; 2 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Multi-laser | Heavy | 36" | 1 | 6+ | 10+ |  |
@@ -1103,7 +1072,7 @@ A Taurox is a unit that contains 1 model. It is equipped with: 2 Autocannons; Ar
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
 | Armoured Hull | Melee | Melee | User | 10+ | 10+ |  |
@@ -1146,8 +1115,35 @@ A Valkyrie is a unit that contains 1 model. It is equipped with: Hellstrike Miss
 | Hellstrike Missiles | Heavy | 72" | 1 | 6+ | 6+ |  |
 | Multi-laser | Heavy | 36" | 1 | 6+ | 10+ |  |
 | Multiple Rocket Pod | Heavy | 36" | 1 | 7+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Armoured Bulk | Melee | Melee | User | 10+ | 10+ |  |
+
+
+## Unit 25 — Air — Thunderbolt
+
+### Stats
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 20" | 6+ | 3+ | 1 | 3 | 5 | 6+ | 1 | 7 |
+
+### Keywords
+Heavy, Vehicle, Fly, Supersonic, Aircraft
+
+### Traits
+Imperium, Astra Militarum, Aeronautica Imperialis, Valkyrie
+
+### Abilities
+```
+Supersonic
+Tactical Bombs; Once per battle, when this unit finishes making a Move action, select one enemy unit within 6" of it. Roll four d6, subtracting 1 from each result if that unit is a character, and adding 1 to each result if the unit is garrisoning a Defensible Terrain feature; for each 4+, place one blast marker nex to that unit.
+It is equipped with Twin Autocannon; Armoured Hull; Twin Lascannon
+```
+
+### Weapons
+| Name | Type | Range | A | SAP | SAT | Abilities |
+| --- | --- | --- | --- | --- | --- | --- |
+| Twin Autocannon | Heavy | 48" | 2 | 7+ | 8+ |  |
+| Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 
 ## Unit 22 — Lord — Baneblade
 
@@ -1182,10 +1178,10 @@ A Baneblade is a unit that contains 1 model. It is equipped with: Autocannon; Ba
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Autocannon | Heavy | 48" | 1 | 8+ | 8+ |  |
+| Autocannon | Heavy | 48" | 1 | 7+ | 8+ |  |
 | Baneblade Cannon | Heavy | 72" | 4 | 5+ | 5+ |  |
 | Demolisher Cannon | Heavy | 24" | 2 | 6+ | 6+ | Destroyer |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Baneblade Anti-personnel Weapons | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
 | Twin Heavy Flamer | Heavy | 8" | 2 | 6+ | 9+ | Inferno |
@@ -1225,7 +1221,7 @@ A Shadowsword is a unit that contains 1 model. It is equipped with: Volcano Cann
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Volcano Cannon | Heavy | 72" | 4 | 7+ | 3+ | Destroyer |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Shadowsword Anti-personnel Weapons | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
 | Twin Heavy Flamer | Heavy | 8" | 2 | 6+ | 9+ | Inferno |

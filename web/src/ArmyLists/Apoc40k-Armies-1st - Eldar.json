@@ -389,20 +389,19 @@
           "Ld": "7",
           "Sv": "4+",
           "N": "1",
-          "Pt": "9",
+          "Pt": "10",
           "traits": [
             "Fire Dragons"
           ],
-          "abilities": "Equipped with Fire Pike and Fire Axe. \nIgnore Damage (6+). \nAssured Destruction: This unit rerolls wound rolls against Heavy or Super-heavy units. \nLord of <Fire Dragons>.",
+          "abilities": "Equipped with Fire Pike and Fire Axe. \nIgnore Damage (6+). \nAssured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. \nLord of <Fire Dragons>.",
           "weapons": [
             {
               "name": "Fire Pike",
               "type": "Heavy",
               "range": "6\"",
-              "attacks": "1",
+              "attacks": "2",
               "skill": "11+",
-              "armorPen": "4+",
-              "abilities": "Destroyer"
+              "armorPen": "3+"
             },
             {
               "name": "Fire Axe",
@@ -410,7 +409,7 @@
               "range": "Melee",
               "attacks": "User",
               "skill": "8+",
-              "armorPen": "4+"
+              "armorPen": "3+"
             }
           ]
         },
@@ -617,7 +616,8 @@
           "range": "18\"",
           "attacks": "User",
           "skill": "6+",
-          "armorPen": "9+"
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
         },
         {
           "name": "Close Combat Weapons",
@@ -647,9 +647,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
@@ -691,12 +691,12 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
-        "Sv": "8+",
+        "Sv": "7+",
         "N": "5",
-        "Pt": "4"
+        "Pt": "7"
       },
       "keywords": [
         "Light",
@@ -709,22 +709,16 @@
         "<Craftworld>",
         "Dire Avengers"
       ],
-      "abilities": "This unit can contain 10 Dire Avengers (10 Warriors Profile)\nThis unit is equipped with Shuriken Catapults and Close Combat Weapons.\nDefence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Defence Tactics: Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.",
-          "title": "Defence Tactics"
-        }
-      ],
+      "abilities": "This unit can contain 10 Dire Avengers (10 Warriors Profile)\nThis unit is equipped with Avenger Shuriken Catapults and Close Combat Weapons.\nDefence Tactics: Ignore the first blast marker this unit gets each turn.",
       "weapons": [
         {
-          "name": "Shuriken Catapults",
+          "name": "Avenger Shuriken Catapults",
           "type": "Small Arms",
           "range": "18\"",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
+          "skill": "5+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
         },
         {
           "name": "Close Combat Weapons",
@@ -746,7 +740,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
-          "Pt": "7"
+          "Pt": "14"
         }
       ]
     },
@@ -761,9 +755,9 @@
         "A": "2",
         "W": "2",
         "Ld": "5",
-        "Sv": "10+",
+        "Sv": "9+",
         "N": "10",
-        "Pt": "3"
+        "Pt": "4"
       },
       "keywords": [
         "Light",
@@ -805,12 +799,12 @@
         "M": "9\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "8+",
         "N": "5",
-        "Pt": "6"
+        "Pt": "7"
       },
       "keywords": [
         "Light",
@@ -837,7 +831,7 @@
           "name": "Power Swords",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "x2",
           "skill": "5+",
           "armorPen": "9+"
         }
@@ -853,7 +847,7 @@
           "Ld": "6",
           "Sv": "8+",
           "N": "10",
-          "Pt": "12"
+          "Pt": "14"
         }
       ]
     },
@@ -865,7 +859,7 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "6+",
@@ -905,9 +899,9 @@
           "name": "Scorpion Chainswords",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "User",
           "skill": "7+",
-          "armorPen": "9+"
+          "armorPen": "8+"
         }
       ],
       "profiles": [
@@ -933,12 +927,12 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "5"
+        "Pt": "6"
       },
       "keywords": [
         "Light",
@@ -951,13 +945,13 @@
         "<Craftworld>",
         "Fire Dragons"
       ],
-      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nEquipped with Fusion Guns; Melta Bombs;\nAssured Destruction: Re-roll wound rolls of 1 for attacks made by this unit that target Heavy or Super-heavy units.",
+      "abilities": "Can take 10 Warriors (10 Warriors Profile)\nEquipped with Fusion Guns; Melta Bombs;\nAssured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit.",
       "weapons": [
         {
           "name": "Fusion Guns",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "9+",
           "armorPen": "2+"
         },
@@ -976,12 +970,12 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2",
+          "A": "4",
           "W": "2",
           "Ld": "6",
           "Sv": "6+",
           "N": "10",
-          "Pt": "9"
+          "Pt": "12"
         }
       ]
     },
@@ -1257,15 +1251,15 @@
         "Fly",
         "Windriders"
       ],
-      "abilities": "Can Take 6 bikers (6 Skyrunners Profile) or 9 bikers (9 Skyrunners profile).\nEquipped with Close Combat weapons and Twin Shuriken Catapults.\nFor each model this unit contains, must exchange Twin shuriken catapults with: Scatter Laser; Shuriken Canon.",
+      "abilities": "Can Take 6 bikers (6 Skyrunners Profile) or 9 bikers (9 Skyrunners profile).\nEquipped with Close Combat weapons and each model has Shuriken Catapults.\nFor each model this unit contains, must exchange Twin shuriken catapults with: Scatter Laser; Shuriken Canon.",
       "options": [
         {
-          "per": "Per Model",
-          "text": "May exchange Twin Shuriken Catapult with",
+          "per": "Per Unit",
+          "text": "May exchange Twin Shuriken Catapults with",
           "title": "Heavy Weapon",
           "chooseOne": [
-            "Scatter Laser",
-            "Shuriken Canon"
+            "Scatter Lasers",
+            "Shuriken Canons"
           ],
           "chooseLimit": 1
         }
@@ -1275,25 +1269,26 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "x2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
           "type": "Heavy",
           "range": "24\"",
-          "attacks": "1",
+          "attacks": "User",
           "skill": "6+",
           "armorPen": "8+"
         },
         {
-          "name": "Twin Shuriken Catapult",
-          "type": "Heavy",
-          "range": "12\"",
-          "attacks": "2",
-          "skill": "8+",
-          "armorPen": "11+"
+          "name": "Shuriken Catapults",
+          "type": "Small Arms",
+          "range": "18\"",
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "9+",
+          "abilities": "Rapid Fire"
         },
         {
           "name": "Close Combat Weapons",
@@ -1400,9 +1395,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
@@ -1423,7 +1418,7 @@
         {
           "name": "Twin Shuriken Catapult",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "2",
           "skill": "8+",
           "armorPen": "11+"
@@ -1472,12 +1467,12 @@
         "M": "14\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "8+",
         "N": "5",
-        "Pt": "6"
+        "Pt": "7"
       },
       "keywords": [
         "Light",
@@ -1498,7 +1493,7 @@
           "name": "Lasblasters",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x3",
+          "attacks": "x2",
           "skill": "8+",
           "armorPen": "10+"
         },
@@ -1534,7 +1529,7 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "6+",
@@ -1557,7 +1552,7 @@
           "name": "Death Spinners",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "6+",
           "armorPen": "8+"
         },
@@ -1576,7 +1571,7 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2",
+          "A": "4",
           "W": "2",
           "Ld": "6",
           "Sv": "6+",
@@ -1612,31 +1607,24 @@
         "<Craftworld>",
         "Shining Spears"
       ],
-      "abilities": "Can take 6 Warriors (6 Warriors), 9 Warriors (9 Warriors).\nEquipped with: Laser lances (Ranged), Twin Shuriken Catapults; Laser Lances (Melee)",
+      "abilities": "Can take 6 Warriors (6 Warriors), 9 Warriors (9 Warriors).\nEquipped with: Twin Shuriken Catapults & Lance; Laser Lances",
       "weapons": [
         {
-          "name": "Laser Lances (Ranged)",
-          "type": "Small Arms",
-          "range": "6\"",
+          "name": "Shuriken Catapults & Lance",
+          "type": "Heavy",
+          "range": "18\"",
           "attacks": "User",
-          "skill": "10+",
-          "armorPen": "5+"
+          "skill": "6+",
+          "armorPen": "8+",
+          "abilities": "Rapid Fire"
         },
         {
-          "name": "Twin Shuriken Catapults",
-          "type": "Small Arms",
-          "range": "12\"",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Laser Lances (Melee)",
+          "name": "Laser Lances",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
-          "skill": "7+",
-          "armorPen": "5+"
+          "attacks": "x2",
+          "skill": "6+",
+          "armorPen": "4+"
         }
       ],
       "profiles": [
@@ -1645,24 +1633,12 @@
           "M": "17\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2",
+          "A": "1",
           "W": "2",
           "Ld": "6",
           "Sv": "5+",
           "N": "6",
           "Pt": "16"
-        },
-        {
-          "name": "9 Warriors",
-          "M": "17\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "3",
-          "W": "3",
-          "Ld": "6",
-          "Sv": "5+",
-          "N": "9",
-          "Pt": "24"
         }
       ]
     },
@@ -1738,9 +1714,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
@@ -1862,9 +1838,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
@@ -1986,7 +1962,7 @@
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "1",
+        "A": "2",
         "W": "1",
         "Ld": "6",
         "Sv": "6+",
@@ -2010,7 +1986,7 @@
           "name": "Reaper Launchers",
           "type": "Small Arms",
           "range": "48\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "6+",
           "armorPen": "6+"
         },
@@ -2107,9 +2083,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",
@@ -2138,7 +2114,7 @@
         {
           "name": "Twin Shuriken Catapult",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "2",
           "skill": "8+",
           "armorPen": "11+"
@@ -2209,7 +2185,7 @@
         {
           "name": "Twin Shuriken Catapult",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "2",
           "skill": "8+",
           "armorPen": "11+"
@@ -2280,7 +2256,7 @@
         {
           "name": "Twin Shuriken Catapult",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "2",
           "skill": "8+",
           "armorPen": "11+"
@@ -2387,7 +2363,7 @@
         {
           "name": "Twin Shuriken Catapult",
           "type": "Heavy",
-          "range": "12\"",
+          "range": "18\"",
           "attacks": "2",
           "skill": "8+",
           "armorPen": "11+"
@@ -2653,9 +2629,9 @@
           "name": "Scatter Laser",
           "type": "Heavy",
           "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "10+"
         },
         {
           "name": "Shuriken Cannon",

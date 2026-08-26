@@ -147,7 +147,7 @@ It is equipped with: Boltguns; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -252,7 +252,7 @@ It is equipped with: Boltguns; Close Combat Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -358,7 +358,7 @@ It is equipped with: Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 1 | 1 | 6 | 5+ | 1 | 3 |
+| 6" | 3+ | 3+ | 1 | 1 | 8 | 5+ | 1 | 3 |
 
 ### Keywords
 Light, Infantry, Character
@@ -386,7 +386,7 @@ It is equipped with: Neural Whips.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 1 | 6 | 11+ | 4 | 3 |
+| 6" | 3+ | 3+ | 2 | 1 | 7 | 11+ | 4 | 3 |
 
 ### Keywords
 Light, Infantry
@@ -723,7 +723,7 @@ It is equipped with: Heavy Bolter; Heavy Flamer; Multi-melta; Boltguns; Close Co
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -792,7 +792,7 @@ It is equipped with: Immolation Flamer; Armoured Tracks.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Immolation Flamer | Heavy | 12" | 2 | 6+ | 9+ | Inferno |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Twin Multi-melta | Heavy | 24" | 2 | 10+ | 4+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
@@ -824,7 +824,7 @@ It is equipped with: Heavy Bolter; Heavy Flamer; Mortifier Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Mortifier Weapons | Melee | Melee | x2 | 5+ | 7+ |  |
 
@@ -918,7 +918,7 @@ A Castigator is a unit that contains 1 model. It is equipped with: Castigator Au
 | --- | --- | --- | --- | --- | --- | --- |
 | Castigator Autocannons | Heavy | 48" | 2 | 5+ | 6+ | Rapid Fire |
 | Castigator Battle Cannon | Heavy | 48" | 1 | 6+ | 7+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
 ## Unit 28 — Heavy — Paragon Warsuits
@@ -948,7 +948,7 @@ Paragon Warsuits is a unit that contains 3 models. Every model is equipped with:
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Paragon Storm Bolters | Small Arms | 24" | User | 7+ | 10+ | Rapid Fire |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Paragon War Blade | Melee | Melee | User | 6+ | 6+ |  |
@@ -981,7 +981,7 @@ It is equipped with: Immolation Flamer; Armoured Tracks.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Immolation Flamer | Heavy | 12" | 2 | 6+ | 9+ | Inferno |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Heavy | 36" | 2 | 6+ | 9+ |  |
 | Twin Multi-melta | Heavy | 24" | 2 | 10+ | 4+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 

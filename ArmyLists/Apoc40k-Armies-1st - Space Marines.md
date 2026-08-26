@@ -222,12 +222,12 @@ Imperium, Adeptus Astartes, <Chapter>, Tactical Squad
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Grav-cannon | Heavy | 24" | 1 | 8+ | 6+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
-| Plasma Gun | Small Arms | 36" | 1 | 7+ | 7+ |  |
+| Plasma Gun | Small Arms | 24" | 1 | 7+ | 7+ | |
 | Flamer | Small Arms | 12" | 1 | 7+ | 9+ | Inferno |
 | Meltagun | Small Arms | 12" | 1 | 10+ | 4+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -272,8 +272,8 @@ Infiltrators
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Scout Weapons | Small Arms | 24" | User | 7+ | 9+ |  |
 | Sniper Rifles | Small Arms | 36" | User | 7+ | 9+ | Sniper |
 | Combat Knives | Melee | Melee | User | 6+ | 9+ |  |
@@ -283,7 +283,7 @@ Infiltrators
 #### 10 Scouts
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 8+ | 10 | 14 |
 
 ## Unit 8 — Elites — Infernus Marines
 
@@ -363,7 +363,7 @@ Imperium, Adeptus Astartes, <Chapter>, Vanguard Veteran Squad
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Bolt Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
-| Vanguard Weapons | Melee | Melee | x3 | 6+ | 8+ |  |
+| Vanguard Weapons | Melee | Melee | x3 | 7+ | 10+ |  |
 
 ### Profiles
 #### 10 Veterans
@@ -421,10 +421,10 @@ Imperium, Adeptus Astartes, <Chapter>, Sternguard Veteran Squad
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Grav-cannon | Heavy | 24" | 1 | 8+ | 6+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
 | Special Issue Boltguns | Small Arms | 30" | User | 6+ | 9+ | Rapid Fire |
@@ -441,7 +441,7 @@ Imperium, Adeptus Astartes, <Chapter>, Sternguard Veteran Squad
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 3 | 7 | 4+ | 5 | 15 |
+| 5" | 3+ | 3+ | 2 | 3 | 7 | 4+ | 5 | 14 |
 
 ### Keywords
 Light, Infantry, Terminator
@@ -475,14 +475,14 @@ Deep Strike
 #### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 32 |
+| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 28 |
 
 ## Unit 12 — Elites — Terminator Assault Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 3 | 7 | 6+ | 5 | 14 |
+| 5" | 3+ | 3+ | 2 | 3 | 7 | 6+ | 5 | 13 |
 
 ### Keywords
 Light, Infantry, Terminator
@@ -512,7 +512,7 @@ If this unit has Storm Shields, they have Save Characteristic of 3+ vs Melee wea
 #### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 28 |
+| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 26 |
 
 ## Unit 13 — Elites — Ancient 
 
@@ -556,7 +556,7 @@ If has Tactical Precision: Re-roll wound rolls of 1 for attacks made by friendly
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Close Combat Weapons | Melee | Melee | User | 9+ | 9+ |  |
+| Close Combat Weapons | Melee | Melee | User | 8+ | 9+ |  |
 
 ## Unit 14 — Elites — Honour Guard
 
@@ -661,7 +661,7 @@ Imperium, Adeptus Astartes, <Chapter>, Bike Squad
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Twin Boltguns | Small Arms | 24" | x2 | 7+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
@@ -700,7 +700,7 @@ Imperium, Adeptus Astartes, <Chapter>, Land Speeders
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Assault Cannon | Heavy | 24" | 2 | 6+ | 8+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Typhoon Missile Launcher | Heavy | 48" | 2 | 7+ | 7+ |  |
@@ -814,9 +814,9 @@ If this unit contains 10 models, it is also equipped with Boltguns.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Grav-cannon | Heavy | 24" | 1 | 8+ | 6+ |  |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
@@ -890,10 +890,10 @@ It is equipped with: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
 | Assault Cannon | Heavy | 24" | 2 | 6+ | 8+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
-| Twin Autocannon | Heavy | 48" | 2 | 8+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Autocannon | Heavy | 48" | 2 | 7+ | 8+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Heavy Flamer | Heavy | 8" | 2 | 6+ | 9+ | Inferno |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
@@ -938,10 +938,10 @@ It is equipped with: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
 | Assault Cannon | Heavy | 24" | 2 | 6+ | 8+ |  |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Heavy Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
-| Missile Launcher | Heavy | 48" | 1 | 7+ | 7+ |  |
+| Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
-| Twin Autocannon | Heavy | 48" | 2 | 8+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Autocannon | Heavy | 48" | 2 | 7+ | 8+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Heavy Flamer | Heavy | 8" | 2 | 6+ | 9+ | Inferno |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Storm Bolter | Small Arms | 24" | 1 | 9+ | 10+ | Rapid Fire |
@@ -979,7 +979,7 @@ It is equipped with: Predator Autocannon; Armoured Tracks.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Bolter | Heavy | 36" | 1 | 7+ | 9+ |  |
+| Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Lascannon | Heavy | 48" | 1 | 10+ | 5+ |  |
 | Predator Autocannon | Heavy | 48" | 2 | 7+ | 7+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
@@ -1057,7 +1057,7 @@ Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. 
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
@@ -1121,7 +1121,7 @@ Transport: This unit can transport up to 6 friendly <Chapter> Infantry models. I
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Twin Assault Cannon | Heavy | 24" | 4 | 6+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |
 
@@ -1199,7 +1199,7 @@ Transport: This unit can transport up to 12 Infantry models and 1 Dreadnought. J
 | Hurricane Bolter | Heavy | 24" | 2 | 7+ | 9+ | Rapid Fire |
 | Stormstrike Missile Launcher | Heavy | 72" | 1 | 10+ | 6+ |  |
 | Twin Assault Cannon | Heavy | 24" | 4 | 6+ | 8+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Heavy Plasma Cannon | Heavy | 36" | 2 | 7+ | 7+ | Supercharge |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Twin Multi-Melta | Heavy | 24" | 2 | 10+ | 4+ |  |
@@ -1234,6 +1234,6 @@ Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. 
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
-| Twin Heavy Bolter | Heavy | 36" | 2 | 7+ | 9+ |  |
+| Twin Heavy Bolter | Arms | 36" | 2 | 6+ | 9+ |  |
 | Twin Lascannon | Heavy | 48" | 2 | 10+ | 5+ |  |
 | Armoured Tracks | Melee | Melee | User | 10+ | 10+ |  |

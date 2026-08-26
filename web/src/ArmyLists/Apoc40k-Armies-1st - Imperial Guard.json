@@ -47,15 +47,15 @@
     {
       "no": 3,
       "type": "HQ",
-      "name": "Lord Commissar",
+      "name": "Commander",
       "stats": {
         "M": "6\"",
-        "WS": "2+",
-        "BS": "2+",
+        "WS": "3+",
+        "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "7",
-        "Sv": "7+",
+        "Ld": "6",
+        "Sv": "9+",
         "N": "1",
         "Pt": "4"
       },
@@ -70,19 +70,40 @@
       "traits": [
         "Imperium",
         "Astra Militarum",
-        "Officio Prefectus",
-        "Commissar",
-        "Lord Commissar"
+        "Officio Prefectus"
       ],
-      "abilities": "Aura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit.\nIt is equipped with: Commissar Weapons.",
+      "profileTraits": [
+        "Commander"
+      ],
+      "abilities": "It is equipped with: Combat Weapons.",
+      "profileAbilities": "Officer: At the start of the Generate Command Assets step, if this unit is a WARLORD and is on the battlefield, you generate one extra Command Asset.",
       "weapons": [
         {
-          "name": "Commissar Weapons",
+          "name": "Combat Weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
           "skill": "10+",
           "armorPen": "11+"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Lord Commissar",
+          "M": "6\"",
+          "WS": "2+",
+          "BS": "2+",
+          "A": "1",
+          "W": "1",
+          "Ld": "7",
+          "Sv": "7+",
+          "N": "1",
+          "Pt": "4",
+          "traits": [
+            "Commissar",
+            "Lord Commissar"
+          ],
+          "abilities": "Exchange Company Officer with Aura of Discipline.\nAura of Discipline: Friendly Astra Militarum units can use this unit's Leadership characteristic instead of their own whilst they are within 6\" of this unit."
         }
       ]
     },
@@ -97,9 +118,9 @@
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "9+",
         "N": "4",
-        "Pt": "2"
+        "Pt": "3"
       },
       "keywords": [
         "Light",
@@ -113,40 +134,23 @@
         "Imperium",
         "Astra Militarum",
         "<Regiment>",
-        "Command Squad"
+        "Command Squad",
+        "Company Command"
       ],
-      "abilities": "Regimental Standard: Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6\" of any friendly <Regiment> units with a Regimental Standard.\nIt is equipped with: Lasguns; Close Combat Weapons.",
+      "abilities": "This unit must take has a Regimental Standard and Heavy Flamer.\nIt is equipped with Lasguns; Close Combat Weapons; Heavy Flamer;\nIt can exchange its Regimental Standard and Heavy Flamer for Master of Ordinance.\n(option), Master of the Fleet (option)\nIt can exchange its Heavy Flamer for AT Weapons.\nRegimental Standard (option): Add 1 to the Leadership characteristic of <Regiment> units whilst they are within 6\" of any friendly <Regiment> units with a Regimental Standard.\nMaster of Ordinance (option): Reroll hit rolls of 1 with ranged attacks with the Barrage ability and Imperial Guard and Vehicle within 6\" of this unit.\nNaster of the Fleet",
       "options": [
         {
           "per": "Per Unit",
-          "text": "It can contain 1 weapons team model instead of 2 other models.",
-          "Pt": "1",
-          "title": "Weapons Team"
+          "text": "Gain Master of Ordinance, and Artillery Barrage. Gain the traits Officer, Master of Ordinance.",
+          "Pt": "2",
+          "title": "Master of Ordinance",
+          "limit": "group Exclusive",
+          "group": "title"
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with 1 Heavy Flamer.",
-          "Pt": "1",
-          "title": "Heavy Weapon"
-        },
-        {
-          "per": "Per Unit",
-          "text": "If this unit contains a weapons team model, it",
-          "title": "Weapons Team",
-          "chooseOne": [
-            "1 Autocannon",
-            "1 Heavy Bolter",
-            "1 Lascannon",
-            "1 Missile Launcher",
-            "1 Mortar"
-          ],
-          "chooseLimit": 1
-        },
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Regimental Standard",
-          "Pt": "1",
-          "title": "Regimental Standard"
+          "text": "If this unit has a Heavy Flamer, it can exchange it for AT weapons",
+          "Pt": "0"
         }
       ],
       "weapons": [
@@ -156,8 +160,7 @@
           "range": "24\"",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
+          "armorPen": "10+"
         },
         {
           "name": "Close Combat Weapons",
@@ -166,22 +169,6 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "10+"
-        },
-        {
-          "name": "Autocannon",
-          "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "8+",
-          "armorPen": "8+"
-        },
-        {
-          "name": "Heavy Bolter",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
         },
         {
           "name": "Heavy Flamer",
@@ -193,36 +180,28 @@
           "abilities": "Inferno"
         },
         {
-          "name": "Lascannon",
+          "name": "Artillery Barrage",
           "type": "Heavy",
-          "range": "48\"",
-          "attacks": "1",
-          "skill": "10+",
-          "armorPen": "5+"
-        },
-        {
-          "name": "Missile Launcher",
-          "type": "Heavy",
-          "range": "48\"",
+          "range": "100\"",
           "attacks": "1",
           "skill": "7+",
-          "armorPen": "7+"
+          "armorPen": "7+",
+          "abilities": "Barrage"
         },
         {
-          "name": "Mortar",
-          "type": "Heavy",
-          "range": "48\"",
+          "name": "AT Weapons",
+          "type": "Small Arms",
+          "range": "24\"",
           "attacks": "1",
-          "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Barrage"
+          "skill": "9+",
+          "armorPen": "6+"
         }
       ]
     },
     {
-      "no": 29,
+      "no": 5,
       "type": "HQ",
-      "name": "Master Officer",
+      "name": "Tank Commander",
       "stats": {
         "M": "10\"",
         "WS": "6+",
@@ -247,7 +226,7 @@
         "Leman Russ",
         "Tank Commander"
       ],
-      "abilities": "Tank Commander: If a friendly <Regiment> Leman Russ unit starts a Move action within 6\" of this unit, that unit can be ordered to go full throttle; add 2\" to that unit's Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.\nGrinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.\nChoose either Tank Commander, Master of Ordnance, or Officer of the Fleet for this slot.\nAlternative: Master of Ordnance (Pt 5) with Master of Ballistics ability.\nAlternative: Officer of the Fleet (Pt 2) with Strafing Coordinates ability.\nAlternative: Knight Commander Pask (Cadian, BS 2+, Pt 13, Knight Commander ability).\nIt is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.",
+      "abilities": "Tank Commander: If a friendly <Regiment> Leman Russ unit starts a Move action within 6\" of this unit, that unit can be ordered to go full throttle; add 2\" to that unit's Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.\nGrinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.\nChoose either Tank Commander, \nGrinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.",
       "options": [
         {
           "per": "Per Unit",
@@ -304,7 +283,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -475,8 +454,7 @@
           "range": "24\"",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
+          "armorPen": "10+"
         },
         {
           "name": "Close Combat Weapons",
@@ -491,7 +469,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -499,7 +477,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -515,7 +493,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -540,9 +518,9 @@
         "A": "2",
         "W": "4",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "11+",
         "N": "20",
-        "Pt": "3"
+        "Pt": "4"
       },
       "keywords": [
         "Light",
@@ -565,8 +543,7 @@
           "range": "24\"",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
+          "armorPen": "10+"
         },
         {
           "name": "Close Combat Weapons",
@@ -581,16 +558,16 @@
     {
       "no": 2,
       "type": "Elites",
-      "name": "Company Commander",
+      "name": "Command Squad",
       "stats": {
         "M": "6\"",
         "WS": "3+",
         "BS": "3+",
         "A": "1",
         "W": "1",
-        "Ld": "6",
+        "Ld": "4",
         "Sv": "9+",
-        "N": "1",
+        "N": "2",
         "Pt": "2"
       },
       "keywords": [
@@ -606,9 +583,9 @@
         "Imperium",
         "Astra Militarum",
         "<Regiment>",
-        "Company Commander"
+        "Command Squad"
       ],
-      "abilities": "Officer: At the start of the Generate Command Assets step, if this unit is a Warlord and is on the battlefield, you generate one extra Command Asset.\nIt is equipped with: Officer Weapons.",
+      "abilities": "Vox Caster: When checking for being within command range, You can instead check for out of command to one unit in the detachment with a Vox Caster instead of the commander during the Command Step. If you do so, units within 3\" of your commander are also within command.\nIt is equipped with: Officer Weapons.",
       "weapons": [
         {
           "name": "Officer Weapons",
@@ -658,55 +635,6 @@
           "attacks": "User",
           "skill": "8+",
           "armorPen": "7+"
-        }
-      ]
-    },
-    {
-      "no": 6,
-      "type": "Elites",
-      "name": "Sanctioned Psyker",
-      "stats": {
-        "M": "6\"",
-        "WS": "4+",
-        "BS": "4+",
-        "A": "1",
-        "W": "1",
-        "Ld": "6",
-        "Sv": "10+",
-        "N": "1",
-        "Pt": "2"
-      },
-      "keywords": [
-        "Light",
-        "Infantry",
-        "Psyker",
-        "Character"
-      ],
-      "profileKeywords": [
-        "Infantry"
-      ],
-      "traits": [
-        "Imperium",
-        "Astra Militarum",
-        "Astra Telepathica",
-        "Scholastica Psykana",
-        "Primaris Psyker"
-      ],
-      "abilities": "A Primaris Psyker is a unit that contains 1 model. It is equipped with: Force Weapon.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "Alternative: Wyrdvane Psykers (3 models, Pt 1; 6 models, Pt 2; 9 models, Pt 3) with Choir of Minds ability."
-        }
-      ],
-      "weapons": [
-        {
-          "name": "Force Weapon",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "10+",
-          "armorPen": "10+"
         }
       ]
     },
@@ -789,7 +717,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -797,7 +725,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -822,7 +750,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -864,15 +792,22 @@
         "Militarum Tempestus",
         "Militarum Tempestus Scions"
       ],
-      "abilities": "Deep Strike\nIt is equipped with: Hot-shot Lasguns; Close Combat Weapons.",
+      "abilities": "Deep Strike\nIt is equipped with: Hot-shot Lasguns; Close Combat Weapons.\nPlatoon Standard (option): This unit can reroll failed leadership rolls if it is not in melee with an enemy unit.",
+      "options": [
+        {
+          "per": "Per Unit",
+          "text": "This unit can have a Platoon Standard",
+          "Pt": "1"
+        }
+      ],
       "weapons": [
         {
           "name": "Hot-shot Lasguns",
           "type": "Small Arms",
           "range": "18\"",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
+          "skill": "7+",
+          "armorPen": "10+",
           "abilities": "Rapid Fire"
         },
         {
@@ -925,7 +860,7 @@
         "Imperium",
         "Astra Militarum",
         "Militarum Auxilia",
-        "Ratlings"
+        "Ratlings (optional)"
       ],
       "abilities": "Infiltrators, Stealth\nIt is equipped with: Sniper Rifles; Close Combat Weapons.",
       "weapons": [
@@ -965,16 +900,16 @@
     {
       "no": 12,
       "type": "Elites",
-      "name": "Ogryn / crusaders",
+      "name": "Ogryn",
       "stats": {
         "M": "6\"",
         "WS": "3+",
         "BS": "4+",
         "A": "2",
         "W": "2",
-        "Ld": "6",
-        "Sv": "10+",
-        "N": "3",
+        "Ld": "5",
+        "Sv": "9+",
+        "N": "5",
         "Pt": "5"
       },
       "keywords": [
@@ -990,8 +925,8 @@
         "Militarum Auxilia",
         "Ogryns"
       ],
-      "abilities": "Alternative: Crusaders (2/4/6/8/10 models, Pt 1/2/3/4/5) with Ecclesiarchy Battle Conclave ability.\nAlternative: Ministorum Priest (1 model, Pt 3) with War Hymns ability.\nAlternative: Bullgryns (3/6/9 models, Pt 4/8/12) with Bullgryn Shields.\nIt is equipped with: Ripper Guns; Ripper Gun Stocks; Crusader Power Swords.",
-      "weapons": [
+      "abilities": "It is equipped with: Ripper Guns; Ripper Gun Stocks;",
+      "profileWeapons": [
         {
           "name": "Ripper Guns",
           "type": "Small Arms",
@@ -1007,40 +942,6 @@
           "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
-        },
-        {
-          "name": "Crusader Power Swords",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "User",
-          "skill": "8+",
-          "armorPen": "8+"
-        }
-      ],
-      "profiles": [
-        {
-          "name": "6 Ogryn / crusaders",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "4",
-          "W": "4",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "6",
-          "Pt": "10"
-        },
-        {
-          "name": "9 Ogryn / crusaders",
-          "M": "6\"",
-          "WS": "3+",
-          "BS": "4+",
-          "A": "6",
-          "W": "6",
-          "Ld": "6",
-          "Sv": "10+",
-          "N": "9",
-          "Pt": "15"
         }
       ]
     },
@@ -1087,8 +988,7 @@
           "range": "24\"",
           "attacks": "User",
           "skill": "8+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
+          "armorPen": "10+"
         },
         {
           "name": "Sniper Rifles",
@@ -1120,51 +1020,43 @@
     {
       "no": 30,
       "type": "Elites",
-      "name": "Command Squad",
+      "name": "Sanctioned Psyker",
       "stats": {
         "M": "6\"",
-        "WS": "4+",
-        "BS": "3+",
+        "WS": "5+",
+        "BS": "4+",
         "A": "1",
         "W": "1",
         "Ld": "4",
-        "Sv": "8+",
-        "N": "4",
-        "Pt": "3"
+        "Sv": "9+",
+        "N": "1",
+        "Pt": "2"
       },
       "keywords": [
         "Light",
-        "Infantry"
-      ],
-      "profileKeywords": [
-        "Infantry"
+        "Infantry",
+        "Character",
+        "Psyker"
       ],
       "traits": [
         "Imperium",
         "Astra Militarum",
-        "Militarum Tempestus",
-        "Militarum Tempestus Command Squad"
+        "Astra Telepathica",
+        "Scholastica Psykana",
+        "Sanctioned Psyker"
       ],
-      "abilities": "Deep Strike\nPlatoon Standard: Add 1 to the Leadership characteristic of Militarum Tempestus units whilst they are within 6\" of any friendly Militarum Tempestus units with a Platoon Standard.\nA Militarum Tempestus Command Squad is a unit that contains 4 models.\nIt is equipped with: Hot-shot Lasguns; Close Combat Weapons.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Platoon Standard",
-          "Pt": "1"
-        }
-      ],
+      "abilities": "Astral divination: After this unit makes a Move action, select one friendly LIGHT ASTRA MILITARUM unit within 3\" of it. Until the end of the turn, that unit does not suffer the penalty for attacks made with ragned weapons that target obscured targets.\nIt is equipped with: Force Weapon; Psychic Blast;",
       "weapons": [
         {
-          "name": "Hot-shot Lasguns",
-          "type": "Small Arms",
+          "name": "Psychic Blast",
+          "type": "Heavy",
           "range": "18\"",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
-          "abilities": "Rapid Fire"
+          "skill": "8+",
+          "armorPen": "10+"
         },
         {
-          "name": "Close Combat Weapons",
+          "name": "Force Weapon",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
@@ -1239,18 +1131,18 @@
         "<Regiment>",
         "Scout Sentinels"
       ],
-      "abilities": "Infiltrators\nAlternative: Armoured Sentinels (M 8\", Sv 6+, Pt 3/6/9 for 1/2/3 models; adds Plasma Cannon option).\nIt is equipped with: Plasma Cannon.",
+      "abilities": "Infiltrators\nIt is equipped with: Auto Cannon; Armoured Feet.\nIt can choose a different Heavy weapon (option).",
       "options": [
         {
           "per": "Per Model",
-          "text": "For each model this unit contains, it",
+          "text": "For each model this unit contains, it exchange its Autocannon for",
           "title": "Heavy Weapon",
           "chooseOne": [
-            "1 Autocannon",
             "1 Heavy Flamer",
             "1 Lascannon",
             "1 Missile Launcher",
-            "1 Multi-laser"
+            "1 Multi-laser",
+            "Plasma cannon"
           ],
           "chooseLimit": 1
         }
@@ -1261,7 +1153,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -1286,7 +1178,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -1305,6 +1197,14 @@
           "skill": "7+",
           "armorPen": "7+",
           "abilities": "Supercharge"
+        },
+        {
+          "name": "Armoured Feet",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "11+",
+          "armorPen": "12+"
         }
       ],
       "profiles": [
@@ -1398,7 +1298,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1509,7 +1409,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1659,8 +1559,8 @@
           "type": "Small Arms",
           "range": "18\"",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "8+",
+          "skill": "7+",
+          "armorPen": "10+",
           "abilities": "Rapid Fire"
         },
         {
@@ -1744,7 +1644,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -1752,7 +1652,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1768,7 +1668,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "8+",
           "armorPen": "7+"
         },
         {
@@ -1841,7 +1741,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -1905,12 +1805,17 @@
         "<Regiment>",
         "Basilisk"
       ],
-      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.",
+      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Basilisk is a unit that contains 1 model. It is equipped with: Earthshaker Cannon; Heavy Bolter; Armoured Tracks.\nOrdinance Heavy: When in reserves, this unit can fire its Earthshaker Cannon on the 2nd and 4th turns.",
       "options": [
         {
           "per": "Per Unit",
           "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
           "title": "Heavy Weapon"
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Earthshaker Cannon, this unit can be equipped with 1 Wyvern Quad Stormshard Mortar. It loses the trait Basilisk and gains Wyvern.",
+          "title": "Wyvern"
         },
         {
           "per": "Per Unit",
@@ -1928,10 +1833,19 @@
         {
           "name": "Earthshaker Cannon",
           "type": "Heavy",
-          "range": "240\"",
-          "attacks": "1",
+          "range": "12-240\"",
+          "attacks": "2",
           "skill": "6+",
           "armorPen": "5+",
+          "abilities": "Barrage"
+        },
+        {
+          "name": "Wyvern Quad Stormshard Mortar",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "4",
+          "skill": "7+",
+          "armorPen": "9+",
           "abilities": "Barrage"
         },
         {
@@ -1939,7 +1853,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2037,7 +1951,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2159,7 +2073,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2278,15 +2192,15 @@
       "type": "Heavy",
       "name": "Field Ordinance",
       "stats": {
-        "M": "12\"",
-        "WS": "6+",
+        "M": "1\"",
+        "WS": "4+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "5",
-        "Sv": "6+",
+        "Sv": "8+",
         "N": "1",
-        "Pt": "7"
+        "Pt": "4"
       },
       "keywords": [
         "Heavy",
@@ -2298,71 +2212,34 @@
         "<Regiment>",
         "Wyvern"
       ],
-      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nField Ordnance Battery does not appear in this Apocalypse datasheet; Wyvern is the closest heavy artillery substitute.\nA Wyvern is a unit that contains 1 model. It is equipped with: Wyvern Quad Stormshard Mortar; Heavy Bolter; Armoured Tracks.",
+      "abilities": "(Mostly) Immobile: This unit is never Out of Command.\nArtillery battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nThis unit is equipped with one Heavy Mortar\nIt is equipped with: Heavy Mortar; Crew Lasguns; Combat Weapons.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Heavy Bolter, this unit can be equipped with 1 Heavy Flamer.",
+          "text": "Instead of 1 Heavy Mortar, this unit can be equipped with 1 Malleus Rocket Launcher or one heavy lascannon.",
           "title": "Heavy Weapon"
-        },
-        {
-          "per": "Per Unit",
-          "text": "Can also be equipped with one of the following",
-          "Pt": "1",
-          "title": "Heavy Weapon",
-          "chooseOne": [
-            "1 Heavy Stubber",
-            "1 Storm Bolter"
-          ],
-          "chooseLimit": 1
         }
       ],
       "weapons": [
         {
-          "name": "Wyvern Quad Stormshard Mortar",
+          "name": "Heavy Mortar",
           "type": "Heavy",
-          "range": "48\"",
-          "attacks": "4",
-          "skill": "7+",
+          "range": "60\"",
+          "attacks": "1",
+          "skill": "6+",
           "armorPen": "9+",
           "abilities": "Barrage"
         },
         {
-          "name": "Heavy Bolter",
-          "type": "Heavy",
-          "range": "36\"",
-          "attacks": "1",
-          "skill": "7+",
-          "armorPen": "9+"
-        },
-        {
-          "name": "Heavy Flamer",
-          "type": "Heavy",
-          "range": "8\"",
-          "attacks": "1",
-          "skill": "6+",
-          "armorPen": "9+",
-          "abilities": "Inferno"
-        },
-        {
-          "name": "Heavy Stubber",
-          "type": "Heavy",
-          "range": "36\"",
+          "name": "Crew Lasguns",
+          "type": "Small Arms",
+          "range": "24",
           "attacks": "1",
           "skill": "8+",
           "armorPen": "10+"
         },
         {
-          "name": "Storm Bolter",
-          "type": "Small Arms",
-          "range": "24\"",
-          "attacks": "1",
-          "skill": "9+",
-          "armorPen": "10+",
-          "abilities": "Rapid Fire"
-        },
-        {
-          "name": "Armoured Tracks",
+          "name": "Combat weapons",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
@@ -2432,7 +2309,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2534,7 +2411,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -2638,7 +2515,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "1",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2648,6 +2525,54 @@
           "attacks": "User",
           "skill": "10+",
           "armorPen": "10+"
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "type": "Air",
+      "name": "Thunderbolt",
+      "stats": {
+        "M": "20\"",
+        "WS": "6+",
+        "BS": "3+",
+        "A": "1",
+        "W": "3",
+        "Ld": "5",
+        "Sv": "6+",
+        "N": "1",
+        "Pt": "7"
+      },
+      "keywords": [
+        "Heavy",
+        "Vehicle",
+        "Fly",
+        "Supersonic",
+        "Aircraft"
+      ],
+      "traits": [
+        "Imperium",
+        "Astra Militarum",
+        "Aeronautica Imperialis",
+        "Valkyrie"
+      ],
+      "abilities": "Supersonic\nTactical Bombs; Once per battle, when this unit finishes making a Move action, select one enemy unit within 6\" of it. Roll four d6, subtracting 1 from each result if that unit is a character, and adding 1 to each result if the unit is garrisoning a Defensible Terrain feature; for each 4+, place one blast marker nex to that unit.\nIt is equipped with Twin Autocannon; Armoured Hull; Twin Lascannon",
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "7+",
+          "armorPen": "8+"
+        },
+        {
+          "name": "Twin Lascannon",
+          "type": "Heavy",
+          "range": "48\"",
+          "attacks": "2",
+          "skill": "10+",
+          "armorPen": "5+"
         }
       ]
     },
@@ -2702,7 +2627,7 @@
           "type": "Heavy",
           "range": "48\"",
           "attacks": "1",
-          "skill": "8+",
+          "skill": "7+",
           "armorPen": "8+"
         },
         {
@@ -2727,7 +2652,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
@@ -2825,7 +2750,7 @@
           "type": "Heavy",
           "range": "36\"",
           "attacks": "2",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "9+"
         },
         {
