@@ -1537,6 +1537,15 @@
         "Pt": "7"
       },
       "keywords": [
+        "Light",
+        "Infantry",
+        "Jump Pack"
+      ],
+      "traits": [
+        "Aeldari",
+        "Asuryani",
+        "Aspect Warrior",
+        "<Craftworld>",
         "Warp Spiders"
       ],
       "abilities": "Can take 10 Warriprs (10 Warriors Profile).\nEquipped with Death Spinners and Close Combat Weapons\nDeep Strike\nWarp Jump Generator: Instead of making a Move action, this unit can perform a warp jump. If it has any blast markers next to it, you must first resolve damage for it as if it were the Damage phase. If it is not destroyed, remove this unit from the battlefield, set it up anywhere on the battlefield that is more than 9\" away from any enemy units and then roll one D12; on a 1, place one blast marker next to this unit.",

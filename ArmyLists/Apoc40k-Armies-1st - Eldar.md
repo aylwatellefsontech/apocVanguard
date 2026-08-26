@@ -839,11 +839,11 @@ Skyleap: When this unit is deployed from reserves, it can lose or gain supersoni
 | 7" | 3+ | 3+ | 2 | 1 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
-Warp Spiders
-
-### Triats
-Aeldari, Asuryani, Aspect Warrior, <Craftworld>, 
 Light, Infantry, Jump Pack
+
+### Traits 
+Aeldari, Asuryani, Aspect Warrior, <Craftworld>, Warp Spiders
+
 
 ### Abilities
 ```

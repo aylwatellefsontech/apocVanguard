@@ -154,7 +154,7 @@ Waaagh! Energy: At the start of the Action phase, if this unit is within 6" of 2
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Weirdboy Staff | Melee | Melee | User | 7+ | 9+ |  |
+| Weirdboy Staff | Melee | Melee | User | 8+ | 9+ |  |
 
 ## Unit 5 — HQ — Deffkilla Wartrike
 
@@ -239,7 +239,7 @@ It can exchange its Sluggas and Choppas for Shootas and Close Combat Weapons (op
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 1 | 1 | 4 | 11+ | 10 | 2 |
+| 5" | 5+ | 4+ | 2 | 2 | 4 | 11+ | 20 | 2 |
 
 ### Keywords
 Light, Infantry
@@ -268,15 +268,10 @@ This unit can include a Runtherd (option). If this unit includes a Runtherd, it 
 | Goaded Weapons | Melee | Melee | User | 9+ | 11+ |  |
 
 ### Profiles
-#### 20 Grots
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 2 | 2 | 4 | 11+ | 20 | 3 |
-
 #### 30 Grots
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 5+ | 4+ | 3 | 3 | 4 | 11+ | 30 | 4 |
+| 5" | 5+ | 4+ | 3 | 3 | 4 | 11+ | 30 | 3 |
 
 ## Unit 8 — Elites — Painboy
 
@@ -325,6 +320,7 @@ Mekaniak: At the end of the Action phase, this unit can attempt to repair one fr
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Meks Tools | Melee | Melee | User | 9+ | 8+ |  |
+| Meks Gunz | Small Arms | 24" | User | 9+ | 9+ |  |
 
 ## Unit 10 — Elites — Burna Boyz
 
@@ -348,19 +344,19 @@ Burna Boyz are a unit that contains 5 models. It can contain 10 models (10 Boyz 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Burna (Ranged) | Small Arms | 8" | x3 | 7+ | 9+ | Inferno |
-| Burna (Melee) | Melee | Melee | x2 | 7+ | 9+ |  |
+| Burna (Ranged) | Small Arms | 8" | x2 | 7+ | 9+ | Inferno |
+| Burna (Melee) | Melee | Melee | x2 | 9+ | 8+ |  |
 
 ### Profiles
 #### 10 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 2 | 2 | 5 | 10+ | 10 | 6 |
+| 5" | 3+ | 5+ | 2 | 2 | 5 | 9+ | 10 | 6 |
 
 #### 15 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 3 | 3 | 6 | 10+ | 15 | 9 |
+| 5" | 3+ | 5+ | 3 | 3 | 6 | 9+ | 15 | 9 |
 
 ## Unit 11 — Elites — Tankbustaz
 
@@ -386,26 +382,26 @@ Tank Hunters: You can re-roll hit rolls for attacks made by this unit that targe
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tankbusta Rokkit Launchas | Small Arms | 24" | x2 | 7+ | 7+ |  |
-| Tankbusta Weapons | Melee | Melee | x2 | 7+ | 7+ |  |
+| Tankbusta Rokkit Launchas | Small Arms | 24" | x2 | 8+ | 7+ |  |
+| Tankbusta Weapons | Melee | Melee | x2 | 8+ | 7+ |  |
 
 ### Profiles
 #### 10 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 2 | 2 | 6 | 10+ | 10 | 8 |
+| 5" | 3+ | 5+ | 2 | 2 | 6 | 9+ | 10 | 8 |
 
 #### 15 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 3 | 3 | 7 | 10+ | 15 | 12 |
+| 5" | 3+ | 5+ | 3 | 3 | 7 | 9+ | 15 | 12 |
 
 ## Unit 12 — Elites — Nobz
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 3 | 2 | 5 | 7+ | 5 | 6 |
+| 5" | 3+ | 5+ | 2 | 2 | 5 | 7+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -422,13 +418,13 @@ Nobz are a unit that contains 5 models. It can contain 10 models (10 Nobz Profil
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sluggas | Small Arms | 12" | User | 7+ | 9+ |  |
-| Nob Choppas | Melee | Melee | User | 6+ | 6+ |  |
+| Nob Choppas | Melee | Melee | x3 | 6+ | 6+ |  |
 
 ### Profiles
 #### 10 Nobz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 6 | 4 | 6 | 7+ | 10 | 12 |
+| 5" | 3+ | 5+ | 4 | 4 | 6 | 7+ | 10 | 14 |
 
 ## Unit 13 — Elites — Nobz w Waaagh! Banner
 
@@ -459,7 +455,7 @@ Waaagh! Banner: Add 1 to hit rolls for attacks made with melee weapons by <Clan>
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4" | 3+ | 5+ | 2 | 2 | 5 | 4+ | 3 | 6 |
+| 4" | 3+ | 5+ | 2 | 2 | 5 | 4+ | 3 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -477,18 +473,18 @@ Meganobz are a unit that contains 3 models. It can contain 6 models (6 Nobz prof
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Meganob Shootas | Small Arms | 18" | x2 | 7+ | 9+ |  |
-| Meganob Melee Weapons | Melee | Melee | User | 6+ | 6+ |  |
+| Meganob Melee Weapons | Melee | Melee | x2 | 6+ | 6+ |  |
 
 ### Profiles
 #### 6 Nobz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4" | 3+ | 5+ | 4 | 4 | 6 | 4+ | 6 | 12 |
+| 4" | 3+ | 5+ | 4 | 4 | 6 | 4+ | 6 | 14 |
 
 #### 9 Nobz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4" | 3+ | 5+ | 6 | 6 | 7 | 4+ | 9 | 18 |
+| 4" | 3+ | 5+ | 6 | 6 | 7 | 4+ | 9 | 21 |
 
 ## Unit 15 — Elites — Kommandos
 
@@ -525,7 +521,7 @@ This unit can also be equipped with up to two of the following (option): 1 Big S
 | Kommando Burna | Heavy | 8" | 1 | 7+ | 9+ | Inferno |
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Kommando Sluggas | Small Arms | 12" | User | 7+ | 9+ |  |
-| Kommando Choppas | Melee | Melee | User | 7+ | 9+ |  |
+| Kommando Choppas | Melee | Melee | x2 | 8+ | 10+ |  |
 
 ### Profiles
 #### 10 Boyz
@@ -543,7 +539,7 @@ This unit can also be equipped with up to two of the following (option): 1 Big S
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 2 | 2 | 5 | 8+ | 3 | 7 |
+| 14" | 3+ | 5+ | 2 | 2 | 5 | 7+ | 3 | 7 |
 
 ### Keywords
 Light, Biker
@@ -561,13 +557,13 @@ It is equipped with: Dakkaguns; Nob Choppas.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Dakka Guns | Small Arms | 18" | x3 | 7+ | 9+ |  |
-| Nob Choppas | Melee | Melee | User | 6+ | 6+ |  |
+| Nob Choppas | Melee | Melee | x2 | 7+ | 7+ |  |
 
 ### Profiles
 #### 6 Nobz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 4 | 4 | 5 | 8+ | 6 | 14 |
+| 14" | 3+ | 5+ | 4 | 4 | 5 | 7+ | 6 | 14 |
 
 ## Unit 17 — Fast — Warbikers
 
@@ -683,25 +679,25 @@ It is equipped with: Stormboy Sluggas; Stormboy Choppas.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Stormboy Sluggas | Small Arms | 12" | User | 7+ | 9+ |  |
-| Stormboy Choppas | Melee | Melee | User | 7+ | 9+ |  |
+| Stormboy Choppas | Melee | Melee | x2 | 8+ | 10+ |  |
 
 ### Profiles
 #### 10 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 2 | 2 | 5 | 10+ | 10 | 7 |
+| 14" | 3+ | 5+ | 2 | 2 | 5 | 9+ | 10 | 8 |
 
 #### 15 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 4 | 4 | 6 | 10+ | 15 | 11 |
+| 14" | 3+ | 5+ | 4 | 4 | 6 | 9+ | 15 | 12 |
 
 ## Unit 20 — Fast — Deffkoptas
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 1 | 1 | 4 | 8+ | 1 | 4 |
+| 14" | 3+ | 5+ | 1 | 2 | 4 | 8+ | 3 | 8 |
 
 ### Keywords
 Heavy, Vehicle, Fly
@@ -712,7 +708,7 @@ Orks, <Clan>, Speed Freeks, Deffkoptas
 ### Abilities
 ```
 Deffkoptas are a unit that contains 1 model. It can contain 2 models (2 Boyz profile) or 3 models (3 Boyz profile), or 6 Boyz ( 6 Boyz Profile). 
-It is equipped with: Spinnin' Blades.
+It is equipped with: Spinnin' Blades, Twin Big Shoota.
 Deep Strike
 For each model this unit contains, it must be equipped with one of the following: Kopta Rokkits; 1 Twin Big Shoota.
 ```
@@ -721,31 +717,20 @@ For each model this unit contains, it must be equipped with one of the following
 - per: per Model
   Pt: 1
   title: Weapon
-  text: Equipped with 
-  Choose 1: Kopta Rokkits; Twin Big Shoota;
+  text: Can exchange Twin Big Shootas for Kopta Rokkits
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Big Shoota | Heavy | 36" | 2 | 7+ | 9+ |  |
-| Kopta Rokkits | Small Arms | 24" | 1 | 7+ | 7+ |  |
-| Spinnin' Blades | Melee | Melee | x2 | 7+ | 9+ |  |
+| Twin Big Shootas | Heavy | 36" | x3 | 7+ | 9+ |  |
+| Kopta Rokkits | Small Arms | 24" | x2 | 7+ | 7+ |  |
+| Spinnin' Blades | Melee | Melee | x2 | 8+ | 9+ |  |
 
 ### Profiles
-#### 2 Boyz
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 2 | 2 | 4 | 8+ | 2 | 7 |
-
-#### 3 Boyz
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 3 | 3 | 4 | 8+ | 3 | 10 |
-
 #### 6 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 5+ | 3 | 3 | 4 | 8+ | 6 | 20 |
+| 14" | 3+ | 5+ | 2 | 4 | 4 | 8+ | 6 | 16 |
 
 ## Unit 21 — Heavy — Mek Gun
 
@@ -854,7 +839,7 @@ Transport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infant
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 4+ | 1 | 1 | 4 | 6+ | 1 | 2 |
+| 6" | 5+ | 4+ | 4 | 3 | 4 | 6+ | 3 | 7 |
 
 ### Keywords
 Heavy, Vehicle
@@ -886,15 +871,12 @@ You can exchange each Grotzooka (option).
 | Killa Kan Weapons | Melee | Melee | User | 7+ | 7+ |  |
 
 ### Profiles
-#### 3 Kanz
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 4+ | 4 | 3 | 4 | 6+ | 3 | 7 |
+
 
 #### 6 Kanz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 5+ | 4+ | 8 | 6 | 4 | 6+ | 6 | 13 |
+| 6" | 5+ | 4+ | 8 | 6 | 4 | 6+ | 6 | 14 |
 
 ## Unit 24 — Heavy — Deff Dread
 

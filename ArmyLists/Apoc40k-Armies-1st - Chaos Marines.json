@@ -303,7 +303,7 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "6+",
-          "armorPen": "6+"
+          "armorPen": "5+"
         },
         {
           "name": "Khorne Weapons",

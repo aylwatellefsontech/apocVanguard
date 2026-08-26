@@ -215,7 +215,7 @@ It is equipped with: Daemonic Weapons.
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Daemonic Weapons | Melee | Melee | User | 6+ | 6+ |  |
+| Daemonic Weapons | Melee | Melee | User | 6+ | 5+ |  |
 | Khorne Weapons | Melee | Melee | User | 5+ | 4+ |  |
 | Razor Claws | Melee | Melee | 1 | 10+ | 12+ |  |
 | Psychic Bolt | Melee | Melee | 1 | 7+ | 7+ |  |
