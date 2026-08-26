@@ -1728,7 +1728,7 @@
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "7"
       },
       "keywords": [
         "Heavy",
@@ -1739,7 +1739,7 @@
         "<Clan>",
         "Deff Dread"
       ],
-      "abilities": "A Deff Dread is a unit that contains 1 model. \nIt is equipped with: Armoured Feet; 4 Dread Klaws.\nDread Mob: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nEach Dread Klaw can be exchanged for one of the following (option): 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw.\nThis unit can exchange all its Dread Klaws for a Dakkagun and Kustom Forcefield (option).\nIf this model has a Kustom Forcefield, subtract 1 from to wound rolls against this model.",
+      "abilities": "A Deff Dread is a unit that contains 1 model. \nIt is equipped with: Armoured Feet; 4 Dread Klaws.\nDread Mob: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nEach Dread Klaw can be exchanged for one of the following (option): 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw.\nThis unit can exchange all its Dread Klaws for a Dakkagun and Kustom Forcefield (option).\nIf this model has a Kustom Forcefield, subtract 1 from to wound rolls against this model from non-melee weapons.",
       "options": [
         {
           "per": "up to 4",
@@ -1811,7 +1811,7 @@
           "armorPen": "6+"
         },
         {
-          "name": "Big Shoota",
+          "name": "Dakkagun",
           "type": "Heavy",
           "range": "36\"",
           "attacks": "6",
@@ -1872,7 +1872,7 @@
           "A": "2",
           "W": "2",
           "Ld": "5",
-          "Sv": "10+",
+          "Sv": "9+",
           "N": "10",
           "Pt": "8"
         },
@@ -1884,7 +1884,7 @@
           "A": "3",
           "W": "3",
           "Ld": "6",
-          "Sv": "10+",
+          "Sv": "9+",
           "N": "15",
           "Pt": "12"
         }
@@ -2130,7 +2130,7 @@
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "15"
+        "Pt": "16"
       },
       "keywords": [
         "Super-heavy",
@@ -2182,7 +2182,7 @@
           "name": "Klaw of Gork (or possibly Mork)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "x3",
           "skill": "5+",
           "armorPen": "5+"
         }
@@ -2196,12 +2196,12 @@
         "M": "8\"",
         "WS": "3+",
         "BS": "5+",
-        "A": "2",
+        "A": "1",
         "W": "4",
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "15"
+        "Pt": "16"
       },
       "keywords": [
         "Super-heavy",
@@ -2252,7 +2252,7 @@
           "name": "Klaw of Gork (or possibly Mork)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "x3",
           "skill": "5+",
           "armorPen": "5+"
         }

@@ -901,7 +901,7 @@ You can exchange each Grotzooka (option).
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 5+ | 1 | 2 | 5 | 6+ | 1 | 4 |
+| 6" | 3+ | 5+ | 1 | 2 | 5 | 6+ | 1 | 7 |
 
 ### Keywords
 Heavy, Vehicle
@@ -916,7 +916,7 @@ It is equipped with: Armoured Feet; 4 Dread Klaws.
 Dread Mob: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 Each Dread Klaw can be exchanged for one of the following (option): 1 Rokkit Launcha; 1 Kustom Mega-Blasta; 1 Skorcha; 1 Dread Saw.
 This unit can exchange all its Dread Klaws for a Dakkagun and Kustom Forcefield (option).
-If this model has a Kustom Forcefield, subtract 1 from to wound rolls against this model.
+If this model has a Kustom Forcefield, subtract 1 from to wound rolls against this model from non-melee weapons.
 ```
 
 ### Options
@@ -925,6 +925,7 @@ If this model has a Kustom Forcefield, subtract 1 from to wound rolls against th
   text: Exchange 1 Dread Klaw for
   choose 1: Rokkit Launcha; Kustom Mega-Blasta; Skorcha; Big Shoota;
 - per: per Unit
+  pt: 1
   title: Dakkagun
   text: Exchange 4 Dread Klaws for Dakkagun and Kustom Forfield
 ### Weapons
@@ -936,7 +937,7 @@ If this model has a Kustom Forcefield, subtract 1 from to wound rolls against th
 | Skorcha | Heavy | 8" | 1 | 7+ | 9+ | Inferno |
 | Armoured Feet | Melee | Melee | User | 10+ | 11+ |  |
 | Dread Klaws | Melee | Melee | User | 7+ | 6+ |  |
-| Big Shoota | Heavy | 36" | 6 | 7+ | 9+ |  |
+| Dakkagun | Heavy | 36" | 6 | 7+ | 9+ |  |
 
 ## Unit 25 — Heavy — Lootas
 
@@ -967,12 +968,12 @@ It is equipped with: Deffguns; Close Combat Weapons.
 #### 10 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 2 | 2 | 5 | 10+ | 10 | 8 |
+| 5" | 3+ | 5+ | 2 | 2 | 5 | 9+ | 10 | 8 |
 
 #### 15 Boyz
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 5+ | 3 | 3 | 6 | 10+ | 15 | 12 |
+| 5" | 3+ | 5+ | 3 | 3 | 6 | 9+ | 15 | 12 |
 
 ## Unit 26 — Heavy — Flash Gits
 
@@ -1103,7 +1104,7 @@ This unit can also be equipped with Skorcha Missiles (option).
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 15 |
+| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 16 |
 
 ### Keywords
 Super-heavy, Vehicle, Transport
@@ -1126,14 +1127,14 @@ Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantr
 | Kustom Mega-zappa | Heavy | 36" | 3 | 9+ | 5+ | Supercharge |
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Twin Big Shoota | Heavy | 36" | 2 | 7+ | 9+ |  |
-| Klaw of Gork (or possibly Mork) | Melee | Melee | x2 | 5+ | 5+ |  |
+| Klaw of Gork (or possibly Mork) | Melee | Melee | x3 | 5+ | 5+ |  |
 
 ## Unit 28 — Lord — Gorkanaut
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 5+ | 2 | 4 | 5 | 6+ | 1 | 15 |
+| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 16 |
 
 ### Keywords
 Super-heavy, Vehicle, Transport
@@ -1155,7 +1156,7 @@ Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantr
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Skorcha | Heavy | 8" | 1 | 7+ | 9+ | Inferno |
 | Twin Big Shoota | Heavy | 36" | 2 | 7+ | 9+ |  |
-| Klaw of Gork (or possibly Mork) | Melee | Melee | x2 | 5+ | 5+ |  |
+| Klaw of Gork (or possibly Mork) | Melee | Melee | x3 | 5+ | 5+ |  |
 
 ## Unit 32 — Lord — Stompa
 

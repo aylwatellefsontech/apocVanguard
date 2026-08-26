@@ -385,13 +385,12 @@ It is equipped with: Flamer; Las Weapons; Close Combat Weapons.
 | Flamer | Heavy | 8" | 1 | 7+ | 10+ | Inferno |
 | Las Weapons | Small Arms | 24" | User | 8+ | 10+ |  |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
-| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
 
 ### Profiles
 #### Chaos Beastmen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 4 |
+| 6" | 4+ | 4+ | 2 | 2 | 4 | 10+ | 10 | 4 |
 
 ##### Profile Traits
 Chaos Beastmen
@@ -399,7 +398,7 @@ Chaos Beastmen
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Brutal Assault Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+| Brutal Assault Weapons | Melee | Melee | x2 | 8+ | 10+ |  |
 | Pistols | Melee | Melee | User | 9+ | 11+ |  |
 
 ## Unit 8 — Elites — Chaos Chosen
@@ -433,7 +432,7 @@ It is equipped with: Bolt Pistols; Boltguns; Chosen Combat Weapons; Close Combat
 | Bolt Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
 | Chosen Combat Weapons | Melee | Melee | x3 | 8+ | 9+ |  |
-| Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+| Close Combat Weapons | Melee | Melee | User | 6+ | 8+ |  |
 
 ### Profiles
 #### 10 Chaos Chosen
@@ -504,7 +503,7 @@ It is equipped with: Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 3 | 7 | 4+ | 5 | 16 |
+| 5" | 3+ | 3+ | 2 | 3 | 7 | 4+ | 5 | 14 |
 
 ### Keywords
 Light, Infantry
@@ -533,26 +532,22 @@ It is equipped with: Combi-bolters; Terminator Power Weapons.
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Flamer | Heavy | 8" | 1 | 6+ | 9+ | Inferno |
 | Reaper Autocannon | Heavy | 36" | 2 | 8+ | 8+ |  |
-| Combi-bolters | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
-| Terminator Power Weapons | Melee | Melee | User | 6+ | 7+ |  |
+| Combi-bolters | Small Arms | 24" | User | 7+ | 8+ | Rapid Fire |
+| Terminator Power Weapons | Melee | Melee | User | 6+ | 6+ |  |
 
 ### Profiles
-#### 5 Terminators
-| M | WS | BS | A | W | Ld | Sv | N | Pt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 11 |
 
 #### 10 Terminators
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 32 |
+| 5" | 3+ | 3+ | 4 | 6 | 7 | 6+ | 10 | 28 |
 
 ## Unit 11 — Elites — Greater Possessed
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 2+ | 3+ | 2 | 1 | 6 | 5+ | 1 | 6 |
+| 7" | 2+ | 3+ | 3 | 1 | 6 | 5+ | 1 | 6 |
 
 ### Keywords
 Daemon, Light, Infantry, Character
@@ -580,7 +575,7 @@ It is equipped with: Daemonic Mutations.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | D3+1 | 3 | 6 | 5+ | 5 | 10 |
+| 7" | 3+ | 3+ | 2D3 | 3 | 6 | 5+ | 5 | 10 |
 
 ### Keywords
 Daemon, Light, Infantry
@@ -593,32 +588,32 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Possessed
 
 ### Abilities
 ```
-Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3+1 for every 5 models this unit contains to determine the number of attacks it makes.
+Writhing Tentacles: Each time this unit fights with a melee weapon, roll one 2D3 for every 5 models this unit contains to determine the number of attacks it makes.
 It is equipped with: Horrifying Mutations.
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Horrifying Mutations | Melee | Melee | User | 7+ | 8+ |  |
+| Horrifying Mutations | Melee | Melee | User | 6+ | 8+ |  |
 
 ### Profiles
 #### 10 Possessed
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2D3+2 | 4 | 6 | 5+ | 10 | 20 |
+| 7" | 3+ | 3+ | 4D3 | 4 | 6 | 5+ | 10 | 20 |
 
 #### 15 Possessed
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 3D3+3 | 6 | 6 | 5+ | 15 | 30 |
+| 7" | 3+ | 3+ | 6D3 | 6 | 6 | 5+ | 15 | 30 |
 
 ## Unit 26 — Elites — Plague Marines
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 10 |
 
 ### Keywords
 Light, Infantry
@@ -631,7 +626,7 @@ Chaos, Nurgle, Heretic Astartes, <Legion>, Plague Marines
 
 ### Abilities
 ```
-Ignore Damage (6+)
+Ignore Damage (5+)
 It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
 ```
 
@@ -646,13 +641,13 @@ It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
 | Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
 | Blight Launcher | Heavy | 24" | 1 | 7+ | 8+ |  |
 | Plague Spewer | Heavy | 9" | 1 | 6+ | 10+ | Inferno |
-| Plague Weapons | Melee | Melee | x2 | 6+ | 8+ |  |
+| Plague Weapons | Melee | Melee | User | 6+ | 10+ |  |
 
 ### Profiles
 #### 10 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
 #### 15 Plague Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -664,7 +659,7 @@ It is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 10 |
 
 ### Keywords
 Light, Infantry
@@ -678,25 +673,26 @@ Chaos, Khorne, Heretic Astartes, <Legion>, Khorne Berzerkers
 ### Abilities
 ```
 Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.
+Berzerker: When on the Advance Order, add +1 to hit. Otherwise, get -1 to hit.
 It is equipped with: Bolt Pistols; Chain Weapons.
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bolt Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
-| Chain Weapons | Melee | Melee | x4 | 6+ | 9+ |  |
+| Bolt Pistols | Small Arms | 12" | User | 9+ | 11+ |  |
+| Chain Weapons | Melee | Melee | x3 | 7+ | 10+ |  |
 
 ### Profiles
 #### 10 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
 #### 15 Khorne Berzerkers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 30 |
 
 ## Unit 29 — Elites — Rubric Marines
 
@@ -734,7 +730,7 @@ It is equipped with: Inferno Boltguns; Close Combat Weapons.
 | Soulreaper Cannon | Heavy | 24" | 1 | 6+ | 8+ |  |
 | Inferno Boltguns | Small Arms | 24" | User | 6+ | 8+ | Rapid Fire |
 | Warpflamers | Small Arms | 8" | User | 5+ | 8+ | Inferno |
-| Close Combat Weapons | Melee | Melee | User | 6+ | 9+ |  |
+| Close Combat Weapons | Melee | Melee | User | 9+ | 10+ |  |
 
 ### Profiles
 #### 10 Rubric Marines
@@ -745,14 +741,14 @@ It is equipped with: Inferno Boltguns; Close Combat Weapons.
 #### 15 Rubric Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 20 |
+| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 21 |
 
 ## Unit 31 — Elites — Chaos Demons
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 3 |
+| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 4 |
 
 ### Keywords
 Light, Infantry, Daemon
@@ -782,7 +778,7 @@ It is equipped with: Talons.
 #### Plaguebearers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5" | 4+ | 4+ | 2 | 3 | 6 | 9+ | 10 | 4 |
+| 5" | 4+ | 4+ | 2 | 3 | 6 | 9+ | 10 | 5 |
 
 ##### Profile Traits
 Nurgle, Plaguebearers
@@ -801,7 +797,7 @@ It is equipped with: Plaguesword.
 #### Bloodletters
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 4 |
+| 6" | 3+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 5 |
 
 ##### Profile Traits
 Khorne, Bloodletters
@@ -814,12 +810,12 @@ It is equipped with: Hellblade.
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hellblade | Melee | Melee | x2 | 5+ | 8+ |  |
+| Hellblade | Melee | Melee | x2 | 6+ | 8+ |  |
 
 #### Daemonettes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 10 | 4 |
+| 8" | 3+ | 4+ | 2 | 2 | 5 | 9+ | 10 | 5 |
 
 ##### Profile Traits
 Slaanesh, Daemonettes
@@ -832,12 +828,12 @@ It is equipped with: Claws.
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Claws | Melee | Melee | x3 | 8+ | 10+ |  |
+| Claws | Melee | Melee | x3 | 9+ | 11+ |  |
 
 #### Horrors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 4 |
+| 6" | 4+ | 4+ | 2 | 2 | 5 | 8+ | 10 | 5 |
 
 ##### Profile Keywords
 Psyker
@@ -873,9 +869,9 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Chaos Spawn
 ```
 Terror Troops
 Mutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.
-1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.
-2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.
-3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.
+1 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.
+2 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.
+3 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.
 It is equipped with: Hideous Mutations.
 ```
 
@@ -889,6 +885,19 @@ It is equipped with: Hideous Mutations.
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7" | 4+ | - | 2 | 2 | 7 | 10+ | 2 | 4 |
+
+#### 3 Nurgling Hordes
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 4" | 4+ | - | 1 | 3 | 7 | 10+ | 3 | 4 |
+
+### Trait
+  Nurgle
+
+### Abilities
+```
+Small but Mighty: When rolling for Mutated Beyond Reason, roll a D2 in stead of D3.
+```
 
 #### 3 Chaos Spawn
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
@@ -920,13 +929,13 @@ Chaos, <Mark of Chaos>, Heretic Astartes, <Legion>, Bikers
 
 ### Abilities
 ```
-It is equipped with: Twin Boltguns; Close Combat Weapons.
+It is equipped with: Boltguns; Close Combat Weapons.
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Boltguns | Small Arms | 24" | x2 | 7+ | 9+ | Rapid Fire |
+| Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
@@ -1261,7 +1270,7 @@ It is equipped with: Twin Heavy Bolter; Twin Lascannon; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 8 |
+| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 10 |
 
 ### Keywords
 Light, Infantry
@@ -1274,19 +1283,17 @@ Chaos, Slaanesh, Heretic Astartes, <Legion>, Noise Marines
 
 ### Abilities
 ```
+Terror Troops.
 Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.
+Noise: When attacking enemies within 12", ignore Obscured against everything but Light Characters.
 It is equipped with: Noise Marine Weapons; Close Combat Weapons.
 ```
 
 ### Options
-- per: Per Unit
+- per: Per 5 Models
   Pt: 1
   title: Blastmaster
   text: This unit can also be equipped with 1 Blastmaster.
-- per: Per Unit
-  Pt: 1
-  title: Blastmaster
-  text: more models, it can also be equipped with 1 Blastmaster.
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
@@ -1299,12 +1306,12 @@ It is equipped with: Noise Marine Weapons; Close Combat Weapons.
 #### 10 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 16 |
+| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 20 |
 
 #### 15 Noise Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 24 |
+| 6" | 3+ | 3+ | 6 | 6 | 7 | 6+ | 15 | 30 |
 
 ## Unit 24 — Transport — Rhino
 

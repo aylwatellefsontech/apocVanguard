@@ -428,7 +428,7 @@ Imperium, Adeptus Astartes, <Chapter>, Sternguard Veteran Squad
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
 | Special Issue Boltguns | Small Arms | 30" | User | 6+ | 9+ | Rapid Fire |
-| Close Combat Weapons | Melee | Melee | x2 | 7+ | 9+ |  |
+| Close Combat Weapons | Melee | Melee | User | 6+ | 8+ |  |
 
 ### Profiles
 #### 10 Veterans
@@ -505,7 +505,7 @@ If this unit has Storm Shields, they have Save Characteristic of 3+ vs Melee wea
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lightning Claws | Melee | Melee | x2 | 6+ | 8+ |  |
+| Lightning Claws | Melee | Melee | x2 | 5+ | 8+ |  |
 | Thunder Hammers | Melee | Melee | User | 6+ | 5+ |  |
 
 ### Profiles
@@ -586,7 +586,7 @@ Honour Guard: At the start of the Damage phase, you can select one friendly <Cha
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 8 |
 
 ### Keywords
 Light, Infantry
@@ -610,12 +610,12 @@ Imperium, Adeptus Astartes, <Chapter>, Assault Squad
 #### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 16 |
 
 #### 5 Jump Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 9 |
+| 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 10 |
 
 ##### Profile Keywords
 Jump Pack, Fly
@@ -628,7 +628,7 @@ Deep Strike
 #### 10 Jump Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 18 |
+| 12" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 10 | 20 |
 
 ##### Profile Keywords
 Jump Pack, Fly
@@ -643,7 +643,7 @@ Deep Strike
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 2 | 2 | 6 | 5+ | 3 | 16 |
+| 14" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 3 | 12 |
 
 ### Keywords
 Light, Biker
@@ -663,14 +663,14 @@ Imperium, Adeptus Astartes, <Chapter>, Bike Squad
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Bolter | Heavy | 36" | 1 | 6+ | 9+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
-| Twin Boltguns | Small Arms | 24" | x2 | 7+ | 9+ | Rapid Fire |
-| Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
+| Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
+| Close Combat Weapons | Melee | Melee | User | 8+ | 10+ |  |
 
 ### Profiles
 #### 6 Bikers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 32 |
+| 14" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 24 |
 
 
 ## Unit 17 — Fast — Landspeeders
@@ -722,7 +722,7 @@ Imperium, Adeptus Astartes, <Chapter>, Land Speeders
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 16" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 3 | 14 |
+| 16" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 3 | 11 |
 
 ### Keywords
 Light, Biker
@@ -730,17 +730,24 @@ Light, Biker
 ### Traits
 Imperium, Adeptus Astartes, <Chapter>, Scout Bike Squad
 
+### Abilities
+```
+Scouts: Can be set up anywhere wholly within 24" of its Detachment Commander, and outside the enemy player's deployment, and further than 9" from enemy units. They are not out of Command unless further than 24" from their Detachment Commander.
+Equipped with Boltguns; Close Combat Weapons;
+
+```
+
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Twin Boltguns | Small Arms | 24" | x2 | 7+ | 9+ | Rapid Fire |
+| Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
 #### 6 Bikes
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 16" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 28 |
+| 16" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 22 |
 
 
 ## Unit 19 — Fast — Inceptor Squad
@@ -777,14 +784,14 @@ Deep Strike
 #### 6 Inceptors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 6 | 24 |
+| 10" | 3+ | 3+ | 4 | 4 | 6 | 6+ | 6 | 24 |
 
 ## Unit 20 — Heavy — Devastator Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 1 | 2 | 7 | 6+ | 5 | 9 |
+| 6" | 3+ | 3+ | 1 | 2 | 6 | 6+ | 5 | 9 |
 
 ### Keywords
 Light, Infantry
@@ -800,7 +807,7 @@ If this unit contains 10 models, it is also equipped with Boltguns.
 
 ### Options
 - per: up to 2
-  Pt: 1
+  Pt: 0
   title: Heavy Weapons
   text: Can exchange a Heavy Bolter for
   Choose 1: Grav-cannon; Lascannon; Missile Launcher; Multi-melta; Plasma Cannon
@@ -819,21 +826,21 @@ If this unit contains 10 models, it is also equipped with Boltguns.
 | Missile Launcher | Heavy | 48" | 1 | 8+ | 7+ |  |
 | Multi-melta | Heavy | 24" | 1 | 10+ | 4+ |  |
 | Plasma Cannon | Heavy | 36" | 1 | 7+ | 7+ | Supercharge |
-| Boltguns | Small Arms | 24" | User | 7+ | 9+ | Rapid Fire |
+| Boltguns | Small Arms | 24" | 2 | 7+ | 9+ | Rapid Fire |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 
 ### Profiles
 #### 10 Marines
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 4 | 7 | 6+ | 10 | 14 |
+| 6" | 3+ | 3+ | 2 | 4 | 6 | 6+ | 10 | 16 |
 
 ## Unit 21 — Heavy — Hellblaster Squad
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 12 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 11 |
 
 ### Keywords
 Light, Infantry
@@ -851,14 +858,14 @@ Imperium, Adeptus Astartes, <Chapter>, Primaris, Hellblaster Squad
 #### 10 Hellblasters
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 4 | 7 | 6+ | 10 | 24 |
+| 6" | 3+ | 3+ | 4 | 4 | 5 | 6+ | 10 | 22 |
 
 ## Unit 22 — Heavy — Dreadnought
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 1 | 7 |
+| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 1 | 9 |
 
 ### Keywords
 Heavy, Vehicle
@@ -905,7 +912,7 @@ It is equipped with: Assault Cannon; Storm Bolter; Dreadnought Combat Weapon.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 2+ | 2+ | 2 | 2 | 6 | 6+ | 1 | 8 |
+| 6" | 2+ | 2+ | 2 | 2 | 6 | 6+ | 1 | 10 |
 
 ### Keywords
 Heavy, Vehicle
@@ -1044,7 +1051,7 @@ Imperium, Adeptus Astartes, <Chapter>, Land Raider
 
 ### Abilities
 ```
-Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; 
 ```
 
 ### Options
@@ -1076,7 +1083,7 @@ Imperium, Adeptus Astartes, <Chapter>, Rhino
 
 ### Abilities
 ```
-Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Terminator or Jump Pack models.
 ```
 
 ### Weapons
@@ -1101,7 +1108,7 @@ Imperium, Adeptus Astartes, <Chapter>, Razorback
 ### Abilities
 ```
 It is equipped with: Twin Heavy Bolter; Armoured Tracks.
-Transport: This unit can transport up to 6 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
+Transport: This unit can transport up to 6 friendly <Chapter> Infantry models. It cannot transport Terminator or Jump Pack models.
 ```
 
 ### Options
@@ -1144,7 +1151,7 @@ Deep Strike
 Drop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9 inches of enemy units. If a unit cannot disembark, it is destroyed.
 Immobile: This unit is never Out of Command.
 It is equipped with: Storm Bolter.
-Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models or 1 Dreadnought. It cannot transport Terminator or Jump Pack models.
 ```
 
 ### Options
@@ -1176,7 +1183,7 @@ Imperium, Adeptus Astartes, <Chapter>, Stormraven Gunship
 Supersonic
 Harrier
 It is equipped with: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.
-Transport: This unit can transport up to 12 Infantry models and 1 Dreadnought. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
+Transport: This unit can transport up to 12 Infantry models and 1 Dreadnought. Jump Pack and Terminator models take 2 spaces; 
 ```
 
 ### Options
@@ -1221,7 +1228,7 @@ Imperium, Adeptus Astartes, <Chapter>, Land Raider
 
 ### Abilities
 ```
-Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.
+Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; 
 ```
 
 ### Options

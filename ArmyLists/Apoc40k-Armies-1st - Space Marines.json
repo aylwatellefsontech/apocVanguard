@@ -892,9 +892,9 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
         }
       ],
       "profiles": [
@@ -1062,7 +1062,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "x2",
-          "skill": "6+",
+          "skill": "5+",
           "armorPen": "8+"
         },
         {
@@ -1198,7 +1198,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "8"
       },
       "keywords": [
         "Light",
@@ -1254,7 +1254,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "16"
         },
         {
           "name": "5 Jump Marines",
@@ -1266,7 +1266,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "5",
-          "Pt": "9",
+          "Pt": "10",
           "keywords": [
             "Jump Pack",
             "Fly"
@@ -1283,7 +1283,7 @@
           "Ld": "6",
           "Sv": "6+",
           "N": "10",
-          "Pt": "18",
+          "Pt": "20",
           "keywords": [
             "Jump Pack",
             "Fly"
@@ -1303,9 +1303,9 @@
         "A": "2",
         "W": "2",
         "Ld": "6",
-        "Sv": "5+",
+        "Sv": "6+",
         "N": "3",
-        "Pt": "16"
+        "Pt": "12"
       },
       "keywords": [
         "Light",
@@ -1348,10 +1348,10 @@
           "armorPen": "4+"
         },
         {
-          "name": "Twin Boltguns",
+          "name": "Boltguns",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
@@ -1361,8 +1361,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "8+",
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -1376,7 +1376,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "6",
-          "Pt": "32"
+          "Pt": "24"
         }
       ]
     },
@@ -1520,7 +1520,7 @@
         "Ld": "6",
         "Sv": "7+",
         "N": "3",
-        "Pt": "14"
+        "Pt": "11"
       },
       "keywords": [
         "Light",
@@ -1532,12 +1532,13 @@
         "<Chapter>",
         "Scout Bike Squad"
       ],
+      "abilities": "Scouts: Can be set up anywhere wholly within 24\" of its Detachment Commander, and outside the enemy player's deployment, and further than 9\" from enemy units. They are not out of Command unless further than 24\" from their Detachment Commander.\nEquipped with Boltguns; Close Combat Weapons;",
       "weapons": [
         {
-          "name": "Twin Boltguns",
+          "name": "Boltguns",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
@@ -1562,7 +1563,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "6",
-          "Pt": "28"
+          "Pt": "22"
         }
       ]
     },
@@ -1638,7 +1639,7 @@
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
           "N": "6",
           "Pt": "24"
@@ -1655,7 +1656,7 @@
         "BS": "3+",
         "A": "1",
         "W": "2",
-        "Ld": "7",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
         "Pt": "9"
@@ -1675,7 +1676,7 @@
         {
           "per": "up to 2",
           "text": "Can exchange a Heavy Bolter for",
-          "Pt": "1",
+          "Pt": "0",
           "title": "Heavy Weapons",
           "chooseOne": [
             "Grav-cannon",
@@ -1756,7 +1757,7 @@
           "name": "Boltguns",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "User",
+          "attacks": "2",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
@@ -1778,10 +1779,10 @@
           "BS": "3+",
           "A": "2",
           "W": "4",
-          "Ld": "7",
+          "Ld": "6",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "16"
         }
       ]
     },
@@ -1795,10 +1796,10 @@
         "BS": "3+",
         "A": "2",
         "W": "2",
-        "Ld": "7",
+        "Ld": "6",
         "Sv": "6+",
         "N": "5",
-        "Pt": "12"
+        "Pt": "11"
       },
       "keywords": [
         "Light",
@@ -1838,10 +1839,10 @@
           "BS": "3+",
           "A": "4",
           "W": "4",
-          "Ld": "7",
+          "Ld": "5",
           "Sv": "6+",
           "N": "10",
-          "Pt": "24"
+          "Pt": "22"
         }
       ]
     },
@@ -1858,7 +1859,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "7"
+        "Pt": "9"
       },
       "keywords": [
         "Heavy",
@@ -2018,7 +2019,7 @@
         "Ld": "6",
         "Sv": "6+",
         "N": "1",
-        "Pt": "8"
+        "Pt": "10"
       },
       "keywords": [
         "Heavy",
@@ -2375,7 +2376,7 @@
         "<Chapter>",
         "Land Raider"
       ],
-      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.",
+      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces;",
       "options": [
         {
           "per": "Per Unit",
@@ -2445,7 +2446,7 @@
         "<Chapter>",
         "Rhino"
       ],
-      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.",
+      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Terminator or Jump Pack models.",
       "weapons": [
         {
           "name": "Storm Bolter",
@@ -2492,7 +2493,7 @@
         "<Chapter>",
         "Razorback"
       ],
-      "abilities": "It is equipped with: Twin Heavy Bolter; Armoured Tracks.\nTransport: This unit can transport up to 6 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.",
+      "abilities": "It is equipped with: Twin Heavy Bolter; Armoured Tracks.\nTransport: This unit can transport up to 6 friendly <Chapter> Infantry models. It cannot transport Terminator or Jump Pack models.",
       "options": [
         {
           "per": "Per Unit",
@@ -2571,7 +2572,7 @@
         "<Chapter>",
         "Drop Pod"
       ],
-      "abilities": "Deep Strike\nDrop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9 inches of enemy units. If a unit cannot disembark, it is destroyed.\nImmobile: This unit is never Out of Command.\nIt is equipped with: Storm Bolter.\nTransport: This unit can transport up to 10 friendly <Chapter> Infantry models. It cannot transport Primaris, Terminator, Centurion, or Jump Pack models.",
+      "abilities": "Deep Strike\nDrop Pod Assault: After setup, embarked units must immediately disembark and cannot embark again. Disembarking units cannot be set up within 9 inches of enemy units. If a unit cannot disembark, it is destroyed.\nImmobile: This unit is never Out of Command.\nIt is equipped with: Storm Bolter.\nTransport: This unit can transport up to 10 friendly <Chapter> Infantry models or 1 Dreadnought. It cannot transport Terminator or Jump Pack models.",
       "options": [
         {
           "per": "Per Unit",
@@ -2627,7 +2628,7 @@
         "<Chapter>",
         "Stormraven Gunship"
       ],
-      "abilities": "Supersonic\nHarrier\nIt is equipped with: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.\nTransport: This unit can transport up to 12 Infantry models and 1 Dreadnought. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.",
+      "abilities": "Supersonic\nHarrier\nIt is equipped with: 2 Stormstrike Missile Launchers; Twin Assault Cannon; Twin Heavy Bolter; Armoured Bulk.\nTransport: This unit can transport up to 12 Infantry models and 1 Dreadnought. Jump Pack and Terminator models take 2 spaces;",
       "options": [
         {
           "per": "Per Unit",
@@ -2759,7 +2760,7 @@
         "<Chapter>",
         "Land Raider"
       ],
-      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces; Centurion models take 3 spaces. It cannot transport Primaris models.",
+      "abilities": "Transport: This unit can transport up to 10 friendly <Chapter> Infantry models. Jump Pack and Terminator models take 2 spaces;",
       "options": [
         {
           "per": "Per Unit",

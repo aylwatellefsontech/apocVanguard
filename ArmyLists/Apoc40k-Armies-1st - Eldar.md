@@ -300,7 +300,7 @@ Lord of <Warp Spiders>.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 3 |
+| 7" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 3 |
 
 ### Keywords
 Light, Infantry, Psyker
@@ -328,7 +328,7 @@ Conclave of Power: If this unit contains 3 or more models, add 2 to wound rolls 
 #### 3 Warlocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 5 | 6 |
+| 7" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 5 | 6 |
 
 ##### Profile Keywords
 Infantry
@@ -336,7 +336,7 @@ Infantry
 #### 6 Warlocks
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 3 | 4 | 6 | 6+ | 10 | 12 |
+| 7" | 3+ | 3+ | 3 | 4 | 7 | 6+ | 10 | 12 |
 
 ##### Profile Keywords
 Infantry
@@ -344,7 +344,7 @@ Infantry
 #### Skyrunner
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 1 | 1 | 6 | 5+ | 1 | 6 |
+| 17" | 3+ | 3+ | 1 | 1 | 7 | 5+ | 1 | 6 |
 
 ##### Profile Keywords
 Biker, Fly
@@ -372,7 +372,7 @@ Biker, Fly
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 5 | 10+ | 10 | 4 |
+| 7" | 3+ | 3+ | 2 | 2 | 6 | 10+ | 10 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -410,14 +410,14 @@ For each Heavy Weapon Platform model this unit contains, it must also be equippe
 #### 20 Guardians
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 4 | 4 | 5 | 10+ | 20 | 8 |
+| 7" | 3+ | 3+ | 4 | 4 | 6 | 10+ | 20 | 8 |
 
 ## Unit 7 — Troops — Dire Avengers
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 1 | 6 | 7+ | 5 | 7 |
+| 7" | 3+ | 3+ | 2 | 1 | 7 | 7+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -442,14 +442,14 @@ Defence Tactics: Ignore the first blast marker this unit gets each turn.
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 14 |
+| 7" | 3+ | 3+ | 4 | 2 | 7 | 8+ | 10 | 14 |
 
 ## Unit 8 — Troops — Storm Guardians
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 5 | 9+ | 10 | 4 |
+| 7" | 3+ | 3+ | 2 | 2 | 6 | 9+ | 10 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -474,7 +474,7 @@ Equipped with Shuriken Pistols and Aeldari Blades
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 2 | 1 | 6 | 8+ | 5 | 7 |
+| 9" | 3+ | 3+ | 2 | 1 | 7 | 8+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -494,20 +494,20 @@ Banshee Mask: Subtract 1 from hit rolls for attacks made with melee weapons by e
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shuriken Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
-| Power Swords | Melee | Melee | x2 | 5+ | 9+ |  |
+| Power Swords | Melee | Melee | x2 | 4+ | 9+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 14 |
+| 9" | 3+ | 3+ | 4 | 2 | 7 | 8+ | 10 | 14 |
 
 ## Unit 10 — Elites — Striking Scorpions
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 7 |
+| 7" | 3+ | 3+ | 2 | 1 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry
@@ -518,7 +518,8 @@ Aeldari, Asuryani, Aspect Warrior, <Craftworld>, Striking Scorpions
 ### Abilities
 ```
 Can take 10 Warriors (10 Warriors Profile)
-equipped with: Shuriken Pistols; Mandiblasters; Scorpion Chanswords;
+equipped with: Shuriken Pistols; Scorpion Chanswords;
+Equipped with 1 Mandiblasters per 5 Models.
 Deep Strike, Infiltrators
 Shadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this unit that target units garrisoning a Defensible Terrain feature.
 ```
@@ -527,21 +528,21 @@ Shadow Strike: Add 1 to hit rolls for attacks made with melee weapons by this un
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shuriken Pistols | Small Arms | 12" | User | 7+ | 9+ |  |
-| Mandiblasters | Melee | Melee | User | 7+ | 12+ |  |
-| Scorpion Chainswords | Melee | Melee | User | 7+ | 8+ |  |
+| Mandiblasters | Melee | Melee | 1 | 7+ | 12+ |  |
+| Scorpion Chainswords | Melee | Melee | x2 | 7+ | 8+ |  |
 
 ### Profiles
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 14 |
+| 7" | 3+ | 3+ | 4 | 2 | 7 | 6+ | 10 | 14 |
 
 ## Unit 11 — Elites — Fire Dragons
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 6 |
+| 7" | 3+ | 3+ | 2 | 1 | 7 | 6+ | 5 | 6 |
 
 ### Keywords
 Light, Infantry
@@ -566,7 +567,7 @@ Assured Destruction: For every 2 successful wound rolls this unit makes against 
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 4 | 2 | 6 | 6+ | 10 | 12 |
+| 7" | 3+ | 3+ | 4 | 2 | 7 | 6+ | 10 | 12 |
 
 ## Unit 12 — Elites — Wraithblades
 
@@ -611,7 +612,7 @@ If it has Forceshields, it has a Save characteristic of 4+ against Melee attacks
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 2+ | 2+ | 1 | 1 | 6 | 6+ | 1 | 4 |
+| 7" | 2+ | 2+ | 1 | 1 | 7 | 6+ | 1 | 4 |
 
 ### Keywords
 Light, Infantry, Character, Psyker, 
@@ -736,12 +737,12 @@ For each model this unit contains, must exchange Twin shuriken catapults with: S
 #### 6 Skyrunners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 2 | 2 | 5 | 8+ | 6 | 10 |
+| 17" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 6 | 10 |
 
 #### 9 Skyrunners
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 3 | 3 | 5 | 8+ | 9 | 15 |
+| 17" | 3+ | 3+ | 3 | 3 | 6 | 8+ | 9 | 15 |
 
 ## Unit 17 — Fast — Vypers
 
@@ -801,7 +802,7 @@ Each model must exchange Twin Shuriken Catapults (option).
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 2 | 1 | 6 | 8+ | 5 | 7 |
+| 14" | 3+ | 3+ | 2 | 1 | 7 | 8+ | 5 | 7 |
 
 ### Keywords
 Light, Infantry, Fly, Jump Pack, 
@@ -828,14 +829,14 @@ Skyleap: When this unit is deployed from reserves, it can lose or gain supersoni
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 14" | 3+ | 3+ | 2 | 2 | 6 | 8+ | 10 | 12 |
+| 14" | 3+ | 3+ | 4 | 2 | 7 | 8+ | 10 | 12 |
 
 ## Unit 19 — Fast — Warp Spiders
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 7 |
+| 7" | 3+ | 3+ | 2 | 1 | 7 | 6+ | 5 | 7 |
 
 ### Keywords
 Warp Spiders
@@ -867,14 +868,14 @@ Warp Jump Generator: Instead of making a Move action, this unit can perform a wa
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 3+ | 3+ | 4 | 2 | 6 | 6+ | 10 | 14 |
+| 7" | 3+ | 3+ | 4 | 2 | 7 | 6+ | 10 | 14 |
 
 ## Unit 20 — Fast — Shining Spears
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 1 | 1 | 6 | 5+ | 3 | 8 |
+| 17" | 3+ | 3+ | 1 | 1 | 7 | 5+ | 3 | 8 |
 
 ### Keywords
 Light, Biker, Fly
@@ -892,13 +893,13 @@ Equipped with: Twin Shuriken Catapults & Lance; Laser Lances
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shuriken Catapults & Lance | Heavy | 18" | User | 6+ | 8+ | Rapid Fire |
-| Laser Lances | Melee | Melee | x2 | 6+ | 4+ |  |
+| Laser Lances | Melee | Melee | x3 | 6+ | 4+ |  |
 
 ### Profiles
 #### 6 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17" | 3+ | 3+ | 1 | 2 | 6 | 5+ | 6 | 16 |
+| 17" | 3+ | 3+ | 2 | 2 | 7 | 5+ | 6 | 16 |
 
 ## Unit 21 — Heavy — War Walkers
 
@@ -1025,7 +1026,7 @@ Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 1 | 6 | 6+ | 5 | 6 |
+| 6" | 3+ | 3+ | 2 | 1 | 7 | 6+ | 5 | 6 |
 
 ### Keywords
 Light, Infantry
@@ -1050,7 +1051,7 @@ Inescapable Death: Unmodified hit rolls of 3+ for attacks made with this unit's 
 #### 10 Warriors
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 12 |
+| 6" | 3+ | 3+ | 4 | 2 | 7 | 6+ | 10 | 12 |
 
 ## Unit 25 — Heavy — Falcon
 

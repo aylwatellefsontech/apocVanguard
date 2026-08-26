@@ -706,21 +706,13 @@
           "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
-        },
-        {
-          "name": "Brutal Assault Weapons",
-          "type": "Melee",
-          "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
         }
       ],
       "profiles": [
         {
           "name": "Chaos Beastmen",
           "M": "6\"",
-          "WS": "3+",
+          "WS": "4+",
           "BS": "4+",
           "A": "2",
           "W": "2",
@@ -737,8 +729,8 @@
               "type": "Melee",
               "range": "Melee",
               "attacks": "x2",
-              "skill": "7+",
-              "armorPen": "9+"
+              "skill": "8+",
+              "armorPen": "10+"
             },
             {
               "name": "Pistols",
@@ -818,9 +810,9 @@
           "name": "Close Combat Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
-          "skill": "7+",
-          "armorPen": "9+"
+          "attacks": "User",
+          "skill": "6+",
+          "armorPen": "8+"
         }
       ],
       "profiles": [
@@ -958,7 +950,7 @@
         "Ld": "7",
         "Sv": "4+",
         "N": "5",
-        "Pt": "16"
+        "Pt": "14"
       },
       "keywords": [
         "Light",
@@ -1012,7 +1004,7 @@
           "range": "24\"",
           "attacks": "User",
           "skill": "7+",
-          "armorPen": "9+",
+          "armorPen": "8+",
           "abilities": "Rapid Fire"
         },
         {
@@ -1021,22 +1013,10 @@
           "range": "Melee",
           "attacks": "User",
           "skill": "6+",
-          "armorPen": "7+"
+          "armorPen": "6+"
         }
       ],
       "profiles": [
-        {
-          "name": "5 Terminators",
-          "M": "5\"",
-          "WS": "3+",
-          "BS": "3+",
-          "A": "2",
-          "W": "2",
-          "Ld": "7",
-          "Sv": "6+",
-          "N": "5",
-          "Pt": "11"
-        },
         {
           "name": "10 Terminators",
           "M": "5\"",
@@ -1047,7 +1027,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "32"
+          "Pt": "28"
         }
       ]
     },
@@ -1059,7 +1039,7 @@
         "M": "7\"",
         "WS": "2+",
         "BS": "3+",
-        "A": "2",
+        "A": "3",
         "W": "1",
         "Ld": "6",
         "Sv": "5+",
@@ -1102,7 +1082,7 @@
         "M": "7\"",
         "WS": "3+",
         "BS": "3+",
-        "A": "D3+1",
+        "A": "2D3",
         "W": "3",
         "Ld": "6",
         "Sv": "5+",
@@ -1124,14 +1104,14 @@
         "<Legion>",
         "Possessed"
       ],
-      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one D3+1 for every 5 models this unit contains to determine the number of attacks it makes.\nIt is equipped with: Horrifying Mutations.",
+      "abilities": "Writhing Tentacles: Each time this unit fights with a melee weapon, roll one 2D3 for every 5 models this unit contains to determine the number of attacks it makes.\nIt is equipped with: Horrifying Mutations.",
       "weapons": [
         {
           "name": "Horrifying Mutations",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "7+",
+          "skill": "6+",
           "armorPen": "8+"
         }
       ],
@@ -1141,7 +1121,7 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "2D3+2",
+          "A": "4D3",
           "W": "4",
           "Ld": "6",
           "Sv": "5+",
@@ -1153,7 +1133,7 @@
           "M": "7\"",
           "WS": "3+",
           "BS": "3+",
-          "A": "3D3+3",
+          "A": "6D3",
           "W": "6",
           "Ld": "6",
           "Sv": "5+",
@@ -1175,7 +1155,7 @@
         "Ld": "7",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "10"
       },
       "keywords": [
         "Light",
@@ -1191,7 +1171,7 @@
         "<Legion>",
         "Plague Marines"
       ],
-      "abilities": "Ignore Damage (6+)\nIt is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.",
+      "abilities": "Ignore Damage (5+)\nIt is equipped with: Boltguns; Blight Launcher; Plague Spewer; Plague Weapons.",
       "options": [
         {
           "per": "up to 2",
@@ -1230,9 +1210,9 @@
           "name": "Plague Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "6+",
-          "armorPen": "8+"
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -1246,7 +1226,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "20"
         },
         {
           "name": "15 Plague Marines",
@@ -1275,7 +1255,7 @@
         "Ld": "7",
         "Sv": "6+",
         "N": "5",
-        "Pt": "7"
+        "Pt": "10"
       },
       "keywords": [
         "Light",
@@ -1291,23 +1271,23 @@
         "<Legion>",
         "Khorne Berzerkers"
       ],
-      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.\nIt is equipped with: Bolt Pistols; Chain Weapons.",
+      "abilities": "Berzerker Horde: If this unit is in a Detachment that contains only World Eaters units, its Battlefield Role is Troops instead of Elites.\nBerzerker: When on the Advance Order, add +1 to hit. Otherwise, get -1 to hit.\nIt is equipped with: Bolt Pistols; Chain Weapons.",
       "weapons": [
         {
           "name": "Bolt Pistols",
           "type": "Small Arms",
           "range": "12\"",
           "attacks": "User",
-          "skill": "7+",
-          "armorPen": "9+"
+          "skill": "9+",
+          "armorPen": "11+"
         },
         {
           "name": "Chain Weapons",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x4",
-          "skill": "6+",
-          "armorPen": "9+"
+          "attacks": "x3",
+          "skill": "7+",
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -1321,7 +1301,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "14"
+          "Pt": "20"
         },
         {
           "name": "15 Khorne Berzerkers",
@@ -1333,7 +1313,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "30"
         }
       ]
     },
@@ -1413,8 +1393,8 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "6+",
-          "armorPen": "9+"
+          "skill": "9+",
+          "armorPen": "10+"
         }
       ],
       "profiles": [
@@ -1440,7 +1420,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "20"
+          "Pt": "21"
         }
       ]
     },
@@ -1457,7 +1437,7 @@
         "Ld": "5",
         "Sv": "8+",
         "N": "10",
-        "Pt": "3"
+        "Pt": "4"
       },
       "keywords": [
         "Light",
@@ -1527,7 +1507,7 @@
           "Ld": "6",
           "Sv": "9+",
           "N": "10",
-          "Pt": "4",
+          "Pt": "5",
           "traits": [
             "Nurgle",
             "Plaguebearers"
@@ -1554,7 +1534,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "4",
+          "Pt": "5",
           "traits": [
             "Khorne",
             "Bloodletters"
@@ -1566,7 +1546,7 @@
               "type": "Melee",
               "range": "Melee",
               "attacks": "x2",
-              "skill": "5+",
+              "skill": "6+",
               "armorPen": "8+"
             }
           ]
@@ -1581,7 +1561,7 @@
           "Ld": "5",
           "Sv": "9+",
           "N": "10",
-          "Pt": "4",
+          "Pt": "5",
           "traits": [
             "Slaanesh",
             "Daemonettes"
@@ -1593,8 +1573,8 @@
               "type": "Melee",
               "range": "Melee",
               "attacks": "x3",
-              "skill": "8+",
-              "armorPen": "10+"
+              "skill": "9+",
+              "armorPen": "11+"
             }
           ]
         },
@@ -1608,7 +1588,7 @@
           "Ld": "5",
           "Sv": "8+",
           "N": "10",
-          "Pt": "4",
+          "Pt": "5",
           "keywords": [
             "Psyker"
           ],
@@ -1664,7 +1644,7 @@
         "<Legion>",
         "Chaos Spawn"
       ],
-      "abilities": "Terror Troops\nMutated Beyond Reason: When this unit makes a Fight action, before picking targets, roll one D3 on the table below to determine what mutation it gains until the end of that action.\n1 Razor Claws: Add 1 to wound rolls for attacks made by this unit with melee weapons.\n2 Grasping Pseudopods: Add 1 to this unit's Attacks characteristic.\n3 Toxic Haemorrhage: Re-roll wound rolls of 1 for attacks made by this unit with melee weapons.\nIt is equipped with: Hideous Mutations.",
+      "abilities": "Small but Mighty: When rolling for Mutated Beyond Reason, roll a D2 in stead of D3.",
       "weapons": [
         {
           "name": "Hideous Mutations",
@@ -1689,40 +1669,16 @@
           "Pt": "4"
         },
         {
-          "name": "3 Chaos Spawn",
-          "M": "7\"",
+          "name": "3 Nurgling Hordes",
+          "M": "4\"",
           "WS": "4+",
           "BS": "-",
-          "A": "3",
+          "A": "1",
           "W": "3",
-          "Ld": "8",
+          "Ld": "7",
           "Sv": "10+",
           "N": "3",
-          "Pt": "7"
-        },
-        {
-          "name": "4 Chaos Spawn",
-          "M": "7\"",
-          "WS": "4+",
-          "BS": "-",
-          "A": "4",
-          "W": "4",
-          "Ld": "8",
-          "Sv": "10+",
-          "N": "4",
-          "Pt": "9"
-        },
-        {
-          "name": "5 Chaos Spawn",
-          "M": "7\"",
-          "WS": "4+",
-          "BS": "-",
-          "A": "5",
-          "W": "5",
-          "Ld": "8",
-          "Sv": "10+",
-          "N": "5",
-          "Pt": "11"
+          "Pt": "4"
         }
       ]
     },
@@ -1752,13 +1708,13 @@
         "<Legion>",
         "Bikers"
       ],
-      "abilities": "It is equipped with: Twin Boltguns; Close Combat Weapons.",
+      "abilities": "It is equipped with: Boltguns; Close Combat Weapons.",
       "weapons": [
         {
-          "name": "Twin Boltguns",
+          "name": "Boltguns",
           "type": "Small Arms",
           "range": "24\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+",
           "abilities": "Rapid Fire"
@@ -2561,10 +2517,10 @@
         "BS": "3+",
         "A": "2",
         "W": "2",
-        "Ld": "6",
+        "Ld": "7",
         "Sv": "6+",
         "N": "5",
-        "Pt": "8"
+        "Pt": "10"
       },
       "keywords": [
         "Light",
@@ -2580,17 +2536,11 @@
         "<Legion>",
         "Noise Marines"
       ],
-      "abilities": "Masters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.\nIt is equipped with: Noise Marine Weapons; Close Combat Weapons.",
+      "abilities": "Terror Troops.\nMasters of the Kakophoni: If this unit is in a Detachment that contains only Emperor's Children units, its Battlefield Role is Troops instead of Elites.\nNoise: When attacking enemies within 12\", ignore Obscured against everything but Light Characters.\nIt is equipped with: Noise Marine Weapons; Close Combat Weapons.",
       "options": [
         {
-          "per": "Per Unit",
+          "per": "Per 5 Models",
           "text": "This unit can also be equipped with 1 Blastmaster.",
-          "Pt": "1",
-          "title": "Blastmaster"
-        },
-        {
-          "per": "Per Unit",
-          "text": "more models, it can also be equipped with 1 Blastmaster.",
           "Pt": "1",
           "title": "Blastmaster"
         }
@@ -2632,7 +2582,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "10",
-          "Pt": "16"
+          "Pt": "20"
         },
         {
           "name": "15 Noise Marines",
@@ -2644,7 +2594,7 @@
           "Ld": "7",
           "Sv": "6+",
           "N": "15",
-          "Pt": "24"
+          "Pt": "30"
         }
       ]
     },

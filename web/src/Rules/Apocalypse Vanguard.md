@@ -528,7 +528,10 @@ Each time you fail a saving throw for this unit and would take a damage, roll a 
 
 #### Infiltrators
 
-When this unit is set up on the battlefield, it can be set up anywhere that is wholly within 24” of its Detachment Commander, and outside of the enemy player’s deployment, and further than 9” enemy units.  They are not Out of Command unless they are further than 24” of their Detachment Commander. Their cover save for garrisoning defensible terrain is also increased to a 5+.
+When this unit is set up on the battlefield, it can be set up anywhere that is wholly within 24” of its Detachment Commander, and outside of the enemy player’s deployment, and further than 9” enemy units. They are not Out of Command unless they are further than 24” of their Detachment Commander. Their cover save for garrisoning defensible terrain is also increased to a 5+.
+
+#### Advanced Guard 
+This unit is not Out of Command unless they are further than 24” of their Detachment Commander. 
 
 #### Objective Secured
 

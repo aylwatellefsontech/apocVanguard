@@ -10,7 +10,7 @@ source: Apoc40k-Armies-1st - Sisters of Battle.md
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 3+ | 2 | 3 | 6 | 5+ | 1 | 8 |
+| 8" | 3+ | 3+ | 2 | 3 | 7 | 5+ | 1 | 8 |
 
 ### Keywords
 Heavy, Vehicle, Walker, Character
@@ -37,7 +37,7 @@ Morvenn Vahl is a unit that contains 1 model. It is equipped with: Fidelis; Para
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 2+ | 2+ | 1 | 1 | 7 | 5+ | 1 | 4 |
+| 6" | 2+ | 2+ | 1 | 1 | 8 | 5+ | 1 | 4 |
 
 ### Keywords
 Light, Infantry, Character
@@ -94,7 +94,7 @@ It is equipped with: Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 2 |
+| 6" | 4+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 2 |
 
 ### Keywords
 Light, Infantry, Character
@@ -197,7 +197,7 @@ It is equipped with: Autopistols; Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 1 | 2 |
+| 6" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 1 | 2 |
 
 ### Keywords
 Light, Infantry, Character
@@ -413,14 +413,14 @@ It is equipped with: Penitent Eviscerators.
 #### 9 Sisters Repentia
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 3+ | 4 | 2 | 6 | 11+ | 9 | 6 |
+| 6" | 3+ | 3+ | 4 | 2 | 7 | 11+ | 9 | 6 |
 
 ## Unit 14 — Elites — Crusaders
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 1 | 1 | 5 | 6+ | 4 | 1 |
+| 6" | 3+ | 4+ | 1 | 1 | 5 | 6+ | 5 | 3 |
 
 ### Keywords
 Light, Infantry
@@ -447,7 +447,7 @@ It is equipped with: Crusader Power Swords.
 #### 8 Crusaders
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 3+ | 4+ | 2 | 2 | 5 | 6+ | 8 | 2 |
+| 6" | 3+ | 4+ | 2 | 2 | 5 | 6+ | 10 | 6 |
 
 ## Unit 15 — Elites — Death Cult Assassins
 
@@ -528,7 +528,7 @@ It is equipped with: Arco-flails.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 4 |
+| 6" | 4+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 4 |
 
 ### Keywords
 Light, Infantry
@@ -565,7 +565,7 @@ It is equipped with: Flamer; Meltagun; Boltguns; Storm Bolter; Close Combat Weap
 #### 10 Dominion Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 8 |
+| 6" | 4+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 8 |
 
 ## Unit 18 — Fast — Novitiate Squad
 
@@ -629,7 +629,7 @@ Sanctifiers is a unit that contains 10 models. It is equipped with: Braziers of 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 5 |
+| 12" | 3+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 5 |
 
 ### Keywords
 Light, Infantry, Fly, Jump Pack
@@ -656,7 +656,7 @@ It is equipped with: Twin Bolt Pistols; Close Combat Weapons.
 #### 10 Seraphim Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 3+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 9 |
+| 12" | 3+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 9 |
 
 ## Unit 21 — Fast — Zephyrim Squad
 
@@ -697,7 +697,7 @@ It is equipped with: Bolt Pistols; Zephyrim Power Swords.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 1 | 1 | 6 | 6+ | 5 | 3 |
+| 6" | 4+ | 3+ | 1 | 1 | 7 | 6+ | 5 | 3 |
 
 ### Keywords
 Light, Infantry
@@ -733,14 +733,14 @@ It is equipped with: Heavy Bolter; Heavy Flamer; Multi-melta; Boltguns; Close Co
 #### 10 Retributor Squad
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 3+ | 2 | 2 | 6 | 6+ | 10 | 6 |
+| 6" | 4+ | 3+ | 2 | 2 | 7 | 6+ | 10 | 6 |
 
 ## Unit 23 — Heavy — Exorcist
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 5 | 6+ | 1 | 7 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 7 |
 
 ### Keywords
 Heavy, Vehicle
@@ -769,7 +769,7 @@ It is equipped with: Exorcist Missile Launcher; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 5 |
 
 ### Keywords
 Heavy, Vehicle, Transport
@@ -801,7 +801,7 @@ It is equipped with: Immolation Flamer; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 1 | 1 | 6 | 7+ | 1 | 5 |
+| 9" | 3+ | 3+ | 1 | 1 | 7 | 7+ | 1 | 5 |
 
 ### Keywords
 Heavy, Vehicle
@@ -832,17 +832,17 @@ It is equipped with: Heavy Bolter; Heavy Flamer; Mortifier Weapons.
 #### 2 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 2 | 2 | 6 | 7+ | 2 | 8 |
+| 9" | 3+ | 3+ | 2 | 2 | 7 | 7+ | 2 | 8 |
 
 #### 3 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 3 | 3 | 6 | 7+ | 3 | 12 |
+| 9" | 3+ | 3+ | 3 | 3 | 7 | 7+ | 3 | 12 |
 
 #### 4 Mortifiers
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 3+ | 3+ | 4 | 4 | 6 | 7+ | 4 | 16 |
+| 9" | 3+ | 3+ | 4 | 4 | 7 | 7+ | 4 | 16 |
 
 ## Unit 26 — Heavy — Penitent Engines
 
@@ -896,7 +896,7 @@ It is equipped with: Heavy Flamer; Penitent Engine Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 5 | 6+ | 1 | 6 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 6 |
 
 ### Keywords
 Heavy, Vehicle
@@ -926,7 +926,7 @@ A Castigator is a unit that contains 1 model. It is equipped with: Castigator Au
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 3+ | 3 | 3 | 6 | 5+ | 3 | 9 |
+| 8" | 3+ | 3+ | 3 | 3 | 7 | 5+ | 3 | 9 |
 
 ### Keywords
 Heavy, Vehicle, Walker
@@ -958,7 +958,7 @@ Paragon Warsuits is a unit that contains 3 models. Every model is equipped with:
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 5 |
 
 ### Keywords
 Heavy, Vehicle, Transport
@@ -990,7 +990,7 @@ It is equipped with: Immolation Flamer; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 5 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 5 |
 
 ### Keywords
 Heavy, Vehicle, Transport
@@ -1015,7 +1015,7 @@ It is equipped with: Storm Bolter; Armoured Tracks.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 6+ | 3+ | 1 | 2 | 6 | 6+ | 1 | 7 |
+| 12" | 6+ | 3+ | 1 | 2 | 7 | 6+ | 1 | 7 |
 
 ### Keywords
 Heavy, Vehicle, Transport
@@ -1041,7 +1041,7 @@ A Repressor is a unit that contains 1 model. It is equipped with: Twin Heavy Fla
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12" | 2+ | 2+ | 3 | 4 | 7 | 4+ | 3 | 14 |
+| 12" | 2+ | 2+ | 3 | 4 | 8 | 4+ | 3 | 14 |
 
 ### Keywords
 Light, Infantry, Fly, Character, Jump Pack
