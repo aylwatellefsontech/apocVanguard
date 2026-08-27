@@ -142,6 +142,13 @@
   gap: 12px;
 }
 
+.icon-btn {
+  min-width: 40px;
+  padding-inline: 10px;
+  font-size: 16px;
+  line-height: 1;
+}
+
 .primary-btn,
 .secondary-btn,
 .text-btn {
@@ -1162,6 +1169,10 @@
 
 .roster-actions-top {
   margin-bottom: 12px;
+}
+
+.roster-save-error-top {
+  margin: -4px 0 12px;
 }
 
 .form-error,

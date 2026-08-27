@@ -17,6 +17,8 @@ const sampleArmy: SavedArmy = {
   roster: [
     {
       id: 'entry-1',
+      factionId: 'Apoc40k-Armies-1st - Orks',
+      factionName: 'Orks',
       unitNo: 6,
       unitName: 'Boyz',
       unitType: 'Troops',

@@ -7,13 +7,13 @@ import ExportArmyModal from '../components/ExportArmyModal'
 import HandModal from '../components/HandModal'
 import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
-import { useArmy } from '../hooks/useFactions'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
-import { deleteSavedArmy, loadSavedArmies, sortArmyCards } from '../utils/armyStorage'
+import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
 import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
-import { sortRosterByType } from '../utils/units'
-import type { SavedArmy, Unit, ViewMode } from '../types'
+import { buildRosterUnitsByEntryId } from '../utils/rosterUnits'
+import { rosterHasMultipleFactions } from '../utils/rosterArmy'
+import type { SavedArmy, ViewMode } from '../types'
 
 const VIEW_CYCLE: ViewMode[] = ['army', 'cards', 'all']
 
@@ -56,17 +56,15 @@ export default function ViewArmiesPage() {
     [savedArmies, selectedArmyId],
   )
 
-  const { army: factionArmy, loading: loadingArmy, error: armyError } = useArmy(
-    selectedArmy?.factionId ?? null,
+  const rosterUnitsByEntryId = useMemo(
+    () =>
+      selectedArmy
+        ? buildRosterUnitsByEntryId(selectedArmy.roster, selectedArmy.factionId)
+        : new Map(),
+    [selectedArmy],
   )
 
-  const unitsByNo = useMemo(() => {
-    const map = new Map<number, Unit>()
-    factionArmy?.units?.forEach((unit) => {
-      map.set(unit.no, unit)
-    })
-    return map
-  }, [factionArmy])
+  const showRosterFactions = rosterHasMultipleFactions(selectedArmy?.roster ?? [])
 
   const allExpanded = Boolean(
     selectedArmy?.roster.length &&
@@ -76,18 +74,11 @@ export default function ViewArmiesPage() {
     selectedArmy?.cards?.length &&
       selectedArmy.cards.every((entry) => expandedCardIds.has(entry.id)),
   )
-  const armyCards = useMemo(
-    () => sortArmyCards(selectedArmy?.cards ?? []),
-    [selectedArmy],
-  )
+  const armyCards = selectedArmy?.cards ?? []
   const hasUnits = (selectedArmy?.roster.length ?? 0) > 0
   const hasCards = armyCards.length > 0
   const showArmySection = viewMode === 'army' || viewMode === 'all'
   const showCardsSection = viewMode === 'cards' || viewMode === 'all'
-  const sortedRoster = useMemo(
-    () => (selectedArmy ? sortRosterByType(selectedArmy.roster) : []),
-    [selectedArmy],
-  )
 
   const printableCards = useMemo(
     () => armyCards.map(armyCardEntryToCard),
@@ -188,8 +179,6 @@ export default function ViewArmiesPage() {
         </p>
       </header>
 
-      {armyError && <p className="error-banner">{armyError}</p>}
-
       {isMobile && mobilePanel === 'detail' && selectedArmy && (
         <MobileBackBar label={selectedArmy.name} onBack={() => setMobilePanel('list')} />
       )}
@@ -282,10 +271,10 @@ export default function ViewArmiesPage() {
                   <button
                     type="button"
                     className="secondary-btn"
-                    disabled={loadingArmy || !hasUnits}
+                    disabled={!hasUnits}
                     onClick={() =>
                       openPrintableInNewTab(
-                        generateArmyPrintHtml(selectedArmy, unitsByNo),
+                        generateArmyPrintHtml(selectedArmy, rosterUnitsByEntryId),
                         `${selectedArmy.name} — Army List`,
                       )
                     }
@@ -328,9 +317,7 @@ export default function ViewArmiesPage() {
                 </div>
               </header>
 
-              {loadingArmy ? (
-                <p className="muted panel-message">Loading unit datasheets…</p>
-              ) : viewMode === 'all' && !hasUnits && !hasCards ? (
+              {viewMode === 'all' && !hasUnits && !hasCards ? (
                 <p className="muted panel-message">This army has no units or cards.</p>
               ) : (
                 <>
@@ -346,11 +333,12 @@ export default function ViewArmiesPage() {
                         <p className="muted panel-message">This army has no units.</p>
                       ) : (
                         <ul className="roster-list army-roster-list">
-                          {sortedRoster.map((entry) => (
+                          {selectedArmy.roster.map((entry) => (
                             <ArmyRosterEntry
                               key={entry.id}
                               entry={entry}
-                              unit={unitsByNo.get(entry.unitNo) ?? null}
+                              unit={rosterUnitsByEntryId.get(entry.id) ?? null}
+                              showFaction={showRosterFactions}
                               expanded={expandedEntryIds.has(entry.id)}
                               onToggleExpanded={() => handleToggleEntry(entry.id)}
                             />

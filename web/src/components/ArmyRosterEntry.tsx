@@ -24,6 +24,7 @@ import type { RosterEntry, Unit } from '../types'
 interface ArmyRosterEntryProps {
   entry: RosterEntry
   unit: Unit | null
+  showFaction?: boolean
   expanded: boolean
   onToggleExpanded: () => void
 }
@@ -31,6 +32,7 @@ interface ArmyRosterEntryProps {
 export default function ArmyRosterEntry({
   entry,
   unit,
+  showFaction = false,
   expanded,
   onToggleExpanded,
 }: ArmyRosterEntryProps) {
@@ -61,7 +63,7 @@ export default function ArmyRosterEntry({
         </span>
         <span className="army-roster-entry-summary">
           <strong>{entry.unitName}</strong>
-          <span className="roster-item-meta">{formatRosterEntryMeta(entry)}</span>
+          <span className="roster-item-meta">{formatRosterEntryMeta(entry, showFaction)}</span>
           {entry.unitType && (
             <span className="roster-item-meta">
               {formatUnitTypeLabel(entry.unitType, unit)}

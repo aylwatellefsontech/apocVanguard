@@ -12,7 +12,6 @@ import {
   getUnitProfiles,
   groupUnitsByType,
   getProfileStatsForEntry,
-  sortRosterByType,
 } from './units'
 import { formatRosterEntryMeta } from './roster'
 import type {
@@ -668,7 +667,7 @@ function formatArmyUpdatedAt(iso?: string): string {
 
 export function generateArmyPrintHtml(
   army: SavedArmy,
-  unitsByNo: Map<number, Unit>,
+  unitsByEntryId: Map<string, Unit>,
 ): string {
   const metaParts = [
     `Faction: ${escapeHtml(army.factionName)}`,
@@ -687,8 +686,8 @@ export function generateArmyPrintHtml(
   const sections: string[] = []
 
   if (army.roster.length > 0) {
-    const rosterSheets = sortRosterByType(army.roster)
-      .map((entry) => renderRosterEntrySheet(entry, unitsByNo.get(entry.unitNo)))
+    const rosterSheets = army.roster
+      .map((entry) => renderRosterEntrySheet(entry, unitsByEntryId.get(entry.id)))
       .join('')
 
     sections.push(`

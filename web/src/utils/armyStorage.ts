@@ -32,13 +32,18 @@ export function loadSavedArmies(): SavedArmy[] {
   }
 }
 
-export function normalizeRosterEntry(entry: RosterEntry): RosterEntry {
+export function normalizeRosterEntry(
+  entry: RosterEntry,
+  army?: Pick<SavedArmy, 'factionId' | 'factionName'>,
+): RosterEntry {
   const profilePoints = entry.profilePoints ?? entry.points ?? 0
   const selectedOptions = Array.isArray(entry.selectedOptions) ? entry.selectedOptions : []
   const optionPoints = selectedOptions.reduce((sum, option) => sum + (option.points ?? 0), 0)
 
   return {
     ...entry,
+    factionId: entry.factionId ?? army?.factionId ?? '',
+    factionName: entry.factionName ?? army?.factionName ?? '',
     profilePoints,
     selectedOptions,
     points: profilePoints + optionPoints,
@@ -46,8 +51,10 @@ export function normalizeRosterEntry(entry: RosterEntry): RosterEntry {
 }
 
 export function normalizeSavedArmy(army: SavedArmy): SavedArmy {
-  const roster = Array.isArray(army.roster) ? army.roster.map(normalizeRosterEntry) : []
-  const cards = sortArmyCards(Array.isArray(army.cards) ? army.cards : [])
+  const roster = Array.isArray(army.roster)
+    ? army.roster.map((entry) => normalizeRosterEntry(entry, army))
+    : []
+  const cards = Array.isArray(army.cards) ? army.cards : []
   return {
     ...army,
     roster,
@@ -96,6 +103,10 @@ export function createArmyCardEntry(card: Card): ArmyCardEntry {
   }
 }
 
+export function sortArmyCardsByName(cards: ArmyCardEntry[]): ArmyCardEntry[] {
+  return [...cards].sort((a, b) => a.name.localeCompare(b.name))
+}
+
 export function sortArmyCards(cards: ArmyCardEntry[]): ArmyCardEntry[] {
   return [...cards].sort((a, b) => {
     const setCompare = String(a.set ?? '').localeCompare(String(b.set ?? ''))
@@ -106,9 +117,15 @@ export function sortArmyCards(cards: ArmyCardEntry[]): ArmyCardEntry[] {
   })
 }
 
-export function createRosterEntry(unit: Unit, profile: UnitProfile): RosterEntry {
+export function createRosterEntry(
+  unit: Unit,
+  profile: UnitProfile,
+  faction: { factionId: string; factionName: string },
+): RosterEntry {
   return {
     id: crypto.randomUUID(),
+    factionId: faction.factionId,
+    factionName: faction.factionName,
     unitNo: unit.no,
     unitName: unit.name,
     unitType: unit.type,

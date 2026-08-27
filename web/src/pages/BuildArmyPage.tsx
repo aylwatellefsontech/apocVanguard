@@ -19,15 +19,21 @@ import {
   deleteSavedArmy,
   loadSavedArmies,
   saveArmy,
-  sortArmyCards,
+  sortArmyCardsByName,
   toggleRosterOption,
 } from '../utils/armyStorage'
 import { importAndSaveArmyFromCode } from '../utils/armyExport'
 import type { ArmyExportSource } from '../utils/armyExport'
+import { getLocalArmy } from '../data/localArmyLists'
+import {
+  deriveSavedArmyFactionMeta,
+  rosterHasMultipleFactions,
+  sortRosterByFactionAndName,
+} from '../utils/rosterArmy'
 import { summarizeOption } from '../utils/formatOption'
 import { getChooseOneChoices } from '../utils/optionUtils'
 import { getBaseApocCards } from '../utils/cardFactions'
-import { getProfileStatsForEntry, groupUnitsByType, sortRosterByType } from '../utils/units'
+import { getProfileStatsForEntry, groupUnitsByType } from '../utils/units'
 import type {
   ArmyCardEntry,
   BrowseMode,
@@ -200,18 +206,25 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     [baseApocCards, armyCardIds],
   )
 
-  const sortedArmyCards = useMemo(() => sortArmyCards(armyCards), [armyCards])
+  const sortedArmyCards = armyCards
 
   const selectedCard = filteredCards.find(
     (card) => card.id === (selectedCardId ?? filteredCards[0]?.id),
   )
   const activeCardId = selectedCard?.id
 
-  const selectedUnit = army?.units?.find(
-    (unit) => unit.no === (selectedUnitNo ?? army?.units?.[0]?.no),
-  )
-  const activeUnitNo = selectedUnit?.no
   const selectedRosterEntry = roster.find((entry) => entry.id === selectedRosterEntryId)
+  const selectedUnit = useMemo(() => {
+    if (selectedRosterEntry) {
+      const entryArmy = getLocalArmy(selectedRosterEntry.factionId)
+      return entryArmy?.units?.find((unit) => unit.no === selectedRosterEntry.unitNo) ?? null
+    }
+
+    return (
+      army?.units?.find((unit) => unit.no === (selectedUnitNo ?? army?.units?.[0]?.no)) ?? null
+    )
+  }, [selectedRosterEntry, army, selectedUnitNo])
+  const activeUnitNo = selectedUnit?.no
   const optionProfileStats = useMemo(() => {
     if (!selectedUnit || !selectedRosterEntry) {
       return null
@@ -229,23 +242,36 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   const totalPoints = roster.reduce((sum, entry) => sum + entry.points, 0)
 
   const exportArmySource: ArmyExportSource | null =
-    activeFactionId && (roster.length > 0 || armyCards.length > 0)
-      ? {
-          name: armyName.trim() || 'Untitled Army',
-          factionId: activeFactionId,
-          factionName: army?.faction ?? '',
-          totalPoints,
-          updatedAt: new Date().toISOString(),
-          roster,
-          cards: armyCards,
-        }
+    roster.length > 0 || armyCards.length > 0
+      ? (() => {
+          const factionMeta = deriveSavedArmyFactionMeta(roster, armyCards, {
+            factionId: activeFactionId ?? '',
+            factionName: army?.faction ?? '',
+          })
+          return {
+            name: armyName.trim() || 'Untitled Army',
+            factionId: factionMeta.factionId,
+            factionName: factionMeta.factionName,
+            totalPoints,
+            updatedAt: new Date().toISOString(),
+            roster,
+            cards: armyCards,
+          }
+        })()
       : null
-  const sortedRoster = useMemo(() => sortRosterByType(roster), [roster])
+  const showRosterFactions = rosterHasMultipleFactions(roster)
   const error = factionsError || armyError || cardsError
   const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
 
   function handleAddProfile(unit: Unit, profile: UnitProfile) {
-    const entry = createRosterEntry(unit, profile)
+    if (!activeFactionId) {
+      return
+    }
+
+    const entry = createRosterEntry(unit, profile, {
+      factionId: activeFactionId,
+      factionName: army?.faction ?? '',
+    })
     setRoster((current) => [...current, entry])
     setSelectedRosterEntryId(entry.id)
     setSelectedUnitNo(unit.no)
@@ -254,6 +280,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   }
 
   function handleSelectRosterEntry(entry: RosterEntry) {
+    setSelectedFactionId(entry.factionId)
     setSelectedRosterEntryId(entry.id)
     setSelectedUnitNo(entry.unitNo)
     setIsEditingRosterEntry(true)
@@ -354,22 +381,31 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     setSaveMessage(null)
   }
 
-  function handleSaveArmy() {
+  function handleSaveArmy(source: 'top' | 'bottom' = 'bottom') {
     const trimmedName = armyName.trim()
     if (!trimmedName) {
-      setSaveMessage({ type: 'error', text: 'Enter a name before saving.' })
+      setSaveMessage({ type: 'error', text: 'Enter a name before saving.', target: source })
       return
     }
     if (!activeFactionId || (roster.length === 0 && armyCards.length === 0)) {
-      setSaveMessage({ type: 'error', text: 'Add at least one unit or card before saving.' })
+      setSaveMessage({
+        type: 'error',
+        text: 'Add at least one unit or card before saving.',
+        target: source,
+      })
       return
     }
+
+    const factionMeta = deriveSavedArmyFactionMeta(roster, armyCards, {
+      factionId: activeFactionId,
+      factionName: army?.faction ?? '',
+    })
 
     const payload: SavedArmy = {
       id: editingArmyId ?? crypto.randomUUID(),
       name: trimmedName,
-      factionId: activeFactionId,
-      factionName: army?.faction ?? '',
+      factionId: factionMeta.factionId,
+      factionName: factionMeta.factionName,
       totalPoints,
       updatedAt: new Date().toISOString(),
       roster,
@@ -378,7 +414,11 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
 
     const result = saveArmy(payload)
     if (!result.ok) {
-      setSaveMessage({ type: 'error', text: result.error ?? 'Failed to save army.' })
+      setSaveMessage({
+        type: 'error',
+        text: result.error ?? 'Failed to save army.',
+        target: source,
+      })
       return
     }
 
@@ -388,7 +428,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   }
 
   function handleLoadArmy(saved: SavedArmy, options?: { silent?: boolean }) {
-    setSelectedFactionId(saved.factionId)
+    setSelectedFactionId(saved.roster[0]?.factionId ?? saved.factionId)
     setArmyName(saved.name)
     setEditingArmyId(saved.id)
     setRoster(saved.roster)
@@ -423,6 +463,12 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
       return
     }
     startNewArmy()
+  }
+
+  function handleSortRoster() {
+    setRoster((current) => sortRosterByFactionAndName(current))
+    setArmyCards((current) => sortArmyCardsByName(current))
+    setSaveMessage(null)
   }
 
   function handleExportArmy() {
@@ -486,7 +532,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
         <div className="header-actions">
           <div className="header-button-row">
             <button type="button" className="secondary-btn" onClick={handleNewArmyClick}>
-              New Army
+              New
             </button>
             <button type="button" className="secondary-btn" onClick={() => {
               setImportError(null)
@@ -496,6 +542,15 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
             </button>
             <button type="button" className="secondary-btn" onClick={handleExportArmy}>
               Export
+            </button>
+            <button
+              type="button"
+              className="secondary-btn icon-btn"
+              onClick={handleSortRoster}
+              aria-label="Sort army roster"
+              title="Sort by faction, then unit name; sort cards alphabetically"
+            >
+              ↕
             </button>
           </div>
         </div>
@@ -767,10 +822,13 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
           </div>
 
           <div className="roster-actions roster-actions-top">
-            <button type="button" className="primary-btn" onClick={handleSaveArmy}>
+            <button type="button" className="primary-btn" onClick={() => handleSaveArmy('top')}>
               Save Army
             </button>
           </div>
+          {saveMessage?.type === 'error' && saveMessage.target === 'top' && (
+            <p className="form-error roster-save-error-top">{saveMessage.text}</p>
+          )}
 
           <label className="field-label" htmlFor="army-name">
             Army name
@@ -790,10 +848,11 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
             <>
               {roster.length > 0 && (
                 <ul className="roster-list">
-                  {sortedRoster.map((entry) => (
+                  {roster.map((entry) => (
                     <RosterEntrySummary
                       key={entry.id}
                       entry={entry}
+                      showFaction={showRosterFactions}
                       active={entry.id === selectedRosterEntryId}
                       onSelect={handleSelectRosterEntry}
                       onRemove={handleRemoveEntry}
@@ -817,7 +876,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
           )}
 
           <div className="roster-actions">
-            <button type="button" className="primary-btn" onClick={handleSaveArmy}>
+            <button type="button" className="primary-btn" onClick={() => handleSaveArmy('bottom')}>
               Save Army
             </button>
             <button type="button" className="secondary-btn" onClick={handleClearRoster}>
@@ -825,7 +884,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
             </button>
           </div>
 
-          {saveMessage && (
+          {saveMessage && !(saveMessage.type === 'error' && saveMessage.target === 'top') && (
             <p className={saveMessage.type === 'error' ? 'form-error' : 'form-success'}>
               {saveMessage.text}
             </p>
@@ -875,7 +934,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
         <ConfirmModal
           title="Start a new army?"
           message="Any unsaved changes to the current army will be lost."
-          confirmLabel="New Army"
+          confirmLabel="New"
           danger
           onConfirm={() => {
             setConfirmNewArmyOpen(false)

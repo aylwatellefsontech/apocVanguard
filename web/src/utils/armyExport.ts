@@ -84,6 +84,8 @@ function compactRosterEntry(entry: RosterEntry): unknown[] {
     entry.profileLabel,
     entry.profilePoints,
     entry.modelCount ?? null,
+    entry.factionId,
+    entry.factionName,
   ]
 
   if (entry.selectedOptions.length > 0) {
@@ -173,7 +175,11 @@ function validateSelectedOption(option: unknown, path: string): SelectedOption {
   }
 }
 
-function validateRosterEntry(entry: unknown, index: number): RosterEntry {
+function validateRosterEntry(
+  entry: unknown,
+  index: number,
+  fallbackFaction?: { factionId: string; factionName: string },
+): RosterEntry {
   const path = `Roster entry ${index + 1}`
   if (!Array.isArray(entry) || entry.length < 7) {
     throw new Error(`${path} is malformed.`)
@@ -187,7 +193,23 @@ function validateRosterEntry(entry: unknown, index: number): RosterEntry {
   const profileLabel = entry[5]
   const profilePoints = entry[6]
   const modelCount = entry.length > 7 ? entry[7] : null
-  const selectedOptionsRaw = entry.length > 8 ? entry[8] : []
+  let factionId = fallbackFaction?.factionId ?? ''
+  let factionName = fallbackFaction?.factionName ?? ''
+  let selectedOptionsRaw: unknown = []
+
+  if (entry.length > 8) {
+    if (typeof entry[8] === 'string') {
+      factionId = entry[8]
+      if (typeof entry[9] === 'string') {
+        factionName = entry[9]
+      }
+      if (Array.isArray(entry[10])) {
+        selectedOptionsRaw = entry[10]
+      }
+    } else if (Array.isArray(entry[8])) {
+      selectedOptionsRaw = entry[8]
+    }
+  }
 
   if (typeof unitNo !== 'number' || !Number.isInteger(unitNo) || unitNo <= 0) {
     throw new Error(`${path} has an invalid unit number.`)
@@ -219,6 +241,8 @@ function validateRosterEntry(entry: unknown, index: number): RosterEntry {
 
   return normalizeRosterEntry({
     id: crypto.randomUUID(),
+    factionId,
+    factionName,
     unitNo,
     unitName,
     unitType,
@@ -318,7 +342,12 @@ function decodeCompactPayload(payload: unknown): ImportArmyResult {
     return { ok: false, error: 'Export payload is missing card data.' }
   }
 
-  const roster = rosterRaw.map(validateRosterEntry)
+  const roster = rosterRaw.map((entry, index) =>
+    validateRosterEntry(entry, index, {
+      factionId: factionId.trim(),
+      factionName: factionName.trim(),
+    }),
+  )
   const cards = cardsRaw.map(validateCardEntry)
 
   if (roster.length === 0 && cards.length === 0) {
@@ -430,9 +459,12 @@ function decodeLegacyMarkdown(text: string): ImportArmyResult {
         entry.profileLabel,
         entry.profilePoints,
         entry.modelCount ?? null,
+        typeof entry.factionId === 'string' ? entry.factionId : factionId,
+        typeof entry.factionName === 'string' ? entry.factionName : factionName,
         selectedOptions,
       ],
       index,
+      { factionId, factionName },
     )
   })
 

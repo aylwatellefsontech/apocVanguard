@@ -3,11 +3,9 @@
 TESTING Armylists, list builders, and playing games.
 
 # Features
-- Add ability to export and import a list.
 - Clean up List viewing with mobile, esp mid-sized mobile (landscape vs portrait).
-- Clean up ability to edit lists in mobile.
-- For those sub-profiles that have their own weapons and abilities, update the presentation, perhaps group them together, and flag those profiles somehow as 'special' type.
 - create ai generated SVG icons for the different factions, that represent each (eight pointed star, eldar  triangle icon, Imperial eagle, skull with wings angels of death logo, ad mech logo, orks skull logo, drukhari heart icon, fleur icon , tyranid icon, tau icon)
+- Fix the adding of units and cards from different armies.  Make it so that if you add units from different armies, they can successfully both be added, as units from different army lists.
 
 # Game Features
 - Add alternative army rules for each faction.

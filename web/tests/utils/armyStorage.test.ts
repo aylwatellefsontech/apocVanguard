@@ -135,7 +135,12 @@ describe('createRosterEntry', () => {
       points: 5,
     }
 
-    const entry = createRosterEntry(unit, profile)
+    const entry = createRosterEntry(unit, profile, {
+      factionId: 'Apoc40k-Armies-1st - Orks',
+      factionName: 'Orks',
+    })
+    expect(entry.factionId).toBe('Apoc40k-Armies-1st - Orks')
+    expect(entry.factionName).toBe('Orks')
     expect(entry.unitNo).toBe(7)
     expect(entry.unitName).toBe('Boyz')
     expect(entry.unitType).toBe('Troops')
@@ -170,6 +175,8 @@ describe('toggleRosterOption', () => {
 
   const baseEntry: RosterEntry = {
     id: '1',
+    factionId: 'Apoc40k-Armies-1st - Orks',
+    factionName: 'Orks',
     unitNo: 1,
     unitName: 'Deff Dread',
     unitType: 'Walker',

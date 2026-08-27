@@ -26,6 +26,8 @@ function makeRosterEntry(
   overrides: Partial<RosterEntry> & Pick<RosterEntry, 'id' | 'unitName' | 'unitType'>,
 ): RosterEntry {
   return {
+    factionId: 'Apoc40k-Armies-1st - Orks',
+    factionName: 'Orks',
     unitNo: 1,
     profileKind: 'primary',
     profileIndex: 0,

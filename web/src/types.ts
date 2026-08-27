@@ -123,6 +123,8 @@ export interface OptionToggleContext {
 
 export interface RosterEntry {
   id: string
+  factionId: string
+  factionName: string
   unitNo: number
   unitName: string
   unitType: string
@@ -208,6 +210,7 @@ export interface RulesHeading {
 export interface SaveMessage {
   type: 'error' | 'success'
   text: string
+  target?: 'top' | 'bottom'
 }
 
 export interface SaveArmyResult {
