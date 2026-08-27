@@ -1,19 +1,23 @@
+import { useState } from 'react'
 import StatsTable from './StatsTable'
 import UnitAbilities from './UnitAbilities'
 import UnitTagList from './UnitTagList'
 import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
+import UnitProfileDetails from './UnitProfileDetails'
+import UnitProfileSummaryList from './UnitProfileSummaryList'
 import UnitWeapons from './UnitWeapons'
 import { formatRosterEntryMeta } from '../utils/roster'
 import {
   formatUnitTypeLabel,
-  getProfileAbilitySections,
-  getProfileKeywordSections,
+  getBlendedAbilities,
+  getBlendedKeywords,
+  getBlendedTraits,
+  getBlendedWeapons,
+  getProfileDisplayName,
   getProfileStatsForEntry,
-  getProfileTraitSections,
-  getProfileWeaponSections,
   getUnitProfiles,
-  isProfileSelected,
+  resolveActiveProfile,
 } from '../utils/units'
 import type { RosterEntry, Unit } from '../types'
 
@@ -30,8 +34,19 @@ export default function ArmyRosterEntry({
   expanded,
   onToggleExpanded,
 }: ArmyRosterEntryProps) {
+  const [showAlternateProfiles, setShowAlternateProfiles] = useState(false)
   const profileStats = unit ? getProfileStatsForEntry(unit, entry) : null
   const selectedOptionIndexes = entry.selectedOptions?.map((option) => option.index) ?? []
+  const allProfiles = unit ? getUnitProfiles(unit) : []
+  const activeProfile = {
+    kind: entry.profileKind,
+    index: entry.profileIndex,
+    label: entry.profileLabel,
+  }
+  const resolvedProfile = resolveActiveProfile(allProfiles, activeProfile)
+  const profileLabel = resolvedProfile ? getProfileDisplayName(resolvedProfile) : entry.profileLabel
+  const hasAlternateProfiles = allProfiles.length > 1
+  const hideInactiveProfiles = hasAlternateProfiles && !showAlternateProfiles
 
   return (
     <li className={`roster-item army-roster-entry${expanded ? ' expanded' : ''}`}>
@@ -61,45 +76,37 @@ export default function ArmyRosterEntry({
             <p className="muted panel-message">Unit datasheet not available.</p>
           ) : (
             <>
-              <UnitDetailHeader unit={unit} />
-
-              <section>
-                <h3>Profiles</h3>
-                <div className="profile-picker-list">
-                  {getUnitProfiles(unit).map((profile) => (
-                    <div
-                      key={`${profile.kind}-${profile.index}`}
-                      className={`profile-block${
-                        isProfileSelected(profile, entry) ? ' selected' : ' dimmed'
-                      }`}
+              <UnitDetailHeader
+                unit={unit}
+                asideFooter={
+                  hasAlternateProfiles ? (
+                    <button
+                      type="button"
+                      className="text-btn army-roster-profile-toggle"
+                      onClick={() => setShowAlternateProfiles((current) => !current)}
                     >
-                      <div className="profile-block-header">
-                        <h4>{profile.label}</h4>
-                        <p className="profile-picker-meta">{profile.points} Pt</p>
-                      </div>
-                      <StatsTable stats={profile.stats} />
-                    </div>
-                  ))}
-                </div>
-              </section>
+                      {showAlternateProfiles ? 'Hide other profiles' : 'Show other profiles'}
+                    </button>
+                  ) : undefined
+                }
+              />
 
-              <UnitWeapons
-                weapons={unit.weapons}
-                profileSections={getProfileWeaponSections(unit, entry.profileLabel)}
+              <StatsTable stats={profileStats} label={profileLabel} />
+              <UnitProfileSummaryList
+                profiles={allProfiles}
+                activeProfile={activeProfile}
+                hideInactiveProfiles={hideInactiveProfiles}
               />
-              <UnitAbilities
-                abilities={unit.abilities}
-                profileSections={getProfileAbilitySections(unit, entry.profileLabel)}
-              />
-              <UnitTagList
-                title="Keywords"
-                tags={unit.keywords}
-                profileSections={getProfileKeywordSections(unit, entry.profileLabel)}
-              />
-              <UnitTagList
-                title="Traits"
-                tags={unit.traits}
-                profileSections={getProfileTraitSections(unit, entry.profileLabel)}
+
+              <UnitWeapons weapons={getBlendedWeapons(unit, resolvedProfile)} />
+              <UnitAbilities abilities={getBlendedAbilities(unit, resolvedProfile)} />
+              <UnitTagList title="Keywords" tags={getBlendedKeywords(unit, resolvedProfile)} />
+              <UnitTagList title="Traits" tags={getBlendedTraits(unit, resolvedProfile)} />
+
+              <UnitProfileDetails
+                unit={unit}
+                activeProfile={activeProfile}
+                hideInactiveProfiles={hideInactiveProfiles}
               />
 
               <UnitOptions
@@ -107,7 +114,8 @@ export default function ArmyRosterEntry({
                 selectedOptionIndexes={selectedOptionIndexes}
                 selectedOptions={entry.selectedOptions}
                 profileStats={profileStats}
-                highlightSelection
+                highlightSelection={!hideInactiveProfiles}
+                hideUnselected={hideInactiveProfiles}
               />
             </>
           )}

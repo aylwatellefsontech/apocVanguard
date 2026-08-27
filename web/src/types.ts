@@ -171,6 +171,12 @@ export interface UnitProfile {
   weapons?: Weapon[]
 }
 
+export interface ActiveProfileSelection {
+  kind: 'primary' | 'alt'
+  index: number
+  label?: string | null
+}
+
 export interface ProfileAbilitySection {
   heading: string
   text: string

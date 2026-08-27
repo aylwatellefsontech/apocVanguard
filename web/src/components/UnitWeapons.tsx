@@ -4,6 +4,7 @@ import type { ProfileWeaponSection, Weapon } from '../types'
 interface UnitWeaponsProps {
   weapons?: Weapon[]
   profileSections?: ProfileWeaponSection[]
+  embedded?: boolean
 }
 
 function formatSkill(weapon: Weapon): string {
@@ -55,19 +56,35 @@ function WeaponsTable({ weapons }: { weapons: Weapon[] }) {
   )
 }
 
-export default function UnitWeapons({ weapons = [], profileSections = [] }: UnitWeaponsProps) {
+export default function UnitWeapons({
+  weapons = [],
+  profileSections = [],
+  embedded = false,
+}: UnitWeaponsProps) {
   if (weapons.length === 0 && profileSections.length === 0) return null
 
+  const Wrapper = embedded ? 'div' : 'section'
+  const HeadingTag = embedded ? 'h5' : 'h3'
+
   return (
-    <section>
-      <h3>Weapons</h3>
-      {weapons.length > 0 && <WeaponsTable weapons={weapons} />}
+    <Wrapper className={embedded ? 'profile-details-subsection' : undefined}>
+      {!embedded && <HeadingTag>Weapons</HeadingTag>}
+      {weapons.length > 0 && (
+        embedded ? (
+          <>
+            <HeadingTag>Weapons</HeadingTag>
+            <WeaponsTable weapons={weapons} />
+          </>
+        ) : (
+          <WeaponsTable weapons={weapons} />
+        )
+      )}
       {profileSections.map((section) => (
         <div key={section.heading} className="profile-extras">
           <h4>{section.heading}</h4>
           <WeaponsTable weapons={section.weapons} />
         </div>
       ))}
-    </section>
+    </Wrapper>
   )
 }

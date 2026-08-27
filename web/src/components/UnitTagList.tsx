@@ -4,22 +4,44 @@ interface UnitTagListProps {
   title: string
   tags?: string[]
   profileSections?: ProfileTagSection[]
+  embedded?: boolean
 }
 
-export default function UnitTagList({ title, tags = [], profileSections = [] }: UnitTagListProps) {
+export default function UnitTagList({
+  title,
+  tags = [],
+  profileSections = [],
+  embedded = false,
+}: UnitTagListProps) {
   if (tags.length === 0 && profileSections.length === 0) return null
 
+  const Wrapper = embedded ? 'div' : 'section'
+  const HeadingTag = embedded ? 'h5' : 'h3'
+
   return (
-    <section>
-      <h3>{title}</h3>
+    <Wrapper className={embedded ? 'profile-details-subsection' : undefined}>
+      {!embedded && <HeadingTag>{title}</HeadingTag>}
       {tags.length > 0 && (
-        <div className="keyword-list">
-          {tags.map((tag) => (
-            <span key={tag} className="keyword">
-              {tag}
-            </span>
-          ))}
-        </div>
+        embedded ? (
+          <>
+            <HeadingTag>{title}</HeadingTag>
+            <div className="keyword-list">
+              {tags.map((tag) => (
+                <span key={tag} className="keyword">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="keyword-list">
+            {tags.map((tag) => (
+              <span key={tag} className="keyword">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )
       )}
       {profileSections.map((section) => (
         <div key={section.heading} className="profile-extras">
@@ -33,6 +55,6 @@ export default function UnitTagList({ title, tags = [], profileSections = [] }: 
           </div>
         </div>
       ))}
-    </section>
+    </Wrapper>
   )
 }

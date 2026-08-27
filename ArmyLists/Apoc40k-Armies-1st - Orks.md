@@ -183,6 +183,9 @@ Speedwaaagh!: If a <Clan> Speed Freeks unit starts a Move action within 6" of an
 
 ## Unit 6 — Troops — Boyz
 
+### Profile Name
+10 Boys
+
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

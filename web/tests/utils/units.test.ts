@@ -1,7 +1,12 @@
 import { describe, expect, it } from '@jest/globals'
 import type { RosterEntry, Unit } from '../../src/types.js'
 import {
+  getBlendedAbilities,
+  getBlendedKeywords,
+  getBlendedTraits,
+  getBlendedWeapons,
   getProfileAbilitySections,
+  getProfileDisplayName,
   getProfileKeywordSections,
   getProfileTraitSections,
   getProfileWeaponSections,
@@ -74,6 +79,78 @@ describe('getUnitProfiles', () => {
         stats: { name: '20 Boyz', Pt: '10', N: '20' },
         points: 10,
       },
+    ])
+  })
+
+  it('uses the primary stats name as the primary profile label', () => {
+    const unit = makeUnit({
+      no: 6,
+      type: 'Troops',
+      name: 'Boyz',
+      stats: { name: '10 Boys', Pt: '5', N: '10' },
+      profiles: [{ name: '20 Boyz', Pt: '10', N: '20' }],
+    })
+
+    expect(getUnitProfiles(unit)[0]?.label).toBe('10 Boys')
+  })
+})
+
+describe('getProfileDisplayName', () => {
+  it('prefers the stats name over the profile label', () => {
+    expect(
+      getProfileDisplayName({
+        kind: 'alt',
+        index: 0,
+        label: 'Alt Profile 1',
+        stats: { name: 'Lord Commissar', Pt: '4' },
+        points: 4,
+      }),
+    ).toBe('Lord Commissar')
+  })
+
+  it('falls back to the profile label when stats name is missing', () => {
+    expect(
+      getProfileDisplayName({
+        kind: 'primary',
+        index: 0,
+        label: 'Primary Profile',
+        stats: { Pt: '3' },
+        points: 3,
+      }),
+    ).toBe('Primary Profile')
+  })
+})
+
+describe('blended profile content', () => {
+  const unit = makeUnit({
+    no: 6,
+    type: 'Troops',
+    name: 'Boyz',
+    stats: { name: '10 Boys', Pt: '5', N: '10' },
+    keywords: ['Light', 'Infantry'],
+    traits: ['Orks', 'Boyz'],
+    abilities: 'Base ability.',
+    weapons: [{ name: 'Sluggas', type: 'Small Arms' }],
+    profiles: [
+      {
+        name: '20 Boyz',
+        Pt: '10',
+        N: '20',
+        traits: ['Large Unit'],
+        abilities: 'Profile ability.',
+        weapons: [{ name: 'More Sluggas', type: 'Small Arms' }],
+      },
+    ],
+  })
+
+  it('merges base and selected profile display fields', () => {
+    const profile = getUnitProfiles(unit)[1]!
+    expect(getBlendedKeywords(unit, profile)).toEqual(['Light', 'Infantry'])
+    expect(getBlendedTraits(unit, profile)).toEqual(['Orks', 'Boyz', 'Large Unit'])
+    expect(getBlendedAbilities(unit, profile)).toBe('Base ability.\n\nProfile ability.')
+    expect(getBlendedWeapons(unit, profile).map((weapon) => weapon.name)).toEqual([
+      'Sluggas',
+      'More Sluggas',
     ])
   })
 })
@@ -166,7 +243,9 @@ describe('getProfileAbilitySections', () => {
   })
 
   it('returns only the selected profile ability section', () => {
-    expect(getProfileAbilitySections(unit, 'Mega Armour')).toEqual([
+    expect(
+      getProfileAbilitySections(unit, { kind: 'alt', index: 0, label: 'Mega Armour' }),
+    ).toEqual([
       {
         heading: 'Mega Armour Abilities',
         text: 'It is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapons.',
@@ -219,11 +298,11 @@ describe('profile keyword, trait, and weapon sections', () => {
   })
 
   it('returns only the selected profile extra sections', () => {
-    expect(getProfileKeywordSections(unit, 'Sky Runner')).toEqual([
-      { heading: 'Sky Runner Keywords', items: ['Biker', 'Fly'] },
-    ])
-    expect(getProfileTraitSections(unit, 'Primary Profile')).toEqual([
-      { heading: 'Base Profile Traits', items: ['Character'] },
-    ])
+    expect(
+      getProfileKeywordSections(unit, { kind: 'alt', index: 0, label: 'Sky Runner' }),
+    ).toEqual([{ heading: 'Sky Runner Keywords', items: ['Biker', 'Fly'] }])
+    expect(
+      getProfileTraitSections(unit, { kind: 'primary', index: 0, label: 'Primary Profile' }),
+    ).toEqual([{ heading: 'Base Profile Traits', items: ['Character'] }])
   })
 })

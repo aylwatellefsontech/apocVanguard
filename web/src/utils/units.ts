@@ -1,5 +1,6 @@
 import { TYPE_ORDER } from '../constants'
 import type {
+  ActiveProfileSelection,
   ProfileAbilitySection,
   ProfileTagSection,
   ProfileWeaponSection,
@@ -20,6 +21,120 @@ export function parsePoints(stats: UnitStats | undefined): number {
 export function getAltProfileLabel(profile: UnitStats, index: number): string {
   const name = profile.name?.trim()
   return name || `Alt Profile ${index + 1}`
+}
+
+export function getProfileDisplayName(profile: UnitProfile): string {
+  const name = profile.stats.name?.trim()
+  return name || profile.label
+}
+
+export function getProfileAnchorId(profile: UnitProfile): string {
+  return `profile-detail-${profile.kind}-${profile.index}`
+}
+
+export function profileHasExtras(profile: UnitProfile): boolean {
+  return Boolean(
+    profile.abilities?.trim() ||
+      profile.keywords?.length ||
+      profile.traits?.length ||
+      profile.weapons?.length,
+  )
+}
+
+export function getProfilesForDetailsSection(unit: Unit | null | undefined): UnitProfile[] {
+  const profiles = getUnitProfiles(unit)
+  return profiles.length > 1 ? profiles : profiles.filter((profile) => profileHasExtras(profile))
+}
+
+export function scrollToProfileDetail(profile: UnitProfile): void {
+  document.getElementById(getProfileAnchorId(profile))?.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
+}
+
+export function getBlendedKeywords(unit: Unit | null | undefined, profile: UnitProfile | null): string[] {
+  const tags = [...(unit?.keywords ?? [])]
+  for (const tag of profile?.keywords ?? []) {
+    if (!tags.includes(tag)) {
+      tags.push(tag)
+    }
+  }
+  return tags
+}
+
+export function getBlendedTraits(unit: Unit | null | undefined, profile: UnitProfile | null): string[] {
+  const tags = [...(unit?.traits ?? [])]
+  for (const tag of profile?.traits ?? []) {
+    if (!tags.includes(tag)) {
+      tags.push(tag)
+    }
+  }
+  return tags
+}
+
+export function getBlendedAbilities(
+  unit: Unit | null | undefined,
+  profile: UnitProfile | null,
+): string | undefined {
+  const parts = [unit?.abilities?.trim(), profile?.abilities?.trim()].filter(Boolean)
+  return parts.length > 0 ? parts.join('\n\n') : undefined
+}
+
+export function getBlendedWeapons(unit: Unit | null | undefined, profile: UnitProfile | null) {
+  const weapons = [...(unit?.weapons ?? [])]
+  const seen = new Set(weapons.map((weapon) => weapon.name).filter(Boolean))
+
+  for (const weapon of profile?.weapons ?? []) {
+    if (weapon.name && seen.has(weapon.name)) {
+      continue
+    }
+    weapons.push(weapon)
+    if (weapon.name) {
+      seen.add(weapon.name)
+    }
+  }
+
+  return weapons
+}
+
+export function isProfileActive(
+  profile: UnitProfile,
+  active: ActiveProfileSelection | null | undefined,
+): boolean {
+  if (!active) {
+    return false
+  }
+
+  if (profile.kind === active.kind && profile.index === active.index) {
+    return true
+  }
+
+  if (active.label && profile.label === active.label) {
+    return true
+  }
+
+  if (
+    active.kind === 'primary' &&
+    active.index === 0 &&
+    active.label === 'Primary Profile' &&
+    profile.kind === 'primary'
+  ) {
+    return true
+  }
+
+  return false
+}
+
+export function resolveActiveProfile(
+  profiles: UnitProfile[],
+  active: ActiveProfileSelection | null | undefined,
+): UnitProfile | null {
+  if (!active) {
+    return null
+  }
+
+  return profiles.find((profile) => isProfileActive(profile, active)) ?? null
 }
 
 function toUnitStats(record: UnitStats): UnitStats {
@@ -63,12 +178,13 @@ export function getUnitProfiles(unit: Unit | null | undefined): UnitProfile[] {
   const profiles: UnitProfile[] = []
 
   if (unit.stats) {
+    const primaryName = unit.stats.name?.trim()
     profiles.push(
       withProfileExtras(
         {
           kind: 'primary',
           index: 0,
-          label: 'Primary Profile',
+          label: primaryName || 'Primary Profile',
           stats: unit.stats,
           points: parsePoints(unit.stats),
         },
@@ -134,12 +250,12 @@ export function sortRosterByType(roster: RosterEntry[]): RosterEntry[] {
   })
 }
 
-function matchingProfiles(unit: Unit, selectedLabel?: string | null): UnitProfile[] {
+function matchingProfiles(unit: Unit, selected?: ActiveProfileSelection | null): UnitProfile[] {
   const profiles = getUnitProfiles(unit)
-  if (!selectedLabel) {
+  if (!selected) {
     return profiles
   }
-  return profiles.filter((profile) => profile.label === selectedLabel)
+  return profiles.filter((profile) => isProfileActive(profile, selected))
 }
 
 export function getProfileSectionHeading(profile: UnitProfile, suffix: string): string {
@@ -153,13 +269,13 @@ export function getProfileAbilityHeading(profile: UnitProfile): string {
 
 export function getProfileAbilitySections(
   unit: Unit | null | undefined,
-  selectedLabel?: string | null,
+  selected?: ActiveProfileSelection | null,
 ): ProfileAbilitySection[] {
   if (!unit) {
     return []
   }
 
-  return matchingProfiles(unit, selectedLabel)
+  return matchingProfiles(unit, selected)
     .filter((profile) => Boolean(profile.abilities))
     .map((profile) => ({
       heading: getProfileAbilityHeading(profile),
@@ -169,13 +285,13 @@ export function getProfileAbilitySections(
 
 export function getProfileKeywordSections(
   unit: Unit | null | undefined,
-  selectedLabel?: string | null,
+  selected?: ActiveProfileSelection | null,
 ): ProfileTagSection[] {
   if (!unit) {
     return []
   }
 
-  return matchingProfiles(unit, selectedLabel)
+  return matchingProfiles(unit, selected)
     .filter((profile) => Boolean(profile.keywords?.length))
     .map((profile) => ({
       heading: getProfileSectionHeading(profile, 'Keywords'),
@@ -185,13 +301,13 @@ export function getProfileKeywordSections(
 
 export function getProfileTraitSections(
   unit: Unit | null | undefined,
-  selectedLabel?: string | null,
+  selected?: ActiveProfileSelection | null,
 ): ProfileTagSection[] {
   if (!unit) {
     return []
   }
 
-  return matchingProfiles(unit, selectedLabel)
+  return matchingProfiles(unit, selected)
     .filter((profile) => Boolean(profile.traits?.length))
     .map((profile) => ({
       heading: getProfileSectionHeading(profile, 'Traits'),
@@ -201,13 +317,13 @@ export function getProfileTraitSections(
 
 export function getProfileWeaponSections(
   unit: Unit | null | undefined,
-  selectedLabel?: string | null,
+  selected?: ActiveProfileSelection | null,
 ): ProfileWeaponSection[] {
   if (!unit) {
     return []
   }
 
-  return matchingProfiles(unit, selectedLabel)
+  return matchingProfiles(unit, selected)
     .filter((profile) => Boolean(profile.weapons?.length))
     .map((profile) => ({
       heading: getProfileSectionHeading(profile, 'Weapons'),

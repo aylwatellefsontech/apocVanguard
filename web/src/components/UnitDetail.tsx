@@ -3,38 +3,19 @@ import UnitAbilities from './UnitAbilities'
 import UnitTagList from './UnitTagList'
 import UnitDetailHeader from './UnitDetailHeader'
 import UnitOptions from './UnitOptions'
+import UnitProfileDetails from './UnitProfileDetails'
+import UnitProfileSummaryList from './UnitProfileSummaryList'
 import UnitWeapons from './UnitWeapons'
-import {
-  getAltProfileLabel,
-  getProfileAbilitySections,
-  getProfileKeywordSections,
-  getProfileTraitSections,
-  getProfileWeaponSections,
-  getUnitProfiles,
-} from '../utils/units'
-import type { OptionToggleContext, SelectedOption, Unit, UnitOption, UnitProfile, UnitStats } from '../types'
-
-interface ProfilePickerProps {
-  profile: UnitProfile
-  onAdd: () => void
-}
-
-function ProfilePicker({ profile, onAdd }: ProfilePickerProps) {
-  return (
-    <div className="profile-picker">
-      <div className="profile-picker-header">
-        <div>
-          <h4>{profile.label}</h4>
-          <p className="profile-picker-meta">{profile.points} Pt</p>
-        </div>
-        <button type="button" className="secondary-btn" onClick={onAdd}>
-          Add to Army
-        </button>
-      </div>
-      <StatsTable stats={profile.stats} />
-    </div>
-  )
-}
+import { getProfileDisplayName, getUnitProfiles, resolveActiveProfile } from '../utils/units'
+import type {
+  ActiveProfileSelection,
+  OptionToggleContext,
+  SelectedOption,
+  Unit,
+  UnitOption,
+  UnitProfile,
+  UnitStats,
+} from '../types'
 
 interface UnitDetailProps {
   unit?: Unit | null
@@ -44,8 +25,8 @@ interface UnitDetailProps {
   selectedOptions?: SelectedOption[]
   optionProfileStats?: UnitStats | null
   emptyMessage?: string
-  showProfilePicker?: boolean
-  editingProfileLabel?: string | null
+  showProfileAddButtons?: boolean
+  activeProfile?: ActiveProfileSelection | null
 }
 
 export default function UnitDetail({
@@ -56,8 +37,8 @@ export default function UnitDetail({
   selectedOptions,
   optionProfileStats,
   emptyMessage = 'Select a unit to view its datasheet.',
-  showProfilePicker = true,
-  editingProfileLabel = null,
+  showProfileAddButtons = false,
+  activeProfile = null,
 }: UnitDetailProps) {
   if (!unit) {
     return (
@@ -67,57 +48,45 @@ export default function UnitDetail({
     )
   }
 
-  const profiles = onAddProfile && showProfilePicker ? getUnitProfiles(unit) : null
-  const editingStats = editingProfileLabel ? optionProfileStats : null
-  const selectedLabel = editingProfileLabel
-  const profileAbilitySections = getProfileAbilitySections(unit, selectedLabel)
-  const profileWeaponSections = getProfileWeaponSections(unit, selectedLabel)
-  const profileKeywordSections = getProfileKeywordSections(unit, selectedLabel)
-  const profileTraitSections = getProfileTraitSections(unit, selectedLabel)
+  const allProfiles = getUnitProfiles(unit)
+  const primaryProfile = allProfiles.find((profile) => profile.kind === 'primary') ?? allProfiles[0]
+  const resolvedActiveProfile = resolveActiveProfile(allProfiles, activeProfile)
+  const displayStats = resolvedActiveProfile ? optionProfileStats ?? resolvedActiveProfile.stats : unit.stats
+  const displayLabel = resolvedActiveProfile
+    ? getProfileDisplayName(resolvedActiveProfile)
+    : primaryProfile
+      ? getProfileDisplayName(primaryProfile)
+      : 'Profile'
 
   return (
     <div className="unit-detail">
       <UnitDetailHeader unit={unit} />
 
-      {profiles ? (
-        <section>
-          <h3>Profiles</h3>
-          <div className="profile-picker-list">
-            {profiles.map((profile) => (
-              <ProfilePicker
-                key={`${profile.kind}-${profile.index}`}
-                profile={profile}
-                onAdd={() => onAddProfile?.(unit, profile)}
-              />
-            ))}
-          </div>
-        </section>
-      ) : editingStats ? (
-        <StatsTable stats={editingStats} label={editingProfileLabel ?? 'Profile'} />
-      ) : (
-        <>
-          <StatsTable stats={unit.stats} label="Primary Profile" />
+      <StatsTable stats={displayStats} label={displayLabel} />
+      <UnitProfileSummaryList
+        profiles={allProfiles}
+        activeProfile={activeProfile}
+        onAddProfile={
+          showProfileAddButtons && onAddProfile
+            ? (profile) => onAddProfile(unit, profile)
+            : undefined
+        }
+      />
 
-          {unit.profiles && unit.profiles.length > 0 && (
-            <section>
-              <h3>Alt Profiles</h3>
-              {unit.profiles.map((profile, index) => (
-                <StatsTable
-                  key={index}
-                  stats={profile}
-                  label={getAltProfileLabel(profile, index)}
-                />
-              ))}
-            </section>
-          )}
-        </>
-      )}
+      <UnitWeapons weapons={unit.weapons} />
+      <UnitAbilities abilities={unit.abilities} />
+      <UnitTagList title="Keywords" tags={unit.keywords} />
+      <UnitTagList title="Traits" tags={unit.traits} />
 
-      <UnitWeapons weapons={unit.weapons} profileSections={profileWeaponSections} />
-      <UnitAbilities abilities={unit.abilities} profileSections={profileAbilitySections} />
-
-      <UnitTagList title="Keywords" tags={unit.keywords} profileSections={profileKeywordSections} />
-      <UnitTagList title="Traits" tags={unit.traits} profileSections={profileTraitSections} />
+      <UnitProfileDetails
+        unit={unit}
+        activeProfile={activeProfile}
+        onAddProfile={
+          showProfileAddButtons && onAddProfile
+            ? (profile) => onAddProfile(unit, profile)
+            : undefined
+        }
+      />
 
       <UnitOptions
         options={unit.options}

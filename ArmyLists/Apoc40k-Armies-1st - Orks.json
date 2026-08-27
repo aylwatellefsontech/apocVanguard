@@ -277,6 +277,7 @@
       "type": "Troops",
       "name": "Boyz",
       "stats": {
+        "name": "10 Boys",
         "M": "5\"",
         "WS": "3+",
         "BS": "5+",

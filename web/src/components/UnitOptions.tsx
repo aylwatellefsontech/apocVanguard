@@ -35,6 +35,7 @@ interface UnitOptionsProps {
   onToggleOption?: (optionIndex: number, option: UnitOption, context?: OptionToggleContext) => void
   showSelectHint?: boolean
   highlightSelection?: boolean
+  hideUnselected?: boolean
 }
 
 function groupExclusiveOptions(optionIndices: number[], options: UnitOption[]) {
@@ -63,6 +64,7 @@ function OptionLine({
   points,
   interactive,
   highlightSelection,
+  hideUnselected = false,
   isSelected,
   inputType,
   inputName,
@@ -77,6 +79,7 @@ function OptionLine({
   points: number
   interactive: boolean
   highlightSelection: boolean
+  hideUnselected: boolean
   isSelected: boolean
   inputType: 'checkbox' | 'radio'
   inputName?: string
@@ -86,6 +89,10 @@ function OptionLine({
   displayText?: string
   onToggleOption?: (optionIndex: number, option: UnitOption, context?: OptionToggleContext) => void
 }) {
+  if (hideUnselected && !interactive && !isSelected) {
+    return null
+  }
+
   const label = typeof option === 'string' ? 'Option' : formatOptionLabel(option)
   const body = typeof option === 'string' ? option : formatOptionBody(option)
   const caption = displayText ?? (
@@ -155,6 +162,7 @@ function renderUpToCheckboxSlots(
   profileStats: UnitStats | null,
   interactive: boolean,
   highlightSelection: boolean,
+  hideUnselected: boolean,
   selectedOptionIndexes: number[],
   selectedOptions: SelectedOption[] | undefined,
   modelIndex?: number,
@@ -164,37 +172,42 @@ function renderUpToCheckboxSlots(
   const points =
     typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
 
+  const lines = Array.from({ length: limit }, (_, slotIndex) => {
+    const isSelected = isOptionSelected(
+      index,
+      selectedOptionIndexes,
+      selectedOptions,
+      modelIndex,
+      slotIndex,
+    )
+    return (
+      <OptionLine
+        key={optionSelectionKey(index, modelIndex, slotIndex)}
+        option={option}
+        index={index}
+        points={points}
+        interactive={interactive}
+        highlightSelection={highlightSelection}
+        hideUnselected={hideUnselected}
+        isSelected={isSelected}
+        inputType="checkbox"
+        modelIndex={modelIndex}
+        slotIndex={slotIndex}
+        onToggleOption={onToggleOption}
+      />
+    )
+  }).filter(Boolean)
+
+  if (lines.length === 0) {
+    return null
+  }
+
   return (
     <fieldset key={`up-to-${index}-${modelIndex ?? 'unit'}`} className="option-group">
       <legend>
         {label} (up to {limit})
       </legend>
-      <ul className="options-list options-list-interactive">
-        {Array.from({ length: limit }, (_, slotIndex) => {
-          const isSelected = isOptionSelected(
-            index,
-            selectedOptionIndexes,
-            selectedOptions,
-            modelIndex,
-            slotIndex,
-          )
-          return (
-            <OptionLine
-              key={optionSelectionKey(index, modelIndex, slotIndex)}
-              option={option}
-              index={index}
-              points={points}
-              interactive={interactive}
-              highlightSelection={highlightSelection}
-              isSelected={isSelected}
-              inputType="checkbox"
-              modelIndex={modelIndex}
-              slotIndex={slotIndex}
-              onToggleOption={onToggleOption}
-            />
-          )
-        })}
-      </ul>
+      <ul className="options-list options-list-interactive">{lines}</ul>
     </fieldset>
   )
 }
@@ -205,6 +218,7 @@ function renderOptionBlock(
   profileStats: UnitStats | null,
   interactive: boolean,
   highlightSelection: boolean,
+  hideUnselected: boolean,
   selectedOptionIndexes: number[],
   selectedOptions: SelectedOption[] | undefined,
   modelIndex?: number,
@@ -225,6 +239,41 @@ function renderOptionBlock(
 
     if (upToLimit != null) {
       for (let slotIndex = 0; slotIndex < upToLimit; slotIndex += 1) {
+        const lines = indices
+          .map((index) => {
+            const option = options[index]
+            const points =
+              typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
+            const isSelected = isOptionSelected(
+              index,
+              selectedOptionIndexes,
+              selectedOptions,
+              modelIndex,
+              slotIndex,
+            )
+            return (
+              <OptionLine
+                key={optionSelectionKey(index, modelIndex, slotIndex)}
+                option={option}
+                index={index}
+                points={points}
+                interactive={interactive}
+                highlightSelection={highlightSelection}
+                hideUnselected={hideUnselected}
+                isSelected={isSelected}
+                inputType="radio"
+                modelIndex={modelIndex}
+                slotIndex={slotIndex}
+                onToggleOption={onToggleOption}
+              />
+            )
+          })
+          .filter(Boolean)
+
+        if (lines.length === 0) {
+          continue
+        }
+
         blocks.push(
           <fieldset
             key={`${groupName}-slot-${slotIndex}-${modelIndex ?? 'unit'}`}
@@ -233,114 +282,98 @@ function renderOptionBlock(
             <legend>
               {groupLegend} — choice {slotIndex + 1}
             </legend>
-            <ul className="options-list options-list-interactive">
-              {indices.map((index) => {
-                const option = options[index]
-                const points =
-                  typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
-                const isSelected = isOptionSelected(
-                  index,
-                  selectedOptionIndexes,
-                  selectedOptions,
-                  modelIndex,
-                  slotIndex,
-                )
-                return (
-                  <OptionLine
-                    key={optionSelectionKey(index, modelIndex, slotIndex)}
-                    option={option}
-                    index={index}
-                    points={points}
-                    interactive={interactive}
-                    highlightSelection={highlightSelection}
-                    isSelected={isSelected}
-                    inputType="radio"
-                    modelIndex={modelIndex}
-                    slotIndex={slotIndex}
-                    onToggleOption={onToggleOption}
-                  />
-                )
-              })}
-            </ul>
+            <ul className="options-list options-list-interactive">{lines}</ul>
           </fieldset>,
         )
       }
     } else if (perModelsSlotCount > 0) {
       const interval = getPerModelsInterval(sample)!
       for (let slotIndex = 0; slotIndex < perModelsSlotCount; slotIndex += 1) {
+        const lines = indices
+          .map((index) => {
+            const option = options[index]
+            const points =
+              typeof option === 'string'
+                ? 0
+                : calculateOptionPoints(option, profileStats, 'perSelection')
+            const isSelected = isOptionSelected(
+              index,
+              selectedOptionIndexes,
+              selectedOptions,
+              modelIndex,
+              slotIndex,
+            )
+            return (
+              <OptionLine
+                key={optionSelectionKey(index, modelIndex, slotIndex)}
+                option={option}
+                index={index}
+                points={points}
+                interactive={interactive}
+                highlightSelection={highlightSelection}
+                hideUnselected={hideUnselected}
+                isSelected={isSelected}
+                inputType="radio"
+                modelIndex={modelIndex}
+                slotIndex={slotIndex}
+                onToggleOption={onToggleOption}
+              />
+            )
+          })
+          .filter(Boolean)
+
+        if (lines.length === 0) {
+          continue
+        }
+
         blocks.push(
           <fieldset
             key={`${groupName}-per-models-${slotIndex}-${modelIndex ?? 'unit'}`}
             className="option-group"
           >
             <legend>{formatPerModelsSlotLegend(slotIndex, interval, groupLegend, viewOnly)}</legend>
-            <ul className="options-list options-list-interactive">
-              {indices.map((index) => {
-                const option = options[index]
-                const points =
-                  typeof option === 'string'
-                    ? 0
-                    : calculateOptionPoints(option, profileStats, 'perSelection')
-                const isSelected = isOptionSelected(
-                  index,
-                  selectedOptionIndexes,
-                  selectedOptions,
-                  modelIndex,
-                  slotIndex,
-                )
-                return (
-                  <OptionLine
-                    key={optionSelectionKey(index, modelIndex, slotIndex)}
-                    option={option}
-                    index={index}
-                    points={points}
-                    interactive={interactive}
-                    highlightSelection={highlightSelection}
-                    isSelected={isSelected}
-                    inputType="radio"
-                    modelIndex={modelIndex}
-                    slotIndex={slotIndex}
-                    onToggleOption={onToggleOption}
-                  />
-                )
-              })}
-            </ul>
+            <ul className="options-list options-list-interactive">{lines}</ul>
           </fieldset>,
         )
       }
     } else if (!isPerModelsOption(sample)) {
-      blocks.push(
-        <fieldset key={`${groupName}-${modelIndex ?? 'unit'}`} className="option-group">
-          <legend>{groupLegend}</legend>
-          <ul className="options-list options-list-interactive">
-            {indices.map((index) => {
-              const option = options[index]
-              const points =
-                typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
-              const isSelected = isOptionSelected(
-                index,
-                selectedOptionIndexes,
-                selectedOptions,
-                modelIndex,
-              )
-              return (
-                <OptionLine
-                  key={optionSelectionKey(index, modelIndex)}
-                  option={option}
-                  index={index}
-                  points={points}
-                  interactive={interactive}
-                  highlightSelection={highlightSelection}
-                  isSelected={isSelected}
-                  inputType="radio"
-                  modelIndex={modelIndex}
-                  onToggleOption={onToggleOption}
-                />
-              )
-            })}
-          </ul>
-        </fieldset>,
-      )
+      const lines = indices
+        .map((index) => {
+          const option = options[index]
+          const points =
+            typeof option === 'string' ? 0 : calculateOptionPoints(option, profileStats, 'perSelection')
+          const isSelected = isOptionSelected(
+            index,
+            selectedOptionIndexes,
+            selectedOptions,
+            modelIndex,
+          )
+          return (
+            <OptionLine
+              key={optionSelectionKey(index, modelIndex)}
+              option={option}
+              index={index}
+              points={points}
+              interactive={interactive}
+              highlightSelection={highlightSelection}
+              hideUnselected={hideUnselected}
+              isSelected={isSelected}
+              inputType="radio"
+              modelIndex={modelIndex}
+              onToggleOption={onToggleOption}
+            />
+          )
+        })
+        .filter(Boolean)
+
+      if (lines.length > 0) {
+        blocks.push(
+          <fieldset key={`${groupName}-${modelIndex ?? 'unit'}`} className="option-group">
+            <legend>{groupLegend}</legend>
+            <ul className="options-list options-list-interactive">{lines}</ul>
+          </fieldset>,
+        )
+      }
     }
   }
 
@@ -378,6 +411,46 @@ function renderOptionBlock(
               : slotted
                 ? `choice ${instanceIndex + 1}`
                 : null
+          const lines = choices
+            .map((choice, choiceIndex) => {
+              const isSelected = isOptionSelected(
+                index,
+                selectedOptionIndexes,
+                selectedOptions,
+                modelIndex,
+                instanceSlot,
+                choiceIndex,
+              )
+              return (
+                <OptionLine
+                  key={optionSelectionKey(index, modelIndex, instanceSlot, choiceIndex)}
+                  option={option}
+                  index={index}
+                  points={0}
+                  interactive={interactive}
+                  highlightSelection={highlightSelection}
+                  hideUnselected={hideUnselected}
+                  isSelected={isSelected}
+                  inputType={chooseLimit === 1 ? 'radio' : 'checkbox'}
+                  inputName={
+                    chooseLimit === 1
+                      ? `choose-${index}-${modelIndex ?? 'unit'}-${instanceIndex}`
+                      : undefined
+                  }
+                  modelIndex={modelIndex}
+                  slotIndex={instanceSlot}
+                  choiceIndex={choiceIndex}
+                  displayText={choice}
+                  onToggleOption={onToggleOption}
+                />
+              )
+            })
+            .filter(Boolean)
+
+          if (lines.length === 0) {
+            continue
+          }
+
           blocks.push(
             <fieldset
               key={`choose-${index}-${modelIndex ?? 'unit'}-${instanceIndex}`}
@@ -389,38 +462,7 @@ function renderOptionBlock(
               </legend>
               <p className="option-choose-heading">{formatChooseLimitHeading(chooseLimit)}</p>
               <ul className={`options-list${interactive ? ' options-list-interactive' : ''}`}>
-                {choices.map((choice, choiceIndex) => {
-                  const isSelected = isOptionSelected(
-                    index,
-                    selectedOptionIndexes,
-                    selectedOptions,
-                    modelIndex,
-                    instanceSlot,
-                    choiceIndex,
-                  )
-                  return (
-                    <OptionLine
-                      key={optionSelectionKey(index, modelIndex, instanceSlot, choiceIndex)}
-                      option={option}
-                      index={index}
-                      points={0}
-                      interactive={interactive}
-                      highlightSelection={highlightSelection}
-                      isSelected={isSelected}
-                      inputType={chooseLimit === 1 ? 'radio' : 'checkbox'}
-                      inputName={
-                        chooseLimit === 1
-                          ? `choose-${index}-${modelIndex ?? 'unit'}-${instanceIndex}`
-                          : undefined
-                      }
-                      modelIndex={modelIndex}
-                      slotIndex={instanceSlot}
-                      choiceIndex={choiceIndex}
-                      displayText={choice}
-                      onToggleOption={onToggleOption}
-                    />
-                  )
-                })}
+                {lines}
               </ul>
             </fieldset>,
           )
@@ -429,40 +471,44 @@ function renderOptionBlock(
       }
 
       if (upToLimit != null && !isExclusiveGroupOption(option)) {
-        blocks.push(
-          renderUpToCheckboxSlots(
-            index,
-            option,
-            upToLimit,
-            options,
-            profileStats,
-            interactive,
-            highlightSelection,
-            selectedOptionIndexes,
-            selectedOptions,
-            modelIndex,
-            onToggleOption,
-          ),
+        const upToBlock = renderUpToCheckboxSlots(
+          index,
+          option,
+          upToLimit,
+          options,
+          profileStats,
+          interactive,
+          highlightSelection,
+          hideUnselected,
+          selectedOptionIndexes,
+          selectedOptions,
+          modelIndex,
+          onToggleOption,
         )
+        if (upToBlock) {
+          blocks.push(upToBlock)
+        }
         continue
       }
 
       if (perModelsSlotCount > 0 && !isExclusiveGroupOption(option)) {
-        blocks.push(
-          renderUpToCheckboxSlots(
-            index,
-            option,
-            perModelsSlotCount,
-            options,
-            profileStats,
-            interactive,
-            highlightSelection,
-            selectedOptionIndexes,
-            selectedOptions,
-            modelIndex,
-            onToggleOption,
-          ),
+        const perModelsBlock = renderUpToCheckboxSlots(
+          index,
+          option,
+          perModelsSlotCount,
+          options,
+          profileStats,
+          interactive,
+          highlightSelection,
+          hideUnselected,
+          selectedOptionIndexes,
+          selectedOptions,
+          modelIndex,
+          onToggleOption,
         )
+        if (perModelsBlock) {
+          blocks.push(perModelsBlock)
+        }
         continue
       }
 
@@ -482,6 +528,7 @@ function renderOptionBlock(
           points={points}
           interactive={interactive}
           highlightSelection={highlightSelection}
+          hideUnselected={hideUnselected}
           isSelected={isSelected}
           inputType="checkbox"
           modelIndex={modelIndex}
@@ -490,19 +537,20 @@ function renderOptionBlock(
       )
     }
 
-    if (listItems.length > 0) {
+    const visibleListItems = listItems.filter(Boolean)
+    if (visibleListItems.length > 0) {
       blocks.push(
         <ul
           key={`standalone-${modelIndex ?? 'unit'}`}
           className={`options-list${interactive ? ' options-list-interactive' : ''}`}
         >
-          {listItems}
+          {visibleListItems}
         </ul>,
       )
     }
   }
 
-  return blocks
+  return blocks.filter(Boolean)
 }
 
 export default function UnitOptions({
@@ -514,8 +562,17 @@ export default function UnitOptions({
   onToggleOption,
   showSelectHint = false,
   highlightSelection = false,
+  hideUnselected = false,
 }: UnitOptionsProps) {
   if (!options?.length) {
+    return null
+  }
+
+  if (
+    hideUnselected &&
+    (selectedOptions?.length ?? 0) === 0 &&
+    selectedOptionIndexes.length === 0
+  ) {
     return null
   }
 
@@ -532,6 +589,37 @@ export default function UnitOptions({
     )
     .filter((index) => index >= 0)
 
+  const unitBlocks =
+    unitIndices.length > 0
+      ? renderOptionBlock(
+          unitIndices,
+          options,
+          profileStats,
+          interactive,
+          highlightSelection,
+          hideUnselected,
+          selectedOptionIndexes,
+          selectedOptions,
+          undefined,
+          onToggleOption,
+        )
+      : []
+  const perModelsBlocks =
+    perModelsIndices.length > 0
+      ? renderOptionBlock(
+          perModelsIndices,
+          options,
+          profileStats,
+          interactive,
+          highlightSelection,
+          hideUnselected,
+          selectedOptionIndexes,
+          selectedOptions,
+          undefined,
+          onToggleOption,
+        )
+      : []
+
   return (
     <section>
       <h3>Options</h3>
@@ -547,49 +635,32 @@ export default function UnitOptions({
         </p>
       )}
 
-      {unitIndices.length > 0 &&
-        renderOptionBlock(
-          unitIndices,
-          options,
-          profileStats,
-          interactive,
-          highlightSelection,
-          selectedOptionIndexes,
-          selectedOptions,
-          undefined,
-          onToggleOption,
-        )}
-
-      {perModelsIndices.length > 0 &&
-        renderOptionBlock(
-          perModelsIndices,
-          options,
-          profileStats,
-          interactive,
-          highlightSelection,
-          selectedOptionIndexes,
-          selectedOptions,
-          undefined,
-          onToggleOption,
-        )}
-
+      {unitBlocks}
+      {perModelsBlocks}
       {perModelIndices.length > 0 &&
-        Array.from({ length: modelCount }, (_, modelIndex) => (
-          <div key={`model-${modelIndex}`} className="option-model-block">
-            <h4 className="option-model-heading">Model {modelIndex + 1}</h4>
-            {renderOptionBlock(
-              perModelIndices,
-              options,
-              profileStats,
-              interactive,
-              highlightSelection,
-              selectedOptionIndexes,
-              selectedOptions,
-              modelIndex,
-              onToggleOption,
-            )}
-          </div>
-        ))}
+        Array.from({ length: modelCount }, (_, modelIndex) => {
+          const modelBlocks = renderOptionBlock(
+            perModelIndices,
+            options,
+            profileStats,
+            interactive,
+            highlightSelection,
+            hideUnselected,
+            selectedOptionIndexes,
+            selectedOptions,
+            modelIndex,
+            onToggleOption,
+          )
+          if (modelBlocks.length === 0) {
+            return null
+          }
+          return (
+            <div key={`model-${modelIndex}`} className="option-model-block">
+              <h4 className="option-model-heading">Model {modelIndex + 1}</h4>
+              {modelBlocks}
+            </div>
+          )
+        })}
     </section>
   )
 }

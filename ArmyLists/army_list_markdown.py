@@ -44,6 +44,7 @@ UNIT_HEADER = re.compile(r"^## Unit (\d+) — (.+?) — (.+)$")
 PROFILE_NUMBER_HEADER = re.compile(r"^#### Profile (\d+)(?: — (.+))?$")
 PROFILE_NAME_HEADER = re.compile(r"^#### (?!#)(.+)$")
 SECTION_HEADERS = {
+    "profile_name": "### Profile Name",
     "stats": "### Stats",
     "keywords": "### Keywords",
     "profile_keywords": "### Profile Keywords",
@@ -378,6 +379,12 @@ def json_to_markdown(data: dict, md_path: Path | None = None) -> str:
         lines.append("")
 
         stats_lines = _stats_table(unit.get("stats"))
+        profile_name = (unit.get("stats") or {}).get("name")
+        if isinstance(profile_name, str) and profile_name.strip():
+            lines.append("### Profile Name")
+            lines.append(profile_name.strip())
+            lines.append("")
+
         if stats_lines:
             lines.append("### Stats")
             lines.extend(stats_lines)
@@ -480,10 +487,21 @@ def _parse_unit_block(lines: list[str], start: int) -> tuple[dict | None, int]:
         if line.startswith("## Unit "):
             break
 
+        if line == SECTION_HEADERS["profile_name"]:
+            index += 1
+            index = _skip_blank_lines(lines, index)
+            if index < len(lines):
+                profile_name = lines[index].strip()
+                if profile_name and not profile_name.startswith("#"):
+                    stats = unit.setdefault("stats", {})
+                    stats["name"] = profile_name
+                    index += 1
+            continue
+
         if line == SECTION_HEADERS["stats"]:
             stats, index = _parse_stats_table(lines, index + 1)
             if stats:
-                unit["stats"] = stats
+                unit["stats"] = {**(unit.get("stats") or {}), **stats}
             continue
 
         if line == SECTION_HEADERS["keywords"]:

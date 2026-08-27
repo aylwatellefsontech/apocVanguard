@@ -320,6 +320,12 @@ function renderRosterEntrySheet(entry: RosterEntry, unit: Unit | null | undefine
   const profileStats = getProfileStatsForEntry(unit, entry)
   const selectedOptionIndexes = entry.selectedOptions.map((option) => option.index)
 
+  const activeProfile = {
+    kind: entry.profileKind,
+    index: entry.profileIndex,
+    label: entry.profileLabel,
+  }
+
   return renderUnitSheetContent({
     unitType: entry.unitType,
     unitName: entry.unitName,
@@ -327,13 +333,13 @@ function renderRosterEntrySheet(entry: RosterEntry, unit: Unit | null | undefine
     entryMeta,
     profileBlocks: renderStatsTable(profileStats, entry.profileLabel),
     weapons: unit.weapons,
-    profileWeaponSections: getProfileWeaponSections(unit, entry.profileLabel),
+    profileWeaponSections: getProfileWeaponSections(unit, activeProfile),
     abilities: unit.abilities,
-    profileAbilitySections: getProfileAbilitySections(unit, entry.profileLabel),
+    profileAbilitySections: getProfileAbilitySections(unit, activeProfile),
     keywords: unit.keywords,
-    profileKeywordSections: getProfileKeywordSections(unit, entry.profileLabel),
+    profileKeywordSections: getProfileKeywordSections(unit, activeProfile),
     traits: unit.traits,
-    profileTraitSections: getProfileTraitSections(unit, entry.profileLabel),
+    profileTraitSections: getProfileTraitSections(unit, activeProfile),
     options: unit.options,
     profileStats,
     selectedOptionIndexes,

@@ -644,9 +644,15 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                       ? 'Loading unit datasheet…'
                       : 'Select a unit to add profiles to your army.'
                   }
-                  showProfilePicker={!editingFromRoster}
-                  editingProfileLabel={
-                    editingFromRoster ? (selectedRosterEntry?.profileLabel ?? null) : null
+                  showProfileAddButtons={!editingFromRoster}
+                  activeProfile={
+                    editingFromRoster && selectedRosterEntry
+                      ? {
+                          kind: selectedRosterEntry.profileKind,
+                          index: selectedRosterEntry.profileIndex,
+                          label: selectedRosterEntry.profileLabel,
+                        }
+                      : null
                   }
                 />
               )}
