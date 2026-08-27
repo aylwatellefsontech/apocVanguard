@@ -2,6 +2,7 @@ import { describe, expect, it } from '@jest/globals'
 import type { RosterEntry } from '../../src/types.js'
 import {
   deriveSavedArmyFactionMeta,
+  getArmyFactionNames,
   rosterHasMultipleFactions,
   sortRosterByFactionAndName,
 } from '../../src/utils/rosterArmy.js'
@@ -63,5 +64,15 @@ describe('rosterHasMultipleFactions', () => {
   it('returns true when roster entries come from different factions', () => {
     expect(rosterHasMultipleFactions([orksEntry, eldarEntry])).toBe(true)
     expect(rosterHasMultipleFactions([orksEntry])).toBe(false)
+  })
+})
+
+describe('getArmyFactionNames', () => {
+  it('returns sorted unique faction names from roster entries', () => {
+    expect(getArmyFactionNames([orksEntry, eldarEntry])).toEqual(['Eldar', 'Orks'])
+  })
+
+  it('falls back to combined faction name when roster is empty', () => {
+    expect(getArmyFactionNames([], [], 'Eldar / Orks')).toEqual(['Eldar', 'Orks'])
   })
 })

@@ -4,6 +4,7 @@ import ArmyCardEntry from '../components/ArmyCardEntry'
 import ArmyRosterEntry from '../components/ArmyRosterEntry'
 import ConfirmModal from '../components/ConfirmModal'
 import ExportArmyModal from '../components/ExportArmyModal'
+import FactionNameList from '../components/FactionNameList'
 import HandModal from '../components/HandModal'
 import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
@@ -12,7 +13,7 @@ import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
 import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { buildRosterUnitsByEntryId } from '../utils/rosterUnits'
-import { rosterHasMultipleFactions } from '../utils/rosterArmy'
+import { getArmyFactionNames, rosterHasMultipleFactions } from '../utils/rosterArmy'
 import type { SavedArmy, ViewMode } from '../types'
 
 const VIEW_CYCLE: ViewMode[] = ['army', 'cards', 'all']
@@ -83,6 +84,14 @@ export default function ViewArmiesPage() {
   const printableCards = useMemo(
     () => armyCards.map(armyCardEntryToCard),
     [armyCards],
+  )
+
+  const selectedArmyFactionNames = useMemo(
+    () =>
+      selectedArmy
+        ? getArmyFactionNames(selectedArmy.roster, selectedArmy.cards, selectedArmy.factionName)
+        : [],
+    [selectedArmy],
   )
 
   const mobileBodyClass = isMobile
@@ -192,7 +201,10 @@ export default function ViewArmiesPage() {
             </p>
           ) : (
             <ul className="saved-army-list">
-              {savedArmies.map((army) => (
+              {savedArmies.map((army) => {
+                const factionNames = getArmyFactionNames(army.roster, army.cards, army.factionName)
+
+                return (
                 <li
                   key={army.id}
                   className={
@@ -205,8 +217,10 @@ export default function ViewArmiesPage() {
                     onClick={() => handleSelectArmy(army.id)}
                   >
                     <strong>{army.name}</strong>
-                    <p className="roster-item-meta">
-                      {army.factionName} · {army.totalPoints} Pt
+                    <p className="roster-item-meta army-faction-meta">
+                      <FactionNameList names={factionNames} />
+                      {factionNames.length > 0 ? ' · ' : null}
+                      {army.totalPoints} Pt
                     </p>
                     {army.updatedAt && (
                       <p className="roster-item-meta">{formatUpdatedAt(army.updatedAt)}</p>
@@ -231,7 +245,8 @@ export default function ViewArmiesPage() {
                     </button>
                   </div>
                 </li>
-              ))}
+                )
+              })}
             </ul>
           )}
         </aside>
@@ -244,8 +259,10 @@ export default function ViewArmiesPage() {
               <header className="army-detail-header">
                 <div>
                   <h2>{selectedArmy.name}</h2>
-                  <p className="roster-item-meta">
-                    {selectedArmy.factionName} · {selectedArmy.totalPoints} Pt total
+                  <p className="roster-item-meta army-faction-meta">
+                    <FactionNameList names={selectedArmyFactionNames} />
+                    {selectedArmyFactionNames.length > 0 ? ' · ' : null}
+                    {selectedArmy.totalPoints} Pt total
                     {hasCards ? ` · ${armyCards.length} cards` : ''}
                   </p>
                 </div>
