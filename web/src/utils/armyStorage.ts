@@ -45,7 +45,7 @@ export function normalizeRosterEntry(entry: RosterEntry): RosterEntry {
   }
 }
 
-function normalizeSavedArmy(army: SavedArmy): SavedArmy {
+export function normalizeSavedArmy(army: SavedArmy): SavedArmy {
   const roster = Array.isArray(army.roster) ? army.roster.map(normalizeRosterEntry) : []
   const cards = sortArmyCards(Array.isArray(army.cards) ? army.cards : [])
   return {

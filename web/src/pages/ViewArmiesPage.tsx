@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react'
 import { useNavigate } from '@tanstack/react-router'
 import ArmyCardEntry from '../components/ArmyCardEntry'
 import ArmyRosterEntry from '../components/ArmyRosterEntry'
+import ConfirmModal from '../components/ConfirmModal'
+import ExportArmyModal from '../components/ExportArmyModal'
 import HandModal from '../components/HandModal'
 import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
@@ -44,6 +46,8 @@ export default function ViewArmiesPage() {
   const [expandedCardIds, setExpandedCardIds] = useState<Set<string>>(() => new Set())
   const [viewMode, setViewMode] = useState<ViewMode>('army')
   const [handModalOpen, setHandModalOpen] = useState(false)
+  const [armyToDelete, setArmyToDelete] = useState<SavedArmy | null>(null)
+  const [exportArmyOpen, setExportArmyOpen] = useState(false)
   const isMobile = useMediaQuery(MOBILE_QUERY)
   const [mobilePanel, setMobilePanel] = useState<'list' | 'detail'>('list')
 
@@ -119,6 +123,7 @@ export default function ViewArmiesPage() {
     if (selectedArmyId === id) {
       setSelectedArmyId(next[0]?.id ?? null)
     }
+    setArmyToDelete(null)
   }
 
   function handleToggleEntry(entryId: string) {
@@ -231,7 +236,7 @@ export default function ViewArmiesPage() {
                     <button
                       type="button"
                       className="text-btn danger"
-                      onClick={() => handleDeleteArmy(army.id)}
+                      onClick={() => setArmyToDelete(army)}
                     >
                       Delete
                     </button>
@@ -266,6 +271,14 @@ export default function ViewArmiesPage() {
                       {allCardsExpanded ? 'Collapse All' : 'Expand All'}
                     </button>
                   )}
+                  <button
+                    type="button"
+                    className="secondary-btn"
+                    disabled={!selectedArmy}
+                    onClick={() => setExportArmyOpen(true)}
+                  >
+                    Export
+                  </button>
                   <button
                     type="button"
                     className="secondary-btn"
@@ -378,6 +391,21 @@ export default function ViewArmiesPage() {
 
       {handModalOpen && selectedArmy && (
         <HandModal army={selectedArmy} onClose={() => setHandModalOpen(false)} />
+      )}
+
+      {armyToDelete && (
+        <ConfirmModal
+          title="Delete saved army?"
+          message={`Delete "${armyToDelete.name}"? This cannot be undone.`}
+          confirmLabel="Delete"
+          danger
+          onConfirm={() => handleDeleteArmy(armyToDelete.id)}
+          onCancel={() => setArmyToDelete(null)}
+        />
+      )}
+
+      {exportArmyOpen && selectedArmy && (
+        <ExportArmyModal army={selectedArmy} onClose={() => setExportArmyOpen(false)} />
       )}
     </>
   )

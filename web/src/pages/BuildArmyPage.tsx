@@ -1,8 +1,12 @@
 import { useMemo, useRef, useState } from 'react'
-import { getRouteApi } from '@tanstack/react-router'
+import { getRouteApi, useNavigate } from '@tanstack/react-router'
 import ArmyCardSummary from '../components/ArmyCardSummary'
 import BuildArmyMobileBar from '../components/BuildArmyMobileBar'
 import CardDetail from '../components/CardDetail'
+import ConfirmModal from '../components/ConfirmModal'
+import ExportArmyModal from '../components/ExportArmyModal'
+import ImportArmyModal from '../components/ImportArmyModal'
+import Toast from '../components/Toast'
 import RosterEntrySummary from '../components/RosterEntrySummary'
 import UnitDetail from '../components/UnitDetail'
 import { MAX_SAVED_ARMIES } from '../constants'
@@ -18,6 +22,8 @@ import {
   sortArmyCards,
   toggleRosterOption,
 } from '../utils/armyStorage'
+import { importAndSaveArmyFromCode } from '../utils/armyExport'
+import type { ArmyExportSource } from '../utils/armyExport'
 import { summarizeOption } from '../utils/formatOption'
 import { getChooseOneChoices } from '../utils/optionUtils'
 import { getBaseApocCards } from '../utils/cardFactions'
@@ -41,6 +47,7 @@ type BuildMobilePanel = 'factions' | 'list' | 'detail' | 'roster'
 
 export default function BuildArmyPage() {
   const { armyId } = buildRouteApi.useSearch()
+  const [toastMessage, setToastMessage] = useState<string | null>(null)
   const initialArmy = useMemo(() => {
     if (!armyId) {
       return null
@@ -48,14 +55,25 @@ export default function BuildArmyPage() {
     return loadSavedArmies().find((army) => army.id === armyId) ?? null
   }, [armyId])
 
-  return <BuildArmyPageContent key={armyId ?? 'new'} initialArmy={initialArmy} />
+  return (
+    <>
+      <BuildArmyPageContent
+        key={armyId ?? 'new'}
+        initialArmy={initialArmy}
+        onToast={setToastMessage}
+      />
+      {toastMessage && <Toast message={toastMessage} onDismiss={() => setToastMessage(null)} />}
+    </>
+  )
 }
 
 interface BuildArmyPageContentProps {
   initialArmy: SavedArmy | null
+  onToast: (message: string) => void
 }
 
-function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
+function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProps) {
+  const navigate = useNavigate()
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
   const { cards, factions: cardFactions, loading: loadingCards, error: cardsError } = useCards()
   const [buildMode, setBuildMode] = useState<BrowseMode>('army')
@@ -83,7 +101,15 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   const isMobile = useMediaQuery(MOBILE_QUERY)
   const [mobilePanel, setMobilePanel] = useState<BuildMobilePanel>('factions')
   const [isEditingRosterEntry, setIsEditingRosterEntry] = useState(false)
+  const [confirmNewArmyOpen, setConfirmNewArmyOpen] = useState(false)
+  const [importArmyOpen, setImportArmyOpen] = useState(false)
+  const [exportArmyOpen, setExportArmyOpen] = useState(false)
+  const [importError, setImportError] = useState<string | null>(null)
+  const [armyToDelete, setArmyToDelete] = useState<SavedArmy | null>(null)
   const lastAddPanelRef = useRef<Exclude<BuildMobilePanel, 'roster'>>('factions')
+
+  const hasArmyDraft =
+    roster.length > 0 || armyCards.length > 0 || armyName.trim().length > 0
 
   function exitRosterEditMode() {
     setSelectedRosterEntryId(null)
@@ -201,6 +227,19 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
   )
 
   const totalPoints = roster.reduce((sum, entry) => sum + entry.points, 0)
+
+  const exportArmySource: ArmyExportSource | null =
+    activeFactionId && (roster.length > 0 || armyCards.length > 0)
+      ? {
+          name: armyName.trim() || 'Untitled Army',
+          factionId: activeFactionId,
+          factionName: army?.faction ?? '',
+          totalPoints,
+          updatedAt: new Date().toISOString(),
+          roster,
+          cards: armyCards,
+        }
+      : null
   const sortedRoster = useMemo(() => sortRosterByType(roster), [roster])
   const error = factionsError || armyError || cardsError
   const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
@@ -345,10 +384,10 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
 
     setSavedArmies(result.armies ?? [])
     setEditingArmyId(payload.id)
-    setSaveMessage({ type: 'success', text: 'Army saved.' })
+    onToast('Successfully saved')
   }
 
-  function handleLoadArmy(saved: SavedArmy) {
+  function handleLoadArmy(saved: SavedArmy, options?: { silent?: boolean }) {
     setSelectedFactionId(saved.factionId)
     setArmyName(saved.name)
     setEditingArmyId(saved.id)
@@ -356,7 +395,9 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setArmyCards(saved.cards ?? [])
     setSelectedRosterEntryId(saved.roster[0]?.id ?? null)
     setSelectedUnitNo(saved.roster[0]?.unitNo ?? null)
-    setSaveMessage({ type: 'success', text: `Loaded "${saved.name}".` })
+    if (!options?.silent) {
+      setSaveMessage({ type: 'success', text: `Loaded "${saved.name}".` })
+    }
   }
 
   function handleDeleteArmy(id: string) {
@@ -364,8 +405,48 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
     setSavedArmies(next)
     if (editingArmyId === id) {
       handleClearRoster()
+      navigate({ to: '/build', search: {} })
     }
+    setArmyToDelete(null)
     setSaveMessage({ type: 'success', text: 'Saved army deleted.' })
+  }
+
+  function startNewArmy() {
+    handleClearRoster()
+    setImportError(null)
+    navigate({ to: '/build', search: {} })
+  }
+
+  function handleNewArmyClick() {
+    if (hasArmyDraft) {
+      setConfirmNewArmyOpen(true)
+      return
+    }
+    startNewArmy()
+  }
+
+  function handleExportArmy() {
+    if (!exportArmySource) {
+      setSaveMessage({ type: 'error', text: 'Add at least one unit or card before exporting.' })
+      return
+    }
+    setExportArmyOpen(true)
+  }
+
+  function handleImportArmy(code: string) {
+    const result = importAndSaveArmyFromCode(code, savedArmies.length)
+    if (!result.ok) {
+      setImportError(result.error ?? 'Could not import army.')
+      return
+    }
+
+    const armies = loadSavedArmies()
+    setSavedArmies(armies)
+    handleLoadArmy(result.army, { silent: true })
+    setImportArmyOpen(false)
+    setImportError(null)
+    onToast('Successfully imported')
+    navigate({ to: '/build', search: { armyId: result.army.id } })
   }
 
   const mobileBuildClass = isMobile
@@ -401,6 +482,22 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
         <div>
           <p className="eyebrow">Warhammer 40,000 · Apocalypse</p>
           <h1>Build Army</h1>
+        </div>
+        <div className="header-actions">
+          <div className="header-button-row">
+            <button type="button" className="secondary-btn" onClick={handleNewArmyClick}>
+              New Army
+            </button>
+            <button type="button" className="secondary-btn" onClick={() => {
+              setImportError(null)
+              setImportArmyOpen(true)
+            }}>
+              Import
+            </button>
+            <button type="button" className="secondary-btn" onClick={handleExportArmy}>
+              Export
+            </button>
+          </div>
         </div>
       </header>
 
@@ -761,7 +858,7 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
                       <button
                         type="button"
                         className="text-btn danger"
-                        onClick={() => handleDeleteArmy(saved.id)}
+                        onClick={() => setArmyToDelete(saved)}
                       >
                         Delete
                       </button>
@@ -773,6 +870,46 @@ function BuildArmyPageContent({ initialArmy }: BuildArmyPageContentProps) {
           </section>
         </aside>
       </div>
+
+      {confirmNewArmyOpen && (
+        <ConfirmModal
+          title="Start a new army?"
+          message="Any unsaved changes to the current army will be lost."
+          confirmLabel="New Army"
+          danger
+          onConfirm={() => {
+            setConfirmNewArmyOpen(false)
+            startNewArmy()
+          }}
+          onCancel={() => setConfirmNewArmyOpen(false)}
+        />
+      )}
+
+      {armyToDelete && (
+        <ConfirmModal
+          title="Delete saved army?"
+          message={`Delete "${armyToDelete.name}"? This cannot be undone.`}
+          confirmLabel="Delete"
+          danger
+          onConfirm={() => handleDeleteArmy(armyToDelete.id)}
+          onCancel={() => setArmyToDelete(null)}
+        />
+      )}
+
+      {importArmyOpen && (
+        <ImportArmyModal
+          error={importError}
+          onClose={() => {
+            setImportArmyOpen(false)
+            setImportError(null)
+          }}
+          onImport={handleImportArmy}
+        />
+      )}
+
+      {exportArmyOpen && exportArmySource && (
+        <ExportArmyModal army={exportArmySource} onClose={() => setExportArmyOpen(false)} />
+      )}
     </>
   )
 }

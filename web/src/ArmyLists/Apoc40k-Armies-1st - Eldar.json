@@ -31,14 +31,6 @@
         "Infantry"
       ],
       "abilities": "Equipped with: Witchblade; Eldritch Storm;\nRunes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.",
-      "options": [
-        {
-          "per": "Per Unit",
-          "text": "This unit can have a Skyrunner Jetbike (Skyrunner Profile)",
-          "Pt": "2",
-          "title": "Skyrunner Jetbike"
-        }
-      ],
       "weapons": [
         {
           "name": "Witchblade",
@@ -213,11 +205,11 @@
           "Ld": "7",
           "Sv": "4+",
           "N": "1",
-          "Pt": "9",
+          "Pt": "11",
           "traits": [
             "Dire Avengers"
           ],
-          "abilities": "Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. \nHand of Asuryan: Improve saving throws of Aspect Warriors within 6\" by 1. \nLord of <Dire Avengers>.",
+          "abilities": "Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. \nHand of Asuryan: Improve saving throws of Aspect Warriors within 6\" by 1. \nDefence Tactics: Ignore the first blast marker this unit gets each turn.\nLord of <Dire Avengers>.",
           "weapons": [
             {
               "name": "Sword of Asur",
@@ -393,7 +385,7 @@
           "traits": [
             "Fire Dragons"
           ],
-          "abilities": "Equipped with Fire Pike and Fire Axe. \nIgnore Damage (6+). \nAssured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. \nLord of <Fire Dragons>.",
+          "abilities": "Equipped with Fire Pike and Fire Axe. \nIgnore Damage (5+). \nAssured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. \nLord of <Fire Dragons>.",
           "weapons": [
             {
               "name": "Fire Pike",

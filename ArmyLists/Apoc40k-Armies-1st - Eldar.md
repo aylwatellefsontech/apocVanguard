@@ -24,18 +24,11 @@ Equipped with: Witchblade; Eldritch Storm;
 Runes of the Farseer: If this unit is a Warlord, then once per battle, at the end of the Orders phase, you can look through your Command Asset deck, draw one Asuryani Command Asset card of your choice and add it to your hand. Then shuffle the Command Asset deck and place it face down.
 ```
 
-### Options
-- per: Per Unit
-  Pt: 2
-  title: Skyrunner Jetbike
-  text: This unit can have a Skyrunner Jetbike (Skyrunner Profile)
-
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Witchblade | Melee | Melee | User | 8+ | 8+ | Witchfire |
 | Eldritch Storm | Small Arms | 24" | User | 8+ | 8+ | Witchfire, Blast |
-
 
 ### Profiles
 #### Skyrunner
@@ -139,7 +132,7 @@ Lord of <Aspect>: <Aspect> units within 6" of this unit and this unit re-roll fa
 #### Asurmen
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7" | 2+ | 2+ | 2 | 1 | 7 | 4+ | 1 | 9 |
+| 7" | 2+ | 2+ | 2 | 1 | 7 | 4+ | 1 | 11 |
 
 ##### Profile Traits
 Dire Avengers
@@ -148,6 +141,7 @@ Dire Avengers
 ```
 Asurmen - equipped with Sword of Asur & Avenger Shuriken catapults. 
 Hand of Asuryan: Improve saving throws of Aspect Warriors within 6" by 1. 
+Defence Tactics: Ignore the first blast marker this unit gets each turn.
 Lord of <Dire Avengers>.
 ```
 
@@ -259,7 +253,7 @@ Fire Dragons
 ##### Profile Abilities
 ```
 Equipped with Fire Pike and Fire Axe. 
-Ignore Damage (6+). 
+Ignore Damage (5+). 
 Assured Destruction: For every 2 successful wound rolls this unit makes against a Heavy or Super-heavy unit, add a blast marker to that unit. 
 Lord of <Fire Dragons>.
 ```

@@ -12,10 +12,8 @@ To play vanguard, play with between 100 to 150 points of units, on a 48” x 48�
 
 The following are a rough list of modifications of the original Apocalypse:  
 \- When a unit loses ½ its life, reduce the number of models in its unit by ½, rounded up.
-\- Add the following abilities: Harrier (at start of turn gain or lose supersonic), Blast (add +1 
-Attack for every 5 models in the target)
+\- Add the following abilities: Harrier (at start of turn gain or lose supersonic), Blast (add +1 Attack for every 5 models in the target), Advanced Guard (separate in infil 24" in command)
 \-  Light Characters get an additional -1 to hit when Obscured (for a total of -2).
-
 
 ## Tactic Deck Construction
 
@@ -354,7 +352,7 @@ Each player draws 3 cards, up to 7\. For every Warlord you have, you can draw an
 Any reinforcements from Tactical Reserves can be deployed, starting with the player with initiative. If they have no special rules dictating placement, they must be deployed within 6” of your deployment zone table edge within your deployment zone, and further than 9” from enemies.
 
 ## Command Step
-Units out of command (further than 12” from a commander) count as out of command.
+Units out of command (further than 12” from a commander) count as Out of Command (will take damage if stays out of command at end of turn).
 
 Each player chooses a command for each of their divisions.
 
