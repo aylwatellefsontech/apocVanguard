@@ -2696,6 +2696,10 @@
     display: block;
   }
 
+  .rules-body.mobile-layout {
+    display: block;
+  }
+
   .rules-body.mobile-layout .rules-nav-panel,
   .rules-body.mobile-layout .rules-content-scroll {
     display: none;
@@ -2704,14 +2708,18 @@
   .rules-body.mobile-layout.mobile-panel-nav .rules-nav-panel,
   .rules-body.mobile-layout.mobile-panel-content .rules-content-scroll {
     display: block;
-  }
-
-  .rules-body.mobile-layout.mobile-panel-content {
-    grid-template-rows: auto 1fr;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .rules-body.mobile-layout.mobile-panel-content .rules-nav-panel {
     display: none;
+  }
+
+  .rules-body.mobile-layout .rules-content {
+    max-width: none;
+    margin: 0;
+    padding: 0 0 32px;
   }
 
   .data-table {
