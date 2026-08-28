@@ -44,8 +44,7 @@ export default function ExportArmyModal({ army, onClose }: ExportArmyModalProps)
           <h2 id="export-army-modal-title">Export Army</h2>
           <p>
             Copy this compact army code and paste it into Build Army → Import to restore{' '}
-            <strong>{army.name}</strong>. The code starts with a readable label like{' '}
-            <code>[Army Name.YYYY-MM-DD]</code>.
+            <strong>{army.name}</strong>.
           </p>
         </header>
 
