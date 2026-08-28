@@ -1,8 +1,8 @@
 # Apocalypse Vanguard
 
-V0.6.3 \- 2026 08 23
+V0.6.4 \- 2026 08 28
 
-Apocalypse Vanguard is a cleaned up fan version of Apocalypse, meant to play games of Apocalypse in a smaller footprint, and faster.  
+Apocalypse Vanguard is a cleaned up fan version of 40k Apocalypse (2019), meant to play games of Apocalypse in a smaller footprint, and faster.  
 
 # Setup Changes
 
@@ -210,7 +210,7 @@ Then, chose one Warlord to be the Warmaster. Warmasters get 1 Warmaster trait.
 
 If all the units in a detachment are all part of 1 faction, they gain their faction trait.
 
-You can find the army lists in the army builder, or here: [https://drive.google.com/drive/folders/1NGlbYpQG-3\_dgBRkrxjs4m9ZGRU-RDug?usp=sharing](https://drive.google.com/drive/folders/1NGlbYpQG-3_dgBRkrxjs4m9ZGRU-RDug?usp=sharing)
+You can find the army lists and strategic asset cards in the army builder.
 
 ## Core detachments {#core-detachments}
 
@@ -303,9 +303,7 @@ Any, but does not get command benefits, nor can any units be your warlord
 
 Each player should have 16 Command Assets. These are Command Asset Cards. 8 should be the default cards (the first 8 cards from the apoc set), the other 8 can be from the faction cards, or the other cards from the base apoc set.
 
-The command cards can be found in the army builder, or the links below:  
-Use the cards in the following link:  
-[https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23\_Ar?usp=sharing](https://drive.google.com/drive/folders/1Vp8WaokDYShDZaMd7AVVrwB9Tpp23_Ar?usp=sharing)
+The command cards can be found in the army builder.
 
 Command Assets are drawn each turn, and can be discarded during the game to produce special effects.  The card will indicate when it can be used, otherwise, it can be used at anytime.
 
@@ -512,7 +510,10 @@ Before a unit attacks with this weapon, they can supercharge it. Until the end o
 Reroll wound rolls for attacks with this weapon against targets whose leadership is less then this unit. 
 
 #### Blast (new)
-For every 10 models in the target, add 1 Attack.
+For every 10 models in the target unit, add 1 Attack.
+
+#### Critical Hits (new)
+When you roll unmodified 6s to hit, add an extra hit.
 
 ## Unit Abilities {#unit-abilities}
 
@@ -528,7 +529,7 @@ Each time you fail a saving throw for this unit and would take a damage, roll a 
 
 When this unit is set up on the battlefield, it can be set up anywhere that is wholly within 24” of its Detachment Commander, and outside of the enemy player’s deployment, and further than 9” enemy units. They are not Out of Command unless they are further than 24” of their Detachment Commander. Their cover save for garrisoning defensible terrain is also increased to a 5+.
 
-#### Advanced Guard 
+#### Advanced Guard (New) 
 This unit is not Out of Command unless they are further than 24” of their Detachment Commander. 
 
 #### Objective Secured

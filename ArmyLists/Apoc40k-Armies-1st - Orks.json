@@ -2086,7 +2086,7 @@
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "16"
+        "Pt": "17"
       },
       "keywords": [
         "Super-heavy",
@@ -2140,7 +2140,8 @@
           "range": "Melee",
           "attacks": "x3",
           "skill": "5+",
-          "armorPen": "5+"
+          "armorPen": "5+",
+          "abilities": "Destroyer"
         }
       ]
     },
@@ -2157,7 +2158,7 @@
         "Ld": "5",
         "Sv": "6+",
         "N": "1",
-        "Pt": "16"
+        "Pt": "17"
       },
       "keywords": [
         "Super-heavy",
@@ -2208,9 +2209,10 @@
           "name": "Klaw of Gork (or possibly Mork)",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "x3",
+          "attacks": "x4",
           "skill": "5+",
-          "armorPen": "5+"
+          "armorPen": "5+",
+          "abilities": "Destroyer"
         }
       ]
     },

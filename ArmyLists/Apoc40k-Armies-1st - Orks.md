@@ -1089,7 +1089,7 @@ This unit can also be equipped with Skorcha Missiles (option).
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 16 |
+| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 17 |
 
 ### Keywords
 Super-heavy, Vehicle, Transport
@@ -1112,14 +1112,14 @@ Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantr
 | Kustom Mega-zappa | Heavy | 36" | 3 | 9+ | 5+ | Supercharge |
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Twin Big Shoota | Heavy | 36" | 2 | 7+ | 9+ |  |
-| Klaw of Gork (or possibly Mork) | Melee | Melee | x3 | 5+ | 5+ |  |
+| Klaw of Gork (or possibly Mork) | Melee | Melee | x3 | 5+ | 5+ | Destroyer  |
 
 ## Unit 28 — Lord — Gorkanaut
 
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 16 |
+| 8" | 3+ | 5+ | 1 | 4 | 5 | 6+ | 1 | 17 |
 
 ### Keywords
 Super-heavy, Vehicle, Transport
@@ -1141,7 +1141,7 @@ Transport: This unit can transport up to 6 friendly Flash Gitz or <Clan> Infantr
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Skorcha | Heavy | 8" | 1 | 7+ | 9+ | Inferno |
 | Twin Big Shoota | Heavy | 36" | 2 | 7+ | 9+ |  |
-| Klaw of Gork (or possibly Mork) | Melee | Melee | x3 | 5+ | 5+ |  |
+| Klaw of Gork (or possibly Mork) | Melee | Melee | x4 | 5+ | 5+ | Destroyer |
 
 ## Unit 32 — Lord — Stompa
 
