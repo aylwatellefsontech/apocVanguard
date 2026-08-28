@@ -26,7 +26,7 @@ import {
   sortArmyCardsByName,
   toggleRosterOption,
 } from '../utils/armyStorage'
-import { importAndSaveArmyFromCode } from '../utils/armyExport'
+import { importAndSaveArmyFromCode } from '../utils/armyImport'
 import type { ArmyExportSource } from '../utils/armyExport'
 import { getLocalArmy } from '../data/localArmyLists'
 import { buildRosterUnitsByEntryId } from '../utils/rosterUnits'
@@ -446,7 +446,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     setSelectedRosterEntryId(saved.roster[0]?.id ?? null)
     setSelectedUnitNo(saved.roster[0]?.unitNo ?? null)
     if (!options?.silent) {
-      setSaveMessage({ type: 'success', text: `Loaded "${saved.name}".` })
+      onToast(`Loaded "${saved.name}".`)
     }
   }
 

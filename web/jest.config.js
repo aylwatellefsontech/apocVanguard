@@ -24,6 +24,7 @@ export default {
     ],
   },
   moduleNameMapper: {
+    '^(.*/data/localArmyLists)(\\.js)?$': '<rootDir>/tests/mocks/localArmyLists.ts',
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
   testMatch: ['<rootDir>/tests/**/*.test.ts'],

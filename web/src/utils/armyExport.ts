@@ -1,5 +1,4 @@
-import { MAX_SAVED_ARMIES } from '../constants'
-import { normalizeRosterEntry, normalizeSavedArmy, saveArmy } from './armyStorage'
+import { normalizeRosterEntry, normalizeSavedArmy } from './armyStorage'
 import { isValidCardSlot } from './rosterOrganize'
 import type { ArmyCardEntry, RosterEntry, SavedArmy, SelectedOption } from '../types'
 
@@ -413,7 +412,7 @@ function decodeCompactPayload(payload: unknown): ImportArmyResult {
   return { ok: true, army }
 }
 
-function decodeArmyCode(text: string): ImportArmyResult {
+export function decodeArmyCode(text: string): ImportArmyResult {
   const match = text.trim().match(/^AV1\.([A-Za-z0-9_-]+)$/)
   if (!match) {
     return {
@@ -442,7 +441,7 @@ export function extractArmyCodeFromText(text: string): string | null {
 }
 
 /** @deprecated Legacy markdown exports from earlier builds. */
-function decodeLegacyMarkdown(text: string): ImportArmyResult {
+export function decodeLegacyMarkdown(text: string): ImportArmyResult {
   const frontMatter = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n/
   const jsonBlock = /```(?:json|army-json)?\s*\r?\n([\s\S]*?)```/
   const meta: Record<string, string> = {}
@@ -558,67 +557,5 @@ function decodeLegacyMarkdown(text: string): ImportArmyResult {
   return { ok: true, army }
 }
 
-export function importArmyFromCode(text: string): ImportArmyResult {
-  const trimmed = text.trim()
-  if (!trimmed) {
-    return { ok: false, error: 'Paste an army export code before importing.' }
-  }
-
-  if (
-    trimmed.startsWith('---') ||
-    trimmed.startsWith('#') ||
-    trimmed.includes('```json') ||
-    trimmed.includes('```army-json')
-  ) {
-    const embeddedCode = extractArmyCodeFromText(trimmed)
-    if (embeddedCode) {
-      return decodeArmyCode(stripExportLabel(embeddedCode))
-    }
-
-    if (trimmed.includes('```json') || trimmed.includes('```army-json')) {
-      try {
-        return decodeLegacyMarkdown(trimmed)
-      } catch (error) {
-        const message = error instanceof Error ? error.message : 'Unknown import error.'
-        return { ok: false, error: message }
-      }
-    }
-
-    return {
-      ok: false,
-      error: 'Markdown export is missing an army export code.',
-    }
-  }
-
-  const code = stripExportLabel(trimmed)
-  return decodeArmyCode(code)
-}
-
-export function importAndSaveArmyFromCode(text: string, existingCount?: number): ImportArmyResult {
-  const result = importArmyFromCode(text)
-  if (!result.ok) {
-    return result
-  }
-
-  const count = existingCount ?? 0
-  if (count >= MAX_SAVED_ARMIES) {
-    return {
-      ok: false,
-      error: `You can only save up to ${MAX_SAVED_ARMIES} armies. Delete one before importing.`,
-    }
-  }
-
-  const saveResult = saveArmy(result.army)
-  if (!saveResult.ok) {
-    return { ok: false, error: saveResult.error ?? 'Failed to save imported army.' }
-  }
-
-  return { ok: true, army: result.army }
-}
-
 /** @deprecated Use generateArmyListMarkdown instead. */
 export const exportArmyToMarkdown = encodeArmyExport
-/** @deprecated Use importArmyFromCode instead. */
-export const importArmyFromMarkdown = importArmyFromCode
-/** @deprecated Use importAndSaveArmyFromCode instead. */
-export const importAndSaveArmyFromMarkdown = importAndSaveArmyFromCode

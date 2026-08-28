@@ -4,9 +4,9 @@ import {
   ARMY_CODE_PREFIX,
   encodeArmyExport,
   formatExportLabel,
-  importArmyFromCode,
   stripExportLabel,
 } from '../../src/utils/armyExport.js'
+import { importArmyFromCode } from '../../src/utils/armyImport.js'
 
 const sampleArmy: SavedArmy = {
   id: 'army-1',

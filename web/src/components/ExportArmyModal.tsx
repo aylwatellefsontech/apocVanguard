@@ -18,8 +18,8 @@ export default function ExportArmyModal({
 }: ExportArmyModalProps) {
   const exportCode = useMemo(() => encodeArmyExport(army), [army])
   const armyMarkdown = useMemo(
-    () => generateArmyListMarkdown(army, unitsByEntryId, exportCode),
-    [army, unitsByEntryId, exportCode],
+    () => generateArmyListMarkdown(army, unitsByEntryId),
+    [army, unitsByEntryId],
   )
   const [toastMessage, setToastMessage] = useState<string | null>(null)
 

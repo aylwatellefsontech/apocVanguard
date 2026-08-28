@@ -1,7 +1,6 @@
 import { STAT_KEYS } from '../constants'
 import type { ArmyCardEntry, Card, RosterEntry, Unit, UnitOption, UnitStats, Weapon } from '../types'
 import type { ArmyExportSource } from './armyExport'
-import { encodeArmyExport } from './armyExport'
 import { armyCardEntryToCard } from './cardPrintExport'
 import {
   calculateOptionPoints,
@@ -138,7 +137,14 @@ function renderRosterEntryMarkdown(
   unit: Unit | null | undefined,
   showFaction: boolean,
 ): string {
-  const meta = formatPrintRosterEntryMeta(entry, showFaction)
+  const metaParts = formatPrintRosterEntryMeta(entry, showFaction).split(' · ')
+  if (metaParts[metaParts.length - 1] === entry.unitType) {
+    const unitNo = unit?.no ?? entry.unitNo
+    if (unitNo != null) {
+      metaParts.splice(metaParts.length - 1, 0, `#${unitNo}`)
+    }
+  }
+  const meta = metaParts.join(' · ')
   const lines: string[] = [`### ${entry.unitName}`, '', `*${meta}*`]
 
   if (!unit) {
@@ -234,10 +240,8 @@ function renderCardMarkdown(card: Card): string {
 export function generateArmyListMarkdown(
   army: ArmyExportSource,
   unitsByEntryId: Map<string, Unit> = new Map(),
-  exportCode?: string,
   exportedAt: Date = new Date(),
 ): string {
-  const armyCode = exportCode ?? encodeArmyExport(army, exportedAt)
   const metaParts = [
     `Faction: ${army.factionName}`,
     `${army.totalPoints} Pt total`,
@@ -296,7 +300,7 @@ export function generateArmyListMarkdown(
     )
   }
 
-  sections.push('', '## Army Export Code', '', '```', armyCode, '```')
+  sections.push('', '## Notes', '', '10/10, no notes.')
 
   return sections.join('\n')
 }
