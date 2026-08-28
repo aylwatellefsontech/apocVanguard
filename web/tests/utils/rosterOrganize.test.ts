@@ -9,6 +9,7 @@ import {
   sortRosterForOrganizedArmyView,
   formatPrintRosterEntryMeta,
   formatOrganizeEntryMeta,
+  formatOrganizeExpandedEntryMeta,
   formatDetachmentLabel,
   toggleRosterCommander,
 } from '../../src/utils/rosterOrganize.js'
@@ -174,6 +175,19 @@ describe('formatOrganizeEntryMeta', () => {
     })
 
     expect(formatOrganizeEntryMeta(entry, null)).toBe('HQ · Warboss · 8 Pt')
+  })
+})
+
+describe('formatOrganizeExpandedEntryMeta', () => {
+  it('includes only unit type and profile label', () => {
+    const entry = makeEntry('a', {
+      unitType: 'HQ',
+      profileLabel: '1 Warboss',
+      points: 8,
+      modelCount: 1,
+    })
+
+    expect(formatOrganizeExpandedEntryMeta(entry)).toBe('HQ · 1 Warboss')
   })
 })
 

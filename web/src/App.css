@@ -1343,6 +1343,22 @@
   opacity: 1;
 }
 
+.commander-medal-btn.icon-only {
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.commander-medal-btn.icon-only:hover:not(:disabled),
+.commander-medal-btn.icon-only.active {
+  background: transparent;
+  border: none;
+  color: var(--accent);
+}
+
 .organize-army-modal {
   width: min(980px, 100%);
 }
@@ -1353,32 +1369,76 @@
 }
 
 .organize-army-body {
+  --organize-rail-min-width: 150px;
+  --organize-rail-width: 195px;
   display: grid;
-  grid-template-columns: minmax(150px, 195px) minmax(0, 1fr);
+  grid-template-columns: minmax(var(--organize-rail-min-width), var(--organize-rail-width)) minmax(0, 1fr);
   gap: 0;
   min-height: 0;
   flex: 1;
+  overflow: hidden;
+}
+
+@media (min-width: 769px) {
+  .organize-army-body.slot-rail-expanded {
+    --organize-rail-min-width: 180px;
+    --organize-rail-width: 234px;
+  }
+
+  .organize-slot-rail {
+    border-right: none;
+    background: var(--bg);
+  }
+
+  .organize-unit-panel {
+    border-left: 1px solid var(--border);
+    background: var(--bg);
+  }
+
+  .organize-unit-panel.drag-over {
+    border-left-color: var(--accent-border);
+  }
 }
 
 .organize-slot-rail {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 8px;
   flex-shrink: 0;
   align-self: stretch;
   width: 100%;
-  min-width: 150px;
-  max-width: 195px;
+  min-width: 0;
+  max-width: var(--organize-rail-width);
+  min-height: 0;
   padding: 16px 12px;
   border-right: 1px solid var(--border);
-  position: sticky;
-  top: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.organize-slot-rail.expanded {
-  justify-content: flex-start;
+.organize-slot-rail-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  min-height: 0;
+  overflow-x: hidden;
   overflow-y: auto;
+}
+
+.organize-slot-rail.expanded .organize-slot-rail-main {
+  justify-content: flex-start;
+}
+
+.organize-slot-rail-footer {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
 }
 
 .organize-slot-expand {
@@ -1403,8 +1463,8 @@
 }
 
 .organize-slot-group.expanded {
+  flex-shrink: 0;
   padding: 0;
-  overflow: hidden;
   border: 2px dashed var(--border);
   border-radius: 12px;
   background: var(--code-bg);
@@ -1453,6 +1513,18 @@
 
 .organize-slot-assigned-name {
   color: var(--text-h);
+  overflow-wrap: anywhere;
+}
+
+.organize-slot-assigned-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.organize-slot-assigned-badges {
+  flex-shrink: 0;
 }
 
 .organize-slot-assigned-meta {
@@ -1554,9 +1626,14 @@
 }
 
 .organize-slot-clear {
-  margin-top: 4px;
+  width: 100%;
   padding: 4px 0;
   font-size: 12px;
+}
+
+.organize-slot-clear:disabled {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .organize-unit-panel.drag-over {
@@ -1567,14 +1644,16 @@
 .organize-unit-panel {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   min-height: 0;
   overflow: hidden;
-  padding: 16px 16px 16px 0;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .organize-unit-panel-title {
   margin: 0 0 10px;
-  padding-left: 16px;
+  padding-left: 0;
   font-size: 14px;
 }
 
@@ -1584,7 +1663,7 @@
   gap: 10px;
   min-height: 0;
   margin: 0;
-  padding: 0 0 0 16px;
+  padding: 0;
   overflow: auto;
   list-style: none;
 }
@@ -1596,7 +1675,7 @@
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--code-bg);
-  cursor: grab;
+  cursor: pointer;
 }
 
 .organize-unit-row-header {
@@ -1630,9 +1709,9 @@
   background: var(--accent-bg);
 }
 
-@media (pointer: coarse) {
-  .organize-unit-row {
-    cursor: pointer;
+@media (pointer: fine) {
+  .organize-unit-row[draggable='true']:active {
+    cursor: grabbing;
   }
 }
 
@@ -2464,10 +2543,11 @@
     width: auto;
     min-width: 0;
     max-width: none;
+    min-height: 0;
     padding: 12px 8px;
     border-right: 1px solid var(--border);
     border-bottom: none;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .organize-expand-all-btn {
@@ -2492,13 +2572,13 @@
   }
 
   .organize-unit-panel {
-    padding: 12px 12px 16px 0;
+    padding: 12px;
     min-height: 0;
   }
 
   .organize-unit-panel-title,
   .organize-unit-list {
-    padding-left: 12px;
+    padding-left: 0;
   }
 
   .app-body,

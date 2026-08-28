@@ -5,23 +5,33 @@ import type { RosterEntry } from '../types'
 interface RosterOrganizeBadgesProps {
   entry: RosterEntry
   showCommanderToggle?: boolean
+  showDetachmentBadge?: boolean
+  /** Show commander badge only when marked commander (no inactive toggle). */
+  commanderBadgeOnlyWhenActive?: boolean
   onToggleCommander?: () => void
 }
 
 export default function RosterOrganizeBadges({
   entry,
   showCommanderToggle = false,
+  showDetachmentBadge = true,
+  commanderBadgeOnlyWhenActive = false,
   onToggleCommander,
 }: RosterOrganizeBadgesProps) {
   const hasAssignment = entry.cardSlot != null
+  const showDetachment = showDetachmentBadge && hasAssignment
+  const showCommanderToggleButton = showCommanderToggle && !commanderBadgeOnlyWhenActive
+  const showActiveCommanderBadge =
+    entry.isCommander && (commanderBadgeOnlyWhenActive || !showCommanderToggle)
+  const hasCommanderUi = showCommanderToggleButton || showActiveCommanderBadge
 
-  if (!showCommanderToggle && !hasAssignment) {
+  if (!hasCommanderUi && !showDetachment) {
     return null
   }
 
   return (
     <div className="roster-item-badges">
-      {showCommanderToggle ? (
+      {showCommanderToggleButton ? (
         <CommanderMedalButton
           active={Boolean(entry.isCommander)}
           disabled={!hasAssignment}
@@ -34,10 +44,15 @@ export default function RosterOrganizeBadges({
           }
           onClick={onToggleCommander}
         />
-      ) : entry.isCommander ? (
-        <CommanderMedalButton active disabled title="Commander" />
+      ) : showActiveCommanderBadge ? (
+        <CommanderMedalButton
+          active
+          disabled
+          iconOnly={commanderBadgeOnlyWhenActive}
+          title="Commander"
+        />
       ) : null}
-      {hasAssignment ? (
+      {showDetachment ? (
         <span
           className="card-slot-badge detachment-badge"
           aria-label={getDetachmentAriaLabel(entry.cardSlot!)}

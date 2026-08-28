@@ -4,6 +4,10 @@ TESTING Armylists, list builders, and playing games.
 
 # Features
 - Clean up List viewing with mobile, esp mid-sized mobile (landscape vs portrait).
+- Update colouring to golden yellow from purple.
+- Change Icon for default Apocalypse Vanguard. Skull - Human vs Ork.
+- Icon for site should be the golden yellow.
+- Create Icons for HQ (skull), Troops (triangle), Elite (crosshairs), Fast (lightning), Heavy (explosion), Transport (arrow), Air (wing), Lord (fist)
 
 # Game Features
 - Add alternative army rules for each faction.

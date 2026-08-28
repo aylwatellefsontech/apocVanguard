@@ -7,6 +7,7 @@ import {
   assignRosterCardSlot,
   CARD_SLOT_NUMBERS,
   formatOrganizeEntryMeta,
+  formatOrganizeExpandedEntryMeta,
   getRosterEntriesForCardSlot,
   sortRosterByOrganizeGroup,
   toggleRosterCommander,
@@ -112,10 +113,6 @@ export default function OrganizeArmyModal({
     : 'Expand All'
 
   function handleSelectEntry(entryId: string) {
-    if (!isMobile) {
-      return
-    }
-
     setSelectedEntryId((current) => (current === entryId ? null : entryId))
   }
 
@@ -139,7 +136,12 @@ export default function OrganizeArmyModal({
     })
   }
 
-  const bodyClassName = 'organize-army-body'
+  const bodyClassName = [
+    'organize-army-body',
+    !isMobile && slotRailExpanded ? 'slot-rail-expanded' : null,
+  ]
+    .filter(Boolean)
+    .join(' ')
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
@@ -156,7 +158,7 @@ export default function OrganizeArmyModal({
             <p className="muted organize-army-subtitle">
               {isMobile
                 ? 'Tap a unit, then tap a detachment to assign. Tap the medal to mark a commander.'
-                : 'Drag units onto detachments 1–6. Use the medal to mark a commander.'}
+                : 'Select or drag units onto detachments 1–6. Use the medal to mark a commander.'}
             </p>
           </div>
           <div className="hand-modal-actions">
@@ -194,126 +196,135 @@ export default function OrganizeArmyModal({
             }
             aria-label="Detachment numbers 1 to 6"
           >
-            {!isMobile ? (
-              <button
-                type="button"
-                className="organize-slot-expand text-btn"
-                aria-expanded={slotRailExpanded}
-                aria-label={
-                  slotRailExpanded ? 'Collapse detachment assignments' : 'Expand detachment assignments'
-                }
-                title={
-                  slotRailExpanded ? 'Collapse detachment assignments' : 'Expand detachment assignments'
-                }
-                onClick={() => setSlotRailExpanded((current) => !current)}
-              >
-                {slotRailExpanded ? '▾' : '▸'}
-              </button>
-            ) : null}
-
-            {CARD_SLOT_NUMBERS.map((slot) => {
-              const slotEntries = getRosterEntriesForCardSlot(roster, slot)
-              const assignedCount = slotEntries.length
-              const isDragOver = dragOverSlot === slot
-              const isActive =
-                selectedEntryId != null &&
-                roster.find((entry) => entry.id === selectedEntryId)?.cardSlot === slot
-              const showExpandedGroup = !isMobile && slotRailExpanded
-
-              const slotDropHandlers = {
-                onDragOver: (event: DragEvent) => {
-                  event.preventDefault()
-                  setDragOverSlot(slot)
-                },
-                onDragLeave: () => {
-                  if (dragOverSlot === slot) {
-                    setDragOverSlot(null)
+            <div className="organize-slot-rail-main">
+              {!isMobile ? (
+                <button
+                  type="button"
+                  className="organize-slot-expand text-btn"
+                  aria-expanded={slotRailExpanded}
+                  aria-label={
+                    slotRailExpanded ? 'Collapse detachment assignments' : 'Expand detachment assignments'
                   }
-                },
-                onDrop: (event: DragEvent) => handleDropOnSlot(slot, event),
-              }
-
-              return (
-                <div
-                  key={slot}
-                  className={[
-                    'organize-slot-group',
-                    showExpandedGroup ? 'expanded' : null,
-                    showExpandedGroup && isDragOver ? 'drag-over' : null,
-                    showExpandedGroup && isActive ? 'active' : null,
-                  ]
-                    .filter(Boolean)
-                    .join(' ')}
-                  {...(showExpandedGroup ? slotDropHandlers : {})}
+                  title={
+                    slotRailExpanded ? 'Collapse detachment assignments' : 'Expand detachment assignments'
+                  }
+                  onClick={() => setSlotRailExpanded((current) => !current)}
                 >
-                  <button
-                    type="button"
+                  {slotRailExpanded ? '▾' : '▸'}
+                </button>
+              ) : null}
+
+              {CARD_SLOT_NUMBERS.map((slot) => {
+                const slotEntries = getRosterEntriesForCardSlot(roster, slot)
+                const assignedCount = slotEntries.length
+                const isDragOver = dragOverSlot === slot
+                const isActive =
+                  selectedEntryId != null &&
+                  roster.find((entry) => entry.id === selectedEntryId)?.cardSlot === slot
+                const showExpandedGroup = !isMobile && slotRailExpanded
+
+                const slotDropHandlers = {
+                  onDragOver: (event: DragEvent) => {
+                    event.preventDefault()
+                    setDragOverSlot(slot)
+                  },
+                  onDragLeave: () => {
+                    if (dragOverSlot === slot) {
+                      setDragOverSlot(null)
+                    }
+                  },
+                  onDrop: (event: DragEvent) => handleDropOnSlot(slot, event),
+                }
+
+                return (
+                  <div
+                    key={slot}
                     className={[
-                      'organize-slot-btn',
-                      showExpandedGroup ? 'wide' : null,
-                      !showExpandedGroup && isDragOver ? 'drag-over' : null,
-                      !showExpandedGroup && isActive ? 'active' : null,
+                      'organize-slot-group',
+                      showExpandedGroup ? 'expanded' : null,
+                      showExpandedGroup && isDragOver ? 'drag-over' : null,
+                      showExpandedGroup && isActive ? 'active' : null,
                     ]
                       .filter(Boolean)
                       .join(' ')}
-                    aria-label={`Assign to ${getDetachmentAriaLabel(slot)}`}
-                    onClick={() => handleAssignSlot(slot)}
-                    {...(!showExpandedGroup ? slotDropHandlers : {})}
+                    {...(showExpandedGroup ? slotDropHandlers : {})}
                   >
-                    <DetachmentLabel
-                      slot={slot}
-                      showWord={!isMobile}
-                      className="organize-slot-label detachment-label"
-                      numberClassName="detachment-label-number organize-slot-number"
-                    />
-                    {assignedCount > 0 ? (
-                      <span className="organize-slot-count" aria-hidden="true">
-                        {assignedCount}
-                      </span>
+                    <button
+                      type="button"
+                      className={[
+                        'organize-slot-btn',
+                        showExpandedGroup ? 'wide' : null,
+                        !showExpandedGroup && isDragOver ? 'drag-over' : null,
+                        !showExpandedGroup && isActive ? 'active' : null,
+                      ]
+                        .filter(Boolean)
+                        .join(' ')}
+                      aria-label={`Assign to ${getDetachmentAriaLabel(slot)}`}
+                      onClick={() => handleAssignSlot(slot)}
+                      {...(!showExpandedGroup ? slotDropHandlers : {})}
+                    >
+                      <DetachmentLabel
+                        slot={slot}
+                        showWord={!isMobile}
+                        className="organize-slot-label detachment-label"
+                        numberClassName="detachment-label-number organize-slot-number"
+                      />
+                      {assignedCount > 0 ? (
+                        <span className="organize-slot-count" aria-hidden="true">
+                          {assignedCount}
+                        </span>
+                      ) : null}
+                    </button>
+
+                    {showExpandedGroup ? (
+                      slotEntries.length > 0 ? (
+                        <ul className="organize-slot-assigned-list">
+                          {slotEntries.map((entry) => (
+                            <li
+                              key={entry.id}
+                              className="organize-slot-assigned-item"
+                              draggable
+                              onDragStart={(event) => handleDragStart(entry.id, event)}
+                            >
+                              <div className="organize-slot-assigned-header">
+                                <span className="organize-slot-assigned-name">{entry.unitName}</span>
+                                <div
+                                  className="organize-slot-assigned-badges"
+                                  onClick={(event) => event.stopPropagation()}
+                                >
+                                  <RosterOrganizeBadges
+                                    entry={entry}
+                                    showDetachmentBadge={false}
+                                    commanderBadgeOnlyWhenActive
+                                  />
+                                </div>
+                              </div>
+                              <span className="organize-slot-assigned-meta roster-item-meta">
+                                {formatOrganizeExpandedEntryMeta(entry)}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="muted organize-slot-assigned-empty">Drop units here</p>
+                      )
                     ) : null}
-                  </button>
+                  </div>
+                )
+              })}
+            </div>
 
-                  {showExpandedGroup ? (
-                    slotEntries.length > 0 ? (
-                      <ul className="organize-slot-assigned-list">
-                        {slotEntries.map((entry) => (
-                          <li
-                            key={entry.id}
-                            className="organize-slot-assigned-item"
-                            draggable
-                            onDragStart={(event) => handleDragStart(entry.id, event)}
-                          >
-                            <span className="organize-slot-assigned-name">{entry.unitName}</span>
-                            <span className="organize-slot-assigned-meta roster-item-meta">
-                              {formatOrganizeEntryMeta(
-                                entry,
-                                unitsByEntryId.get(entry.id),
-                                showFaction,
-                              )}
-                            </span>
-                            {entry.isCommander ? (
-                              <span className="organize-slot-assigned-commander">Commander</span>
-                            ) : null}
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p className="muted organize-slot-assigned-empty">Drop units here</p>
-                    )
-                  ) : null}
-                </div>
-              )
-            })}
-
-            {selectedEntryId ? (
+            <div className="organize-slot-rail-footer">
               <button
                 type="button"
                 className="organize-slot-clear text-btn"
                 onClick={handleUnassignSelected}
+                disabled={!selectedEntryId}
+                aria-label="Clear detachment assignment"
               >
                 Clear
               </button>
-            ) : null}
+            </div>
           </section>
 
           <section

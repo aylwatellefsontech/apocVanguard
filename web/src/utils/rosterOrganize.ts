@@ -108,6 +108,19 @@ export function formatOrganizeEntryMeta(
   return parts.join(' · ')
 }
 
+/** Compact meta for expanded unit rows in the organize modal (desktop). */
+export function formatOrganizeExpandedEntryMeta(entry: RosterEntry): string {
+  const parts: string[] = []
+
+  if (entry.unitType) {
+    parts.push(entry.unitType)
+  }
+
+  parts.push(entry.profileLabel)
+
+  return parts.join(' · ')
+}
+
 export function formatDetachmentLabel(cardSlot: number): string {
   return `Detachment ${cardSlot}`
 }
