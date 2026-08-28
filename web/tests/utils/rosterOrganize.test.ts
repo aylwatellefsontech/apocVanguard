@@ -8,6 +8,8 @@ import {
   sortRosterByOrganizeGroup,
   sortRosterForOrganizedArmyView,
   formatPrintRosterEntryMeta,
+  formatOrganizeEntryMeta,
+  formatDetachmentLabel,
   toggleRosterCommander,
 } from '../../src/utils/rosterOrganize.js'
 
@@ -144,6 +146,40 @@ describe('sortRosterForOrganizedArmyView', () => {
       'hq',
       'troop',
     ])
+  })
+})
+
+describe('formatOrganizeEntryMeta', () => {
+  it('includes unit type and weight before the profile label', () => {
+    const entry = makeEntry('a', {
+      unitType: 'Troops',
+      profileLabel: '10 Boys',
+      points: 5,
+    })
+    const unit = {
+      no: 1,
+      type: 'Troops',
+      name: 'Boyz',
+      keywords: ['Infantry', 'Light'],
+    } as import('../../src/types.js').Unit
+
+    expect(formatOrganizeEntryMeta(entry, unit)).toBe('Troops · Light · 10 Boys · 5 Pt')
+  })
+
+  it('omits weight when the unit has none', () => {
+    const entry = makeEntry('a', {
+      unitType: 'HQ',
+      profileLabel: 'Warboss',
+      points: 8,
+    })
+
+    expect(formatOrganizeEntryMeta(entry, null)).toBe('HQ · Warboss · 8 Pt')
+  })
+})
+
+describe('formatDetachmentLabel', () => {
+  it('formats card slots as detachment labels', () => {
+    expect(formatDetachmentLabel(3)).toBe('Detachment 3')
   })
 })
 

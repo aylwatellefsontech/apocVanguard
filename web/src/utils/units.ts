@@ -371,6 +371,30 @@ export function getUnitWeightKeyword(unit: Unit | null | undefined): string | nu
   return null
 }
 
+export function getRosterEntryWeightKeyword(
+  unit: Unit | null | undefined,
+  entry: RosterEntry,
+): string | null {
+  if (!unit) {
+    return null
+  }
+
+  const profiles = getUnitProfiles(unit)
+  const resolved = resolveActiveProfile(profiles, {
+    kind: entry.profileKind,
+    index: entry.profileIndex,
+    label: entry.profileLabel,
+  })
+
+  for (const keyword of getBlendedKeywords(unit, resolved)) {
+    if (WEIGHT_KEYWORDS.has(keyword.toLowerCase())) {
+      return keyword.charAt(0).toUpperCase() + keyword.slice(1).toLowerCase()
+    }
+  }
+
+  return null
+}
+
 export function formatUnitTypeLabel(type: string, unit?: Unit | null): string {
   if (unitHasInfantryKeyword(unit)) {
     return `${type} - Infantry`

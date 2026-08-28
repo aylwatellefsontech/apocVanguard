@@ -1,4 +1,5 @@
 import CommanderMedalButton from './CommanderMedalButton'
+import DetachmentLabel, { getDetachmentAriaLabel } from './DetachmentLabel'
 import type { RosterEntry } from '../types'
 
 interface RosterOrganizeBadgesProps {
@@ -26,7 +27,7 @@ export default function RosterOrganizeBadges({
           disabled={!hasAssignment}
           title={
             !hasAssignment
-              ? 'Assign a card number before marking commander'
+              ? 'Assign a detachment before marking commander'
               : entry.isCommander
                 ? 'Remove commander'
                 : 'Mark as commander'
@@ -37,8 +38,15 @@ export default function RosterOrganizeBadges({
         <CommanderMedalButton active disabled title="Commander" />
       ) : null}
       {hasAssignment ? (
-        <span className="card-slot-badge" aria-label={`Card ${entry.cardSlot}`}>
-          {entry.cardSlot}
+        <span
+          className="card-slot-badge detachment-badge"
+          aria-label={getDetachmentAriaLabel(entry.cardSlot!)}
+        >
+          <DetachmentLabel
+            slot={entry.cardSlot!}
+            className="detachment-label detachment-badge-label"
+            numberClassName="detachment-label-number detachment-badge-number"
+          />
         </span>
       ) : null}
     </div>

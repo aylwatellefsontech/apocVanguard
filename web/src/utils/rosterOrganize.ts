@@ -1,6 +1,7 @@
 import { TYPE_ORDER } from '../constants'
-import type { RosterEntry } from '../types'
+import type { RosterEntry, Unit } from '../types'
 import { formatRosterEntryMeta } from './roster'
+import { getRosterEntryWeightKeyword } from './units'
 
 export const CARD_SLOT_COUNT = 6
 
@@ -76,11 +77,46 @@ export function sortRosterForOrganizedArmyView(roster: RosterEntry[]): RosterEnt
   return [...roster].sort((a, b) => compareOrganizedRoster(a, b, true))
 }
 
+export function formatOrganizeEntryMeta(
+  entry: RosterEntry,
+  unit: Unit | null | undefined,
+  showFaction = false,
+): string {
+  const parts: string[] = []
+
+  if (showFaction && entry.factionName) {
+    parts.push(entry.factionName)
+  }
+
+  if (entry.unitType) {
+    parts.push(entry.unitType)
+  }
+
+  const weight = getRosterEntryWeightKeyword(unit, entry)
+  if (weight) {
+    parts.push(weight)
+  }
+
+  parts.push(entry.profileLabel)
+
+  if (entry.modelCount != null && entry.modelCount !== '') {
+    parts.push(`N ${entry.modelCount}`)
+  }
+
+  parts.push(`${entry.points} Pt`)
+
+  return parts.join(' · ')
+}
+
+export function formatDetachmentLabel(cardSlot: number): string {
+  return `Detachment ${cardSlot}`
+}
+
 export function formatPrintOrganizeMeta(entry: RosterEntry): string {
   const parts: string[] = []
 
   if (entry.cardSlot != null) {
-    parts.push(`Detachment ${entry.cardSlot}`)
+    parts.push(formatDetachmentLabel(entry.cardSlot))
   }
 
   if (entry.isCommander) {

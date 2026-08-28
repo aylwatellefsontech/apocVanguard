@@ -28,6 +28,7 @@ import {
 import { importAndSaveArmyFromCode } from '../utils/armyExport'
 import type { ArmyExportSource } from '../utils/armyExport'
 import { getLocalArmy } from '../data/localArmyLists'
+import { buildRosterUnitsByEntryId } from '../utils/rosterUnits'
 import {
   deriveSavedArmyFactionMeta,
   rosterHasMultipleFactions,
@@ -264,6 +265,10 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
         })()
       : null
   const showRosterFactions = rosterHasMultipleFactions(roster)
+  const rosterUnitsByEntryId = useMemo(
+    () => buildRosterUnitsByEntryId(roster, activeFactionId ?? ''),
+    [roster, activeFactionId],
+  )
   const error = factionsError || armyError || cardsError
   const cardsPanelTitle = selectedCardFac ? `${selectedCardFac} Cards` : 'All Cards'
 
@@ -999,6 +1004,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
       {organizeArmyOpen && (
         <OrganizeArmyModal
           roster={roster}
+          unitsByEntryId={rosterUnitsByEntryId}
           showFaction={showRosterFactions}
           onRosterChange={(nextRoster) => {
             setRoster(nextRoster)
