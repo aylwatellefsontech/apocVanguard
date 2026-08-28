@@ -18,6 +18,38 @@ export function rosterHasMultipleFactions(roster: RosterEntry[]): boolean {
   return getRosterFactionIds(roster).length > 1
 }
 
+export function getArmyFactionNames(
+  roster: RosterEntry[],
+  cards: ArmyCardEntry[] = [],
+  fallbackFactionName = '',
+): string[] {
+  const factions = new Map<string, string>()
+
+  for (const entry of roster) {
+    const name = entry.factionName?.trim()
+    if (name) {
+      factions.set(entry.factionId || name, name)
+    }
+  }
+
+  if (factions.size === 0) {
+    for (const card of cards) {
+      const name = card.fac?.trim()
+      if (name) {
+        factions.set(name, name)
+      }
+    }
+  }
+
+  if (factions.size === 0 && fallbackFactionName.trim()) {
+    for (const part of fallbackFactionName.split('/').map((name) => name.trim()).filter(Boolean)) {
+      factions.set(part, part)
+    }
+  }
+
+  return [...factions.values()].sort((a, b) => a.localeCompare(b))
+}
+
 export function deriveSavedArmyFactionMeta(
   roster: RosterEntry[],
   cards: ArmyCardEntry[],

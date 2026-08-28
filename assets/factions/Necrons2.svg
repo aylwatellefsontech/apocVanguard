@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px;" x1="255.731" y1="247.888" x2="255.731" y2="484.122"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 20px; fill: none;" cx="255.955" cy="176.302" rx="69.477" ry="69.477"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20;" x1="255.612" y1="36.229" x2="255.612" y2="106.229"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20;" x1="305.793" y1="230.256" x2="344.908" y2="261.401"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20; transform-origin: 190.275px 238.281px;" x1="170.717" y1="253.854" x2="209.832" y2="222.709" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20; transform-origin: 359.81px 179.336px;" x1="359.81" y1="144.336" x2="359.81" y2="214.336" transform="matrix(0, 1.000001039423, -1.000001039423, -0.000001025623, -0.000199569159, 0)"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20; transform-origin: 153.962px 179.727px;" x1="186.439" y1="177.879" x2="116.439" y2="177.879"/>
+</svg>

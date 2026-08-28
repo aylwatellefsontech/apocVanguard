@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { getRouteApi, useNavigate } from '@tanstack/react-router'
 import CardDetail from '../components/CardDetail'
+import FactionIcon from '../components/FactionIcon'
+import FactionPanelTitle from '../components/FactionPanelTitle'
 import MobileBackBar from '../components/MobileBackBar'
 import UnitDetail from '../components/UnitDetail'
 import { useCards } from '../hooks/useCards'
@@ -218,7 +220,10 @@ export default function BrowsePage() {
                     }
                     onClick={() => handleSelectFaction(faction.id)}
                   >
-                    <span className="faction-name">{faction.faction}</span>
+                    <span className="faction-btn-label">
+                      <FactionIcon name={faction.faction} />
+                      <span className="faction-name">{faction.faction}</span>
+                    </span>
                     <span className="faction-count">{faction.unitCount}</span>
                   </button>
                 </li>
@@ -256,7 +261,10 @@ export default function BrowsePage() {
                     }
                     onClick={() => handleSelectCards(fac)}
                   >
-                    <span className="faction-name">{fac}</span>
+                    <span className="faction-btn-label">
+                      <FactionIcon name={fac} />
+                      <span className="faction-name">{fac}</span>
+                    </span>
                     <span className="faction-count">{count}</span>
                   </button>
                 </li>
@@ -268,7 +276,7 @@ export default function BrowsePage() {
         {browseMode === 'cards' ? (
           <section className="cards-feed">
             <div className="unit-panel-toolbar">
-              <h2>{cardsPanelTitle}</h2>
+              <FactionPanelTitle title={cardsPanelTitle} factionName={selectedCardFac} />
               <input
                 type="search"
                 className="search-input"
@@ -295,7 +303,7 @@ export default function BrowsePage() {
           <>
             <section className="unit-panel">
               <div className="unit-panel-toolbar">
-                <h2>{army?.faction ?? 'Units'}</h2>
+                <FactionPanelTitle title={army?.faction ?? 'Units'} factionName={army?.faction} />
                 <input
                   type="search"
                   className="search-input"

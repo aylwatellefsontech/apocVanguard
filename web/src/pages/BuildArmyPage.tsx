@@ -5,6 +5,8 @@ import BuildArmyMobileBar from '../components/BuildArmyMobileBar'
 import CardDetail from '../components/CardDetail'
 import ConfirmModal from '../components/ConfirmModal'
 import ExportArmyModal from '../components/ExportArmyModal'
+import FactionIcon from '../components/FactionIcon'
+import FactionPanelTitle from '../components/FactionPanelTitle'
 import ImportArmyModal from '../components/ImportArmyModal'
 import Toast from '../components/Toast'
 import RosterEntrySummary from '../components/RosterEntrySummary'
@@ -589,7 +591,10 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
                         }
                         onClick={() => handleSelectFaction(faction.id)}
                       >
-                        <span className="faction-name">{faction.faction}</span>
+                        <span className="faction-btn-label">
+                          <FactionIcon name={faction.faction} />
+                          <span className="faction-name">{faction.faction}</span>
+                        </span>
                         <span className="faction-count">{faction.unitCount}</span>
                       </button>
                     </li>
@@ -637,7 +642,10 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
                         }
                         onClick={() => handleSelectCards(fac)}
                       >
-                        <span className="faction-name">{fac}</span>
+                        <span className="faction-btn-label">
+                          <FactionIcon name={fac} />
+                          <span className="faction-name">{fac}</span>
+                        </span>
                         <span className="faction-count">{count}</span>
                       </button>
                     </li>
@@ -648,7 +656,10 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
 
             <section className="unit-panel">
               <div className="unit-panel-toolbar">
-                <h2>{buildMode === 'cards' ? cardsPanelTitle : (army?.faction ?? 'Units')}</h2>
+                <FactionPanelTitle
+                  title={buildMode === 'cards' ? cardsPanelTitle : (army?.faction ?? 'Units')}
+                  factionName={buildMode === 'cards' ? selectedCardFac : army?.faction}
+                />
                 <input
                   type="search"
                   className="search-input"

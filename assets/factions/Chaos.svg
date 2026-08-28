@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:bx="https://boxy-svg.com">
+  <path d="M 250 60 L 270 100 L 230 100 L 250 60 Z" bx:shape="triangle 230 60 40 40 0.5 0 1@6aa3563e" style="stroke: rgb(0, 0, 0);"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20; transform-origin: 232.828px 208.694px;" x1="250" y1="400" x2="250" y2="100"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px;" x1="100" y1="250" x2="400" y2="250"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px;" x1="175" y1="325" x2="325" y2="175"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px; transform-box: fill-box; transform-origin: 50% 50%;" x1="175" y1="175" x2="325" y2="325" transform="matrix(-1, 0, 0, -1, 0.000047, 0.000047)"/>
+  <path d="M -250 -440 L -230 -400 L -270 -400 L -250 -440 Z" bx:shape="triangle -270 -440 40 40 0.5 0 1@d9e53be2" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(-1, 0, 0, -1, 500, 840)"/>
+  <path d="M -247.71 -430.04 L -227.71 -390.04 L -267.71 -390.04 L -247.71 -430.04 Z" bx:shape="triangle -267.71 -430.04 40 40 0.5 0 1@8d0bb0ad" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -247.706px -410.036px;" transform="matrix(0, 1, -1, 0, 667.701965, 660.040039)"/>
+  <path d="M -247.71 -430.04 L -227.71 -390.04 L -267.71 -390.04 L -247.71 -430.04 Z" bx:shape="triangle -267.71 -430.04 40 40 0.5 0 1@8d0bb0ad" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -247.706px -410.036px;" transform="matrix(0, -1, 1, 0, 327.709991, 660.031982)"/>
+  <path d="M -324.05 -434.69 L -304.05 -394.69 L -344.05 -394.69 L -324.05 -434.69 Z" bx:shape="triangle -344.05 -434.69 40 40 0.5 0 1@e5679cc7" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -324.049px -414.687px;" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, 492.336266, 582.972797)"/>
+  <path d="M -324.05 -434.69 L -304.05 -394.69 L -344.05 -394.69 L -324.05 -434.69 Z" bx:shape="triangle -344.05 -434.69 40 40 0.5 0 1@e5679cc7" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -324.049px -414.687px;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 657.331921, 582.974846)"/>
+  <path d="M -324.05 -434.69 L -304.05 -394.69 L -344.05 -394.69 L -324.05 -434.69 Z" bx:shape="triangle -344.05 -434.69 40 40 0.5 0 1@e5679cc7" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -324.049px -414.687px;" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 657.332071, 747.974571)"/>
+  <path d="M -324.05 -434.69 L -304.05 -394.69 L -344.05 -394.69 L -324.05 -434.69 Z" bx:shape="triangle -344.05 -434.69 40 40 0.5 0 1@e5679cc7" style="stroke: rgb(0, 0, 0); stroke-width: 1; transform-origin: -324.049px -414.687px;" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 492.334766, 747.968696)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 20px;" cx="250" cy="250" rx="80" ry="80"/>
+</svg>

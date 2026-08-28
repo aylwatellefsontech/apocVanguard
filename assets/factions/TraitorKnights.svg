@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:bx="https://boxy-svg.com">
+  <path d="M 380 150 L 380 350 L 250 420 L 120 350 L 120 150 L 250 80 Z M 160 191 L 160 258.1 L 250 301 L 340 262.9 L 340 191 L 250 221 Z" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px;"/>
+  <path d="M 380 150 L 380 350 L 250 420 L 250 301 L 340 262.9 L 340 191 L 250 221 L 250 80 Z" style="stroke-width: 20px;"/>
+  <g>
+    <rect x="297.423" y="193.195" width="10" height="100" style=""/>
+    <path d="M 302.184 178.626 L 312.184 198.626 L 292.184 198.626 L 302.184 178.626 Z" bx:shape="triangle 292.184 178.626 20 20 0.5 0 1@d48b730e" style="stroke-width: 1; transform-origin: 302.185px 188.628px;"/>
+    <rect x="296.423" y="183.195" width="10" height="100" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, 1, -1, 0, 1.000031, 9.999977)"/>
+    <rect x="296.423" y="109.917" width="10" height="60" style="stroke-width: 1; transform-origin: 301.423px 139.917px;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 1.577083, 103.278091)"/>
+    <rect x="296.423" y="109.917" width="10" height="60" style="stroke-width: 1; transform-origin: 301.423px 139.917px;" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, 1.577086, 103.278126)"/>
+    <path d="M -302.93 -309.62 L -292.93 -289.62 L -312.93 -289.62 L -302.93 -309.62 Z" bx:shape="triangle -312.93 -309.62 20 20 0.5 0 1@b057b5a4" style="stroke-width: 1; transform-origin: -302.926px -299.621px;" transform="matrix(-1, 0, 0, -1, 605.851746, 599.242859)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(0, -1, 1, 0, 549.569702, 538.731842)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(0, 1, -1, 0, 662.349823, 538.802368)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, 579.275307, 513.459559)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 632.493361, 511.642272)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 630.949128, 563.159408)"/>
+    <path d="M -302.93 -305.62 L -292.93 -285.62 L -312.93 -285.62 L -302.93 -305.62 Z" bx:shape="triangle -312.93 -305.62 20 20 0.5 0 1@14a15e20" style="stroke-width: 1; transform-origin: -302.926px -295.622px;" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 578.264268, 566.77527)"/>
+  </g>
+</svg>

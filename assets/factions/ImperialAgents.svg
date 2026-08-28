@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <path d="M 400.043 297.558 L 101 296.9 L 75 256.9 L 109.385 256.883 L 109.385 232.883 L 47 232.9 L 21 192.9 L 175.985 192.883 L 189.879 204.028 L 311.984 204.028 L 325.058 193.541 L 480.043 193.558 L 454.043 233.558 L 391.658 233.541 L 391.658 257.541 L 426.043 257.558 L 400.043 297.558 Z" style="stroke: rgb(0, 0, 0); stroke-width: 20px; fill: none;"/>
+  <rect x="220" y="140" width="60" height="220.538" style="stroke: rgb(0, 0, 0); stroke-width: 0px;"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20px;" x1="200" y1="124" x2="300" y2="124"/>
+  <line style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 20;" x1="200" y1="377" x2="300" y2="377"/>
+</svg>
