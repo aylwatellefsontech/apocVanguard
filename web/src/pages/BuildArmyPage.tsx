@@ -999,7 +999,11 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
       )}
 
       {exportArmyOpen && exportArmySource && (
-        <ExportArmyModal army={exportArmySource} onClose={() => setExportArmyOpen(false)} />
+        <ExportArmyModal
+          army={exportArmySource}
+          unitsByEntryId={rosterUnitsByEntryId}
+          onClose={() => setExportArmyOpen(false)}
+        />
       )}
 
       {organizeArmyOpen && (

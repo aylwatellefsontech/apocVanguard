@@ -423,7 +423,11 @@ export default function ViewArmiesPage() {
       )}
 
       {exportArmyOpen && selectedArmy && (
-        <ExportArmyModal army={selectedArmy} onClose={() => setExportArmyOpen(false)} />
+        <ExportArmyModal
+          army={selectedArmy}
+          unitsByEntryId={rosterUnitsByEntryId}
+          onClose={() => setExportArmyOpen(false)}
+        />
       )}
     </>
   )

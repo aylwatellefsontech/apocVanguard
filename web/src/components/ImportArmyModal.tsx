@@ -31,12 +31,12 @@ export default function ImportArmyModal({ onClose, onImport, error = null }: Imp
       >
         <header className="confirm-modal-header">
           <h2 id="import-army-modal-title">Import Army</h2>
-          <p>Paste an Apocalypse Vanguard army export code below, then import it into your saved armies.</p>
+          <p>Paste an Apocalypse Vanguard army export code or exported markdown list below, then import it into your saved armies.</p>
         </header>
 
         <div className="import-army-modal-body">
           <label className="field-label" htmlFor="import-army-markdown">
-            Army export code
+            Army export code or markdown
           </label>
           <textarea
             id="import-army-markdown"
@@ -44,7 +44,7 @@ export default function ImportArmyModal({ onClose, onImport, error = null }: Imp
             rows={8}
             value={markdown}
             onChange={(event) => setMarkdown(event.target.value)}
-            placeholder="Paste exported army code here (e.g. [My Army.2026-08-27]AV1.…)…"
+            placeholder="Paste exported army code or markdown list here…"
           />
           {error ? <p className="form-error">{error}</p> : null}
         </div>

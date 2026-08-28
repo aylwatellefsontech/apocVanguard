@@ -431,6 +431,16 @@ function decodeArmyCode(text: string): ImportArmyResult {
   }
 }
 
+export function extractArmyCodeFromText(text: string): string | null {
+  const labeledMatch = text.match(/\[[^\]\n]+\.\d{4}-\d{2}-\d{2}\]AV1\.[A-Za-z0-9_-]+/)
+  if (labeledMatch) {
+    return labeledMatch[0]
+  }
+
+  const bareMatch = text.match(/AV1\.[A-Za-z0-9_-]+/)
+  return bareMatch?.[0] ?? null
+}
+
 /** @deprecated Legacy markdown exports from earlier builds. */
 function decodeLegacyMarkdown(text: string): ImportArmyResult {
   const frontMatter = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n/
@@ -507,6 +517,7 @@ function decodeLegacyMarkdown(text: string): ImportArmyResult {
         typeof entry.factionId === 'string' ? entry.factionId : factionId,
         typeof entry.factionName === 'string' ? entry.factionName : factionName,
         selectedOptions,
+        ...(typeof entry.cardSlot === 'number' ? [entry.cardSlot, entry.isCommander ? 1 : 0] : []),
       ],
       index,
       { factionId, factionName },
@@ -553,12 +564,29 @@ export function importArmyFromCode(text: string): ImportArmyResult {
     return { ok: false, error: 'Paste an army export code before importing.' }
   }
 
-  if (trimmed.startsWith('---') || trimmed.includes('```json')) {
-    try {
-      return decodeLegacyMarkdown(trimmed)
-    } catch (error) {
-      const message = error instanceof Error ? error.message : 'Unknown import error.'
-      return { ok: false, error: message }
+  if (
+    trimmed.startsWith('---') ||
+    trimmed.startsWith('#') ||
+    trimmed.includes('```json') ||
+    trimmed.includes('```army-json')
+  ) {
+    const embeddedCode = extractArmyCodeFromText(trimmed)
+    if (embeddedCode) {
+      return decodeArmyCode(stripExportLabel(embeddedCode))
+    }
+
+    if (trimmed.includes('```json') || trimmed.includes('```army-json')) {
+      try {
+        return decodeLegacyMarkdown(trimmed)
+      } catch (error) {
+        const message = error instanceof Error ? error.message : 'Unknown import error.'
+        return { ok: false, error: message }
+      }
+    }
+
+    return {
+      ok: false,
+      error: 'Markdown export is missing an army export code.',
     }
   }
 
@@ -588,7 +616,7 @@ export function importAndSaveArmyFromCode(text: string, existingCount?: number):
   return { ok: true, army: result.army }
 }
 
-/** @deprecated Use encodeArmyExport instead. */
+/** @deprecated Use generateArmyListMarkdown instead. */
 export const exportArmyToMarkdown = encodeArmyExport
 /** @deprecated Use importArmyFromCode instead. */
 export const importArmyFromMarkdown = importArmyFromCode

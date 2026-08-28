@@ -2181,7 +2181,10 @@
 }
 
 .import-army-textarea {
+  display: block;
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   min-height: 280px;
   margin-top: 8px;
   padding: 12px;
@@ -2190,12 +2193,75 @@
   background: var(--code-bg);
   color: var(--text-h);
   font: 13px/1.5 var(--mono);
+  text-align: left;
   resize: vertical;
 }
 
 .export-army-textarea {
   min-height: 120px;
   word-break: break-all;
+}
+
+.export-army-code-textarea {
+  min-height: 60px;
+}
+
+.export-army-modal {
+  width: min(760px, 100%);
+}
+
+.export-army-modal-header {
+  position: relative;
+  padding: 20px 24px 0;
+}
+
+.export-army-modal-header h2,
+.export-army-modal-header p {
+  padding-right: 40px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-h);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.export-army-modal-body {
+  padding: 0 24px 24px;
+}
+
+.export-army-copy-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.export-army-list-label {
+  margin-top: 24px;
+}
+
+.export-army-markdown-textarea {
+  min-height: 240px;
+  word-break: normal;
+  white-space: pre-wrap;
 }
 
 .danger-btn {
