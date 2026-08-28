@@ -12,6 +12,7 @@ import OrganizeArmyModal from '../components/OrganizeArmyModal'
 import Toast from '../components/Toast'
 import RosterEntrySummary from '../components/RosterEntrySummary'
 import UnitDetail from '../components/UnitDetail'
+import UnitGroupHeading from '../components/UnitGroupHeading'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
@@ -686,7 +687,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
                   <div className="unit-groups">
                     {unitsByType.map(([type, units]) => (
                       <div key={type} className="unit-group">
-                        <h3>{type}</h3>
+                        <UnitGroupHeading type={type} />
                         <ul className="unit-list">
                           {units.map((unit) => (
                             <li key={unit.no}>

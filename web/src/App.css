@@ -482,13 +482,31 @@
   gap: 20px;
 }
 
-.unit-group h3 {
+.unit-group-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin: 0 0 8px;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--accent);
+}
+
+.unit-type-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--text);
+}
+
+.unit-type-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
 }
 
 .panel-message,
@@ -1956,79 +1974,6 @@
   margin: 0;
 }
 
-@media (max-width: 1024px) {
-  .app-body {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr;
-  }
-
-  .app-body.cards-mode {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-  }
-
-  .faction-panel,
-  .unit-panel,
-  .cards-feed {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-    overflow: visible;
-  }
-
-  .faction-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .faction-list li {
-    flex: 1 1 calc(50% - 8px);
-  }
-
-  .header-meta {
-    text-align: left;
-    max-width: none;
-  }
-
-  .app-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .header-actions {
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .build-body {
-    grid-template-columns: 1fr;
-  }
-
-  .roster-panel {
-    border-left: none;
-    border-top: 1px solid var(--border);
-  }
-
-  .app-nav {
-    padding: 12px 20px;
-    flex-wrap: wrap;
-  }
-
-  .view-armies-body {
-    grid-template-columns: 1fr;
-  }
-
-  .saved-armies-panel {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .army-detail-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
 .rules-body {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
@@ -2361,19 +2306,6 @@
   color: var(--accent);
 }
 
-@media (max-width: 900px) {
-  .rules-body {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto minmax(0, 1fr);
-  }
-
-  .rules-nav-panel {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-    max-height: 40vh;
-  }
-}
-
 .table-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -2391,15 +2323,37 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .app {
     overflow: visible;
     min-height: 100svh;
   }
 
+  .header-meta {
+    text-align: left;
+    max-width: none;
+  }
+
   .app-header {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 16px 16px 14px;
     gap: 12px;
+  }
+
+  .army-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .faction-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .faction-list li {
+    flex: 1 1 calc(50% - 8px);
   }
 
   .app-header h1 {

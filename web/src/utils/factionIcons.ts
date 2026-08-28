@@ -21,13 +21,13 @@ import squatsIcon from '../assets/factions/squats.svg?raw'
 import tauIcon from '../assets/factions/tau.svg?raw'
 import traitorKnightsIcon from '../assets/factions/traitor-knights.svg?raw'
 import tyranidsIcon from '../assets/factions/tyranids.svg?raw'
-import warhammerIcon from '../assets/factions/warhammer.svg?raw'
+import vanguardIcon from '../assets/factions/vanguard.svg?raw'
 import { normalizeFactionIconSvg } from './normalizeFactionIconSvg'
 
 const RAW_FACTION_ICONS: Record<string, string> = {
   'Adeptus Custodes': adeptusCustodesIcon,
   'Adeptus Mechanicus': adeptusMechanicusIcon,
-  Apoc: warhammerIcon,
+  Apoc: vanguardIcon,
   Chaos: chaosIcon,
   'Chaos Daemons': chaosDaemonsIcon,
   'Chaos Knights': chaosKnightsIcon,

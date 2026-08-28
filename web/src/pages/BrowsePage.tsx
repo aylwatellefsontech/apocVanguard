@@ -5,6 +5,7 @@ import FactionIcon from '../components/FactionIcon'
 import FactionPanelTitle from '../components/FactionPanelTitle'
 import MobileBackBar from '../components/MobileBackBar'
 import UnitDetail from '../components/UnitDetail'
+import UnitGroupHeading from '../components/UnitGroupHeading'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
@@ -322,7 +323,7 @@ export default function BrowsePage() {
                 <div className="unit-groups">
                   {unitsByType.map(([type, units]) => (
                     <div key={type} className="unit-group">
-                      <h3>{type}</h3>
+                      <UnitGroupHeading type={type} />
                       <ul className="unit-list">
                         {units.map((unit) => (
                           <li key={unit.no}>
