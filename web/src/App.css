@@ -1345,6 +1345,23 @@
   cursor: pointer;
 }
 
+.commander-medal-btn .commander-icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+.commander-medal-btn.icon-only .commander-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.commander-medal-btn .commander-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .commander-medal-btn:hover:not(:disabled) {
   border-color: var(--accent-border);
   color: var(--accent);
