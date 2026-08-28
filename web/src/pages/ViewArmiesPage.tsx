@@ -14,6 +14,10 @@ import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintEx
 import { generateArmyPrintHtml, openPrintableInNewTab } from '../utils/printExport'
 import { buildRosterUnitsByEntryId } from '../utils/rosterUnits'
 import { getArmyFactionNames, rosterHasMultipleFactions } from '../utils/rosterArmy'
+import {
+  rosterIsOrganized,
+  sortRosterForOrganizedArmyView,
+} from '../utils/rosterOrganize'
 import type { SavedArmy, ViewMode } from '../types'
 
 const VIEW_CYCLE: ViewMode[] = ['army', 'cards', 'all']
@@ -67,9 +71,18 @@ export default function ViewArmiesPage() {
 
   const showRosterFactions = rosterHasMultipleFactions(selectedArmy?.roster ?? [])
 
+  const displayRoster = useMemo(() => {
+    if (!selectedArmy) {
+      return []
+    }
+    if (rosterIsOrganized(selectedArmy.roster)) {
+      return sortRosterForOrganizedArmyView(selectedArmy.roster)
+    }
+    return selectedArmy.roster
+  }, [selectedArmy])
+
   const allExpanded = Boolean(
-    selectedArmy?.roster.length &&
-      selectedArmy.roster.every((entry) => expandedEntryIds.has(entry.id)),
+    displayRoster.length && displayRoster.every((entry) => expandedEntryIds.has(entry.id)),
   )
   const allCardsExpanded = Boolean(
     selectedArmy?.cards?.length &&
@@ -139,7 +152,7 @@ export default function ViewArmiesPage() {
   }
 
   function handleToggleAllEntries() {
-    if (!selectedArmy?.roster.length) {
+    if (!displayRoster.length) {
       return
     }
 
@@ -148,7 +161,7 @@ export default function ViewArmiesPage() {
       return
     }
 
-    setExpandedEntryIds(new Set(selectedArmy.roster.map((entry) => entry.id)))
+    setExpandedEntryIds(new Set(displayRoster.map((entry) => entry.id)))
   }
 
   function handleToggleAllCards() {
@@ -350,7 +363,7 @@ export default function ViewArmiesPage() {
                         <p className="muted panel-message">This army has no units.</p>
                       ) : (
                         <ul className="roster-list army-roster-list">
-                          {selectedArmy.roster.map((entry) => (
+                          {displayRoster.map((entry) => (
                             <ArmyRosterEntry
                               key={entry.id}
                               entry={entry}

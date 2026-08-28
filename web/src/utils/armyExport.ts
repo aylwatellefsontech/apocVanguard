@@ -1,5 +1,6 @@
 import { MAX_SAVED_ARMIES } from '../constants'
 import { normalizeRosterEntry, normalizeSavedArmy, saveArmy } from './armyStorage'
+import { isValidCardSlot } from './rosterOrganize'
 import type { ArmyCardEntry, RosterEntry, SavedArmy, SelectedOption } from '../types'
 
 export const ARMY_EXPORT_FORMAT = 'apoc-vanguard-army'
@@ -92,6 +93,13 @@ function compactRosterEntry(entry: RosterEntry): unknown[] {
     row.push(entry.selectedOptions.map(compactSelectedOption))
   }
 
+  if (entry.cardSlot != null) {
+    row.push(entry.cardSlot)
+    if (entry.isCommander) {
+      row.push(1)
+    }
+  }
+
   return row
 }
 
@@ -175,6 +183,41 @@ function validateSelectedOption(option: unknown, path: string): SelectedOption {
   }
 }
 
+function getOrganizeTailIndex(entry: unknown[]): number {
+  if (entry.length <= 8) {
+    return entry.length
+  }
+
+  if (typeof entry[8] === 'string') {
+    if (entry.length > 10 && Array.isArray(entry[10])) {
+      return 11
+    }
+    if (entry.length > 9 && Array.isArray(entry[9])) {
+      return 10
+    }
+    return 10
+  }
+
+  if (Array.isArray(entry[8])) {
+    return 9
+  }
+
+  return entry.length
+}
+
+function parseOrganizeFields(entry: unknown[]): { cardSlot?: number; isCommander?: boolean } {
+  const tailIndex = getOrganizeTailIndex(entry)
+  const cardSlotValue = entry[tailIndex]
+  if (!isValidCardSlot(cardSlotValue)) {
+    return {}
+  }
+
+  return {
+    cardSlot: cardSlotValue,
+    isCommander: entry[tailIndex + 1] === 1,
+  }
+}
+
 function validateRosterEntry(
   entry: unknown,
   index: number,
@@ -238,6 +281,7 @@ function validateRosterEntry(
         validateSelectedOption(option, `${path} option ${optionIndex + 1}`),
       )
     : []
+  const organizeFields = parseOrganizeFields(entry)
 
   return normalizeRosterEntry({
     id: crypto.randomUUID(),
@@ -256,6 +300,7 @@ function validateRosterEntry(
         : null,
     selectedOptions,
     points: profilePoints,
+    ...organizeFields,
   })
 }
 

@@ -1,12 +1,13 @@
 import { formatRosterEntryMeta } from '../utils/roster'
+import RosterOrganizeBadges from './RosterOrganizeBadges'
 import type { RosterEntry } from '../types'
-
 interface RosterEntrySummaryProps {
   entry: RosterEntry
   showFaction?: boolean
   active?: boolean
   onSelect?: (entry: RosterEntry) => void
   onRemove?: (entryId: string) => void
+  showOrganizeBadges?: boolean
 }
 
 export default function RosterEntrySummary({
@@ -15,12 +16,19 @@ export default function RosterEntrySummary({
   active = false,
   onSelect,
   onRemove,
+  showOrganizeBadges = true,
 }: RosterEntrySummaryProps) {
+  const titleRow = (
+    <div className="roster-item-title-row">
+      <strong>{entry.unitName}</strong>
+      {showOrganizeBadges ? <RosterOrganizeBadges entry={entry} /> : null}
+    </div>
+  )
   return (
     <li className={active ? 'roster-item active' : 'roster-item'}>
       {onSelect ? (
         <button type="button" className="roster-item-main" onClick={() => onSelect(entry)}>
-          <strong>{entry.unitName}</strong>
+          {titleRow}
           <p className="roster-item-meta">{formatRosterEntryMeta(entry, showFaction)}</p>
           {entry.selectedOptions?.length > 0 && (
             <ul className="roster-option-list">
@@ -37,7 +45,7 @@ export default function RosterEntrySummary({
         </button>
       ) : (
         <div className="roster-item-main">
-          <strong>{entry.unitName}</strong>
+          {titleRow}
           <p className="roster-item-meta">{formatRosterEntryMeta(entry, showFaction)}</p>
           {entry.unitType && <p className="roster-item-meta">{entry.unitType}</p>}
           {entry.selectedOptions?.length > 0 && (

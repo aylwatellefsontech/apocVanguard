@@ -882,6 +882,18 @@
   align-items: stretch;
 }
 
+.army-roster-entry-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+}
+
+.army-roster-entry-summary .roster-item-title-row {
+  width: 100%;
+}
+
 .army-roster-entry-toggle {
   display: flex;
   align-items: flex-start;
@@ -894,13 +906,6 @@
   font: inherit;
   text-align: left;
   cursor: pointer;
-}
-
-.army-roster-entry-summary {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-width: 0;
 }
 
 .roster-expand-icon {
@@ -1225,8 +1230,214 @@
   gap: 8px;
 }
 
+.roster-actions-bottom {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.organize-army-btn {
+  margin-left: auto;
+}
+
+.roster-item-title-row,
+.organize-unit-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.roster-item-badges,
+.organize-unit-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.card-slot-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--text-h);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.commander-medal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.commander-medal-btn:hover:not(:disabled) {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.commander-medal-btn.active {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.commander-medal-btn:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.organize-army-modal {
+  width: min(980px, 100%);
+}
+
+.organize-army-subtitle {
+  margin: 0;
+  font-size: 14px;
+}
+
+.organize-army-body {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 0;
+  min-height: 0;
+  flex: 1;
+}
+
+.organize-card-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  overflow: auto;
+  padding: 16px;
+  border-right: 1px solid var(--border);
+}
+
+.organize-card-slot {
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.organize-card-slot.drag-over,
+.organize-unit-panel.drag-over {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.organize-card-slot-title {
+  margin: 0 0 8px;
+  font-family: var(--mono);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.organize-card-slot-empty {
+  margin: 0;
+  font-size: 13px;
+}
+
+.organize-card-slot-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.organize-card-slot-unit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: grab;
+}
+
+.organize-card-slot-unit-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.organize-commander-label {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.organize-unit-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 16px 16px 16px 0;
+}
+
+.organize-unit-panel-title {
+  margin: 0 0 10px;
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.organize-unit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  margin: 0;
+  padding: 0 0 0 16px;
+  overflow: auto;
+  list-style: none;
+}
+
+.organize-unit-row {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+  cursor: grab;
+}
+
+.organize-unit-main {
+  min-width: 0;
+}
+
 .roster-actions-top {
   margin-bottom: 12px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .roster-save-error-top {
@@ -2030,6 +2241,25 @@
 
   .roster-actions {
     flex-wrap: wrap;
+  }
+
+  .organize-army-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(180px, 34vh) minmax(0, 1fr);
+  }
+
+  .organize-card-slots {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .organize-unit-panel {
+    padding: 16px;
+  }
+
+  .organize-unit-panel-title,
+  .organize-unit-list {
+    padding-left: 0;
   }
 
   .app-body,

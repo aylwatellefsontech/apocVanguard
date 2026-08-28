@@ -8,6 +8,7 @@ import ExportArmyModal from '../components/ExportArmyModal'
 import FactionIcon from '../components/FactionIcon'
 import FactionPanelTitle from '../components/FactionPanelTitle'
 import ImportArmyModal from '../components/ImportArmyModal'
+import OrganizeArmyModal from '../components/OrganizeArmyModal'
 import Toast from '../components/Toast'
 import RosterEntrySummary from '../components/RosterEntrySummary'
 import UnitDetail from '../components/UnitDetail'
@@ -30,8 +31,8 @@ import { getLocalArmy } from '../data/localArmyLists'
 import {
   deriveSavedArmyFactionMeta,
   rosterHasMultipleFactions,
-  sortRosterByFactionAndName,
 } from '../utils/rosterArmy'
+import { sortRosterByOrganizeGroup } from '../utils/rosterOrganize'
 import { summarizeOption } from '../utils/formatOption'
 import { getChooseOneChoices } from '../utils/optionUtils'
 import { getBaseApocCards } from '../utils/cardFactions'
@@ -112,6 +113,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   const [confirmNewArmyOpen, setConfirmNewArmyOpen] = useState(false)
   const [importArmyOpen, setImportArmyOpen] = useState(false)
   const [exportArmyOpen, setExportArmyOpen] = useState(false)
+  const [organizeArmyOpen, setOrganizeArmyOpen] = useState(false)
   const [importError, setImportError] = useState<string | null>(null)
   const [armyToDelete, setArmyToDelete] = useState<SavedArmy | null>(null)
   const lastAddPanelRef = useRef<Exclude<BuildMobilePanel, 'roster'>>('factions')
@@ -468,7 +470,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   }
 
   function handleSortRoster() {
-    setRoster((current) => sortRosterByFactionAndName(current))
+    setRoster((current) => sortRosterByOrganizeGroup(current))
     setArmyCards((current) => sortArmyCardsByName(current))
     setSaveMessage(null)
   }
@@ -550,7 +552,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
               className="secondary-btn icon-btn"
               onClick={handleSortRoster}
               aria-label="Sort army roster"
-              title="Sort by faction, then unit name; sort cards alphabetically"
+              title="Sort by group, faction, commander, then name"
             >
               ↕
             </button>
@@ -836,6 +838,14 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
             <button type="button" className="primary-btn" onClick={() => handleSaveArmy('top')}>
               Save Army
             </button>
+            <button
+              type="button"
+              className="secondary-btn organize-army-btn"
+              disabled={roster.length === 0}
+              onClick={() => setOrganizeArmyOpen(true)}
+            >
+              Organize
+            </button>
           </div>
           {saveMessage?.type === 'error' && saveMessage.target === 'top' && (
             <p className="form-error roster-save-error-top">{saveMessage.text}</p>
@@ -886,12 +896,17 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
             </>
           )}
 
-          <div className="roster-actions">
+          <div className="roster-actions roster-actions-bottom">
             <button type="button" className="primary-btn" onClick={() => handleSaveArmy('bottom')}>
               Save Army
             </button>
-            <button type="button" className="secondary-btn" onClick={handleClearRoster}>
-              Clear
+            <button
+              type="button"
+              className="secondary-btn organize-army-btn"
+              disabled={roster.length === 0}
+              onClick={() => setOrganizeArmyOpen(true)}
+            >
+              Organize
             </button>
           </div>
 
@@ -979,6 +994,18 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
 
       {exportArmyOpen && exportArmySource && (
         <ExportArmyModal army={exportArmySource} onClose={() => setExportArmyOpen(false)} />
+      )}
+
+      {organizeArmyOpen && (
+        <OrganizeArmyModal
+          roster={roster}
+          showFaction={showRosterFactions}
+          onRosterChange={(nextRoster) => {
+            setRoster(nextRoster)
+            setSaveMessage(null)
+          }}
+          onClose={() => setOrganizeArmyOpen(false)}
+        />
       )}
     </>
   )

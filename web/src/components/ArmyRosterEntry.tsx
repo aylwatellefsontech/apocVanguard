@@ -8,6 +8,7 @@ import UnitProfileDetails from './UnitProfileDetails'
 import UnitProfileSummaryList from './UnitProfileSummaryList'
 import UnitWeapons from './UnitWeapons'
 import { formatRosterEntryMeta } from '../utils/roster'
+import RosterOrganizeBadges from './RosterOrganizeBadges'
 import {
   formatUnitTypeLabel,
   getBlendedAbilities,
@@ -62,7 +63,10 @@ export default function ArmyRosterEntry({
           {expanded ? '▾' : '▸'}
         </span>
         <span className="army-roster-entry-summary">
-          <strong>{entry.unitName}</strong>
+          <div className="roster-item-title-row">
+            <strong>{entry.unitName}</strong>
+            <RosterOrganizeBadges entry={entry} />
+          </div>
           <span className="roster-item-meta">{formatRosterEntryMeta(entry, showFaction)}</span>
           {entry.unitType && (
             <span className="roster-item-meta">

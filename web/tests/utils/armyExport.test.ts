@@ -127,6 +127,29 @@ describe('importArmyFromCode', () => {
     })
   })
 
+  it('round-trips card slot and commander metadata', () => {
+    const organizedArmy: SavedArmy = {
+      ...sampleArmy,
+      roster: [
+        {
+          ...sampleArmy.roster[0]!,
+          cardSlot: 3,
+          isCommander: true,
+        },
+      ],
+    }
+
+    const code = encodeArmyExport(organizedArmy, exportDate)
+    const result = importArmyFromCode(code)
+    expect(result.ok).toBe(true)
+    if (!result.ok) {
+      return
+    }
+
+    expect(result.army.roster[0]?.cardSlot).toBe(3)
+    expect(result.army.roster[0]?.isCommander).toBe(true)
+  })
+
   it('still imports legacy markdown exports', () => {
     const legacy = `---
 format: apoc-vanguard-army

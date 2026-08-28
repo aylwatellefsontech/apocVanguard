@@ -13,7 +13,12 @@ import {
   groupUnitsByType,
   getProfileStatsForEntry,
 } from './units'
-import { formatRosterEntryMeta } from './roster'
+import { rosterHasMultipleFactions } from './rosterArmy'
+import {
+  formatPrintRosterEntryMeta,
+  rosterIsOrganized,
+  sortRosterForOrganizedArmyView,
+} from './rosterOrganize'
 import type {
   ArmyList,
   ProfileAbilitySection,
@@ -302,8 +307,12 @@ function renderUnitSheetContent(content: UnitSheetContent): string {
   `
 }
 
-function renderRosterEntrySheet(entry: RosterEntry, unit: Unit | null | undefined): string {
-  const entryMeta = `${formatRosterEntryMeta(entry)}${entry.unitType ? ` · ${entry.unitType}` : ''}`
+function renderRosterEntrySheet(
+  entry: RosterEntry,
+  unit: Unit | null | undefined,
+  showFaction = false,
+): string {
+  const entryMeta = formatPrintRosterEntryMeta(entry, showFaction)
 
   if (!unit) {
     return renderUnitSheetContent({
@@ -686,8 +695,13 @@ export function generateArmyPrintHtml(
   const sections: string[] = []
 
   if (army.roster.length > 0) {
-    const rosterSheets = army.roster
-      .map((entry) => renderRosterEntrySheet(entry, unitsByEntryId.get(entry.id)))
+    const showFaction = rosterHasMultipleFactions(army.roster)
+    const roster = rosterIsOrganized(army.roster)
+      ? sortRosterForOrganizedArmyView(army.roster)
+      : army.roster
+
+    const rosterSheets = roster
+      .map((entry) => renderRosterEntrySheet(entry, unitsByEntryId.get(entry.id), showFaction))
       .join('')
 
     sections.push(`

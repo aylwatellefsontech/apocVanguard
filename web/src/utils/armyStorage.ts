@@ -20,6 +20,10 @@ import {
   isPerModelsOption,
   optionUsesSlotIndex,
 } from './optionUtils'
+import {
+  dedupeRosterCommanders,
+  normalizeRosterOrganizeFields,
+} from './rosterOrganize'
 
 export function loadSavedArmies(): SavedArmy[] {
   try {
@@ -40,19 +44,19 @@ export function normalizeRosterEntry(
   const selectedOptions = Array.isArray(entry.selectedOptions) ? entry.selectedOptions : []
   const optionPoints = selectedOptions.reduce((sum, option) => sum + (option.points ?? 0), 0)
 
-  return {
+  return normalizeRosterOrganizeFields({
     ...entry,
     factionId: entry.factionId ?? army?.factionId ?? '',
     factionName: entry.factionName ?? army?.factionName ?? '',
     profilePoints,
     selectedOptions,
     points: profilePoints + optionPoints,
-  }
+  })
 }
 
 export function normalizeSavedArmy(army: SavedArmy): SavedArmy {
   const roster = Array.isArray(army.roster)
-    ? army.roster.map((entry) => normalizeRosterEntry(entry, army))
+    ? dedupeRosterCommanders(army.roster.map((entry) => normalizeRosterEntry(entry, army)))
     : []
   const cards = Array.isArray(army.cards) ? army.cards : []
   return {

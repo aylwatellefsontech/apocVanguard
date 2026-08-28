@@ -135,6 +135,10 @@ export interface RosterEntry {
   modelCount?: string | number | null
   selectedOptions: SelectedOption[]
   points: number
+  /** Detachment card slot 1–6 when organized */
+  cardSlot?: number
+  /** Commander of the assigned card slot */
+  isCommander?: boolean
 }
 
 export interface ArmyCardEntry {
