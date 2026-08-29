@@ -193,7 +193,7 @@ export default function ViewArmiesPage() {
     <>
       <header className="app-header">
         <div>
-          <p className="eyebrow">Warhammer 40,000 · Apocalypse</p>
+          <p className="eyebrow">Apocalypse · Vanguard</p>
           <h1>My Armies</h1>
         </div>
         <p className="header-meta">

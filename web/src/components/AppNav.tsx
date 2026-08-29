@@ -1,8 +1,15 @@
 import { Link } from '@tanstack/react-router'
+import vanguardIcon from '../assets/factions/vanguard.svg?raw'
+import { normalizeFactionIconSvg } from '../utils/normalizeFactionIconSvg'
+
+const VANGUARD_LOGO = normalizeFactionIconSvg(vanguardIcon)
 
 export default function AppNav() {
   return (
     <nav className="app-nav" aria-label="Main">
+      <Link to="/" className="app-nav-logo" aria-label="Home">
+        <span aria-hidden="true" dangerouslySetInnerHTML={{ __html: VANGUARD_LOGO }} />
+      </Link>
       <Link
         to="/"
         className="nav-btn"

@@ -71,6 +71,8 @@ input {
 
 @media (max-width: 1024px) {
   #root {
+    max-width: none;
+    width: 100%;
     height: auto;
     min-height: 100svh;
     overflow: visible;
