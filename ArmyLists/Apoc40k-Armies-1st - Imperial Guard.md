@@ -555,7 +555,7 @@ It is equipped with: Commissar Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 4 |
+| 9" | 4+ | 4+ | 1 | 1 | 5 | 8+ | 1 | 3 |
 
 ### Keywords
 Heavy, Vehicle
@@ -615,7 +615,6 @@ Imperium, Astra Militarum, <Regiment>, Hellhound
 ```
 Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 A Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.
-Variant: Bane Wolf (Chem Cannon, Pt 6).
 ```
 
 ### Options
@@ -921,15 +920,21 @@ Imperium, Astra Militarum, <Regiment>, Leman Russ, Leman Russ Battle Tank
 ### Abilities
 ```
 Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
-Grinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.
-It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.
+Grinding Advance: When this unit makes a Shoot action, if it moved less than half its Move characteristic this turn, double the Attacks characteristic of its Main Canon.
+It is equipped with: Battle Cannon (Main Canon); Heavy Bolter; Grinding Tracks.
 ```
 
 ### Options
 - per: Per Unit
+  Pt: 0
+  title: Main Weapon
+  text: Instead of 1 Battle Cannon, this unit can be equipped with a different Main Weapon
+  Choose 1: Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Vanquisher Battle Cannon;
+- per: Per Unit
   Pt: 1
-  title: Turret Weapon
-  text: Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list.
+  title: Main Weapon
+  text: Instead of 1 Battle Cannon, this unit can be equipped with a different Main Weapon
+  Choose 1: Demolisher Cannon; Punisher Gatling Cannon;
 - per: Per Unit
   title: Heavy Weapon
   text: Instead of 1 Heavy Bolter, this unit can be
@@ -938,7 +943,7 @@ It is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Gr
   Pt: 2
   title: Heavy Weapon
   text: Can also be equipped with one of the following
-  Choose 1: 2 Heavy Bolters; 2 Heavy Flamers; 2 Multi-meltas; 2 Plasma Cannons
+  Choose 1: 2x Heavy Bolter; 2x Heavy Flamer; 2x Multi-melta; 2x Plasma Cannon
 - per: Per Unit
   Pt: 1
   title: Heavy Weapon

@@ -1,4 +1,4 @@
-# Vanguard 40k.
+# Apocalypse Vanguard.
 
 This repo is a modified version of the Warhammer Apocalypse (2019) ruleset, cleaned up, with modifications to rules, strategic asset cards, and most importantly datasheets, with the aim to make the game cleaner to play, more balanced, and more true to the universe.
 

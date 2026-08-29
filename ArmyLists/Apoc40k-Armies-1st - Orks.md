@@ -207,7 +207,7 @@ It can exchange its Sluggas and Choppas for Shootas and Close Combat Weapons (op
 
 ### Options
 - per: Per Unit
-  Pt: 0
+  Pt: 1
   title: Shootas
   text: Exchange Sluggas and Choppas for Shootas and Close Combat Weapons.
 - per: per 10 models
@@ -222,7 +222,7 @@ It can exchange its Sluggas and Choppas for Shootas and Close Combat Weapons (op
 | Big Shoota | Heavy | 36" | 1 | 7+ | 9+ |  |
 | Rokkit Launcha | Heavy | 24" | 1 | 7+ | 7+ |  |
 | Shootas | Small Arms | 18" | x2 | 7+ | 9+ |  |
-| Sluggas | Small Arms | 12" | x2 | 7+ | 9+ |  |
+| Sluggas | Small Arms | 12" | User | 7+ | 9+ |  |
 | Choppas | Melee | Melee | x2 | 7+ | 9+ |  |
 | Close Combat Weapons | Melee | Melee | User | 7+ | 9+ |  |
 

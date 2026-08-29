@@ -1119,7 +1119,7 @@
         "Ld": "5",
         "Sv": "8+",
         "N": "1",
-        "Pt": "4"
+        "Pt": "3"
       },
       "keywords": [
         "Heavy",
@@ -1259,7 +1259,7 @@
         "<Regiment>",
         "Hellhound"
       ],
-      "abilities": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.\nVariant: Bane Wolf (Chem Cannon, Pt 6).",
+      "abilities": "Tank Squadron: Each Fast Attack slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Fast Attack slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nA Hellhound is a unit that contains 1 model. It is equipped with: Inferno Cannon; Heavy Bolter; Armoured Tracks.",
       "options": [
         {
           "per": "Per Unit",
@@ -2016,13 +2016,31 @@
         "Leman Russ",
         "Leman Russ Battle Tank"
       ],
-      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nGrinding Advance: When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Battle Cannon, Demolisher Cannon, Eradicator Nova Cannon, Executioner Plasma Cannon, Exterminator Autocannon, Punisher Gatling Cannon and Vanquisher Battle Cannon for that action.\nIt is equipped with: Battle Cannon; Heavy Bolter; Multi-melta; Plasma Cannon; Grinding Tracks; Demolisher Cannon; Eradicator Nova Cannon; Executioner Plasma Cannon; Exterminator Autocannon; Punisher Gatling Cannon; Vanquisher Battle Cannon.",
+      "abilities": "Tank Squadron: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.\nGrinding Advance: When this unit makes a Shoot action, if it moved less than half its Move characteristic this turn, double the Attacks characteristic of its Main Canon.\nIt is equipped with: Battle Cannon (Main Canon); Heavy Bolter; Grinding Tracks.",
       "options": [
         {
           "per": "Per Unit",
-          "text": "Instead of 1 Battle Cannon, this unit can be equipped with one weapon from the Turret Weapons list.",
+          "text": "Instead of 1 Battle Cannon, this unit can be equipped with a different Main Weapon",
+          "Pt": "0",
+          "title": "Main Weapon",
+          "chooseOne": [
+            "Eradicator Nova Cannon",
+            "Executioner Plasma Cannon",
+            "Exterminator Autocannon",
+            "Vanquisher Battle Cannon"
+          ],
+          "chooseLimit": 1
+        },
+        {
+          "per": "Per Unit",
+          "text": "Instead of 1 Battle Cannon, this unit can be equipped with a different Main Weapon",
           "Pt": "1",
-          "title": "Turret Weapon"
+          "title": "Main Weapon",
+          "chooseOne": [
+            "Demolisher Cannon",
+            "Punisher Gatling Cannon"
+          ],
+          "chooseLimit": 1
         },
         {
           "per": "Per Unit",
@@ -2040,10 +2058,10 @@
           "Pt": "2",
           "title": "Heavy Weapon",
           "chooseOne": [
-            "2 Heavy Bolters",
-            "2 Heavy Flamers",
-            "2 Multi-meltas",
-            "2 Plasma Cannons"
+            "2x Heavy Bolter",
+            "2x Heavy Flamer",
+            "2x Multi-melta",
+            "2x Plasma Cannon"
           ],
           "chooseLimit": 1
         },

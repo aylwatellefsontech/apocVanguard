@@ -302,7 +302,7 @@
         {
           "per": "Per Unit",
           "text": "Exchange Sluggas and Choppas for Shootas and Close Combat Weapons.",
-          "Pt": "0",
+          "Pt": "1",
           "title": "Shootas"
         },
         {
@@ -346,7 +346,7 @@
           "name": "Sluggas",
           "type": "Small Arms",
           "range": "12\"",
-          "attacks": "x2",
+          "attacks": "User",
           "skill": "7+",
           "armorPen": "9+"
         },

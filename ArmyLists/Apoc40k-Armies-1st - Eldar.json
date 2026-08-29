@@ -1346,7 +1346,7 @@
         "<Craftworld>",
         "Vypers"
       ],
-      "abilities": "can Take 2 Vypers (2 Vypers Profile) or 3 Vypers (3 Vyper Profiles).\nHarrier\nEquipped with Close Combat Weapons Scatter Laser; Twin Shuriken Catapults.\nEach model may exchange Scatter laser (option)\nEach model must exchange Twin Shuriken Catapults (option).",
+      "abilities": "can Take 2 Vypers (2 Vypers Profile) or 3 Vypers (3 Vyper Profiles).\nHarrier\nEquipped with Close Combat Weapons; Scatter Laser; Twin Shuriken Catapults.\nEach model may exchange Scatter laser (option)\nEach model must exchange Twin Shuriken Catapults (option).",
       "options": [
         {
           "per": "Per Model",

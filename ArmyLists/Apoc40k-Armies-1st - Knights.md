@@ -301,7 +301,7 @@ Chaos, Chaos Knights, <Questor Traitoris>, Abhorrent Class, Knight Rampager
 
 ### Abilities
 ```
-It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.
+It is equipped with: Heavy Stubber; Reaper Chainsword; Warpstrike Claw.
 ```
 
 ### Weapons
@@ -309,7 +309,7 @@ It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Stubber | Heavy | 36" | 1 | 8+ | 10+ |  |
 | Reaper Chainsword | Melee | Melee | User | 5+ | 6+ | Destroyer |
-| Thunderstrike Gauntlet | Melee | Melee | User | 6+ | 5+ | Destroyer |
+| Warpstrike Gauntlet | Melee | Melee | 1 | 6+ | 5+ | Destroyer |
 
 ## Unit 5 — Lord — Canis Rex
 

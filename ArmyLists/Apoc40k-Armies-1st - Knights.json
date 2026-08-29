@@ -833,7 +833,7 @@
         "Abhorrent Class",
         "Knight Rampager"
       ],
-      "abilities": "It is equipped with: Heavy Stubber; Reaper Chainsword; Thunderstrike Gauntlet.",
+      "abilities": "It is equipped with: Heavy Stubber; Reaper Chainsword; Warpstrike Claw.",
       "weapons": [
         {
           "name": "Heavy Stubber",
@@ -853,10 +853,10 @@
           "abilities": "Destroyer"
         },
         {
-          "name": "Thunderstrike Gauntlet",
+          "name": "Warpstrike Gauntlet",
           "type": "Melee",
           "range": "Melee",
-          "attacks": "User",
+          "attacks": "1",
           "skill": "6+",
           "armorPen": "5+",
           "abilities": "Destroyer"

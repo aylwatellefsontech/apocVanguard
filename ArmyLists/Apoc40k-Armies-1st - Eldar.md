@@ -755,7 +755,7 @@ Aeldari, Asuryani, Warhost, <Craftworld>,  Vypers
 ```
 can Take 2 Vypers (2 Vypers Profile) or 3 Vypers (3 Vyper Profiles).
 Harrier
-Equipped with Close Combat Weapons Scatter Laser; Twin Shuriken Catapults.
+Equipped with Close Combat Weapons; Scatter Laser; Twin Shuriken Catapults.
 Each model may exchange Scatter laser (option)
 Each model must exchange Twin Shuriken Catapults (option).
 ```
