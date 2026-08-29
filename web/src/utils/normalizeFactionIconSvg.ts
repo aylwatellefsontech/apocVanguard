@@ -46,6 +46,16 @@ function ensureStyleProperty(style: string, property: string, value: string): st
   return style ? `${property}: ${value}; ${style}` : `${property}: ${value}`
 }
 
+function hasVisibleStrokeWidth(style: string, attrs: string): boolean {
+  const styleMatch = style.match(/stroke-width\s*:\s*([^;]+)/i)?.[1]?.trim()
+  if (styleMatch && !/^0(?:px)?$/i.test(styleMatch)) {
+    return true
+  }
+
+  const attrMatch = attrs.match(/\bstroke-width="([^"]*)"/i)?.[1]?.trim()
+  return Boolean(attrMatch && !/^0(?:px)?$/i.test(attrMatch))
+}
+
 function normalizeShapeAttributes(tag: string, attrs: string): string {
   const fillAttrMatch = attrs.match(/\bfill="([^"]*)"/i)
   const fillAttr = fillAttrMatch?.[1]
@@ -61,6 +71,16 @@ function normalizeShapeAttributes(tag: string, attrs: string): string {
     (tag === 'path' || tag === 'polygon') &&
     isFillOnlyLayer(style) &&
     !fillIsNone(style, fillAttr)
+  ) {
+    style = ensureStyleProperty(style, 'fill', 'currentColor')
+    style = ensureStyleProperty(style, 'stroke', 'none')
+  }
+
+  if (
+    tag === 'ellipse' &&
+    fillIsNone(style, fillAttr) &&
+    /(?:^|;)\s*stroke\s*:/.test(style) &&
+    !hasVisibleStrokeWidth(style, attrs)
   ) {
     style = ensureStyleProperty(style, 'fill', 'currentColor')
     style = ensureStyleProperty(style, 'stroke', 'none')

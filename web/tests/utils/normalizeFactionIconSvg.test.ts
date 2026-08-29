@@ -39,11 +39,20 @@ describe('normalizeFactionIconSvg', () => {
     expect(normalized).toContain('stroke: none')
   })
 
-  it('uses fill none for stroked ellipses without an explicit fill', () => {
-    const svg = '<svg><ellipse style="stroke: currentColor;" cx="10" cy="10" rx="5" ry="5"/></svg>'
+  it('uses fill none for stroked ellipses with a visible stroke width', () => {
+    const svg =
+      '<svg><ellipse style="stroke: currentColor; stroke-width: 20px;" cx="10" cy="10" rx="5" ry="5"/></svg>'
     const normalized = normalizeFactionIconSvg(svg)
 
     expect(normalized).toContain('fill: none')
+  })
+
+  it('fills thin stroked ellipses without a visible stroke width', () => {
+    const svg = '<svg><ellipse style="stroke: rgb(0, 0, 0);" cx="10" cy="10" rx="5" ry="5"/></svg>'
+    const normalized = normalizeFactionIconSvg(svg)
+
+    expect(normalized).toContain('fill: currentColor')
+    expect(normalized).toContain('stroke: none')
   })
 
   it('normalizes the affected faction icons without default black fills', () => {
