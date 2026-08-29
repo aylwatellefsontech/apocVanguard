@@ -16,10 +16,10 @@ import type { BrowseMode } from '../types'
 
 type BrowseMobilePanel = 'factions' | 'list' | 'detail'
 
-const browseRouteApi = getRouteApi('/')
+const browseRouteApi = getRouteApi('/browse')
 
 export default function BrowsePage() {
-  const navigate = useNavigate({ from: '/' })
+  const navigate = useNavigate({ from: '/browse' })
   const { faction: factionParam, cards: cardsParam } = browseRouteApi.useSearch()
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
   const {

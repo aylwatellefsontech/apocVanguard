@@ -11,9 +11,8 @@ export default function AppNav() {
         <span aria-hidden="true" dangerouslySetInnerHTML={{ __html: VANGUARD_LOGO }} />
       </Link>
       <Link
-        to="/"
+        to="/browse"
         className="nav-btn"
-        activeOptions={{ exact: true }}
         activeProps={{ className: 'nav-btn active' }}
       >
         Browse

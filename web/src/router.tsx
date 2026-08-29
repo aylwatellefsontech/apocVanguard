@@ -1,6 +1,7 @@
 import { createRootRoute, createRoute, createRouter, Outlet } from '@tanstack/react-router'
 import './App.css'
 import AppNav from './components/AppNav'
+import HomePage from './pages/HomePage'
 import BrowsePage from './pages/BrowsePage'
 import BuildArmyPage from './pages/BuildArmyPage'
 import ViewArmiesPage from './pages/ViewArmiesPage'
@@ -27,6 +28,12 @@ const rootRoute = createRootRoute({
 const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: '/',
+  component: HomePage,
+})
+
+const browseRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/browse',
   validateSearch: (search: Record<string, unknown>): BrowseSearch => {
     const result: BrowseSearch = {}
 
@@ -68,7 +75,7 @@ const rulesRoute = createRoute({
   component: RulesPage,
 })
 
-const routeTree = rootRoute.addChildren([indexRoute, armiesRoute, buildRoute, rulesRoute])
+const routeTree = rootRoute.addChildren([indexRoute, browseRoute, armiesRoute, buildRoute, rulesRoute])
 
 export const router = createRouter({
   routeTree,
@@ -81,4 +88,4 @@ declare module '@tanstack/react-router' {
   }
 }
 
-export { buildRoute, indexRoute as browseRoute }
+export { buildRoute, browseRoute }
