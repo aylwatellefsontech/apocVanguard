@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from '@tanstack/react-router'
 import ArmyCardEntry from '../components/ArmyCardEntry'
 import ArmyRosterEntry from '../components/ArmyRosterEntry'
@@ -8,6 +8,7 @@ import FactionNameList from '../components/FactionNameList'
 import HandModal from '../components/HandModal'
 import MobileBackBar from '../components/MobileBackBar'
 import { MAX_SAVED_ARMIES } from '../constants'
+import { useMobilePanelHistory } from '../hooks/useMobilePanelHistory'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import { deleteSavedArmy, loadSavedArmies } from '../utils/armyStorage'
 import { armyCardEntryToCard, openCommandCardsPrint } from '../utils/cardPrintExport'
@@ -54,7 +55,18 @@ export default function ViewArmiesPage() {
   const [armyToDelete, setArmyToDelete] = useState<SavedArmy | null>(null)
   const [exportArmyOpen, setExportArmyOpen] = useState(false)
   const isMobile = useMediaQuery(MOBILE_QUERY)
-  const [mobilePanel, setMobilePanel] = useState<'list' | 'detail'>('list')
+  const { panel: mobilePanel, setPanel: setMobilePanel, goBack: goBackMobilePanel, panelData } =
+    useMobilePanelHistory<'list' | 'detail'>('armies', isMobile, 'list')
+
+  useEffect(() => {
+    if (!isMobile) {
+      return
+    }
+
+    if (mobilePanel === 'detail' && panelData?.armyId != null) {
+      setSelectedArmyId(panelData.armyId as string)
+    }
+  }, [isMobile, mobilePanel, panelData])
 
   const selectedArmy = useMemo(
     () => savedArmies.find((army) => army.id === selectedArmyId) ?? null,
@@ -117,7 +129,7 @@ export default function ViewArmiesPage() {
     setExpandedCardIds(new Set())
     setViewMode('army')
     if (isMobile) {
-      setMobilePanel('detail')
+      setMobilePanel('detail', { data: { armyId } })
     }
   }
 
@@ -202,7 +214,7 @@ export default function ViewArmiesPage() {
       </header>
 
       {isMobile && mobilePanel === 'detail' && selectedArmy && (
-        <MobileBackBar label={selectedArmy.name} onBack={() => setMobilePanel('list')} />
+        <MobileBackBar label={selectedArmy.name} onBack={goBackMobilePanel} />
       )}
 
       <div className={mobileBodyClass}>

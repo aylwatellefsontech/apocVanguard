@@ -8,6 +8,10 @@ import UnitDetail from '../components/UnitDetail'
 import UnitGroupHeading from '../components/UnitGroupHeading'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
+import {
+  mergeMobilePanelHistoryState,
+  readMobilePanelFromState,
+} from '../hooks/useMobilePanelHistory'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import { openCommandCardsPrint } from '../utils/cardPrintExport'
 import { generateFactionPrintHtml, openPrintableInNewTab } from '../utils/printExport'
@@ -15,6 +19,8 @@ import { groupUnitsByType } from '../utils/units'
 import type { BrowseMode } from '../types'
 
 type BrowseMobilePanel = 'factions' | 'list' | 'detail'
+
+const BROWSE_MOBILE_SCOPE = 'browse'
 
 const browseRouteApi = getRouteApi('/browse')
 
@@ -63,30 +69,86 @@ export default function BrowsePage() {
   const [selectedUnitNo, setSelectedUnitNo] = useState<number | null>(null)
   const [search, setSearch] = useState('')
   const isMobile = useMediaQuery(MOBILE_QUERY)
-  const [mobilePanel, setMobilePanel] = useState<BrowseMobilePanel>('factions')
+  const [mobileShowsDetail, setMobileShowsDetail] = useState(false)
+
+  const hasListContext = Boolean(factionParam) || cardsParam !== undefined
+
+  const mobilePanel: BrowseMobilePanel = useMemo(() => {
+    if (!isMobile) {
+      return 'factions'
+    }
+    if (mobileShowsDetail) {
+      return 'detail'
+    }
+    if (hasListContext) {
+      return 'list'
+    }
+    return 'factions'
+  }, [isMobile, mobileShowsDetail, hasListContext])
+
+  useEffect(() => {
+    if (!isMobile) {
+      return
+    }
+
+    setMobileShowsDetail(false)
+    setSelectedUnitNo(null)
+  }, [isMobile, factionParam, cardsParam])
+
+  useEffect(() => {
+    if (!isMobile) {
+      return
+    }
+
+    function handlePopState() {
+      const entry = readMobilePanelFromState(BROWSE_MOBILE_SCOPE, window.history.state)
+      if (entry?.panel === 'detail') {
+        setMobileShowsDetail(true)
+        if (entry.data?.unitNo != null) {
+          setSelectedUnitNo(entry.data.unitNo as number)
+        }
+        return
+      }
+
+      setMobileShowsDetail(false)
+      setSelectedUnitNo(null)
+    }
+
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [isMobile])
+
+  function goBackMobilePanel() {
+    window.history.back()
+  }
 
   function handleSelectFaction(factionId: string) {
     navigate({ search: { faction: factionId, cards: undefined } })
     setSelectedUnitNo(null)
     setSearch('')
-    if (isMobile) {
-      setMobilePanel('list')
-    }
+    setMobileShowsDetail(false)
   }
 
   function handleSelectCards(fac: string | null) {
     navigate({ search: { cards: fac ?? '', faction: undefined } })
     setSelectedUnitNo(null)
     setSearch('')
-    if (isMobile) {
-      setMobilePanel('list')
-    }
+    setMobileShowsDetail(false)
   }
 
   function handleSelectUnit(unitNo: number) {
     setSelectedUnitNo(unitNo)
     if (isMobile) {
-      setMobilePanel('detail')
+      setMobileShowsDetail(true)
+      window.history.pushState(
+        mergeMobilePanelHistoryState(
+          BROWSE_MOBILE_SCOPE,
+          'detail',
+          { unitNo },
+          window.history.state as Record<string, unknown> | null,
+        ),
+        '',
+      )
     }
   }
 
@@ -193,13 +255,13 @@ export default function BrowsePage() {
       {isMobile && mobilePanel === 'list' && (
         <MobileBackBar
           label={browseMode === 'cards' ? 'Cards' : 'Units'}
-          onBack={() => setMobilePanel('factions')}
+          onBack={goBackMobilePanel}
         />
       )}
       {isMobile && mobilePanel === 'detail' && browseMode === 'army' && (
         <MobileBackBar
           label={selectedUnit?.name ?? 'Unit'}
-          onBack={() => setMobilePanel('list')}
+          onBack={goBackMobilePanel}
         />
       )}
 

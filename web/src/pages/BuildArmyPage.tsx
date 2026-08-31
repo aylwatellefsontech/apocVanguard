@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { getRouteApi, useNavigate } from '@tanstack/react-router'
 import ArmyCardSummary from '../components/ArmyCardSummary'
 import BuildArmyMobileBar from '../components/BuildArmyMobileBar'
@@ -16,6 +16,7 @@ import UnitGroupHeading from '../components/UnitGroupHeading'
 import { MAX_SAVED_ARMIES } from '../constants'
 import { useCards } from '../hooks/useCards'
 import { useArmy, useFactions } from '../hooks/useFactions'
+import { useMobilePanelHistory } from '../hooks/useMobilePanelHistory'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import {
   createArmyCardEntry,
@@ -110,7 +111,8 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   const [savedArmies, setSavedArmies] = useState<SavedArmy[]>(() => loadSavedArmies())
   const [saveMessage, setSaveMessage] = useState<SaveMessage | null>(null)
   const isMobile = useMediaQuery(MOBILE_QUERY)
-  const [mobilePanel, setMobilePanel] = useState<BuildMobilePanel>('factions')
+  const { panel: mobilePanel, setPanel: setMobilePanel, goBack: goBackMobilePanel, panelData } =
+    useMobilePanelHistory<BuildMobilePanel>('build', isMobile, 'factions')
   const [isEditingRosterEntry, setIsEditingRosterEntry] = useState(false)
   const [confirmNewArmyOpen, setConfirmNewArmyOpen] = useState(false)
   const [importArmyOpen, setImportArmyOpen] = useState(false)
@@ -118,10 +120,34 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   const [organizeArmyOpen, setOrganizeArmyOpen] = useState(false)
   const [importError, setImportError] = useState<string | null>(null)
   const [armyToDelete, setArmyToDelete] = useState<SavedArmy | null>(null)
-  const lastAddPanelRef = useRef<Exclude<BuildMobilePanel, 'roster'>>('factions')
 
   const hasArmyDraft =
     roster.length > 0 || armyCards.length > 0 || armyName.trim().length > 0
+
+  useEffect(() => {
+    if (!isMobile) {
+      return
+    }
+
+    if (mobilePanel === 'detail' && panelData) {
+      if (panelData.unitNo != null) {
+        setSelectedUnitNo(panelData.unitNo as number)
+      }
+      if (panelData.cardId != null) {
+        setSelectedCardId(panelData.cardId as string)
+      }
+      if (panelData.fromRoster === true && panelData.rosterEntryId != null) {
+        setSelectedRosterEntryId(panelData.rosterEntryId as string)
+        setIsEditingRosterEntry(true)
+      } else if (panelData.fromRoster === false) {
+        exitRosterEditMode()
+      }
+    } else if (mobilePanel !== 'detail') {
+      if (panelData?.fromRoster !== true) {
+        exitRosterEditMode()
+      }
+    }
+  }, [isMobile, mobilePanel, panelData])
 
   function exitRosterEditMode() {
     setSelectedRosterEntryId(null)
@@ -132,7 +158,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     setSelectedUnitNo(unitNo)
     exitRosterEditMode()
     if (isMobile) {
-      setMobilePanel('detail')
+      setMobilePanel('detail', { data: { unitNo, fromRoster: false } })
     }
   }
 
@@ -296,7 +322,9 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     setIsEditingRosterEntry(true)
     setBuildMode('army')
     if (isMobile) {
-      setMobilePanel('detail')
+      setMobilePanel('detail', {
+        data: { unitNo: entry.unitNo, rosterEntryId: entry.id, fromRoster: true },
+      })
     }
   }
 
@@ -376,7 +404,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     setSelectedCardId(card.id)
     cardDetailRefs.current.get(card.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     if (isMobile) {
-      setMobilePanel('detail')
+      setMobilePanel('detail', { data: { cardId: card.id } })
     }
   }
 
@@ -512,20 +540,15 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   function handleMobileBack() {
     if (mobilePanel === 'detail') {
       exitRosterEditMode()
-      setMobilePanel('list')
-      return
     }
-    if (mobilePanel === 'list') {
-      setMobilePanel('factions')
-    }
+    goBackMobilePanel()
   }
 
   function handleMobileToggleView() {
     if (mobilePanel === 'roster') {
-      setMobilePanel(lastAddPanelRef.current)
+      goBackMobilePanel()
       return
     }
-    lastAddPanelRef.current = mobilePanel
     setMobilePanel('roster')
   }
 

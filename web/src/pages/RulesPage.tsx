@@ -1,7 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import Markdown from 'react-markdown'
 import MobileBackBar from '../components/MobileBackBar'
 import { useRules } from '../hooks/useRules'
+import { useMobilePanelHistory } from '../hooks/useMobilePanelHistory'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import {
   createHeadingComponent,
@@ -29,7 +30,8 @@ type RulesMobilePanel = 'nav' | 'content'
 export default function RulesPage() {
   const { markdown, loading, error } = useRules()
   const isMobile = useMediaQuery(MOBILE_QUERY)
-  const [mobilePanel, setMobilePanel] = useState<RulesMobilePanel>('nav')
+  const { panel: mobilePanel, setPanel: setMobilePanel, goBack: goBackMobilePanel } =
+    useMobilePanelHistory<RulesMobilePanel>('rules', isMobile, 'nav')
   const processedMarkdown = useMemo(
     () => (markdown ? preprocessRulesMarkdown(markdown) : ''),
     [markdown],
@@ -39,7 +41,7 @@ export default function RulesPage() {
   function handleRulesNavClick(event: React.MouseEvent<HTMLAnchorElement>, id: string) {
     scrollToRulesHeading(event, id)
     if (isMobile) {
-      setMobilePanel('content')
+      setMobilePanel('content', { data: { headingId: id } })
     }
   }
 
@@ -63,7 +65,7 @@ export default function RulesPage() {
       ) : (
         <>
           {isMobile && mobilePanel === 'content' && (
-            <MobileBackBar label="Contents" onBack={() => setMobilePanel('nav')} />
+            <MobileBackBar label="Contents" onBack={goBackMobilePanel} />
           )}
 
           <div className={rulesBodyClass}>
