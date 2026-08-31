@@ -219,6 +219,40 @@
   color: var(--accent);
 }
 
+.home-install {
+  max-width: 960px;
+  margin: 48px auto 0;
+  text-align: center;
+}
+
+.home-install-lede {
+  margin: 0;
+}
+
+.home-install-link {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.home-install-link:hover {
+  color: var(--accent);
+}
+
+.home-install-hint {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: var(--text);
+}
+
 .home-updated {
   max-width: 960px;
   margin: 24px auto 0;

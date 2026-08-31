@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import FactionIcon from '../components/FactionIcon'
+import { useAppInstall } from '../hooks/useAppInstall'
 import { useFactions } from '../hooks/useFactions'
 import vanguardIcon from '../assets/factions/vanguard.svg?raw'
 import { hasFactionIcon } from '../utils/factionIcons'
@@ -12,6 +13,7 @@ const HOME_LEDE =
 
 export default function HomePage() {
   const { factions, loading, error } = useFactions()
+  const { installed, showHint, hint, install } = useAppInstall()
   const browseFactions = factions.filter((faction) => hasFactionIcon(faction.faction))
 
   return (
@@ -56,6 +58,16 @@ export default function HomePage() {
           </div>
         )}
       </section>
+      {!installed && (
+        <section className="home-install">
+          <p className="home-install-lede">
+            <button type="button" className="home-install-link" onClick={() => void install()}>
+              Install this app
+            </button>
+          </p>
+          {showHint && <p className="home-install-hint">{hint}</p>}
+        </section>
+      )}
       <section className="home-updated">
         <p className="home-updated">Last Updated: 2026 08 29</p>
       </section>

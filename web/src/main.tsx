@@ -3,8 +3,11 @@ import { createRoot } from 'react-dom/client'
 import { QueryClientProvider } from '@tanstack/react-query'
 import { RouterProvider } from '@tanstack/react-router'
 import './index.css'
+import { ensureAppInstallCapture } from './pwa/appInstall'
 import { queryClient } from './queryClient'
 import { router } from './router'
+
+ensureAppInstallCapture()
 
 const root = document.getElementById('root')
 if (!root) {
