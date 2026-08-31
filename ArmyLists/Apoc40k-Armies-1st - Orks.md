@@ -53,15 +53,33 @@ Orks, <Clan>, Warboss
 
 ### Abilities
 ```
-It is equipped with: Boss Weapons.
 Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6" of this unit.
-Ignore Damage (+6)
+```
+### Profile Abilities
+```
+It is equipped with Boss Weapons and Attack Squig
+```
+
+### Profiles
+#### Mega Armour
+| M | WS | BS | A | W | Ld | Sv | N | Pt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 4" | 2+ | 5+ | 2 | 1 | 6 | 4+ | 1 | 5 |
+
+##### Profile Traits
+Mega Armour
+
+##### Profile Abilities
+```
+It is equipped with Boss Meka Weapons
+
 ```
 
 ### Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss Weapons | Melee | Melee | User | 6+ | 6+ |  |
+| Boss Weapons and Attack Squig | Melee | Melee | User | 5+ | 6+ |  |
+| Boss Meka Weapons | Melee | Melee | User | 7+ | 6+ |  |
 
 ## Unit 3 — HQ — Big Mek
 
@@ -111,7 +129,7 @@ It is equipped with: Shokk Attack Gun; Mek Weapons.
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shokk Attack Gun | Heavy | 60" | 2 | 6+ | 6+ | Destroyer |
-| Mek Weapons | Melee | Melee | User | 8+ | 8+ |  |
+| Mek Weapons | Melee | Melee | User | 9+ | 8+ |  |
 
 ### Profiles
 #### Mega Armour
@@ -130,7 +148,7 @@ It is equipped with Mek Mega Weapons instead of 1 Shokk Attack Gun and Mek Weapo
 ##### Profile Weapons
 | Name | Type | Range | A | SAP | SAT | Abilities |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mek Mega Weapons | Melee | Melee | User | 7+ | 7+ |  |
+| Mek Mega Weapons | Melee | Melee | User | 8+ | 7+ |  |
 
 ## Unit 4 — HQ — Weirdboy
 
@@ -740,7 +758,7 @@ For each model this unit contains, it must be equipped with one of the following
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3" | 5+ | 4+ | 1 | 2 | 4 | 10+ | 6 | 2 |
+| 3" | 5+ | 4+ | 1 | 1 | 4 | 9+ | 6 | 2 |
 
 ### Keywords
 Heavy, Vehicle, Artillery
@@ -750,7 +768,7 @@ Orks, <Clan>, Gretchin, Mek Gun
 
 ### Abilities
 ```
-A Mek Gun is a unit that contains 6 models. The unit is equipped with: Close Combat Weapons.
+A Mek Gun is a unit that contains 1 model and a 4 gretchin models. The unit is equipped with: Close Combat Weapons.
 This unit must also be equipped with one of the following: 1 Bubblechukka; 1 Kustom Mega-Kannon; 1 Smasha Gun; 1 Traktor Kannon.
 Artillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6" of each other unit taken for the same slot the first time they are set up.
 ```
@@ -805,19 +823,19 @@ Transport: This unit can transport up to 20 friendly Flash Gitz or <Clan> Infant
   title: Kannon
   limit: group Exclusive
   group: Big Gun
-  text: This unit can also be equipped Kannon (Power Rating +1): 
+  text: Equip with Kannon (Power Rating +1): 
 - per: Per Unit
   Pt: 1
   title: Killkannon
   limit: group Exclusive
   group: Big Gun
-  text: This unit can also be equipped with KillKannon, but can only transport 12 models.
+  text: Equip with KillKannon, but can only transport 12 models.
 - per: Per Unit
   Pt: 1
   title: Zzap Gun
   limit: group Exclusive
   group: Big Gun
-  text: This unit can also be equipped with Zap gun, but can only transport 12 models.
+  text: Equip with Zap gun, but can only transport 12 models.
 - per: Per Unit
   Pt: 1
   title: Deff Rolla

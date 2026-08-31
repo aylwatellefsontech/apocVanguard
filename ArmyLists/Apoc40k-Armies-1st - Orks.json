@@ -74,14 +74,41 @@
         "<Clan>",
         "Warboss"
       ],
-      "abilities": "It is equipped with: Boss Weapons.\nWaaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6\" of this unit.\nIgnore Damage (+6)",
+      "abilities": "Waaagh!: Re-roll hit rolls of 1 for attacks made with melee weapons by friendly <Clan> units whilst they are within 6\" of this unit.",
+      "profileAbilities": "It is equipped with Boss Weapons and Attack Squig",
+      "profiles": [
+        {
+          "name": "Mega Armour",
+          "M": "4\"",
+          "WS": "2+",
+          "BS": "5+",
+          "A": "2",
+          "W": "1",
+          "Ld": "6",
+          "Sv": "4+",
+          "N": "1",
+          "Pt": "5",
+          "traits": [
+            "Mega Armour"
+          ],
+          "abilities": "It is equipped with Boss Meka Weapons"
+        }
+      ],
       "weapons": [
         {
-          "name": "Boss Weapons",
+          "name": "Boss Weapons and Attack Squig",
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "6+",
+          "skill": "5+",
+          "armorPen": "6+"
+        },
+        {
+          "name": "Boss Meka Weapons",
+          "type": "Melee",
+          "range": "Melee",
+          "attacks": "User",
+          "skill": "7+",
           "armorPen": "6+"
         }
       ]
@@ -153,7 +180,7 @@
           "type": "Melee",
           "range": "Melee",
           "attacks": "User",
-          "skill": "8+",
+          "skill": "9+",
           "armorPen": "8+"
         }
       ],
@@ -179,7 +206,7 @@
               "type": "Melee",
               "range": "Melee",
               "attacks": "User",
-              "skill": "7+",
+              "skill": "8+",
               "armorPen": "7+"
             }
           ]
@@ -1368,9 +1395,9 @@
         "WS": "5+",
         "BS": "4+",
         "A": "1",
-        "W": "2",
+        "W": "1",
         "Ld": "4",
-        "Sv": "10+",
+        "Sv": "9+",
         "N": "6",
         "Pt": "2"
       },
@@ -1385,7 +1412,7 @@
         "Gretchin",
         "Mek Gun"
       ],
-      "abilities": "A Mek Gun is a unit that contains 6 models. The unit is equipped with: Close Combat Weapons.\nThis unit must also be equipped with one of the following: 1 Bubblechukka; 1 Kustom Mega-Kannon; 1 Smasha Gun; 1 Traktor Kannon.\nArtillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
+      "abilities": "A Mek Gun is a unit that contains 1 model and a 4 gretchin models. The unit is equipped with: Close Combat Weapons.\nThis unit must also be equipped with one of the following: 1 Bubblechukka; 1 Kustom Mega-Kannon; 1 Smasha Gun; 1 Traktor Kannon.\nArtillery Battery: Each Heavy Support slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Heavy Support slot must be placed at the same time and within 6\" of each other unit taken for the same slot the first time they are set up.",
       "options": [
         {
           "per": "per Unit",
@@ -1480,7 +1507,7 @@
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped Kannon (Power Rating +1):",
+          "text": "Equip with Kannon (Power Rating +1):",
           "Pt": "1",
           "title": "Kannon",
           "limit": "group Exclusive",
@@ -1488,7 +1515,7 @@
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with KillKannon, but can only transport 12 models.",
+          "text": "Equip with KillKannon, but can only transport 12 models.",
           "Pt": "1",
           "title": "Killkannon",
           "limit": "group Exclusive",
@@ -1496,7 +1523,7 @@
         },
         {
           "per": "Per Unit",
-          "text": "This unit can also be equipped with Zap gun, but can only transport 12 models.",
+          "text": "Equip with Zap gun, but can only transport 12 models.",
           "Pt": "1",
           "title": "Zzap Gun",
           "limit": "group Exclusive",

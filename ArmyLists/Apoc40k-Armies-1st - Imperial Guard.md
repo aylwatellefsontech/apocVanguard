@@ -750,7 +750,7 @@ It is equipped with: Hot-shot Lasguns; Close Combat Weapons.
 ### Stats
 | M | WS | BS | A | W | Ld | Sv | N | Pt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6" | 4+ | 4+ | 1 | 1 | 4 | 10+ | 3 | 3 |
+| 6" | 4+ | 4+ | 1 | 1 | 4 | 9+ | 3 | 3 |
 
 ### Keywords
 Light, Infantry
