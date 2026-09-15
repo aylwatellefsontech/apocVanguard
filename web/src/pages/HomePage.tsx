@@ -62,7 +62,7 @@ export default function HomePage() {
         <section className="home-install">
           <p className="home-install-lede">
             <button type="button" className="home-install-link" onClick={() => void install()}>
-              Install this app
+              Install this as a Progressive Web App
             </button>
           </p>
           {showHint && <p className="home-install-hint">{hint}</p>}

@@ -2,6 +2,7 @@ type BuildMobilePanel = 'factions' | 'list' | 'detail' | 'roster'
 
 interface BuildArmyMobileBarProps {
   mobilePanel: BuildMobilePanel
+  armyName?: string
   totalPoints: number
   unitCount: number
   cardCount: number
@@ -11,12 +12,14 @@ interface BuildArmyMobileBarProps {
 
 export default function BuildArmyMobileBar({
   mobilePanel,
+  armyName,
   totalPoints,
   unitCount,
   cardCount,
   onBack,
   onToggleView,
 }: BuildArmyMobileBarProps) {
+  const displayName = armyName?.trim()
   const isRoster = mobilePanel === 'roster'
   const showBack = !isRoster && mobilePanel !== 'factions'
 
@@ -31,6 +34,11 @@ export default function BuildArmyMobileBar({
       </div>
 
       <div className="build-mobile-bar-stats">
+        {displayName ? (
+          <span className="build-mobile-name" title={displayName}>
+            {displayName}
+          </span>
+        ) : null}
         <span className="build-mobile-points">{totalPoints} Pt</span>
         <span className="build-mobile-count">
           {unitCount} {unitCount === 1 ? 'unit' : 'units'}

@@ -19,6 +19,12 @@ import { useArmy, useFactions } from '../hooks/useFactions'
 import { useMobilePanelHistory } from '../hooks/useMobilePanelHistory'
 import { MOBILE_QUERY, useMediaQuery } from '../hooks/useMediaQuery'
 import {
+  clearBuildArmyDraft,
+  resolveBuildArmyInitialState,
+  saveBuildArmyDraft,
+  BUILD_ARMY_DRAFT_VERSION,
+} from '../utils/buildArmyDraftStorage'
+import {
   createArmyCardEntry,
   createRosterEntry,
   deleteSavedArmy,
@@ -71,6 +77,7 @@ export default function BuildArmyPage() {
     <>
       <BuildArmyPageContent
         key={armyId ?? 'new'}
+        routeArmyId={armyId}
         initialArmy={initialArmy}
         onToast={setToastMessage}
       />
@@ -80,34 +87,34 @@ export default function BuildArmyPage() {
 }
 
 interface BuildArmyPageContentProps {
+  routeArmyId: string | undefined
   initialArmy: SavedArmy | null
   onToast: (message: string) => void
 }
 
-function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProps) {
+function BuildArmyPageContent({ routeArmyId, initialArmy, onToast }: BuildArmyPageContentProps) {
   const navigate = useNavigate()
   const { factions, loading: loadingFactions, error: factionsError } = useFactions()
   const { cards, factions: cardFactions, loading: loadingCards, error: cardsError } = useCards()
-  const [buildMode, setBuildMode] = useState<BrowseMode>('army')
-  const [selectedCardFac, setSelectedCardFac] = useState<string | null>(null)
+  const [initialDraft] = useState(() => resolveBuildArmyInitialState(routeArmyId, initialArmy))
+  const [buildMode, setBuildMode] = useState<BrowseMode>(initialDraft.buildMode)
+  const [selectedCardFac, setSelectedCardFac] = useState<string | null>(initialDraft.selectedCardFac)
   const [selectedFactionId, setSelectedFactionId] = useState<string | null>(
-    initialArmy?.factionId ?? null,
+    initialDraft.selectedFactionId,
   )
   const activeFactionId = selectedFactionId ?? factions[0]?.id ?? null
   const { army, loading: loadingArmy, error: armyError } = useArmy(activeFactionId)
-  const [selectedUnitNo, setSelectedUnitNo] = useState<number | null>(
-    initialArmy?.roster?.[0]?.unitNo ?? null,
-  )
+  const [selectedUnitNo, setSelectedUnitNo] = useState<number | null>(initialDraft.selectedUnitNo)
   const [selectedRosterEntryId, setSelectedRosterEntryId] = useState<string | null>(
-    initialArmy?.roster?.[0]?.id ?? null,
+    initialDraft.selectedRosterEntryId,
   )
-  const [search, setSearch] = useState('')
-  const [roster, setRoster] = useState<RosterEntry[]>(initialArmy?.roster ?? [])
-  const [armyCards, setArmyCards] = useState<ArmyCardEntry[]>(initialArmy?.cards ?? [])
-  const [selectedCardId, setSelectedCardId] = useState<string | null>(null)
+  const [search, setSearch] = useState(initialDraft.search)
+  const [roster, setRoster] = useState<RosterEntry[]>(initialDraft.roster)
+  const [armyCards, setArmyCards] = useState<ArmyCardEntry[]>(initialDraft.armyCards)
+  const [selectedCardId, setSelectedCardId] = useState<string | null>(initialDraft.selectedCardId)
   const cardDetailRefs = useRef(new Map<string, HTMLDivElement>())
-  const [armyName, setArmyName] = useState(initialArmy?.name ?? '')
-  const [editingArmyId, setEditingArmyId] = useState<string | null>(initialArmy?.id ?? null)
+  const [armyName, setArmyName] = useState(initialDraft.armyName)
+  const [editingArmyId, setEditingArmyId] = useState<string | null>(initialDraft.editingArmyId)
   const [savedArmies, setSavedArmies] = useState<SavedArmy[]>(() => loadSavedArmies())
   const [saveMessage, setSaveMessage] = useState<SaveMessage | null>(null)
   const isMobile = useMediaQuery(MOBILE_QUERY)
@@ -123,6 +130,37 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
 
   const hasArmyDraft =
     roster.length > 0 || armyCards.length > 0 || armyName.trim().length > 0
+
+  useEffect(() => {
+    saveBuildArmyDraft({
+      version: BUILD_ARMY_DRAFT_VERSION,
+      routeArmyId: routeArmyId ?? null,
+      buildMode,
+      selectedCardFac,
+      selectedFactionId,
+      selectedUnitNo,
+      selectedRosterEntryId,
+      search,
+      roster,
+      armyCards,
+      selectedCardId,
+      armyName,
+      editingArmyId,
+    })
+  }, [
+    routeArmyId,
+    buildMode,
+    selectedCardFac,
+    selectedFactionId,
+    selectedUnitNo,
+    selectedRosterEntryId,
+    search,
+    roster,
+    armyCards,
+    selectedCardId,
+    armyName,
+    editingArmyId,
+  ])
 
   useEffect(() => {
     if (!isMobile) {
@@ -482,6 +520,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
     const next = deleteSavedArmy(id)
     setSavedArmies(next)
     if (editingArmyId === id) {
+      clearBuildArmyDraft()
       handleClearRoster()
       navigate({ to: '/build', search: {} })
     }
@@ -490,6 +529,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
   }
 
   function startNewArmy() {
+    clearBuildArmyDraft()
     handleClearRoster()
     setImportError(null)
     navigate({ to: '/build', search: {} })
@@ -554,13 +594,28 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
 
   const editingRosterEntry = Boolean(isEditingRosterEntry && canEditOptions)
   const editingFromRoster = Boolean(isMobile && mobilePanel === 'detail' && editingRosterEntry)
+  const profileAddButtonLabel = editingRosterEntry ? 'Add another' : 'Add to Army'
 
   return (
     <>
       <header className="app-header">
-        <div>
+        <div className="app-header-start">
           <p className="eyebrow">Apocalypse · Vanguard</p>
-          <h1>Build Army</h1>
+          <div className="app-header-title-row">
+            <h1>Build Army</h1>
+            {!isMobile && (
+              <p className="header-meta header-meta-inline build-header-summary">
+                <span className="build-header-summary-name">
+                  {armyName.trim() || 'Untitled Army'}
+                </span>
+                <span className="build-header-summary-stats">
+                  {totalPoints} Pt · {roster.length}{' '}
+                  {roster.length === 1 ? 'unit' : 'units'} · {armyCards.length}{' '}
+                  {armyCards.length === 1 ? 'card' : 'cards'}
+                </span>
+              </p>
+            )}
+          </div>
         </div>
         <div className="header-actions">
           <div className="header-button-row">
@@ -594,6 +649,7 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
       {isMobile && (
         <BuildArmyMobileBar
           mobilePanel={mobilePanel}
+          armyName={armyName}
           totalPoints={totalPoints}
           unitCount={roster.length}
           cardCount={armyCards.length}
@@ -838,7 +894,8 @@ function BuildArmyPageContent({ initialArmy, onToast }: BuildArmyPageContentProp
                       ? 'Loading unit datasheet…'
                       : 'Select a unit to add profiles to your army.'
                   }
-                  showProfileAddButtons={!editingFromRoster}
+                  showProfileAddButtons
+                  addProfileButtonLabel={profileAddButtonLabel}
                   activeProfile={
                     editingFromRoster && selectedRosterEntry
                       ? {

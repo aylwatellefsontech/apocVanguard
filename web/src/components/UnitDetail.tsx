@@ -26,6 +26,7 @@ interface UnitDetailProps {
   optionProfileStats?: UnitStats | null
   emptyMessage?: string
   showProfileAddButtons?: boolean
+  addProfileButtonLabel?: string
   activeProfile?: ActiveProfileSelection | null
 }
 
@@ -38,6 +39,7 @@ export default function UnitDetail({
   optionProfileStats,
   emptyMessage = 'Select a unit to view its datasheet.',
   showProfileAddButtons = false,
+  addProfileButtonLabel = 'Add to Army',
   activeProfile = null,
 }: UnitDetailProps) {
   if (!unit) {
@@ -66,6 +68,7 @@ export default function UnitDetail({
       <UnitProfileSummaryList
         profiles={allProfiles}
         activeProfile={activeProfile}
+        addProfileButtonLabel={addProfileButtonLabel}
         onAddProfile={
           showProfileAddButtons && onAddProfile
             ? (profile) => onAddProfile(unit, profile)
@@ -81,6 +84,7 @@ export default function UnitDetail({
       <UnitProfileDetails
         unit={unit}
         activeProfile={activeProfile}
+        addProfileButtonLabel={addProfileButtonLabel}
         onAddProfile={
           showProfileAddButtons && onAddProfile
             ? (profile) => onAddProfile(unit, profile)

@@ -9,6 +9,7 @@ interface UnitProfileSummaryListProps {
   profiles: UnitProfile[]
   activeProfile?: ActiveProfileSelection | null
   onAddProfile?: (profile: UnitProfile) => void
+  addProfileButtonLabel?: string
   hideInactiveProfiles?: boolean
 }
 
@@ -16,6 +17,7 @@ export default function UnitProfileSummaryList({
   profiles,
   activeProfile = null,
   onAddProfile,
+  addProfileButtonLabel = 'Add to Army',
   hideInactiveProfiles = false,
 }: UnitProfileSummaryListProps) {
   if (profiles.length <= 1 && !onAddProfile) {
@@ -54,7 +56,7 @@ export default function UnitProfileSummaryList({
                   className="secondary-btn profile-summary-add"
                   onClick={() => onAddProfile(profile)}
                 >
-                  Add to Army
+                  {addProfileButtonLabel}
                 </button>
               ) : null}
             </li>

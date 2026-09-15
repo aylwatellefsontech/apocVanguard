@@ -14,6 +14,7 @@ interface UnitProfileDetailsProps {
   unit: Unit
   activeProfile?: ActiveProfileSelection | null
   onAddProfile?: (profile: UnitProfile) => void
+  addProfileButtonLabel?: string
   hideInactiveProfiles?: boolean
 }
 
@@ -21,6 +22,7 @@ export default function UnitProfileDetails({
   unit,
   activeProfile = null,
   onAddProfile,
+  addProfileButtonLabel = 'Add to Army',
   hideInactiveProfiles = false,
 }: UnitProfileDetailsProps) {
   const profilesToShow = getProfilesForDetailsSection(unit)
@@ -54,7 +56,7 @@ export default function UnitProfileDetails({
                   className="secondary-btn profile-details-add"
                   onClick={() => onAddProfile(profile)}
                 >
-                  Add to Army
+                  {addProfileButtonLabel}
                 </button>
               ) : null}
             </div>
