@@ -11,6 +11,8 @@ The main data files are markdown, under:
 
 This project also contains a web app, used to look at the rules, build lists, and select cards.
 
+See [docs/](./docs/README.md) for an overview of what the app does, architecture notes, unit design guidelines, and user stories.
+
 It is built using React, Vite, as a front end app, with support scripts run using py.
 
 The app was generated using vibe coding with cursor, so no promises, but it should not run with any security related features, (just static assets, with lists in local Storage) so it should not be a big problem.  But again, no promises.

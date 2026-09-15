@@ -45,6 +45,7 @@ import { sortRosterByOrganizeGroup } from '../utils/rosterOrganize'
 import { summarizeOption } from '../utils/formatOption'
 import { getChooseOneChoices } from '../utils/optionUtils'
 import { getBaseApocCards } from '../utils/cardFactions'
+import { filterCardsBySearch, filterUnitsBySearch } from '../utils/listSearch.lib'
 import { getProfileStatsForEntry, groupUnitsByType } from '../utils/units'
 import type {
   ArmyCardEntry,
@@ -227,36 +228,17 @@ function BuildArmyPageContent({ routeArmyId, initialArmy, onToast }: BuildArmyPa
     }
   }
 
-  const filteredUnits = useMemo(() => {
-    if (!army?.units) return []
-    const query = search.trim().toLowerCase()
-    if (!query) return army.units
-    return army.units.filter(
-      (unit) =>
-        unit.name.toLowerCase().includes(query) ||
-        unit.type.toLowerCase().includes(query) ||
-        unit.keywords?.some((keyword) => keyword.toLowerCase().includes(query)),
-    )
-  }, [army, search])
+  const filteredUnits = useMemo(
+    () => filterUnitsBySearch(army?.units, search),
+    [army, search],
+  )
 
   const unitsByType = useMemo(() => groupUnitsByType(filteredUnits), [filteredUnits])
 
-  const filteredCards = useMemo(() => {
-    let list = cards
-    if (selectedCardFac) {
-      list = list.filter((card) => card.fac === selectedCardFac)
-    }
-    const query = search.trim().toLowerCase()
-    if (!query) return list
-    return list.filter(
-      (card) =>
-        card.name.toLowerCase().includes(query) ||
-        card.type?.toLowerCase().includes(query) ||
-        card.fac?.toLowerCase().includes(query) ||
-        card.ability?.toLowerCase().includes(query) ||
-        `${card.set}-${card.nm}`.toLowerCase().includes(query),
-    )
-  }, [cards, selectedCardFac, search])
+  const filteredCards = useMemo(
+    () => filterCardsBySearch(cards, search, selectedCardFac, { includeSetNumber: true }),
+    [cards, selectedCardFac, search],
+  )
 
   const cardsByFac = useMemo(() => {
     const groups = new Map<string, Card[]>()

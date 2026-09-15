@@ -1,11 +1,20 @@
-import { describe, expect, it } from '@jest/globals'
+import { beforeEach, describe, expect, it } from '@jest/globals'
+import { HANDS_KEY } from '../../src/constants.js'
 import type { ArmyCardEntry, HandState } from '../../src/types.js'
 import {
   armyCardToDetail,
   cloneHandState,
   createInitialHand,
+  discardFromHand,
   drawCardFromDeck,
+  drawCardFromDiscard,
+  drawFromDeck,
   getDeckDisplayIds,
+  loadHandState,
+  moveToTopDeckFromDiscard,
+  moveToTopDeckFromHand,
+  persistHandState,
+  reshuffleDiscardIntoDeck,
 } from '../../src/utils/handStorage.js'
 
 function makeArmyCard(id: string, overrides: Partial<ArmyCardEntry> = {}): ArmyCardEntry {
@@ -140,5 +149,125 @@ describe('armyCardToDetail', () => {
       facNm: 2,
       ability: 'Charge!',
     })
+  })
+})
+
+describe('drawFromDeck', () => {
+  // US-014: draw, discard, pin, and reshuffle command cards
+  it('draws from topDeck first, then deck', () => {
+    const next = drawFromDeck(
+      makeHandState({
+        topDeck: ['t1'],
+        deck: ['d1', 'd2'],
+        hand: [],
+        discard: [],
+      }),
+      2,
+    )
+
+    expect(next.hand).toEqual(['t1', 'd1'])
+    expect(next.topDeck).toEqual([])
+    expect(next.deck).toEqual(['d2'])
+  })
+
+  it('returns the same state when the deck is empty', () => {
+    const state = makeHandState({ topDeck: [], deck: [], hand: [], discard: [] })
+    expect(drawFromDeck(state, 1)).toBe(state)
+  })
+})
+
+describe('discardFromHand', () => {
+  it('moves a card from hand to discard', () => {
+    const next = discardFromHand(makeHandState({ hand: ['h1', 'h2'], discard: [] }), 'h1')
+    expect(next.hand).toEqual(['h2'])
+    expect(next.discard).toEqual(['h1'])
+  })
+
+  it('returns the same state when the card is not in hand', () => {
+    const state = makeHandState()
+    expect(discardFromHand(state, 'missing')).toBe(state)
+  })
+})
+
+describe('drawCardFromDiscard', () => {
+  it('moves a card from discard into hand', () => {
+    const next = drawCardFromDiscard(makeHandState({ hand: [], discard: ['x1'] }), 'x1')
+    expect(next.hand).toEqual(['x1'])
+    expect(next.discard).toEqual([])
+  })
+})
+
+describe('moveToTopDeckFromHand', () => {
+  it('pins a hand card onto the top of the deck', () => {
+    const next = moveToTopDeckFromHand(
+      makeHandState({ topDeck: ['t1'], hand: ['h1'], discard: [] }),
+      'h1',
+    )
+    expect(next.topDeck).toEqual(['t1', 'h1'])
+    expect(next.hand).toEqual([])
+  })
+})
+
+describe('moveToTopDeckFromDiscard', () => {
+  it('pins a discarded card onto the top of the deck', () => {
+    const next = moveToTopDeckFromDiscard(
+      makeHandState({ topDeck: [], hand: [], discard: ['x1'] }),
+      'x1',
+    )
+    expect(next.topDeck).toEqual(['x1'])
+    expect(next.discard).toEqual([])
+  })
+})
+
+describe('reshuffleDiscardIntoDeck', () => {
+  it('moves discard into the deck and leaves discard empty', () => {
+    const next = reshuffleDiscardIntoDeck(
+      makeHandState({ deck: ['d1'], discard: ['x1', 'x2'], hand: [], topDeck: [] }),
+    )
+    expect(next.discard).toEqual([])
+    expect(next.deck).toHaveLength(3)
+    expect(new Set(next.deck)).toEqual(new Set(['d1', 'x1', 'x2']))
+  })
+
+  it('returns the same state when discard is empty', () => {
+    const state = makeHandState({ discard: [] })
+    expect(reshuffleDiscardIntoDeck(state)).toBe(state)
+  })
+})
+
+function installMemoryLocalStorage() {
+  const store = new Map<string, string>()
+  Object.defineProperty(globalThis, 'localStorage', {
+    configurable: true,
+    value: {
+      getItem: (key: string) => store.get(key) ?? null,
+      setItem: (key: string, value: string) => {
+        store.set(key, value)
+      },
+      removeItem: (key: string) => {
+        store.delete(key)
+      },
+      clear: () => store.clear(),
+    },
+  })
+}
+
+describe('persistHandState', () => {
+  beforeEach(() => {
+    installMemoryLocalStorage()
+  })
+
+  it('stores hand state per army and restores it after reload', () => {
+    const cards = [makeArmyCard('a'), makeArmyCard('b')]
+    const state = makeHandState({
+      deck: ['a'],
+      hand: ['b'],
+      discard: [],
+      topDeck: [],
+    })
+
+    persistHandState('army-1', state)
+    expect(localStorage.getItem(HANDS_KEY)).toContain('army-1')
+    expect(loadHandState('army-1', cards)).toEqual(state)
   })
 })

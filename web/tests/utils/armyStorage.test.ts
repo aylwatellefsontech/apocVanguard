@@ -1,9 +1,13 @@
-import { describe, expect, it } from '@jest/globals'
-import type { ArmyCardEntry, Card, RosterEntry, Unit, UnitOption, UnitProfile } from '../../src/types.js'
+import { beforeEach, describe, expect, it } from '@jest/globals'
+import { MAX_SAVED_ARMIES, SAVED_ARMIES_KEY } from '../../src/constants.js'
+import type { ArmyCardEntry, Card, RosterEntry, SavedArmy, Unit, UnitOption, UnitProfile } from '../../src/types.js'
 import {
   createArmyCardEntry,
   createRosterEntry,
+  loadSavedArmies,
   normalizeRosterEntry,
+  persistSavedArmies,
+  saveArmy,
   sortArmyCards,
   toggleRosterOption,
 } from '../../src/utils/armyStorage.js'
@@ -448,5 +452,80 @@ describe('toggleRosterOption', () => {
       { index: 0, slotIndex: 1, choiceIndex: 1, ...scatter },
     ])
     expect(second.points).toBe(7)
+  })
+})
+
+function installMemoryLocalStorage() {
+  const store = new Map<string, string>()
+  Object.defineProperty(globalThis, 'localStorage', {
+    configurable: true,
+    value: {
+      getItem: (key: string) => store.get(key) ?? null,
+      setItem: (key: string, value: string) => {
+        store.set(key, value)
+      },
+      removeItem: (key: string) => {
+        store.delete(key)
+      },
+      clear: () => store.clear(),
+    },
+  })
+}
+
+function makeSavedArmy(id: string, name = id): SavedArmy {
+  return {
+    id,
+    name,
+    factionId: 'Apoc40k-Armies-1st - Orks',
+    factionName: 'Orks',
+    totalPoints: 5,
+    roster: [
+      {
+        id: `${id}-entry`,
+        factionId: 'Apoc40k-Armies-1st - Orks',
+        factionName: 'Orks',
+        unitNo: 1,
+        unitName: 'Boyz',
+        unitType: 'Troops',
+        profileKind: 'primary',
+        profileIndex: 0,
+        profileLabel: 'Primary',
+        profilePoints: 5,
+        selectedOptions: [],
+        points: 5,
+      },
+    ],
+    cards: [],
+  }
+}
+
+describe('saveArmy', () => {
+  // US-010: save lists locally with an 8-army cap
+  beforeEach(() => {
+    installMemoryLocalStorage()
+  })
+
+  it('saves a new army and persists it for later loads', () => {
+    const result = saveArmy(makeSavedArmy('army-1', 'Waaagh!'))
+    expect(result.ok).toBe(true)
+    expect(loadSavedArmies()).toHaveLength(1)
+    expect(loadSavedArmies()[0]?.name).toBe('Waaagh!')
+    expect(localStorage.getItem(SAVED_ARMIES_KEY)).toContain('Waaagh!')
+  })
+
+  it('rejects a ninth new army with a clear error', () => {
+    persistSavedArmies(Array.from({ length: MAX_SAVED_ARMIES }, (_, index) => makeSavedArmy(`army-${index}`)))
+    const result = saveArmy(makeSavedArmy('army-9', 'Too many'))
+    expect(result.ok).toBe(false)
+    expect(result.error).toBe('You can only save up to 8 armies.')
+    expect(loadSavedArmies()).toHaveLength(MAX_SAVED_ARMIES)
+  })
+
+  it('allows updating an existing army when the cap is already full', () => {
+    persistSavedArmies(Array.from({ length: MAX_SAVED_ARMIES }, (_, index) => makeSavedArmy(`army-${index}`)))
+    const result = saveArmy(makeSavedArmy('army-0', 'Updated'))
+    expect(result.ok).toBe(true)
+    expect(loadSavedArmies()).toHaveLength(MAX_SAVED_ARMIES)
+    expect(loadSavedArmies()[0]?.name).toBe('Updated')
   })
 })
